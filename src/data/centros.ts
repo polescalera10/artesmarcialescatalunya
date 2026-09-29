@@ -156,12 +156,37 @@ export const CENTROS: Centro[] = [
     verificado: '2026-07-07',
   },
   {
+    nombre: 'Associació de Taekwondo SANPO',
+    municipio: 'sant-pere-de-ribes',
+    disciplinas: ['taekwondo'],
+    direccion: 'Pavelló poliesportiu, Rambla Rafael Alberti, s/n, 08812 Les Roquetes',
+    fuente: 'https://www.santperederibes.cat/en/municipi/esports/entitats-esportives',
+    fuenteTipo: 'directorio-municipal',
+    verificado: '2026-09-29',
+  },
+  {
+    nombre: 'Spartae',
+    municipio: 'sant-pere-de-ribes',
+    // Disciplinas: menú "Estilos" de su web. Dirección: directorio municipal de
+    // entidades de Sant Pere de Ribes, donde consta como Associació Taekwondo
+    // ITF Spartae con esta misma web.
+    disciplinas: ['taekwondo', 'defensa-personal'],
+    otras: ['Jeet Kune Do', 'Kali filipino', 'Wing chun'],
+    direccion: 'Carrer Lluís Companys, 50, 08810 Sant Pere de Ribes',
+    web: 'https://www.spartae.es',
+    fuente: 'https://www.spartae.es',
+    fuenteTipo: 'web-oficial',
+    verificado: '2026-09-29',
+  },
+  {
     nombre: 'Taekwon-do Club Taijitu Sant Pere de Ribes',
     municipio: 'sant-pere-de-ribes',
     disciplinas: ['taekwondo'],
-    fuente: 'https://www.vilanova.cat/directori/detall?id=45967',
+    direccion: 'Carrer Jaume Balmes, 25, 08810 Sant Pere de Ribes',
+    web: 'https://www.taekwon-do-itf-club-taijitu.org/',
+    fuente: 'https://www.santperederibes.cat/en/municipi/esports/entitats-esportives',
     fuenteTipo: 'directorio-municipal',
-    verificado: '2026-07-07',
+    verificado: '2026-09-29',
   },
 
   // ── Cubelles ────────────────────────────────────────────────────────────
@@ -172,6 +197,20 @@ export const CENTROS: Centro[] = [
     fuente: 'https://www.facebook.com/p/Club-taekwondo-Cubelles-100057026816192/',
     fuenteTipo: 'perfil-publico',
     verificado: '2026-07-07',
+  },
+  {
+    nombre: 'GYM FYS Fitness & Defense',
+    municipio: 'cubelles',
+    // Su web enumera "TAEKWONDO, BOXING, MMA, KRAV MAGA, FITNESS". Es el primer
+    // centro del directorio con krav maga: hasta el 2026-09-29 la guía decía
+    // que no constaba ninguno en la comarca.
+    disciplinas: ['taekwondo', 'boxeo', 'mma', 'krav-maga'],
+    otras: ['Fitness'],
+    direccion: 'Passatge Soletat, 14, 08880 Cubelles',
+    web: 'https://www.gymfysgarraf.com',
+    fuente: 'https://www.gymfysgarraf.com',
+    fuenteTipo: 'web-oficial',
+    verificado: '2026-09-29',
   },
 
   // Canyelles: a fecha de la última verificación no consta ningún centro de

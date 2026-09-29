@@ -20,7 +20,7 @@ export const MUNICIPIO_BODIES: Record<string, string> = {
   'sitges': `
 <h2>Qué se puede entrenar de verdad en Sitges</h2>
 <p>Conviene separar lo que se anuncia de lo que consta. En nuestro <a href="/centros/">directorio de centros del Garraf</a>, Sitges aparece con tres centros con presencia pública verificable, y entre los tres cubren un abanico concreto: <a href="/kickboxing-en-sitges/">kickboxing</a>, <a href="/jiu-jitsu-brasileno-en-sitges/">jiu jitsu brasileño</a>, <a href="/karate-en-sitges/">karate</a>, <a href="/mma-en-sitges/">MMA</a>, <a href="/boxeo-en-sitges/">boxeo</a> y <a href="/defensa-personal-en-sitges/">defensa personal</a>. También aparecen actividades afines como el grappling, el K-1 y los grupos infantiles.</p>
-<p>Lo que <strong>no</strong> nos consta en Sitges, a fecha de la última verificación, es oferta de <a href="/judo-en-sitges/">judo</a>, <a href="/taekwondo-en-sitges/">taekwondo</a>, <a href="/muay-thai-en-sitges/">muay thai</a> o <a href="/krav-maga-en-sitges/">krav maga</a> con fuente pública comprobable. Eso no significa que no exista (puede haber actividad en clubes, entidades o centros cívicos sin web), significa que nosotros no la hemos podido verificar y por eso no la publicamos como si estuviera confirmada. Si buscas alguna de esas cuatro, lo lógico es mirar hacia <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>.</p>
+<p>Lo que <strong>no</strong> nos consta en Sitges, a fecha de la última verificación, es oferta de <a href="/judo-en-sitges/">judo</a>, <a href="/taekwondo-en-sitges/">taekwondo</a>, <a href="/muay-thai-en-sitges/">muay thai</a> o <a href="/krav-maga-en-sitges/">krav maga</a> con fuente pública comprobable. Eso no significa que no exista (puede haber actividad en clubes, entidades o centros cívicos sin web), significa que nosotros no la hemos podido verificar y por eso no la publicamos como si estuviera confirmada. Para judo y taekwondo lo lógico es mirar hacia <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>; el único krav maga verificado de la comarca está en <a href="/cubelles/">Cubelles</a>.</p>
 
 <h2>Sitges tiene un problema de calendario que otros municipios no tienen</h2>
 <p>Es el municipio más estacional de la comarca. Buena parte de su población es flotante o internacional, y eso se nota en las condiciones de contratación de las actividades deportivas: hay centros que trabajan con bonos y mensualidades sin permanencia porque saben que su público entra y sale. Si vas a estar unos meses, pregunta explícitamente por esa fórmula antes de firmar nada; si vives todo el año, pregunta lo contrario, porque las tarifas pensadas para estancias cortas suelen salir caras a largo plazo.</p>
@@ -38,12 +38,12 @@ export const MUNICIPIO_BODIES: Record<string, string> = {
 
   'vilanova-i-la-geltru': `
 <h2>Por qué Vilanova concentra la oferta de la comarca</h2>
-<p>Vilanova i la Geltrú es la capital del Garraf y el municipio más poblado, y eso tiene una traducción práctica: en nuestro <a href="/centros/">directorio</a> es el municipio con más centros verificados de toda la comarca, siete, frente a los tres de <a href="/sitges/">Sitges</a> y los dos de <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a>. Más centros significan más grupos, más franjas horarias y, lo más importante para quien empieza, más probabilidad de encontrar un grupo de iniciación de verdad en lugar de tener que colarse en uno mixto.</p>
+<p>Vilanova i la Geltrú es la capital del Garraf y el municipio más poblado, y eso tiene una traducción práctica: en nuestro <a href="/centros/">directorio</a> es el municipio con más centros verificados de toda la comarca, siete, frente a los cuatro de <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> (todos de taekwondo) y los tres de <a href="/sitges/">Sitges</a>. Más centros significan más grupos, más franjas horarias y, lo más importante para quien empieza, más probabilidad de encontrar un grupo de iniciación de verdad en lugar de tener que colarse en uno mixto.</p>
 
 <h2>Qué disciplinas cubre realmente Vilanova</h2>
 <p>El abanico verificado es el más amplio de la comarca. Consta oferta de <a href="/boxeo-en-vilanova-i-la-geltru/">boxeo</a>, <a href="/kickboxing-en-vilanova-i-la-geltru/">kickboxing</a>, <a href="/mma-en-vilanova-i-la-geltru/">MMA</a>, <a href="/jiu-jitsu-brasileno-en-vilanova-i-la-geltru/">jiu jitsu brasileño</a>, <a href="/karate-en-vilanova-i-la-geltru/">karate</a>, <a href="/judo-en-vilanova-i-la-geltru/">judo</a>, <a href="/taekwondo-en-vilanova-i-la-geltru/">taekwondo</a> y <a href="/defensa-personal-en-vilanova-i-la-geltru/">defensa personal</a>.</p>
 <p>Vilanova es además el único municipio del Garraf donde nos constan disciplinas que no tienen guía propia en esta web porque su presencia es minoritaria: aikido, wu shu y taijitsu en una de las escuelas de judo, karate kyokushin y K-1 en otro centro, y grappling y cross training en un tercero. Si buscas específicamente alguna de estas, el directorio es el sitio donde mirar, y conviene que llames antes: son actividades que se abren y se cierran según haya grupo.</p>
-<p>La excepción destacable es el <a href="/krav-maga-en-vilanova-i-la-geltru/">krav maga</a>: es de las disciplinas más buscadas de la comarca y no nos consta ningún centro con fuente pública verificable que lo imparta en Vilanova. Es un hueco real del mercado local, no un olvido de este directorio.</p>
+<p>La excepción destacable es el <a href="/krav-maga-en-vilanova-i-la-geltru/">krav maga</a>: es de las disciplinas más buscadas de la comarca y no nos consta ningún centro con fuente pública verificable que lo imparta en Vilanova. El único que lo anuncia en todo el Garraf está en <a href="/cubelles/">Cubelles</a>, a unos diez minutos por la C-31.</p>
 
 <h2>Cómo aprovechar tener tanta oferta cerca</h2>
 <p>Cuando hay muchos centros a mano, el error típico es elegir el más cercano y quedarse ahí. Merece más la pena hacer lo siguiente: quédate con dos o tres candidatos de tu disciplina, pide clase de prueba en todos, y ve a la misma franja horaria en la que entrenarías de verdad. Un martes a las 20 h y un sábado a las 10 h son gimnasios distintos aunque compartan dirección: cambia el grupo, el nivel y hasta el entrenador que imparte.</p>
@@ -58,8 +58,8 @@ export const MUNICIPIO_BODIES: Record<string, string> = {
 
   'sant-pere-de-ribes': `
 <h2>La situación real de Sant Pere de Ribes</h2>
-<p>Conviene decirlo sin rodeos: en nuestro <a href="/centros/">directorio de centros del Garraf</a>, Sant Pere de Ribes aparece con dos centros con fuente pública verificable, y los dos son de <a href="/taekwondo-en-sant-pere-de-ribes/">taekwondo</a>. Es un municipio con tradición en esa disciplina y prácticamente sin oferta verificable en el resto.</p>
-<p>Si lo que buscas es taekwondo, para ti o para tus hijos, estás en uno de los mejores sitios de la comarca y no necesitas moverte. Si buscas <a href="/boxeo-en-sant-pere-de-ribes/">boxeo</a>, <a href="/karate-en-sant-pere-de-ribes/">karate</a>, <a href="/muay-thai-en-sant-pere-de-ribes/">muay thai</a>, <a href="/defensa-personal-en-sant-pere-de-ribes/">defensa personal</a> o cualquier disciplina de suelo, la respuesta honesta es que tendrás que desplazarte.</p>
+<p>Conviene decirlo sin rodeos: en nuestro <a href="/centros/">directorio de centros del Garraf</a>, Sant Pere de Ribes aparece con cuatro centros con fuente pública verificable, y los cuatro enseñan <a href="/taekwondo-en-sant-pere-de-ribes/">taekwondo</a>. Es el municipio con más clubs de esa disciplina de toda la comarca. Uno de ellos, Spartae, añade <a href="/defensa-personal-en-sant-pere-de-ribes/">defensa personal</a> y estilos poco habituales en el Garraf: Jeet Kune Do, kali filipino y wing chun.</p>
+<p>Si lo que buscas es taekwondo, para ti o para tus hijos, estás en uno de los mejores sitios de la comarca y no necesitas moverte. Si buscas defensa personal, también tienes opción en el municipio. Si buscas <a href="/boxeo-en-sant-pere-de-ribes/">boxeo</a>, <a href="/karate-en-sant-pere-de-ribes/">karate</a>, <a href="/muay-thai-en-sant-pere-de-ribes/">muay thai</a> o cualquier disciplina de suelo, la respuesta honesta es que tendrás que desplazarte.</p>
 
 <h2>Un municipio con dos núcleos, y eso cambia el cálculo</h2>
 <p>Sant Pere de Ribes no es un núcleo compacto: Ribes y Les Roquetes están separados, y a efectos prácticos no es lo mismo salir de uno que del otro. Desde Les Roquetes, Sitges queda muy a mano; desde Ribes, la salida hacia Vilanova i la Geltrú es igual de cómoda. Antes de descartar un centro por lejano, mira la distancia desde tu núcleo concreto y no desde "Sant Pere de Ribes" como punto genérico en el mapa: la diferencia puede ser de cinco o seis minutos, que es exactamente lo que decide si un horario de 18:00 es viable o no.</p>
@@ -76,8 +76,8 @@ export const MUNICIPIO_BODIES: Record<string, string> = {
 
   'cubelles': `
 <h2>Qué hay en Cubelles y qué no</h2>
-<p>En nuestro <a href="/centros/">directorio del Garraf</a>, Cubelles aparece con un centro con fuente pública verificable, dedicado al <a href="/taekwondo-en-cubelles/">taekwondo</a>. No nos consta oferta verificable de <a href="/boxeo-en-cubelles/">boxeo</a>, <a href="/defensa-personal-en-cubelles/">defensa personal</a> ni de disciplinas de suelo dentro del municipio.</p>
-<p>Es una situación normal en un municipio de este tamaño y no significa que Cubelles sea mal sitio para entrenar: significa que, salvo que te interese el taekwondo, tu centro estará en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>.</p>
+<p>En nuestro <a href="/centros/">directorio del Garraf</a>, Cubelles aparece con dos centros con fuente pública verificable. Los dos enseñan <a href="/taekwondo-en-cubelles/">taekwondo</a>, y uno de ellos, GYM FYS Fitness &amp; Defense, anuncia además <a href="/boxeo-en-cubelles/">boxeo</a>, MMA y <a href="/krav-maga/">krav maga</a>. Es el único centro de toda la comarca con krav maga en su oferta pública, un dato que sorprende a quien lo busca en Vilanova o en Sitges.</p>
+<p>Lo que no nos consta dentro del municipio es un programa específico de <a href="/defensa-personal-en-cubelles/">defensa personal</a> ni disciplinas de suelo como el jiu-jitsu brasileño o el judo. Para eso tu centro estará en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>.</p>
 
 <h2>Vilanova está más cerca de lo que la gente cree</h2>
 <p>Cubelles y Vilanova son municipios contiguos: por la C-31 el trayecto ronda los 10 minutos, y la línea de tren de la costa conecta ambos núcleos. En la práctica, un vecino de Cubelles tiene acceso a los siete centros verificados de Vilanova con un desplazamiento menor que el que hace mucha gente dentro de una ciudad grande para ir al gimnasio.</p>
@@ -87,7 +87,7 @@ export const MUNICIPIO_BODIES: Record<string, string> = {
 <p>Cubelles está en el límite de la comarca, y hacia el suroeste tiene Cunit y Calafell, ya en el Baix Penedès, a pocos minutos. Nuestro directorio cubre únicamente los cinco municipios del Garraf, así que esa oferta no está verificada aquí, pero si vives en la parte oeste del municipio puede quedarte igual de cerca o más que Vilanova. Vale la pena mirarla antes de decidir.</p>
 
 <h2>Si es para tus hijos</h2>
-<p>Con niños, la existencia de taekwondo verificado dentro del municipio pesa mucho más de lo que parece sobre el papel. Un grupo infantil a diez minutos de casa se sostiene durante años; uno a veinticinco minutos con dos transbordos de coche se abandona en enero. Si tu hijo o hija no tiene una preferencia clara por otra disciplina, empezar por lo que hay cerca es casi siempre la decisión correcta, y siempre se puede cambiar más adelante.</p>
+<p>Con niños, la existencia de dos clubs de taekwondo dentro del municipio pesa mucho más de lo que parece sobre el papel. Un grupo infantil a diez minutos de casa se sostiene durante años; uno a veinticinco minutos con dos transbordos de coche se abandona en enero. Si tu hijo o hija no tiene una preferencia clara por otra disciplina, empezar por lo que hay cerca es casi siempre la decisión correcta, y siempre se puede cambiar más adelante.</p>
 <p>Para comparar disciplinas por edad y carácter, tienes la <a href="/clases-para-ninos/">guía de artes marciales para niños del Garraf</a>. Y si quieres que te ayudemos a decidir, <a href="/contacto/">escríbenos</a>: te orientamos sin coste.</p>
 `,
 
@@ -117,21 +117,21 @@ export const MUNICIPIO_BODIES: Record<string, string> = {
 export const MUNICIPIO_FAQS: Record<string, { q: string; a: string }[]> = {
   'sitges': [
     { q: '¿Puedo entrenar en Sitges si solo estoy unos meses al año?', a: 'Sí, y es una situación habitual en el municipio por su población estacional. Algunos centros trabajan con bonos o mensualidades sin permanencia justamente por eso. Pregúntalo antes de apuntarte: la fórmula de estancia corta y la de residente tienen condiciones distintas.' },
-    { q: '¿Qué disciplinas no encontraré fácilmente en Sitges?', a: 'A fecha de la última verificación de nuestro directorio, en Sitges no nos consta oferta pública comprobable de judo, taekwondo, muay thai ni krav maga. Para esas cuatro, la opción realista es Vilanova i la Geltrú, a 10-15 minutos.' },
+    { q: '¿Qué disciplinas no encontraré fácilmente en Sitges?', a: 'A fecha de la última verificación de nuestro directorio, en Sitges no nos consta oferta pública comprobable de judo, taekwondo, muay thai ni krav maga. Para judo y taekwondo, la opción realista es Vilanova i la Geltrú, a 10-15 minutos; el krav maga solo consta en un centro de Cubelles y el muay thai en ninguno de la comarca.' },
     { q: '¿Merece la pena desplazarse de Sitges a Vilanova para entrenar?', a: 'Para dos sesiones semanales, sí: son 10-15 minutos en coche y Vilanova reúne más del doble de centros verificados. Con niños el factor decisivo no es la distancia sino el encaje entre la salida del colegio y el horario del grupo infantil.' },
   ],
   'vilanova-i-la-geltru': [
-    { q: '¿Por qué hay más oferta en Vilanova que en el resto del Garraf?', a: 'Porque es la capital de la comarca y el municipio más poblado. En nuestro directorio reúne siete centros con fuente pública verificable, frente a tres en Sitges, dos en Sant Pere de Ribes y uno en Cubelles.' },
+    { q: '¿Por qué hay más oferta en Vilanova que en el resto del Garraf?', a: 'Porque es la capital de la comarca y el municipio más poblado. En nuestro directorio reúne siete centros con fuente pública verificable, frente a cuatro en Sant Pere de Ribes (todos de taekwondo), tres en Sitges y dos en Cubelles.' },
     { q: '¿Puedo entrenar dos disciplinas distintas en Vilanova?', a: 'Es la única localidad de la comarca donde resulta fácil: varios de los centros verificados combinan disciplinas de golpeo y de suelo bajo el mismo techo. Si es tu plan, dilo en la primera visita y pregunta si existe cuota conjunta.' },
-    { q: '¿Hay krav maga en Vilanova i la Geltrú?', a: 'No nos consta ningún centro con fuente pública verificable que lo imparta en el municipio, pese a ser una de las disciplinas más buscadas de la comarca. Si conoces alguno, escríbenos y lo verificamos.' },
+    { q: '¿Hay krav maga en Vilanova i la Geltrú?', a: 'No nos consta ningún centro con fuente pública verificable que lo imparta en el municipio, pese a ser una de las disciplinas más buscadas de la comarca. El único centro del Garraf que lo anuncia está en Cubelles, a unos diez minutos por la C-31. Si conoces alguno en Vilanova, escríbenos y lo verificamos.' },
   ],
   'sant-pere-de-ribes': [
-    { q: '¿Qué artes marciales se pueden practicar en Sant Pere de Ribes?', a: 'En nuestro directorio, el municipio aparece con dos centros verificados y ambos son de taekwondo. Para el resto de disciplinas, lo habitual es desplazarse a Sitges o Vilanova i la Geltrú, a 10-15 minutos en coche.' },
+    { q: '¿Qué artes marciales se pueden practicar en Sant Pere de Ribes?', a: 'En nuestro directorio, el municipio aparece con cuatro centros verificados y los cuatro enseñan taekwondo. Uno de ellos, Spartae, añade defensa personal, Jeet Kune Do, kali filipino y wing chun. Para el resto de disciplinas, lo habitual es desplazarse a Sitges o Vilanova i la Geltrú, a 10-15 minutos en coche.' },
     { q: '¿Es lo mismo salir desde Ribes que desde Les Roquetes?', a: 'No, y conviene tenerlo en cuenta: son dos núcleos separados y la diferencia hasta Sitges o Vilanova puede ser de cinco o seis minutos. Calcula la distancia desde tu núcleo concreto, no desde el municipio como punto genérico.' },
     { q: '¿Puede haber clases en el municipio que no aparezcan en el directorio?', a: 'Sí. Solo publicamos centros con presencia pública verificable (web propia, registro federativo o directorio municipal). Actividades de temporada o secciones de entidades locales pueden existir sin dejar ese rastro: consulta también la programación deportiva municipal.' },
   ],
   'cubelles': [
-    { q: '¿Hay artes marciales en Cubelles?', a: 'En nuestro directorio consta un centro con fuente pública verificable, de taekwondo. Para el resto de disciplinas la referencia es Vilanova i la Geltrú, municipio contiguo, a unos 10 minutos por la C-31.' },
+    { q: '¿Hay artes marciales en Cubelles?', a: 'Sí. En nuestro directorio constan dos centros con fuente pública verificable. Los dos enseñan taekwondo y uno de ellos, GYM FYS Fitness & Defense, anuncia además boxeo, MMA y krav maga. Para disciplinas de suelo, como el jiu-jitsu brasileño o el judo, la referencia es Vilanova i la Geltrú, municipio contiguo, a unos 10 minutos por la C-31.' },
     { q: '¿Cubelles o Cunit y Calafell?', a: 'Depende de en qué parte del municipio vivas. Cubelles limita con el Baix Penedès y, desde la zona oeste, Cunit puede quedar tan cerca como Vilanova. Nuestro directorio cubre solo los cinco municipios del Garraf, así que esa oferta no está verificada aquí.' },
     { q: '¿Vale la pena apuntar a un niño en Vilanova viviendo en Cubelles?', a: 'Se sostiene bien con dos sesiones semanales, pero si tu hijo no tiene preferencia clara por una disciplina concreta, empezar por lo que hay dentro del municipio suele funcionar mejor a largo plazo: la cercanía es el mejor antídoto contra el abandono.' },
   ],
@@ -146,7 +146,7 @@ export const MUNICIPIO_FAQS: Record<string, { q: string; a: string }[]> = {
 export const PERFIL_BODIES: Record<string, string> = {
   'clases-para-ninos': `
 <h2>Las tres puertas de entrada, y dónde están en el Garraf</h2>
-<p>Karate, judo y taekwondo son las disciplinas con más metodología rodada para edades tempranas, y no están repartidas por igual en la comarca. Según nuestro <a href="/centros/">directorio de centros verificados</a>, <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> es el único municipio donde constan las tres a la vez. En <a href="/sitges/">Sitges</a> consta karate pero no judo ni taekwondo. En <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> y <a href="/cubelles/">Cubelles</a> solo consta taekwondo. En <a href="/canyelles/">Canyelles</a> no consta ningún centro.</p>
+<p>Karate, judo y taekwondo son las disciplinas con más metodología rodada para edades tempranas, y no están repartidas por igual en la comarca. Según nuestro <a href="/centros/">directorio de centros verificados</a>, <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> es el único municipio donde constan las tres a la vez. En <a href="/sitges/">Sitges</a> consta karate pero no judo ni taekwondo. En <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> y <a href="/cubelles/">Cubelles</a>, de esas tres, solo consta taekwondo, eso sí, en todos sus centros. En <a href="/canyelles/">Canyelles</a> no consta ningún centro.</p>
 <p>Ese mapa condiciona la decisión más de lo que a nadie le gustaría admitir: si vives en Cubelles, la elección real no es entre tres disciplinas, es entre el taekwondo de tu pueblo y desplazarte a Vilanova.</p>
 
 <h2>Cómo elegir mirando a tu hijo, no a la disciplina</h2>
@@ -242,7 +242,7 @@ export const PERFIL_BODIES: Record<string, string> = {
 <p>En cualquier centro serio, el sparring es opcional, progresivo y nunca el primer día. Si en tu clase de prueba ves otra cosa, el problema es el centro, no la disciplina.</p>
 
 <h2>Tercera pregunta: qué tienes cerca de verdad</h2>
-<p>Aquí es donde muchos planes se rompen. Según nuestro <a href="/centros/">directorio verificado</a>, la oferta del Garraf está muy concentrada: <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> reúne siete centros y cubre casi todas las disciplinas; <a href="/sitges/">Sitges</a> tiene tres, sin judo ni taekwondo verificados; <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> y <a href="/cubelles/">Cubelles</a> solo tienen taekwondo; en <a href="/canyelles/">Canyelles</a> no consta ningún centro. Y hay dos disciplinas muy buscadas (<a href="/muay-thai/">muay thai</a> y <a href="/krav-maga/">krav maga</a>) que no nos constan en ningún centro de la comarca.</p>
+<p>Aquí es donde muchos planes se rompen. Según nuestro <a href="/centros/">directorio verificado</a>, la oferta del Garraf está muy concentrada: <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> reúne siete centros y cubre casi todas las disciplinas; <a href="/sitges/">Sitges</a> tiene tres, sin judo ni taekwondo verificados; <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> tiene cuatro, todos de taekwondo (uno con defensa personal); <a href="/cubelles/">Cubelles</a> tiene dos, con taekwondo y un centro que suma boxeo, MMA y krav maga; en <a href="/canyelles/">Canyelles</a> no consta ningún centro. El <a href="/muay-thai/">muay thai</a>, pese a lo que se busca, no nos consta en ningún centro de la comarca.</p>
 <p>Conviene cruzarlo con tu objetivo antes de ilusionarte con una disciplina concreta. Si vives en Canyelles y quieres muay thai, el plan realista pasa por kickboxing en Vilanova, no por buscar diez webs más.</p>
 
 <h2>Y la regla que vale más que todas</h2>
@@ -311,7 +311,7 @@ export const PERFIL_BODIES: Record<string, string> = {
 <ul>
 <li><strong>Ponerte en forma y descargar estrés:</strong> boxeo o kickboxing. Sesiones intensas, resultados visibles rápido, curva de aprendizaje amable.</li>
 <li><strong>Técnica y progresión a largo plazo, con poco impacto articular:</strong> jiu jitsu brasileño. Es el que más engancha de todos y el que menos depende de la potencia física.</li>
-<li><strong>Autodefensa práctica:</strong> <a href="/defensa-personal-en-sitges/">defensa personal</a>, y si quieres un sistema completo mira también <a href="/krav-maga/">krav maga</a>, aunque no nos consta en el municipio. </li>
+<li><strong>Autodefensa práctica:</strong> <a href="/defensa-personal-en-sitges/">defensa personal</a>, y si quieres un sistema completo mira también <a href="/krav-maga/">krav maga</a>, aunque en la comarca solo consta en un centro de Cubelles. </li>
 <li><strong>Disciplina, estructura y práctica tradicional:</strong> karate.</li>
 </ul>
 
@@ -461,7 +461,7 @@ export const PERFIL_BODIES: Record<string, string> = {
 export const MONEY_BODIES: Record<string, string> = {
   'boxeo-en-sant-pere-de-ribes': `
 <h2>Lo primero: en Sant Pere de Ribes no nos consta boxeo</h2>
-<p>En nuestro <a href="/centros/">directorio del Garraf</a>, los dos centros verificados del municipio son de taekwondo. Ningún centro de Sant Pere de Ribes con fuente pública comprobable anuncia boxeo. Puede existir actividad que no deje rastro público (un grupo de temporada, una sección de club), pero si buscas boxeo con garantías, la respuesta realista es desplazarte.</p>
+<p>En nuestro <a href="/centros/">directorio del Garraf</a>, los cuatro centros verificados del municipio son de taekwondo, y uno añade defensa personal. Ningún centro de Sant Pere de Ribes con fuente pública comprobable anuncia boxeo. Puede existir actividad que no deje rastro público (un grupo de temporada, una sección de club), pero si buscas boxeo con garantías, la respuesta realista es desplazarte.</p>
 
 <h2>Sitges o Vilanova: elige por núcleo, no por municipio</h2>
 <p>Aquí Sant Pere de Ribes tiene una particularidad útil. Al ser un municipio de dos núcleos, desde Les Roquetes suele salir mejor tirar hacia <a href="/sitges/">Sitges</a>, y desde Ribes hacia <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>. Ambos están en la horquilla de 10-15 minutos en coche, así que la decisión la marcan dos cosas: dónde vives exactamente y qué horarios encajan con tu tarde.</p>
@@ -474,7 +474,7 @@ export const MONEY_BODIES: Record<string, string> = {
 
   'karate-en-sant-pere-de-ribes': `
 <h2>Qué consta en Sant Pere de Ribes y qué implica</h2>
-<p>En nuestro <a href="/centros/">directorio</a>, los dos centros verificados del municipio son de taekwondo. No nos consta ningún centro de karate en Sant Pere de Ribes con fuente pública comprobable, así que si el karate es tu objetivo, o el de tu hijo, tendrás que mirar hacia <a href="/sitges/">Sitges</a> o <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, donde el karate sí aparece con centros verificados.</p>
+<p>En nuestro <a href="/centros/">directorio</a>, los cuatro centros verificados del municipio son de taekwondo. No nos consta ningún centro de karate en Sant Pere de Ribes con fuente pública comprobable, así que si el karate es tu objetivo, o el de tu hijo, tendrás que mirar hacia <a href="/sitges/">Sitges</a> o <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, donde el karate sí aparece con centros verificados.</p>
 
 <h2>Antes de descartarlo: taekwondo está aquí mismo</h2>
 <p>Si lo que buscas es una disciplina tradicional para tu hijo, con cinturones, etiqueta y progresión pautada, merece la pena que consideres el <a href="/taekwondo-en-sant-pere-de-ribes/">taekwondo del propio municipio</a> antes de comprometerte a desplazarte dos veces por semana durante todo el curso.</p>
@@ -499,8 +499,8 @@ export const MONEY_BODIES: Record<string, string> = {
 
   'taekwondo-en-sant-pere-de-ribes': `
 <h2>Aquí sí: Sant Pere de Ribes es el municipio del taekwondo</h2>
-<p>Es la excepción feliz de este municipio. En nuestro <a href="/centros/">directorio del Garraf</a>, los dos centros de Sant Pere de Ribes con fuente pública verificable son ambos de taekwondo. Es decir: la disciplina que en otros municipios obliga a desplazarse, aquí la tienes en casa y con más de una opción.</p>
-<p>Uno de los centros consta a través del registro de clubes de la federación catalana, lo que aporta una capa de verificación adicional: significa actividad federada, con acceso al circuito de competición oficial para quien lo quiera.</p>
+<p>Es la excepción feliz de este municipio. En nuestro <a href="/centros/">directorio del Garraf</a>, los cuatro centros de Sant Pere de Ribes con fuente pública verificable enseñan taekwondo. Es decir: la disciplina que en otros municipios obliga a desplazarse, aquí la tienes en casa y con cuatro opciones entre Ribes y Les Roquetes.</p>
+<p>Uno de los centros consta a través del registro de clubes de la federación catalana, lo que aporta una capa de verificación adicional: significa actividad federada, con acceso al circuito de competición oficial para quien lo quiera. Otros dos siguen la línea ITF del taekwon-do, distinta de la olímpica en reglamento y en formas: si tu objetivo es competir, pregunta en cuál compite cada club antes de elegir.</p>
 
 <h2>Qué implica tener dos opciones en el municipio</h2>
 <p>Más de lo que parece. Puedes hacer clase de prueba en los dos antes de decidir, comparar horarios y quedarte con el que encaje mejor con la tarde de tu familia, sin sumar un trayecto de 15 minutos. En artes marciales infantiles, esa comodidad es el mejor seguro contra el abandono: los grupos que sobreviven al invierno son los que están cerca de casa.</p>
@@ -513,7 +513,7 @@ export const MONEY_BODIES: Record<string, string> = {
 
   'defensa-personal-en-sant-pere-de-ribes': `
 <h2>Qué consta en el municipio</h2>
-<p>En nuestro <a href="/centros/">directorio</a>, los dos centros verificados de Sant Pere de Ribes son de taekwondo, y no nos consta ningún programa específico de defensa personal en el municipio con fuente pública comprobable. Para eso, la oferta verificada más cercana está en <a href="/sitges/">Sitges</a> y <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, a 10-15 minutos.</p>
+<p>En nuestro <a href="/centros/">directorio</a>, uno de los cuatro centros verificados de Sant Pere de Ribes anuncia defensa personal: Spartae, en la calle Lluís Companys, que la ofrece junto a taekwon-do ITF, Jeet Kune Do, kali filipino y wing chun. Es una combinación poco común y encaja con quien busca autodefensa con base técnica. Si prefieres comparar con más oferta, en <a href="/sitges/">Sitges</a> y <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, a 10-15 minutos, hay siete centros más que la anuncian.</p>
 
 <h2>Cuidado con los cursos exprés</h2>
 <p>La defensa personal es el terreno donde más marketing hay y donde más fácil resulta pagar por poco. Es habitual que aparezcan cursos puntuales de fin de semana, a veces organizados en equipamientos municipales o por entidades locales. Pueden estar bien como primera toma de contacto, pero conviene tener claras dos cosas.</p>
@@ -531,7 +531,7 @@ export const MONEY_BODIES: Record<string, string> = {
 
   'taekwondo-en-cubelles': `
 <h2>La disciplina que sí tienes en Cubelles</h2>
-<p>El taekwondo es, según nuestro <a href="/centros/">directorio del Garraf</a>, la única disciplina con centro verificado dentro de Cubelles. Para un municipio de este tamaño no es poca cosa: significa que puedes entrenar, o apuntar a tus hijos, sin sumar veinte minutos de coche a cada sesión.</p>
+<p>El taekwondo es, según nuestro <a href="/centros/">directorio del Garraf</a>, la disciplina con más presencia en Cubelles: la enseñan los dos centros verificados del municipio. Para un municipio de este tamaño no es poca cosa: significa que puedes entrenar, o apuntar a tus hijos, sin sumar veinte minutos de coche a cada sesión.</p>
 <p>Si tenías otra disciplina en mente pero no una preferencia muy marcada, merece la pena que valores esto con calma. La cercanía es, con diferencia, el factor que mejor predice si alguien sigue entrenando dentro de un año. Un taekwondo a cinco minutos de casa gana casi siempre a un karate excelente a veinte.</p>
 
 <h2>Qué es realmente el taekwondo, sin el tópico de las patadas</h2>
@@ -545,9 +545,9 @@ export const MONEY_BODIES: Record<string, string> = {
 `,
 
   'boxeo-en-cubelles': `
-<h2>Boxeo en Cubelles: hay que salir, pero muy poco</h2>
-<p>En nuestro <a href="/centros/">directorio</a>, el único centro verificado de Cubelles es de taekwondo. No nos consta oferta de boxeo dentro del municipio. La buena noticia es que <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> es municipio contiguo: por la C-31 el trayecto ronda los diez minutos, menos de lo que mucha gente tarda en cruzar su propia ciudad para ir al gimnasio.</p>
-<p>Vilanova reúne siete centros verificados y varios de ellos anuncian boxeo, así que tendrás donde elegir horario, que es lo que de verdad determina si el plan aguanta más de tres meses.</p>
+<h2>Boxeo en Cubelles: hay una opción dentro, y más a diez minutos</h2>
+<p>En nuestro <a href="/centros/">directorio</a> consta un centro de Cubelles que anuncia boxeo: GYM FYS Fitness &amp; Defense, en el Passatge Soletat, que lo ofrece junto a taekwondo, MMA y krav maga. Según su web, abre de lunes a viernes por la mañana y por la tarde; los horarios de cada grupo se preguntan en la primera llamada.</p>
+<p>Si quieres comparar, <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> es municipio contiguo: por la C-31 el trayecto ronda los diez minutos, y allí cuatro centros verificados anuncian boxeo. Más centros significan más franjas horarias, que es lo que de verdad determina si el plan aguanta más de tres meses.</p>
 
 <h2>La otra dirección: Cunit y Calafell</h2>
 <p>Cubelles está en el límite del Garraf, y hacia el suroeste tiene Cunit y Calafell a pocos minutos, ya en el Baix Penedès. Nuestro directorio cubre solo los cinco municipios de la comarca, así que esa oferta no está verificada aquí, pero si vives en la zona oeste del municipio puede quedarte igual de cerca. Vale la pena mirar las dos direcciones antes de decidir.</p>
@@ -559,7 +559,7 @@ export const MONEY_BODIES: Record<string, string> = {
 
   'defensa-personal-en-cubelles': `
 <h2>Qué hay en Cubelles</h2>
-<p>El único centro de Cubelles verificado en nuestro <a href="/centros/">directorio</a> es de taekwondo, y no nos consta ningún programa específico de defensa personal en el municipio con fuente pública comprobable. La oferta verificada más cercana está en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, a unos diez minutos por la C-31.</p>
+<p>En nuestro <a href="/centros/">directorio</a> constan dos centros en Cubelles y ninguno anuncia un programa con el nombre de defensa personal. Lo más parecido dentro del municipio es el <a href="/krav-maga/">krav maga</a> de GYM FYS Fitness &amp; Defense, que es un sistema de autodefensa y es el único de toda la comarca. Si buscas un programa de defensa personal propiamente dicho, la oferta verificada más cercana está en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, a unos diez minutos por la C-31.</p>
 
 <h2>Un arte marcial no es lo mismo que defensa personal (y a veces basta igual)</h2>
 <p>Es una confusión habitual y merece la pena aclararla. Un arte marcial te da control corporal, distancia, capacidad de reaccionar bajo contacto y confianza física: todo eso transfiere a una situación real. Lo que no te da es lo específico de la autodefensa (prevención, gestión verbal, escenarios sin reglas, respuesta ante agarres inesperados). </p>
@@ -612,9 +612,9 @@ export const MONEY_BODIES: Record<string, string> = {
 `,
 
   'krav-maga-en-sitges': `
-<h2>El krav maga no consta en el Garraf, y conviene saberlo</h2>
-<p>Es una de las disciplinas más buscadas de la comarca y una de las que menos existe en ella. En nuestro <a href="/centros/">directorio</a> no nos consta ningún centro (ni en Sitges ni en el resto del Garraf) que imparta krav maga con fuente pública verificable.</p>
-<p>Esto tiene una consecuencia práctica importante: si te encuentras una oferta de krav maga en la zona, verifícala con más cuidado del habitual. Es un terreno donde la etiqueta se usa como reclamo comercial con bastante frecuencia.</p>
+<h2>En Sitges no consta krav maga, y en todo el Garraf solo un centro</h2>
+<p>Es una de las disciplinas más buscadas de la comarca y una de las que menos existe en ella. En nuestro <a href="/centros/">directorio</a> no nos consta ningún centro en Sitges que imparta krav maga con fuente pública verificable. En toda la comarca solo lo anuncia uno: GYM FYS Fitness &amp; Defense, en <a href="/cubelles/">Cubelles</a>, a unos 20 minutos en coche.</p>
+<p>Esto tiene una consecuencia práctica importante: si te encuentras otra oferta de krav maga en la zona, verifícala con más cuidado del habitual. Es un terreno donde la etiqueta se usa como reclamo comercial con bastante frecuencia.</p>
 
 <h2>Qué es realmente el krav maga</h2>
 <p>Un sistema de defensa desarrollado en el ámbito militar israelí, sin componente deportivo ni competición: no hay reglamento, no hay categorías de peso y el objetivo técnico es neutralizar una amenaza y salir. Se apoya en pocos movimientos, gruesos y basados en reacciones instintivas, entrenados bajo estrés creciente.</p>
@@ -632,9 +632,9 @@ export const MONEY_BODIES: Record<string, string> = {
 `,
 
   'krav-maga-en-vilanova-i-la-geltru': `
-<h2>Ni siquiera en Vilanova: el krav maga no consta en la comarca</h2>
-<p>Vilanova i la Geltrú reúne siete centros verificados en nuestro <a href="/centros/">directorio</a>, más que ningún otro municipio del Garraf, y cubre desde el boxeo hasta el judo pasando por el aikido o el kyokushin. Aun así, no nos consta ningún centro que imparta krav maga con fuente pública comprobable, ni aquí ni en el resto de la comarca.</p>
-<p>Es, junto al <a href="/muay-thai-en-vilanova-i-la-geltru/">muay thai</a>, el hueco más claro del mercado local: mucha demanda de búsqueda, oferta verificable nula.</p>
+<h2>En Vilanova no consta krav maga: el más cercano está en Cubelles</h2>
+<p>Vilanova i la Geltrú reúne siete centros verificados en nuestro <a href="/centros/">directorio</a>, más que ningún otro municipio del Garraf, y cubre desde el boxeo hasta el judo pasando por el aikido o el kyokushin. Aun así, no nos consta ninguno que imparta krav maga con fuente pública comprobable.</p>
+<p>El único centro de la comarca que lo anuncia es GYM FYS Fitness &amp; Defense, en <a href="/cubelles/">Cubelles</a>, municipio contiguo a unos diez minutos por la C-31. Para un vecino de Vilanova, sobre todo de la zona oeste, es un desplazamiento asumible dos veces por semana. Aparte de ese centro, es con el <a href="/muay-thai-en-vilanova-i-la-geltru/">muay thai</a> el hueco más claro del mercado local: mucha demanda de búsqueda y casi ninguna oferta verificable.</p>
 
 <h2>Qué es y para quién tiene sentido</h2>
 <p>El krav maga es un sistema de defensa de origen militar israelí, sin competición ni reglamento deportivo. Trabaja pocas técnicas, gruesas, apoyadas en reacciones instintivas y entrenadas bajo presión creciente, con un objetivo único: neutralizar la amenaza y salir.</p>
@@ -689,7 +689,7 @@ export const MONEY_BODIES: Record<string, string> = {
 
 <h2>Dos alternativas que quizá no has considerado</h2>
 <p>El <a href="/jiu-jitsu-brasileno-en-vilanova-i-la-geltru/">jiu jitsu brasileño</a>, que sí tiene varios centros verificados en Vilanova, es probablemente la disciplina donde una persona más pequeña puede controlar a una más grande con más fiabilidad, porque se basa íntegramente en palanca y posición. Muchas mujeres llegan buscando defensa personal y se quedan años en BJJ.</p>
-<p>El <a href="/krav-maga/">krav maga</a> es el sistema que más se busca en la comarca para autodefensa, pero conviene que lo sepas: no nos consta ningún centro con fuente pública verificable que lo imparta en Vilanova ni en el resto del Garraf. Si te lo ofrecen, pide la certificación y la organización que la emite.</p>
+<p>El <a href="/krav-maga/">krav maga</a> es el sistema que más se busca en la comarca para autodefensa, pero conviene que lo sepas: no nos consta ningún centro con fuente pública verificable que lo imparta en Vilanova. El único del Garraf está en <a href="/cubelles/">Cubelles</a>, a unos diez minutos. Si te lo ofrecen en otro sitio, pide la certificación y la organización que la emite.</p>
 
 <h2>Cómo saber si un centro te va a tratar bien</h2>
 <p>Cuatro señales visibles en una clase de prueba, sin necesidad de entender de artes marciales: avisan antes de corregir con contacto, la intensidad del trabajo por parejas sube de forma graduada y se puede parar, nadie comenta tu forma física, y hay más de una mujer entrenando habitualmente.</p>
@@ -700,11 +700,11 @@ export const MONEY_BODIES: Record<string, string> = {
 /** FAQ propias de las money pages con cuerpo específico. */
 export const MONEY_FAQS: Record<string, { q: string; a: string }[]> = {
   'boxeo-en-sant-pere-de-ribes': [
-    { q: '¿Hay boxeo en Sant Pere de Ribes?', a: 'No nos consta. Los dos centros del municipio verificados en nuestro directorio son de taekwondo. Para boxeo, la oferta verificada más cercana está en Sitges y en Vilanova i la Geltrú, a 10-15 minutos en coche.' },
+    { q: '¿Hay boxeo en Sant Pere de Ribes?', a: 'No nos consta. Los cuatro centros del municipio verificados en nuestro directorio son de taekwondo. Para boxeo, la oferta verificada más cercana está en Sitges y en Vilanova i la Geltrú, a 10-15 minutos en coche.' },
     { q: '¿Me conviene más Sitges o Vilanova?', a: 'Depende del núcleo desde el que salgas: desde Les Roquetes suele salir mejor Sitges y desde Ribes, Vilanova. En oferta, Vilanova reúne siete centros verificados frente a tres de Sitges, lo que se traduce en más franjas horarias.' },
   ],
   'karate-en-sant-pere-de-ribes': [
-    { q: '¿Hay karate en Sant Pere de Ribes?', a: 'No nos consta ningún centro de karate en el municipio con fuente pública verificable. Los dos centros verificados son de taekwondo. Para karate, las opciones más cercanas están en Sitges y Vilanova i la Geltrú.' },
+    { q: '¿Hay karate en Sant Pere de Ribes?', a: 'No nos consta ningún centro de karate en el municipio con fuente pública verificable. Los cuatro centros verificados son de taekwondo. Para karate, las opciones más cercanas están en Sitges y Vilanova i la Geltrú.' },
     { q: '¿Es muy distinto el taekwondo del municipio para un niño?', a: 'Menos de lo que parece: ambos son artes marciales de golpeo con cinturones, formas y fuerte carga de disciplina. El karate equilibra brazos y piernas; el taekwondo carga en piernas, velocidad y flexibilidad. A los 6 años pesa mucho más el monitor y el horario.' },
   ],
   'muay-thai-en-sant-pere-de-ribes': [
@@ -712,11 +712,11 @@ export const MONEY_FAQS: Record<string, { q: string; a: string }[]> = {
     { q: '¿El kickboxing me sirve si buscaba muay thai?', a: 'Para la mayoría de objetivos, sí: comparten puños, patadas, formato de clase y acondicionamiento. Lo que no incluye son codos, rodillas y clinch. Si te interesa específicamente eso, tendrás que salir de la comarca.' },
   ],
   'taekwondo-en-sant-pere-de-ribes': [
-    { q: '¿Cuántos centros de taekwondo hay en Sant Pere de Ribes?', a: 'En nuestro directorio constan dos, y son los dos únicos centros del municipio con fuente pública verificable. Uno de ellos consta a través del registro de clubes de la federación catalana.' },
+    { q: '¿Cuántos centros de taekwondo hay en Sant Pere de Ribes?', a: 'En nuestro directorio constan cuatro, y son los cuatro centros del municipio con fuente pública verificable: Associació de Taekwondo SANPO (Les Roquetes), Esportiu TKD Ribes, Spartae y Taekwon-do Club Taijitu. Es el municipio del Garraf con más clubs de taekwondo.' },
     { q: '¿Qué cambia si el club está federado?', a: 'Da acceso al circuito de competición catalán y a exámenes de grado oficiales. Si no lo está, la práctica es igual de válida como actividad, pero los cinturones pueden no tener reconocimiento fuera de esa escuela. Pregúntalo al matricularte.' },
   ],
   'defensa-personal-en-sant-pere-de-ribes': [
-    { q: '¿Hay defensa personal en Sant Pere de Ribes?', a: 'No nos consta ningún programa específico en el municipio con fuente pública verificable: los dos centros verificados son de taekwondo. La oferta más cercana está en Sitges y Vilanova, a 10-15 minutos.' },
+    { q: '¿Hay defensa personal en Sant Pere de Ribes?', a: 'Sí. En nuestro directorio consta un centro que la anuncia: Spartae, en la calle Lluís Companys, que la combina con taekwon-do ITF, Jeet Kune Do, kali filipino y wing chun. Para comparar con más opciones, Sitges y Vilanova están a 10-15 minutos.' },
     { q: '¿Sirve un curso de defensa personal de fin de semana?', a: 'Como primera toma de contacto puede estar bien: te enseña a reconocer situaciones y te da un par de respuestas gruesas. Pero reaccionar bajo estrés se construye con repetición durante meses. Desconfía de quien prometa capacidad real en un fin de semana.' },
   ],
   'taekwondo-en-cubelles': [
@@ -724,7 +724,7 @@ export const MONEY_FAQS: Record<string, { q: string; a: string }[]> = {
     { q: '¿Debería apuntar a mi hijo aquí o buscar en Vilanova?', a: 'Si no tiene una preferencia clara por otra disciplina, la cercanía gana casi siempre: es el factor que mejor predice que siga entrenando dentro de un año. En Vilanova, a diez minutos, tienes además karate y judo verificados si quieres comparar.' },
   ],
   'boxeo-en-cubelles': [
-    { q: '¿Hay boxeo en Cubelles?', a: 'No nos consta: el único centro verificado del municipio es de taekwondo. Vilanova i la Geltrú es municipio contiguo y está a unos diez minutos por la C-31, con siete centros verificados y varios que anuncian boxeo.' },
+    { q: '¿Hay boxeo en Cubelles?', a: 'Sí. GYM FYS Fitness & Defense, en el Passatge Soletat, anuncia boxeo junto a taekwondo, MMA y krav maga. Si quieres más horarios donde elegir, Vilanova i la Geltrú es municipio contiguo, a unos diez minutos por la C-31, con cuatro centros verificados que anuncian boxeo.' },
     { q: '¿Qué necesito comprar para empezar?', a: 'Nada al principio. Ropa deportiva, agua y toalla; en la mayoría de gimnasios prestan guantes las primeras sesiones. Cuando decidas continuar, lo primero son las vendas; los guantes propios vienen después.' },
   ],
   'muay-thai-en-sitges': [
@@ -736,15 +736,15 @@ export const MONEY_FAQS: Record<string, { q: string; a: string }[]> = {
     { q: '¿El K-1 se parece al muay thai?', a: 'Bastante: es un reglamento de striking que permite rodillas y un clinch muy breve, así que queda a medio camino entre el kickboxing y el muay thai. En el directorio consta un centro del municipio que lo imparte.' },
   ],
   'krav-maga-en-sitges': [
-    { q: '¿Hay krav maga en Sitges?', a: 'No nos consta ningún centro en Sitges ni en el resto del Garraf que lo imparta con fuente pública verificable. Si encuentras una oferta en la zona, verifica la certificación del instructor y la organización que la emite antes de pagar.' },
+    { q: '¿Hay krav maga en Sitges?', a: 'No nos consta ningún centro en Sitges que lo imparta con fuente pública verificable. En todo el Garraf solo lo anuncia uno, GYM FYS Fitness & Defense, en Cubelles. Si encuentras otra oferta en la zona, verifica la certificación del instructor y la organización que la emite antes de pagar.' },
     { q: '¿Qué diferencia hay entre krav maga y defensa personal?', a: 'El krav maga es un sistema concreto de origen militar israelí, con programa por niveles y sin componente deportivo. "Defensa personal" es una categoría más amplia que agrupa enfoques distintos. Ambas persiguen lo mismo; el krav maga está más sistematizado.' },
   ],
   'krav-maga-en-vilanova-i-la-geltru': [
-    { q: '¿Hay krav maga en Vilanova i la Geltrú?', a: 'No nos consta, y es llamativo porque Vilanova reúne siete centros verificados que cubren desde el boxeo hasta el aikido. Junto al muay thai, es el hueco más claro del mercado local: mucha búsqueda y oferta verificable nula.' },
+    { q: '¿Hay krav maga cerca de Vilanova i la Geltrú?', a: 'En Vilanova no nos consta, y es llamativo porque reúne siete centros verificados que cubren desde el boxeo hasta el aikido. El más cercano está en Cubelles, municipio contiguo: GYM FYS Fitness & Defense, a unos diez minutos por la C-31, es el único centro del Garraf que anuncia krav maga.' },
     { q: '¿Qué alternativas tengo en el municipio?', a: 'La defensa personal consta en varios centros verificados de Vilanova. Y si tu preocupación es defenderte de alguien más grande, el jiu jitsu brasileño entrena exactamente esa situación en cada sesión, aunque no se venda como autodefensa.' },
   ],
   'defensa-personal-en-cubelles': [
-    { q: '¿Hay defensa personal en Cubelles?', a: 'No nos consta ningún programa específico en el municipio con fuente pública verificable. El único centro verificado es de taekwondo. La oferta más cercana está en Vilanova i la Geltrú, a unos diez minutos por la C-31.' },
+    { q: '¿Hay defensa personal en Cubelles?', a: 'Con ese nombre, no nos consta ningún programa en el municipio. Lo más cercano es el krav maga de GYM FYS Fitness & Defense, que es un sistema de autodefensa. Para un programa de defensa personal propiamente dicho, la oferta más cercana está en Vilanova i la Geltrú, a unos diez minutos por la C-31.' },
     { q: '¿Un arte marcial me sirve como defensa personal?', a: 'Parcialmente, y a veces basta: aporta control corporal, distancia, reacción bajo contacto y confianza. Lo que no cubre es lo específico (prevención, gestión verbal, escenarios sin reglas). Entrenar de forma continuada suele dar más seguridad real que un curso puntual.' },
   ],
 };
