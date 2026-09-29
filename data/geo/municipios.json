@@ -1,0 +1,8525 @@
+[
+ {
+  "slug": "abella-de-la-conca",
+  "nombre": "Abella de la Conca",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "250019",
+  "lat": 42.16129,
+  "lon": 1.09171
+ },
+ {
+  "slug": "abrera",
+  "nombre": "Abrera",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080018",
+  "lat": 41.51626,
+  "lon": 1.90224
+ },
+ {
+  "slug": "ager",
+  "nombre": "Àger",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250024",
+  "lat": 41.99922,
+  "lon": 0.76354
+ },
+ {
+  "slug": "agramunt",
+  "nombre": "Agramunt",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "250030",
+  "lat": 41.78697,
+  "lon": 1.09864
+ },
+ {
+  "slug": "aguilar-de-segarra",
+  "nombre": "Aguilar de Segarra",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080023",
+  "lat": 41.73893,
+  "lon": 1.63096
+ },
+ {
+  "slug": "agullana",
+  "nombre": "Agullana",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170010",
+  "lat": 42.3941,
+  "lon": 2.84639
+ },
+ {
+  "slug": "aiguafreda",
+  "nombre": "Aiguafreda",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "080142",
+  "lat": 41.76889,
+  "lon": 2.2494
+ },
+ {
+  "slug": "aiguamurcia",
+  "nombre": "Aiguamúrcia",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430017",
+  "lat": 41.34655,
+  "lon": 1.3631
+ },
+ {
+  "slug": "aiguaviva",
+  "nombre": "Aiguaviva",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170025",
+  "lat": 41.93809,
+  "lon": 2.76238
+ },
+ {
+  "slug": "aitona",
+  "nombre": "Aitona",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250387",
+  "lat": 41.49461,
+  "lon": 0.45898
+ },
+ {
+  "slug": "alas-i-cerc",
+  "nombre": "Alàs i Cerc",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "250058",
+  "lat": 42.35163,
+  "lon": 1.50817
+ },
+ {
+  "slug": "albanya",
+  "nombre": "Albanyà",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170031",
+  "lat": 42.30475,
+  "lon": 2.72011
+ },
+ {
+  "slug": "albatarrec",
+  "nombre": "Albatàrrec",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250077",
+  "lat": 41.57308,
+  "lon": 0.60538
+ },
+ {
+  "slug": "albesa",
+  "nombre": "Albesa",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250083",
+  "lat": 41.75072,
+  "lon": 0.65949
+ },
+ {
+  "slug": "albinyana",
+  "nombre": "Albinyana",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430022",
+  "lat": 41.24563,
+  "lon": 1.48618
+ },
+ {
+  "slug": "albons",
+  "nombre": "Albons",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170046",
+  "lat": 42.10425,
+  "lon": 3.0852
+ },
+ {
+  "slug": "alcanar",
+  "nombre": "Alcanar",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "430043",
+  "lat": 40.54286,
+  "lon": 0.48197
+ },
+ {
+  "slug": "alcano",
+  "nombre": "Alcanó",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250100",
+  "lat": 41.48045,
+  "lon": 0.61715
+ },
+ {
+  "slug": "alcarras",
+  "nombre": "Alcarràs",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250117",
+  "lat": 41.56287,
+  "lon": 0.52432
+ },
+ {
+  "slug": "alcoletge",
+  "nombre": "Alcoletge",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250122",
+  "lat": 41.64701,
+  "lon": 0.69426
+ },
+ {
+  "slug": "alcover",
+  "nombre": "Alcover",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430056",
+  "lat": 41.26263,
+  "lon": 1.17021
+ },
+ {
+  "slug": "aldover",
+  "nombre": "Aldover",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "430069",
+  "lat": 40.87979,
+  "lon": 0.5
+ },
+ {
+  "slug": "alella",
+  "nombre": "Alella",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080039",
+  "lat": 41.49384,
+  "lon": 2.29514
+ },
+ {
+  "slug": "alfara-de-carles",
+  "nombre": "Alfara de Carles",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "430081",
+  "lat": 40.87376,
+  "lon": 0.40026
+ },
+ {
+  "slug": "alfarras",
+  "nombre": "Alfarràs",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250138",
+  "lat": 41.82999,
+  "lon": 0.56966
+ },
+ {
+  "slug": "alfes",
+  "nombre": "Alfés",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250143",
+  "lat": 41.52142,
+  "lon": 0.61934
+ },
+ {
+  "slug": "alforja",
+  "nombre": "Alforja",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430094",
+  "lat": 41.21045,
+  "lon": 0.97528
+ },
+ {
+  "slug": "algerri",
+  "nombre": "Algerri",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250156",
+  "lat": 41.81581,
+  "lon": 0.63849
+ },
+ {
+  "slug": "alguaire",
+  "nombre": "Alguaire",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250169",
+  "lat": 41.73618,
+  "lon": 0.58374
+ },
+ {
+  "slug": "alins",
+  "nombre": "Alins",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "250175",
+  "lat": 42.54871,
+  "lon": 1.31866
+ },
+ {
+  "slug": "alio",
+  "nombre": "Alió",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430108",
+  "lat": 41.29513,
+  "lon": 1.3064
+ },
+ {
+  "slug": "almacelles",
+  "nombre": "Almacelles",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250194",
+  "lat": 41.73158,
+  "lon": 0.43673
+ },
+ {
+  "slug": "almatret",
+  "nombre": "Almatret",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250208",
+  "lat": 41.30557,
+  "lon": 0.42358
+ },
+ {
+  "slug": "almenar",
+  "nombre": "Almenar",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250215",
+  "lat": 41.79807,
+  "lon": 0.56738
+ },
+ {
+  "slug": "almoster",
+  "nombre": "Almoster",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430115",
+  "lat": 41.19809,
+  "lon": 1.11336
+ },
+ {
+  "slug": "alos-de-balaguer",
+  "nombre": "Alòs de Balaguer",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250220",
+  "lat": 41.91259,
+  "lon": 0.96053
+ },
+ {
+  "slug": "alp",
+  "nombre": "Alp",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "170062",
+  "lat": 42.3735,
+  "lon": 1.88751
+ },
+ {
+  "slug": "alpens",
+  "nombre": "Alpens",
+  "comarca": "llucanes",
+  "provincia": "Barcelona",
+  "ine": "080044",
+  "lat": 42.11926,
+  "lon": 2.10114
+ },
+ {
+  "slug": "alpicat",
+  "nombre": "Alpicat",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250236",
+  "lat": 41.66636,
+  "lon": 0.55508
+ },
+ {
+  "slug": "alt-aneu",
+  "nombre": "Alt Àneu",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "250241",
+  "lat": 42.63397,
+  "lon": 1.10858
+ },
+ {
+  "slug": "altafulla",
+  "nombre": "Altafulla",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "430120",
+  "lat": 41.14227,
+  "lon": 1.3769
+ },
+ {
+  "slug": "amer",
+  "nombre": "Amer",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "170078",
+  "lat": 42.00913,
+  "lon": 2.60322
+ },
+ {
+  "slug": "amposta",
+  "nombre": "Amposta",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "430141",
+  "lat": 40.71345,
+  "lon": 0.58101
+ },
+ {
+  "slug": "angles",
+  "nombre": "Anglès",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "170084",
+  "lat": 41.95682,
+  "lon": 2.63778
+ },
+ {
+  "slug": "anglesola",
+  "nombre": "Anglesola",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "250273",
+  "lat": 41.659,
+  "lon": 1.08142
+ },
+ {
+  "slug": "arbeca",
+  "nombre": "Arbeca",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250292",
+  "lat": 41.54224,
+  "lon": 0.92497
+ },
+ {
+  "slug": "arboli",
+  "nombre": "Arbolí",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430154",
+  "lat": 41.24196,
+  "lon": 0.94865
+ },
+ {
+  "slug": "arbucies",
+  "nombre": "Arbúcies",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "170097",
+  "lat": 41.816,
+  "lon": 2.51375
+ },
+ {
+  "slug": "arenys-de-mar",
+  "nombre": "Arenys de Mar",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080060",
+  "lat": 41.57953,
+  "lon": 2.55162
+ },
+ {
+  "slug": "arenys-de-munt",
+  "nombre": "Arenys de Munt",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080076",
+  "lat": 41.61095,
+  "lon": 2.53917
+ },
+ {
+  "slug": "argelaguer",
+  "nombre": "Argelaguer",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "170101",
+  "lat": 42.2134,
+  "lon": 2.6417
+ },
+ {
+  "slug": "argencola",
+  "nombre": "Argençola",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080082",
+  "lat": 41.59753,
+  "lon": 1.44416
+ },
+ {
+  "slug": "argentona",
+  "nombre": "Argentona",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080095",
+  "lat": 41.55564,
+  "lon": 2.40052
+ },
+ {
+  "slug": "arnes",
+  "nombre": "Arnes",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "430189",
+  "lat": 40.91015,
+  "lon": 0.26052
+ },
+ {
+  "slug": "arres",
+  "nombre": "Arres",
+  "comarca": "aran",
+  "provincia": "Lleida",
+  "ine": "250313",
+  "lat": 42.75498,
+  "lon": 0.71115
+ },
+ {
+  "slug": "arseguel",
+  "nombre": "Arsèguel",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "250328",
+  "lat": 42.3501,
+  "lon": 1.58288
+ },
+ {
+  "slug": "artes",
+  "nombre": "Artés",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080109",
+  "lat": 41.79814,
+  "lon": 1.95487
+ },
+ {
+  "slug": "artesa-de-lleida",
+  "nombre": "Artesa de Lleida",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250334",
+  "lat": 41.55174,
+  "lon": 0.70339
+ },
+ {
+  "slug": "artesa-de-segre",
+  "nombre": "Artesa de Segre",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250349",
+  "lat": 41.89544,
+  "lon": 1.04547
+ },
+ {
+  "slug": "asco",
+  "nombre": "Ascó",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "430192",
+  "lat": 41.1809,
+  "lon": 0.56711
+ },
+ {
+  "slug": "aspa",
+  "nombre": "Aspa",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250365",
+  "lat": 41.49565,
+  "lon": 0.67232
+ },
+ {
+  "slug": "avia",
+  "nombre": "Avià",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080116",
+  "lat": 42.07729,
+  "lon": 1.82516
+ },
+ {
+  "slug": "avinyo",
+  "nombre": "Avinyó",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080121",
+  "lat": 41.86338,
+  "lon": 1.97076
+ },
+ {
+  "slug": "avinyonet-de-puigventos",
+  "nombre": "Avinyonet de Puigventós",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170123",
+  "lat": 42.24937,
+  "lon": 2.91525
+ },
+ {
+  "slug": "avinyonet-del-penedes",
+  "nombre": "Avinyonet del Penedès",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "080137",
+  "lat": 41.36098,
+  "lon": 1.77938
+ },
+ {
+  "slug": "badalona",
+  "nombre": "Badalona",
+  "comarca": "barcelones",
+  "provincia": "Barcelona",
+  "ine": "080155",
+  "lat": 41.45003,
+  "lon": 2.24779
+ },
+ {
+  "slug": "badia-del-valles",
+  "nombre": "Badia del Vallès",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "089045",
+  "lat": 41.50903,
+  "lon": 2.11391
+ },
+ {
+  "slug": "baga",
+  "nombre": "Bagà",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080168",
+  "lat": 42.25285,
+  "lon": 1.8626
+ },
+ {
+  "slug": "baix-pallars",
+  "nombre": "Baix Pallars",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "250390",
+  "lat": 42.32361,
+  "lon": 1.06436
+ },
+ {
+  "slug": "balaguer",
+  "nombre": "Balaguer",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250404",
+  "lat": 41.78972,
+  "lon": 0.80459
+ },
+ {
+  "slug": "balenya",
+  "nombre": "Balenyà",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "080174",
+  "lat": 41.81537,
+  "lon": 2.23519
+ },
+ {
+  "slug": "balsareny",
+  "nombre": "Balsareny",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080180",
+  "lat": 41.86321,
+  "lon": 1.87682
+ },
+ {
+  "slug": "banyeres-del-penedes",
+  "nombre": "Banyeres del Penedès",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430206",
+  "lat": 41.27937,
+  "lon": 1.5808
+ },
+ {
+  "slug": "banyoles",
+  "nombre": "Banyoles",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "170157",
+  "lat": 42.1164,
+  "lon": 2.7638
+ },
+ {
+  "slug": "barbens",
+  "nombre": "Barbens",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "250411",
+  "lat": 41.67922,
+  "lon": 1.01837
+ },
+ {
+  "slug": "barbera-de-la-conca",
+  "nombre": "Barberà de la Conca",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "430213",
+  "lat": 41.41082,
+  "lon": 1.22745
+ },
+ {
+  "slug": "barbera-del-valles",
+  "nombre": "Barberà del Vallès",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082520",
+  "lat": 41.5158,
+  "lon": 2.12467
+ },
+ {
+  "slug": "barcelona",
+  "nombre": "Barcelona",
+  "comarca": "barcelones",
+  "provincia": "Barcelona",
+  "ine": "080193",
+  "lat": 41.38241,
+  "lon": 2.17724
+ },
+ {
+  "slug": "bascara",
+  "nombre": "Bàscara",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170160",
+  "lat": 42.15956,
+  "lon": 2.91018
+ },
+ {
+  "slug": "bassella",
+  "nombre": "Bassella",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "250447",
+  "lat": 42.00591,
+  "lon": 1.29429
+ },
+ {
+  "slug": "batea",
+  "nombre": "Batea",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "430228",
+  "lat": 41.0949,
+  "lon": 0.31076
+ },
+ {
+  "slug": "bausen",
+  "nombre": "Bausen",
+  "comarca": "aran",
+  "provincia": "Lleida",
+  "ine": "250450",
+  "lat": 42.83478,
+  "lon": 0.71629
+ },
+ {
+  "slug": "begues",
+  "nombre": "Begues",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080207",
+  "lat": 41.33017,
+  "lon": 1.92468
+ },
+ {
+  "slug": "begur",
+  "nombre": "Begur",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170139",
+  "lat": 41.95446,
+  "lon": 3.20732
+ },
+ {
+  "slug": "belianes",
+  "nombre": "Belianes",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "250463",
+  "lat": 41.56159,
+  "lon": 1.0174
+ },
+ {
+  "slug": "bell-lloc-durgell",
+  "nombre": "Bell-lloc d'Urgell",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "250485",
+  "lat": 41.63002,
+  "lon": 0.77951
+ },
+ {
+  "slug": "bellaguarda",
+  "nombre": "Bellaguarda",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "251706",
+  "lat": 41.33678,
+  "lon": 0.7383
+ },
+ {
+  "slug": "bellcaire-demporda",
+  "nombre": "Bellcaire d'Empordà",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170182",
+  "lat": 42.08101,
+  "lon": 3.09452
+ },
+ {
+  "slug": "bellcaire-durgell",
+  "nombre": "Bellcaire d'Urgell",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250479",
+  "lat": 41.75924,
+  "lon": 0.90557
+ },
+ {
+  "slug": "bellmunt-del-priorat",
+  "nombre": "Bellmunt del Priorat",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430234",
+  "lat": 41.16399,
+  "lon": 0.76531
+ },
+ {
+  "slug": "bellmunt-durgell",
+  "nombre": "Bellmunt d'Urgell",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250498",
+  "lat": 41.77387,
+  "lon": 0.95224
+ },
+ {
+  "slug": "bellprat",
+  "nombre": "Bellprat",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080214",
+  "lat": 41.51725,
+  "lon": 1.43445
+ },
+ {
+  "slug": "bellpuig",
+  "nombre": "Bellpuig",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "250501",
+  "lat": 41.62565,
+  "lon": 1.01211
+ },
+ {
+  "slug": "bellvei",
+  "nombre": "Bellvei",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430249",
+  "lat": 41.24134,
+  "lon": 1.57646
+ },
+ {
+  "slug": "bellver-de-cerdanya",
+  "nombre": "Bellver de Cerdanya",
+  "comarca": "cerdanya",
+  "provincia": "Lleida",
+  "ine": "250518",
+  "lat": 42.37073,
+  "lon": 1.77439
+ },
+ {
+  "slug": "bellvis",
+  "nombre": "Bellvís",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "250523",
+  "lat": 41.6722,
+  "lon": 0.81753
+ },
+ {
+  "slug": "benavent-de-segria",
+  "nombre": "Benavent de Segrià",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250539",
+  "lat": 41.69445,
+  "lon": 0.63452
+ },
+ {
+  "slug": "benifallet",
+  "nombre": "Benifallet",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "430252",
+  "lat": 40.97431,
+  "lon": 0.51798
+ },
+ {
+  "slug": "benissanet",
+  "nombre": "Benissanet",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "430265",
+  "lat": 41.05667,
+  "lon": 0.63514
+ },
+ {
+  "slug": "berga",
+  "nombre": "Berga",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080229",
+  "lat": 42.10376,
+  "lon": 1.84585
+ },
+ {
+  "slug": "besalu",
+  "nombre": "Besalú",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "170195",
+  "lat": 42.19889,
+  "lon": 2.69933
+ },
+ {
+  "slug": "bescano",
+  "nombre": "Bescanó",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170209",
+  "lat": 41.9654,
+  "lon": 2.74337
+ },
+ {
+  "slug": "beuda",
+  "nombre": "Beuda",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "170216",
+  "lat": 42.23713,
+  "lon": 2.70981
+ },
+ {
+  "slug": "bigues-i-riells-del-fai",
+  "nombre": "Bigues i Riells del Fai",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080235",
+  "lat": 41.67932,
+  "lon": 2.20827
+ },
+ {
+  "slug": "biosca",
+  "nombre": "Biosca",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "250557",
+  "lat": 41.84163,
+  "lon": 1.35808
+ },
+ {
+  "slug": "biure",
+  "nombre": "Biure",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172348",
+  "lat": 42.33809,
+  "lon": 2.89508
+ },
+ {
+  "slug": "blancafort",
+  "nombre": "Blancafort",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "430290",
+  "lat": 41.43794,
+  "lon": 1.15922
+ },
+ {
+  "slug": "blanes",
+  "nombre": "Blanes",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "170237",
+  "lat": 41.67403,
+  "lon": 2.79161
+ },
+ {
+  "slug": "boadella-i-les-escaules",
+  "nombre": "Boadella i les Escaules",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170293",
+  "lat": 42.33109,
+  "lon": 2.85755
+ },
+ {
+  "slug": "bolvir",
+  "nombre": "Bolvir",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "170242",
+  "lat": 42.41848,
+  "lon": 1.87986
+ },
+ {
+  "slug": "bonastre",
+  "nombre": "Bonastre",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430304",
+  "lat": 41.22061,
+  "lon": 1.43991
+ },
+ {
+  "slug": "bordils",
+  "nombre": "Bordils",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170255",
+  "lat": 42.04404,
+  "lon": 2.9115
+ },
+ {
+  "slug": "borrassa",
+  "nombre": "Borrassà",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170268",
+  "lat": 42.22306,
+  "lon": 2.92617
+ },
+ {
+  "slug": "borreda",
+  "nombre": "Borredà",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080240",
+  "lat": 42.13564,
+  "lon": 1.99399
+ },
+ {
+  "slug": "bossost",
+  "nombre": "Bossòst",
+  "comarca": "aran",
+  "provincia": "Lleida",
+  "ine": "250595",
+  "lat": 42.78354,
+  "lon": 0.69171
+ },
+ {
+  "slug": "bot",
+  "nombre": "Bot",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "430326",
+  "lat": 41.00896,
+  "lon": 0.38484
+ },
+ {
+  "slug": "botarell",
+  "nombre": "Botarell",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430332",
+  "lat": 41.13619,
+  "lon": 0.9887
+ },
+ {
+  "slug": "bovera",
+  "nombre": "Bovera",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250560",
+  "lat": 41.32654,
+  "lon": 0.63892
+ },
+ {
+  "slug": "brafim",
+  "nombre": "Bràfim",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430347",
+  "lat": 41.26874,
+  "lon": 1.34114
+ },
+ {
+  "slug": "breda",
+  "nombre": "Breda",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "170274",
+  "lat": 41.74849,
+  "lon": 2.55897
+ },
+ {
+  "slug": "brunyola-i-sant-marti-sapresa",
+  "nombre": "Brunyola i Sant Martí Sapresa",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "170280",
+  "lat": 41.90469,
+  "lon": 2.68432
+ },
+ {
+  "slug": "cabaces",
+  "nombre": "Cabacés",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430350",
+  "lat": 41.24738,
+  "lon": 0.73366
+ },
+ {
+  "slug": "cabanabona",
+  "nombre": "Cabanabona",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250609",
+  "lat": 41.85158,
+  "lon": 1.21731
+ },
+ {
+  "slug": "cabanelles",
+  "nombre": "Cabanelles",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170314",
+  "lat": 42.23037,
+  "lon": 2.81951
+ },
+ {
+  "slug": "cabanes",
+  "nombre": "Cabanes",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170307",
+  "lat": 42.30721,
+  "lon": 2.97806
+ },
+ {
+  "slug": "cabo",
+  "nombre": "Cabó",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "250616",
+  "lat": 42.23886,
+  "lon": 1.24694
+ },
+ {
+  "slug": "cabra-del-camp",
+  "nombre": "Cabra del Camp",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430363",
+  "lat": 41.39528,
+  "lon": 1.27666
+ },
+ {
+  "slug": "cabrera-danoia",
+  "nombre": "Cabrera d'Anoia",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080288",
+  "lat": 41.47767,
+  "lon": 1.70354
+ },
+ {
+  "slug": "cabrera-de-mar",
+  "nombre": "Cabrera de Mar",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080291",
+  "lat": 41.52601,
+  "lon": 2.39331
+ },
+ {
+  "slug": "cabrils",
+  "nombre": "Cabrils",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080305",
+  "lat": 41.52622,
+  "lon": 2.36772
+ },
+ {
+  "slug": "cadaques",
+  "nombre": "Cadaqués",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170329",
+  "lat": 42.28825,
+  "lon": 3.27585
+ },
+ {
+  "slug": "calaf",
+  "nombre": "Calaf",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080312",
+  "lat": 41.73407,
+  "lon": 1.51128
+ },
+ {
+  "slug": "calafell",
+  "nombre": "Calafell",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430379",
+  "lat": 41.20096,
+  "lon": 1.56871
+ },
+ {
+  "slug": "calders",
+  "nombre": "Calders",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "080348",
+  "lat": 41.78928,
+  "lon": 1.99132
+ },
+ {
+  "slug": "caldes-de-malavella",
+  "nombre": "Caldes de Malavella",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "170335",
+  "lat": 41.83898,
+  "lon": 2.80976
+ },
+ {
+  "slug": "caldes-de-montbui",
+  "nombre": "Caldes de Montbui",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080333",
+  "lat": 41.63459,
+  "lon": 2.16224
+ },
+ {
+  "slug": "caldes-destrac",
+  "nombre": "Caldes d'Estrac",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080327",
+  "lat": 41.57254,
+  "lon": 2.52752
+ },
+ {
+  "slug": "calella",
+  "nombre": "Calella",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080351",
+  "lat": 41.61327,
+  "lon": 2.65722
+ },
+ {
+  "slug": "calldetenes",
+  "nombre": "Calldetenes",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "080370",
+  "lat": 41.92412,
+  "lon": 2.28427
+ },
+ {
+  "slug": "callus",
+  "nombre": "Callús",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080386",
+  "lat": 41.78124,
+  "lon": 1.78387
+ },
+ {
+  "slug": "calonge-de-segarra",
+  "nombre": "Calonge de Segarra",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080364",
+  "lat": 41.74049,
+  "lon": 1.49384
+ },
+ {
+  "slug": "calonge-i-sant-antoni",
+  "nombre": "Calonge i Sant Antoni",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170340",
+  "lat": 41.86107,
+  "lon": 3.07584
+ },
+ {
+  "slug": "camallera-i-llampaies-saus",
+  "nombre": "Camallera i Llampaies Saus",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171870",
+  "lat": 42.12326,
+  "lon": 2.96373
+ },
+ {
+  "slug": "camarasa",
+  "nombre": "Camarasa",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250621",
+  "lat": 41.87526,
+  "lon": 0.87776
+ },
+ {
+  "slug": "camarles",
+  "nombre": "Camarles",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "439039",
+  "lat": 40.77191,
+  "lon": 0.67141
+ },
+ {
+  "slug": "cambrils",
+  "nombre": "Cambrils",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430385",
+  "lat": 41.07103,
+  "lon": 1.0578
+ },
+ {
+  "slug": "camos",
+  "nombre": "Camós",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "170353",
+  "lat": 42.09382,
+  "lon": 2.76805
+ },
+ {
+  "slug": "campdevanol",
+  "nombre": "Campdevànol",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "170366",
+  "lat": 42.22341,
+  "lon": 2.16801
+ },
+ {
+  "slug": "campelles",
+  "nombre": "Campelles",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "170372",
+  "lat": 42.29479,
+  "lon": 2.14107
+ },
+ {
+  "slug": "campins",
+  "nombre": "Campins",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080399",
+  "lat": 41.72453,
+  "lon": 2.46391
+ },
+ {
+  "slug": "campllong",
+  "nombre": "Campllong",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170388",
+  "lat": 41.89271,
+  "lon": 2.83123
+ },
+ {
+  "slug": "camprodon",
+  "nombre": "Camprodon",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "170391",
+  "lat": 42.31153,
+  "lon": 2.36504
+ },
+ {
+  "slug": "canejan",
+  "nombre": "Canejan",
+  "comarca": "aran",
+  "provincia": "Lleida",
+  "ine": "250637",
+  "lat": 42.83837,
+  "lon": 0.73849
+ },
+ {
+  "slug": "canet-dadri",
+  "nombre": "Canet d'Adri",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170405",
+  "lat": 42.03335,
+  "lon": 2.73706
+ },
+ {
+  "slug": "canet-de-mar",
+  "nombre": "Canet de Mar",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080403",
+  "lat": 41.58848,
+  "lon": 2.58243
+ },
+ {
+  "slug": "canovelles",
+  "nombre": "Canovelles",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080410",
+  "lat": 41.62176,
+  "lon": 2.27697
+ },
+ {
+  "slug": "canoves-i-samalus",
+  "nombre": "Cànoves i Samalús",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080425",
+  "lat": 41.69392,
+  "lon": 2.35294
+ },
+ {
+  "slug": "cantallops",
+  "nombre": "Cantallops",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170412",
+  "lat": 42.42268,
+  "lon": 2.92596
+ },
+ {
+  "slug": "canyelles",
+  "nombre": "Canyelles",
+  "comarca": "garraf",
+  "provincia": "Barcelona",
+  "ine": "080431",
+  "lat": 41.28576,
+  "lon": 1.72236
+ },
+ {
+  "slug": "capafonts",
+  "nombre": "Capafonts",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430398",
+  "lat": 41.29557,
+  "lon": 1.02728
+ },
+ {
+  "slug": "capcanes",
+  "nombre": "Capçanes",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430402",
+  "lat": 41.10015,
+  "lon": 0.7813
+ },
+ {
+  "slug": "capellades",
+  "nombre": "Capellades",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080446",
+  "lat": 41.53091,
+  "lon": 1.68581
+ },
+ {
+  "slug": "capmany",
+  "nombre": "Capmany",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170427",
+  "lat": 42.37262,
+  "lon": 2.92094
+ },
+ {
+  "slug": "capolat",
+  "nombre": "Capolat",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080459",
+  "lat": 42.07724,
+  "lon": 1.75318
+ },
+ {
+  "slug": "cardedeu",
+  "nombre": "Cardedeu",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080462",
+  "lat": 41.63829,
+  "lon": 2.35535
+ },
+ {
+  "slug": "cardona",
+  "nombre": "Cardona",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080478",
+  "lat": 41.91311,
+  "lon": 1.68033
+ },
+ {
+  "slug": "carme",
+  "nombre": "Carme",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080484",
+  "lat": 41.5309,
+  "lon": 1.62305
+ },
+ {
+  "slug": "caseres",
+  "nombre": "Caseres",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "430419",
+  "lat": 41.03857,
+  "lon": 0.25057
+ },
+ {
+  "slug": "cassa-de-la-selva",
+  "nombre": "Cassà de la Selva",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170448",
+  "lat": 41.88485,
+  "lon": 2.87429
+ },
+ {
+  "slug": "casserres",
+  "nombre": "Casserres",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080497",
+  "lat": 42.01436,
+  "lon": 1.84129
+ },
+ {
+  "slug": "castell-de-lareny",
+  "nombre": "Castell de l'Areny",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080575",
+  "lat": 42.17322,
+  "lon": 1.9452
+ },
+ {
+  "slug": "castell-de-mur",
+  "nombre": "Castell de Mur",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "259046",
+  "lat": 42.09166,
+  "lon": 0.87643
+ },
+ {
+  "slug": "castellar-de-la-ribera",
+  "nombre": "Castellar de la Ribera",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "250642",
+  "lat": 42.02265,
+  "lon": 1.41556
+ },
+ {
+  "slug": "castellar-de-nhug",
+  "nombre": "Castellar de n'Hug",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080522",
+  "lat": 42.28288,
+  "lon": 2.01721
+ },
+ {
+  "slug": "castellar-del-riu",
+  "nombre": "Castellar del Riu",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080500",
+  "lat": 42.13105,
+  "lon": 1.70873
+ },
+ {
+  "slug": "castellar-del-valles",
+  "nombre": "Castellar del Vallès",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "080517",
+  "lat": 41.61856,
+  "lon": 2.08764
+ },
+ {
+  "slug": "castellbell-i-el-vilar",
+  "nombre": "Castellbell i el Vilar",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080538",
+  "lat": 41.62939,
+  "lon": 1.86048
+ },
+ {
+  "slug": "castellbisbal",
+  "nombre": "Castellbisbal",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "080543",
+  "lat": 41.47488,
+  "lon": 1.98123
+ },
+ {
+  "slug": "castellcir",
+  "nombre": "Castellcir",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "080556",
+  "lat": 41.76074,
+  "lon": 2.1489
+ },
+ {
+  "slug": "castelldans",
+  "nombre": "Castelldans",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250674",
+  "lat": 41.49661,
+  "lon": 0.76533
+ },
+ {
+  "slug": "castelldefels",
+  "nombre": "Castelldefels",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080569",
+  "lat": 41.28027,
+  "lon": 1.97623
+ },
+ {
+  "slug": "castellet-i-la-gornal",
+  "nombre": "Castellet i la Gornal",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "080581",
+  "lat": 41.2534,
+  "lon": 1.5907
+ },
+ {
+  "slug": "castellfollit-de-la-roca",
+  "nombre": "Castellfollit de la Roca",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "170464",
+  "lat": 42.2195,
+  "lon": 2.54965
+ },
+ {
+  "slug": "castellfollit-de-riubregos",
+  "nombre": "Castellfollit de Riubregós",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080608",
+  "lat": 41.77607,
+  "lon": 1.43757
+ },
+ {
+  "slug": "castellfollit-del-boix",
+  "nombre": "Castellfollit del Boix",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080594",
+  "lat": 41.66719,
+  "lon": 1.68337
+ },
+ {
+  "slug": "castellgali",
+  "nombre": "Castellgalí",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080615",
+  "lat": 41.67521,
+  "lon": 1.83859
+ },
+ {
+  "slug": "castellnou-de-bages",
+  "nombre": "Castellnou de Bages",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080620",
+  "lat": 41.83413,
+  "lon": 1.83691
+ },
+ {
+  "slug": "castellnou-de-seana",
+  "nombre": "Castellnou de Seana",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "250680",
+  "lat": 41.64822,
+  "lon": 0.97124
+ },
+ {
+  "slug": "castello-de-farfanya",
+  "nombre": "Castelló de Farfanya",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250693",
+  "lat": 41.82027,
+  "lon": 0.72735
+ },
+ {
+  "slug": "castello-dempuries",
+  "nombre": "Castelló d'Empúries",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170470",
+  "lat": 42.25858,
+  "lon": 3.07479
+ },
+ {
+  "slug": "castelloli",
+  "nombre": "Castellolí",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080636",
+  "lat": 41.59832,
+  "lon": 1.70032
+ },
+ {
+  "slug": "castellsera",
+  "nombre": "Castellserà",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "250707",
+  "lat": 41.74684,
+  "lon": 0.98696
+ },
+ {
+  "slug": "castelltercol",
+  "nombre": "Castellterçol",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "080641",
+  "lat": 41.75156,
+  "lon": 2.1205
+ },
+ {
+  "slug": "castellvell-del-camp",
+  "nombre": "Castellvell del Camp",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430424",
+  "lat": 41.18055,
+  "lon": 1.09691
+ },
+ {
+  "slug": "castellvi-de-la-marca",
+  "nombre": "Castellví de la Marca",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "080654",
+  "lat": 41.32643,
+  "lon": 1.61821
+ },
+ {
+  "slug": "castellvi-de-rosanes",
+  "nombre": "Castellví de Rosanes",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080667",
+  "lat": 41.45006,
+  "lon": 1.89951
+ },
+ {
+  "slug": "cava",
+  "nombre": "Cava",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "250714",
+  "lat": 42.32535,
+  "lon": 1.5844
+ },
+ {
+  "slug": "celra",
+  "nombre": "Celrà",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170499",
+  "lat": 42.02656,
+  "lon": 2.87439
+ },
+ {
+  "slug": "centelles",
+  "nombre": "Centelles",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "080673",
+  "lat": 41.7977,
+  "lon": 2.2191
+ },
+ {
+  "slug": "cercs",
+  "nombre": "Cercs",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "082687",
+  "lat": 42.14605,
+  "lon": 1.86192
+ },
+ {
+  "slug": "cerdanyola-del-valles",
+  "nombre": "Cerdanyola del Vallès",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082665",
+  "lat": 41.49102,
+  "lon": 2.14072
+ },
+ {
+  "slug": "cervello",
+  "nombre": "Cervelló",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080689",
+  "lat": 41.39611,
+  "lon": 1.95895
+ },
+ {
+  "slug": "cervera",
+  "nombre": "Cervera",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "250729",
+  "lat": 41.66581,
+  "lon": 1.27126
+ },
+ {
+  "slug": "cervia-de-les-garrigues",
+  "nombre": "Cervià de les Garrigues",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250735",
+  "lat": 41.42463,
+  "lon": 0.85922
+ },
+ {
+  "slug": "cervia-de-ter",
+  "nombre": "Cervià de Ter",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170502",
+  "lat": 42.06724,
+  "lon": 2.91063
+ },
+ {
+  "slug": "cistella",
+  "nombre": "Cistella",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170519",
+  "lat": 42.26846,
+  "lon": 2.84821
+ },
+ {
+  "slug": "ciutadilla",
+  "nombre": "Ciutadilla",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "250740",
+  "lat": 41.56161,
+  "lon": 1.13881
+ },
+ {
+  "slug": "clariana-de-cardener",
+  "nombre": "Clariana de Cardener",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "250753",
+  "lat": 41.93392,
+  "lon": 1.62477
+ },
+ {
+  "slug": "colera",
+  "nombre": "Colera",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170545",
+  "lat": 42.40388,
+  "lon": 3.15066
+ },
+ {
+  "slug": "coll-de-nargo",
+  "nombre": "Coll de Nargó",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "250772",
+  "lat": 42.17352,
+  "lon": 1.31565
+ },
+ {
+  "slug": "collbato",
+  "nombre": "Collbató",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080692",
+  "lat": 41.5673,
+  "lon": 1.82952
+ },
+ {
+  "slug": "colldejou",
+  "nombre": "Colldejou",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430458",
+  "lat": 41.10006,
+  "lon": 0.88831
+ },
+ {
+  "slug": "collsuspina",
+  "nombre": "Collsuspina",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "080706",
+  "lat": 41.8258,
+  "lon": 2.17531
+ },
+ {
+  "slug": "colomers",
+  "nombre": "Colomers",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170558",
+  "lat": 42.08438,
+  "lon": 2.98708
+ },
+ {
+  "slug": "conca-de-dalt",
+  "nombre": "Conca de Dalt",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "251615",
+  "lat": 42.24478,
+  "lon": 0.97143
+ },
+ {
+  "slug": "conesa",
+  "nombre": "Conesa",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "430461",
+  "lat": 41.51861,
+  "lon": 1.29129
+ },
+ {
+  "slug": "constanti",
+  "nombre": "Constantí",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "430477",
+  "lat": 41.15309,
+  "lon": 1.21373
+ },
+ {
+  "slug": "copons",
+  "nombre": "Copons",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080713",
+  "lat": 41.63639,
+  "lon": 1.51822
+ },
+ {
+  "slug": "corbera-de-llobregat",
+  "nombre": "Corbera de Llobregat",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080728",
+  "lat": 41.4161,
+  "lon": 1.9277
+ },
+ {
+  "slug": "corbera-debre",
+  "nombre": "Corbera d'Ebre",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "430483",
+  "lat": 41.07773,
+  "lon": 0.47815
+ },
+ {
+  "slug": "corbins",
+  "nombre": "Corbins",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250788",
+  "lat": 41.69065,
+  "lon": 0.69291
+ },
+ {
+  "slug": "corca",
+  "nombre": "Corçà",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170577",
+  "lat": 41.98982,
+  "lon": 3.01729
+ },
+ {
+  "slug": "cornella-de-llobregat",
+  "nombre": "Cornellà de Llobregat",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080734",
+  "lat": 41.35517,
+  "lon": 2.07016
+ },
+ {
+  "slug": "cornella-del-terri",
+  "nombre": "Cornellà del Terri",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "170561",
+  "lat": 42.08914,
+  "lon": 2.81566
+ },
+ {
+  "slug": "cornudella-de-montsant",
+  "nombre": "Cornudella de Montsant",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430496",
+  "lat": 41.26504,
+  "lon": 0.90495
+ },
+ {
+  "slug": "creixell",
+  "nombre": "Creixell",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "430509",
+  "lat": 41.16774,
+  "lon": 1.44063
+ },
+ {
+  "slug": "crespia",
+  "nombre": "Crespià",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "170583",
+  "lat": 42.18778,
+  "lon": 2.79791
+ },
+ {
+  "slug": "cubelles",
+  "nombre": "Cubelles",
+  "comarca": "garraf",
+  "provincia": "Barcelona",
+  "ine": "080749",
+  "lat": 41.20825,
+  "lon": 1.67253
+ },
+ {
+  "slug": "cubells",
+  "nombre": "Cubells",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250791",
+  "lat": 41.85275,
+  "lon": 0.95713
+ },
+ {
+  "slug": "cunit",
+  "nombre": "Cunit",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430516",
+  "lat": 41.19809,
+  "lon": 1.63484
+ },
+ {
+  "slug": "darnius",
+  "nombre": "Darnius",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170600",
+  "lat": 42.36821,
+  "lon": 2.83214
+ },
+ {
+  "slug": "das",
+  "nombre": "Das",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "170617",
+  "lat": 42.36162,
+  "lon": 1.87011
+ },
+ {
+  "slug": "deltebre",
+  "nombre": "Deltebre",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "439018",
+  "lat": 40.71961,
+  "lon": 0.72278
+ },
+ {
+  "slug": "dosrius",
+  "nombre": "Dosrius",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "080752",
+  "lat": 41.59468,
+  "lon": 2.40585
+ },
+ {
+  "slug": "duesaigues",
+  "nombre": "Duesaigües",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430537",
+  "lat": 41.14605,
+  "lon": 0.93069
+ },
+ {
+  "slug": "el-bruc",
+  "nombre": "El Bruc",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "080253",
+  "lat": 41.58073,
+  "lon": 1.78006
+ },
+ {
+  "slug": "el-brull",
+  "nombre": "El Brull",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "080266",
+  "lat": 41.81674,
+  "lon": 2.30549
+ },
+ {
+  "slug": "el-catllar",
+  "nombre": "El Catllar",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "430430",
+  "lat": 41.17548,
+  "lon": 1.32614
+ },
+ {
+  "slug": "el-cogul",
+  "nombre": "El Cogul",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250766",
+  "lat": 41.46672,
+  "lon": 0.68952
+ },
+ {
+  "slug": "el-far-demporda",
+  "nombre": "El Far d'Empordà",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170059",
+  "lat": 42.25195,
+  "lon": 2.99637
+ },
+ {
+  "slug": "el-lloar",
+  "nombre": "El Lloar",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430727",
+  "lat": 41.18588,
+  "lon": 0.75096
+ },
+ {
+  "slug": "el-masnou",
+  "nombre": "El Masnou",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081189",
+  "lat": 41.47916,
+  "lon": 2.31902
+ },
+ {
+  "slug": "el-masroig",
+  "nombre": "El Masroig",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430825",
+  "lat": 41.12667,
+  "lon": 0.7313
+ },
+ {
+  "slug": "el-mila",
+  "nombre": "El Milà",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430831",
+  "lat": 41.24823,
+  "lon": 1.20682
+ },
+ {
+  "slug": "el-molar",
+  "nombre": "El Molar",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430859",
+  "lat": 41.16375,
+  "lon": 0.70616
+ },
+ {
+  "slug": "el-montmell",
+  "nombre": "El Montmell",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430901",
+  "lat": 41.31556,
+  "lon": 1.4538
+ },
+ {
+  "slug": "el-morell",
+  "nombre": "El Morell",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "430957",
+  "lat": 41.19211,
+  "lon": 1.20873
+ },
+ {
+  "slug": "el-palau-danglesola",
+  "nombre": "El Palau d'Anglesola",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "251581",
+  "lat": 41.65165,
+  "lon": 0.88082
+ },
+ {
+  "slug": "el-papiol",
+  "nombre": "El Papiol",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "081580",
+  "lat": 41.43802,
+  "lon": 2.01096
+ },
+ {
+  "slug": "el-perello",
+  "nombre": "El Perelló",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "431042",
+  "lat": 40.87496,
+  "lon": 0.712
+ },
+ {
+  "slug": "el-pinell-de-brai",
+  "nombre": "El Pinell de Brai",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "431068",
+  "lat": 41.01781,
+  "lon": 0.51569
+ },
+ {
+  "slug": "el-pla-de-santa-maria",
+  "nombre": "El Pla de Santa Maria",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431080",
+  "lat": 41.36536,
+  "lon": 1.28883
+ },
+ {
+  "slug": "el-pla-del-penedes",
+  "nombre": "El Pla del Penedès",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "081640",
+  "lat": 41.41837,
+  "lon": 1.71028
+ },
+ {
+  "slug": "el-poal",
+  "nombre": "El Poal",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "251689",
+  "lat": 41.67838,
+  "lon": 0.85686
+ },
+ {
+  "slug": "el-pont-darmentera",
+  "nombre": "El Pont d'Armentera",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431135",
+  "lat": 41.38375,
+  "lon": 1.36294
+ },
+ {
+  "slug": "el-pont-de-bar",
+  "nombre": "El Pont de Bar",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "250306",
+  "lat": 42.37221,
+  "lon": 1.60515
+ },
+ {
+  "slug": "el-pont-de-suert",
+  "nombre": "El Pont de Suert",
+  "comarca": "alta-ribagorca",
+  "provincia": "Lleida",
+  "ine": "251734",
+  "lat": 42.40773,
+  "lon": 0.74082
+ },
+ {
+  "slug": "el-pont-de-vilomara-i-rocafort",
+  "nombre": "El Pont de Vilomara i Rocafort",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "081825",
+  "lat": 41.70007,
+  "lon": 1.87062
+ },
+ {
+  "slug": "el-port-de-la-selva",
+  "nombre": "El Port de la Selva",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171404",
+  "lat": 42.3386,
+  "lon": 3.20454
+ },
+ {
+  "slug": "el-prat-de-llobregat",
+  "nombre": "El Prat de Llobregat",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "081691",
+  "lat": 41.33074,
+  "lon": 2.09304
+ },
+ {
+  "slug": "el-rourell",
+  "nombre": "El Rourell",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431346",
+  "lat": 41.22487,
+  "lon": 1.21777
+ },
+ {
+  "slug": "el-soleras",
+  "nombre": "El Soleràs",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "252069",
+  "lat": 41.41409,
+  "lon": 0.68163
+ },
+ {
+  "slug": "el-vendrell",
+  "nombre": "El Vendrell",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "431634",
+  "lat": 41.22012,
+  "lon": 1.5351
+ },
+ {
+  "slug": "el-vilosell",
+  "nombre": "El Vilosell",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "252537",
+  "lat": 41.3833,
+  "lon": 0.9466
+ },
+ {
+  "slug": "els-alamus",
+  "nombre": "Els Alamús",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "250045",
+  "lat": 41.61571,
+  "lon": 0.73855
+ },
+ {
+  "slug": "els-garidells",
+  "nombre": "Els Garidells",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430666",
+  "lat": 41.20726,
+  "lon": 1.24761
+ },
+ {
+  "slug": "els-guiamets",
+  "nombre": "Els Guiamets",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430705",
+  "lat": 41.10185,
+  "lon": 0.75297
+ },
+ {
+  "slug": "els-hostalets-de-pierola",
+  "nombre": "Els Hostalets de Pierola",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081629",
+  "lat": 41.5338,
+  "lon": 1.77075
+ },
+ {
+  "slug": "els-omellons",
+  "nombre": "Els Omellons",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "251538",
+  "lat": 41.50112,
+  "lon": 0.95991
+ },
+ {
+  "slug": "els-omells-de-na-gaia",
+  "nombre": "Els Omells de na Gaia",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "251543",
+  "lat": 41.50068,
+  "lon": 1.0751
+ },
+ {
+  "slug": "els-pallaresos",
+  "nombre": "Els Pallaresos",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431009",
+  "lat": 41.17536,
+  "lon": 1.27186
+ },
+ {
+  "slug": "els-plans-de-sio",
+  "nombre": "Els Plans de Sió",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "259118",
+  "lat": 41.76137,
+  "lon": 1.19703
+ },
+ {
+  "slug": "els-prats-de-rei",
+  "nombre": "Els Prats de Rei",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081705",
+  "lat": 41.70554,
+  "lon": 1.54208
+ },
+ {
+  "slug": "els-torms",
+  "nombre": "Els Torms",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "252249",
+  "lat": 41.39443,
+  "lon": 0.71902
+ },
+ {
+  "slug": "es-bordes",
+  "nombre": "Es Bòrdes",
+  "comarca": "aran",
+  "provincia": "Lleida",
+  "ine": "250576",
+  "lat": 42.73804,
+  "lon": 0.71924
+ },
+ {
+  "slug": "esparreguera",
+  "nombre": "Esparreguera",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080765",
+  "lat": 41.53897,
+  "lon": 1.87071
+ },
+ {
+  "slug": "espinelves",
+  "nombre": "Espinelves",
+  "comarca": "osona",
+  "provincia": "Girona",
+  "ine": "170638",
+  "lat": 41.86887,
+  "lon": 2.41788
+ },
+ {
+  "slug": "esplugues-de-llobregat",
+  "nombre": "Esplugues de Llobregat",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080771",
+  "lat": 41.3777,
+  "lon": 2.08799
+ },
+ {
+  "slug": "espolla",
+  "nombre": "Espolla",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170643",
+  "lat": 42.39127,
+  "lon": 3.00069
+ },
+ {
+  "slug": "esponella",
+  "nombre": "Esponellà",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "170656",
+  "lat": 42.17736,
+  "lon": 2.79701
+ },
+ {
+  "slug": "espot",
+  "nombre": "Espot",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "250827",
+  "lat": 42.57541,
+  "lon": 1.08997
+ },
+ {
+  "slug": "estamariu",
+  "nombre": "Estamariu",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "250886",
+  "lat": 42.37343,
+  "lon": 1.52284
+ },
+ {
+  "slug": "estaras",
+  "nombre": "Estaràs",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "250851",
+  "lat": 41.69196,
+  "lon": 1.37841
+ },
+ {
+  "slug": "esterri-daneu",
+  "nombre": "Esterri d'Àneu",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "250864",
+  "lat": 42.6283,
+  "lon": 1.12324
+ },
+ {
+  "slug": "esterri-de-cardos",
+  "nombre": "Esterri de Cardós",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "250870",
+  "lat": 42.59221,
+  "lon": 1.26204
+ },
+ {
+  "slug": "falset",
+  "nombre": "Falset",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430555",
+  "lat": 41.14618,
+  "lon": 0.82012
+ },
+ {
+  "slug": "farrera",
+  "nombre": "Farrera",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "250899",
+  "lat": 42.505,
+  "lon": 1.27115
+ },
+ {
+  "slug": "figaro-montmany",
+  "nombre": "Figaró-Montmany",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081347",
+  "lat": 41.7217,
+  "lon": 2.27337
+ },
+ {
+  "slug": "figols",
+  "nombre": "Fígols",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080804",
+  "lat": 42.18101,
+  "lon": 1.83676
+ },
+ {
+  "slug": "figols-i-alinya",
+  "nombre": "Fígols i Alinyà",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "259084",
+  "lat": 42.20273,
+  "lon": 1.34024
+ },
+ {
+  "slug": "figueres",
+  "nombre": "Figueres",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170669",
+  "lat": 42.26721,
+  "lon": 2.96089
+ },
+ {
+  "slug": "figuerola-del-camp",
+  "nombre": "Figuerola del Camp",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430593",
+  "lat": 41.37192,
+  "lon": 1.26532
+ },
+ {
+  "slug": "flaca",
+  "nombre": "Flaçà",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170675",
+  "lat": 42.0471,
+  "lon": 2.95814
+ },
+ {
+  "slug": "flix",
+  "nombre": "Flix",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "430607",
+  "lat": 41.23128,
+  "lon": 0.54995
+ },
+ {
+  "slug": "fogars-de-la-selva",
+  "nombre": "Fogars de la Selva",
+  "comarca": "selva",
+  "provincia": "Barcelona",
+  "ine": "080826",
+  "lat": 41.7351,
+  "lon": 2.67143
+ },
+ {
+  "slug": "fogars-de-montclus",
+  "nombre": "Fogars de Montclús",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080811",
+  "lat": 41.72764,
+  "lon": 2.44317
+ },
+ {
+  "slug": "foixa",
+  "nombre": "Foixà",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170681",
+  "lat": 42.03886,
+  "lon": 2.99803
+ },
+ {
+  "slug": "folgueroles",
+  "nombre": "Folgueroles",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "080832",
+  "lat": 41.93863,
+  "lon": 2.31846
+ },
+ {
+  "slug": "fondarella",
+  "nombre": "Fondarella",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "250931",
+  "lat": 41.63464,
+  "lon": 0.87352
+ },
+ {
+  "slug": "fonollosa",
+  "nombre": "Fonollosa",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080847",
+  "lat": 41.76293,
+  "lon": 1.6687
+ },
+ {
+  "slug": "font-rubi",
+  "nombre": "Font-rubí",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "080850",
+  "lat": 41.41394,
+  "lon": 1.65103
+ },
+ {
+  "slug": "fontanals-de-cerdanya",
+  "nombre": "Fontanals de Cerdanya",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "170694",
+  "lat": 42.385,
+  "lon": 1.89947
+ },
+ {
+  "slug": "fontanilles",
+  "nombre": "Fontanilles",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170708",
+  "lat": 42.00994,
+  "lon": 3.10841
+ },
+ {
+  "slug": "fontcoberta",
+  "nombre": "Fontcoberta",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "170715",
+  "lat": 42.14287,
+  "lon": 2.78952
+ },
+ {
+  "slug": "foradada",
+  "nombre": "Foradada",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250946",
+  "lat": 41.87716,
+  "lon": 1.01281
+ },
+ {
+  "slug": "forallac",
+  "nombre": "Forallac",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "179026",
+  "lat": 41.95974,
+  "lon": 3.05509
+ },
+ {
+  "slug": "fores",
+  "nombre": "Forès",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "430614",
+  "lat": 41.49336,
+  "lon": 1.23549
+ },
+ {
+  "slug": "fornells-de-la-selva",
+  "nombre": "Fornells de la Selva",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170736",
+  "lat": 41.93463,
+  "lon": 2.81046
+ },
+ {
+  "slug": "fortia",
+  "nombre": "Fortià",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170741",
+  "lat": 42.24243,
+  "lon": 3.04043
+ },
+ {
+  "slug": "freginals",
+  "nombre": "Freginals",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "430629",
+  "lat": 40.6719,
+  "lon": 0.51992
+ },
+ {
+  "slug": "fulleda",
+  "nombre": "Fulleda",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250978",
+  "lat": 41.46305,
+  "lon": 1.02431
+ },
+ {
+  "slug": "gaia",
+  "nombre": "Gaià",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080902",
+  "lat": 41.91653,
+  "lon": 1.92544
+ },
+ {
+  "slug": "gallifa",
+  "nombre": "Gallifa",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "080879",
+  "lat": 41.69311,
+  "lon": 2.1157
+ },
+ {
+  "slug": "gandesa",
+  "nombre": "Gandesa",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "430640",
+  "lat": 41.05208,
+  "lon": 0.43911
+ },
+ {
+  "slug": "garcia",
+  "nombre": "Garcia",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "430653",
+  "lat": 41.13668,
+  "lon": 0.64871
+ },
+ {
+  "slug": "garrigas",
+  "nombre": "Garrigàs",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170754",
+  "lat": 42.1935,
+  "lon": 2.95414
+ },
+ {
+  "slug": "garrigoles",
+  "nombre": "Garrigoles",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170767",
+  "lat": 42.10722,
+  "lon": 3.03049
+ },
+ {
+  "slug": "garriguella",
+  "nombre": "Garriguella",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170773",
+  "lat": 42.34451,
+  "lon": 3.06469
+ },
+ {
+  "slug": "gava",
+  "nombre": "Gavà",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "080898",
+  "lat": 41.30612,
+  "lon": 2.00477
+ },
+ {
+  "slug": "gavet-de-la-conca",
+  "nombre": "Gavet de la Conca",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "250984",
+  "lat": 42.12319,
+  "lon": 0.92046
+ },
+ {
+  "slug": "gelida",
+  "nombre": "Gelida",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "080919",
+  "lat": 41.44093,
+  "lon": 1.86317
+ },
+ {
+  "slug": "ger",
+  "nombre": "Ger",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "170789",
+  "lat": 42.41063,
+  "lon": 1.84553
+ },
+ {
+  "slug": "gimenells-i-el-pla-de-la-font",
+  "nombre": "Gimenells i el Pla de la Font",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "259123",
+  "lat": 41.65228,
+  "lon": 0.38985
+ },
+ {
+  "slug": "ginestar",
+  "nombre": "Ginestar",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "430672",
+  "lat": 41.04181,
+  "lon": 0.63366
+ },
+ {
+  "slug": "girona",
+  "nombre": "Girona",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170792",
+  "lat": 41.98316,
+  "lon": 2.82487
+ },
+ {
+  "slug": "gironella",
+  "nombre": "Gironella",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080924",
+  "lat": 42.03384,
+  "lon": 1.88285
+ },
+ {
+  "slug": "gisclareny",
+  "nombre": "Gisclareny",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080930",
+  "lat": 42.25004,
+  "lon": 1.78646
+ },
+ {
+  "slug": "godall",
+  "nombre": "Godall",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "430688",
+  "lat": 40.65558,
+  "lon": 0.46861
+ },
+ {
+  "slug": "golmes",
+  "nombre": "Golmés",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "250997",
+  "lat": 41.63261,
+  "lon": 0.93311
+ },
+ {
+  "slug": "gombren",
+  "nombre": "Gombrèn",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "170806",
+  "lat": 42.24786,
+  "lon": 2.09094
+ },
+ {
+  "slug": "gosol",
+  "nombre": "Gósol",
+  "comarca": "bergueda",
+  "provincia": "Lleida",
+  "ine": "251001",
+  "lat": 42.23704,
+  "lon": 1.66063
+ },
+ {
+  "slug": "granera",
+  "nombre": "Granera",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "080958",
+  "lat": 41.72542,
+  "lon": 2.05717
+ },
+ {
+  "slug": "granollers",
+  "nombre": "Granollers",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080961",
+  "lat": 41.60809,
+  "lon": 2.28682
+ },
+ {
+  "slug": "granyanella",
+  "nombre": "Granyanella",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251039",
+  "lat": 41.66644,
+  "lon": 1.22811
+ },
+ {
+  "slug": "granyena-de-les-garrigues",
+  "nombre": "Granyena de les Garrigues",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "251057",
+  "lat": 41.43256,
+  "lon": 0.65007
+ },
+ {
+  "slug": "granyena-de-segarra",
+  "nombre": "Granyena de Segarra",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251044",
+  "lat": 41.62358,
+  "lon": 1.24631
+ },
+ {
+  "slug": "gratallops",
+  "nombre": "Gratallops",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430691",
+  "lat": 41.19364,
+  "lon": 0.77746
+ },
+ {
+  "slug": "gualba",
+  "nombre": "Gualba",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080977",
+  "lat": 41.73205,
+  "lon": 2.50192
+ },
+ {
+  "slug": "gualta",
+  "nombre": "Gualta",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170813",
+  "lat": 42.02849,
+  "lon": 3.10367
+ },
+ {
+  "slug": "guardiola-de-bergueda",
+  "nombre": "Guardiola de Berguedà",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080996",
+  "lat": 42.23322,
+  "lon": 1.87881
+ },
+ {
+  "slug": "guils-de-cerdanya",
+  "nombre": "Guils de Cerdanya",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "170828",
+  "lat": 42.44838,
+  "lon": 1.87921
+ },
+ {
+  "slug": "guimera",
+  "nombre": "Guimerà",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "251095",
+  "lat": 41.56421,
+  "lon": 1.18363
+ },
+ {
+  "slug": "guissona",
+  "nombre": "Guissona",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251109",
+  "lat": 41.78465,
+  "lon": 1.2883
+ },
+ {
+  "slug": "guixers",
+  "nombre": "Guixers",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251116",
+  "lat": 42.13243,
+  "lon": 1.66634
+ },
+ {
+  "slug": "gurb",
+  "nombre": "Gurb",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081000",
+  "lat": 41.94049,
+  "lon": 2.24328
+ },
+ {
+  "slug": "horta-de-sant-joan",
+  "nombre": "Horta de Sant Joan",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "430712",
+  "lat": 40.95383,
+  "lon": 0.31686
+ },
+ {
+  "slug": "hostalric",
+  "nombre": "Hostalric",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "170834",
+  "lat": 41.74581,
+  "lon": 2.64135
+ },
+ {
+  "slug": "igualada",
+  "nombre": "Igualada",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081022",
+  "lat": 41.57872,
+  "lon": 1.61758
+ },
+ {
+  "slug": "isona-i-conca-della",
+  "nombre": "Isona i Conca Dellà",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "251155",
+  "lat": 42.11697,
+  "lon": 1.04388
+ },
+ {
+  "slug": "isovol",
+  "nombre": "Isòvol",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "170849",
+  "lat": 42.39771,
+  "lon": 1.83727
+ },
+ {
+  "slug": "ivars-de-noguera",
+  "nombre": "Ivars de Noguera",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "251121",
+  "lat": 41.85034,
+  "lon": 0.58585
+ },
+ {
+  "slug": "ivars-durgell",
+  "nombre": "Ivars d'Urgell",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "251137",
+  "lat": 41.68196,
+  "lon": 0.98674
+ },
+ {
+  "slug": "ivorra",
+  "nombre": "Ivorra",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251142",
+  "lat": 41.77146,
+  "lon": 1.39566
+ },
+ {
+  "slug": "jafre",
+  "nombre": "Jafre",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170852",
+  "lat": 42.07197,
+  "lon": 3.01076
+ },
+ {
+  "slug": "jorba",
+  "nombre": "Jorba",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081038",
+  "lat": 41.6018,
+  "lon": 1.54865
+ },
+ {
+  "slug": "josa-i-tuixen",
+  "nombre": "Josa i Tuixén",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "259101",
+  "lat": 42.23123,
+  "lon": 1.56651
+ },
+ {
+  "slug": "juia",
+  "nombre": "Juià",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170871",
+  "lat": 42.01795,
+  "lon": 2.90734
+ },
+ {
+  "slug": "juncosa",
+  "nombre": "Juncosa",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "251180",
+  "lat": 41.37144,
+  "lon": 0.77546
+ },
+ {
+  "slug": "juneda",
+  "nombre": "Juneda",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "251193",
+  "lat": 41.54871,
+  "lon": 0.8252
+ },
+ {
+  "slug": "la-baronia-de-rialb",
+  "nombre": "La Baronia de Rialb",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250426",
+  "lat": 41.93218,
+  "lon": 1.19619
+ },
+ {
+  "slug": "la-bisbal-de-montsant",
+  "nombre": "La Bisbal de Montsant",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430271",
+  "lat": 41.28023,
+  "lon": 0.72333
+ },
+ {
+  "slug": "la-bisbal-del-penedes",
+  "nombre": "La Bisbal del Penedès",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430287",
+  "lat": 41.28048,
+  "lon": 1.48774
+ },
+ {
+  "slug": "la-bisbal-demporda",
+  "nombre": "La Bisbal d'Empordà",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170221",
+  "lat": 41.9593,
+  "lon": 3.03815
+ },
+ {
+  "slug": "la-canonja",
+  "nombre": "La Canonja",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "439076",
+  "lat": 41.12291,
+  "lon": 1.17897
+ },
+ {
+  "slug": "la-cellera-de-ter",
+  "nombre": "La Cellera de Ter",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171899",
+  "lat": 41.96747,
+  "lon": 2.62223
+ },
+ {
+  "slug": "la-coma-i-la-pedra",
+  "nombre": "La Coma i la Pedra",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251636",
+  "lat": 42.17592,
+  "lon": 1.5898
+ },
+ {
+  "slug": "la-fatarella",
+  "nombre": "La Fatarella",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "430568",
+  "lat": 41.16234,
+  "lon": 0.47315
+ },
+ {
+  "slug": "la-febro",
+  "nombre": "La Febró",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430574",
+  "lat": 41.27722,
+  "lon": 1.00393
+ },
+ {
+  "slug": "la-figuera",
+  "nombre": "La Figuera",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430580",
+  "lat": 41.21652,
+  "lon": 0.73204
+ },
+ {
+  "slug": "la-floresta",
+  "nombre": "La Floresta",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250925",
+  "lat": 41.50985,
+  "lon": 0.91984
+ },
+ {
+  "slug": "la-fuliola",
+  "nombre": "La Fuliola",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "250962",
+  "lat": 41.71456,
+  "lon": 1.01902
+ },
+ {
+  "slug": "la-galera",
+  "nombre": "La Galera",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "430635",
+  "lat": 40.68156,
+  "lon": 0.46373
+ },
+ {
+  "slug": "la-garriga",
+  "nombre": "La Garriga",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080885",
+  "lat": 41.68531,
+  "lon": 2.28584
+ },
+ {
+  "slug": "la-granada",
+  "nombre": "La Granada",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "080945",
+  "lat": 41.37688,
+  "lon": 1.71948
+ },
+ {
+  "slug": "la-granadella",
+  "nombre": "La Granadella",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "251018",
+  "lat": 41.35523,
+  "lon": 0.66538
+ },
+ {
+  "slug": "la-granja-descarp",
+  "nombre": "La Granja d'Escarp",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "251023",
+  "lat": 41.41838,
+  "lon": 0.35216
+ },
+ {
+  "slug": "la-guingueta-daneu",
+  "nombre": "La Guingueta d'Àneu",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "259031",
+  "lat": 42.5943,
+  "lon": 1.13199
+ },
+ {
+  "slug": "la-jonquera",
+  "nombre": "La Jonquera",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170865",
+  "lat": 42.4169,
+  "lon": 2.87316
+ },
+ {
+  "slug": "la-llacuna",
+  "nombre": "La Llacuna",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081043",
+  "lat": 41.47248,
+  "lon": 1.53202
+ },
+ {
+  "slug": "la-llagosta",
+  "nombre": "La Llagosta",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081056",
+  "lat": 41.51312,
+  "lon": 2.19361
+ },
+ {
+  "slug": "la-maso",
+  "nombre": "La Masó",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430803",
+  "lat": 41.23481,
+  "lon": 1.22271
+ },
+ {
+  "slug": "la-molsosa",
+  "nombre": "La Molsosa",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251364",
+  "lat": 41.78328,
+  "lon": 1.54102
+ },
+ {
+  "slug": "la-morera-de-montsant",
+  "nombre": "La Morera de Montsant",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430960",
+  "lat": 41.26523,
+  "lon": 0.84197
+ },
+ {
+  "slug": "la-nou-de-bergueda",
+  "nombre": "La Nou de Berguedà",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "081424",
+  "lat": 42.16588,
+  "lon": 1.8851
+ },
+ {
+  "slug": "la-nou-de-gaia",
+  "nombre": "La Nou de Gaià",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "430976",
+  "lat": 41.18283,
+  "lon": 1.3738
+ },
+ {
+  "slug": "la-palma-de-cervello",
+  "nombre": "La Palma de Cervelló",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "089058",
+  "lat": 41.4112,
+  "lon": 1.97124
+ },
+ {
+  "slug": "la-palma-debre",
+  "nombre": "La Palma d'Ebre",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "430995",
+  "lat": 41.28251,
+  "lon": 0.66588
+ },
+ {
+  "slug": "la-pera",
+  "nombre": "La Pera",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171306",
+  "lat": 42.0205,
+  "lon": 2.97359
+ },
+ {
+  "slug": "la-pobla-de-cervoles",
+  "nombre": "La Pobla de Cérvoles",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "251692",
+  "lat": 41.36805,
+  "lon": 0.91529
+ },
+ {
+  "slug": "la-pobla-de-claramunt",
+  "nombre": "La Pobla de Claramunt",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081653",
+  "lat": 41.55502,
+  "lon": 1.6753
+ },
+ {
+  "slug": "la-pobla-de-lillet",
+  "nombre": "La Pobla de Lillet",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "081666",
+  "lat": 42.24338,
+  "lon": 1.97468
+ },
+ {
+  "slug": "la-pobla-de-mafumet",
+  "nombre": "La Pobla de Mafumet",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431093",
+  "lat": 41.18759,
+  "lon": 1.20928
+ },
+ {
+  "slug": "la-pobla-de-massaluca",
+  "nombre": "La Pobla de Massaluca",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "431107",
+  "lat": 41.18119,
+  "lon": 0.35386
+ },
+ {
+  "slug": "la-pobla-de-montornes",
+  "nombre": "La Pobla de Montornès",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431114",
+  "lat": 41.17882,
+  "lon": 1.41449
+ },
+ {
+  "slug": "la-pobla-de-segur",
+  "nombre": "La Pobla de Segur",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "251713",
+  "lat": 42.24996,
+  "lon": 0.96908
+ },
+ {
+  "slug": "la-portella",
+  "nombre": "La Portella",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "251749",
+  "lat": 41.73964,
+  "lon": 0.63918
+ },
+ {
+  "slug": "la-quar",
+  "nombre": "La Quar",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "081770",
+  "lat": 42.08089,
+  "lon": 1.96149
+ },
+ {
+  "slug": "la-rapita",
+  "nombre": "La Ràpita",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "431362",
+  "lat": 40.62027,
+  "lon": 0.59254
+ },
+ {
+  "slug": "la-riba",
+  "nombre": "La Riba",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431248",
+  "lat": 41.31834,
+  "lon": 1.17778
+ },
+ {
+  "slug": "la-riera-de-gaia",
+  "nombre": "La Riera de Gaià",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431264",
+  "lat": 41.16484,
+  "lon": 1.36139
+ },
+ {
+  "slug": "la-roca-del-valles",
+  "nombre": "La Roca del Vallès",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081810",
+  "lat": 41.58757,
+  "lon": 2.32576
+ },
+ {
+  "slug": "la-secuita",
+  "nombre": "La Secuita",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431444",
+  "lat": 41.20324,
+  "lon": 1.27935
+ },
+ {
+  "slug": "la-selva-de-mar",
+  "nombre": "La Selva de Mar",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171886",
+  "lat": 42.32447,
+  "lon": 3.18699
+ },
+ {
+  "slug": "la-selva-del-camp",
+  "nombre": "La Selva del Camp",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431457",
+  "lat": 41.21515,
+  "lon": 1.13688
+ },
+ {
+  "slug": "la-senia",
+  "nombre": "La Sénia",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "430445",
+  "lat": 40.63333,
+  "lon": 0.28525
+ },
+ {
+  "slug": "la-sentiu-de-sio",
+  "nombre": "La Sentiu de Sió",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250352",
+  "lat": 41.80532,
+  "lon": 0.87771
+ },
+ {
+  "slug": "la-seu-durgell",
+  "nombre": "La Seu d'Urgell",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "252038",
+  "lat": 42.3581,
+  "lon": 1.46243
+ },
+ {
+  "slug": "la-tallada-demporda",
+  "nombre": "La Tallada d'Empordà",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171959",
+  "lat": 42.07964,
+  "lon": 3.05479
+ },
+ {
+  "slug": "la-torre-de-cabdella",
+  "nombre": "La Torre de Cabdella",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "252271",
+  "lat": 42.42193,
+  "lon": 0.98233
+ },
+ {
+  "slug": "la-torre-de-claramunt",
+  "nombre": "La Torre de Claramunt",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "082861",
+  "lat": 41.53358,
+  "lon": 1.65821
+ },
+ {
+  "slug": "la-torre-de-fontaubella",
+  "nombre": "La Torre de Fontaubella",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "431515",
+  "lat": 41.12442,
+  "lon": 0.86424
+ },
+ {
+  "slug": "la-torre-de-lespanyol",
+  "nombre": "La Torre de l'Espanyol",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "431520",
+  "lat": 41.19139,
+  "lon": 0.62479
+ },
+ {
+  "slug": "la-vajol",
+  "nombre": "La Vajol",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170144",
+  "lat": 42.40378,
+  "lon": 2.80034
+ },
+ {
+  "slug": "la-vall-de-bianya",
+  "nombre": "La Vall de Bianya",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "172082",
+  "lat": 42.21107,
+  "lon": 2.45553
+ },
+ {
+  "slug": "la-vall-de-boi",
+  "nombre": "La Vall de Boí",
+  "comarca": "alta-ribagorca",
+  "provincia": "Lleida",
+  "ine": "250432",
+  "lat": 42.50459,
+  "lon": 0.80046
+ },
+ {
+  "slug": "la-vall-den-bas",
+  "nombre": "La Vall d'en Bas",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "172076",
+  "lat": 42.1177,
+  "lon": 2.45916
+ },
+ {
+  "slug": "la-vansa-i-fornols",
+  "nombre": "La Vansa i Fórnols",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "259097",
+  "lat": 42.23356,
+  "lon": 1.48045
+ },
+ {
+  "slug": "la-vilella-alta",
+  "nombre": "La Vilella Alta",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "431732",
+  "lat": 41.22464,
+  "lon": 0.78133
+ },
+ {
+  "slug": "la-vilella-baixa",
+  "nombre": "La Vilella Baixa",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "431747",
+  "lat": 41.22056,
+  "lon": 0.76186
+ },
+ {
+  "slug": "lalbages",
+  "nombre": "L'Albagés",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250061",
+  "lat": 41.4488,
+  "lon": 0.73924
+ },
+ {
+  "slug": "lalbi",
+  "nombre": "L'Albi",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250096",
+  "lat": 41.42329,
+  "lon": 0.93604
+ },
+ {
+  "slug": "lalbiol",
+  "nombre": "L'Albiol",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430038",
+  "lat": 41.2521,
+  "lon": 1.08963
+ },
+ {
+  "slug": "laldea",
+  "nombre": "L'Aldea",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "439044",
+  "lat": 40.74589,
+  "lon": 0.62029
+ },
+ {
+  "slug": "laleixar",
+  "nombre": "L'Aleixar",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430075",
+  "lat": 41.20164,
+  "lon": 1.04614
+ },
+ {
+  "slug": "lametlla-de-mar",
+  "nombre": "L'Ametlla de Mar",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "430136",
+  "lat": 40.88525,
+  "lon": 0.8035
+ },
+ {
+  "slug": "lametlla-del-valles",
+  "nombre": "L'Ametlla del Vallès",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080057",
+  "lat": 41.66939,
+  "lon": 2.26152
+ },
+ {
+  "slug": "lampolla",
+  "nombre": "L'Ampolla",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "439060",
+  "lat": 40.81421,
+  "lon": 0.71434
+ },
+ {
+  "slug": "larboc",
+  "nombre": "L'Arboç",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430167",
+  "lat": 41.2675,
+  "lon": 1.6036
+ },
+ {
+  "slug": "largentera",
+  "nombre": "L'Argentera",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430173",
+  "lat": 41.13722,
+  "lon": 0.90932
+ },
+ {
+  "slug": "larmentera",
+  "nombre": "L'Armentera",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170118",
+  "lat": 42.17087,
+  "lon": 3.07252
+ },
+ {
+  "slug": "les",
+  "nombre": "Les",
+  "comarca": "aran",
+  "provincia": "Lleida",
+  "ine": "251214",
+  "lat": 42.81015,
+  "lon": 0.70988
+ },
+ {
+  "slug": "les-avellanes-i-santa-linya",
+  "nombre": "Les Avellanes i Santa Linya",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "250371",
+  "lat": 41.90811,
+  "lon": 0.7643
+ },
+ {
+  "slug": "les-borges-blanques",
+  "nombre": "Les Borges Blanques",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250582",
+  "lat": 41.52063,
+  "lon": 0.86916
+ },
+ {
+  "slug": "les-borges-del-camp",
+  "nombre": "Les Borges del Camp",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430311",
+  "lat": 41.17203,
+  "lon": 1.01959
+ },
+ {
+  "slug": "les-cabanyes",
+  "nombre": "Les Cabanyes",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "080272",
+  "lat": 41.37174,
+  "lon": 1.68961
+ },
+ {
+  "slug": "les-franqueses-del-valles",
+  "nombre": "Les Franqueses del Vallès",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "080863",
+  "lat": 41.63631,
+  "lon": 2.29716
+ },
+ {
+  "slug": "les-llosses",
+  "nombre": "Les Llosses",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "170963",
+  "lat": 42.15095,
+  "lon": 2.11995
+ },
+ {
+  "slug": "les-masies-de-roda",
+  "nombre": "Les Masies de Roda",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081167",
+  "lat": 41.98957,
+  "lon": 2.30772
+ },
+ {
+  "slug": "les-masies-de-voltrega",
+  "nombre": "Les Masies de Voltregà",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081173",
+  "lat": 42.02239,
+  "lon": 2.23488
+ },
+ {
+  "slug": "les-oluges",
+  "nombre": "Les Oluges",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251522",
+  "lat": 41.69677,
+  "lon": 1.32003
+ },
+ {
+  "slug": "les-piles",
+  "nombre": "Les Piles",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431055",
+  "lat": 41.50383,
+  "lon": 1.3424
+ },
+ {
+  "slug": "les-planes-dhostoles",
+  "nombre": "Les Planes d'Hostoles",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171334",
+  "lat": 42.05594,
+  "lon": 2.53691
+ },
+ {
+  "slug": "les-preses",
+  "nombre": "Les Preses",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171390",
+  "lat": 42.14216,
+  "lon": 2.4608
+ },
+ {
+  "slug": "les-valls-daguilar",
+  "nombre": "Les Valls d'Aguilar",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "259062",
+  "lat": 42.29396,
+  "lon": 1.34183
+ },
+ {
+  "slug": "les-valls-de-valira",
+  "nombre": "Les Valls de Valira",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "252398",
+  "lat": 42.37908,
+  "lon": 1.45674
+ },
+ {
+  "slug": "lescala",
+  "nombre": "L'Escala",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170622",
+  "lat": 42.12506,
+  "lon": 3.13377
+ },
+ {
+  "slug": "lespluga-calba",
+  "nombre": "L'Espluga Calba",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "250812",
+  "lat": 41.49492,
+  "lon": 1.00478
+ },
+ {
+  "slug": "lespluga-de-francoli",
+  "nombre": "L'Espluga de Francolí",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "430542",
+  "lat": 41.39637,
+  "lon": 1.10449
+ },
+ {
+  "slug": "lespunyola",
+  "nombre": "L'Espunyola",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "080787",
+  "lat": 42.05356,
+  "lon": 1.76775
+ },
+ {
+  "slug": "lesquirol",
+  "nombre": "L'Esquirol",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082541",
+  "lat": 42.03551,
+  "lon": 2.36824
+ },
+ {
+  "slug": "lestany",
+  "nombre": "L'Estany",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "080790",
+  "lat": 41.86861,
+  "lon": 2.11245
+ },
+ {
+  "slug": "lhospitalet-de-llobregat",
+  "nombre": "L'Hospitalet de Llobregat",
+  "comarca": "barcelones",
+  "provincia": "Barcelona",
+  "ine": "081017",
+  "lat": 41.35946,
+  "lon": 2.09971
+ },
+ {
+  "slug": "linyola",
+  "nombre": "Linyola",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "251229",
+  "lat": 41.71041,
+  "lon": 0.90437
+ },
+ {
+  "slug": "llado",
+  "nombre": "Lladó",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170887",
+  "lat": 42.2477,
+  "lon": 2.8134
+ },
+ {
+  "slug": "lladorre",
+  "nombre": "Lladorre",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "251235",
+  "lat": 42.62161,
+  "lon": 1.24917
+ },
+ {
+  "slug": "lladurs",
+  "nombre": "Lladurs",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251240",
+  "lat": 42.04467,
+  "lon": 1.50763
+ },
+ {
+  "slug": "llagostera",
+  "nombre": "Llagostera",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170890",
+  "lat": 41.82881,
+  "lon": 2.89182
+ },
+ {
+  "slug": "llambilles",
+  "nombre": "Llambilles",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170904",
+  "lat": 41.92105,
+  "lon": 2.85928
+ },
+ {
+  "slug": "llanars",
+  "nombre": "Llanars",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "170911",
+  "lat": 42.32095,
+  "lon": 2.34414
+ },
+ {
+  "slug": "llanca",
+  "nombre": "Llançà",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170926",
+  "lat": 42.36201,
+  "lon": 3.15076
+ },
+ {
+  "slug": "llardecans",
+  "nombre": "Llardecans",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "251253",
+  "lat": 41.37409,
+  "lon": 0.5505
+ },
+ {
+  "slug": "llavorsi",
+  "nombre": "Llavorsí",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "251266",
+  "lat": 42.49746,
+  "lon": 1.20887
+ },
+ {
+  "slug": "lleida",
+  "nombre": "Lleida",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "251207",
+  "lat": 41.61473,
+  "lon": 0.62684
+ },
+ {
+  "slug": "llers",
+  "nombre": "Llers",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170932",
+  "lat": 42.29631,
+  "lon": 2.91161
+ },
+ {
+  "slug": "lles-de-cerdanya",
+  "nombre": "Lles de Cerdanya",
+  "comarca": "cerdanya",
+  "provincia": "Lleida",
+  "ine": "251272",
+  "lat": 42.39029,
+  "lon": 1.68706
+ },
+ {
+  "slug": "llica-damunt",
+  "nombre": "Lliçà d'Amunt",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081075",
+  "lat": 41.60847,
+  "lon": 2.23943
+ },
+ {
+  "slug": "llica-de-vall",
+  "nombre": "Lliçà de Vall",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081081",
+  "lat": 41.58631,
+  "lon": 2.23908
+ },
+ {
+  "slug": "llimiana",
+  "nombre": "Llimiana",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "251288",
+  "lat": 42.07514,
+  "lon": 0.9162
+ },
+ {
+  "slug": "llinars-del-valles",
+  "nombre": "Llinars del Vallès",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081069",
+  "lat": 41.63915,
+  "lon": 2.40462
+ },
+ {
+  "slug": "llivia",
+  "nombre": "Llívia",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "170947",
+  "lat": 42.46508,
+  "lon": 1.9818
+ },
+ {
+  "slug": "llobera",
+  "nombre": "Llobera",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251291",
+  "lat": 41.92242,
+  "lon": 1.46322
+ },
+ {
+  "slug": "llorac",
+  "nombre": "Llorac",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "430733",
+  "lat": 41.55651,
+  "lon": 1.30716
+ },
+ {
+  "slug": "llorenc-del-penedes",
+  "nombre": "Llorenç del Penedès",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430748",
+  "lat": 41.28294,
+  "lon": 1.55292
+ },
+ {
+  "slug": "lloret-de-mar",
+  "nombre": "Lloret de Mar",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "170950",
+  "lat": 41.69862,
+  "lon": 2.8476
+ },
+ {
+  "slug": "lluca",
+  "nombre": "Lluçà",
+  "comarca": "llucanes",
+  "provincia": "Barcelona",
+  "ine": "081094",
+  "lat": 42.06808,
+  "lon": 2.07326
+ },
+ {
+  "slug": "macanet-de-cabrenys",
+  "nombre": "Maçanet de Cabrenys",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171024",
+  "lat": 42.38606,
+  "lon": 2.75039
+ },
+ {
+  "slug": "macanet-de-la-selva",
+  "nombre": "Maçanet de la Selva",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171030",
+  "lat": 41.77637,
+  "lon": 2.73133
+ },
+ {
+  "slug": "madremanya",
+  "nombre": "Madremanya",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "170979",
+  "lat": 41.99026,
+  "lon": 2.95752
+ },
+ {
+  "slug": "maia-de-montcal",
+  "nombre": "Maià de Montcal",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "170985",
+  "lat": 42.22211,
+  "lon": 2.74274
+ },
+ {
+  "slug": "maials",
+  "nombre": "Maials",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "251333",
+  "lat": 41.36488,
+  "lon": 0.5042
+ },
+ {
+  "slug": "malda",
+  "nombre": "Maldà",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "251305",
+  "lat": 41.5511,
+  "lon": 1.04018
+ },
+ {
+  "slug": "malgrat-de-mar",
+  "nombre": "Malgrat de Mar",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081108",
+  "lat": 41.6455,
+  "lon": 2.74074
+ },
+ {
+  "slug": "malla",
+  "nombre": "Malla",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081115",
+  "lat": 41.88659,
+  "lon": 2.23441
+ },
+ {
+  "slug": "manlleu",
+  "nombre": "Manlleu",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081120",
+  "lat": 41.99994,
+  "lon": 2.28358
+ },
+ {
+  "slug": "manresa",
+  "nombre": "Manresa",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "081136",
+  "lat": 41.72306,
+  "lon": 1.82693
+ },
+ {
+  "slug": "marca",
+  "nombre": "Marçà",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430764",
+  "lat": 41.12679,
+  "lon": 0.80314
+ },
+ {
+  "slug": "margalef",
+  "nombre": "Margalef",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "430751",
+  "lat": 41.28449,
+  "lon": 0.75417
+ },
+ {
+  "slug": "marganell",
+  "nombre": "Marganell",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "082423",
+  "lat": 41.64029,
+  "lon": 1.79305
+ },
+ {
+  "slug": "martorell",
+  "nombre": "Martorell",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "081141",
+  "lat": 41.47434,
+  "lon": 1.93073
+ },
+ {
+  "slug": "martorelles",
+  "nombre": "Martorelles",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081154",
+  "lat": 41.5257,
+  "lon": 2.24277
+ },
+ {
+  "slug": "mas-de-barberans",
+  "nombre": "Mas de Barberans",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "430770",
+  "lat": 40.73567,
+  "lon": 0.37388
+ },
+ {
+  "slug": "masarac-i-vilarnadal",
+  "nombre": "Masarac i Vilarnadal",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171002",
+  "lat": 42.35097,
+  "lon": 2.97246
+ },
+ {
+  "slug": "masdenverge",
+  "nombre": "Masdenverge",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "430786",
+  "lat": 40.71544,
+  "lon": 0.53171
+ },
+ {
+  "slug": "masllorenc",
+  "nombre": "Masllorenç",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "430799",
+  "lat": 41.26962,
+  "lon": 1.41535
+ },
+ {
+  "slug": "maspujols",
+  "nombre": "Maspujols",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430810",
+  "lat": 41.18195,
+  "lon": 1.04584
+ },
+ {
+  "slug": "masquefa",
+  "nombre": "Masquefa",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081192",
+  "lat": 41.50189,
+  "lon": 1.81185
+ },
+ {
+  "slug": "massalcoreig",
+  "nombre": "Massalcoreig",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "251312",
+  "lat": 41.45916,
+  "lon": 0.35935
+ },
+ {
+  "slug": "massanes",
+  "nombre": "Massanes",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171019",
+  "lat": 41.76646,
+  "lon": 2.65194
+ },
+ {
+  "slug": "massoteres",
+  "nombre": "Massoteres",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251327",
+  "lat": 41.79726,
+  "lon": 1.31077
+ },
+ {
+  "slug": "matadepera",
+  "nombre": "Matadepera",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "081206",
+  "lat": 41.59664,
+  "lon": 2.02675
+ },
+ {
+  "slug": "mataro",
+  "nombre": "Mataró",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081213",
+  "lat": 41.53981,
+  "lon": 2.4449
+ },
+ {
+  "slug": "mediona",
+  "nombre": "Mediona",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "081228",
+  "lat": 41.47679,
+  "lon": 1.61134
+ },
+ {
+  "slug": "menarguens",
+  "nombre": "Menàrguens",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "251348",
+  "lat": 41.72914,
+  "lon": 0.74389
+ },
+ {
+  "slug": "meranges",
+  "nombre": "Meranges",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "170998",
+  "lat": 42.44577,
+  "lon": 1.78692
+ },
+ {
+  "slug": "mieres",
+  "nombre": "Mieres",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171058",
+  "lat": 42.12416,
+  "lon": 2.63989
+ },
+ {
+  "slug": "miralcamp",
+  "nombre": "Miralcamp",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "251351",
+  "lat": 41.60459,
+  "lon": 0.8802
+ },
+ {
+  "slug": "miravet",
+  "nombre": "Miravet",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "430846",
+  "lat": 41.03814,
+  "lon": 0.59751
+ },
+ {
+  "slug": "moia",
+  "nombre": "Moià",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "081385",
+  "lat": 41.81287,
+  "lon": 2.09692
+ },
+ {
+  "slug": "molins-de-rei",
+  "nombre": "Molins de Rei",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "081234",
+  "lat": 41.41359,
+  "lon": 2.01596
+ },
+ {
+  "slug": "mollerussa",
+  "nombre": "Mollerussa",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "251370",
+  "lat": 41.62981,
+  "lon": 0.89403
+ },
+ {
+  "slug": "mollet-de-peralada",
+  "nombre": "Mollet de Peralada",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171061",
+  "lat": 42.35859,
+  "lon": 3.00057
+ },
+ {
+  "slug": "mollet-del-valles",
+  "nombre": "Mollet del Vallès",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081249",
+  "lat": 41.53541,
+  "lon": 2.21031
+ },
+ {
+  "slug": "mollo",
+  "nombre": "Molló",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171077",
+  "lat": 42.34681,
+  "lon": 2.40421
+ },
+ {
+  "slug": "monells-i-sant-sadurni-de-lheura-cruilles",
+  "nombre": "Monells i Sant Sadurní de l'Heura Cruïlles",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "179011",
+  "lat": 41.95642,
+  "lon": 2.99094
+ },
+ {
+  "slug": "monistrol-de-calders",
+  "nombre": "Monistrol de Calders",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "081287",
+  "lat": 41.76032,
+  "lon": 2.01463
+ },
+ {
+  "slug": "monistrol-de-montserrat",
+  "nombre": "Monistrol de Montserrat",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "081271",
+  "lat": 41.60979,
+  "lon": 1.84276
+ },
+ {
+  "slug": "mont-ral",
+  "nombre": "Mont-ral",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430918",
+  "lat": 41.28691,
+  "lon": 1.09697
+ },
+ {
+  "slug": "mont-ras",
+  "nombre": "Mont-ras",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171100",
+  "lat": 41.90772,
+  "lon": 3.14472
+ },
+ {
+  "slug": "mont-roig-del-camp",
+  "nombre": "Mont-roig del Camp",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430923",
+  "lat": 41.0873,
+  "lon": 0.95812
+ },
+ {
+  "slug": "montagut-i-oix",
+  "nombre": "Montagut i Oix",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171096",
+  "lat": 42.23146,
+  "lon": 2.59617
+ },
+ {
+  "slug": "montblanc",
+  "nombre": "Montblanc",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "430862",
+  "lat": 41.37678,
+  "lon": 1.16139
+ },
+ {
+  "slug": "montbrio-del-camp",
+  "nombre": "Montbrió del Camp",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "430884",
+  "lat": 41.12068,
+  "lon": 1.00379
+ },
+ {
+  "slug": "montcada-i-reixac",
+  "nombre": "Montcada i Reixac",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "081252",
+  "lat": 41.4858,
+  "lon": 2.18777
+ },
+ {
+  "slug": "montclar",
+  "nombre": "Montclar",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "081304",
+  "lat": 42.01821,
+  "lon": 1.76507
+ },
+ {
+  "slug": "montella-i-martinet",
+  "nombre": "Montellà i Martinet",
+  "comarca": "cerdanya",
+  "provincia": "Lleida",
+  "ine": "251399",
+  "lat": 42.36012,
+  "lon": 1.69525
+ },
+ {
+  "slug": "montesquiu",
+  "nombre": "Montesquiu",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081311",
+  "lat": 42.10989,
+  "lon": 2.20987
+ },
+ {
+  "slug": "montferrer-i-castellbo",
+  "nombre": "Montferrer i Castellbò",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "251403",
+  "lat": 42.34127,
+  "lon": 1.42802
+ },
+ {
+  "slug": "montferri",
+  "nombre": "Montferri",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430897",
+  "lat": 41.2653,
+  "lon": 1.36573
+ },
+ {
+  "slug": "montgai",
+  "nombre": "Montgai",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "251386",
+  "lat": 41.79991,
+  "lon": 0.96137
+ },
+ {
+  "slug": "montgat",
+  "nombre": "Montgat",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081265",
+  "lat": 41.46695,
+  "lon": 2.27868
+ },
+ {
+  "slug": "montmajor",
+  "nombre": "Montmajor",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "081326",
+  "lat": 42.01742,
+  "lon": 1.73484
+ },
+ {
+  "slug": "montmaneu",
+  "nombre": "Montmaneu",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081332",
+  "lat": 41.62614,
+  "lon": 1.41442
+ },
+ {
+  "slug": "montmelo",
+  "nombre": "Montmeló",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081350",
+  "lat": 41.55152,
+  "lon": 2.2479
+ },
+ {
+  "slug": "montoliu-de-lleida",
+  "nombre": "Montoliu de Lleida",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "251425",
+  "lat": 41.56015,
+  "lon": 0.58837
+ },
+ {
+  "slug": "montoliu-de-segarra",
+  "nombre": "Montoliu de Segarra",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251410",
+  "lat": 41.59027,
+  "lon": 1.26996
+ },
+ {
+  "slug": "montornes-de-segarra",
+  "nombre": "Montornès de Segarra",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251431",
+  "lat": 41.60107,
+  "lon": 1.2307
+ },
+ {
+  "slug": "montornes-del-valles",
+  "nombre": "Montornès del Vallès",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081363",
+  "lat": 41.54526,
+  "lon": 2.26731
+ },
+ {
+  "slug": "montseny",
+  "nombre": "Montseny",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081379",
+  "lat": 41.75915,
+  "lon": 2.39535
+ },
+ {
+  "slug": "mora-debre",
+  "nombre": "Móra d'Ebre",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "430939",
+  "lat": 41.09314,
+  "lon": 0.64177
+ },
+ {
+  "slug": "mora-la-nova",
+  "nombre": "Móra la Nova",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "430944",
+  "lat": 41.10014,
+  "lon": 0.65084
+ },
+ {
+  "slug": "muntanyola",
+  "nombre": "Muntanyola",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081290",
+  "lat": 41.87841,
+  "lon": 2.17758
+ },
+ {
+  "slug": "mura",
+  "nombre": "Mura",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "081398",
+  "lat": 41.69954,
+  "lon": 1.97619
+ },
+ {
+  "slug": "nalec",
+  "nombre": "Nalec",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "251459",
+  "lat": 41.55983,
+  "lon": 1.1152
+ },
+ {
+  "slug": "naut-aran",
+  "nombre": "Naut Aran",
+  "comarca": "aran",
+  "provincia": "Lleida",
+  "ine": "250254",
+  "lat": 42.70719,
+  "lon": 0.90245
+ },
+ {
+  "slug": "navarcles",
+  "nombre": "Navarcles",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "081402",
+  "lat": 41.75163,
+  "lon": 1.90376
+ },
+ {
+  "slug": "navas",
+  "nombre": "Navàs",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "081419",
+  "lat": 41.89984,
+  "lon": 1.87934
+ },
+ {
+  "slug": "navata",
+  "nombre": "Navata",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171117",
+  "lat": 42.22375,
+  "lon": 2.86054
+ },
+ {
+  "slug": "naves",
+  "nombre": "Navès",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251462",
+  "lat": 41.99227,
+  "lon": 1.63675
+ },
+ {
+  "slug": "nulles",
+  "nombre": "Nulles",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "430982",
+  "lat": 41.24949,
+  "lon": 1.29518
+ },
+ {
+  "slug": "oden",
+  "nombre": "Odèn",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251484",
+  "lat": 42.13362,
+  "lon": 1.3871
+ },
+ {
+  "slug": "odena",
+  "nombre": "Òdena",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081430",
+  "lat": 41.60674,
+  "lon": 1.64159
+ },
+ {
+  "slug": "ogassa",
+  "nombre": "Ogassa",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171122",
+  "lat": 42.26584,
+  "lon": 2.27741
+ },
+ {
+  "slug": "olerdola",
+  "nombre": "Olèrdola",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "081458",
+  "lat": 41.32102,
+  "lon": 1.72113
+ },
+ {
+  "slug": "olesa-de-bonesvalls",
+  "nombre": "Olesa de Bonesvalls",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "081461",
+  "lat": 41.3517,
+  "lon": 1.85076
+ },
+ {
+  "slug": "olesa-de-montserrat",
+  "nombre": "Olesa de Montserrat",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "081477",
+  "lat": 41.54351,
+  "lon": 1.8939
+ },
+ {
+  "slug": "oliana",
+  "nombre": "Oliana",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "251497",
+  "lat": 42.06616,
+  "lon": 1.31195
+ },
+ {
+  "slug": "oliola",
+  "nombre": "Oliola",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "251500",
+  "lat": 41.87596,
+  "lon": 1.17426
+ },
+ {
+  "slug": "olius",
+  "nombre": "Olius",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251517",
+  "lat": 41.97735,
+  "lon": 1.55691
+ },
+ {
+  "slug": "olivella",
+  "nombre": "Olivella",
+  "comarca": "garraf",
+  "provincia": "Barcelona",
+  "ine": "081483",
+  "lat": 41.31031,
+  "lon": 1.81224
+ },
+ {
+  "slug": "olost",
+  "nombre": "Olost",
+  "comarca": "llucanes",
+  "provincia": "Barcelona",
+  "ine": "081496",
+  "lat": 41.98581,
+  "lon": 2.09573
+ },
+ {
+  "slug": "olot",
+  "nombre": "Olot",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171143",
+  "lat": 42.18318,
+  "lon": 2.48435
+ },
+ {
+  "slug": "olvan",
+  "nombre": "Olvan",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "081445",
+  "lat": 42.057,
+  "lon": 1.90697
+ },
+ {
+  "slug": "ordis",
+  "nombre": "Ordis",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171156",
+  "lat": 42.21877,
+  "lon": 2.90672
+ },
+ {
+  "slug": "organya",
+  "nombre": "Organyà",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "251556",
+  "lat": 42.21072,
+  "lon": 1.32737
+ },
+ {
+  "slug": "oris",
+  "nombre": "Orís",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081509",
+  "lat": 42.05822,
+  "lon": 2.23928
+ },
+ {
+  "slug": "orista",
+  "nombre": "Oristà",
+  "comarca": "llucanes",
+  "provincia": "Barcelona",
+  "ine": "081516",
+  "lat": 41.93237,
+  "lon": 2.06036
+ },
+ {
+  "slug": "orpi",
+  "nombre": "Orpí",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081521",
+  "lat": 41.529,
+  "lon": 1.60693
+ },
+ {
+  "slug": "orrius",
+  "nombre": "Òrrius",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081537",
+  "lat": 41.55508,
+  "lon": 2.35494
+ },
+ {
+  "slug": "os-de-balaguer",
+  "nombre": "Os de Balaguer",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "251569",
+  "lat": 41.87073,
+  "lon": 0.71845
+ },
+ {
+  "slug": "osor",
+  "nombre": "Osor",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171169",
+  "lat": 41.9456,
+  "lon": 2.55621
+ },
+ {
+  "slug": "osso-de-sio",
+  "nombre": "Ossó de Sió",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "251575",
+  "lat": 41.75464,
+  "lon": 1.15943
+ },
+ {
+  "slug": "pacs-del-penedes",
+  "nombre": "Pacs del Penedès",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "081542",
+  "lat": 41.36152,
+  "lon": 1.66901
+ },
+ {
+  "slug": "palafolls",
+  "nombre": "Palafolls",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081555",
+  "lat": 41.66725,
+  "lon": 2.74941
+ },
+ {
+  "slug": "palafrugell",
+  "nombre": "Palafrugell",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171175",
+  "lat": 41.91495,
+  "lon": 3.16407
+ },
+ {
+  "slug": "palamos-i-sant-joan",
+  "nombre": "Palamós i Sant Joan",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171181",
+  "lat": 41.84666,
+  "lon": 3.12958
+ },
+ {
+  "slug": "palau-de-santa-eulalia",
+  "nombre": "Palau de Santa Eulàlia",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171194",
+  "lat": 42.17354,
+  "lon": 2.96436
+ },
+ {
+  "slug": "palau-sator",
+  "nombre": "Palau-sator",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171215",
+  "lat": 41.98933,
+  "lon": 3.11118
+ },
+ {
+  "slug": "palau-saverdera",
+  "nombre": "Palau-saverdera",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171208",
+  "lat": 42.30736,
+  "lon": 3.14812
+ },
+ {
+  "slug": "palau-solita-i-plegamans",
+  "nombre": "Palau-solità i Plegamans",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "081568",
+  "lat": 41.58754,
+  "lon": 2.17842
+ },
+ {
+  "slug": "palleja",
+  "nombre": "Pallejà",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "081574",
+  "lat": 41.42258,
+  "lon": 1.99678
+ },
+ {
+  "slug": "palol-de-revardit",
+  "nombre": "Palol de Revardit",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "171236",
+  "lat": 42.06935,
+  "lon": 2.79581
+ },
+ {
+  "slug": "pals",
+  "nombre": "Pals",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171241",
+  "lat": 41.97108,
+  "lon": 3.14508
+ },
+ {
+  "slug": "pardines",
+  "nombre": "Pardines",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171254",
+  "lat": 42.31237,
+  "lon": 2.21412
+ },
+ {
+  "slug": "parets-del-valles",
+  "nombre": "Parets del Vallès",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081593",
+  "lat": 41.57317,
+  "lon": 2.23358
+ },
+ {
+  "slug": "parlava",
+  "nombre": "Parlavà",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171267",
+  "lat": 42.02384,
+  "lon": 3.03178
+ },
+ {
+  "slug": "passanant-i-belltall",
+  "nombre": "Passanant i Belltall",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431016",
+  "lat": 41.53186,
+  "lon": 1.19692
+ },
+ {
+  "slug": "pau",
+  "nombre": "Pau",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171289",
+  "lat": 42.31624,
+  "lon": 3.11688
+ },
+ {
+  "slug": "pauls",
+  "nombre": "Paüls",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "431021",
+  "lat": 40.92238,
+  "lon": 0.40016
+ },
+ {
+  "slug": "pedret-i-marza",
+  "nombre": "Pedret i Marzà",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171292",
+  "lat": 42.31021,
+  "lon": 3.06869
+ },
+ {
+  "slug": "penelles",
+  "nombre": "Penelles",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "251641",
+  "lat": 41.75797,
+  "lon": 0.9656
+ },
+ {
+  "slug": "perafita",
+  "nombre": "Perafita",
+  "comarca": "llucanes",
+  "provincia": "Barcelona",
+  "ine": "081607",
+  "lat": 42.04227,
+  "lon": 2.107
+ },
+ {
+  "slug": "perafort",
+  "nombre": "Perafort",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431037",
+  "lat": 41.19072,
+  "lon": 1.2555
+ },
+ {
+  "slug": "peralada",
+  "nombre": "Peralada",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171328",
+  "lat": 42.30793,
+  "lon": 3.00799
+ },
+ {
+  "slug": "peramola",
+  "nombre": "Peramola",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "251654",
+  "lat": 42.05714,
+  "lon": 1.26745
+ },
+ {
+  "slug": "piera",
+  "nombre": "Piera",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081614",
+  "lat": 41.51814,
+  "lon": 1.74336
+ },
+ {
+  "slug": "pineda-de-mar",
+  "nombre": "Pineda de Mar",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081635",
+  "lat": 41.62752,
+  "lon": 2.68953
+ },
+ {
+  "slug": "pinell-de-solsones",
+  "nombre": "Pinell de Solsonès",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251667",
+  "lat": 41.95016,
+  "lon": 1.41876
+ },
+ {
+  "slug": "pinos",
+  "nombre": "Pinós",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251673",
+  "lat": 41.82737,
+  "lon": 1.54199
+ },
+ {
+  "slug": "pira",
+  "nombre": "Pira",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431074",
+  "lat": 41.42393,
+  "lon": 1.2023
+ },
+ {
+  "slug": "planoles",
+  "nombre": "Planoles",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171349",
+  "lat": 42.31635,
+  "lon": 2.10361
+ },
+ {
+  "slug": "platja-daro-i-sagaro-castell-daro",
+  "nombre": "Platja d'Aro i s'Agaró Castell d'Aro",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "170486",
+  "lat": 41.81745,
+  "lon": 3.06708
+ },
+ {
+  "slug": "poboleda",
+  "nombre": "Poboleda",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "431129",
+  "lat": 41.2327,
+  "lon": 0.84528
+ },
+ {
+  "slug": "polinya",
+  "nombre": "Polinyà",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "081672",
+  "lat": 41.55761,
+  "lon": 2.15625
+ },
+ {
+  "slug": "pont-de-molins",
+  "nombre": "Pont de Molins",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171352",
+  "lat": 42.31464,
+  "lon": 2.92554
+ },
+ {
+  "slug": "pontils",
+  "nombre": "Pontils",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431418",
+  "lat": 41.47752,
+  "lon": 1.3874
+ },
+ {
+  "slug": "pontons",
+  "nombre": "Pontons",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "081688",
+  "lat": 41.41574,
+  "lon": 1.51662
+ },
+ {
+  "slug": "pontos",
+  "nombre": "Pontós",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171365",
+  "lat": 42.18673,
+  "lon": 2.91681
+ },
+ {
+  "slug": "ponts",
+  "nombre": "Ponts",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "251728",
+  "lat": 41.91533,
+  "lon": 1.18637
+ },
+ {
+  "slug": "porqueres",
+  "nombre": "Porqueres",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "171371",
+  "lat": 42.10431,
+  "lon": 2.77806
+ },
+ {
+  "slug": "porrera",
+  "nombre": "Porrera",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "431140",
+  "lat": 41.18826,
+  "lon": 0.85613
+ },
+ {
+  "slug": "portbou",
+  "nombre": "Portbou",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171387",
+  "lat": 42.42638,
+  "lon": 3.16247
+ },
+ {
+  "slug": "pradell-de-la-teixeta",
+  "nombre": "Pradell de la Teixeta",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "431153",
+  "lat": 41.15619,
+  "lon": 0.87565
+ },
+ {
+  "slug": "prades",
+  "nombre": "Prades",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431166",
+  "lat": 41.30979,
+  "lon": 0.98819
+ },
+ {
+  "slug": "prat-de-comte",
+  "nombre": "Prat de Comte",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "431172",
+  "lat": 40.98357,
+  "lon": 0.40524
+ },
+ {
+  "slug": "pratdip",
+  "nombre": "Pratdip",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431188",
+  "lat": 41.05118,
+  "lon": 0.87129
+ },
+ {
+  "slug": "prats-de-llucanes",
+  "nombre": "Prats de Lluçanès",
+  "comarca": "llucanes",
+  "provincia": "Barcelona",
+  "ine": "081712",
+  "lat": 42.00865,
+  "lon": 2.02859
+ },
+ {
+  "slug": "prats-i-sansor",
+  "nombre": "Prats i Sansor",
+  "comarca": "cerdanya",
+  "provincia": "Lleida",
+  "ine": "251752",
+  "lat": 42.36493,
+  "lon": 1.83696
+ },
+ {
+  "slug": "preixana",
+  "nombre": "Preixana",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "251765",
+  "lat": 41.6069,
+  "lon": 1.0386
+ },
+ {
+  "slug": "preixens",
+  "nombre": "Preixens",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "251771",
+  "lat": 41.79405,
+  "lon": 1.05089
+ },
+ {
+  "slug": "premia-de-dalt",
+  "nombre": "Premià de Dalt",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082303",
+  "lat": 41.50731,
+  "lon": 2.34246
+ },
+ {
+  "slug": "premia-de-mar",
+  "nombre": "Premià de Mar",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081727",
+  "lat": 41.48981,
+  "lon": 2.35679
+ },
+ {
+  "slug": "prullans",
+  "nombre": "Prullans",
+  "comarca": "cerdanya",
+  "provincia": "Lleida",
+  "ine": "251790",
+  "lat": 42.37914,
+  "lon": 1.73618
+ },
+ {
+  "slug": "puig-reig",
+  "nombre": "Puig-reig",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "081751",
+  "lat": 41.97413,
+  "lon": 1.87899
+ },
+ {
+  "slug": "puigcerda",
+  "nombre": "Puigcerdà",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "171411",
+  "lat": 42.43263,
+  "lon": 1.92695
+ },
+ {
+  "slug": "puigdalber",
+  "nombre": "Puigdàlber",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "081748",
+  "lat": 41.40428,
+  "lon": 1.7011
+ },
+ {
+  "slug": "puiggros",
+  "nombre": "Puiggròs",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "251804",
+  "lat": 41.55172,
+  "lon": 0.88946
+ },
+ {
+  "slug": "puigpelat",
+  "nombre": "Puigpelat",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431191",
+  "lat": 41.27872,
+  "lon": 1.29764
+ },
+ {
+  "slug": "puigverd-dagramunt",
+  "nombre": "Puigverd d'Agramunt",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "251811",
+  "lat": 41.77781,
+  "lon": 1.12164
+ },
+ {
+  "slug": "puigverd-de-lleida",
+  "nombre": "Puigverd de Lleida",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "251826",
+  "lat": 41.5437,
+  "lon": 0.73354
+ },
+ {
+  "slug": "pujalt",
+  "nombre": "Pujalt",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081764",
+  "lat": 41.71734,
+  "lon": 1.4226
+ },
+ {
+  "slug": "quart",
+  "nombre": "Quart",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171426",
+  "lat": 41.93977,
+  "lon": 2.83994
+ },
+ {
+  "slug": "queralbs",
+  "nombre": "Queralbs",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "170433",
+  "lat": 42.34849,
+  "lon": 2.16269
+ },
+ {
+  "slug": "querol",
+  "nombre": "Querol",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431205",
+  "lat": 41.42331,
+  "lon": 1.39774
+ },
+ {
+  "slug": "rabos",
+  "nombre": "Rabós",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171432",
+  "lat": 42.37934,
+  "lon": 3.02772
+ },
+ {
+  "slug": "rajadell",
+  "nombre": "Rajadell",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "081786",
+  "lat": 41.7277,
+  "lon": 1.70623
+ },
+ {
+  "slug": "rasquera",
+  "nombre": "Rasquera",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "431212",
+  "lat": 41.00137,
+  "lon": 0.59713
+ },
+ {
+  "slug": "regencos",
+  "nombre": "Regencós",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171447",
+  "lat": 41.95286,
+  "lon": 3.17188
+ },
+ {
+  "slug": "rellinars",
+  "nombre": "Rellinars",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "081799",
+  "lat": 41.63743,
+  "lon": 1.91077
+ },
+ {
+  "slug": "renau",
+  "nombre": "Renau",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431227",
+  "lat": 41.22534,
+  "lon": 1.31124
+ },
+ {
+  "slug": "reus",
+  "nombre": "Reus",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431233",
+  "lat": 41.15502,
+  "lon": 1.10849
+ },
+ {
+  "slug": "rialp",
+  "nombre": "Rialp",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "251832",
+  "lat": 42.44399,
+  "lon": 1.13599
+ },
+ {
+  "slug": "riba-roja-debre",
+  "nombre": "Riba-roja d'Ebre",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "431251",
+  "lat": 41.25093,
+  "lon": 0.48766
+ },
+ {
+  "slug": "ribera-dondara",
+  "nombre": "Ribera d'Ondara",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "259059",
+  "lat": 41.62772,
+  "lon": 1.34191
+ },
+ {
+  "slug": "ribera-durgellet",
+  "nombre": "Ribera d'Urgellet",
+  "comarca": "alt-urgell",
+  "provincia": "Lleida",
+  "ine": "251850",
+  "lat": 42.31269,
+  "lon": 1.38278
+ },
+ {
+  "slug": "ribes-de-freser",
+  "nombre": "Ribes de Freser",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171450",
+  "lat": 42.30631,
+  "lon": 2.16793
+ },
+ {
+  "slug": "riells-i-viabrea",
+  "nombre": "Riells i Viabrea",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171463",
+  "lat": 41.72529,
+  "lon": 2.55762
+ },
+ {
+  "slug": "riner",
+  "nombre": "Riner",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251863",
+  "lat": 41.91464,
+  "lon": 1.52458
+ },
+ {
+  "slug": "ripoll",
+  "nombre": "Ripoll",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171479",
+  "lat": 42.20105,
+  "lon": 2.19075
+ },
+ {
+  "slug": "ripollet",
+  "nombre": "Ripollet",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "081803",
+  "lat": 41.4965,
+  "lon": 2.15349
+ },
+ {
+  "slug": "riu-de-cerdanya",
+  "nombre": "Riu de Cerdanya",
+  "comarca": "cerdanya",
+  "provincia": "Lleida",
+  "ine": "259139",
+  "lat": 42.34555,
+  "lon": 1.82627
+ },
+ {
+  "slug": "riudarenes",
+  "nombre": "Riudarenes",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171485",
+  "lat": 41.82194,
+  "lon": 2.71651
+ },
+ {
+  "slug": "riudaura",
+  "nombre": "Riudaura",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171498",
+  "lat": 42.18846,
+  "lon": 2.40757
+ },
+ {
+  "slug": "riudecanyes",
+  "nombre": "Riudecanyes",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431270",
+  "lat": 41.13002,
+  "lon": 0.96095
+ },
+ {
+  "slug": "riudecols",
+  "nombre": "Riudecols",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431286",
+  "lat": 41.16886,
+  "lon": 0.97625
+ },
+ {
+  "slug": "riudellots-de-la-selva",
+  "nombre": "Riudellots de la Selva",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171501",
+  "lat": 41.89319,
+  "lon": 2.80324
+ },
+ {
+  "slug": "riudoms",
+  "nombre": "Riudoms",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431299",
+  "lat": 41.13768,
+  "lon": 1.05087
+ },
+ {
+  "slug": "riumors",
+  "nombre": "Riumors",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171518",
+  "lat": 42.22683,
+  "lon": 3.04303
+ },
+ {
+  "slug": "rocafort-de-queralt",
+  "nombre": "Rocafort de Queralt",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431303",
+  "lat": 41.47754,
+  "lon": 1.28096
+ },
+ {
+  "slug": "roda-de-bera",
+  "nombre": "Roda de Berà",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431310",
+  "lat": 41.186,
+  "lon": 1.45693
+ },
+ {
+  "slug": "roda-de-ter",
+  "nombre": "Roda de Ter",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081831",
+  "lat": 41.98081,
+  "lon": 2.30949
+ },
+ {
+  "slug": "rodonya",
+  "nombre": "Rodonyà",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431325",
+  "lat": 41.28004,
+  "lon": 1.39904
+ },
+ {
+  "slug": "roquetes",
+  "nombre": "Roquetes",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "431331",
+  "lat": 40.81838,
+  "lon": 0.50301
+ },
+ {
+  "slug": "roses",
+  "nombre": "Roses",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171523",
+  "lat": 42.26341,
+  "lon": 3.17493
+ },
+ {
+  "slug": "rossello",
+  "nombre": "Rosselló",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "251898",
+  "lat": 41.69579,
+  "lon": 0.59602
+ },
+ {
+  "slug": "rubi",
+  "nombre": "Rubí",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "081846",
+  "lat": 41.49348,
+  "lon": 2.03134
+ },
+ {
+  "slug": "rubio",
+  "nombre": "Rubió",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081859",
+  "lat": 41.64464,
+  "lon": 1.57018
+ },
+ {
+  "slug": "rupia",
+  "nombre": "Rupià",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171539",
+  "lat": 42.02044,
+  "lon": 3.01065
+ },
+ {
+  "slug": "rupit-i-pruit",
+  "nombre": "Rupit i Pruit",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "089019",
+  "lat": 42.02331,
+  "lon": 2.46466
+ },
+ {
+  "slug": "sabadell",
+  "nombre": "Sabadell",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "081878",
+  "lat": 41.54638,
+  "lon": 2.10855
+ },
+ {
+  "slug": "sagas",
+  "nombre": "Sagàs",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "081884",
+  "lat": 42.05083,
+  "lon": 1.9616
+ },
+ {
+  "slug": "salas-de-pallars",
+  "nombre": "Salàs de Pallars",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "251902",
+  "lat": 42.21255,
+  "lon": 0.93146
+ },
+ {
+  "slug": "saldes",
+  "nombre": "Saldes",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "081901",
+  "lat": 42.22932,
+  "lon": 1.73615
+ },
+ {
+  "slug": "sales-de-llierca",
+  "nombre": "Sales de Llierca",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171544",
+  "lat": 42.23607,
+  "lon": 2.65013
+ },
+ {
+  "slug": "sallent",
+  "nombre": "Sallent",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "081918",
+  "lat": 41.82406,
+  "lon": 1.89467
+ },
+ {
+  "slug": "salomo",
+  "nombre": "Salomó",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431359",
+  "lat": 41.22901,
+  "lon": 1.37479
+ },
+ {
+  "slug": "salou",
+  "nombre": "Salou",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "439057",
+  "lat": 41.08118,
+  "lon": 1.13357
+ },
+ {
+  "slug": "salt",
+  "nombre": "Salt",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171557",
+  "lat": 41.97505,
+  "lon": 2.79206
+ },
+ {
+  "slug": "sanauja",
+  "nombre": "Sanaüja",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251919",
+  "lat": 41.87578,
+  "lon": 1.30951
+ },
+ {
+  "slug": "sant-adria-de-besos",
+  "nombre": "Sant Adrià de Besòs",
+  "comarca": "barcelones",
+  "provincia": "Barcelona",
+  "ine": "081944",
+  "lat": 41.43007,
+  "lon": 2.21779
+ },
+ {
+  "slug": "sant-agusti-de-llucanes",
+  "nombre": "Sant Agustí de Lluçanès",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081957",
+  "lat": 42.08561,
+  "lon": 2.12679
+ },
+ {
+  "slug": "sant-andreu-de-la-barca",
+  "nombre": "Sant Andreu de la Barca",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "081960",
+  "lat": 41.45,
+  "lon": 1.9714
+ },
+ {
+  "slug": "sant-andreu-de-llavaneres",
+  "nombre": "Sant Andreu de Llavaneres",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081976",
+  "lat": 41.57446,
+  "lon": 2.48335
+ },
+ {
+  "slug": "sant-andreu-salou",
+  "nombre": "Sant Andreu Salou",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171576",
+  "lat": 41.87336,
+  "lon": 2.82552
+ },
+ {
+  "slug": "sant-aniol-de-finestres",
+  "nombre": "Sant Aniol de Finestres",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171833",
+  "lat": 42.06286,
+  "lon": 2.61443
+ },
+ {
+  "slug": "sant-antoni-de-vilamajor",
+  "nombre": "Sant Antoni de Vilamajor",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "081982",
+  "lat": 41.67357,
+  "lon": 2.40066
+ },
+ {
+  "slug": "sant-bartomeu-del-grau",
+  "nombre": "Sant Bartomeu del Grau",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "081995",
+  "lat": 41.98029,
+  "lon": 2.17715
+ },
+ {
+  "slug": "sant-boi-de-llobregat",
+  "nombre": "Sant Boi de Llobregat",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082009",
+  "lat": 41.34752,
+  "lon": 2.0427
+ },
+ {
+  "slug": "sant-boi-de-llucanes",
+  "nombre": "Sant Boi de Lluçanès",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082016",
+  "lat": 42.05877,
+  "lon": 2.15178
+ },
+ {
+  "slug": "sant-cebria-de-vallalta",
+  "nombre": "Sant Cebrià de Vallalta",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082037",
+  "lat": 41.61947,
+  "lon": 2.59941
+ },
+ {
+  "slug": "sant-celoni",
+  "nombre": "Sant Celoni",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082021",
+  "lat": 41.68996,
+  "lon": 2.49252
+ },
+ {
+  "slug": "sant-climent-de-llobregat",
+  "nombre": "Sant Climent de Llobregat",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082042",
+  "lat": 41.33707,
+  "lon": 1.99642
+ },
+ {
+  "slug": "sant-climent-sescebes",
+  "nombre": "Sant Climent Sescebes",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171582",
+  "lat": 42.36898,
+  "lon": 2.98004
+ },
+ {
+  "slug": "sant-cugat-del-valles",
+  "nombre": "Sant Cugat del Vallès",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082055",
+  "lat": 41.46985,
+  "lon": 2.08239
+ },
+ {
+  "slug": "sant-cugat-sesgarrigues",
+  "nombre": "Sant Cugat Sesgarrigues",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082068",
+  "lat": 41.36262,
+  "lon": 1.75236
+ },
+ {
+  "slug": "sant-esteve-de-la-sarga",
+  "nombre": "Sant Esteve de la Sarga",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "251961",
+  "lat": 42.07959,
+  "lon": 0.76389
+ },
+ {
+  "slug": "sant-esteve-de-palautordera",
+  "nombre": "Sant Esteve de Palautordera",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082074",
+  "lat": 41.70354,
+  "lon": 2.43518
+ },
+ {
+  "slug": "sant-esteve-sesrovires",
+  "nombre": "Sant Esteve Sesrovires",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082080",
+  "lat": 41.49325,
+  "lon": 1.87437
+ },
+ {
+  "slug": "sant-feliu-de-buixalleu",
+  "nombre": "Sant Feliu de Buixalleu",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171595",
+  "lat": 41.73544,
+  "lon": 2.60709
+ },
+ {
+  "slug": "sant-feliu-de-codines",
+  "nombre": "Sant Feliu de Codines",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082107",
+  "lat": 41.68892,
+  "lon": 2.16455
+ },
+ {
+  "slug": "sant-feliu-de-guixols",
+  "nombre": "Sant Feliu de Guíxols",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171609",
+  "lat": 41.78045,
+  "lon": 3.0284
+ },
+ {
+  "slug": "sant-feliu-de-llobregat",
+  "nombre": "Sant Feliu de Llobregat",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082114",
+  "lat": 41.38195,
+  "lon": 2.04623
+ },
+ {
+  "slug": "sant-feliu-de-pallerols",
+  "nombre": "Sant Feliu de Pallerols",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171616",
+  "lat": 42.07544,
+  "lon": 2.50748
+ },
+ {
+  "slug": "sant-feliu-sasserra",
+  "nombre": "Sant Feliu Sasserra",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "082129",
+  "lat": 41.94481,
+  "lon": 2.02249
+ },
+ {
+  "slug": "sant-ferriol",
+  "nombre": "Sant Ferriol",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171621",
+  "lat": 42.19454,
+  "lon": 2.71434
+ },
+ {
+  "slug": "sant-fost-de-campsentelles",
+  "nombre": "Sant Fost de Campsentelles",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082093",
+  "lat": 41.51876,
+  "lon": 2.23294
+ },
+ {
+  "slug": "sant-fruitos-de-bages",
+  "nombre": "Sant Fruitós de Bages",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "082135",
+  "lat": 41.75067,
+  "lon": 1.87327
+ },
+ {
+  "slug": "sant-gregori",
+  "nombre": "Sant Gregori",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171637",
+  "lat": 41.99033,
+  "lon": 2.75959
+ },
+ {
+  "slug": "sant-guim-de-freixenet",
+  "nombre": "Sant Guim de Freixenet",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251924",
+  "lat": 41.65578,
+  "lon": 1.41887
+ },
+ {
+  "slug": "sant-guim-de-la-plana",
+  "nombre": "Sant Guim de la Plana",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251977",
+  "lat": 41.76302,
+  "lon": 1.3246
+ },
+ {
+  "slug": "sant-hilari-sacalm",
+  "nombre": "Sant Hilari Sacalm",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171642",
+  "lat": 41.87884,
+  "lon": 2.50832
+ },
+ {
+  "slug": "sant-hipolit-de-voltrega",
+  "nombre": "Sant Hipòlit de Voltregà",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082153",
+  "lat": 42.01555,
+  "lon": 2.2362
+ },
+ {
+  "slug": "sant-iscle-de-vallalta",
+  "nombre": "Sant Iscle de Vallalta",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "081939",
+  "lat": 41.62387,
+  "lon": 2.5693
+ },
+ {
+  "slug": "sant-jaume-de-frontanya",
+  "nombre": "Sant Jaume de Frontanyà",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "082166",
+  "lat": 42.18642,
+  "lon": 2.02549
+ },
+ {
+  "slug": "sant-jaume-de-llierca",
+  "nombre": "Sant Jaume de Llierca",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171655",
+  "lat": 42.2117,
+  "lon": 2.60749
+ },
+ {
+  "slug": "sant-jaume-dels-domenys",
+  "nombre": "Sant Jaume dels Domenys",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "431378",
+  "lat": 41.29963,
+  "lon": 1.55927
+ },
+ {
+  "slug": "sant-jaume-denveja",
+  "nombre": "Sant Jaume d'Enveja",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "439023",
+  "lat": 40.70504,
+  "lon": 0.71702
+ },
+ {
+  "slug": "sant-joan-de-les-abadesses",
+  "nombre": "Sant Joan de les Abadesses",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171674",
+  "lat": 42.23281,
+  "lon": 2.28483
+ },
+ {
+  "slug": "sant-joan-de-mollet",
+  "nombre": "Sant Joan de Mollet",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171680",
+  "lat": 42.04581,
+  "lon": 2.94282
+ },
+ {
+  "slug": "sant-joan-de-vilatorrada",
+  "nombre": "Sant Joan de Vilatorrada",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "082188",
+  "lat": 41.74551,
+  "lon": 1.80485
+ },
+ {
+  "slug": "sant-joan-despi",
+  "nombre": "Sant Joan Despí",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082172",
+  "lat": 41.36782,
+  "lon": 2.05495
+ },
+ {
+  "slug": "sant-joan-les-fonts",
+  "nombre": "Sant Joan les Fonts",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171851",
+  "lat": 42.21265,
+  "lon": 2.51105
+ },
+ {
+  "slug": "sant-jordi-desvalls",
+  "nombre": "Sant Jordi Desvalls",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171668",
+  "lat": 42.07209,
+  "lon": 2.95354
+ },
+ {
+  "slug": "sant-julia-de-cerdanyola",
+  "nombre": "Sant Julià de Cerdanyola",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "089030",
+  "lat": 42.22384,
+  "lon": 1.89292
+ },
+ {
+  "slug": "sant-julia-de-ramis",
+  "nombre": "Sant Julià de Ramis",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171693",
+  "lat": 42.03465,
+  "lon": 2.83939
+ },
+ {
+  "slug": "sant-julia-de-vilatorta",
+  "nombre": "Sant Julià de Vilatorta",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082205",
+  "lat": 41.9223,
+  "lon": 2.3245
+ },
+ {
+  "slug": "sant-julia-del-llor-i-bonmati",
+  "nombre": "Sant Julià del Llor i Bonmatí",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "179032",
+  "lat": 41.96819,
+  "lon": 2.66993
+ },
+ {
+  "slug": "sant-just-desvern",
+  "nombre": "Sant Just Desvern",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082212",
+  "lat": 41.38573,
+  "lon": 2.07556
+ },
+ {
+  "slug": "sant-llorenc-de-la-muga",
+  "nombre": "Sant Llorenç de la Muga",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171714",
+  "lat": 42.32067,
+  "lon": 2.7901
+ },
+ {
+  "slug": "sant-llorenc-de-morunys",
+  "nombre": "Sant Llorenç de Morunys",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "251930",
+  "lat": 42.13725,
+  "lon": 1.59091
+ },
+ {
+  "slug": "sant-llorenc-dhortons",
+  "nombre": "Sant Llorenç d'Hortons",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082227",
+  "lat": 41.46786,
+  "lon": 1.82441
+ },
+ {
+  "slug": "sant-llorenc-savall",
+  "nombre": "Sant Llorenç Savall",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082233",
+  "lat": 41.67938,
+  "lon": 2.05973
+ },
+ {
+  "slug": "sant-marti-dalbars",
+  "nombre": "Sant Martí d'Albars",
+  "comarca": "llucanes",
+  "provincia": "Barcelona",
+  "ine": "082251",
+  "lat": 42.02797,
+  "lon": 2.07415
+ },
+ {
+  "slug": "sant-marti-de-centelles",
+  "nombre": "Sant Martí de Centelles",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082248",
+  "lat": 41.76389,
+  "lon": 2.25097
+ },
+ {
+  "slug": "sant-marti-de-llemena",
+  "nombre": "Sant Martí de Llémena",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171729",
+  "lat": 42.03615,
+  "lon": 2.64761
+ },
+ {
+  "slug": "sant-marti-de-riucorb",
+  "nombre": "Sant Martí de Riucorb",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "259025",
+  "lat": 41.5601,
+  "lon": 1.05313
+ },
+ {
+  "slug": "sant-marti-de-tous",
+  "nombre": "Sant Martí de Tous",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "082264",
+  "lat": 41.5606,
+  "lon": 1.523
+ },
+ {
+  "slug": "sant-marti-sarroca",
+  "nombre": "Sant Martí Sarroca",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082270",
+  "lat": 41.38532,
+  "lon": 1.61094
+ },
+ {
+  "slug": "sant-marti-sesgueioles",
+  "nombre": "Sant Martí Sesgueioles",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "082286",
+  "lat": 41.70201,
+  "lon": 1.48816
+ },
+ {
+  "slug": "sant-marti-vell",
+  "nombre": "Sant Martí Vell",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171735",
+  "lat": 42.01981,
+  "lon": 2.9313
+ },
+ {
+  "slug": "sant-mateu-de-bages",
+  "nombre": "Sant Mateu de Bages",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "082299",
+  "lat": 41.79676,
+  "lon": 1.73263
+ },
+ {
+  "slug": "sant-miquel-de-campmajor",
+  "nombre": "Sant Miquel de Campmajor",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "171740",
+  "lat": 42.12579,
+  "lon": 2.68441
+ },
+ {
+  "slug": "sant-miquel-de-fluvia",
+  "nombre": "Sant Miquel de Fluvià",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171753",
+  "lat": 42.17216,
+  "lon": 2.99188
+ },
+ {
+  "slug": "sant-mori",
+  "nombre": "Sant Mori",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171766",
+  "lat": 42.15292,
+  "lon": 2.99148
+ },
+ {
+  "slug": "sant-pau-de-seguries",
+  "nombre": "Sant Pau de Segúries",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171772",
+  "lat": 42.26186,
+  "lon": 2.36566
+ },
+ {
+  "slug": "sant-pere-de-ribes",
+  "nombre": "Sant Pere de Ribes",
+  "comarca": "garraf",
+  "provincia": "Barcelona",
+  "ine": "082310",
+  "lat": 41.2623,
+  "lon": 1.77211
+ },
+ {
+  "slug": "sant-pere-de-riudebitlles",
+  "nombre": "Sant Pere de Riudebitlles",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082325",
+  "lat": 41.45319,
+  "lon": 1.70133
+ },
+ {
+  "slug": "sant-pere-de-torello",
+  "nombre": "Sant Pere de Torelló",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082331",
+  "lat": 42.0755,
+  "lon": 2.2961
+ },
+ {
+  "slug": "sant-pere-de-vilamajor",
+  "nombre": "Sant Pere de Vilamajor",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082346",
+  "lat": 41.68502,
+  "lon": 2.39063
+ },
+ {
+  "slug": "sant-pere-pescador",
+  "nombre": "Sant Pere Pescador",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171788",
+  "lat": 42.18812,
+  "lon": 3.08328
+ },
+ {
+  "slug": "sant-pere-sallavinera",
+  "nombre": "Sant Pere Sallavinera",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "081897",
+  "lat": 41.73652,
+  "lon": 1.57247
+ },
+ {
+  "slug": "sant-pol-de-mar",
+  "nombre": "Sant Pol de Mar",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082359",
+  "lat": 41.60022,
+  "lon": 2.62116
+ },
+ {
+  "slug": "sant-quinti-de-mediona",
+  "nombre": "Sant Quintí de Mediona",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082362",
+  "lat": 41.46235,
+  "lon": 1.66315
+ },
+ {
+  "slug": "sant-quirze-de-besora",
+  "nombre": "Sant Quirze de Besora",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082378",
+  "lat": 42.10029,
+  "lon": 2.22223
+ },
+ {
+  "slug": "sant-quirze-del-valles",
+  "nombre": "Sant Quirze del Vallès",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082384",
+  "lat": 41.53284,
+  "lon": 2.081
+ },
+ {
+  "slug": "sant-quirze-safaja",
+  "nombre": "Sant Quirze Safaja",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "082397",
+  "lat": 41.72731,
+  "lon": 2.15308
+ },
+ {
+  "slug": "sant-ramon",
+  "nombre": "Sant Ramon",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "251945",
+  "lat": 41.72461,
+  "lon": 1.35898
+ },
+ {
+  "slug": "sant-sadurni-danoia",
+  "nombre": "Sant Sadurní d'Anoia",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082401",
+  "lat": 41.42421,
+  "lon": 1.7873
+ },
+ {
+  "slug": "sant-sadurni-dosormort",
+  "nombre": "Sant Sadurní d'Osormort",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082418",
+  "lat": 41.90186,
+  "lon": 2.38139
+ },
+ {
+  "slug": "sant-salvador-de-guardiola",
+  "nombre": "Sant Salvador de Guardiola",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "080983",
+  "lat": 41.67923,
+  "lon": 1.7663
+ },
+ {
+  "slug": "sant-vicenc-de-castellet",
+  "nombre": "Sant Vicenç de Castellet",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "082628",
+  "lat": 41.66555,
+  "lon": 1.86362
+ },
+ {
+  "slug": "sant-vicenc-de-montalt",
+  "nombre": "Sant Vicenç de Montalt",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082649",
+  "lat": 41.57902,
+  "lon": 2.50877
+ },
+ {
+  "slug": "sant-vicenc-de-torello",
+  "nombre": "Sant Vicenç de Torelló",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082652",
+  "lat": 42.0626,
+  "lon": 2.27402
+ },
+ {
+  "slug": "sant-vicenc-dels-horts",
+  "nombre": "Sant Vicenç dels Horts",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082634",
+  "lat": 41.39334,
+  "lon": 2.00971
+ },
+ {
+  "slug": "santa-barbara",
+  "nombre": "Santa Bàrbara",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "431384",
+  "lat": 40.71434,
+  "lon": 0.49283
+ },
+ {
+  "slug": "santa-cecilia-de-voltrega",
+  "nombre": "Santa Cecília de Voltregà",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082439",
+  "lat": 41.99282,
+  "lon": 2.2223
+ },
+ {
+  "slug": "santa-coloma-de-cervello",
+  "nombre": "Santa Coloma de Cervelló",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082444",
+  "lat": 41.36897,
+  "lon": 2.01618
+ },
+ {
+  "slug": "santa-coloma-de-farners",
+  "nombre": "Santa Coloma de Farners",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171805",
+  "lat": 41.8615,
+  "lon": 2.66278
+ },
+ {
+  "slug": "santa-coloma-de-gramenet",
+  "nombre": "Santa Coloma de Gramenet",
+  "comarca": "barcelones",
+  "provincia": "Barcelona",
+  "ine": "082457",
+  "lat": 41.45215,
+  "lon": 2.20793
+ },
+ {
+  "slug": "santa-coloma-de-queralt",
+  "nombre": "Santa Coloma de Queralt",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431397",
+  "lat": 41.53238,
+  "lon": 1.3833
+ },
+ {
+  "slug": "santa-cristina-daro",
+  "nombre": "Santa Cristina d'Aro",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171812",
+  "lat": 41.81207,
+  "lon": 2.9969
+ },
+ {
+  "slug": "santa-eugenia-de-berga",
+  "nombre": "Santa Eugènia de Berga",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082460",
+  "lat": 41.90036,
+  "lon": 2.28315
+ },
+ {
+  "slug": "santa-eulalia-de-riuprimer",
+  "nombre": "Santa Eulàlia de Riuprimer",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082476",
+  "lat": 41.91089,
+  "lon": 2.18861
+ },
+ {
+  "slug": "santa-eulalia-de-roncana",
+  "nombre": "Santa Eulàlia de Ronçana",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082482",
+  "lat": 41.65235,
+  "lon": 2.22921
+ },
+ {
+  "slug": "santa-fe-del-penedes",
+  "nombre": "Santa Fe del Penedès",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082495",
+  "lat": 41.38445,
+  "lon": 1.72127
+ },
+ {
+  "slug": "santa-llogaia-dalguema",
+  "nombre": "Santa Llogaia d'Àlguema",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171827",
+  "lat": 42.234,
+  "lon": 2.95313
+ },
+ {
+  "slug": "santa-margarida-de-montbui",
+  "nombre": "Santa Margarida de Montbui",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "082508",
+  "lat": 41.57383,
+  "lon": 1.60807
+ },
+ {
+  "slug": "santa-margarida-i-els-monjos",
+  "nombre": "Santa Margarida i els Monjos",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082515",
+  "lat": 41.32138,
+  "lon": 1.66306
+ },
+ {
+  "slug": "santa-maria-de-besora",
+  "nombre": "Santa Maria de Besora",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082536",
+  "lat": 42.12772,
+  "lon": 2.25768
+ },
+ {
+  "slug": "santa-maria-de-martorelles",
+  "nombre": "Santa Maria de Martorelles",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082567",
+  "lat": 41.51958,
+  "lon": 2.25335
+ },
+ {
+  "slug": "santa-maria-de-merles",
+  "nombre": "Santa Maria de Merlès",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "082554",
+  "lat": 42.00096,
+  "lon": 1.97838
+ },
+ {
+  "slug": "santa-maria-de-miralles",
+  "nombre": "Santa Maria de Miralles",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "082573",
+  "lat": 41.51804,
+  "lon": 1.52544
+ },
+ {
+  "slug": "santa-maria-de-palautordera",
+  "nombre": "Santa Maria de Palautordera",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082592",
+  "lat": 41.69299,
+  "lon": 2.4461
+ },
+ {
+  "slug": "santa-maria-dolo",
+  "nombre": "Santa Maria d'Oló",
+  "comarca": "moianes",
+  "provincia": "Barcelona",
+  "ine": "082589",
+  "lat": 41.87218,
+  "lon": 2.03557
+ },
+ {
+  "slug": "santa-oliva",
+  "nombre": "Santa Oliva",
+  "comarca": "baix-penedes",
+  "provincia": "Tarragona",
+  "ine": "431401",
+  "lat": 41.25348,
+  "lon": 1.54944
+ },
+ {
+  "slug": "santa-pau",
+  "nombre": "Santa Pau",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "171848",
+  "lat": 42.14487,
+  "lon": 2.56969
+ },
+ {
+  "slug": "santa-perpetua-de-mogoda",
+  "nombre": "Santa Perpètua de Mogoda",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082606",
+  "lat": 41.53458,
+  "lon": 2.18344
+ },
+ {
+  "slug": "santa-susanna",
+  "nombre": "Santa Susanna",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082613",
+  "lat": 41.6355,
+  "lon": 2.70707
+ },
+ {
+  "slug": "santpedor",
+  "nombre": "Santpedor",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "081923",
+  "lat": 41.78327,
+  "lon": 1.83918
+ },
+ {
+  "slug": "sarral",
+  "nombre": "Sarral",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431423",
+  "lat": 41.4441,
+  "lon": 1.24877
+ },
+ {
+  "slug": "sarria-de-ter",
+  "nombre": "Sarrià de Ter",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "171864",
+  "lat": 42.01709,
+  "lon": 2.82522
+ },
+ {
+  "slug": "sarroca-de-bellera",
+  "nombre": "Sarroca de Bellera",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "252017",
+  "lat": 42.35977,
+  "lon": 0.88111
+ },
+ {
+  "slug": "sarroca-de-lleida",
+  "nombre": "Sarroca de Lleida",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252000",
+  "lat": 41.45913,
+  "lon": 0.56168
+ },
+ {
+  "slug": "savalla-del-comtat",
+  "nombre": "Savallà del Comtat",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431439",
+  "lat": 41.54313,
+  "lon": 1.29962
+ },
+ {
+  "slug": "senan",
+  "nombre": "Senan",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431460",
+  "lat": 41.46993,
+  "lon": 1.08827
+ },
+ {
+  "slug": "senterada",
+  "nombre": "Senterada",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "252022",
+  "lat": 42.32467,
+  "lon": 0.93653
+ },
+ {
+  "slug": "sentmenat",
+  "nombre": "Sentmenat",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082671",
+  "lat": 41.60926,
+  "lon": 2.13619
+ },
+ {
+  "slug": "serinya",
+  "nombre": "Serinyà",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "171903",
+  "lat": 42.16966,
+  "lon": 2.74554
+ },
+ {
+  "slug": "seros",
+  "nombre": "Seròs",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252043",
+  "lat": 41.46387,
+  "lon": 0.41104
+ },
+ {
+  "slug": "serra-de-daro",
+  "nombre": "Serra de Daró",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171910",
+  "lat": 42.02762,
+  "lon": 3.07256
+ },
+ {
+  "slug": "setcases",
+  "nombre": "Setcases",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171925",
+  "lat": 42.37496,
+  "lon": 2.30137
+ },
+ {
+  "slug": "seva",
+  "nombre": "Seva",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082690",
+  "lat": 41.83864,
+  "lon": 2.2803
+ },
+ {
+  "slug": "sidamon",
+  "nombre": "Sidamon",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "252056",
+  "lat": 41.62861,
+  "lon": 0.83221
+ },
+ {
+  "slug": "sils",
+  "nombre": "Sils",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171931",
+  "lat": 41.80858,
+  "lon": 2.74434
+ },
+ {
+  "slug": "sitges",
+  "nombre": "Sitges",
+  "comarca": "garraf",
+  "provincia": "Barcelona",
+  "ine": "082704",
+  "lat": 41.23509,
+  "lon": 1.81184
+ },
+ {
+  "slug": "siurana",
+  "nombre": "Siurana",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "170524",
+  "lat": 42.20935,
+  "lon": 2.9945
+ },
+ {
+  "slug": "sobremunt",
+  "nombre": "Sobremunt",
+  "comarca": "llucanes",
+  "provincia": "Barcelona",
+  "ine": "082711",
+  "lat": 42.03613,
+  "lon": 2.16684
+ },
+ {
+  "slug": "solivella",
+  "nombre": "Solivella",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431476",
+  "lat": 41.4559,
+  "lon": 1.17777
+ },
+ {
+  "slug": "solsona",
+  "nombre": "Solsona",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "252075",
+  "lat": 41.99466,
+  "lon": 1.51718
+ },
+ {
+  "slug": "sora",
+  "nombre": "Sora",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082726",
+  "lat": 42.11049,
+  "lon": 2.1598
+ },
+ {
+  "slug": "soriguera",
+  "nombre": "Soriguera",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "252081",
+  "lat": 42.37962,
+  "lon": 1.16137
+ },
+ {
+  "slug": "sort",
+  "nombre": "Sort",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "252094",
+  "lat": 42.41283,
+  "lon": 1.13125
+ },
+ {
+  "slug": "soses",
+  "nombre": "Soses",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252108",
+  "lat": 41.533,
+  "lon": 0.48731
+ },
+ {
+  "slug": "subirats",
+  "nombre": "Subirats",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082732",
+  "lat": 41.38241,
+  "lon": 1.79465
+ },
+ {
+  "slug": "sudanell",
+  "nombre": "Sudanell",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252115",
+  "lat": 41.55769,
+  "lon": 0.56712
+ },
+ {
+  "slug": "sunyer",
+  "nombre": "Sunyer",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252120",
+  "lat": 41.52283,
+  "lon": 0.59255
+ },
+ {
+  "slug": "suria",
+  "nombre": "Súria",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "082747",
+  "lat": 41.83147,
+  "lon": 1.75357
+ },
+ {
+  "slug": "susqueda",
+  "nombre": "Susqueda",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "171946",
+  "lat": 42.01414,
+  "lon": 2.54687
+ },
+ {
+  "slug": "tagamanent",
+  "nombre": "Tagamanent",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082763",
+  "lat": 41.73844,
+  "lon": 2.26772
+ },
+ {
+  "slug": "talamanca",
+  "nombre": "Talamanca",
+  "comarca": "bages",
+  "provincia": "Barcelona",
+  "ine": "082779",
+  "lat": 41.7381,
+  "lon": 1.97714
+ },
+ {
+  "slug": "talarn",
+  "nombre": "Talarn",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "252154",
+  "lat": 42.18586,
+  "lon": 0.89994
+ },
+ {
+  "slug": "talavera",
+  "nombre": "Talavera",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "252167",
+  "lat": 41.58184,
+  "lon": 1.33842
+ },
+ {
+  "slug": "taradell",
+  "nombre": "Taradell",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082785",
+  "lat": 41.87381,
+  "lon": 2.28681
+ },
+ {
+  "slug": "tarragona",
+  "nombre": "Tarragona",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431482",
+  "lat": 41.11743,
+  "lon": 1.25436
+ },
+ {
+  "slug": "tarrega",
+  "nombre": "Tàrrega",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "252173",
+  "lat": 41.64628,
+  "lon": 1.13905
+ },
+ {
+  "slug": "tarres",
+  "nombre": "Tarrés",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "252189",
+  "lat": 41.4229,
+  "lon": 1.02014
+ },
+ {
+  "slug": "tarroja-de-segarra",
+  "nombre": "Tarroja de Segarra",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "252192",
+  "lat": 41.73049,
+  "lon": 1.27654
+ },
+ {
+  "slug": "tavernoles",
+  "nombre": "Tavèrnoles",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082750",
+  "lat": 41.95215,
+  "lon": 2.32651
+ },
+ {
+  "slug": "tavertet",
+  "nombre": "Tavertet",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082802",
+  "lat": 41.99679,
+  "lon": 2.41846
+ },
+ {
+  "slug": "teia",
+  "nombre": "Teià",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082819",
+  "lat": 41.49967,
+  "lon": 2.31982
+ },
+ {
+  "slug": "termens",
+  "nombre": "Térmens",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "252206",
+  "lat": 41.71761,
+  "lon": 0.76049
+ },
+ {
+  "slug": "terrades",
+  "nombre": "Terrades",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171962",
+  "lat": 42.31011,
+  "lon": 2.83901
+ },
+ {
+  "slug": "terrassa",
+  "nombre": "Terrassa",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082798",
+  "lat": 41.56296,
+  "lon": 2.01029
+ },
+ {
+  "slug": "tiana",
+  "nombre": "Tiana",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082824",
+  "lat": 41.48173,
+  "lon": 2.26902
+ },
+ {
+  "slug": "tirvia",
+  "nombre": "Tírvia",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "252213",
+  "lat": 42.51515,
+  "lon": 1.24288
+ },
+ {
+  "slug": "tiurana",
+  "nombre": "Tiurana",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "252228",
+  "lat": 41.97502,
+  "lon": 1.25616
+ },
+ {
+  "slug": "tivenys",
+  "nombre": "Tivenys",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "431495",
+  "lat": 40.90753,
+  "lon": 0.51232
+ },
+ {
+  "slug": "tivissa",
+  "nombre": "Tivissa",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "431508",
+  "lat": 41.04261,
+  "lon": 0.73261
+ },
+ {
+  "slug": "tona",
+  "nombre": "Tona",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082830",
+  "lat": 41.85002,
+  "lon": 2.22918
+ },
+ {
+  "slug": "tora",
+  "nombre": "Torà",
+  "comarca": "solsones",
+  "provincia": "Lleida",
+  "ine": "252234",
+  "lat": 41.81299,
+  "lon": 1.40281
+ },
+ {
+  "slug": "tordera",
+  "nombre": "Tordera",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082845",
+  "lat": 41.69902,
+  "lon": 2.71876
+ },
+ {
+  "slug": "torello",
+  "nombre": "Torelló",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082858",
+  "lat": 42.04713,
+  "lon": 2.26059
+ },
+ {
+  "slug": "tornabous",
+  "nombre": "Tornabous",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "252252",
+  "lat": 41.70153,
+  "lon": 1.05285
+ },
+ {
+  "slug": "torre-serona",
+  "nombre": "Torre-serona",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252332",
+  "lat": 41.67297,
+  "lon": 0.63104
+ },
+ {
+  "slug": "torrebesses",
+  "nombre": "Torrebesses",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252265",
+  "lat": 41.42626,
+  "lon": 0.59403
+ },
+ {
+  "slug": "torredembarra",
+  "nombre": "Torredembarra",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431536",
+  "lat": 41.14607,
+  "lon": 1.39606
+ },
+ {
+  "slug": "torrefarrera",
+  "nombre": "Torrefarrera",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252287",
+  "lat": 41.67308,
+  "lon": 0.60708
+ },
+ {
+  "slug": "torrefeta-i-florejacs",
+  "nombre": "Torrefeta i Florejacs",
+  "comarca": "segarra",
+  "provincia": "Lleida",
+  "ine": "259078",
+  "lat": 41.75443,
+  "lon": 1.27487
+ },
+ {
+  "slug": "torregrossa",
+  "nombre": "Torregrossa",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "252304",
+  "lat": 41.58012,
+  "lon": 0.83191
+ },
+ {
+  "slug": "torrelameu",
+  "nombre": "Torrelameu",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "252311",
+  "lat": 41.70406,
+  "lon": 0.70298
+ },
+ {
+  "slug": "torrelavit",
+  "nombre": "Torrelavit",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082877",
+  "lat": 41.44634,
+  "lon": 1.72991
+ },
+ {
+  "slug": "torrelles-de-foix",
+  "nombre": "Torrelles de Foix",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "082883",
+  "lat": 41.38847,
+  "lon": 1.56894
+ },
+ {
+  "slug": "torrelles-de-llobregat",
+  "nombre": "Torrelles de Llobregat",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082896",
+  "lat": 41.35905,
+  "lon": 1.98111
+ },
+ {
+  "slug": "torrent",
+  "nombre": "Torrent",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171978",
+  "lat": 41.95191,
+  "lon": 3.12756
+ },
+ {
+  "slug": "torres-de-segre",
+  "nombre": "Torres de Segre",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252326",
+  "lat": 41.53517,
+  "lon": 0.5126
+ },
+ {
+  "slug": "torroella-de-fluvia",
+  "nombre": "Torroella de Fluvià",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "171984",
+  "lat": 42.17527,
+  "lon": 3.04053
+ },
+ {
+  "slug": "torroella-de-montgri",
+  "nombre": "Torroella de Montgrí",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "171997",
+  "lat": 42.04101,
+  "lon": 3.12638
+ },
+ {
+  "slug": "torroja-del-priorat",
+  "nombre": "Torroja del Priorat",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "431541",
+  "lat": 41.21355,
+  "lon": 0.81021
+ },
+ {
+  "slug": "tortella",
+  "nombre": "Tortellà",
+  "comarca": "garrotxa",
+  "provincia": "Girona",
+  "ine": "172001",
+  "lat": 42.23282,
+  "lon": 2.62968
+ },
+ {
+  "slug": "tortosa",
+  "nombre": "Tortosa",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "431554",
+  "lat": 40.8109,
+  "lon": 0.52096
+ },
+ {
+  "slug": "toses",
+  "nombre": "Toses",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "172018",
+  "lat": 42.32175,
+  "lon": 2.01696
+ },
+ {
+  "slug": "tossa-de-mar",
+  "nombre": "Tossa de Mar",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "172023",
+  "lat": 41.7178,
+  "lon": 2.93084
+ },
+ {
+  "slug": "tremp",
+  "nombre": "Tremp",
+  "comarca": "pallars-jussa",
+  "provincia": "Lleida",
+  "ine": "252347",
+  "lat": 42.16692,
+  "lon": 0.8959
+ },
+ {
+  "slug": "ulla",
+  "nombre": "Ullà",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "172044",
+  "lat": 42.05081,
+  "lon": 3.10774
+ },
+ {
+  "slug": "ullastrell",
+  "nombre": "Ullastrell",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082900",
+  "lat": 41.5269,
+  "lon": 1.95689
+ },
+ {
+  "slug": "ullastret",
+  "nombre": "Ullastret",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "172057",
+  "lat": 42.00076,
+  "lon": 3.0684
+ },
+ {
+  "slug": "ulldecona",
+  "nombre": "Ulldecona",
+  "comarca": "montsia",
+  "provincia": "Tarragona",
+  "ine": "431567",
+  "lat": 40.59804,
+  "lon": 0.4488
+ },
+ {
+  "slug": "ulldemolins",
+  "nombre": "Ulldemolins",
+  "comarca": "priorat",
+  "provincia": "Tarragona",
+  "ine": "431573",
+  "lat": 41.32238,
+  "lon": 0.87633
+ },
+ {
+  "slug": "ultramort",
+  "nombre": "Ultramort",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "172039",
+  "lat": 42.03664,
+  "lon": 3.03451
+ },
+ {
+  "slug": "urus",
+  "nombre": "Urús",
+  "comarca": "cerdanya",
+  "provincia": "Girona",
+  "ine": "172060",
+  "lat": 42.35063,
+  "lon": 1.8521
+ },
+ {
+  "slug": "vacarisses",
+  "nombre": "Vacarisses",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "082917",
+  "lat": 41.60594,
+  "lon": 1.91878
+ },
+ {
+  "slug": "vall-de-cardos",
+  "nombre": "Vall de Cardós",
+  "comarca": "pallars-sobira",
+  "provincia": "Lleida",
+  "ine": "259010",
+  "lat": 42.56362,
+  "lon": 1.22764
+ },
+ {
+  "slug": "vall-llobrega",
+  "nombre": "Vall-llobrega",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "172095",
+  "lat": 41.88054,
+  "lon": 3.12695
+ },
+ {
+  "slug": "vallbona-danoia",
+  "nombre": "Vallbona d'Anoia",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "082922",
+  "lat": 41.51999,
+  "lon": 1.70945
+ },
+ {
+  "slug": "vallbona-de-les-monges",
+  "nombre": "Vallbona de les Monges",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "252385",
+  "lat": 41.52505,
+  "lon": 1.08892
+ },
+ {
+  "slug": "vallcebre",
+  "nombre": "Vallcebre",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "082938",
+  "lat": 42.20333,
+  "lon": 1.81859
+ },
+ {
+  "slug": "vallclara",
+  "nombre": "Vallclara",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431589",
+  "lat": 41.3772,
+  "lon": 0.98207
+ },
+ {
+  "slug": "vallfogona-de-balaguer",
+  "nombre": "Vallfogona de Balaguer",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "252402",
+  "lat": 41.75201,
+  "lon": 0.81635
+ },
+ {
+  "slug": "vallfogona-de-ripolles",
+  "nombre": "Vallfogona de Ripollès",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "171707",
+  "lat": 42.19729,
+  "lon": 2.30415
+ },
+ {
+  "slug": "vallfogona-de-riucorb",
+  "nombre": "Vallfogona de Riucorb",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431592",
+  "lat": 41.5631,
+  "lon": 1.23623
+ },
+ {
+  "slug": "vallgorguina",
+  "nombre": "Vallgorguina",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082943",
+  "lat": 41.64726,
+  "lon": 2.51152
+ },
+ {
+  "slug": "vallirana",
+  "nombre": "Vallirana",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "082956",
+  "lat": 41.38806,
+  "lon": 1.93188
+ },
+ {
+  "slug": "vallmoll",
+  "nombre": "Vallmoll",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431606",
+  "lat": 41.24265,
+  "lon": 1.2489
+ },
+ {
+  "slug": "vallromanes",
+  "nombre": "Vallromanes",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "082969",
+  "lat": 41.53184,
+  "lon": 2.29835
+ },
+ {
+  "slug": "valls",
+  "nombre": "Valls",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431613",
+  "lat": 41.2843,
+  "lon": 1.24762
+ },
+ {
+  "slug": "vandellos-i-lhospitalet-de-linfant",
+  "nombre": "Vandellòs i l'Hospitalet de l'Infant",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431628",
+  "lat": 41.01992,
+  "lon": 0.83153
+ },
+ {
+  "slug": "veciana",
+  "nombre": "Veciana",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "082975",
+  "lat": 41.65598,
+  "lon": 1.48866
+ },
+ {
+  "slug": "ventallo",
+  "nombre": "Ventalló",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172109",
+  "lat": 42.14937,
+  "lon": 3.0269
+ },
+ {
+  "slug": "verdu",
+  "nombre": "Verdú",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "252424",
+  "lat": 41.61059,
+  "lon": 1.14286
+ },
+ {
+  "slug": "verges",
+  "nombre": "Verges",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "172116",
+  "lat": 42.06043,
+  "lon": 3.04667
+ },
+ {
+  "slug": "vespella-de-gaia",
+  "nombre": "Vespella de Gaià",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431649",
+  "lat": 41.19554,
+  "lon": 1.36283
+ },
+ {
+  "slug": "vic",
+  "nombre": "Vic",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "082981",
+  "lat": 41.92997,
+  "lon": 2.25426
+ },
+ {
+  "slug": "vidra",
+  "nombre": "Vidrà",
+  "comarca": "osona",
+  "provincia": "Girona",
+  "ine": "172121",
+  "lat": 42.12273,
+  "lon": 2.30978
+ },
+ {
+  "slug": "vidreres",
+  "nombre": "Vidreres",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "172137",
+  "lat": 41.78967,
+  "lon": 2.78033
+ },
+ {
+  "slug": "vielha-e-mijaran",
+  "nombre": "Vielha e Mijaran",
+  "comarca": "aran",
+  "provincia": "Lleida",
+  "ine": "252430",
+  "lat": 42.70191,
+  "lon": 0.79513
+ },
+ {
+  "slug": "vila-rodona",
+  "nombre": "Vila-rodona",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431704",
+  "lat": 41.3109,
+  "lon": 1.35832
+ },
+ {
+  "slug": "vila-sacra",
+  "nombre": "Vila-sacra",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172305",
+  "lat": 42.26546,
+  "lon": 3.01844
+ },
+ {
+  "slug": "vila-sana",
+  "nombre": "Vila-sana",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "252521",
+  "lat": 41.66355,
+  "lon": 0.92747
+ },
+ {
+  "slug": "vila-seca",
+  "nombre": "Vila-seca",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431711",
+  "lat": 41.11095,
+  "lon": 1.14481
+ },
+ {
+  "slug": "vilabella",
+  "nombre": "Vilabella",
+  "comarca": "alt-camp",
+  "provincia": "Tarragona",
+  "ine": "431652",
+  "lat": 41.24675,
+  "lon": 1.32991
+ },
+ {
+  "slug": "vilabertran",
+  "nombre": "Vilabertran",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172142",
+  "lat": 42.28356,
+  "lon": 2.97969
+ },
+ {
+  "slug": "vilablareix",
+  "nombre": "Vilablareix",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "172155",
+  "lat": 41.95277,
+  "lon": 2.79404
+ },
+ {
+  "slug": "vilada",
+  "nombre": "Vilada",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "082994",
+  "lat": 42.13687,
+  "lon": 1.93174
+ },
+ {
+  "slug": "viladamat",
+  "nombre": "Viladamat",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172174",
+  "lat": 42.13275,
+  "lon": 3.07382
+ },
+ {
+  "slug": "viladasens",
+  "nombre": "Viladasens",
+  "comarca": "girones",
+  "provincia": "Girona",
+  "ine": "172168",
+  "lat": 42.09533,
+  "lon": 2.9297
+ },
+ {
+  "slug": "viladecans",
+  "nombre": "Viladecans",
+  "comarca": "baix-llobregat",
+  "provincia": "Barcelona",
+  "ine": "083015",
+  "lat": 41.3159,
+  "lon": 2.01965
+ },
+ {
+  "slug": "viladecavalls",
+  "nombre": "Viladecavalls",
+  "comarca": "valles-occidental",
+  "provincia": "Barcelona",
+  "ine": "083008",
+  "lat": 41.55533,
+  "lon": 1.95438
+ },
+ {
+  "slug": "vilademuls",
+  "nombre": "Vilademuls",
+  "comarca": "pla-de-lestany",
+  "provincia": "Girona",
+  "ine": "172180",
+  "lat": 42.13851,
+  "lon": 2.88796
+ },
+ {
+  "slug": "viladrau",
+  "nombre": "Viladrau",
+  "comarca": "osona",
+  "provincia": "Girona",
+  "ine": "172207",
+  "lat": 41.84769,
+  "lon": 2.38995
+ },
+ {
+  "slug": "vilafant",
+  "nombre": "Vilafant",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172214",
+  "lat": 42.24663,
+  "lon": 2.9378
+ },
+ {
+  "slug": "vilafranca-del-penedes",
+  "nombre": "Vilafranca del Penedès",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "083054",
+  "lat": 41.3465,
+  "lon": 1.69722
+ },
+ {
+  "slug": "vilagrassa",
+  "nombre": "Vilagrassa",
+  "comarca": "urgell",
+  "provincia": "Lleida",
+  "ine": "252445",
+  "lat": 41.64824,
+  "lon": 1.10643
+ },
+ {
+  "slug": "vilajuiga",
+  "nombre": "Vilajuïga",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172235",
+  "lat": 42.32745,
+  "lon": 3.09415
+ },
+ {
+  "slug": "vilalba-dels-arcs",
+  "nombre": "Vilalba dels Arcs",
+  "comarca": "terra-alta",
+  "provincia": "Tarragona",
+  "ine": "431750",
+  "lat": 41.12112,
+  "lon": 0.41019
+ },
+ {
+  "slug": "vilalba-sasserra",
+  "nombre": "Vilalba Sasserra",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "083067",
+  "lat": 41.65286,
+  "lon": 2.44112
+ },
+ {
+  "slug": "vilaller",
+  "nombre": "Vilaller",
+  "comarca": "alta-ribagorca",
+  "provincia": "Lleida",
+  "ine": "252458",
+  "lat": 42.47639,
+  "lon": 0.71721
+ },
+ {
+  "slug": "vilallonga-de-ter",
+  "nombre": "Vilallonga de Ter",
+  "comarca": "ripolles",
+  "provincia": "Girona",
+  "ine": "172240",
+  "lat": 42.33167,
+  "lon": 2.31243
+ },
+ {
+  "slug": "vilallonga-del-camp",
+  "nombre": "Vilallonga del Camp",
+  "comarca": "tarragones",
+  "provincia": "Tarragona",
+  "ine": "431665",
+  "lat": 41.21137,
+  "lon": 1.20592
+ },
+ {
+  "slug": "vilamacolum",
+  "nombre": "Vilamacolum",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172253",
+  "lat": 42.19658,
+  "lon": 3.05696
+ },
+ {
+  "slug": "vilamalla",
+  "nombre": "Vilamalla",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172266",
+  "lat": 42.21719,
+  "lon": 2.97072
+ },
+ {
+  "slug": "vilamaniscle",
+  "nombre": "Vilamaniscle",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172272",
+  "lat": 42.37549,
+  "lon": 3.0678
+ },
+ {
+  "slug": "vilamos",
+  "nombre": "Vilamòs",
+  "comarca": "aran",
+  "provincia": "Lleida",
+  "ine": "252477",
+  "lat": 42.74763,
+  "lon": 0.72652
+ },
+ {
+  "slug": "vilanant",
+  "nombre": "Vilanant",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172288",
+  "lat": 42.255,
+  "lon": 2.88915
+ },
+ {
+  "slug": "vilanova-de-bellpuig",
+  "nombre": "Vilanova de Bellpuig",
+  "comarca": "pla-durgell",
+  "provincia": "Lleida",
+  "ine": "252483",
+  "lat": 41.61479,
+  "lon": 0.96122
+ },
+ {
+  "slug": "vilanova-de-la-barca",
+  "nombre": "Vilanova de la Barca",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252542",
+  "lat": 41.69106,
+  "lon": 0.72877
+ },
+ {
+  "slug": "vilanova-de-laguda",
+  "nombre": "Vilanova de l'Aguda",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "252496",
+  "lat": 41.91086,
+  "lon": 1.25246
+ },
+ {
+  "slug": "vilanova-de-meia",
+  "nombre": "Vilanova de Meià",
+  "comarca": "noguera",
+  "provincia": "Lleida",
+  "ine": "252509",
+  "lat": 41.99558,
+  "lon": 1.02347
+ },
+ {
+  "slug": "vilanova-de-prades",
+  "nombre": "Vilanova de Prades",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431687",
+  "lat": 41.34808,
+  "lon": 0.95641
+ },
+ {
+  "slug": "vilanova-de-sau",
+  "nombre": "Vilanova de Sau",
+  "comarca": "osona",
+  "provincia": "Barcelona",
+  "ine": "083036",
+  "lat": 41.94712,
+  "lon": 2.38482
+ },
+ {
+  "slug": "vilanova-de-segria",
+  "nombre": "Vilanova de Segrià",
+  "comarca": "segria",
+  "provincia": "Lleida",
+  "ine": "252516",
+  "lat": 41.71253,
+  "lon": 0.61874
+ },
+ {
+  "slug": "vilanova-del-cami",
+  "nombre": "Vilanova del Camí",
+  "comarca": "anoia",
+  "provincia": "Barcelona",
+  "ine": "083020",
+  "lat": 41.57226,
+  "lon": 1.6342
+ },
+ {
+  "slug": "vilanova-del-valles",
+  "nombre": "Vilanova del Vallès",
+  "comarca": "valles-oriental",
+  "provincia": "Barcelona",
+  "ine": "089024",
+  "lat": 41.55406,
+  "lon": 2.289
+ },
+ {
+  "slug": "vilanova-descornalbou",
+  "nombre": "Vilanova d'Escornalbou",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431671",
+  "lat": 41.11297,
+  "lon": 0.93662
+ },
+ {
+  "slug": "vilanova-i-la-geltru",
+  "nombre": "Vilanova i la Geltrú",
+  "comarca": "garraf",
+  "provincia": "Barcelona",
+  "ine": "083073",
+  "lat": 41.22411,
+  "lon": 1.72618
+ },
+ {
+  "slug": "vilaplana",
+  "nombre": "Vilaplana",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431690",
+  "lat": 41.22867,
+  "lon": 1.0331
+ },
+ {
+  "slug": "vilassar-de-dalt",
+  "nombre": "Vilassar de Dalt",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082140",
+  "lat": 41.51699,
+  "lon": 2.35948
+ },
+ {
+  "slug": "vilassar-de-mar",
+  "nombre": "Vilassar de Mar",
+  "comarca": "maresme",
+  "provincia": "Barcelona",
+  "ine": "082191",
+  "lat": 41.50239,
+  "lon": 2.39249
+ },
+ {
+  "slug": "vilaur",
+  "nombre": "Vilaür",
+  "comarca": "alt-emporda",
+  "provincia": "Girona",
+  "ine": "172229",
+  "lat": 42.14354,
+  "lon": 2.95389
+ },
+ {
+  "slug": "vilaverd",
+  "nombre": "Vilaverd",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431726",
+  "lat": 41.33687,
+  "lon": 1.17735
+ },
+ {
+  "slug": "vilobi-del-penedes",
+  "nombre": "Vilobí del Penedès",
+  "comarca": "alt-penedes",
+  "provincia": "Barcelona",
+  "ine": "083041",
+  "lat": 41.39024,
+  "lon": 1.66362
+ },
+ {
+  "slug": "vilobi-donyar",
+  "nombre": "Vilobí d'Onyar",
+  "comarca": "selva",
+  "provincia": "Girona",
+  "ine": "172333",
+  "lat": 41.88838,
+  "lon": 2.74292
+ },
+ {
+  "slug": "vilopriu",
+  "nombre": "Vilopriu",
+  "comarca": "baix-emporda",
+  "provincia": "Girona",
+  "ine": "172327",
+  "lat": 42.10421,
+  "lon": 2.99229
+ },
+ {
+  "slug": "vimbodi-i-poblet",
+  "nombre": "Vimbodí i Poblet",
+  "comarca": "conca-de-barbera",
+  "provincia": "Tarragona",
+  "ine": "431763",
+  "lat": 41.40033,
+  "lon": 1.05111
+ },
+ {
+  "slug": "vinaixa",
+  "nombre": "Vinaixa",
+  "comarca": "garrigues",
+  "provincia": "Lleida",
+  "ine": "252555",
+  "lat": 41.42842,
+  "lon": 0.9751
+ },
+ {
+  "slug": "vinebre",
+  "nombre": "Vinebre",
+  "comarca": "ribera-debre",
+  "provincia": "Tarragona",
+  "ine": "431779",
+  "lat": 41.18423,
+  "lon": 0.59065
+ },
+ {
+  "slug": "vinyols-i-els-arcs",
+  "nombre": "Vinyols i els Arcs",
+  "comarca": "baix-camp",
+  "provincia": "Tarragona",
+  "ine": "431785",
+  "lat": 41.11362,
+  "lon": 1.03913
+ },
+ {
+  "slug": "viver-i-serrateix",
+  "nombre": "Viver i Serrateix",
+  "comarca": "bergueda",
+  "provincia": "Barcelona",
+  "ine": "083089",
+  "lat": 41.94673,
+  "lon": 1.77862
+ },
+ {
+  "slug": "xerta",
+  "nombre": "Xerta",
+  "comarca": "baix-ebre",
+  "provincia": "Tarragona",
+  "ine": "430521",
+  "lat": 40.90682,
+  "lon": 0.49065
+ }
+]

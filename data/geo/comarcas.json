@@ -1,0 +1,393 @@
+[
+ {
+  "slug": "alt-camp",
+  "nombre": "Alt Camp",
+  "codigo": "01",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 23
+ },
+ {
+  "slug": "alt-emporda",
+  "nombre": "Alt Empordà",
+  "codigo": "02",
+  "provincias": [
+   "Girona"
+  ],
+  "municipios": 68
+ },
+ {
+  "slug": "alt-penedes",
+  "nombre": "Alt Penedès",
+  "codigo": "03",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 27
+ },
+ {
+  "slug": "alt-urgell",
+  "nombre": "Alt Urgell",
+  "codigo": "04",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 19
+ },
+ {
+  "slug": "alta-ribagorca",
+  "nombre": "Alta Ribagorça",
+  "codigo": "05",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 3
+ },
+ {
+  "slug": "anoia",
+  "nombre": "Anoia",
+  "codigo": "06",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 33
+ },
+ {
+  "slug": "aran",
+  "nombre": "Aran",
+  "codigo": "39",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 9
+ },
+ {
+  "slug": "bages",
+  "nombre": "Bages",
+  "codigo": "07",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 30
+ },
+ {
+  "slug": "baix-camp",
+  "nombre": "Baix Camp",
+  "codigo": "08",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 28
+ },
+ {
+  "slug": "baix-ebre",
+  "nombre": "Baix Ebre",
+  "codigo": "09",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 14
+ },
+ {
+  "slug": "baix-emporda",
+  "nombre": "Baix Empordà",
+  "codigo": "10",
+  "provincias": [
+   "Girona"
+  ],
+  "municipios": 36
+ },
+ {
+  "slug": "baix-llobregat",
+  "nombre": "Baix Llobregat",
+  "codigo": "11",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 30
+ },
+ {
+  "slug": "baix-penedes",
+  "nombre": "Baix Penedès",
+  "codigo": "12",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 14
+ },
+ {
+  "slug": "barcelones",
+  "nombre": "Barcelonès",
+  "codigo": "13",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 5
+ },
+ {
+  "slug": "bergueda",
+  "nombre": "Berguedà",
+  "codigo": "14",
+  "provincias": [
+   "Barcelona",
+   "Lleida"
+  ],
+  "municipios": 31
+ },
+ {
+  "slug": "cerdanya",
+  "nombre": "Cerdanya",
+  "codigo": "15",
+  "provincias": [
+   "Girona",
+   "Lleida"
+  ],
+  "municipios": 17
+ },
+ {
+  "slug": "conca-de-barbera",
+  "nombre": "Conca de Barberà",
+  "codigo": "16",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 22
+ },
+ {
+  "slug": "garraf",
+  "nombre": "Garraf",
+  "codigo": "17",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 6
+ },
+ {
+  "slug": "garrigues",
+  "nombre": "Garrigues",
+  "codigo": "18",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 24
+ },
+ {
+  "slug": "garrotxa",
+  "nombre": "Garrotxa",
+  "codigo": "19",
+  "provincias": [
+   "Girona"
+  ],
+  "municipios": 21
+ },
+ {
+  "slug": "girones",
+  "nombre": "Gironès",
+  "codigo": "20",
+  "provincias": [
+   "Girona"
+  ],
+  "municipios": 27
+ },
+ {
+  "slug": "llucanes",
+  "nombre": "Lluçanès",
+  "codigo": "43",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 8
+ },
+ {
+  "slug": "maresme",
+  "nombre": "Maresme",
+  "codigo": "21",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 30
+ },
+ {
+  "slug": "moianes",
+  "nombre": "Moianès",
+  "codigo": "42",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 10
+ },
+ {
+  "slug": "montsia",
+  "nombre": "Montsià",
+  "codigo": "22",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 12
+ },
+ {
+  "slug": "noguera",
+  "nombre": "Noguera",
+  "codigo": "23",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 30
+ },
+ {
+  "slug": "osona",
+  "nombre": "Osona",
+  "codigo": "24",
+  "provincias": [
+   "Barcelona",
+   "Girona"
+  ],
+  "municipios": 43
+ },
+ {
+  "slug": "pallars-jussa",
+  "nombre": "Pallars Jussà",
+  "codigo": "25",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 14
+ },
+ {
+  "slug": "pallars-sobira",
+  "nombre": "Pallars Sobirà",
+  "codigo": "26",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 15
+ },
+ {
+  "slug": "pla-de-lestany",
+  "nombre": "Pla de l'Estany",
+  "codigo": "28",
+  "provincias": [
+   "Girona"
+  ],
+  "municipios": 11
+ },
+ {
+  "slug": "pla-durgell",
+  "nombre": "Pla d'Urgell",
+  "codigo": "27",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 16
+ },
+ {
+  "slug": "priorat",
+  "nombre": "Priorat",
+  "codigo": "29",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 23
+ },
+ {
+  "slug": "ribera-debre",
+  "nombre": "Ribera d'Ebre",
+  "codigo": "30",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 14
+ },
+ {
+  "slug": "ripolles",
+  "nombre": "Ripollès",
+  "codigo": "31",
+  "provincias": [
+   "Girona"
+  ],
+  "municipios": 19
+ },
+ {
+  "slug": "segarra",
+  "nombre": "Segarra",
+  "codigo": "32",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 19
+ },
+ {
+  "slug": "segria",
+  "nombre": "Segrià",
+  "codigo": "33",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 38
+ },
+ {
+  "slug": "selva",
+  "nombre": "Selva",
+  "codigo": "34",
+  "provincias": [
+   "Barcelona",
+   "Girona"
+  ],
+  "municipios": 26
+ },
+ {
+  "slug": "solsones",
+  "nombre": "Solsonès",
+  "codigo": "35",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 17
+ },
+ {
+  "slug": "tarragones",
+  "nombre": "Tarragonès",
+  "codigo": "36",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 22
+ },
+ {
+  "slug": "terra-alta",
+  "nombre": "Terra Alta",
+  "codigo": "37",
+  "provincias": [
+   "Tarragona"
+  ],
+  "municipios": 12
+ },
+ {
+  "slug": "urgell",
+  "nombre": "Urgell",
+  "codigo": "38",
+  "provincias": [
+   "Lleida"
+  ],
+  "municipios": 20
+ },
+ {
+  "slug": "valles-occidental",
+  "nombre": "Vallès Occidental",
+  "codigo": "40",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 23
+ },
+ {
+  "slug": "valles-oriental",
+  "nombre": "Vallès Oriental",
+  "codigo": "41",
+  "provincias": [
+   "Barcelona"
+  ],
+  "municipios": 38
+ }
+]

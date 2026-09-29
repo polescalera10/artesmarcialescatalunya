@@ -1,0 +1,399 @@
+[
+ {
+  "slug": "aams-academia-artes-marciales-sitges",
+  "nombre": "AAMS Academia Artes Marciales Sitges",
+  "tipo": "escuela",
+  "municipio": "sitges",
+  "disciplinas": [
+   "kickboxing",
+   "jiu-jitsu-brasileno",
+   "karate",
+   "mma",
+   "defensa-personal",
+   "grappling"
+  ],
+  "otras": [
+   "Grappling",
+   "K-1"
+  ],
+  "infantil": true,
+  "web": "https://www.instagram.com/artes_marciales_sitges/",
+  "fuente": "https://www.instagram.com/artes_marciales_sitges/",
+  "fuenteTipo": "perfil-publico",
+  "verificado": "2026-07-07"
+ },
+ {
+  "slug": "academia-artes-marciales-vilanova-aamv",
+  "nombre": "Academia Artes Marciales Vilanova (AAMV)",
+  "tipo": "escuela",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "karate",
+   "mma",
+   "jiu-jitsu-japones",
+   "kickboxing",
+   "kobudo",
+   "tai-chi"
+  ],
+  "otras": [
+   "Jiu jitsu japonés",
+   "K-1",
+   "Kobudo",
+   "Chi kung y tai chi"
+  ],
+  "direccion": "Carrer de la Unió, 98, 08800 Vilanova i la Geltrú",
+  "web": "https://maegeri.github.io/aamv/",
+  "fuente": "https://maegeri.github.io/aamv/disciplinas.html",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "aranha-vng",
+  "nombre": "Aranha VNG",
+  "tipo": "escuela",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "jiu-jitsu-brasileno",
+   "kickboxing",
+   "mma",
+   "boxeo",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Grupo femenino de jiu-jitsu"
+  ],
+  "infantil": true,
+  "direccion": "Rambla del Garraf, 32, 08800 Vilanova i la Geltrú",
+  "web": "https://www.aranhavng.es",
+  "fuente": "https://www.aranhavng.es",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-08-15"
+ },
+ {
+  "slug": "associacio-cultural-darts-marcials-xineses",
+  "nombre": "Associació Cultural d'Arts Marcials Xineses",
+  "tipo": "asociacion",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "otras": [
+   "Artes marciales chinas"
+  ],
+  "direccion": "Carrer del Llimonet, 32, 08800 Vilanova i la Geltrú",
+  "fuente": "https://www.vilanova.cat/directori/detall?id=46726",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-de-karate-joshinmon-shorin-ryu",
+  "nombre": "Associació de Karate Joshinmon Shorin Ryu",
+  "tipo": "asociacion",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "karate"
+  ],
+  "direccion": "Carrer de Puigcerdà, 7-9, 08800 Vilanova i la Geltrú",
+  "fuente": "https://www.vilanova.cat/directori/detall?id=43420",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-de-taekwondo-sanpo",
+  "nombre": "Associació de Taekwondo SANPO",
+  "tipo": "asociacion",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Pavelló poliesportiu, Rambla Rafael Alberti, s/n, 08812 Les Roquetes",
+  "fuente": "https://www.santperederibes.cat/en/municipi/esports/entitats-esportives",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-taekwondo-olivella",
+  "nombre": "Associació Esportiva Taekwondo Olivella",
+  "tipo": "asociacion",
+  "municipio": "olivella",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://www.olivella.cat/el-municipi/entitats-esportives-/associacio-esportiva-taekwondo-olivella-.html",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "centros-dym-escuela-de-sitges",
+  "nombre": "Centros DYM Escuela de Sitges",
+  "tipo": "escuela",
+  "municipio": "sitges",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Área fitness"
+  ],
+  "infantil": true,
+  "direccion": "Carrer Samuel Barrachina, 10, 08870 Sitges",
+  "web": "https://centrosdym.com/escuela-de-sitges/",
+  "fuente": "https://centrosdym.com/escuela-de-sitges/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-07-07"
+ },
+ {
+  "slug": "centros-dym-escuela-de-vilanova",
+  "nombre": "Centros DYM Escuela de Vilanova",
+  "tipo": "escuela",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Entrenador personal"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de l'Havana, 17, 08800 Vilanova i la Geltrú",
+  "web": "https://centrosdym.com/escuela-de-vilanova/",
+  "fuente": "https://centrosdym.com/escuela-de-vilanova/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-07-07"
+ },
+ {
+  "slug": "chois-vilanova",
+  "nombre": "Choi's Vilanova",
+  "tipo": "escuela",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "otras": [
+   "Hapkido"
+  ],
+  "direccion": "Carrer del Recreo, 77, 08800 Vilanova i la Geltrú",
+  "fuente": "https://www.vilanova.cat/directori/detall?id=43651",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-vilafranca-vilanova",
+  "nombre": "Club Judo Vilafranca-Vilanova",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "judo",
+   "defensa-personal",
+   "aikido",
+   "kung-fu",
+   "jiu-jitsu-japones"
+  ],
+  "otras": [
+   "Aikido",
+   "Wu shu",
+   "Taijitsu"
+  ],
+  "infantil": true,
+  "direccion": "Gimnàs del Col·legi Canigó, carrer del Canigó, 4, 08800 Vilanova i la Geltrú",
+  "fuente": "https://www.vilanova.cat/directori/detall?id=49964",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-cubelles",
+  "nombre": "Club Taekwondo Cubelles",
+  "tipo": "club",
+  "municipio": "cubelles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://www.facebook.com/p/Club-taekwondo-Cubelles-100057026816192/",
+  "fuenteTipo": "perfil-publico",
+  "verificado": "2026-07-07"
+ },
+ {
+  "slug": "dojo-castaneda-1976",
+  "nombre": "Dojo Castañeda 1976",
+  "tipo": "escuela",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "karate",
+   "kickboxing",
+   "boxeo"
+  ],
+  "otras": [
+   "Karate full contact",
+   "Entrenamiento personal"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Cuba, 22, 08800 Vilanova i la Geltrú",
+  "web": "https://dojocastaneda1976.com/",
+  "fuente": "https://dojocastaneda1976.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-tkd-ribes",
+  "nombre": "Esportiu TKD Ribes",
+  "tipo": "club",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Carrer de Sitges, 85, 08810 Sant Pere de Ribes",
+  "fuente": "https://taekwondocatala.com",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-07-07"
+ },
+ {
+  "slug": "gym-fys-fitness-defense",
+  "nombre": "GYM FYS Fitness & Defense",
+  "tipo": "gimnasio",
+  "municipio": "cubelles",
+  "disciplinas": [
+   "taekwondo",
+   "boxeo",
+   "mma",
+   "krav-maga"
+  ],
+  "otras": [
+   "Fitness"
+  ],
+  "direccion": "Passatge Soletat, 14, 08880 Cubelles",
+  "web": "https://www.gymfysgarraf.com",
+  "fuente": "https://www.gymfysgarraf.com",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "mugendo-vilanova",
+  "nombre": "Mugendo Vilanova",
+  "tipo": "escuela",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "web": "https://vilanova.mugendo.es",
+  "fuente": "https://vilanova.mugendo.es",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-07-07"
+ },
+ {
+  "slug": "senshi-no-michi",
+  "nombre": "Senshi No Michi",
+  "tipo": "escuela",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "karate",
+   "jiu-jitsu-brasileno",
+   "boxeo",
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Karate Kyokushin",
+   "K-1"
+  ],
+  "web": "https://www.senshinomichi.com",
+  "fuente": "https://www.senshinomichi.com",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-07-07"
+ },
+ {
+  "slug": "sitgesfit",
+  "nombre": "SitgesFit",
+  "tipo": "gimnasio",
+  "municipio": "sitges",
+  "disciplinas": [
+   "mma",
+   "kickboxing",
+   "boxeo",
+   "jiu-jitsu-brasileno",
+   "karate",
+   "grappling"
+  ],
+  "otras": [
+   "Grappling"
+  ],
+  "infantil": true,
+  "direccion": "Avinguda Camí Pla 31, 08870 Sitges",
+  "web": "https://sitgesfit.com/artes-marciales/",
+  "fuente": "https://sitgesfit.com/artes-marciales/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-07-07"
+ },
+ {
+  "slug": "spartae",
+  "nombre": "Spartae",
+  "tipo": "escuela",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "taekwondo",
+   "defensa-personal",
+   "jeet-kune-do",
+   "kali",
+   "wing-chun"
+  ],
+  "otras": [
+   "Jeet Kune Do",
+   "Kali filipino",
+   "Wing chun"
+  ],
+  "direccion": "Carrer Lluís Companys, 50, 08810 Sant Pere de Ribes",
+  "web": "https://www.spartae.es",
+  "fuente": "https://www.spartae.es",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwon-do-club-taijitu-sant-pere-de-ribes",
+  "nombre": "Taekwon-do Club Taijitu Sant Pere de Ribes",
+  "tipo": "escuela",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Carrer Jaume Balmes, 25, 08810 Sant Pere de Ribes",
+  "web": "https://www.taekwon-do-itf-club-taijitu.org/",
+  "fuente": "https://www.santperederibes.cat/en/municipi/esports/entitats-esportives",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-han-se-kim",
+  "nombre": "Taekwondo Han Se Kim",
+  "tipo": "escuela",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Carrer de Bailèn, 71-73, 08800 Vilanova i la Geltrú",
+  "fuente": "https://www.vilanova.cat/directori/detall?id=43699",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "zen-garraf",
+  "nombre": "Zen Garraf",
+  "tipo": "escuela",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "jiu-jitsu-brasileno",
+   "boxeo",
+   "grappling"
+  ],
+  "otras": [
+   "Grappling",
+   "Cross training"
+  ],
+  "web": "https://www.zengarraf.com",
+  "fuente": "https://www.zengarraf.com",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-07-07"
+ }
+]
