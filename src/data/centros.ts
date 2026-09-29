@@ -213,6 +213,18 @@ export const CENTROS: Centro[] = [
     verificado: '2026-09-29',
   },
 
+  // ── Olivella ────────────────────────────────────────────────────────────
+  {
+    nombre: 'Associació Esportiva Taekwondo Olivella',
+    municipio: 'olivella',
+    // La ficha municipal solo da el nombre de la entidad: ni dirección ni web.
+    // No se publica nada que no conste en ella.
+    disciplinas: ['taekwondo'],
+    fuente: 'https://www.olivella.cat/el-municipi/entitats-esportives-/associacio-esportiva-taekwondo-olivella-.html',
+    fuenteTipo: 'directorio-municipal',
+    verificado: '2026-09-29',
+  },
+
   // Canyelles: a fecha de la última verificación no consta ningún centro de
   // artes marciales con fuente pública verificable en el municipio.
 ];

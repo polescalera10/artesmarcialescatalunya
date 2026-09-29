@@ -89,16 +89,37 @@ export const MUNICIPIO_BODIES: Record<string, string> = {
 <p>El matiz importante es el horario de vuelta, no el de ida. Salir de Cubelles a las 19:30 es fácil; volver de Vilanova a las 21:30 un martes de invierno se hace más cuesta arriba de lo que parece en septiembre, cuando uno se apunta con toda la motivación. Sé realista con la franja que eliges: la mayoría de abandonos en artes marciales no son por la disciplina, son por el horario.</p>
 
 <h2>La otra dirección: Cunit y Calafell</h2>
-<p>Cubelles está en el límite de la comarca, y hacia el suroeste tiene Cunit y Calafell, ya en el Baix Penedès, a pocos minutos. Nuestro directorio cubre únicamente los cinco municipios del Garraf, así que esa oferta no está verificada aquí, pero si vives en la parte oeste del municipio puede quedarte igual de cerca o más que Vilanova. Vale la pena mirarla antes de decidir.</p>
+<p>Cubelles está en el límite de la comarca, y hacia el suroeste tiene Cunit y Calafell, ya en el Baix Penedès, a pocos minutos. Nuestro directorio cubre únicamente los seis municipios del Garraf, así que esa oferta no está verificada aquí, pero si vives en la parte oeste del municipio puede quedarte igual de cerca o más que Vilanova. Vale la pena mirarla antes de decidir.</p>
 
 <h2>Si es para tus hijos</h2>
 <p>Con niños, la existencia de dos clubs de taekwondo dentro del municipio pesa mucho más de lo que parece sobre el papel. Un grupo infantil a diez minutos de casa se sostiene durante años; uno a veinticinco minutos con dos transbordos de coche se abandona en enero. Si tu hijo o hija no tiene una preferencia clara por otra disciplina, empezar por lo que hay cerca es casi siempre la decisión correcta, y siempre se puede cambiar más adelante.</p>
 <p>Para comparar disciplinas por edad y carácter, tienes la <a href="/clases-para-ninos/">guía de artes marciales para niños del Garraf</a>. Y si quieres que te ayudemos a decidir, <a href="/contacto/">escríbenos</a>: te orientamos sin coste.</p>
 `,
 
+  'olivella': `
+<h2>Qué hay en Olivella</h2>
+<p>En nuestro <a href="/centros/">directorio de centros del Garraf</a>, Olivella aparece con una entidad: la Associació Esportiva Taekwondo Olivella, que consta en el directorio municipal de entidades deportivas del Ayuntamiento. Esa ficha da el nombre y la disciplina y nada más: ni dirección, ni horarios, ni web. No publicamos lo que no consta, así que si te interesa, el camino corto es preguntar en el propio ayuntamiento, que es quien la tiene registrada.</p>
+<p>Para cualquier otra disciplina, entrenar viviendo en Olivella significa salir del municipio. No es un defecto de la guía: es la realidad de un término grande, con la población repartida entre el núcleo antiguo y urbanizaciones separadas entre sí.</p>
+
+<h2>Hacia dónde mirar según dónde vivas</h2>
+<p>En Olivella la pregunta útil no es "qué hay cerca de Olivella" sino "qué hay cerca de mi urbanización", porque de una punta a otra del término cambia bastante qué municipio te queda a mano.</p>
+<ul>
+<li><strong><a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a></strong> suele ser lo más cercano desde buena parte del municipio. Tiene cuatro centros verificados, todos con taekwondo, y uno de ellos añade defensa personal y estilos poco habituales en la comarca.</li>
+<li><strong><a href="/sitges/">Sitges</a></strong> tiene tres centros con kickboxing, jiu-jitsu brasileño, karate, MMA y defensa personal. Si trabajas en Barcelona y vuelves por la C-32, puede quedarte de camino.</li>
+<li><strong><a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a></strong> es la que más oferta concentra: siete centros y casi todas las disciplinas de la comarca, incluido el único <a href="/judo/">judo</a> verificado. Queda algo más lejos, pero si buscas algo concreto, es donde más probabilidades hay de encontrarlo.</li>
+</ul>
+
+<h2>El trayecto decide más que la disciplina</h2>
+<p>Desde un municipio del interior, lo que suele hacer que alguien deje de entrenar no es la clase: es el coche. Diez o quince minutos de ida parecen poco en septiembre y pesan en enero, sobre todo de vuelta y de noche. Antes de apuntarte, haz el trayecto a la hora real de la clase un día laborable, y si es para un niño, cuenta que son dos viajes por sesión para quien le lleva.</p>
+<p>Si en tu urbanización hay más familias con críos de la misma edad, organizar el coche entre dos o tres casas cambia por completo la sostenibilidad del plan. Pregunta en el centro si ya tienen alumnos de Olivella: casi siempre los hay.</p>
+
+<h2>Si aún no sabes qué disciplina</h2>
+<p>La <a href="/iniciacion/">guía de iniciación</a> las compara por objetivo, y la de <a href="/clases-para-ninos/">artes marciales para niños</a> por edad y carácter. Con la disciplina elegida, el <a href="/centros/">directorio</a> te dice en qué municipio está cada una.</p>
+`,
+
   'canyelles': `
 <h2>Canyelles: sin oferta local verificable, y conviene saberlo antes</h2>
-<p>Somos una guía, no una agencia de publicidad, así que empezamos por el dato incómodo: en nuestro <a href="/centros/">directorio de centros del Garraf</a>, Canyelles es el único municipio de la comarca sin ningún centro de artes marciales con fuente pública verificable. Entrenar aquí significa, hoy por hoy, desplazarse.</p>
+<p>Somos una guía, no una agencia de publicidad, así que empezamos por el dato incómodo: en nuestro <a href="/centros/">directorio de centros del Garraf</a>, Canyelles es el único municipio de la comarca sin ningún centro de artes marciales con fuente pública verificable. Entrenar aquí significa, hoy por hoy, desplazarse. Si lo que buscas es taekwondo, el más cercano puede estar en la vecina <a href="/olivella/">Olivella</a>, que tiene un club en su directorio municipal.</p>
 <p>Como en el resto de municipios pequeños, puede existir actividad que no deja rastro público (grupos de temporada, actividades de entidades locales) y que no podemos confirmar. Si conoces alguna, <a href="/contacto/">avísanos</a> y la verificamos.</p>
 
 <h2>Vilanova, a un cuarto de hora por la C-15</h2>
@@ -138,8 +159,13 @@ export const MUNICIPIO_FAQS: Record<string, { q: string; a: string }[]> = {
   'cubelles': [
     { q: '¿Hay artes marciales en Cubelles?', a: 'Sí. En nuestro directorio constan dos centros con fuente pública verificable. Los dos enseñan taekwondo y uno de ellos, GYM FYS Fitness & Defense, anuncia además boxeo, MMA y krav maga. Para disciplinas de suelo, como el jiu-jitsu brasileño o el judo, la referencia es Vilanova i la Geltrú, municipio contiguo, a unos 10 minutos por la C-31.' },
     { q: '¿Hay jiu-jitsu brasileño en Cubelles?', a: 'Ningún centro de Cubelles lo anuncia en su fuente pública a fecha de nuestra última verificación. Los tres más cercanos están en Vilanova i la Geltrú, a unos diez minutos por la C-31: Aranha VNG, Senshi No Michi y Zen Garraf.' },
-    { q: '¿Cubelles o Cunit y Calafell?', a: 'Depende de en qué parte del municipio vivas. Cubelles limita con el Baix Penedès y, desde la zona oeste, Cunit puede quedar tan cerca como Vilanova. Nuestro directorio cubre solo los cinco municipios del Garraf, así que esa oferta no está verificada aquí.' },
+    { q: '¿Cubelles o Cunit y Calafell?', a: 'Depende de en qué parte del municipio vivas. Cubelles limita con el Baix Penedès y, desde la zona oeste, Cunit puede quedar tan cerca como Vilanova. Nuestro directorio cubre solo los seis municipios del Garraf, así que esa oferta no está verificada aquí.' },
     { q: '¿Vale la pena apuntar a un niño en Vilanova viviendo en Cubelles?', a: 'Se sostiene bien con dos sesiones semanales, pero si tu hijo no tiene preferencia clara por una disciplina concreta, empezar por lo que hay dentro del municipio suele funcionar mejor a largo plazo: la cercanía es el mejor antídoto contra el abandono.' },
+  ],
+  'olivella': [
+    { q: '¿Hay artes marciales en Olivella?', a: 'En el directorio municipal de entidades deportivas consta la Associació Esportiva Taekwondo Olivella. Su ficha no da dirección ni horarios, así que para esos datos lo más directo es preguntar en el Ayuntamiento. Para otras disciplinas hay que desplazarse a Sant Pere de Ribes, Sitges o Vilanova i la Geltrú.' },
+    { q: '¿Qué municipio me queda mejor desde Olivella para entrenar?', a: 'Depende de la urbanización. Sant Pere de Ribes suele ser lo más cercano y tiene cuatro centros de taekwondo; Sitges tiene más variedad de golpeo y jiu-jitsu; Vilanova i la Geltrú reúne siete centros y casi todas las disciplinas. Haz el trayecto a la hora real de la clase antes de decidir.' },
+    { q: '¿Hay judo o jiu-jitsu cerca de Olivella?', a: 'El único judo verificado de la comarca está en Vilanova i la Geltrú. Jiu-jitsu brasileño consta en Sitges y en Vilanova. Ninguno de los dos en Olivella ni en Sant Pere de Ribes.' },
   ],
   'canyelles': [
     { q: '¿Hay algún centro de artes marciales en Canyelles?', a: 'A fecha de la última verificación, Canyelles es el único municipio del Garraf sin ningún centro con fuente pública comprobable en nuestro directorio. Entrenar implica desplazarse, normalmente a Vilanova i la Geltrú.' },
@@ -193,7 +219,7 @@ export const PERFIL_BODIES: Record<string, string> = {
 </ul>
 
 <h2>Dónde están, según el directorio</h2>
-<p>En nuestro <a href="/centros/">directorio verificado</a>, kickboxing, boxeo, jiu jitsu brasileño y defensa personal constan tanto en <a href="/sitges/">Sitges</a> como en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>. Karate consta en ambos; judo y taekwondo, solo en Vilanova. Si vives en <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a>, <a href="/cubelles/">Cubelles</a> o <a href="/canyelles/">Canyelles</a>, la oferta local verificada se limita al taekwondo (y en Canyelles, a nada), así que lo habitual es desplazarse.</p>
+<p>En nuestro <a href="/centros/">directorio verificado</a>, kickboxing, boxeo, jiu jitsu brasileño y defensa personal constan tanto en <a href="/sitges/">Sitges</a> como en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>. Karate consta en ambos; judo, solo en Vilanova. Fuera de esos dos municipios la oferta es corta: en <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> y <a href="/olivella/">Olivella</a> casi todo es taekwondo (en Ribes, un centro añade defensa personal), en <a href="/cubelles/">Cubelles</a> hay taekwondo y un centro con boxeo, MMA y krav maga, y en <a href="/canyelles/">Canyelles</a> no consta nada. Para casi cualquier otra cosa, lo habitual es desplazarse.</p>
 
 <h2>Grupo femenino o grupo mixto</h2>
 <p>Depende de qué te frene. Si lo que te da pereza es sentirte observada mientras aprendes, un grupo femenino elimina esa barrera de golpe y es una razón perfectamente válida. Si buscas autodefensa aplicable, entrenar tarde o temprano con personas más grandes forma parte del aprendizaje: un programa que nunca te expone a esa diferencia te da una falsa sensación de competencia.</p>
@@ -556,7 +582,7 @@ export const MONEY_BODIES: Record<string, string> = {
 <p>Si quieres comparar, <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> es municipio contiguo: por la C-31 el trayecto ronda los diez minutos, y allí cuatro centros verificados anuncian boxeo. Más centros significan más franjas horarias, que es lo que de verdad determina si el plan aguanta más de tres meses.</p>
 
 <h2>La otra dirección: Cunit y Calafell</h2>
-<p>Cubelles está en el límite del Garraf, y hacia el suroeste tiene Cunit y Calafell a pocos minutos, ya en el Baix Penedès. Nuestro directorio cubre solo los cinco municipios de la comarca, así que esa oferta no está verificada aquí, pero si vives en la zona oeste del municipio puede quedarte igual de cerca. Vale la pena mirar las dos direcciones antes de decidir.</p>
+<p>Cubelles está en el límite del Garraf, y hacia el suroeste tiene Cunit y Calafell a pocos minutos, ya en el Baix Penedès. Nuestro directorio cubre solo los seis municipios de la comarca, así que esa oferta no está verificada aquí, pero si vives en la zona oeste del municipio puede quedarte igual de cerca. Vale la pena mirar las dos direcciones antes de decidir.</p>
 
 <h2>Qué necesitas para la primera clase (menos de lo que crees)</h2>
 <p>Ropa deportiva, agua y toalla. En la mayoría de gimnasios prestan guantes las primeras sesiones, así que no compres nada hasta haber probado. Cuando decidas continuar, lo primero que conviene comprar son las vendas, protegen las manos y son baratas; los guantes propios vienen después.</p>

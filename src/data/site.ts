@@ -59,7 +59,7 @@ export const SITE = {
   ultimaRevision: '2026-09-29',
   defaultMeta: {
     description:
-      'Guía de artes marciales en la comarca del Garraf: boxeo, karate, MMA, muay thai, BJJ, judo, taekwondo y defensa personal en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y Canyelles.',
+      'Guía de artes marciales en la comarca del Garraf: boxeo, karate, MMA, muay thai, BJJ, judo, taekwondo y defensa personal en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles, Canyelles y Olivella.',
   },
 };
 

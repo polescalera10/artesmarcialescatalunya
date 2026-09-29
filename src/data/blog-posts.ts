@@ -11,7 +11,7 @@ export const BLOG_BODIES: Record<string, string> = {
   'blog/que-es-el-grappling-y-donde-se-practica': `
 <h2>Qué es el grappling y por qué lo has visto escrito en el Garraf</h2>
 <p>Grappling es lucha de agarre sin kimono. No hay golpes: se trata de controlar al otro, llevarlo al suelo y trabajar posiciones y sumisiones agarrando el cuerpo, no la ropa. Si has llegado hasta aquí es porque viste la palabra en el horario de un centro de la comarca y no supiste si era una disciplina aparte, una clase suelta o el nombre moderno de algo que ya conocías.</p>
-<p>Las tres cosas son un poco ciertas, y ahí está el lío. En nuestro <a href="/centros/">directorio de centros del Garraf</a>, grappling aparece como actividad en <strong>tres de los dieciséis centros que constan</strong> con fuente pública verificable: uno en Vilanova i la Geltrú y dos en Sitges. En ninguno de los tres es la disciplina principal, sino una clase dentro de una oferta más amplia. Eso condiciona bastante lo que te vas a encontrar al entrar por la puerta.</p>
+<p>Las tres cosas son un poco ciertas, y ahí está el lío. En nuestro <a href="/centros/">directorio de centros del Garraf</a>, grappling aparece como actividad en <strong>tres de los {{centros}} centros que constan</strong> con fuente pública verificable: uno en Vilanova i la Geltrú y dos en Sitges. En ninguno de los tres es la disciplina principal, sino una clase dentro de una oferta más amplia. Eso condiciona bastante lo que te vas a encontrar al entrar por la puerta.</p>
 
 <h2>La diferencia con el jiu-jitsu brasileño no está en el suelo</h2>
 <p>Es el malentendido más repetido. Mucha gente cree que el <a href="/jiu-jitsu-brasileno/">jiu-jitsu brasileño</a> es el suelo y que el grappling es de pie, o alguna variante de esa idea. No funciona así. Los dos viven casi todo el tiempo en el suelo y comparten el repertorio de control, guardias y sumisiones. Lo que cambia es de dónde agarras.</p>
@@ -57,7 +57,7 @@ export const BLOG_BODIES: Record<string, string> = {
 
   'blog/fitboxing-o-boxeo-en-el-garraf': `
 <h2>Fitboxing en el Garraf: la búsqueda existe, el cartel no</h2>
-<p><strong>Ningún centro del Garraf anuncia fitboxing con ese nombre.</strong> Ninguno de los dieciséis que constan en nuestro <a href="/centros/">directorio de centros de la comarca</a> con fuente pública verificable. Lo que sí consta es <a href="/boxeo/">boxeo</a> en siete de ellos y <a href="/kickboxing/">kickboxing</a> en otros siete, casi todos entre Vilanova i la Geltrú y Sitges (el boxeo también en un centro de Cubelles). Ese dato te ahorra dos tardes de llamadas.</p>
+<p><strong>Ningún centro del Garraf anuncia fitboxing con ese nombre.</strong> Ninguno de los {{centros}} que constan en nuestro <a href="/centros/">directorio de centros de la comarca</a> con fuente pública verificable. Lo que sí consta es <a href="/boxeo/">boxeo</a> en siete de ellos y <a href="/kickboxing/">kickboxing</a> en otros siete, casi todos entre Vilanova i la Geltrú y Sitges (el boxeo también en un centro de Cubelles). Ese dato te ahorra dos tardes de llamadas.</p>
 <p>Eso no significa que en el Garraf no puedas hacer lo que buscas. Significa que vas a tener que buscarlo con otra palabra, y que la clase a la que acabes yendo se parecerá al fitboxing en algunas cosas y en otras no. Vale la pena saber cuáles antes de presentarte un lunes a las ocho.</p>
 
 <h2>Qué es exactamente una clase de fitboxing</h2>
@@ -89,7 +89,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Tienes la lista completa en la <a href="/blog/clase-de-prueba-que-preguntar/">guía de la clase de prueba</a> y los criterios generales en <a href="/blog/como-elegir-centro-artes-marciales-garraf/">cómo elegir centro de artes marciales en el Garraf</a>.</p>
 
 <h2>Si lo que quieres es acondicionamiento y ya está</h2>
-<p>Es una respuesta legítima y no hace falta disfrazarla de vocación marcial. En ese caso, un par de apuntes del directorio: de los dieciséis centros, dos citan además área fitness y otro, entrenamiento cruzado, junto a sus disciplinas. Y algunos gimnasios de la comarca que no son centros de artes marciales, y que por tanto no entran en nuestro directorio, programan clases dirigidas de golpeo. Si tu criterio es el horario y el gasto físico, ese es el camino corto.</p>
+<p>Es una respuesta legítima y no hace falta disfrazarla de vocación marcial. En ese caso, un par de apuntes del directorio: de los {{centros}} centros, dos citan además área fitness y otro, entrenamiento cruzado, junto a sus disciplinas. Y algunos gimnasios de la comarca que no son centros de artes marciales, y que por tanto no entran en nuestro directorio, programan clases dirigidas de golpeo. Si tu criterio es el horario y el gasto físico, ese es el camino corto.</p>
 <p>Lo que no vamos a decirte es cuánto peso vas a perder con una cosa o con la otra, porque eso no depende de la clase. Sobre lo que sí se puede decir con algo de fundamento, hablamos en el artículo sobre <a href="/blog/artes-marciales-para-perder-peso/">artes marciales para perder peso</a>.</p>
 
 <h2>Por dónde empezar en el Garraf</h2>
@@ -109,7 +109,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>En nuestro <a href="/centros/">directorio de centros del Garraf</a> solo entra lo que consta en una fuente pública verificable, con el enlace a esa fuente y la fecha en que lo miramos: qué disciplinas anuncia cada club y en qué municipio está. Horarios, precios y reseñas quedan fuera a propósito. Así que lo que sigue no son los horarios de nadie. Es la forma que tiene esto normalmente y las preguntas que te lo resuelven en tres minutos.</p>
 
 <h2>Cuántas opciones tienes de verdad según el municipio del Garraf</h2>
-<p>Aquí está el dato que ordena toda la decisión. En el directorio constan <strong>dieciséis centros en toda la comarca, y siete de ellos están en Vilanova i la Geltrú</strong>. Sitges suma tres. <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> tiene cuatro, <a href="/cubelles/">Cubelles</a> dos y <a href="/canyelles/">Canyelles</a> ninguno con presencia pública que hayamos podido verificar.</p>
+<p>Aquí está el dato que ordena toda la decisión. En el directorio constan <strong>{{centros}} centros en toda la comarca, y siete de ellos están en Vilanova i la Geltrú</strong>. Sitges suma tres. <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> tiene cuatro, <a href="/cubelles/">Cubelles</a> dos y <a href="/canyelles/">Canyelles</a> ninguno con presencia pública que hayamos podido verificar.</p>
 <p>Lo que eso significa para tu horario es bastante directo:</p>
 <ul>
 <li><strong>En Vilanova i la Geltrú puedes elegir.</strong> Con siete centros hay solapamiento real de franjas, y si el grupo de las 20:00 no te va, es probable que otro club tenga algo a las 21:00.</li>
@@ -166,7 +166,7 @@ export const BLOG_BODIES: Record<string, string> = {
 
 <h2>La adherencia se decide en el trayecto, y ahí el Garraf manda</h2>
 <p>Si lo que importa es seguir yendo en marzo, el factor que más pesa no es la disciplina. Es cuánto te cuesta llegar un martes a las ocho de la tarde.</p>
-<p>En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan dieciséis clubs con presencia pública verificable, y no están repartidos de forma uniforme:</p>
+<p>En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan {{centros}} clubs con presencia pública verificable, y no están repartidos de forma uniforme:</p>
 <ul>
 <li><strong>Kickboxing y boxeo, que son las dos opciones más continuas de cardio, se concentran en Vilanova i la Geltrú y en Sitges.</strong> Siete centros anuncian <a href="/kickboxing/">kickboxing</a>, todos en esos dos municipios, y siete anuncian boxeo: seis ahí y uno en <a href="/boxeo-en-cubelles/">Cubelles</a>.</li>
 <li><strong>En Sant Pere de Ribes lo que domina es el <a href="/taekwondo/">taekwondo</a></strong>, que dan sus cuatro centros; uno añade defensa personal. En Cubelles, además del taekwondo, un centro anuncia boxeo, MMA y krav maga.</li>
@@ -227,7 +227,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Y hay un efecto secundario del que se habla poco: <strong>salir de un fin de semana sintiéndose más capaz de lo que uno es</strong>. Una confianza que no se corresponde con la habilidad real empeora las decisiones, porque lleva a quedarse donde antes uno se habría ido. Un instructor serio lo dice en voz alta el domingo por la tarde. Si el cierre del curso es motivacional y nadie menciona los límites, ya sabes con quién has tratado.</p>
 
 <h2>Qué hay y qué no hay en el Garraf: los números del directorio</h2>
-<p>El dato que ordena la decisión en esta comarca está en el directorio. En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan <strong>16 centros con fuente pública verificable</strong>, y <strong>8 de ellos anuncian defensa personal</strong> en su oferta. Ninguno la anuncia como curso intensivo de fin de semana: todos la ofrecen como clase semanal continuada, dentro de su programación normal.</p>
+<p>El dato que ordena la decisión en esta comarca está en el directorio. En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan <strong>{{centros_num}} centros con fuente pública verificable</strong>, y <strong>8 de ellos anuncian defensa personal</strong> en su oferta. Ninguno la anuncia como curso intensivo de fin de semana: todos la ofrecen como clase semanal continuada, dentro de su programación normal.</p>
 <p>El segundo dato es igual de útil: <strong>un solo centro de la comarca anuncia krav maga</strong>, en <a href="/cubelles/">Cubelles</a>, pese a ser la etiqueta que más aparece asociada a los seminarios intensivos. Y tampoco lo ofrece en formato intensivo, sino dentro de su programación semanal. Si buscas específicamente eso, o te acercas a Cubelles, o te desplazas fuera del Garraf, o trabajas con lo que sí hay aquí. Explicamos en qué se parecen y en qué no en la comparativa de <a href="/blog/krav-maga-o-defensa-personal/">krav maga o defensa personal</a>.</p>
 <p>La lectura práctica: en el Garraf los cursos de fin de semana existen como actividad puntual (un seminario que organiza un club, una charla con parte práctica en un centro cívico), pero no son la vía de entrada habitual. La vía habitual es apuntarse a un grupo. Conviene saberlo antes de pasarse tres semanas buscando un formato que aquí es la excepción.</p>
 
@@ -256,7 +256,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Muchas de las personas que llegan a un intensivo por este motivo son mujeres. Si es tu caso, la guía larga de <a href="/blog/defensa-personal-para-mujeres-garraf/">qué funciona de verdad en defensa personal para mujeres</a> entra en el detalle de qué técnicas aguantan y cuáles no. Y la página de <a href="/defensa-personal-femenina-en-vilanova/">defensa personal femenina en Vilanova</a> recoge lo que hay en el municipio con más oferta de la comarca.</p>
 
 <h2>Por dónde empezar en la comarca</h2>
-<p>La oferta del Garraf está concentrada: de los 16 centros del directorio, 7 están en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> y 3 en <a href="/sitges/">Sitges</a>. En Sant Pere de Ribes los 4 centros son de taekwondo (uno añade defensa personal), Cubelles tiene 2 y en Canyelles no consta ninguno. Si vives en uno de esos tres municipios, cuenta con desplazarte para casi cualquier otra disciplina: entre Sitges y Vilanova hay 10-15 minutos en coche y la R2 Sud conecta los núcleos principales.</p>
+<p>La oferta del Garraf está concentrada: de los {{centros_num}} centros del directorio, 7 están en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> y 3 en <a href="/sitges/">Sitges</a>. En Sant Pere de Ribes los 4 centros son de taekwondo (uno añade defensa personal), Cubelles tiene 2, Olivella 1 de taekwondo y en Canyelles no consta ninguno. Si vives en uno de esos cuatro municipios, cuenta con desplazarte para casi cualquier otra disciplina: entre Sitges y Vilanova hay 10-15 minutos en coche y la R2 Sud conecta los núcleos principales.</p>
 <p>Antes de comprometerte con nada, ve a mirar. La <a href="/blog/clase-de-prueba-que-preguntar/">guía de la clase de prueba</a> te dice qué observar y qué preguntar el día que vas, y sirve igual para un seminario que para un grupo semanal.</p>
 <p>¿No tienes claro si en tu caso conviene el intensivo o la clase continuada? <a href="/contacto/">Escríbenos</a> y te orientamos sin coste: cuéntanos qué te ha llevado a buscar esto, en qué municipio estás y qué horarios puedes cumplir de verdad.</p>
 `,
@@ -283,8 +283,8 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Nuestra recomendación práctica, si tuviéramos que dar una sola: empieza por algo donde puedas bajar el pistón sin salirte de la clase. Boxeo y jiu-jitsu son los dos que mejor cumplen eso en la comarca.</p>
 
 <h2>Qué se puede entrenar de verdad con este criterio en el Garraf</h2>
-<p>Aquí es donde los números del directorio ayudan a decidir. En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan <strong>16 centros con fuente pública verificable</strong>, y este es el reparto de las disciplinas que más encajan con lo anterior: el kickboxing aparece en 7, el boxeo en 7 y el jiu-jitsu brasileño en 5. El karate consta en 3 y el judo solo en 1, así que si te interesaba el trabajo de agarre, en esta comarca la vía practicable es el jiu-jitsu, no el judo.</p>
-<p>Dos datos más que evitan búsquedas inútiles. <strong>El muay thai no consta en ningún centro del Garraf</strong> con fuente pública verificable, aunque aparezca en muchos listados genéricos, y el krav maga solo en uno, en Cubelles. Y la oferta está muy concentrada: 7 de los 16 centros están en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> y 3 en <a href="/sitges/">Sitges</a>. En Sant Pere de Ribes casi todo es taekwondo, Cubelles suma dos centros y en Canyelles no consta ninguno.</p>
+<p>Aquí es donde los números del directorio ayudan a decidir. En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan <strong>{{centros_num}} centros con fuente pública verificable</strong>, y este es el reparto de las disciplinas que más encajan con lo anterior: el kickboxing aparece en 7, el boxeo en 7 y el jiu-jitsu brasileño en 5. El karate consta en 3 y el judo solo en 1, así que si te interesaba el trabajo de agarre, en esta comarca la vía practicable es el jiu-jitsu, no el judo.</p>
+<p>Dos datos más que evitan búsquedas inútiles. <strong>El muay thai no consta en ningún centro del Garraf</strong> con fuente pública verificable, aunque aparezca en muchos listados genéricos, y el krav maga solo en uno, en Cubelles. Y la oferta está muy concentrada: 7 de los {{centros_num}} centros están en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> y 3 en <a href="/sitges/">Sitges</a>. En Sant Pere de Ribes casi todo es taekwondo, Cubelles suma dos centros, Olivella uno de taekwondo y en Canyelles no consta ninguno.</p>
 <p>La consecuencia es práctica y conviene asumirla antes de apuntarse: si vives en Ribes, Cubelles o Canyelles y quieres boxeo o jiu-jitsu, vas a desplazarte. Entre Sitges y Vilanova hay 10-15 minutos en coche y la R2 Sud conecta los núcleos principales. Cuenta el trayecto de vuelta, que es el que hace abandonar a la gente en noviembre.</p>
 
 <h2>La llamada previa, y qué respuesta estás buscando</h2>
@@ -355,12 +355,12 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Si las tres respuestas son evasivas, ya sabes algo del club que antes no sabías. El resto de la conversación está en nuestra <a href="/blog/como-elegir-centro-artes-marciales-garraf/">checklist para elegir centro de artes marciales</a>.</p>
 
 <h2>Cambiar de grupo, de disciplina o de centro: qué se puede mover en el Garraf</h2>
-<p>Aquí es donde pesa el municipio, y donde conviene saber qué hay antes de decidir. En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan dieciséis clubs con fuente pública verificable, repartidos de forma muy desigual:</p>
+<p>Aquí es donde pesa el municipio, y donde conviene saber qué hay antes de decidir. En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan {{centros}} clubs con fuente pública verificable, repartidos de forma muy desigual:</p>
 <ul>
-<li><strong>Vilanova i la Geltrú concentra siete de los dieciséis.</strong> Es el único municipio donde cambiar de centro sin cambiar de disciplina es una opción real en casi cualquier estilo. Tienes el reparto en la guía de <a href="/vilanova-i-la-geltru/">artes marciales en Vilanova i la Geltrú</a> y, para grupos infantiles, en <a href="/clases-infantiles-en-vilanova/">clases infantiles en Vilanova</a>.</li>
+<li><strong>Vilanova i la Geltrú concentra siete de los {{centros}}.</strong> Es el único municipio donde cambiar de centro sin cambiar de disciplina es una opción real en casi cualquier estilo. Tienes el reparto en la guía de <a href="/vilanova-i-la-geltru/">artes marciales en Vilanova i la Geltrú</a> y, para grupos infantiles, en <a href="/clases-infantiles-en-vilanova/">clases infantiles en Vilanova</a>.</li>
 <li><strong>Sitges tiene tres</strong>, y dos de ellos anuncian cinco disciplinas cada uno, así que cambiar de estilo sin cambiar de sala suele ser posible. Está en la guía de <a href="/sitges/">artes marciales en Sitges</a>.</li>
 <li><strong>En Sant Pere de Ribes constan cuatro centros y los cuatro enseñan taekwondo.</strong> Uno añade defensa personal y otros estilos, pero su fuente no anuncia grupo infantil. Si tu hijo quiere dejar el taekwondo y vivís en Ribes o en Les Roquetes, dentro del municipio casi no hay alternativa: el movimiento es a Sitges o a Vilanova, 10-15 minutos en coche. La guía es <a href="/taekwondo-en-sant-pere-de-ribes/">taekwondo en Sant Pere de Ribes</a>.</li>
-<li><strong>En Cubelles constan dos, y en Canyelles ninguno</strong> a fecha de la última verificación. Los dos de Cubelles dan taekwondo y uno añade boxeo, MMA y krav maga, pero ninguno de los dos anuncia grupo infantil en su fuente. Desde ahí, casi cualquier cambio es un cambio de municipio.</li>
+<li><strong>En Cubelles constan dos, en Olivella uno de taekwondo y en Canyelles ninguno</strong> a fecha de la última verificación. Los dos de Cubelles dan taekwondo y uno añade boxeo, MMA y krav maga, pero ninguno de los dos anuncia grupo infantil en su fuente. Desde ahí, casi cualquier cambio es un cambio de municipio.</li>
 </ul>
 <p>Dos datos más que ahorran tiempo. El <a href="/judo/">judo</a> aparece en un solo centro de toda la comarca, en Vilanova, así que "nos pasamos a judo" es una decisión con una única dirección posible. El muay thai no consta en ningún centro verificado del Garraf, y el <a href="/krav-maga/">krav maga</a> solo en uno de Cubelles cuya fuente no anuncia grupo infantil: si aparecen en la conversación, casi seguro hablamos de salir de la comarca. La R2 Sud conecta bien los núcleos principales, pero un tren a otra comarca dos tardes por semana no lo aguanta un niño de nueve años en noviembre.</p>
 
@@ -379,7 +379,7 @@ export const BLOG_BODIES: Record<string, string> = {
 `,
   'blog/clases-mixtas-o-solo-mujeres': `
 <h2>La respuesta corta, y el dato que la complica</h2>
-<p>Los dos formatos funcionan y sirven para cosas distintas, así que la respuesta honesta a la pregunta en abstracto es que depende de para qué entrenas. Si la pregunta es "¿y en el Garraf?", cambia de naturaleza, porque aquí la decisión está en parte tomada: de los dieciséis centros que constan en nuestro <a href="/centros/">directorio de la comarca</a> con fuente pública verificable, <strong>uno solo anuncia un grupo femenino</strong>. Está en Vilanova i la Geltrú y es de jiu-jitsu.</p>
+<p>Los dos formatos funcionan y sirven para cosas distintas, así que la respuesta honesta a la pregunta en abstracto es que depende de para qué entrenas. Si la pregunta es "¿y en el Garraf?", cambia de naturaleza, porque aquí la decisión está en parte tomada: de los {{centros}} centros que constan en nuestro <a href="/centros/">directorio de la comarca</a> con fuente pública verificable, <strong>uno solo anuncia un grupo femenino</strong>. Está en Vilanova i la Geltrú y es de jiu-jitsu.</p>
 <p>Eso no quiere decir que no haya más. Quiere decir que no están publicados, que es un problema distinto y con una solución concreta. Antes de llegar ahí conviene saber qué se gana con cada formato, porque muchas mujeres piden grupo femenino por un motivo que el grupo mixto también resuelve.</p>
 
 <h2>Qué aporta de verdad un grupo solo de mujeres</h2>
@@ -392,7 +392,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Lo que no aporta, y a veces se insinúa: no es un formato más blando. Un grupo femenino bien llevado entrena igual de duro, y el que lo venda como una versión suave de lo mismo está vendiendo otra cosa.</p>
 
 <h2>Qué aporta el grupo mixto</h2>
-<p>Tiene una ventaja logística enorme, que es que existe. Hay muchos más, en más municipios y en más franjas horarias. En una comarca con dieciséis centros repartidos de forma desigual, eso decide más de lo que parece.</p>
+<p>Tiene una ventaja logística enorme, que es que existe. Hay muchos más, en más municipios y en más franjas horarias. En una comarca con {{centros}} centros repartidos de forma desigual, eso decide más de lo que parece.</p>
 <p>Y tiene una ventaja de contenido que conviene decir aunque incomode: si entrenas pensando en defensa personal, en algún momento tienes que entrenar con cuerpos más grandes y más fuertes que el tuyo, porque es el escenario que estás preparando. Una técnica que solo has practicado con gente de tu peso es una técnica a medio comprobar. Los grupos femeninos serios lo saben y lo compensan con trabajo por parejas desigual; en un grupo mixto eso viene de serie.</p>
 
 <h2>Por qué muchas acaban combinando los dos</h2>
@@ -403,7 +403,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Esto es lo que sabemos del directorio, sin nombrar a nadie, porque el directorio no ordena por preferencias:</p>
 <ul>
 <li><strong>Un único grupo femenino anunciado en toda la comarca</strong>, en Vilanova i la Geltrú, y es de <a href="/jiu-jitsu-brasileno/">jiu-jitsu brasileño</a>. Ninguna de las otras doce fichas menciona un grupo exclusivamente de mujeres.</li>
-<li><strong>Ninguna ficha anuncia un grupo femenino de defensa personal.</strong> La <a href="/defensa-personal/">defensa personal</a> aparece en ocho de los dieciséis centros, cinco en Vilanova, dos en Sitges y uno en Sant Pere de Ribes, pero ninguno de los ocho menciona un grupo solo de mujeres en su fuente pública.</li>
+<li><strong>Ninguna ficha anuncia un grupo femenino de defensa personal.</strong> La <a href="/defensa-personal/">defensa personal</a> aparece en ocho de los {{centros}} centros, cinco en Vilanova, dos en Sitges y uno en Sant Pere de Ribes, pero ninguno de los ocho menciona un grupo solo de mujeres en su fuente pública.</li>
 <li><strong>El krav maga consta en un solo centro del Garraf</strong>, en Cubelles, y en grupo mixto. Si lo que buscabas era un grupo femenino de <a href="/krav-maga/">krav maga</a> en la comarca, hoy eso significa salir de ella.</li>
 <li><strong>En Sant Pere de Ribes consta un centro con defensa personal en grupo mixto, y en Cubelles y Canyelles ninguno</strong>. Para un grupo femenino, desde ahí el movimiento es a Sitges o a Vilanova, 10-15 minutos en coche, con la R2 Sud conectando los núcleos principales.</li>
 </ul>
@@ -420,7 +420,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>La segunda es la que más información da. Un grupo mixto con cinco o seis mujeres funciona, en la práctica, bastante parecido a lo que estabas buscando. Uno en el que serías la única es otra cosa, y conviene saberlo antes de firmar una permanencia. El guion completo de la visita está en <a href="/blog/clase-de-prueba-que-preguntar/">la clase de prueba: qué mirar y qué preguntar</a>.</p>
 
 <h2>Si donde vives no hay ninguna de las dos cosas</h2>
-<p>Pasa, y sobre todo en los municipios pequeños. Tres salidas, en el orden en que las recomendamos. La primera es aceptar el grupo mixto del municipio propio, porque un grupo a diez minutos de casa al que vas dos veces por semana le gana a un grupo perfecto al que vas cuando puedes. La segunda es desplazarse a Vilanova o a Sitges, que entre las dos concentran diez de los dieciséis centros. La tercera, si lo que te frena es específicamente el primer día, es preguntar si puedes ir acompañada las dos primeras sesiones: casi ningún club lo anuncia y casi todos lo permiten.</p>
+<p>Pasa, y sobre todo en los municipios pequeños. Tres salidas, en el orden en que las recomendamos. La primera es aceptar el grupo mixto del municipio propio, porque un grupo a diez minutos de casa al que vas dos veces por semana le gana a un grupo perfecto al que vas cuando puedes. La segunda es desplazarse a Vilanova o a Sitges, que entre las dos concentran diez de los {{centros}} centros. La tercera, si lo que te frena es específicamente el primer día, es preguntar si puedes ir acompañada las dos primeras sesiones: casi ningún club lo anuncia y casi todos lo permiten.</p>
 <p>Lo que no recomendamos es esperar a que abra el grupo ideal. Se pasan cursos enteros así.</p>
 
 <h2>Y el curso de un fin de semana, ¿cuenta?</h2>
@@ -432,7 +432,7 @@ export const BLOG_BODIES: Record<string, string> = {
 `,
   'blog/clase-de-prueba-que-preguntar': `
 <h2>En una clase de prueba del Garraf, el que evalúa eres tú</h2>
-<p>Casi todo el mundo llega a la primera clase con la sensación de que va a un examen: si estoy en forma, si voy a hacer el ridículo, si me van a mirar. Y es justo al revés. La clase de prueba es la única hora en la que puedes ver un club por dentro sin haber pagado nada. En los <a href="/centros/">dieciséis centros que constan en nuestro directorio del Garraf</a> se ofrece prácticamente en todas partes.</p>
+<p>Casi todo el mundo llega a la primera clase con la sensación de que va a un examen: si estoy en forma, si voy a hacer el ridículo, si me van a mirar. Y es justo al revés. La clase de prueba es la única hora en la que puedes ver un club por dentro sin haber pagado nada. En los <a href="/centros/">{{centros}} centros que constan en nuestro directorio del Garraf</a> se ofrece prácticamente en todas partes.</p>
 <p>Así que conviértela en lo que es: una visita de inspección con ropa de deporte. Esto es el guion de esa visita, desde la llamada previa hasta los cinco minutos de después, que suelen ser los que más información dan. Si lo que buscas es la lista larga para comparar centros entre sí, está en la <a href="/blog/como-elegir-centro-artes-marciales-garraf/">checklist para elegir centro de artes marciales</a>.</p>
 
 <h2>La llamada previa resuelve más de lo que parece</h2>
@@ -489,7 +489,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Lo que sí es un mal augurio: salir sin que nadie te haya dicho una palabra, no tener claro qué has hecho ni por qué, o haberte sentido observado en vez de acompañado. Si pasa eso, prueba en otro sitio antes de concluir que las artes marciales no son para ti. Casi nunca es la disciplina, es el grupo. Y si vienes de años sin hacer deporte, la guía de <a href="/iniciacion/">iniciación a las artes marciales</a> te ordena las diez opciones antes de que elijas dónde probar.</p>
 
 <h2>Si vives fuera de Vilanova o Sitges, prueba en dos sitios</h2>
-<p>La oferta de la comarca está muy concentrada y eso cambia la estrategia. De los dieciséis centros del directorio, siete están en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> y tres en <a href="/sitges/">Sitges</a>; en <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> constan cuatro, en <a href="/cubelles/">Cubelles</a> dos y en Canyelles, de momento, ninguno. Si vives en los tres últimos, lo probable es que acabes desplazándote. Entonces la clase de prueba responde a una pregunta más: si ese trayecto lo vas a hacer dos veces por semana en enero. Diez o quince minutos en coche entre Sitges y Vilanova parecen nada un domingo por la mañana y son otra cosa un martes a las ocho.</p>
+<p>La oferta de la comarca está muy concentrada y eso cambia la estrategia. De los {{centros}} centros del directorio, siete están en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> y tres en <a href="/sitges/">Sitges</a>; en <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> constan cuatro, en <a href="/cubelles/">Cubelles</a> dos, en <a href="/olivella/">Olivella</a> uno y en Canyelles, de momento, ninguno. Si vives en los cuatro últimos, lo probable es que acabes desplazándote. Entonces la clase de prueba responde a una pregunta más: si ese trayecto lo vas a hacer dos veces por semana en enero. Diez o quince minutos en coche entre Sitges y Vilanova parecen nada un domingo por la mañana y son otra cosa un martes a las ocho.</p>
 <p>Por eso, si te toca desplazarte, prueba en dos centros antes de decidir. No cuesta dinero y es la única forma de tener con qué comparar.</p>
 <p>Comprueba también que la disciplina que buscas existe aquí antes de organizar nada. En el directorio hay ocho centros que anuncian defensa personal, siete con kickboxing, siete con boxeo y cinco con jiu-jitsu brasileño. En cambio el <a href="/judo/">judo</a> consta en uno solo, el <a href="/krav-maga/">krav maga</a> también en uno solo (en Cubelles) y el <a href="/taekwondo/">taekwondo</a> es la disciplina que llega a todos los municipios con centro salvo Sitges. Y hay una que no tiene ni un centro verificado en toda la comarca: el <a href="/muay-thai/">muay thai</a>. Si vienes buscando esa, la clase de prueba más cercana está fuera del Garraf, y más vale saberlo antes que después.</p>
 
@@ -518,7 +518,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Lo que sí se puede describir sin inventar nada es el formato, que es lo que hemos hecho arriba: ejercicio intenso, atención sostenida, rutina semanal y contacto social, cuatro cosas que casi cualquiera agradece. Si además estás en tratamiento o arrastras algo que te preocupa, coméntalo con tu médico antes de apuntarte a un deporte de contacto, y coméntalo también con el instructor el primer día. Un técnico solvente adapta sin dramatizar.</p>
 
 <h2>Qué disciplinas del Garraf encajan mejor con este motivo</h2>
-<p>De los dieciséis centros que constan en <a href="/centros/">nuestro directorio de la comarca</a>, la oferta está muy desequilibrada, y eso condiciona lo que puedes elegir de verdad.</p>
+<p>De los {{centros}} centros que constan en <a href="/centros/">nuestro directorio de la comarca</a>, la oferta está muy desequilibrada, y eso condiciona lo que puedes elegir de verdad.</p>
 <p>Lo que más hay es golpeo y defensa personal: siete centros anuncian <a href="/kickboxing/">kickboxing</a>, siete <a href="/defensa-personal/">defensa personal</a> y seis <a href="/boxeo/">boxeo</a>, todos ellos entre <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> y <a href="/sitges/">Sitges</a>. Son opciones cómodas para este perfil porque la intensidad la regulas tú desde el primer día y porque el trabajo con saco y manoplas absorbe la cabeza sin pedirte coordinación fina.</p>
 <p>El agarre es la otra vía, y a bastante gente le va mejor. El jiu-jitsu brasileño consta en cinco centros de la comarca y tiene una particularidad útil aquí: es imposible pensar en otra cosa mientras alguien intenta pasarte la guardia. No hay golpes y el ritmo lo marcas tú. El inconveniente es que la curva inicial frustra más, porque las primeras semanas pierdes contra todo el mundo.</p>
 <p>Dos avisos con los datos en la mano. El <a href="/judo/">judo</a> consta en un solo centro, en Vilanova, así que si te atrae esa vía tienes una opción y no cinco. Y si has leído que el <a href="/muay-thai/">muay thai</a> o el <a href="/krav-maga/">krav maga</a> son lo suyo para esto, el muay thai no lo ofrece ningún centro verificado del Garraf y el krav maga solo uno, en <a href="/cubelles/">Cubelles</a>. Salvo que vivas cerca de allí, tendrías que salir de la comarca.</p>
@@ -575,7 +575,7 @@ export const BLOG_BODIES: Record<string, string> = {
 
 <h2>Qué disciplinas perdonan más al cuerpo de 40, y cuáles hay de verdad en el Garraf</h2>
 <p>Aquí la teoría se estrella contra la comarca. Puedes leer que el aikido es ideal a partir de los cuarenta. Si no hay ninguna sala a menos de cuarenta minutos, el consejo no vale nada.</p>
-<p>En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan <strong>dieciséis centros</strong> a fecha de la última verificación. Siete en Vilanova i la Geltrú, tres en Sitges, cuatro en Sant Pere de Ribes, dos en Cubelles y ninguno en Canyelles. Esa distribución manda más que cualquier comparativa.</p>
+<p>En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan <strong>{{centros}} centros</strong> a fecha de la última verificación. Siete en Vilanova i la Geltrú, tres en Sitges, cuatro en Sant Pere de Ribes, dos en Cubelles, uno en Olivella y ninguno en Canyelles. Esa distribución manda más que cualquier comparativa.</p>
 <table>
 <thead>
 <tr><th>Disciplina</th><th>Qué le pide a un cuerpo de 40</th><th>Presencia en la comarca</th></tr>
@@ -620,7 +620,7 @@ export const BLOG_BODIES: Record<string, string> = {
   'blog/entrenar-sin-querer-competir': `
 <h2>La respuesta corta: en el Garraf casi nadie compite</h2>
 <p>No hace falta competir. Nunca. Ni para entrenar. Ni para graduarse, en la mayoría de disciplinas. Ni para que el instructor te tome en serio.</p>
-<p>Es la duda que más gente se traga sin preguntar. Y por eso mucha gente no llega a apuntarse. En los dieciséis centros que constan en nuestro <a href="/centros/">directorio de centros del Garraf</a> entrena mucha gente un martes por la tarde. La enorme mayoría no ha competido jamás y no piensa hacerlo. Van a moverse. A desconectar del trabajo. A aprender algo con las manos.</p>
+<p>Es la duda que más gente se traga sin preguntar. Y por eso mucha gente no llega a apuntarse. En los {{centros}} centros que constan en nuestro <a href="/centros/">directorio de centros del Garraf</a> entrena mucha gente un martes por la tarde. La enorme mayoría no ha competido jamás y no piensa hacerlo. Van a moverse. A desconectar del trabajo. A aprender algo con las manos.</p>
 <p>Dicho eso, el miedo no es absurdo. Hay clubs donde la competición marca el ritmo de todo. Ahí, un adulto que solo quiere entrenar acaba sobrando. Distinguirlos se hace con dos preguntas, y están más abajo.</p>
 
 <h2>De dónde viene el miedo, y por qué es razonable</h2>
@@ -631,8 +631,8 @@ export const BLOG_BODIES: Record<string, string> = {
 
 <h2>Qué disciplinas del Garraf empujan más hacia la competición</h2>
 <p>No todas tiran igual, y la oferta de la comarca lo deja bastante claro. Dos datos del directorio que ayudan a leer el mapa.</p>
-<p>El primero: de los dieciséis centros, <strong>ocho anuncian defensa personal</strong>. Es el formato sin circuito competitivo de ningún tipo. No hay torneos de defensa personal. No existe la categoría.</p>
-<p>El segundo: de los dieciséis, cinco constan a través del registro de una federación o del directorio municipal. Los cinco son de <a href="/taekwondo/">taekwondo</a> o judo. Son las dos disciplinas con estructura federativa más fuerte de la comarca. Eso no las hace peores. Sí explica por qué su cultura de club está más cerca del circuito.</p>
+<p>El primero: de los {{centros}} centros, <strong>ocho anuncian defensa personal</strong>. Es el formato sin circuito competitivo de ningún tipo. No hay torneos de defensa personal. No existe la categoría.</p>
+<p>El segundo: de los {{centros}}, cinco constan a través del registro de una federación o del directorio municipal. Los cinco son de <a href="/taekwondo/">taekwondo</a> o judo. Son las dos disciplinas con estructura federativa más fuerte de la comarca. Eso no las hace peores. Sí explica por qué su cultura de club está más cerca del circuito.</p>
 <table>
 <thead>
 <tr><th>Disciplina</th><th>Peso de la competición</th><th>Qué esperar en el Garraf</th></tr>
@@ -705,8 +705,8 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>El judo merece un apunte aparte, porque desconcierta a muchos padres. Tiene contacto constante y aun así es de los formatos más controlados que existen para un niño, porque lo primero que se enseña no es proyectar: es caer.</p>
 
 <h2>Qué hay de verdad para niños en el Garraf</h2>
-<p>Aquí la teoría se vuelve práctica, porque la oferta de la comarca condiciona la elección más que cualquier comparativa. A fecha de la última verificación de nuestro directorio constan <strong>dieciséis centros de artes marciales en el Garraf</strong>: siete en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, tres en <a href="/sitges/">Sitges</a>, cuatro en Sant Pere de Ribes, dos en Cubelles y ninguno en Canyelles.</p>
-<p>De esos dieciséis, cinco anuncian grupo infantil en la fuente pública que comprobamos. Que los otros once no lo anuncien no significa que no lo tengan: significa que no lo publican y que hay que preguntarlo por teléfono. Es una distinción que hacemos siempre. El directorio recoge lo que cada centro dice de sí mismo en su web, en el registro de su federación o en el directorio municipal, con la fecha en que lo miramos.</p>
+<p>Aquí la teoría se vuelve práctica, porque la oferta de la comarca condiciona la elección más que cualquier comparativa. A fecha de la última verificación de nuestro directorio constan <strong>{{centros}} centros de artes marciales en el Garraf</strong>: siete en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, tres en <a href="/sitges/">Sitges</a>, cuatro en Sant Pere de Ribes, dos en Cubelles, uno en Olivella y ninguno en Canyelles.</p>
+<p>De esos {{centros}}, cinco anuncian grupo infantil en la fuente pública que comprobamos. Que los otros once no lo anuncien no significa que no lo tengan: significa que no lo publican y que hay que preguntarlo por teléfono. Es una distinción que hacemos siempre. El directorio recoge lo que cada centro dice de sí mismo en su web, en el registro de su federación o en el directorio municipal, con la fecha en que lo miramos.</p>
 <p>Dos datos más cambian bastante la conversación sobre seguridad infantil en la comarca:</p>
 <ul>
 <li>El judo, que es la disciplina con la entrada infantil más rodada, consta en <strong>un solo centro de todo el Garraf</strong>, y está en Vilanova. Si te habían recomendado empezar por ahí, la logística pesa tanto como el criterio.</li>
@@ -756,8 +756,8 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>La respuesta corta es que el primer día casi nunca se parece a lo que uno teme. La larga importa más, porque <strong>lo que decide si te quedas no es la disciplina, es cómo el centro organiza el trabajo por parejas</strong>. Ahí es donde hay que mirar.</p>
 
 <h2>Qué dice el directorio del Garraf sobre los grupos femeninos</h2>
-<p>Empecemos por el dato propio, porque es el que nadie más te va a dar. En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan dieciséis centros de artes marciales: siete en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, tres en <a href="/sitges/">Sitges</a>, cuatro en Sant Pere de Ribes y dos en Cubelles. De esos dieciséis, <strong>uno solo declara un grupo exclusivamente femenino</strong> en su fuente pública. Es de jiu-jitsu brasileño y está en Vilanova.</p>
-<p>Ese uno de dieciséis es la respuesta honesta a la pregunta que probablemente traías. En esta comarca, empezar siendo mujer significa casi siempre <strong>entrar en un grupo mixto</strong>. No es una mala noticia en sí misma, pero conviene saberlo antes y no el primer día.</p>
+<p>Empecemos por el dato propio, porque es el que nadie más te va a dar. En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan {{centros}} centros de artes marciales: siete en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, tres en <a href="/sitges/">Sitges</a>, cuatro en Sant Pere de Ribes, dos en Cubelles y uno en Olivella. De esos {{centros}}, <strong>uno solo declara un grupo exclusivamente femenino</strong> en su fuente pública. Es de jiu-jitsu brasileño y está en Vilanova.</p>
+<p>Ese uno de {{centros}} es la respuesta honesta a la pregunta que probablemente traías. En esta comarca, empezar siendo mujer significa casi siempre <strong>entrar en un grupo mixto</strong>. No es una mala noticia en sí misma, pero conviene saberlo antes y no el primer día.</p>
 <p>Un apunte sobre cómo lo sabemos: recogemos lo que cada centro publica de sí mismo, en su web, en el registro de su federación o en el directorio municipal, con la fecha en que lo comprobamos. Que un centro no anuncie grupo femenino no prueba que no lo tenga. Prueba que no lo publica. Es una llamada de dos minutos y merece la pena hacerla antes de descartarlo.</p>
 
 <h2>¿Qué pasa realmente el primer día?</h2>
@@ -772,7 +772,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <h2>Qué disciplina encaja con lo que buscas</h2>
 <p>Antes de elegir centro conviene tener claro el objetivo, porque cambia bastante la respuesta:</p>
 <ul>
-<li><strong>Si lo que quieres es autodefensa</strong>, la <a href="/defensa-personal/">defensa personal</a> es la vía directa, y es además la más disponible: ocho de los dieciséis centros del directorio la anuncian. Tienes el detalle de qué debe incluir un programa serio en la guía de <a href="/blog/defensa-personal-para-mujeres-garraf/">defensa personal para mujeres en el Garraf</a>.</li>
+<li><strong>Si lo que quieres es autodefensa</strong>, la <a href="/defensa-personal/">defensa personal</a> es la vía directa, y es además la más disponible: ocho de los {{centros}} centros del directorio la anuncian. Tienes el detalle de qué debe incluir un programa serio en la guía de <a href="/blog/defensa-personal-para-mujeres-garraf/">defensa personal para mujeres en el Garraf</a>.</li>
 <li><strong>Si buscas descargar la cabeza y ponerte en forma</strong>, el <a href="/boxeo/">boxeo</a> y el kickboxing permiten regular la intensidad desde el primer día. Trabajas contra saco y manoplas mucho antes de trabajar contra una persona.</li>
 <li><strong>Si te preocupa el impacto</strong>, el <a href="/jiu-jitsu-brasileno/">jiu-jitsu brasileño</a> no tiene golpes y el ritmo lo marcas tú con tu pareja de trabajo. Es también la disciplina del único grupo femenino declarado en la comarca.</li>
 <li><strong>Si vienes con hijos y quieres cuadrar horarios</strong>, mira primero qué centros tienen grupo infantil y grupo de adultos el mismo día. Es un criterio poco romántico y es el que más gente mantiene entrenando en noviembre.</li>
@@ -1441,9 +1441,9 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Una advertencia concreta antes de seguir. Desconfía del centro que use el TDAH como argumento comercial. Si en la web pone que su método "trata" o "corrige" el déficit de atención, eso no lo escribe una escuela con formación clínica.</p>
 
 <h2>Qué se puede entrenar de verdad en el Garraf, municipio a municipio</h2>
-<p>Nuestro <a href="/centros/">directorio de centros del Garraf</a> reúne dieciséis clubs con presencia pública verificable. El reparto pesa más de lo que parece cuando lo que buscas es rutina. Siete están en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, tres en <a href="/sitges/">Sitges</a>, cuatro en <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> y dos en <a href="/cubelles/">Cubelles</a>. En <a href="/canyelles/">Canyelles</a> no consta ninguno, así que desde allí siempre hay que desplazarse.</p>
-<p>De los dieciséis, cinco declaran grupo infantil en su propia fuente pública. Los otros once no lo dicen, y eso no significa que no lo tengan: significa que hay que preguntarlo. Nosotros no publicamos lo que no podemos verificar, y las fichas de origen federativo suelen listar el club y su disciplina y poco más.</p>
-<p>Por disciplinas, el <a href="/taekwondo/">taekwondo</a> es el que más se reparte por la comarca: lo dan los cuatro clubs de Sant Pere de Ribes y los dos de Cubelles, además de uno en Vilanova. El <a href="/judo/">judo</a> aparece en un solo centro, en Vilanova. El <a href="/karate/">karate</a> consta en Vilanova y en Sitges. El krav maga, solo en un centro de Cubelles para adultos, y el muay thai en ninguno.</p>
+<p>Nuestro <a href="/centros/">directorio de centros del Garraf</a> reúne {{centros}} clubs con presencia pública verificable. El reparto pesa más de lo que parece cuando lo que buscas es rutina. Siete están en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, tres en <a href="/sitges/">Sitges</a>, cuatro en <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a>, dos en <a href="/cubelles/">Cubelles</a> y uno en <a href="/olivella/">Olivella</a>. En <a href="/canyelles/">Canyelles</a> no consta ninguno, así que desde allí siempre hay que desplazarse.</p>
+<p>De los {{centros}}, cinco declaran grupo infantil en su propia fuente pública. Los otros once no lo dicen, y eso no significa que no lo tengan: significa que hay que preguntarlo. Nosotros no publicamos lo que no podemos verificar, y las fichas de origen federativo suelen listar el club y su disciplina y poco más.</p>
+<p>Por disciplinas, el <a href="/taekwondo/">taekwondo</a> es el que más se reparte por la comarca: lo dan los cuatro clubs de Sant Pere de Ribes, los dos de Cubelles y el de Olivella, además de uno en Vilanova. El <a href="/judo/">judo</a> aparece en un solo centro, en Vilanova. El <a href="/karate/">karate</a> consta en Vilanova y en Sitges. El krav maga, solo en un centro de Cubelles para adultos, y el muay thai en ninguno.</p>
 <p>Esto tiene una consecuencia práctica. Si vivís en Cubelles y os habéis encaprichado del judo, el plan no es una clase: es un trayecto de quince minutos dos veces por semana durante un curso entero. Para un niño que necesita que las cosas pasen siempre igual, la logística no es un detalle menor. Es el primer filtro.</p>
 
 <h2>Karate, judo o taekwondo para un niño que se dispersa</h2>
@@ -1501,7 +1501,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <p>Nuestra recomendación es poco sofisticada. Dos días durante el primer curso completo, sin excepciones por talento ni por ganas. Si al año siguiente sigue pidiendo más, entonces se habla.</p>
 
 <h2>Lo que el mapa del Garraf le hace a esa cifra</h2>
-<p>En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan dieciséis clubs con fuente pública verificable, repartidos de forma muy desigual: siete en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, tres en <a href="/sitges/">Sitges</a>, cuatro en <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a>, dos en <a href="/cubelles/">Cubelles</a> y ninguno en <a href="/canyelles/">Canyelles</a>.</p>
+<p>En nuestro <a href="/centros/">directorio de centros del Garraf</a> constan {{centros}} clubs con fuente pública verificable, repartidos de forma muy desigual: siete en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, tres en <a href="/sitges/">Sitges</a>, cuatro en <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a>, dos en <a href="/cubelles/">Cubelles</a>, uno en <a href="/olivella/">Olivella</a> y ninguno en <a href="/canyelles/">Canyelles</a>.</p>
 <p>Traducido a tardes reales: si vivís en Vilanova y el club está a diez minutos andando, dos días son dos días. Si vivís en Canyelles, dos días son cuatro trayectos en coche, y de noviembre a marzo los cuatro se hacen de noche. La frecuencia deja de ser una decisión pedagógica y pasa a ser una decisión de agenda familiar. Conviene tratarla como tal en septiembre y no descubrirlo en noviembre.</p>
 <p>Una forma rápida de verlo, contando ida y vuelta:</p>
 <table>
@@ -1513,6 +1513,7 @@ export const BLOG_BODIES: Record<string, string> = {
 <tr><td>Sitges</td><td>3</td><td>Dentro del municipio, con menos opciones para elegir horario</td></tr>
 <tr><td>Sant Pere de Ribes</td><td>4</td><td>Dentro del municipio solo si os sirve el taekwondo</td></tr>
 <tr><td>Cubelles</td><td>2</td><td>Taekwondo en el municipio; casi cualquier otra disciplina son cuatro trayectos</td></tr>
+<tr><td>Olivella</td><td>1</td><td>Taekwondo en el municipio; el resto, fuera</td></tr>
 <tr><td>Canyelles</td><td>0</td><td>Cuatro trayectos semanales, siempre</td></tr>
 </tbody>
 </table>

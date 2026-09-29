@@ -1,6 +1,6 @@
 import { DISCIPLINES, getDisciplineBySlug } from './disciplines';
 import { LOCATIONS, getLocationBySlug } from './locations';
-import { getCentros, getCentrosByDisciplina, getCentrosByMunicipio } from './centros';
+import { CENTROS, getCentros, getCentrosByDisciplina, getCentrosByMunicipio } from './centros';
 import { SITE } from './site';
 import { BLOG_BODIES } from './blog-posts';
 import {
@@ -569,7 +569,7 @@ const HUB_MUNICIPIO_PAGES: PageDef[] = LOCATIONS.map(loc => ({
         ]),
     description: getCentrosByMunicipio(loc.slug).length > 0
       ? [4, 3, 2]
-          .map(n => `${contarCentros(getCentrosByMunicipio(loc.slug).length)} de artes marciales en ${loc.name} con fuente pública: ${disciplinasDe(loc.slug, n)}. Qué ofrece cada uno y qué tienes cerca.`)
+          .map(n => `${contarCentros(getCentrosByMunicipio(loc.slug).length)} de artes marciales en ${loc.name} con fuente pública: ${disciplinasDe(loc.slug, n)}. ${getCentrosByMunicipio(loc.slug).length === 1 ? 'Qué se sabe de él' : 'Qué ofrece cada uno'} y qué tienes cerca.`)
           .find(d => d.length <= MAX_DESC)!
       : `Ningún centro de artes marciales de ${loc.name} consta con fuente pública verificable. Te decimos dónde entrenar cerca y qué disciplinas hay en cada municipio.`,
   },
@@ -664,7 +664,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'Qué es el grappling, en qué se diferencia del jiu-jitsu con kimono y del judo, y en cuántos centros del Garraf consta la palabra hoy.',
     },
     h1: 'Grappling en el Garraf: Qué Es y Dónde Consta',
-    intro: 'Lucha de agarre sin kimono: ni golpes ni tela de la que tirar. La palabra aparece en el horario de tres de los dieciséis centros que constan en la comarca, y en ninguno como disciplina principal. Aquí va qué significa en cada caso y qué preguntar antes de apuntarte.',
+    intro: 'Lucha de agarre sin kimono: ni golpes ni tela de la que tirar. La palabra aparece en el horario de tres de los {{centros}} centros que constan en la comarca, y en ninguno como disciplina principal. Aquí va qué significa en cada caso y qué preguntar antes de apuntarte.',
     body: BLOG_BODIES['blog/que-es-el-grappling-y-donde-se-practica'],
     fecha: '2026-09-25',
     phase: 2,
@@ -703,7 +703,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'Qué esperar de verdad, por qué las calorías son el dato menos útil y qué disciplinas constan en cada municipio del Garraf para sostener el hábito.',
     },
     h1: 'Artes Marciales para Perder Peso: Qué Esperar de Verdad',
-    intro: 'La tabla de calorías por hora es el dato menos útil de esta decisión. Lo que de verdad la ordena es cuánto te cuesta llegar a la sala un martes de enero, y eso en esta comarca depende de dónde vivas: las disciplinas de más cardio continuo solo constan en dos de los cinco municipios.',
+    intro: 'La tabla de calorías por hora es el dato menos útil de esta decisión. Lo que de verdad la ordena es cuánto te cuesta llegar a la sala un martes de enero, y eso en esta comarca depende de dónde vivas: las disciplinas de más cardio continuo solo constan en dos de los seis municipios.',
     body: BLOG_BODIES['blog/artes-marciales-para-perder-peso'],
     fecha: '2026-09-21',
     phase: 2,
@@ -755,7 +755,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'Qué aporta cada formato, por qué muchas acaban combinando los dos y qué grupos femeninos constan de verdad en los centros del Garraf.',
     },
     h1: '¿Grupo Mixto o Solo Mujeres? Ventajas de Cada Uno en el Garraf',
-    intro: 'De los dieciséis centros que constan en la comarca, uno solo anuncia un grupo femenino. Ese dato condiciona la decisión más de lo que nos gustaría, así que aquí va qué aporta cada formato, qué preguntar por teléfono y qué hacer si donde vives no hay ninguna de las dos cosas.',
+    intro: 'De los {{centros}} centros que constan en la comarca, uno solo anuncia un grupo femenino. Ese dato condiciona la decisión más de lo que nos gustaría, así que aquí va qué aporta cada formato, qué preguntar por teléfono y qué hacer si donde vives no hay ninguna de las dos cosas.',
     body: BLOG_BODIES['blog/clases-mixtas-o-solo-mujeres'],
     fecha: '2026-09-13',
     phase: 2,
@@ -781,7 +781,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'Dos días es lo habitual, pero en el Garraf la cuenta que importa es la de trayectos. Cuándo subir a tres, cuándo bajar y qué preguntar al club.',
     },
     h1: 'Cuántos Días a la Semana Debería Entrenar un Niño en el Garraf',
-    intro: 'Dos días a la semana es la respuesta, y sirve para casi cualquier niño que empieza. Lo que casi nadie calcula es la otra cifra: en una comarca donde siete de los dieciséis centros verificados están en Vilanova, dos sesiones pueden significar cuatro trayectos en coche.',
+    intro: 'Dos días a la semana es la respuesta, y sirve para casi cualquier niño que empieza. Lo que casi nadie calcula es la otra cifra: en una comarca donde siete de los {{centros}} centros verificados están en Vilanova, dos sesiones pueden significar cuatro trayectos en coche.',
     body: BLOG_BODIES['blog/cuantos-dias-semana-entrena-un-nino'],
     fecha: '2026-09-09',
     phase: 2,
@@ -807,7 +807,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'Por qué una clase de combate desconecta la cabeza mejor que una cinta de correr, qué no se puede prometer y qué disciplinas constan de verdad en la comarca.',
     },
     h1: 'Artes Marciales y Estrés: por Qué Funciona, y Qué Hay en el Garraf',
-    intro: 'Es el motivo que más gente mantiene entrenando pasado el primer trimestre, y casi nunca es el que se dice en voz alta. Qué tiene el formato que funciona tan bien, qué no se puede prometer y qué disciplinas de los dieciséis centros de la comarca encajan mejor.',
+    intro: 'Es el motivo que más gente mantiene entrenando pasado el primer trimestre, y casi nunca es el que se dice en voz alta. Qué tiene el formato que funciona tan bien, qué no se puede prometer y qué disciplinas de los {{centros}} centros de la comarca encajan mejor.',
     body: BLOG_BODIES['blog/artes-marciales-y-estres'],
     fecha: '2026-09-05',
     phase: 2,
@@ -820,7 +820,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'A los 40 no empiezas tarde, empiezas distinto. Qué disciplinas perdonan más al cuerpo, cuáles hay de verdad en el Garraf y qué decir el primer día.',
     },
     h1: 'Empezar Artes Marciales a los 40 en el Garraf',
-    intro: 'El miedo no suele ser la edad, sino la rodilla vieja y el ridículo. Aquí va qué cambia de verdad respecto a los veinticinco, qué disciplinas aguantan mejor un cuerpo de cuarenta y cuáles constan en los dieciséis centros de la comarca.',
+    intro: 'El miedo no suele ser la edad, sino la rodilla vieja y el ridículo. Aquí va qué cambia de verdad respecto a los veinticinco, qué disciplinas aguantan mejor un cuerpo de cuarenta y cuáles constan en los {{centros}} centros de la comarca.',
     body: BLOG_BODIES['blog/empezar-artes-marciales-a-los-40'],
     fecha: '2026-09-01',
     phase: 2,
@@ -1122,6 +1122,27 @@ const BLOG_PAGES: PageDef[] = [
  *  2. Garantiza que ningún título ni descripción supere el límite que Google
  *     recorta en la SERP, pase lo que pase en las plantillas de arriba.
  */
+// ── Recuentos del directorio en la prosa ─────────────────────────────────────
+// El 29-09-2026 el directorio pasó de 13 a 16 centros y luego a 17, y hubo que
+// corregir a mano más de cien frases que llevaban el total escrito. Ahora el
+// texto lleva un marcador y el número se calcula al compilar:
+//   {{centros}}      → "diecisiete"
+//   {{centros_num}}  → "17"
+// Los recuentos por municipio o por disciplina siguen escritos: cambian menos
+// y la frase que los rodea casi siempre hay que revisarla igualmente.
+const NUMEROS = [
+  'cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve',
+  'diez', 'once', 'doce', 'trece', 'catorce', 'quince', 'dieciséis', 'diecisiete',
+  'dieciocho', 'diecinueve', 'veinte', 'veintiuno', 'veintidós', 'veintitrés',
+  'veinticuatro', 'veinticinco', 'veintiséis', 'veintisiete', 'veintiocho',
+  'veintinueve', 'treinta',
+];
+function conDatos(texto: string): string {
+  return texto
+    .replaceAll('{{centros}}', NUMEROS[CENTROS.length] ?? String(CENTROS.length))
+    .replaceAll('{{centros_num}}', String(CENTROS.length));
+}
+
 function finalize(p: PageDef): PageDef {
   const body = p.body ?? PERFIL_BODIES[p.slug] ?? MONEY_BODIES[p.slug];
   const extraFaq = PERFIL_FAQS[p.slug] ?? MONEY_FAQS[p.slug];
@@ -1129,11 +1150,12 @@ function finalize(p: PageDef): PageDef {
 
   return {
     ...p,
-    ...(body ? { body } : {}),
-    ...(localFaq ? { localFaq } : {}),
+    intro: conDatos(p.intro),
+    ...(body ? { body: conDatos(body) } : {}),
+    ...(localFaq ? { localFaq: localFaq.map(f => ({ q: conDatos(f.q), a: conDatos(f.a) })) } : {}),
     meta: {
-      title: clamp(p.meta.title, MAX_TITLE),
-      description: clamp(p.meta.description, MAX_DESC),
+      title: clamp(conDatos(p.meta.title), MAX_TITLE),
+      description: clamp(conDatos(p.meta.description), MAX_DESC),
     },
   };
 }

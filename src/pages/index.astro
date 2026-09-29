@@ -38,7 +38,7 @@ const homeSchema = {
 const homeFAQ = [
   { q: '¿Qué es Artes Marciales Garraf?', a: 'Una guía independiente sobre artes marciales en la comarca del Garraf. Publicamos información por disciplina y municipio para ayudarte a decidir qué entrenar y cómo empezar. No somos un gimnasio ni una academia.' },
   { q: '¿Qué disciplinas cubre la guía?', a: 'Boxeo, karate, MMA, kickboxing, muay thai, Brazilian Jiu Jitsu, judo, taekwondo, defensa personal y krav maga, con guías específicas para niños, mujeres y adultos principiantes.' },
-  { q: '¿Qué municipios cubre?', a: 'Toda la comarca del Garraf: Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y Canyelles, además de referencias a municipios cercanos.' },
+  { q: '¿Qué municipios cubre?', a: 'Toda la comarca del Garraf: Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles, Canyelles y Olivella, además de referencias a municipios cercanos.' },
   { q: '¿Cómo elijo mi primera arte marcial?', a: 'Depende de tu objetivo: para ponerte en forma, boxeo o kickboxing; para niños, karate, judo o taekwondo; para autodefensa práctica, defensa personal o krav maga; para trabajo de suelo y técnica, BJJ. En cada guía de disciplina te explicamos para quién es adecuada.' },
   { q: '¿Cuánto cuesta apuntarse a artes marciales?', a: 'Cada centro fija sus propias tarifas y cambian con el tiempo, por eso no publicamos precios. Antes de apuntarte, pregunta siempre por matrícula, permanencia y si ofrecen clase de prueba.' },
   { q: '¿Me podéis ayudar a encontrar clase?', a: 'Sí. Escríbenos por el formulario de contacto contándonos qué buscas (disciplina, municipio, edad, objetivo) y te orientamos sin coste.' },
@@ -131,11 +131,11 @@ const homeFAQ = [
         <div class="bg-brand-gray/50 border border-brand-border rounded-xl p-6">
           <h3 class="font-bold text-white mb-3">También cerca de ti</h3>
           <div class="flex flex-wrap gap-2">
-            {['Sant Pere de Ribes', 'Cubelles', 'Canyelles', 'Olivella', 'Castelldefels'].map(t => (
+            {['Cunit', 'Calafell', 'Castelldefels', 'Begues'].map(t => (
               <span class="text-xs bg-brand-border text-brand-muted px-3 py-1 rounded-full">{t}</span>
             ))}
           </div>
-          <p class="text-sm text-brand-muted mt-3">Si vives en un municipio pequeño, en las guías te indicamos las zonas con más oferta cercana.</p>
+          <p class="text-sm text-brand-muted mt-3">Si vives justo fuera del Garraf, las guías de Cubelles y Sitges te dicen qué queda a mano y qué no cubre este directorio.</p>
         </div>
       </div>
     </div>
@@ -150,7 +150,7 @@ const homeFAQ = [
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {[
           { icon: 'brujula', title: 'Orientación por disciplina', desc: 'Qué es cada arte marcial, qué beneficios tiene, para quién es adecuada y qué esperar de las primeras clases.' },
-          { icon: 'mapa-pin', title: 'Información por municipio', desc: 'Guías locales para Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y Canyelles.' },
+          { icon: 'mapa-pin', title: 'Información por municipio', desc: 'Guías locales para Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles, Canyelles y Olivella.' },
           { icon: 'personas', title: 'Guías por perfil', desc: 'Contenido específico para niños, mujeres, adultos principiantes y quienes buscan defensa personal.' },
           { icon: 'check-circulo', title: 'Criterios para elegir centro', desc: 'Qué preguntar antes de apuntarte: titulación de instructores, tamaño de grupos, permanencia, clase de prueba.' },
           { icon: 'sobre', title: 'Orientación personalizada', desc: 'Escríbenos qué buscas y te ayudamos a dar el primer paso, sin coste y sin compromiso.' },

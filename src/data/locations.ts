@@ -41,7 +41,7 @@ export const LOCATIONS: Location[] = [
     province: 'Barcelona',
     priority: 2,
     desc: 'Sant Pere de Ribes incluye núcleos como Les Roquetes y Ribes. Aunque la oferta local es más limitada, Sitges y Vilanova i la Geltrú quedan a menos de 10-15 minutos en coche, con muchas más opciones para entrenar.',
-    nearbyTowns: ['Avinyonet de Puigventós', 'Les Roquetes', 'La Plana Novella'],
+    nearbyTowns: ['Les Roquetes', 'Olivella', 'Canyelles'],
   },
   {
     slug: 'cubelles',
@@ -63,6 +63,16 @@ export const LOCATIONS: Location[] = [
     desc: 'Canyelles es un municipio del interior del Garraf. Para entrenar artes marciales, la opción más habitual de sus vecinos es desplazarse a Vilanova i la Geltrú, a unos 15 minutos por la C-15.',
     nearbyTowns: ['Olivella', 'Begues'],
   },
+  {
+    slug: 'olivella',
+    name: 'Olivella',
+    nameShort: 'Olivella',
+    comarca: 'Garraf',
+    province: 'Barcelona',
+    priority: 3,
+    desc: 'Olivella es el municipio del Garraf con el término más extenso y la población más repartida: el núcleo antiguo y urbanizaciones como Can Surià o Mas Milà. Tiene un club de taekwondo en su directorio municipal; para el resto, Sant Pere de Ribes, Vilanova i la Geltrú y Sitges quedan a 10-20 minutos en coche.',
+    nearbyTowns: ['Canyelles', 'Sant Pere de Ribes', 'Begues'],
+  },
 ];
 
 export function getLocationBySlug(slug: string): Location | undefined {
@@ -75,4 +85,5 @@ export const LOCATION_NAMES: Record<string, string> = {
   'sant-pere-de-ribes': 'Sant Pere de Ribes',
   'cubelles': 'Cubelles',
   'canyelles': 'Canyelles',
+  'olivella': 'Olivella',
 };
