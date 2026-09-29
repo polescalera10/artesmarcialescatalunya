@@ -44,7 +44,7 @@ const LOCATIONS = [...read('src/data/locations.ts').matchAll(
 )].map(m => ({ slug: m[1], name: m[2] }));
 
 if (DISCIPLINES.length !== 10) throw new Error(`Esperaba 10 disciplinas, extraje ${DISCIPLINES.length}`);
-if (LOCATIONS.length !== 5) throw new Error(`Esperaba 5 municipios, extraje ${LOCATIONS.length}`);
+if (LOCATIONS.length !== 6) throw new Error(`Esperaba 6 municipios, extraje ${LOCATIONS.length}`);
 
 // ── Piezas gráficas compartidas ─────────────────────────────────────────────
 
@@ -233,6 +233,7 @@ const PERFILES = [
   ['clases-para-mujeres', 'Artes marciales para mujeres', 'personas', 'Grupos, defensa personal femenina y cómo empezar'],
   ['clases-para-adultos', 'Empezar de adulto', 'personas', 'Sin condición previa, sin ridículo y sin competir'],
   ['iniciacion', 'No sé por dónde empezar', 'brujula', 'Elige disciplina según objetivo, edad y carácter'],
+  ['otras-artes-marciales', 'Aikido, kung fu y otras', 'brujula', 'Los estilos menos conocidos y dónde constan'],
   ['centros', 'Directorio de centros', 'mapa-pin', 'Centros del Garraf con fuente pública y fecha'],
   ['blog', 'Guías y comparativas', 'balanza', 'Artículos para decidir con criterio'],
   ['sobre-nosotros', 'Sobre esta guía', 'check-circulo', 'Quién la hace, cómo se verifica y cómo se financia'],

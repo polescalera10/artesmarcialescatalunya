@@ -176,6 +176,35 @@ export const MUNICIPIO_FAQS: Record<string, { q: string; a: string }[]> = {
 
 /** Cuerpo de las páginas de perfil por municipio y de karate infantil. */
 export const PERFIL_BODIES: Record<string, string> = {
+  // Nombra centros a propósito: es un índice de quién anuncia cada estilo
+  // minoritario. Sale de los campos `otras` de centros.ts; si cambian, revisar.
+  'otras-artes-marciales': `
+<h2>Por qué estos estilos no tienen guía propia</h2>
+<p>En nuestro <a href="/centros/">directorio de {{centros}} centros del Garraf</a>, cada uno de estos estilos consta en uno o dos sitios como mucho, y casi siempre como actividad secundaria de un centro que se dedica sobre todo a otra cosa. Eso no los hace menos serios. Significa que, si te interesa uno de ellos, la elección de centro está prácticamente hecha y lo que toca es preguntar bien: cuántos grupos hay, a qué hora y con qué nivel.</p>
+
+<h2>Aikido</h2>
+<p>Arte marcial japonés basado en proyecciones y luxaciones que aprovechan la fuerza y el movimiento de quien ataca. No hay competición en la mayoría de escuelas, se trabaja mucho la caída y el ritmo lo marca la técnica, no la intensidad física. Encaja con quien busca una práctica de años, sin golpes y sin torneos, y con adultos que empiezan tarde.</p>
+<p><strong>Dónde consta:</strong> la Escola de Judo Vilafranca-Vilanova, en <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a>, lo anuncia junto al judo en el directorio municipal de entidades. Hemos visto referencias a otro dojo de aikido en Vilanova cuya web ya no funciona; no lo listamos hasta poder verificarlo.</p>
+
+<h2>Wu shu (kung fu)</h2>
+<p>Wu shu es el nombre chino del conjunto de artes marciales que en España casi todo el mundo llama kung fu. Combina formas (secuencias técnicas), trabajo de golpeo y, según la escuela, armas tradicionales. Suele gustar a quien quiere técnica y estética además de condición física.</p>
+<p><strong>Dónde consta:</strong> también en la Escola de Judo Vilafranca-Vilanova, en Vilanova i la Geltrú. Pregunta qué línea sigue (tradicional o deportiva), porque cambia mucho el tipo de clase.</p>
+
+<h2>Wing chun, Jeet Kune Do y kali filipino</h2>
+<p>Tres estilos que suelen enseñarse juntos. El wing chun es un sistema chino de distancia corta, con golpes rectos y trabajo de sensibilidad de brazos. El Jeet Kune Do es la síntesis que desarrolló Bruce Lee a partir del wing chun, el boxeo y la esgrima, con la idea de quedarse con lo que funciona. El kali, o arnis, es el arte marcial filipino, conocido por el trabajo con palos y cuchillo de entrenamiento, que luego se traslada a mano vacía.</p>
+<p><strong>Dónde consta:</strong> Spartae, en <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a>, los anuncia en su web junto a taekwon-do ITF y <a href="/defensa-personal-en-sant-pere-de-ribes/">defensa personal</a>. Es la única oferta verificada de estos tres estilos en toda la comarca.</p>
+
+<h2>Kyokushin y K-1</h2>
+<p>El kyokushin es un karate de contacto pleno: se golpea de verdad al cuerpo y el combate es parte central del entrenamiento, muy distinto del <a href="/karate/">karate</a> de puntos que se ve en la mayoría de clubes. El K-1 es un reglamento de golpeo de pie, a medio camino entre el <a href="/kickboxing/">kickboxing</a> y el <a href="/muay-thai/">muay thai</a>, que permite rodillazos pero no codos.</p>
+<p><strong>Dónde consta:</strong> Senshi No Michi, en Vilanova i la Geltrú, anuncia kyokushin y K-1. El K-1 también consta en AAMS, en <a href="/sitges/">Sitges</a>. Si buscabas muay thai, que no consta en ningún centro del Garraf, el K-1 es lo más parecido que hay aquí.</p>
+
+<h2>Grappling</h2>
+<p>Lucha de agarre sin kimono: derribos, control y sumisiones, sin golpes. Es primo del <a href="/jiu-jitsu-brasileno/">jiu-jitsu brasileño</a> y comparte buena parte de su técnica.</p>
+<p><strong>Dónde consta:</strong> en tres centros, uno en Vilanova i la Geltrú (Zen Garraf) y dos en Sitges (AAMS y SitgesFit), siempre dentro de una oferta más amplia. Lo explicamos a fondo en <a href="/blog/que-es-el-grappling-y-donde-se-practica/">qué es el grappling y dónde se practica en el Garraf</a>.</p>
+
+<h2>Antes de ir a probar</h2>
+<p>Con los estilos minoritarios pasa algo concreto: como el centro los ofrece junto a otras disciplinas, a veces hay un solo grupo a la semana, o uno para todos los niveles. Pregunta tres cosas antes de desplazarte: cuántas clases semanales hay de ese estilo, si hay grupo de iniciación y quién lo imparte. Si no te encaja ninguno, la <a href="/iniciacion/">guía de iniciación</a> compara las diez disciplinas principales por objetivo.</p>
+`,
   'clases-para-ninos': `
 <h2>Las tres puertas de entrada, y dónde están en el Garraf</h2>
 <p>Karate, judo y taekwondo son las disciplinas con más metodología rodada para edades tempranas, y no están repartidas por igual en la comarca. Según nuestro <a href="/centros/">directorio de centros verificados</a>, <a href="/vilanova-i-la-geltru/">Vilanova i la Geltrú</a> es el único municipio donde constan las tres a la vez. En <a href="/sitges/">Sitges</a> consta karate pero no judo ni taekwondo. En <a href="/sant-pere-de-ribes/">Sant Pere de Ribes</a> y <a href="/cubelles/">Cubelles</a>, de esas tres, solo consta taekwondo, eso sí, en todos sus centros. En <a href="/canyelles/">Canyelles</a> no consta ningún centro.</p>
@@ -783,6 +812,12 @@ export const MONEY_FAQS: Record<string, { q: string; a: string }[]> = {
 
 /** FAQ propias de las páginas de perfil, además de las genéricas. */
 export const PERFIL_FAQS: Record<string, { q: string; a: string }[]> = {
+  'otras-artes-marciales': [
+    { q: '¿Dónde hay aikido en el Garraf?', a: 'En nuestro directorio lo anuncia la Escola de Judo Vilafranca-Vilanova, en Vilanova i la Geltrú, según el directorio municipal de entidades. No nos consta aikido con fuente verificable en el resto de la comarca.' },
+    { q: '¿Hay kung fu en el Garraf?', a: 'Sí, como wu shu, que es su nombre chino: lo anuncia la Escola de Judo Vilafranca-Vilanova, en Vilanova i la Geltrú. Wing chun, un estilo concreto de kung fu, consta en Spartae, en Sant Pere de Ribes.' },
+    { q: '¿Dónde se puede entrenar Jeet Kune Do o kali cerca de Sitges?', a: 'En Spartae, en Sant Pere de Ribes, a unos 10 minutos de Sitges. Es el único centro del Garraf que anuncia estos estilos.' },
+    { q: 'No hay muay thai en el Garraf: ¿qué es lo más parecido?', a: 'El K-1, que consta en Senshi No Michi (Vilanova i la Geltrú) y en AAMS (Sitges). Permite rodillazos como el muay thai, pero no codos. El kickboxing, con siete centros en la comarca, es la alternativa más disponible.' },
+  ],
   'clases-infantiles-en-sitges': [
     { q: '¿Hay judo para niños en Sitges?', a: 'A fecha de la última verificación de nuestro directorio, no nos consta ningún centro de judo en Sitges con fuente pública comprobable. Para judo infantil, la referencia de la comarca es Vilanova i la Geltrú, a 10-15 minutos en coche.' },
     { q: '¿Qué disciplinas infantiles sí constan en Sitges?', a: 'Entre los centros verificados del municipio hay karate, kickboxing, jiu jitsu brasileño, MMA, boxeo y defensa personal, y dos de los tres centros anuncian explícitamente grupos infantiles. Confirma siempre las franjas de edad directamente con el centro.' },
