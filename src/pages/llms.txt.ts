@@ -22,7 +22,7 @@ function directorio(): string {
     }
     const filas = centros.map(c => {
       const disc = c.disciplinas.map(nombre).join(', ');
-      const otras = c.otras?.length ? `; also: ${c.otras.join(', ')}` : '';
+      const otras = c.otras?.length ? `${disc ? '; also: ' : ''}${c.otras.join(', ')}` : '';
       const dir = c.direccion ? ` Address: ${c.direccion}.` : '';
       return `- ${c.nombre}: ${disc}${otras}.${dir} Source: ${FUENTE_LABELS[c.fuenteTipo]} (${c.fuente}), verified ${c.verificado}.`;
     });

@@ -1,6 +1,7 @@
 import { DISCIPLINES, getDisciplineBySlug } from './disciplines';
 import { LOCATIONS, getLocationBySlug } from './locations';
-import { CENTROS, getCentros, getCentrosByDisciplina, getCentrosByMunicipio } from './centros';
+import { getCentros, getCentrosByDisciplina, getCentrosByMunicipio } from './centros';
+import { conDatos } from './recuentos';
 import { SITE } from './site';
 import { BLOG_BODIES } from './blog-posts';
 import {
@@ -688,7 +689,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'Ningún centro del Garraf anuncia fitboxing. Qué hay en su lugar, en qué se parece a lo que buscas y cómo preguntar para no equivocarte de clase.',
     },
     h1: 'Fitboxing en el Garraf: Qué Vas a Encontrar de Verdad',
-    intro: 'Golpeo sin oponente, música y ritmo marcado: eso promete la palabra. Lo que consta en la comarca es otra cosa, seis centros con boxeo y siete con kickboxing, y ni una sola clase anunciada con ese nombre. La distancia entre ambas cosas es más corta de lo que parece.',
+    intro: 'Golpeo sin oponente, música y ritmo marcado: eso promete la palabra. Lo que consta en la comarca es otra cosa, {{d:boxeo}} centros con boxeo y {{d:kickboxing}} con kickboxing, y ni una sola clase anunciada con ese nombre. La distancia entre ambas cosas es más corta de lo que parece.',
     body: BLOG_BODIES['blog/fitboxing-o-boxeo-en-el-garraf'],
     fecha: '2026-09-25',
     phase: 2,
@@ -714,7 +715,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'Qué esperar de verdad, por qué las calorías son el dato menos útil y qué disciplinas constan en cada municipio del Garraf para sostener el hábito.',
     },
     h1: 'Artes Marciales para Perder Peso: Qué Esperar de Verdad',
-    intro: 'La tabla de calorías por hora es el dato menos útil de esta decisión. Lo que de verdad la ordena es cuánto te cuesta llegar a la sala un martes de enero, y eso en esta comarca depende de dónde vivas: las disciplinas de más cardio continuo solo constan en dos de los seis municipios.',
+    intro: 'La tabla de calorías por hora es el dato menos útil de esta decisión. Lo que de verdad la ordena es cuánto te cuesta llegar a la sala un martes de enero, y eso en esta comarca depende de dónde vivas: las disciplinas de más cardio continuo se concentran en dos de los seis municipios.',
     body: BLOG_BODIES['blog/artes-marciales-para-perder-peso'],
     fecha: '2026-09-21',
     phase: 2,
@@ -792,7 +793,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'Dos días es lo habitual, pero en el Garraf la cuenta que importa es la de trayectos. Cuándo subir a tres, cuándo bajar y qué preguntar al club.',
     },
     h1: 'Cuántos Días a la Semana Debería Entrenar un Niño en el Garraf',
-    intro: 'Dos días a la semana es la respuesta, y sirve para casi cualquier niño que empieza. Lo que casi nadie calcula es la otra cifra: en una comarca donde siete de los {{centros}} centros verificados están en Vilanova, dos sesiones pueden significar cuatro trayectos en coche.',
+    intro: 'Dos días a la semana es la respuesta, y sirve para casi cualquier niño que empieza. Lo que casi nadie calcula es la otra cifra: en una comarca donde {{m:vilanova-i-la-geltru}} de los {{centros}} centros verificados están en Vilanova, dos sesiones pueden significar cuatro trayectos en coche.',
     body: BLOG_BODIES['blog/cuantos-dias-semana-entrena-un-nino'],
     fecha: '2026-09-09',
     phase: 2,
@@ -1133,26 +1134,7 @@ const BLOG_PAGES: PageDef[] = [
  *  2. Garantiza que ningún título ni descripción supere el límite que Google
  *     recorta en la SERP, pase lo que pase en las plantillas de arriba.
  */
-// ── Recuentos del directorio en la prosa ─────────────────────────────────────
-// El 29-09-2026 el directorio pasó de 13 a 16 centros y luego a 17, y hubo que
-// corregir a mano más de cien frases que llevaban el total escrito. Ahora el
-// texto lleva un marcador y el número se calcula al compilar:
-//   {{centros}}      → "diecisiete"
-//   {{centros_num}}  → "17"
-// Los recuentos por municipio o por disciplina siguen escritos: cambian menos
-// y la frase que los rodea casi siempre hay que revisarla igualmente.
-const NUMEROS = [
-  'cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve',
-  'diez', 'once', 'doce', 'trece', 'catorce', 'quince', 'dieciséis', 'diecisiete',
-  'dieciocho', 'diecinueve', 'veinte', 'veintiuno', 'veintidós', 'veintitrés',
-  'veinticuatro', 'veinticinco', 'veintiséis', 'veintisiete', 'veintiocho',
-  'veintinueve', 'treinta',
-];
-function conDatos(texto: string): string {
-  return texto
-    .replaceAll('{{centros}}', NUMEROS[CENTROS.length] ?? String(CENTROS.length))
-    .replaceAll('{{centros_num}}', String(CENTROS.length));
-}
+// Recuentos del directorio en la prosa: ver src/data/recuentos.ts.
 
 function finalize(p: PageDef): PageDef {
   const body = p.body ?? PERFIL_BODIES[p.slug] ?? MONEY_BODIES[p.slug];

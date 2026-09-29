@@ -7,6 +7,7 @@ import { LOCATIONS } from '../../data/locations';
 import { getCentrosByMunicipio } from '../../data/centros';
 import { MUNICIPIS_CA, DISCIPLINES_CA, rutaCa } from '../../data/ca';
 import { SITE, SCHEMA_IDS } from '../../data/site';
+import { conDatos } from '../../data/recuentos';
 
 export function getStaticPaths() {
   return LOCATIONS.filter(l => MUNICIPIS_CA[l.slug]).map(l => ({
@@ -17,7 +18,7 @@ export function getStaticPaths() {
 
 const { municipio } = Astro.props;
 const loc = LOCATIONS.find(l => l.slug === municipio)!;
-const text = MUNICIPIS_CA[municipio];
+const text = { intro: conDatos(MUNICIPIS_CA[municipio].intro, 'ca'), cos: conDatos(MUNICIPIS_CA[municipio].cos, 'ca') };
 const centres = getCentrosByMunicipio(municipio).sort((a, b) => a.nombre.localeCompare(b.nombre, 'ca'));
 const n = centres.length;
 
