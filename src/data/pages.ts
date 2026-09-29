@@ -102,6 +102,32 @@ function contarCentros(n: number): string {
   return n === 1 ? '1 centro' : `${n} centros`;
 }
 
+/**
+ * Disciplinas que constan en un municipio, de más a menos centros, en texto:
+ * "taekwondo, boxeo, MMA y krav maga". Va en la descripción de los hubs porque
+ * es lo que se busca ("jiu jitsu cubelles", "taekwondo sant pere de ribes") y
+ * Google resalta en negrita la coincidencia. Sale del directorio, así que no
+ * se queda desfasada cuando entra un centro.
+ */
+function disciplinasDe(municipio: string, max: number): string {
+  const cuenta = new Map<string, number>();
+  for (const c of getCentrosByMunicipio(municipio)) {
+    for (const d of c.disciplinas) cuenta.set(d, (cuenta.get(d) ?? 0) + 1);
+  }
+  const nombres = [...cuenta.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .map(([slug]) =>
+      slug === 'mma' ? 'MMA'
+      : slug === 'jiu-jitsu-brasileno' ? 'jiu-jitsu brasileño'
+      : (getDisciplineBySlug(slug)?.nameEs ?? slug).toLowerCase());
+  const lista = nombres.slice(0, max);
+  const resto = nombres.length > max;
+  if (lista.length <= 1) return lista.join('');
+  return resto
+    ? `${lista.join(', ')} y más`
+    : `${lista.slice(0, -1).join(', ')} y ${lista[lista.length - 1]}`;
+}
+
 // ── Generates all money page slugs: [disciplina]-en-[municipio] ────────────
 const MONEY_COMBOS: { disciplina: string; municipio: string; phase: 1|2|3|4 }[] = [
   // Sitges - P1
@@ -542,7 +568,9 @@ const HUB_MUNICIPIO_PAGES: PageDef[] = LOCATIONS.map(loc => ({
           'Garraf',
         ]),
     description: getCentrosByMunicipio(loc.slug).length > 0
-      ? `${contarCentros(getCentrosByMunicipio(loc.slug).length)} de artes marciales en ${loc.name} verificados con fuente pública: qué disciplinas imparte cada uno y cómo elegir.`
+      ? [4, 3, 2]
+          .map(n => `${contarCentros(getCentrosByMunicipio(loc.slug).length)} de artes marciales en ${loc.name} con fuente pública: ${disciplinasDe(loc.slug, n)}. Qué ofrece cada uno y qué tienes cerca.`)
+          .find(d => d.length <= MAX_DESC)!
       : `Ningún centro de artes marciales de ${loc.name} consta con fuente pública verificable. Te decimos dónde entrenar cerca y qué disciplinas hay en cada municipio.`,
   },
   h1: `Clases de Artes Marciales en ${loc.name}`,
