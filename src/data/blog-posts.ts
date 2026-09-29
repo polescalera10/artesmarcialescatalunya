@@ -1906,7 +1906,7 @@ export const BLOG_POR_TEMA: Record<string, string[]> = {
   'jiu-jitsu-brasileno': ['blog/que-es-el-grappling-y-donde-se-practica', 'blog/judo-o-jiu-jitsu-brasileno'],
   'mma': ['blog/que-es-el-grappling-y-donde-se-practica', 'blog/golpeo-o-agarre-por-donde-empezar'],
   // Perfiles y páginas de entrada
-  'clases-para-ninos': ['blog/mejor-arte-marcial-para-ninos-garraf', 'blog/mi-hijo-quiere-dejar-las-clases'],
+  'clases-para-ninos': ['blog/mejor-arte-marcial-para-ninos-garraf', 'blog/beneficios-artes-marciales-ninos'],
   'clases-para-mujeres': ['blog/empezar-artes-marciales-siendo-mujer', 'blog/clases-mixtas-o-solo-mujeres'],
   'clases-para-adultos': ['blog/empezar-artes-marciales-a-los-40', 'blog/artes-marciales-con-sobrepeso'],
   'iniciacion': ['blog/clase-de-prueba-que-preguntar', 'blog/entrenar-sin-querer-competir'],

@@ -204,11 +204,35 @@ const centrosDeMunicipio =
 const centrosDeDisciplina =
   page.type === 'hub-disciplina' && discipline ? getCentrosByDisciplina(discipline.slug).sort(ordenar) : [];
 
-// Otros artículos del blog, para interenlazarlos entre sí
-const otrosArticulos =
-  page.type === 'blog'
-    ? ALL_PAGES.filter(p => p.type === 'blog' && p.slug !== page.slug)
-    : [];
+// Otros artículos del blog, para interenlazarlos entre sí.
+//
+// Antes se listaban TODOS los demás artículos: con 35 posts, cada uno llevaba
+// 35 enlaces idénticos al pie, y la auditoría del 29-09-2026 encontró los
+// artículos con 35-48 enlaces internos entrantes frente a los 7-23 de las
+// money pages, que son las que convierten. Ahora van los cuatro más afines:
+// los que enlazan a más páginas en común desde el cuerpo (mismos hubs, mismas
+// money pages), y a igualdad, los más recientes. El índice /blog/ sigue
+// listándolos todos, así que ninguno se queda huérfano.
+const MAX_OTROS_ARTICULOS = 4;
+const enlacesDelCuerpo = (p: PageDef): Set<string> =>
+  new Set([...(p.body ?? '').matchAll(/href="\/([^"#?]+?)\/?"/g)].map(m => m[1]));
+const otrosArticulos = (() => {
+  if (page.type !== 'blog') return [];
+  const propios = enlacesDelCuerpo(page);
+  return ALL_PAGES
+    .filter(p => p.type === 'blog' && p.slug !== page.slug)
+    .map(p => {
+      const suyos = enlacesDelCuerpo(p);
+      let comunes = 0;
+      for (const e of suyos) if (propios.has(e)) comunes++;
+      // Un enlace directo entre los dos artículos pesa más que un destino común.
+      if (propios.has(p.slug) || suyos.has(page.slug)) comunes += 3;
+      return { p, comunes };
+    })
+    .sort((a, b) => b.comunes - a.comunes || (b.p.fecha ?? '').localeCompare(a.p.fecha ?? ''))
+    .slice(0, MAX_OTROS_ARTICULOS)
+    .map(x => x.p);
+})();
 
 // Artículos del blog que amplían el tema de esta página (disciplina o perfil).
 // Enlazarlos desde aquí es lo que saca al blog de sus 5-8 enlaces entrantes.
@@ -832,7 +856,7 @@ const variantesDePerfil =
   {otrosArticulos.length > 0 && (
     <section class="py-10 px-4 bg-brand-gray/30">
       <div class="max-w-3xl mx-auto">
-        <h2 class="text-lg font-bold text-white mb-6">Más guías del blog</h2>
+        <h2 class="text-lg font-bold text-white mb-6">Sigue leyendo sobre este tema</h2>
         <ul class="space-y-3">
           {otrosArticulos.map(p => (
             <li>
