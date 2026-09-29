@@ -312,6 +312,7 @@ const variantesDePerfil =
   schema={pageSchemas}
 >
   <Header />
+  <main id="contenido">
 
   <!-- Breadcrumbs -->
   <nav aria-label="Migas de pan" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-0">
@@ -873,6 +874,7 @@ const variantesDePerfil =
 
   <FAQ items={faqItems} title={`Preguntas frecuentes sobre ${discipline?.nameEs ?? 'artes marciales'} en ${location?.name ?? 'el Garraf'}`} />
   <ContactCTA disciplina={discipline?.nameEs} municipio={location?.name} />
+  </main>
   <Footer />
 </Layout>
 
