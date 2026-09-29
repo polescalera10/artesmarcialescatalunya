@@ -29,7 +29,7 @@ Estas reglas están por encima de cualquier objetivo de tráfico. Si cumplirlas 
    Un artículo cumple el ancla local si reúne las cuatro cosas:
 
    - el Garraf o uno de sus municipios aparece en el título o, como mínimo, en las primeras 100 palabras **y** en el H2 principal;
-   - usa al menos un dato propio del directorio: cuántos centros constan, qué disciplina hay en qué municipio, o qué **no** existe en la comarca (que el muay thai no tenga ni un centro verificado es un dato tan bueno como cualquier otro). **Los recuentos se sacan siempre de `src/data/centros.ts` el día que se escribe, nunca de artículos anteriores ni del campo `ancla_local` de la cola**: el directorio cambia. El 29-09-2026 pasó de 13 a 16 centros y el krav maga dejó de ser un hueco (consta en un centro de Cubelles), y hubo que corregir unas cien frases publicadas;
+   - usa al menos un dato propio del directorio: cuántos centros constan, qué disciplina hay en qué municipio, o qué **no** existe en la comarca (que el muay thai no tenga ni un centro verificado es un dato tan bueno como cualquier otro). **Los recuentos se sacan siempre de `src/data/centros.ts` el día que se escribe, nunca de artículos anteriores ni del campo `ancla_local` de la cola**: el directorio cambia. El 29-09-2026 pasó de 13 a 17 centros y el krav maga dejó de ser un hueco (consta en un centro de Cubelles), y hubo que corregir unas cien frases publicadas. **Para el total de centros escribe `{{centros}}` (en letra) o `{{centros_num}}` (en cifra)**: se sustituye al compilar y no se desfasa;
    - enlaza como mínimo a una money page o a un hub de municipio, no solo a otros artículos del blog;
    - el campo `ancla_local` de su entrada en la cola dice cuál es ese ángulo. Si la entrada no lo trae, es que no se revisó: aplica el criterio y anótalo.
 
@@ -215,6 +215,7 @@ Después, ejecutar `npm run images`. Regenera todo y actualiza `src/data/imagene
 6. Marcar en `content/cola-blog.json` cada entrada publicada: `"estado": "publicado"` y `"publicado_en": "YYYY-MM-DD"`. Añadir su slug al array `publicados`.
 7. Actualizar `SITE.ultimaRevision` en `src/data/site.ts` a la fecha de hoy.
 8. Un solo commit con los 2 artículos y `git push origin main`. Vercel despliega solo.
+9. Cuando el despliegue esté en producción (la URL nueva responde 200), `npm run indexnow -- /blog/<slug-1>/ /blog/<slug-2>/` para avisar a Bing. Si falla, dilo en el resumen; no bloquea la tanda.
 
 **Mensaje de commit:**
 

@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "images": "node scripts/gen-images.mjs"
+    "images": "node scripts/gen-images.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.2.0",
