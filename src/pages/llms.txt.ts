@@ -67,7 +67,7 @@ ${coberturaPorDisciplina()}
 Comarca del Garraf, province of Barcelona: ${LOCATIONS.map(l => l.name).join(', ')}. Vilanova i la Geltrú is the comarca capital and has the largest offer.
 
 ## Main pages
-- Directory of centres: ${url('centros')}
+- Directory of centres: ${url('centros')} (Catalan version: ${SITE.url}/ca/)
 - Where to start (comparison of all disciplines): ${url('iniciacion')}
 - Children: ${url('clases-para-ninos')}
 - Women: ${url('clases-para-mujeres')}

@@ -1,4 +1,5 @@
 import { ALL_PAGES } from '../data/pages';
+import { MUNICIPIS_CA_ORDRE, rutaCa } from '../data/ca';
 import { SITE as SITE_DATA } from '../data/site';
 
 const SITE = SITE_DATA.url;
@@ -56,9 +57,15 @@ export async function GET() {
     ),
   );
 
+  // Piloto en catalán: el directorio y una guía por municipio.
+  const catalanUrls = [
+    url(`${SITE}/ca/`, REVISION, 'weekly', '0.8'),
+    ...MUNICIPIS_CA_ORDRE.map(m => url(`${SITE}${rutaCa(m)}`, REVISION, 'monthly', '0.75')),
+  ];
+
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${[...staticUrls, ...dynamicUrls].join('\n')}
+${[...staticUrls, ...dynamicUrls, ...catalanUrls].join('\n')}
 </urlset>`;
 
   return new Response(xml, {

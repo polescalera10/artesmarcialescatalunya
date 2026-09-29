@@ -1,0 +1,18 @@
+---
+import { SITE } from '../data/site';
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-brand-gray border-t border-brand-border mt-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <p class="text-xs text-brand-muted">
+      © {year} {SITE.name}. Guia independent. No som un gimnàs ni una acadèmia.
+    </p>
+    <div class="flex gap-4">
+      <a href="/aviso-legal/" lang="es" class="text-xs text-brand-muted hover:text-white transition-colors">Avís legal</a>
+      <a href="/politica-privacidad/" lang="es" class="text-xs text-brand-muted hover:text-white transition-colors">Privadesa</a>
+      <a href="/contacto/" lang="es" class="text-xs text-brand-muted hover:text-white transition-colors">Contacte</a>
+      <a href="/" lang="es" class="text-xs text-brand-muted hover:text-white transition-colors">Guia en castellà</a>
+    </div>
+  </div>
+</footer>

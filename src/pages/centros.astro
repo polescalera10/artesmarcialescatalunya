@@ -76,7 +76,8 @@ const breadcrumbSchema = {
 
 <Layout title={title} description={description} canonical="/centros/" ogImage={`${SITE.url}/og/centros.png`}
   ogImageAlt="Ilustración de la guía: símbolo de mapa sobre una trama, directorio de centros del Garraf"
-  schema={[listSchema, breadcrumbSchema]}>
+  schema={[listSchema, breadcrumbSchema]}
+  alternates={{ es: '/centros/', ca: '/ca/' }}>
   <Header />
   <main id="contenido">
 
@@ -86,6 +87,7 @@ const breadcrumbSchema = {
       <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-5">
         Centros de Artes Marciales en el Garraf
       </h1>
+      <p class="text-sm mb-4"><a href="/ca/" lang="ca" hreflang="ca" class="text-brand-red hover:text-red-400 underline">Directori en català</a></p>
       <p class="text-brand-muted leading-relaxed text-lg max-w-3xl">
         Directorio de centros, clubs y academias de artes marciales de la comarca con presencia pública
         verificable. Sin valoraciones, sin rankings y sin publicidad: solo el nombre, las disciplinas que

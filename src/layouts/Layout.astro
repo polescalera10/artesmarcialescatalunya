@@ -29,6 +29,14 @@ interface Props {
   ogImageAlt?: string;
   schema?: object | object[];
   noindex?: boolean;
+  /** Idioma de la página. El sitio es en castellano; el catalán es un piloto en /ca/. */
+  lang?: 'es' | 'ca';
+  /**
+   * Rutas equivalentes en cada idioma, si existen. Con esto se emiten los
+   * hreflang recíprocos (los dos lados tienen que declararse, o Google los
+   * ignora) y x-default apuntando al castellano.
+   */
+  alternates?: { es: string; ca: string };
 }
 
 const {
@@ -39,6 +47,8 @@ const {
   ogImageAlt = SITE.tagline,
   schema,
   noindex = false,
+  lang = 'es',
+  alternates,
 } = Astro.props;
 
 const canonicalUrl = `${SITE.url}${canonical.endsWith('/') ? canonical : canonical + '/'}`;
@@ -52,7 +62,7 @@ const plausibleDomain = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
 ---
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang={lang}>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -62,6 +72,13 @@ const plausibleDomain = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalUrl} />
   {noindex && <meta name="robots" content="noindex, nofollow" />}
+  {alternates && (
+    <>
+      <link rel="alternate" hreflang="es" href={`${SITE.url}${alternates.es}`} />
+      <link rel="alternate" hreflang="ca" href={`${SITE.url}${alternates.ca}`} />
+      <link rel="alternate" hreflang="x-default" href={`${SITE.url}${alternates.es}`} />
+    </>
+  )}
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -75,7 +92,7 @@ const plausibleDomain = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content={ogImageAlt} />
-  <meta property="og:locale" content="es_ES" />
+  <meta property="og:locale" content={lang === 'ca' ? 'ca_ES' : 'es_ES'} />
   <meta property="og:site_name" content={SITE.name} />
 
   <!-- Twitter Card -->

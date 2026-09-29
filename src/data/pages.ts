@@ -615,7 +615,7 @@ const HUB_PERFIL_PAGES: PageDef[] = [
       title: 'Aikido, Kung Fu y Wing Chun en el Garraf | Dónde Constan',
       description: 'Aikido, wu shu (kung fu), wing chun, Jeet Kune Do, kali, kyokushin y grappling en el Garraf: qué centro verificado anuncia cada una y dónde está.',
     },
-    h1: 'Otras Artes Marciales en el Garraf: Aikido, Kung Fu, Wing Chun y Más',
+    h1: 'Aikido, Kung Fu y Otros Estilos en el Garraf',
     intro: 'Las diez disciplinas de esta guía son las que más se buscan, pero no son las únicas que se enseñan en la comarca. Varios centros del directorio anuncian estilos menos conocidos junto a su oferta principal: aikido y wu shu en Vilanova, wing chun, Jeet Kune Do y kali en Sant Pere de Ribes, kyokushin y K-1 en Vilanova y Sitges. Aquí tienes qué es cada uno, para quién encaja y dónde consta.',
     phase: 3,
   },

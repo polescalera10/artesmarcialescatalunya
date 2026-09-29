@@ -1,0 +1,46 @@
+---
+// Capçalera del pilot en català. Més curta que la castellana a propòsit: el
+// pilot són set pàgines i no té sentit traduir menús que porten a guies que
+// només existeixen en castellà. Sempre ofereix tornar a la versió castellana
+// equivalent.
+import { LOCATIONS } from '../data/locations';
+import { rutaCa } from '../data/ca';
+
+interface Props { castella: string }
+const { castella } = Astro.props;
+const actual = Astro.url.pathname;
+---
+
+<a
+  href="#contingut"
+  class="sr-only focus:not-sr-only focus:absolute focus:z-[60] focus:top-2 focus:left-2 focus:bg-brand-red focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:text-sm focus:font-semibold"
+>
+  Salta al contingut
+</a>
+<header class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur border-b border-brand-border">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 gap-4">
+      <a href="/ca/" class="flex items-center gap-2 shrink-0" aria-label="Arts Marcials Garraf, directori en català">
+        <span class="text-brand-red font-black text-xl tracking-tight">AM</span>
+        <span class="font-bold text-white text-sm leading-tight hidden sm:block">
+          Arts Marcials Garraf<br />
+          <span class="text-brand-muted font-normal">El directori de la comarca</span>
+        </span>
+      </a>
+      <nav class="flex items-center gap-1 text-sm" aria-label="Navegació">
+        <a href="/ca/" class:list={['px-3 py-2 rounded-md transition-colors', actual === '/ca/' ? 'text-white bg-brand-gray' : 'text-brand-muted hover:text-white']}>Directori</a>
+        <a href={castella} lang="es" hreflang="es" class="px-3 py-2 rounded-md text-brand-muted hover:text-white transition-colors">Castellano</a>
+      </nav>
+    </div>
+    <nav class="flex flex-wrap gap-2 pb-3 -mt-1" aria-label="Municipis">
+      {LOCATIONS.map(l => (
+        <a
+          href={rutaCa(l.slug)}
+          class:list={['text-xs rounded-full px-3 py-1 border transition-colors', actual === rutaCa(l.slug) ? 'border-brand-red text-white' : 'border-brand-border text-brand-muted hover:text-white']}
+        >
+          {l.name}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>
