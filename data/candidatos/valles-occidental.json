@@ -1,0 +1,62 @@
+[
+ {
+  "nombre": "Jiujitsu Sabadell (Artes Marciales Sabadell)",
+  "municipio": "sabadell",
+  "pista": "https://www.jiujitsusabadell.com/ (BJJ, karate kyokushin, grappling, kickboxing, MMA; Ctra. de Terrassa, 265)",
+  "motivo": "Misma dirección que Club KSK (ya en el directorio, fuente federación). La web no nombra a KSK: probable duplicado, no se añade hasta confirmar si es el mismo centro"
+ },
+ {
+  "nombre": "Brazilian Jiu Jitsu Terrassa (Science of Jiu Jitsu)",
+  "municipio": "terrassa",
+  "pista": "https://brazilianjiujitsuterrassa.blogspot.com/ e Instagram @bjjterrassa",
+  "motivo": "Blog sin actividad desde 2022; equipo que imparte clases en gimnasios de terceros (Terrassa Sport Dance, Shadow Fighters, Kimura Gym), no un centro propio verificable"
+ },
+ {
+  "nombre": "Kimura Gym",
+  "municipio": "terrassa",
+  "pista": "Mencionado como sede de clases de BJJ (Carrer de Girona, 310) en resultados de búsqueda sobre BJJ Terrassa",
+  "motivo": "No se ha encontrado web oficial ni fuente válida"
+ },
+ {
+  "nombre": "Shadow Fighters",
+  "municipio": "terrassa",
+  "pista": "https://shadowfighters.es/",
+  "motivo": "La web solo carga por JavaScript y no se ha podido leer su contenido; posible relación con el centro existente Esportiu Shadow"
+ },
+ {
+  "nombre": "Krav Maga Sabadell Training Center",
+  "municipio": "sabadell",
+  "pista": "Facebook kravmagasabadell y Cylex (Calle Raimon Casellas 33)",
+  "motivo": "Solo perfil de Facebook, no leído; sin web oficial"
+ },
+ {
+  "nombre": "Bjj Rubi Academy",
+  "municipio": "rubi",
+  "pista": "Facebook (victorbrullromerobjj)",
+  "motivo": "Solo perfil de Facebook, no leído; sin web oficial"
+ },
+ {
+  "nombre": "In Extremis Club (Fight Club)",
+  "municipio": "barbera-del-valles",
+  "pista": "https://inextremisclub.com/ (anuncia kickboxing y MMA)",
+  "motivo": "La web no muestra la dirección ni confirma el municipio (Barberà del Vallès según Facebook, Sabadell según una URL interna)"
+ },
+ {
+  "nombre": "Valhalla Training Camp",
+  "municipio": "sant-cugat-del-valles",
+  "pista": "https://valhallatrainingcamp.com/ (Carrer de Vic, 15)",
+  "motivo": "La portada solo habla de CrossFit, fitboxing y 'artes marciales' sin nombrar disciplina de la taxonomía; comparte dirección con Esportiu Arts Marcials Sant Cugat (ya en el directorio)"
+ },
+ {
+  "nombre": "Boxing Club Sabadell",
+  "municipio": "sabadell",
+  "pista": "Facebook BoxingClubSabadell (Camí Can Quadres, 190)",
+  "motivo": "Solo perfil de Facebook, no leído; sin web oficial"
+ },
+ {
+  "nombre": "Club Boxeo Ortiz Sabadell",
+  "municipio": "sabadell",
+  "pista": "Instagram @ortizclubboxeosabadell",
+  "motivo": "Solo Instagram; sin web oficial ni dirección verificable"
+ }
+]

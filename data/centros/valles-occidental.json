@@ -20,10 +20,12 @@
   "disciplinas": [
    "taekwondo"
   ],
+  "infantil": true,
   "direccion": "Via Alexandra, 43 8º 2ª, 08206 Sabadell",
+  "web": "https://astkdsabadell.wixsite.com/taekwondosabadell",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "alexandra",
@@ -37,6 +39,25 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "aranha-sant-cugat",
+  "nombre": "Aranha Sant Cugat",
+  "tipo": "escuela",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "jiu-jitsu-brasileno",
+   "mma",
+   "boxeo",
+   "lucha",
+   "grappling"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Cristòfor Colom, 22, 08172 Sant Cugat del Vallès",
+  "web": "https://www.aranhasantcugat.com/",
+  "fuente": "https://www.aranhasantcugat.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "associacio-club-esportiu-taekwondo-terrassa",
@@ -71,9 +92,10 @@
   "disciplinas": [
    "karate"
   ],
+  "web": "https://aecd.cat/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "associacio-esportiva-budokan-go-dai",
@@ -147,11 +169,40 @@
   "tipo": "escuela",
   "municipio": "cerdanyola-del-valles",
   "disciplinas": [
-   "karate"
+   "karate",
+   "kickboxing",
+   "boxeo",
+   "jiu-jitsu-japones",
+   "defensa-personal"
   ],
+  "otras": [
+   "Karate kyokushin",
+   "Nihon Tai-Jitsu",
+   "Defensa personal femenina"
+  ],
+  "direccion": "Carrer Escoles, 23, 08290 Cerdanyola del Vallès",
+  "web": "https://gimnasiomultisport.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "campio-club-xperience",
+  "nombre": "Campio Club Xperience",
+  "tipo": "gimnasio",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "otras": [
+   "Metraboxfit"
+  ],
+  "infantil": true,
+  "web": "https://campioclub.es/",
+  "fuente": "https://campioclub.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "cfc-team-sergio-calderon",
@@ -160,12 +211,17 @@
   "municipio": "cerdanyola-del-valles",
   "disciplinas": [
    "grappling",
-   "mma"
+   "mma",
+   "jiu-jitsu-brasileno",
+   "kickboxing",
+   "muay-thai"
   ],
+  "infantil": true,
   "direccion": "Ronda de Cerdanyola 13",
+  "web": "https://www.cerdanyolafightclub.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CFC",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-actitud-boxing-crew",
@@ -199,9 +255,12 @@
   "disciplinas": [
    "boxeo"
   ],
+  "infantil": true,
+  "direccion": "Avinguda Europa, 37 (Cerdanyola del Vallès)",
+  "web": "https://cluboxacerdanyola.com/",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-la-cubierta",
@@ -236,9 +295,11 @@
   "disciplinas": [
    "boxeo"
   ],
+  "direccion": "Carrer del Ciclisme 41, Nave 7, 08191 Rubí",
+  "web": "https://boxeorubi.wixsite.com/boxeorubi",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-team-castillo",
@@ -272,9 +333,12 @@
   "disciplinas": [
    "boxeo"
   ],
+  "infantil": true,
+  "direccion": "Carrer de la Verge de Fàtima, 10, Rubí",
+  "web": "https://boxeovega.com/",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-terrassa",
@@ -296,9 +360,11 @@
   "disciplinas": [
    "boxeo"
   ],
+  "direccion": "C/ Industria 35 (entrada por calle Milá 6), 08291 Ripollet",
+  "web": "https://zonadecombate.es/",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-bunkay",
@@ -414,11 +480,20 @@
   "tipo": "club",
   "municipio": "sabadell",
   "disciplinas": [
-   "karate"
+   "karate",
+   "kickboxing",
+   "boxeo",
+   "mma",
+   "defensa-personal"
   ],
+  "otras": [
+   "Kenpo karate"
+  ],
+  "infantil": true,
+  "web": "https://www.tatamisabadell.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-eixample-sabadell",
@@ -440,12 +515,18 @@
   "municipio": "sabadell",
   "disciplinas": [
    "mma",
-   "grappling"
+   "grappling",
+   "karate",
+   "jiu-jitsu-brasileno"
+  ],
+  "otras": [
+   "Karate kyokushinkai"
   ],
   "direccion": "Carrer Gorina i Pujol 113",
+  "web": "https://www.empaladorfighteam.es/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=EFT",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-kyokushin-castellar",
@@ -455,9 +536,15 @@
   "disciplinas": [
    "karate"
   ],
+  "otras": [
+   "Karate kyokushin"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Portugal, 2, 08211 Castellar del Vallès",
+  "web": "https://ckc1.webnode.es/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-last-round-polinya",
@@ -480,9 +567,14 @@
   "disciplinas": [
    "karate"
   ],
+  "otras": [
+   "Karate kyokushinkai"
+  ],
+  "direccion": "C/ Consell de Cent, nº 29, local, 08210 Barberà del Vallès",
+  "web": "https://www.esportiushikan.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-shi-kan-montcada",
@@ -542,11 +634,18 @@
   "tipo": "club",
   "municipio": "sant-cugat-del-valles",
   "disciplinas": [
-   "karate"
+   "karate",
+   "aikido",
+   "defensa-personal"
   ],
+  "otras": [
+   "Karate Goju Ryu"
+  ],
+  "infantil": true,
+  "web": "https://www.karate.cat/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-ksk",
@@ -642,9 +741,10 @@
    "hapkido"
   ],
   "direccion": "Reus, 48-52, 08227 Terrassa",
+  "web": "https://gimnascosolimpic.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "dalma-kim-rubi",
@@ -668,9 +768,10 @@
    "hapkido"
   ],
   "direccion": "Colon, 104, 08222 Terrassa",
+  "web": "https://www.dancestreet-fesgym.com/",
   "fuente": "https://taekwondocatala.com/_hapkido/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "doil-lee",
@@ -710,6 +811,24 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "dojo-sabadell",
+  "nombre": "Dojo Sabadell",
+  "tipo": "club",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "karate"
+  ],
+  "otras": [
+   "Karate kyokushin (World Kyokushin Budokai)"
+  ],
+  "infantil": true,
+  "direccion": "Ctra. Molins de Rei 172-174, 08205 Sabadell",
+  "web": "https://dojosabadell.com/",
+  "fuente": "https://dojosabadell.com/ca/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "dojo-seishin",
   "nombre": "Dojo Seishin",
   "tipo": "escuela",
@@ -717,9 +836,15 @@
   "disciplinas": [
    "karate"
   ],
+  "otras": [
+   "Karate kyokushin"
+  ],
+  "infantil": true,
+  "direccion": "Avinguda Jaume I nº37, 08226 Terrassa",
+  "web": "https://www.karatedojoseishin.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "dojo-yawara-acscdpc",
@@ -729,12 +854,18 @@
   "disciplinas": [
    "mma",
    "defensa-personal",
-   "grappling"
+   "grappling",
+   "jiu-jitsu-brasileno"
   ],
-  "direccion": "Av. DÂ'Àngel Sallent 188, bj",
+  "otras": [
+   "Yawara"
+  ],
+  "infantil": true,
+  "direccion": "Av. Àngel Sallent 188, Terrassa",
+  "web": "https://dojoyawara.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=DOJAYAWARA",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "escola-arts",
@@ -743,12 +874,16 @@
   "municipio": "barbera-del-valles",
   "disciplinas": [
    "karate",
-   "aikido"
+   "aikido",
+   "muay-thai",
+   "defensa-personal"
   ],
-  "direccion": "Carretera de Barcelona, 239 - 08210 - BARBERA DEL VALLES",
+  "infantil": true,
+  "direccion": "Carretera de Barcelona, 239, 08210 Barberà del Vallès",
+  "web": "https://escolaarts.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "esportiu-arts-marcials-sant-cugat",
@@ -771,9 +906,11 @@
   "disciplinas": [
    "karate"
   ],
+  "infantil": true,
+  "web": "https://www.esportiulacreu.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "esportiu-ostora-terrassa",
@@ -794,12 +931,21 @@
   "tipo": "escuela",
   "municipio": "terrassa",
   "disciplinas": [
-   "kickboxing"
+   "kickboxing",
+   "muay-thai",
+   "grappling",
+   "defensa-personal"
   ],
+  "otras": [
+   "Jiu jitsu",
+   "Tacticat Police Defense System"
+  ],
+  "infantil": true,
   "direccion": "Carrer Pare Llaurador Nº99, Terrassa–barcelona",
+  "web": "https://www.santjordigym.es/",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "esportiu-shadow",
@@ -821,9 +967,31 @@
   "disciplinas": [
    "karate"
   ],
+  "direccion": "Carrer de la Rasa 72, 08221 Terrassa",
+  "web": "https://squash4.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "gimnasio-gali-ripollet",
+  "nombre": "Gimnasio Gali",
+  "tipo": "gimnasio",
+  "municipio": "ripollet",
+  "disciplinas": [
+   "karate",
+   "kickboxing",
+   "boxeo"
+  ],
+  "otras": [
+   "Karate kyokushinkai"
+  ],
+  "infantil": true,
+  "direccion": "C/ Monturiol, 40, 08291 Ripollet",
+  "web": "https://gimnasiogali.com/",
+  "fuente": "https://gimnasiogali.com/actividades/karate-kyokushin-ripollet/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "gym-kiubi",
@@ -846,11 +1014,17 @@
   "municipio": "terrassa",
   "disciplinas": [
    "karate",
-   "kickboxing"
+   "kickboxing",
+   "defensa-personal"
   ],
+  "otras": [
+   "Karate Goju Ryu"
+  ],
+  "infantil": true,
+  "web": "https://www.ikigaidojo.org/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "jean",
@@ -907,6 +1081,27 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "kickboxing-terrassa",
+  "nombre": "Kickboxing Terrassa",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "kickboxing",
+   "boxeo",
+   "defensa-personal"
+  ],
+  "otras": [
+   "K1",
+   "Jiu-jitsu"
+  ],
+  "infantil": true,
+  "direccion": "Carrer del Nord 112, Terrassa",
+  "web": "https://www.kickboxingterrassa.com/",
+  "fuente": "https://www.kickboxingterrassa.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "koryo-sabadell",
   "nombre": "Koryo Sabadell",
   "tipo": "escuela",
@@ -948,6 +1143,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "lee-young-cerdanyola",
+  "nombre": "Lee Young Cerdanyola",
+  "tipo": "escuela",
+  "municipio": "cerdanyola-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Passatge Goya 2, Cerdanyola del Vallès, 08290",
+  "web": "https://www.leeyoungcerdanyola.com/",
+  "fuente": "https://www.leeyoungcerdanyola.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "lee-young-montcada",
   "nombre": "Lee Young Montcada",
   "tipo": "escuela",
@@ -973,6 +1182,26 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "lynx-martial-arts-sant-cugat",
+  "nombre": "Lynx Martial Arts",
+  "tipo": "escuela",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "kickboxing",
+   "kung-fu",
+   "jiu-jitsu-brasileno",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Kalah (sistema de combate)"
+  ],
+  "direccion": "Carrer de Francesc Vila, 17, 08173 Sant Cugat del Vallès",
+  "web": "https://lynxmartialarts.es/",
+  "fuente": "https://lynxmartialarts.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "mon-taekwondo-sentmenat",
   "nombre": "Mon Taekwondo Sentmenat",
   "tipo": "escuela",
@@ -984,6 +1213,48 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "mugendo-rubi",
+  "nombre": "Mugendo Rubi",
+  "tipo": "escuela",
+  "municipio": "rubi",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Mugendo",
+   "Defensa femenina",
+   "Antibullying"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Sant Jaume 41, Rubí",
+  "web": "https://rubi.mugendo.es/",
+  "fuente": "https://rubi.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-sant-cugat",
+  "nombre": "Mugendo Sant Cugat",
+  "tipo": "escuela",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Mugendo",
+   "Defensa femenina",
+   "Antibullying"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Manel Farrés 95, Sant Cugat del Vallès",
+  "web": "https://santcugat.mugendo.es/",
+  "fuente": "https://santcugat.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "olympia-gym-club",
@@ -1033,9 +1304,10 @@
   "disciplinas": [
    "karate"
   ],
+  "web": "https://senshi-dojo.es/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "seul",
@@ -1070,12 +1342,17 @@
   "municipio": "sabadell",
   "disciplinas": [
    "mma",
-   "grappling"
+   "grappling",
+   "taekwondo",
+   "kickboxing",
+   "boxeo",
+   "jiu-jitsu-brasileno"
   ],
   "direccion": "C/Las Navas 53, Sabadell.",
+  "web": "https://sabadellfightclub.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=SFC",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "su-ba-lee",
@@ -1112,10 +1389,12 @@
   "disciplinas": [
    "taekwondo"
   ],
+  "infantil": true,
   "direccion": "Parc de Guernika, 25b, 08227 Terrassa",
+  "web": "https://tkdsonbae.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "tao-do",
@@ -1123,12 +1402,15 @@
   "tipo": "escuela",
   "municipio": "terrassa",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "C/. Martin Diez 30 Pis, 08224 Terrassa",
+  "web": "https://tao-do.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "tkd-prieto",
@@ -1192,12 +1474,15 @@
   "municipio": "sant-quirze-del-valles",
   "disciplinas": [
    "mma",
-   "grappling"
+   "grappling",
+   "jiu-jitsu-brasileno"
   ],
-  "direccion": "carrer nou 48",
+  "infantil": true,
+  "direccion": "Carrer Nou, 38, Sant Quirze del Vallès",
+  "web": "https://vallesjiujitsu.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=VJJ",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "world",
