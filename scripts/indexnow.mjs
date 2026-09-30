@@ -9,7 +9,7 @@
 //
 // La clave no es secreta (tiene que ser pública para que funcione); lo único
 // que permite es notificar URLs de este dominio.
-const HOST = 'artesmarcialesgarraf.es';
+const HOST = 'artesmarciales.cat';
 const KEY = '99700fb47e87c6e52c646cf63ea4c863';
 const SITE = `https://${HOST}`;
 

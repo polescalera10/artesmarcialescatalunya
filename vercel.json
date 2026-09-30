@@ -48,21 +48,6 @@
           "value": "noindex, nofollow"
         }
       ]
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "(.*)artesmarciales.cat"
-        }
-      ],
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        }
-      ]
     }
   ],
   "redirects": [
