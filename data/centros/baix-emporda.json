@@ -115,6 +115,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "gracie-costa-brava",
+  "nombre": "Gracie Costa Brava",
+  "tipo": "escuela",
+  "municipio": "palafrugell",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "calle camelias 17, Palafrugell",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CCB",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
   "slug": "karate-bisbal",
   "nombre": "Karate Bisbal",
   "tipo": "escuela",

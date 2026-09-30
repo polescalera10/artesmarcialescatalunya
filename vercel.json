@@ -96,6 +96,26 @@
       "source": "/ca/centres/granollers/",
       "destination": "/ca/centres/club-taekwondo-granollers/",
       "permanent": true
+    },
+    {
+      "source": "/centros/chois-lee-i/",
+      "destination": "/centros/chois-lee/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/chois-lee-i/",
+      "destination": "/ca/centres/chois-lee/",
+      "permanent": true
+    },
+    {
+      "source": "/centros/llagostera/",
+      "destination": "/centros/club-taekwondo-llagostera/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/llagostera/",
+      "destination": "/ca/centres/club-taekwondo-llagostera/",
+      "permanent": true
     }
   ]
 }

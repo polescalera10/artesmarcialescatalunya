@@ -73,6 +73,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-judo-ikigai-emporda",
+  "nombre": "Club Judo Ikigai Empordà",
+  "tipo": "club",
+  "municipio": "pont-de-molins",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Barri de molins de dalt, 2 - 17706 - PONT DE MOLINS - GIRONA",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
   "slug": "club-taekwondo-tramuntana-llanca",
   "nombre": "Club Taekwondo Tramuntana Llança",
   "tipo": "club",

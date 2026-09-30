@@ -1,0 +1,68 @@
+[
+ {
+  "nombre": "Top Gym Girona",
+  "municipio": "girona",
+  "pista": "Directorios (tusartesmarciales, Facebook): Carrer Rutlla 226; BJJ, boxeo, MMA, grappling",
+  "motivo": "El dominio topgymgirona.com ya no resuelve; solo queda Facebook/Instagram sin poder verificar"
+ },
+ {
+  "nombre": "Factory Escola d'Arts Marcials i Fitness",
+  "municipio": "sarria-de-ter",
+  "pista": "Carrer del Riu 2, Sarrià de Ter (Facebook y directorios)",
+  "motivo": "Sin web oficial ni ficha municipal legible; no consta qué disciplinas imparte"
+ },
+ {
+  "nombre": "Budokan Salt",
+  "municipio": "salt",
+  "pista": "Directorio hispagimnasios: Carrer Doctor Ferran 26, Salt",
+  "motivo": "Solo aparece en agregadores; sin web oficial ni ficha municipal"
+ },
+ {
+  "nombre": "Club Judo Salt",
+  "municipio": "salt",
+  "pista": "https://entitats.salt.cat/entitat/club-judo-salt/",
+  "motivo": "La ficha municipal solo aporta el nombre y la dirección, sin disciplina explícita; no se infiere por el nombre"
+ },
+ {
+  "nombre": "Club Boxa Salt",
+  "municipio": "salt",
+  "pista": "https://entitats.salt.cat/entitat/club-boxa-salt/",
+  "motivo": "La ficha municipal solo aporta el nombre y la dirección, sin disciplina explícita; no se infiere por el nombre"
+ },
+ {
+  "nombre": "Assoc. Amics del Taixi Chuan de Salt",
+  "municipio": "salt",
+  "pista": "https://entitats.salt.cat/entitat/assoc-amics-del-taixi-chuan-de-salt/",
+  "motivo": "La ficha municipal solo aporta el nombre y la dirección, sin disciplina explícita; no se infiere por el nombre"
+ },
+ {
+  "nombre": "Associació Abadá Capoeira Girona",
+  "municipio": "girona",
+  "pista": "https://xeu.cat/associacio-abada-capoeira-girona/ (Registre d'Entitats, Carrer Santa Eugènia 96)",
+  "motivo": "Solo consta en un directorio de terceros; sin web oficial ni ficha municipal localizada"
+ },
+ {
+  "nombre": "Academia Ritzu Zen (Dojo Girona)",
+  "municipio": "girona",
+  "pista": "http://www.aikidogirona.com/ (aikido, kenjutsu, iaido; Poliesportiu del CREC, Vall de Sant Daniel)",
+  "motivo": "La web responde pero está claramente desactualizada (horarios y calendario de 2014); no se confirma que siga activo"
+ },
+ {
+  "nombre": "El Petit Drac entre la Lluna i el Mar",
+  "municipio": "bordils",
+  "pista": "https://www.elpetitdracentrelallunaielmar-artsmarcials.org/ (kung fu; clases en Bordils, Vilademuls, Bàscara y Cassà)",
+  "motivo": "Asociación itinerante con sede fuera de la comarca (Vilademuls) y calendario de clases del curso 2023-24; sin dirección fija verificable"
+ },
+ {
+  "nombre": "IKMF Spain Girona (Krav Maga)",
+  "municipio": "girona",
+  "pista": "Perfil en X @kmggirona: C/ Barcelona 275",
+  "motivo": "kravmaga-girona.com no responde; solo redes sociales sin poder verificar"
+ },
+ {
+  "nombre": "Aikido Yoshinkan Tramuntana (Girona)",
+  "municipio": "girona",
+  "pista": "Directorio yoshinkan y aikidotramuntana.cat",
+  "motivo": "La web no carga; sin fuente válida abierta"
+ }
+]
