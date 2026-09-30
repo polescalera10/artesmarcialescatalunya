@@ -6,12 +6,15 @@
   "municipio": "barcelona",
   "disciplinas": [
    "grappling",
-   "mma"
+   "mma",
+   "jiu-jitsu-brasileno"
   ],
+  "infantil": true,
   "direccion": "Carrer Sant Pere Martir 37",
+  "web": "https://www.10thplanetbarcelona.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=PLANET",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "a-e-arts-marcials-enan",
@@ -46,11 +49,22 @@
   "municipio": "barcelona",
   "disciplinas": [
    "karate",
-   "kickboxing"
+   "kickboxing",
+   "jiu-jitsu-japones",
+   "defensa-personal",
+   "kendo"
   ],
+  "otras": [
+   "Nihon Taijitsu",
+   "Jujutsu tradicional",
+   "Tanbojutsu y hanbojutsu"
+  ],
+  "infantil": true,
+  "direccion": "C/ Abat Odon 71, 3r 08030 Barcelona",
+  "web": "http://www.shintaikanbudo.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=20",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "academia-kerker-gym",
@@ -102,11 +116,32 @@
   "disciplinas": [
    "jiu-jitsu-japones",
    "grappling",
-   "mma"
+   "mma",
+   "jiu-jitsu-brasileno",
+   "kickboxing"
   ],
+  "direccion": "Carrer de Robrenyo, 63 - 08014 - Barcelona",
+  "web": "https://www.aranhabarcelona.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ARANHA",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "aranha-forum",
+  "nombre": "Aranha Forum",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-brasileno",
+   "kickboxing",
+   "mma"
+  ],
+  "infantil": true,
+  "direccion": "Calle Pallars, 495, Barcelona, 08024",
+  "web": "https://www.aranhaforum.com/",
+  "fuente": "https://www.aranhaforum.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "ars-phisica",
@@ -142,12 +177,18 @@
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "hapkido",
+   "kickboxing",
+   "capoeira",
+   "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Passeig Fabra i Puig, 318, 08031 Barcelona",
+  "web": "https://esportsfabra.wixsite.com/esports-fabra",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "associacio-esportiva-arrels-congres",
@@ -182,12 +223,17 @@
   "municipio": "barcelona",
   "disciplinas": [
    "mma",
-   "grappling"
+   "grappling",
+   "boxeo",
+   "kickboxing",
+   "lucha"
   ],
+  "infantil": true,
   "direccion": "Carrer de l'Artesania, 63",
+  "web": "https://aenoubarris.cat/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=AENB",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "associacio-esportiva-team-calvet",
@@ -237,9 +283,12 @@
   "disciplinas": [
    "karate"
   ],
+  "infantil": true,
+  "direccion": "Plaza Ferrán Reyes nº 2 (Instituto Dolors Aleu) 08027, Barcelona",
+  "web": "http://www.karatespronceda.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "bam-chun",
@@ -309,6 +358,28 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BRAVE",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "budo-sensei",
+  "nombre": "Budo Sensei",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "taekwondo",
+   "karate",
+   "aikido",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Kaisendo"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Melcior de Palau, 149",
+  "web": "https://budosensei.net/",
+  "fuente": "https://budosensei.net/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "c-e-badrena",
@@ -386,11 +457,19 @@
   "tipo": "escuela",
   "municipio": "barcelona",
   "disciplinas": [
-   "karate"
+   "karate",
+   "kung-fu",
+   "tai-chi"
   ],
+  "otras": [
+   "Choy Li Fut"
+  ],
+  "infantil": true,
+  "direccion": "Passatge Simó 15, TDA 1 Barcelona 08025",
+  "web": "https://www.kungfuweb.org/ca/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "cho-san",
@@ -398,12 +477,16 @@
   "tipo": "escuela",
   "municipio": "barcelona",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "ninjutsu",
+   "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Casanova, 156, 08036 Barcelona",
+  "web": "https://www.escuelachosan.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "chois-urquinaona",
@@ -411,12 +494,14 @@
   "tipo": "escuela",
   "municipio": "barcelona",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "defensa-personal"
   ],
   "direccion": "Roger de Flor, 133 Entlo, 08013 Barcelona",
+  "web": "https://taekwondochois.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-alianza-arts-marcials",
@@ -464,9 +549,11 @@
   "disciplinas": [
    "boxeo"
   ],
+  "direccion": "Calle Aragón 289 08009 Barcelona",
+  "web": "https://www.boxagranprice.com/",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-ilion-les-corts",
@@ -476,9 +563,11 @@
   "disciplinas": [
    "boxeo"
   ],
+  "direccion": "Carrer de Novell, 87-89 (08014) Barcelona",
+  "web": "https://ilionboxingclub.es/",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-ko-verdun",
@@ -576,9 +665,12 @@
   "disciplinas": [
    "karate"
   ],
+  "infantil": true,
+  "direccion": "Carrer Sant Jordi, 14 08923 · Santa Coloma de Grament",
+  "web": "https://cer.cer.cat/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=17",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-de-boxa-yoroi",
@@ -589,12 +681,17 @@
    "kickboxing",
    "mma",
    "grappling",
-   "lucha"
+   "lucha",
+   "jiu-jitsu-brasileno",
+   "judo",
+   "boxeo"
   ],
+  "infantil": true,
   "direccion": "Rambla Prim Nº 252, Barcelona",
+  "web": "https://yoroifightclub.com/",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-de-judo-barcelona-nord",
@@ -647,10 +744,12 @@
   "disciplinas": [
    "judo"
   ],
+  "infantil": true,
   "direccion": "Avenida Puig Castellar nº 9 (IES Les Vinyes) - SANTA COLOMA DE GRAMANET, SANTA COLOMA DE GRAMANET",
+  "web": "https://www.judosantacoloma.com/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-de-kendo-ryo-shin-kai",
@@ -785,12 +884,20 @@
   "tipo": "club",
   "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
-   "kickboxing"
+   "kickboxing",
+   "mma",
+   "muay-thai",
+   "karate"
   ],
+  "otras": [
+   "Karate kyokushin infantil"
+  ],
+  "infantil": true,
   "direccion": "Carrer Alveniz Nº 17, Hospitalet–barcelona",
+  "web": "https://fightclubedgarsport.wordpress.com/",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-goldenkyu-barcelona",
@@ -798,12 +905,22 @@
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
-   "kickboxing"
+   "kickboxing",
+   "karate",
+   "taekwondo",
+   "boxeo",
+   "grappling",
+   "defensa-personal"
   ],
+  "otras": [
+   "Mugendo"
+  ],
+  "infantil": true,
   "direccion": "Ronda General Mitre Nº23, Local 2., Barcelona",
+  "web": "https://goldenkyu.com/",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-instituto-de-wu-shumallorca-219-1er",
@@ -811,11 +928,20 @@
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
-   "karate"
+   "karate",
+   "kung-fu",
+   "tai-chi"
   ],
+  "otras": [
+   "Shaolin del Norte, Hung Gar, Choy Li Fut",
+   "Xing-I Chuan y Pa Kua Chang"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Mallorca 219, 1º 1ª 08008, Barcelona",
+  "web": "https://institutodewushu.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-jiu-jitsu-monica-barcelona",
@@ -887,12 +1013,20 @@
   "tipo": "club",
   "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
-   "kickboxing"
+   "kickboxing",
+   "boxeo",
+   "karate"
   ],
+  "otras": [
+   "Karate kyokushinkai",
+   "Boxing kids"
+  ],
+  "infantil": true,
   "direccion": "Avinguda Can Serra Nº45, Bloc U, l'Hospitalet–barcelona",
+  "web": "http://clubdeportivoleones.com/",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-mediterrani",
@@ -913,12 +1047,18 @@
   "municipio": "barcelona",
   "disciplinas": [
    "kickboxing",
-   "mma"
+   "mma",
+   "boxeo",
+   "muay-thai",
+   "jiu-jitsu-brasileno",
+   "grappling"
   ],
+  "infantil": true,
   "direccion": "C/ Puerto Principe Nº 26-40, Local, Barcelona",
+  "web": "https://puroimpacto.com/",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-taekwondo-taeyang",
@@ -928,10 +1068,12 @@
   "disciplinas": [
    "taekwondo"
   ],
+  "infantil": true,
   "direccion": "Joaquim Ruyra, 19, 08917 Badalona",
+  "web": "https://infotaeyang.wixsite.com/taekwondotaeyang",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-gimnas-judo-condal",
@@ -990,17 +1132,37 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-judo-cultural-badalona",
+  "nombre": "Club Judo Cultural",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "judo",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Judo escolar en la Escola Cultural Artigues"
+  ],
+  "infantil": true,
+  "web": "https://clubjudocultural.com/",
+  "fuente": "https://clubjudocultural.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "club-judo-musubi",
   "nombre": "Club Judo Musubi",
   "tipo": "club",
   "municipio": "badalona",
   "disciplinas": [
-   "judo"
+   "judo",
+   "aikido"
   ],
   "direccion": "C/ Jumilla, S/N, 08918 - BADALONA, (Instal.lacions camp de futbol)",
+  "web": "https://judomusubi.com/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-judo-okami",
@@ -1120,10 +1282,15 @@
   "disciplinas": [
    "kickboxing"
   ],
+  "otras": [
+   "Kickboxing japonés (K1 light contact)"
+  ],
+  "infantil": true,
   "direccion": "Travessera de Gràcia Nº341, Barcelona",
+  "web": "https://kickboxingdojo.com/",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-lluita-olimpica-la-mina",
@@ -1149,12 +1316,16 @@
   "municipio": "santa-coloma-de-gramenet",
   "disciplinas": [
    "taekwondo",
-   "hapkido"
+   "hapkido",
+   "kickboxing",
+   "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Roma, 55, 08921 Santa Coloma de Gramanet",
+  "web": "https://deportivomarin.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "distrito-655",
@@ -1163,12 +1334,16 @@
   "municipio": "barcelona",
   "disciplinas": [
    "taekwondo",
-   "aikido"
+   "aikido",
+   "hapkido",
+   "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Aragon, 655 Local 2, 08026 Barcelona",
+  "web": "https://www.artesmarciales-barcelona.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "dojo-chowa-bcn",
@@ -1193,6 +1368,31 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=11",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-sant-gervasi",
+  "nombre": "Dojo Sant Gervasi",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "jiu-jitsu-brasileno",
+   "muay-thai",
+   "kickboxing",
+   "krav-maga",
+   "mma",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Defensa personal femenina"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Buscarons, 18 08022 Sant Gervasi Barcelona",
+  "web": "https://www.dojosantgervasi.es/",
+  "fuente": "https://www.dojosantgervasi.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "dojo-taido",
@@ -1232,6 +1432,25 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "el-petit-bosc",
+  "nombre": "El Petit Bosc",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "otras": [
+   "Armas tradicionales chinas",
+   "Meditación budista chan"
+  ],
+  "direccion": "c/ Torre dels Pardals 56, 08032",
+  "web": "https://elpetitbosc.com/",
+  "fuente": "https://elpetitbosc.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "elite-top-team",
   "nombre": "Elite Top Team",
   "tipo": "escuela",
@@ -1245,6 +1464,25 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ETT",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "entrena-en-barcelona",
+  "nombre": "Entrena en Barcelona",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "otras": [
+   "Boxeo femenino",
+   "Crossfight"
+  ],
+  "infantil": true,
+  "direccion": "Carrer del Perú, 179, Barcelona 08020",
+  "web": "https://entrenaenbarcelona.com/",
+  "fuente": "https://entrenaenbarcelona.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "escuela-de-artes-marciales",
@@ -1281,12 +1519,19 @@
    "taekwondo",
    "hapkido",
    "boxeo",
-   "jiu-jitsu-japones"
+   "jiu-jitsu-japones",
+   "karate",
+   "kickboxing",
+   "muay-thai",
+   "mma",
+   "krav-maga"
   ],
+  "infantil": true,
   "direccion": "Rogent, 11, 08026 Barcelona",
+  "web": "https://gimnasioesportrogent.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "esportiu-claret",
@@ -1384,6 +1629,34 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "gallego-prada-360",
+  "nombre": "Gallego Prada 360",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "C/Taulat 93, 08005 Barcelona",
+  "web": "https://www.gallegoprada.com/",
+  "fuente": "https://www.gallegoprada.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "gallego-prada-original-lhospitalet",
+  "nombre": "Gallego Prada Original",
+  "tipo": "gimnasio",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "C/Montseny 182, 08904 L’Hospitalet de Llobregat",
+  "web": "https://www.gallegoprada.com/",
+  "fuente": "https://www.gallegoprada.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "gimnas-club-francas",
   "nombre": "Gimnàs Club Francàs",
   "tipo": "gimnasio",
@@ -1396,18 +1669,45 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "golden-kyu-les-corts",
+  "nombre": "Golden Kyu Les Corts",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "karate",
+   "taekwondo",
+   "boxeo",
+   "grappling",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Mugendo"
+  ],
+  "infantil": true,
+  "direccion": "C/ de Nicaragua, 78-82, 08029 Barcelona",
+  "web": "https://goldenkyu.com/",
+  "fuente": "https://goldenkyu.com/los-centros/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "gracie-barra-barcelona",
   "nombre": "Gracie Barra Barcelona",
   "tipo": "escuela",
   "municipio": "barcelona",
   "disciplinas": [
    "grappling",
-   "mma"
+   "mma",
+   "jiu-jitsu-brasileno",
+   "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Calle Aragò 109",
+  "web": "https://graciebarrabarcelona.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GRACIE",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "gym-boxing-saus",
@@ -1583,17 +1883,50 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "koryo-badalona",
+  "nombre": "Koryo Badalona",
+  "tipo": "gimnasio",
+  "municipio": "badalona",
+  "disciplinas": [
+   "hapkido",
+   "defensa-personal"
+  ],
+  "direccion": "C/ Pomar de Baix 41 / Badalona – Cañadó",
+  "web": "https://www.koryobcn.com/",
+  "fuente": "https://www.koryobcn.com/contacto/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "koryo-barcelona",
   "nombre": "Koryo Barcelona",
   "tipo": "escuela",
   "municipio": "barcelona",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "hapkido",
+   "defensa-personal"
   ],
   "direccion": "Joan Gamper, 5, 08014 Barcelona",
+  "web": "https://www.koryobcn.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "koryo-la-verneda",
+  "nombre": "Koryo La Verneda",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "hapkido",
+   "defensa-personal"
+  ],
+  "direccion": "C/ Fluviá nº 294, Barcelona",
+  "web": "https://www.koryobcn.com/",
+  "fuente": "https://www.koryobcn.com/contacto/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "krav-maga-barcelona",
@@ -1612,17 +1945,62 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "krav360-eixample-gracia",
+  "nombre": "Krav360 Eixample – Gràcia",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "krav-maga",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Kapap"
+  ],
+  "infantil": true,
+  "direccion": "Travessera de Gracia 341",
+  "web": "https://krav360.com/",
+  "fuente": "https://krav360.com/centro-krav360/eixample-gracia-2/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "krav360-sant-andreu",
+  "nombre": "Krav360 Sant Andreu",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "krav-maga",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Kapap",
+   "Clases en el CEM Espronceda"
+  ],
+  "direccion": "Carrer d'Espronceda, 326, 08027",
+  "web": "https://krav360.com/",
+  "fuente": "https://krav360.com/centro-krav360/sant-andreu-nou-barris/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "lee-young-badalona",
   "nombre": "Lee Young Badalona",
   "tipo": "escuela",
   "municipio": "badalona",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "karate"
   ],
+  "otras": [
+   "Karate kyokushinkai",
+   "Haidong Gumdo"
+  ],
+  "infantil": true,
   "direccion": "SAN RAMON, 7-9 bajos, 08912 BADALONA",
+  "web": "https://leeyoungbadalona.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "lion-fighters",
@@ -1634,10 +2012,163 @@
    "grappling",
    "lucha"
   ],
-  "direccion": "Carlos Carmona",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=LION",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "mma-barcelona-team",
+  "nombre": "MMA Barcelona Team",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "jiu-jitsu-brasileno",
+   "grappling",
+   "lucha",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "otras": [
+   "Wrestling para MMA y grappling",
+   "K-1"
+  ],
+  "infantil": true,
+  "direccion": "Carrer dels Enamorats, 17, 08025 Barcelona",
+  "web": "https://mmabarcelonateam.es/",
+  "fuente": "https://mmabarcelonateam.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-badalona",
+  "nombre": "Mugendo Badalona",
+  "tipo": "escuela",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Guifré 255",
+  "web": "https://badalona.mugendo.es/",
+  "fuente": "https://badalona.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-bonanova",
+  "nombre": "Mugendo Bonanova",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "web": "https://bonanova.mugendo.es/",
+  "fuente": "https://bonanova.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-eixample",
+  "nombre": "Mugendo Eixample",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Programa 5MMA (muay thai, kickboxing, boxeo, MMA y defensa personal)"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Villarroel, 235, 08036 Barcelona",
+  "web": "https://eixample.mugendo.es/",
+  "fuente": "https://eixample.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-gracia",
+  "nombre": "Mugendo Gràcia",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "Travessera de Gràcia, 108, 08012 Barcelona",
+  "web": "https://gracia.mugendo.es/",
+  "fuente": "https://gracia.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-poblenou",
+  "nombre": "Mugendo Poblenou",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Pujades 207, Barcelona",
+  "web": "https://poblenou.mugendo.es/",
+  "fuente": "https://poblenou.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-sant-andreu",
+  "nombre": "Mugendo Sant Andreu",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "Carrer Gran de Sant Andreu 364, Barcelona",
+  "web": "https://santandreu.mugendo.es/",
+  "fuente": "https://santandreu.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-tetuan",
+  "nombre": "Mugendo Tetuan",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "C/ de Roger de Flor, 118, 08013 Barcelona",
+  "web": "https://tetuan.mugendo.es/",
+  "fuente": "https://tetuan.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-vallcarca",
+  "nombre": "Mugendo Vallcarca",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "Carrer d’Esteve Terradas, 17-21, Local 2 y 3, 08023 Barcelona",
+  "web": "https://vallcarca.mugendo.es/",
+  "fuente": "https://vallcarca.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "natacio-barcelona-club",
@@ -1645,11 +2176,15 @@
   "tipo": "escuela",
   "municipio": "barcelona",
   "disciplinas": [
-   "karate"
+   "karate",
+   "defensa-personal"
   ],
+  "infantil": true,
+  "direccion": "Passeig Joan de Borbó, 93, 08039, Barcelona",
+  "web": "https://www.cnb.cat/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=6",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "nazaret",
@@ -1677,6 +2212,21 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=NEBARI",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "oldskull-jiu-jitsu",
+  "nombre": "Oldskull Jiu-Jitsu",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-brasileno",
+   "grappling"
+  ],
+  "direccion": "C/ Xifré, 46, Sant Martí, 08026",
+  "web": "https://oldskulljiujitsu.com/",
+  "fuente": "https://oldskulljiujitsu.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "olimpico-gimnasio",
@@ -1755,6 +2305,21 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "royal-boxing-club-barcelona",
+  "nombre": "Royal Boxing Club",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "direccion": "Carrer del Camp, 37 08022 Barcelona",
+  "web": "https://www.royalboxingclub.com/",
+  "fuente": "https://www.royalboxingclub.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "sasori-fight-academy",
   "nombre": "Sasori Fight Academy",
   "tipo": "escuela",
@@ -1818,6 +2383,22 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "shorinji-kan-jiu-jitsu-barcelona",
+  "nombre": "Shorinji-Kan International Jiu Jitsu Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-japones"
+  ],
+  "otras": [
+   "Clases en inglés"
+  ],
+  "web": "https://jiujitsu.barcelona/",
+  "fuente": "https://jiujitsu.barcelona/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "sob-seng-won",
   "nombre": "Sob Seng Won",
   "tipo": "escuela",
@@ -1856,6 +2437,71 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "templum-bcn",
+  "nombre": "Templum BCN",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-brasileno",
+   "grappling",
+   "krav-maga",
+   "muay-thai",
+   "kickboxing",
+   "mma",
+   "lucha"
+  ],
+  "otras": [
+   "K1",
+   "Boxeo kids y jiu jitsu kids"
+  ],
+  "infantil": true,
+  "direccion": "Carrer d’Entença, 113 – 08015, Barcelona",
+  "web": "https://templumbcn.com/",
+  "fuente": "https://templumbcn.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "the-boxer-club-diagonal",
+  "nombre": "The Boxer Club Diagonal",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "otras": [
+   "Dentro de VivaGym Diagonal"
+  ],
+  "direccion": "Carrer de Mallorca 318, 08037, Barcelona",
+  "web": "https://theboxerclub.es/clubs/boxer-club-diagonal/",
+  "fuente": "https://theboxerclub.es/clubs/boxer-club-diagonal/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "the-warriors-martial-arts-club",
+  "nombre": "The Warriors Martial Arts Club",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "boxeo",
+   "mma",
+   "kickboxing",
+   "muay-thai",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Budo Taijutsu"
+  ],
+  "infantil": true,
+  "direccion": "Calle del Doctor Martí i Julià 58, L'Hospitalet del Llobregat",
+  "web": "https://www.warriorsmartialarts.com/",
+  "fuente": "https://www.warriorsmartialarts.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "union-fighters-team",
   "nombre": "Union Fighters Team",
   "tipo": "escuela",
@@ -1886,6 +2532,40 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=UPP",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "warriors-barcelona-arago",
+  "nombre": "Warriors Barcelona Aragó",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate",
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "C/ Aragó, 333. Barcelona",
+  "web": "https://www.warriorsbarcelona.com/",
+  "fuente": "https://www.warriorsbarcelona.com/contacto",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "warriors-barcelona-gran-via",
+  "nombre": "Warriors Barcelona Gran Via",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate",
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "C/ Gran Via de les Corts Catalanes, 431. Barcelona",
+  "web": "https://www.warriorsbarcelona.com/",
+  "fuente": "https://www.warriorsbarcelona.com/contacto",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "wons-barcelona",

@@ -1,0 +1,62 @@
+[
+ {
+  "nombre": "Academia Badalona Jiujitsu",
+  "municipio": "badalona",
+  "pista": "Instagram @badalonajiujitsu y Facebook (búsqueda web)",
+  "motivo": "Sin web oficial encontrada; solo redes sociales no verificadas como fuente"
+ },
+ {
+  "nombre": "Anaconda Jiu-Jitsu Brasileño",
+  "municipio": "barcelona",
+  "pista": "https://anacondajiujitsu.com/",
+  "motivo": "La web responde pero el contenido se carga por JavaScript: no se ha podido leer dirección ni clases"
+ },
+ {
+  "nombre": "Barcelona Taekwondo Center",
+  "municipio": "barcelona",
+  "pista": "Instagram @barcelonataekwondocenter y Facebook",
+  "motivo": "Sin web oficial; solo redes sociales"
+ },
+ {
+  "nombre": "Circle Academy",
+  "municipio": "barcelona",
+  "pista": "Mencionada como academia de BJJ que apoya a Team Cuevas (academiaaldea.es)",
+  "motivo": "Sin web oficial localizada"
+ },
+ {
+  "nombre": "El Club de la Lluita",
+  "municipio": "barcelona",
+  "pista": "Citado en resultados de búsqueda de gimnasios MMA de Barcelona",
+  "motivo": "Sin URL ni web oficial localizada"
+ },
+ {
+  "nombre": "La Verneda Fight Club",
+  "municipio": "barcelona",
+  "pista": "https://lavernedafc.com/ (boxeo adultos y niños; C/ de Huelva, 136 08020 Barcelona)",
+  "motivo": "Posible duplicado de Club Boxa la Verneda (federación FCBA): nombre distinto y la web no menciona el club federado. Confirmar antes de añadir la web a la ficha existente o crear ficha nueva"
+ },
+ {
+  "nombre": "Nihon Kickboxing Dojo Sant Adrià",
+  "municipio": "sant-adria-de-besos",
+  "pista": "https://kickboxingdojo.com/contactanos/ (\"Dojo Sant Adrià\", Carrer de Sant Jordi, 9, bajos)",
+  "motivo": "La web escribe \"08930 Badalona\" para la sede llamada Sant Adrià: municipio ambiguo"
+ },
+ {
+  "nombre": "RS Academy Badalona",
+  "municipio": "badalona",
+  "pista": "https://www.rsacademybadalona.com/ (kickboxing, boxeo, defensa personal, infantil; Plaça Marinada 1)",
+  "motivo": "Misma dirección que Esportiu Kick Boxing Badalona (ya en el directorio, fuente federación) con nombre distinto: probable duplicado"
+ },
+ {
+  "nombre": "Taemi",
+  "municipio": "santa-coloma-de-gramenet",
+  "pista": "https://taemi.es/ (página de kick boxing en Santa Coloma de Gramenet)",
+  "motivo": "La web responde casi vacía: no se puede leer dirección ni disciplinas"
+ },
+ {
+  "nombre": "TKS Barcelona - Defensa Personal, Jiujitsu & Kickboxing",
+  "municipio": "barcelona",
+  "pista": "https://defensapersonaltks.com/ (C/Huelva, 40, Sant Martí, 08020)",
+  "motivo": "Misma dirección que Club Esportiu Kickboxing Barcelona Clot (ya en el directorio, fuente federación) con nombre distinto: probable duplicado"
+ }
+]
