@@ -12,18 +12,6 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "associacio-do-trinidad-de-karate",
-  "nombre": "Associació Do Trinidad De Karate",
-  "tipo": "asociacion",
-  "municipio": "reus",
-  "disciplinas": [
-   "karate"
-  ],
-  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
   "slug": "associacio-esportiva-de-wu-shu-wu-xia-catalunya",
   "nombre": "Associacio Esportiva de Wu shu Wu Xia Catalunya",
   "tipo": "asociacion",
@@ -34,6 +22,18 @@
   "direccion": "Plaça del victor, 7, 4 C. REUS",
   "web": "http://www.wuxia-kungfu.com",
   "fuente": "https://fedecatjudo.cat/wu-shu/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-do-trinidad-de-karate",
+  "nombre": "Associació Do Trinidad De Karate",
+  "tipo": "asociacion",
+  "municipio": "reus",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
@@ -98,6 +98,20 @@
   ],
   "direccion": "C/ Roger de Belfort Nº39, Reus—tarragona",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-lhospitalet-de-linfant",
+  "nombre": "Club Judo l'Hospitalet de l'Infant",
+  "tipo": "club",
+  "municipio": "vandellos-i-lhospitalet-de-linfant",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Polisportiu Casal Hifrensa, L'Hospitalet de l'Infant",
+  "web": "https://es-es.facebook.com/judovital.judohospitalet/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
@@ -206,6 +220,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "fttspain",
+  "nombre": "Fttspain",
+  "tipo": "escuela",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "mma"
+  ],
+  "direccion": "C/ del cami del mas clariana n 06. cambrils",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FTT",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
   "slug": "gimnas-siluets",
   "nombre": "Gimnàs Siluet's",
   "tipo": "gimnasio",
@@ -281,6 +308,20 @@
   ],
   "direccion": "Carrer Nicaragua 20",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=TIBURON",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "zion-brazilian-jiu-jitsu",
+  "nombre": "Zion Brazilian Jiu-Jitsu",
+  "tipo": "escuela",
+  "municipio": "reus",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Avenida Dels Paisos Catalans 162,",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ZION",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  }

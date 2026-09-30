@@ -130,6 +130,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "kanaloa-sutemi-calafell",
+  "nombre": "Kanaloa Sutemi Calafell",
+  "tipo": "escuela",
+  "municipio": "calafell",
+  "disciplinas": [
+   "mma"
+  ],
+  "direccion": "Passatge del Blat 5-7 Calafell C.P 43820",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KSC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
   "slug": "la-lira-vendrellenca",
   "nombre": "La Lira Vendrellenca",
   "tipo": "escuela",

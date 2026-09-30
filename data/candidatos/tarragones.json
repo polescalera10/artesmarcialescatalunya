@@ -1,0 +1,86 @@
+[
+ {
+  "nombre": "Asociación de Boxeo Torredembarra (ABT)",
+  "municipio": "torredembarra",
+  "pista": "https://www.facebook.com/ABTorredembarra",
+  "motivo": "Solo Facebook; posible relación con Club Boxa Torredembarra ya listado, sin confirmar"
+ },
+ {
+  "nombre": "Asociación Defensa Personal Femenina Salou",
+  "municipio": "salou",
+  "pista": "https://www.salou.cat/ca/la-ciutat-per-temes/esports/clubs-i-entitats-esportives (Pavelló Municipal, Carrer Milà 5)",
+  "motivo": "El directorio municipal solo da nombre y dirección; sin web ni descripción de clases"
+ },
+ {
+  "nombre": "Ass. Taekondo La Salle de Tarragona",
+  "municipio": "tarragona",
+  "pista": "https://www.tarragona.cat/esports/escoles-clubs-i-entitats/clubs-de-la-ciutat/arts-marcials (Bloc. Baix Penedès, esc. B 1r 3a)",
+  "motivo": "El directorio municipal no indica disciplina explícita ni web propia"
+ },
+ {
+  "nombre": "Centro Deportivo Ikigai",
+  "municipio": "tarragona",
+  "pista": "https://entrenarboxeo.com/tarragona/ y centrodeportivoikigai.site (Carrer de Ramon Comas i Maduell)",
+  "motivo": "Su dominio no responde; solo constan las disciplinas en agregadores (MMA, boxeo, kickboxing, karate, kali)"
+ },
+ {
+  "nombre": "Chuan Fa Kung Fu Tarragona",
+  "municipio": "salomo",
+  "pista": "https://www.facebook.com/chuanfatarragona/ y https://choyleefut.org/spain (listado de escuelas de la asociación)",
+  "motivo": "Sin web propia; solo Facebook y listado de la asociación (Choy Lee Fut, Wing Chun)"
+ },
+ {
+  "nombre": "Club Esportiu Budoshin Costa Daurada",
+  "municipio": "salou",
+  "pista": "https://www.salou.cat/ca/la-ciutat-per-temes/esports/clubs-i-entitats-esportives",
+  "motivo": "Entidad de Salou sin disciplina indicada ni web; posible relación con Budo Shin Tarragona"
+ },
+ {
+  "nombre": "Club Esportiu Gembu-Kai",
+  "municipio": "tarragona",
+  "pista": "https://www.tarragona.cat/esports/escoles-clubs-i-entitats/clubs-de-la-ciutat/arts-marcials (enlaza www.bonavistanet.com/gembu-kai)",
+  "motivo": "La web enlazada es una copia de 2014 en marcos, sin disciplinas legibles; el directorio municipal no indica disciplina"
+ },
+ {
+  "nombre": "Club Esportiu Ludus",
+  "municipio": "la-canonja",
+  "pista": "Facebook ClubEsportiuLudus2015; agregadores (Av. de la Pineda 25)",
+  "motivo": "Descrito como gimnasio de fitness; no consta ninguna disciplina de la taxonomía"
+ },
+ {
+  "nombre": "Escola de Boxa i Muay-Thai Torredembarra",
+  "municipio": "torredembarra",
+  "pista": "Instagram @escolaboxamuaythai y @torredembarraboxamuay (Pavelló Sant Jordi)",
+  "motivo": "Sin web oficial; solo redes sociales no leídas como fuente"
+ },
+ {
+  "nombre": "Fighter's Gym",
+  "municipio": "roda-de-bera",
+  "pista": "https://www.fightsol.com/academias/tarragona (C/ Figuera, Roda de Barà)",
+  "motivo": "Solo aparece en agregadores y foros; sin web oficial ni perfil público verificable"
+ },
+ {
+  "nombre": "Loyalty Jiu Jitsu Vila Seca",
+  "municipio": "vila-seca",
+  "pista": "https://www.vila-secaempresa.cat/es/negocio/loyalty-jiu-jitsu-vila-seca (directorio de comercios; Carrer de Sant Josep 45, local 3)",
+  "motivo": "Sin web oficial localizada; solo Instagram (@loyaltybjjvilaseca) y Facebook, no válidos como fuente"
+ },
+ {
+  "nombre": "Moy Yat Ving Tsun (Tarragona)",
+  "municipio": "tarragona",
+  "pista": "https://moyyat.org/wing-chun-en-tarragona/",
+  "motivo": "Página de captación provincial de una sede de Barcelona; no indica centro ni dirección en Tarragona"
+ },
+ {
+  "nombre": "Sport Gym Tarragona",
+  "municipio": "tarragona",
+  "pista": "Badgie y entrenarboxeo.com (Av. Catalunya 16); Facebook SPORT-GYM-TARRAGONA",
+  "motivo": "Gimnasio con clases de boxeo según agregadores; sin web oficial"
+ },
+ {
+  "nombre": "Team Moema Capoeira",
+  "municipio": "tarragona",
+  "pista": "https://tusartesmarciales.es/team-moema-capoeira-tarragona/",
+  "motivo": "Sin web oficial operativa (moemacapoeira.com no responde)"
+ }
+]

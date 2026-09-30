@@ -5,12 +5,15 @@
   "tipo": "escuela",
   "municipio": "tarragona",
   "disciplinas": [
-   "aikido"
+   "aikido",
+   "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Carrer General Contreras 8 1 3, 43004 Tarragona",
+  "web": "https://www.aikidotarragona.org/",
   "fuente": "https://www.fcaikido.cat/dojos.html",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "arteam",
@@ -26,6 +29,32 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ARTBJJ",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "budo-shin-tarragona",
+  "nombre": "Budo Shin Tarragona",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "aikido",
+   "jiu-jitsu-japones",
+   "kendo",
+   "kobudo",
+   "ninjutsu",
+   "karate",
+   "wing-chun",
+   "kali"
+  ],
+  "otras": [
+   "Iaido",
+   "Jodo",
+   "Nihon Tai-jitsu"
+  ],
+  "direccion": "C. del Mar 47-49, 43004 Tarragona",
+  "web": "https://www.artsmarcialstarragona.org/",
+  "fuente": "https://www.artsmarcialstarragona.org/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "c-e-karate-yondan-tarraco",
@@ -60,9 +89,12 @@
   "disciplinas": [
    "boxeo"
   ],
+  "infantil": true,
+  "direccion": "C/ del Migdia s/n, Pol. Industrial Roques Planes 43830 Torredembarra (Tarragona)",
+  "web": "https://www.apoloclub.cat/boxa/",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-kmt-combat-tarrako",
@@ -70,11 +102,18 @@
   "tipo": "club",
   "municipio": "tarragona",
   "disciplinas": [
-   "boxeo"
+   "boxeo",
+   "kickboxing",
+   "muay-thai",
+   "mma",
+   "grappling",
+   "defensa-personal"
   ],
+  "direccion": "Carrer Taquígraf Martí, 12, Tarragona 43002",
+  "web": "https://www.kmt-combattarrako.com/",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-torredembarra",
@@ -200,24 +239,10 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "club-judo-lhospitalet-de-linfant",
-  "nombre": "Club Judo l'Hospitalet de l'Infant",
-  "tipo": "club",
-  "municipio": "tarragona",
-  "disciplinas": [
-   "judo"
-  ],
-  "direccion": "Polisportiu Casal Hifrensa, TARRAGONA",
-  "web": "https://es-es.facebook.com/judovital.judohospitalet/",
-  "fuente": "https://fedecatjudo.cat/judo/clubs/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
   "slug": "club-judo-roda",
   "nombre": "Club Judo Roda",
   "tipo": "club",
-  "municipio": "tarragona",
+  "municipio": "roda-de-bera",
   "disciplinas": [
    "judo"
   ],
@@ -248,13 +273,16 @@
   "tipo": "club",
   "municipio": "tarragona",
   "disciplinas": [
-   "judo"
+   "judo",
+   "jiu-jitsu-brasileno",
+   "krav-maga"
   ],
+  "infantil": true,
   "direccion": "Ed. Montsant, baixos 14, Sant Pere, TARRAGONA",
-  "web": "https://m.facebook.com/judovital.judohospitalet/?locale2=es_ES",
+  "web": "https://clubvitalesport.com/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-karate-kushin-kai",
@@ -264,9 +292,10 @@
   "disciplinas": [
    "karate"
   ],
+  "direccion": "C/ Dr. Zamenhof, 7 - Baixos",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-karate-otero",
@@ -306,6 +335,25 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "esportiva-taekwondo-vilaseca",
+  "nombre": "Esportiva Taekwondo Vilaseca",
+  "tipo": "escuela",
+  "municipio": "vila-seca",
+  "disciplinas": [
+   "taekwondo",
+   "tai-chi"
+  ],
+  "otras": [
+   "Pilates",
+   "Wudang Taichi"
+  ],
+  "infantil": true,
+  "web": "https://esportivataekwondovilaseca.wordpress.com/",
+  "fuente": "https://esportivataekwondovilaseca.wordpress.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "esports-clemente",
   "nombre": "Esports Clemente",
   "tipo": "escuela",
@@ -324,7 +372,7 @@
   "slug": "free-jiu-jitsu-salou",
   "nombre": "Free Jiu-jitsu Salou",
   "tipo": "escuela",
-  "municipio": "tarragona",
+  "municipio": "salou",
   "disciplinas": [
    "jiu-jitsu-japones",
    "grappling"
@@ -336,31 +384,21 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "fttspain",
-  "nombre": "Fttspain",
-  "tipo": "escuela",
-  "municipio": "tarragona",
-  "disciplinas": [
-   "mma"
-  ],
-  "direccion": "C/ del cami del mas clariana n 06. cambrils",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FTT",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
   "slug": "gracie-barra-vila-seca",
   "nombre": "Gracie Barra Vila-Seca",
   "tipo": "escuela",
-  "municipio": "tarragona",
+  "municipio": "vila-seca",
   "disciplinas": [
+   "jiu-jitsu-brasileno",
    "grappling",
    "mma"
   ],
-  "direccion": "C/ Galceran de Pinos, 12 â?? Vilaseca",
+  "infantil": true,
+  "direccion": "C/ Galceran de Pinos, 12 - 43480 - Vilaseca, Tarragona",
+  "web": "https://www.graciebarravilaseca.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GBVS",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "guerreros-de-fe",
@@ -374,19 +412,6 @@
   ],
   "direccion": "Pgind Francoli, Num 13 Parcela 20",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GFE",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
-  "slug": "kanaloa-sutemi-calafell",
-  "nombre": "Kanaloa Sutemi Calafell",
-  "tipo": "escuela",
-  "municipio": "tarragona",
-  "disciplinas": [
-   "mma"
-  ],
-  "direccion": "Passatge del Blat 5-7 Calafell C.P 43820",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KSC",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
@@ -411,9 +436,10 @@
   "disciplinas": [
    "karate"
   ],
+  "web": "https://www.karateclubshuto.com",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "krav-maga-kapap-center",
@@ -429,6 +455,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "krav-maga-tarragona",
+  "nombre": "Krav Maga Tarragona",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "krav-maga"
+  ],
+  "web": "http://www.kravmagatarragona.com/1/",
+  "fuente": "http://www.kravmagatarragona.com/1/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "kushinkai-constanti-ricardo-corbacho",
   "nombre": "Kushinkai Constantí Ricardo Corbacho",
   "tipo": "escuela",
@@ -439,6 +478,24 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "m4rtial",
+  "nombre": "M4RTIAL",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "mma",
+   "boxeo",
+   "kali",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "Carrer del Ferro 6, Polígono Riu Clar, 43006 Tarragona",
+  "web": "https://m4rtial.es/",
+  "fuente": "https://m4rtial.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "morell",
@@ -454,14 +511,36 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "mugendo-tarragona",
+  "nombre": "Mugendo Tarragona",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "Plaça ponent, numero 11 baixos 2, Tarragona",
+  "web": "https://tarragona.mugendo.es/",
+  "fuente": "https://tarragona.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "mushin-team",
   "nombre": "Mushin Team",
   "tipo": "escuela",
   "municipio": "tarragona",
-  "disciplinas": [],
+  "disciplinas": [
+   "jiu-jitsu-brasileno",
+   "grappling",
+   "mma",
+   "defensa-personal"
+  ],
+  "web": "https://www.mushintarragona.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=Mushin%20Team",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "musoken-club-karate",
@@ -471,9 +550,10 @@
   "disciplinas": [
    "karate"
   ],
+  "direccion": "C/ Eivissa, 12",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=6",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "sant-pere-i-sant-pau",
@@ -496,9 +576,10 @@
   "disciplinas": [
    "karate"
   ],
+  "direccion": "C/ Montblanc, 64",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "taekwondo-sungman-cha",
@@ -526,6 +607,27 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "tarraco-warriors",
+  "nombre": "Tarraco Warriors",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "otras": [
+   "K1",
+   "Full Contact",
+   "Point Fighting",
+   "Light Contact"
+  ],
+  "infantil": true,
+  "direccion": "Av. de Roma, 19, 43005 Tarragona",
+  "web": "https://www.tarracowarriors.com/",
+  "fuente": "https://www.tarracowarriors.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "ten-chi-jin-karate-do",
   "nombre": "Ten-Chi-Jin, Karate Do",
   "tipo": "escuela",
@@ -534,20 +636,6 @@
    "karate"
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
-  "slug": "zion-brazilian-jiu-jitsu",
-  "nombre": "Zion Brazilian Jiu-Jitsu",
-  "tipo": "escuela",
-  "municipio": "tarragona",
-  "disciplinas": [
-   "grappling",
-   "mma"
-  ],
-  "direccion": "Avenida Dels Paisos Catalans 162,",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ZION",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  }
