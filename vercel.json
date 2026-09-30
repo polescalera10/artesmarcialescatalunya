@@ -66,6 +66,36 @@
       "source": "/index.html",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/centros/club-judo-dojo-salou/",
+      "destination": "/centros/club-de-judo-salou/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/club-judo-dojo-salou/",
+      "destination": "/ca/centres/club-de-judo-salou/",
+      "permanent": true
+    },
+    {
+      "source": "/centros/a-e-karate-judo-la-llagosta/",
+      "destination": "/centros/assoc-esp-karate-judo-la-llagosta/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/a-e-karate-judo-la-llagosta/",
+      "destination": "/ca/centres/assoc-esp-karate-judo-la-llagosta/",
+      "permanent": true
+    },
+    {
+      "source": "/centros/granollers/",
+      "destination": "/centros/club-taekwondo-granollers/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/granollers/",
+      "destination": "/ca/centres/club-taekwondo-granollers/",
+      "permanent": true
     }
   ]
 }

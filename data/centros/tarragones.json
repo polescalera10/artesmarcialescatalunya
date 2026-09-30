@@ -145,7 +145,8 @@
   "tipo": "club",
   "municipio": "salou",
   "disciplinas": [
-   "judo"
+   "judo",
+   "defensa-personal"
   ],
   "direccion": "c/ Milà, 3, SALOU",
   "web": "http://www.facebook.com/clubdejudosalou",
@@ -163,20 +164,6 @@
   ],
   "direccion": "C/ Mas de Clariana Nº 4, Salou—tarragona",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
-  "slug": "club-judo-dojo-salou",
-  "nombre": "Club Judo Dojo Salou",
-  "tipo": "club",
-  "municipio": "salou",
-  "disciplinas": [
-   "defensa-personal"
-  ],
-  "direccion": "C/ Milà, 3, SALOU",
-  "web": "https://es-es.facebook.com/clubdejudodojosalou/",
-  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
