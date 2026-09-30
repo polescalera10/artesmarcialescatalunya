@@ -76,7 +76,7 @@
    "grappling"
   ],
   "direccion": "Passatge d'Elena Girol 18",
-  "web": "www.alphagymmma.com",
+  "web": "https://www.alphagymmma.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ALPHACAT",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -278,7 +278,7 @@
    "lucha"
   ],
   "direccion": "Carrer Llull 16-18",
-  "web": "www.barcelonajiujitsu.com",
+  "web": "https://www.barcelonajiujitsu.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BARJJ",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -407,7 +407,7 @@
  },
  {
   "slug": "chois-urquinaona",
-  "nombre": "Choi'S Urquinaona",
+  "nombre": "Choi's Urquinaona",
   "tipo": "escuela",
   "municipio": "barcelona",
   "disciplinas": [
@@ -1340,7 +1340,7 @@
    "grappling"
   ],
   "direccion": "Calle Entenza 218,",
-  "web": "www.flexfighting.com",
+  "web": "https://www.flexfighting.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FFA",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -1606,7 +1606,7 @@
    "mma"
   ],
   "direccion": "Av Litoral 86-96",
-  "web": "www.kravmagabcn.com",
+  "web": "https://www.kravmagabcn.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KMBCN",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -1889,7 +1889,7 @@
  },
  {
   "slug": "wons-barcelona",
-  "nombre": "Won'S Barcelona",
+  "nombre": "Won's Barcelona",
   "tipo": "escuela",
   "municipio": "barcelona",
   "disciplinas": [
