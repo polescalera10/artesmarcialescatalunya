@@ -95,19 +95,6 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "associacio-catalana-wta-de-taekwondo-taro-tae",
-  "nombre": "Associació Catalana Wta de Taekwondo Taro Tae",
-  "tipo": "asociacion",
-  "municipio": "molins-de-rei",
-  "disciplinas": [
-   "kickboxing"
-  ],
-  "direccion": "C/ Miguel Tort Nº 12,, Molins de Rei–barcelona",
-  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
   "slug": "associacio-esportiva-darts-marcials-viladecans",
   "nombre": "Associacio Esportiva d'Arts Marcials Viladecans",
   "tipo": "asociacion",
@@ -118,6 +105,19 @@
   ],
   "direccion": "Ctra. de Barcelona, 56 1º, 08840 Viladecans",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-catalana-wta-de-taekwondo-taro-tae",
+  "nombre": "Associació Catalana Wta de Taekwondo Taro Tae",
+  "tipo": "asociacion",
+  "municipio": "molins-de-rei",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "C/ Miguel Tort Nº 12,, Molins de Rei–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
@@ -800,6 +800,25 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "gym-boxing-saus",
+  "nombre": "Gym Boxing Saus",
+  "tipo": "gimnasio",
+  "municipio": "cornella-de-llobregat",
+  "disciplinas": [
+   "kickboxing",
+   "boxeo",
+   "mma",
+   "lucha",
+   "grappling"
+  ],
+  "direccion": "Calle Doctor Marti i Julia 43, 08940 Cornellà",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GBS",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-30",
+  "web": "https://www.gymboxingsaus.com/",
+  "infantil": true
+ },
+ {
   "slug": "hana-taekwondo-school",
   "nombre": "Hana Taekwondo School",
   "tipo": "escuela",
@@ -1055,6 +1074,21 @@
   "fuente": "https://viladecans.mugendo.es/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "nebari-jiujitsu",
+  "nombre": "Nebari Jiujitsu",
+  "tipo": "escuela",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Av. Constitución 56, 08860 Castelldefels",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=NEBARI",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-30",
+  "web": "https://nebarijiujitsu.com/"
  },
  {
   "slug": "nippon-prat-club-de-judo",

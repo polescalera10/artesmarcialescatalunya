@@ -208,7 +208,7 @@ export const PERFIL_BODIES: Record<string, string> = {
 
 <h2>Grappling</h2>
 <p>Lucha de agarre sin kimono: derribos, control y sumisiones, sin golpes. Es primo del <a href="/jiu-jitsu-brasileno/">jiu-jitsu brasileño</a> y comparte buena parte de su técnica.</p>
-<p><strong>Dónde consta:</strong> en {{d:grappling}} centros: tres en Sitges (AAMS, Flowmotion y SitgesFit), uno en Vilanova i la Geltrú (Zen Garraf) y uno en Sant Pere de Ribes (Art of Fighting). Flowmotion lo anuncia junto al MMA, y Art of Fighting junto al MMA y la lucha; en los otros tres va dentro de una oferta más amplia. Lo explicamos a fondo en <a href="/blog/que-es-el-grappling-y-donde-se-practica/">qué es el grappling y dónde se practica en el Garraf</a>.</p>
+<p><strong>Dónde consta:</strong> en {{d:grappling}} centros: tres en Sitges (AAMS, Flowmotion y SitgesFit), dos en Vilanova i la Geltrú (Academia Kerker Gym y Zen Garraf) y uno en Sant Pere de Ribes (Art of Fighting). Flowmotion y Academia Kerker Gym lo anuncian junto al MMA, y Art of Fighting junto al MMA y la lucha; en los otros tres va dentro de una oferta más amplia. Lo explicamos a fondo en <a href="/blog/que-es-el-grappling-y-donde-se-practica/">qué es el grappling y dónde se practica en el Garraf</a>.</p>
 
 <h2>Antes de ir a probar</h2>
 <p>Con los estilos minoritarios pasa algo concreto: como el centro los ofrece junto a otras disciplinas, a veces hay un solo grupo a la semana, o uno para todos los niveles. Pregunta tres cosas antes de desplazarte: cuántas clases semanales hay de ese estilo, si hay grupo de iniciación y quién lo imparte. Si no te encaja ninguno, la <a href="/iniciacion/">guía de iniciación</a> compara las diez disciplinas principales por objetivo.</p>

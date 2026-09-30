@@ -67,20 +67,6 @@
   "verificado": "2026-09-30"
  },
  {
-  "slug": "academia-kerker-gym",
-  "nombre": "Academia Kerker Gym",
-  "tipo": "gimnasio",
-  "municipio": "barcelona",
-  "disciplinas": [
-   "mma",
-   "grappling"
-  ],
-  "direccion": "Av. Eduard Tol Dra, 32b",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KERKER",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
   "slug": "alpha-gym-mma",
   "nombre": "Alpha Gym Mma",
   "tipo": "gimnasio",
@@ -354,7 +340,6 @@
    "mma",
    "grappling"
   ],
-  "direccion": "Barcelona",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BRAVE",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -963,7 +948,6 @@
   "tipo": "club",
   "municipio": "badalona",
   "disciplinas": [],
-  "direccion": "Torna a la Federació",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BJJBFIT%20Badalona",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -1460,7 +1444,6 @@
    "grappling",
    "lucha"
   ],
-  "direccion": "No Tiene",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ETT",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -1555,22 +1538,6 @@
   ],
   "direccion": "Plaça de la Marinada Nº1, Badalona–barcelona",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
-  "slug": "federacio-catalana-de-lluita-arbitre",
-  "nombre": "Federació Catalana de Lluita. Arbitre",
-  "tipo": "escuela",
-  "municipio": "sant-adria-de-besos",
-  "disciplinas": [
-   "lucha",
-   "mma",
-   "grappling",
-   "defensa-personal"
-  ],
-  "direccion": "C/ Arístides Maillol, s/n",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FCLL",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
@@ -1710,21 +1677,6 @@
   "verificado": "2026-09-30"
  },
  {
-  "slug": "gym-boxing-saus",
-  "nombre": "Gym Boxing Saus",
-  "tipo": "gimnasio",
-  "municipio": "barcelona",
-  "disciplinas": [
-   "mma",
-   "lucha",
-   "grappling"
-  ],
-  "direccion": "C/doctor Marti y Julia 43",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GBS",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
   "slug": "han-ra",
   "nombre": "Han Ra",
   "tipo": "escuela",
@@ -1747,21 +1699,6 @@
   ],
   "direccion": "Turo Blau, 22, 08016 Barcelona",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
-  "slug": "hibera-ludus",
-  "nombre": "Hibera Ludus",
-  "tipo": "escuela",
-  "municipio": "barcelona",
-  "disciplinas": [
-   "mma",
-   "grappling",
-   "lucha"
-  ],
-  "direccion": "Passeig Joan Moreira 10",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=HIBE",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
@@ -2200,20 +2137,6 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "nebari-jiujitsu",
-  "nombre": "Nebari Jiujitsu",
-  "tipo": "escuela",
-  "municipio": "barcelona",
-  "disciplinas": [
-   "grappling",
-   "mma"
-  ],
-  "direccion": "Avenida constitucio 56",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=NEBARI",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
   "slug": "oldskull-jiu-jitsu",
   "nombre": "Oldskull Jiu-Jitsu",
   "tipo": "escuela",
@@ -2318,20 +2241,6 @@
   "fuente": "https://www.royalboxingclub.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
- },
- {
-  "slug": "sasori-fight-academy",
-  "nombre": "Sasori Fight Academy",
-  "tipo": "escuela",
-  "municipio": "barcelona",
-  "disciplinas": [
-   "mma",
-   "grappling"
-  ],
-  "direccion": "Avenida Santiga , 20 , Santa Perpetua de Mogoda , 08130",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=SASORI",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
  },
  {
   "slug": "satori",
@@ -2527,7 +2436,6 @@
    "grappling",
    "lucha"
   ],
-  "direccion": "Barcelona",
   "web": "https://uppercuttraining.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=UPP",
   "fuenteTipo": "federacion",

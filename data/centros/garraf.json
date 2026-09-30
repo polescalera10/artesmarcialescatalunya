@@ -48,6 +48,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "academia-kerker-gym",
+  "nombre": "Academia Kerker Gym",
+  "tipo": "gimnasio",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Avinguda d'Eduard Toldrà, 32 bis, 08800 Vilanova i la Geltrú",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KERKER",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "aranha-vng",
   "nombre": "Aranha VNG",
   "tipo": "escuela",

@@ -725,7 +725,6 @@
    "lucha",
    "grappling"
   ],
-  "direccion": "Sabadell",
   "web": "https://www.copscave.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=COPS",
   "fuenteTipo": "federacion",
@@ -960,20 +959,6 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "gimnas-squash-4",
-  "nombre": "Gimnàs Squash 4",
-  "tipo": "gimnasio",
-  "municipio": "terrassa",
-  "disciplinas": [
-   "karate"
-  ],
-  "direccion": "Carrer de la Rasa 72, 08221 Terrassa",
-  "web": "https://squash4.com/",
-  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-30"
- },
- {
   "slug": "gimnasio-gali-ripollet",
   "nombre": "Gimnasio Gali",
   "tipo": "gimnasio",
@@ -991,6 +976,20 @@
   "web": "https://gimnasiogali.com/",
   "fuente": "https://gimnasiogali.com/actividades/karate-kyokushin-ripollet/",
   "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "gimnas-squash-4",
+  "nombre": "Gimnàs Squash 4",
+  "tipo": "gimnasio",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "karate"
+  ],
+  "direccion": "Carrer de la Rasa 72, 08221 Terrassa",
+  "web": "https://squash4.com/",
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
  },
  {
@@ -1295,6 +1294,20 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=PRFT",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sasori-fight-academy",
+  "nombre": "Sasori Fight Academy",
+  "tipo": "escuela",
+  "municipio": "santa-perpetua-de-mogoda",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Avenida Santiga, 20, 08130 Santa Perpètua de Mogoda",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=SASORI",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "senshi-dojo",

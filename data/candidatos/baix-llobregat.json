@@ -84,12 +84,6 @@
   "motivo": "Su web era un negocio.site (404); no hay otra fuente válida"
  },
  {
-  "nombre": "Gym Boxing Saus",
-  "municipio": "cornella-de-llobregat",
-  "pista": "https://www.gymboxingsaus.com/ (boxeo, boxeo infantil, kickboxing, K1; Calle Doctor Marti i Julia 43, 08940 Cornellà)",
-  "motivo": "Verificado en su web, pero ya existe en barcelones.json (slug gym-boxing-saus) con municipio barcelona por error: hay que moverlo a Cornellà, no duplicarlo"
- },
- {
   "nombre": "Hyun Su Pallejà",
   "municipio": "palleja",
   "pista": "zeusfitness.net (Carrer l'Atlàntida, 37) y reservio de Hyun Su Vallirana i Pallejà",

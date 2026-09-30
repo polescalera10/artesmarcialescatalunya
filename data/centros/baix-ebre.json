@@ -45,7 +45,9 @@
   "tipo": "escuela",
   "municipio": "tortosa",
   "disciplinas": [
-   "grappling"
+   "grappling",
+   "mma",
+   "lucha"
   ],
   "direccion": "passeig Joan moreira 10",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=HIBERA",
