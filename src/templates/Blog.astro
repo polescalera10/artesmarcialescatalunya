@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import { url, fecha } from '../lib/i18n';
+import { POSTS } from '../lib/editorial';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+
+const articulos = POSTS.filter(p => p.tipo === 'articulo');
+const guias = POSTS.filter(p => p.tipo === 'guia');
+const title = 'Blog de artes marciales: guías para empezar';
+const description = 'Qué arte marcial elegir, a qué edad empezar, cómo es la primera clase y cómo comparar centros. Guías prácticas, sin publicidad de centros.';
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  '@id': `${SITE.url}${url.blog()}`,
+  name: title,
+  description,
+  url: `${SITE.url}${url.blog()}`,
+  inLanguage: 'es',
+  isPartOf: { '@id': SCHEMA_IDS.website },
+  publisher: { '@id': SCHEMA_IDS.organization },
+};
+---
+
+<Layout title={title} description={description} canonical={url.blog()} schema={schema} lang="es">
+  <Header lang="es" />
+  <main id="contenido">
+    <Migas lang="es" items={[{ nombre: 'Blog', href: url.blog() }]} />
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">Blog</h1>
+      <p class="text-lg text-brand-muted mt-3 max-w-3xl">{description}</p>
+    </section>
+    {[['Artículos', articulos], ['Guías por perfil y objetivo', guias]].map(([t, ps]) => (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <h2 class="text-xl font-bold text-white mb-4">{t}</h2>
+        <ul class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {(ps as typeof POSTS).map(p => (
+            <li class="bg-brand-gray border border-brand-border rounded-xl p-5 flex flex-col gap-2">
+              <a href={url.post(p.slug)} class="font-semibold text-white hover:text-brand-red">{p.h1}</a>
+              <p class="text-sm text-brand-muted line-clamp-3">{p.descripcion}</p>
+              {p.tipo === 'articulo' && <time datetime={p.fecha} class="text-xs text-brand-muted/70 mt-auto">{fecha('es', p.fecha)}</time>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </main>
+  <Footer lang="es" />
+</Layout>

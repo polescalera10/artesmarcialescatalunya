@@ -1,0 +1,157 @@
+[
+ {
+  "slug": "budokan-penedes",
+  "nombre": "Budokan Penedès",
+  "tipo": "escuela",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "centre-desports-torrelavit",
+  "nombre": "Centre d'Esports Torrelavit",
+  "tipo": "escuela",
+  "municipio": "torrelavit",
+  "disciplinas": [
+   "judo",
+   "defensa-personal"
+  ],
+  "direccion": "C/ de les escoles, s/n Pavello Municipal - 08734 - Torrelavit",
+  "web": "http://www.torrelavit.cat",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "chois-vilafranca",
+  "nombre": "Choi'S Vilafranca",
+  "tipo": "escuela",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "General Cortijo, 23 C, 08720 Vilafranca del Penedes",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-team-urpi",
+  "nombre": "Club Boxa Team Urpi",
+  "tipo": "club",
+  "municipio": "sant-sadurni-danoia",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-els-monjos",
+  "nombre": "Club Judo Els Monjos",
+  "tipo": "club",
+  "municipio": "santa-margarida-i-els-monjos",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Santa Margarita, 37, 1, SANTA MARGARIDA I ELS MONJOS",
+  "web": "http://www.club-judo-els-monjos.es",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-olerdola",
+  "nombre": "Club Judo Olerdola",
+  "tipo": "club",
+  "municipio": "olerdola",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Sant Ferran, 11, MOJA (OLERDOLA)",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-vilafranca-vilanova-vilafranca-del-penedes",
+  "nombre": "Club Judo Vilafranca-Vilanova",
+  "tipo": "club",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Germanor, 44, VILAFRANCA DEL PENEDÈS",
+  "web": "https://www.facebook.com/juanma.judovilafranca",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-kizuna-sant-sadurni",
+  "nombre": "Club Karate Kizuna Sant Sadurní",
+  "tipo": "club",
+  "municipio": "sant-sadurni-danoia",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=14",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "combat-sambo-vilafranca",
+  "nombre": "Combat sambo Vilafranca",
+  "tipo": "escuela",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "lucha"
+  ],
+  "direccion": "Avenida Europa",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CSVILA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "equip-4-club-karate",
+  "nombre": "Equip 4, Club Karate",
+  "tipo": "escuela",
+  "municipio": "sant-sadurni-danoia",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "hiraken-karate-do-gimnas",
+  "nombre": "Hiraken Karate Do, Gimnàs",
+  "tipo": "gimnasio",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sambo-els-monjos",
+  "nombre": "Sambo Els Monjos",
+  "tipo": "escuela",
+  "municipio": "santa-margarida-i-els-monjos",
+  "disciplinas": [
+   "lucha"
+  ],
+  "direccion": "Cállese Berenguer 49",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=MONJOS",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

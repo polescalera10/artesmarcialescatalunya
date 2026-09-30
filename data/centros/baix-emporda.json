@@ -1,0 +1,130 @@
+[
+ {
+  "slug": "c-e-aikido-emporda",
+  "nombre": "C.E. Aikido Empordà",
+  "tipo": "club",
+  "municipio": "torroella-de-montgri",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "direccion": "Passeig Molinet, 18 bis, L'ESTARTIT",
+  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-tai-txi-kung-fu-emporda",
+  "nombre": "Club de Tai Txi Kung Fu Emporda",
+  "tipo": "club",
+  "municipio": "palamos-i-sant-joan",
+  "disciplinas": [],
+  "direccion": "Torna a la Federació",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KRAV%20MAGA%20PALAMOS",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-dojo-sant-feliu",
+  "nombre": "Club Esportiu Dojo Sant Feliu",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-guixols",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=17",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-hira-yama",
+  "nombre": "Club Esportiu Hira-Yama",
+  "tipo": "club",
+  "municipio": "mont-ras",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=17",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-templo-fighting",
+  "nombre": "Club Esportiu Templo Fighting",
+  "tipo": "club",
+  "municipio": "torroella-de-montgri",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carretera Torroella Nº164, Torroella de Montgrí / l' Estartit – Girona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-jita-kyoei-calonge",
+  "nombre": "Club Judo Jita Kyoei Calonge",
+  "tipo": "club",
+  "municipio": "calonge-i-sant-antoni",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Avda Vescomptat de Cabanyes, 69. CALONGE",
+  "web": "https://es-es.facebook.com/clubjudojitakyoei/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-palamos",
+  "nombre": "Club Judo Palamos",
+  "tipo": "club",
+  "municipio": "palamos-i-sant-joan",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Plaça Vila-romà, S/N (Pavelló d'esports), PALAMOS",
+  "web": "http://www.judo-palamos.org/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-kick-boxing-palafrugell",
+  "nombre": "Club Kick Boxing Palafrugell",
+  "tipo": "club",
+  "municipio": "palafrugell",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Major Nº5, Palafrugell–girona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-muay-thai-dasilva",
+  "nombre": "Club Muay Thaï Dasilva",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-guixols",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Carrer Alacant Nº 77, Sant Feliu de Guixols-Girona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "karate-bisbal",
+  "nombre": "Karate Bisbal",
+  "tipo": "escuela",
+  "municipio": "forallac",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

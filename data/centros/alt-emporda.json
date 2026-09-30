@@ -1,0 +1,196 @@
+[
+ {
+  "slug": "assoc-judo-de-lalt-emporda",
+  "nombre": "Assoc. Judo de l'Alt Emporda",
+  "tipo": "escuela",
+  "municipio": "figueres",
+  "disciplinas": [
+   "judo",
+   "defensa-personal",
+   "boxeo",
+   "kickboxing",
+   "mma",
+   "grappling"
+  ],
+  "direccion": "C/ Joan Reglà, 5, baix A., FIGUERES",
+  "web": "http://www.savas.cat",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-hapkido-figueres",
+  "nombre": "Associacio Hapkido Figueres",
+  "tipo": "asociacion",
+  "municipio": "pont-de-molins",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido",
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Canigo, 10, 17706 Pont de Molins",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-warriors-roses",
+  "nombre": "Club Boxa Warriors Roses",
+  "tipo": "club",
+  "municipio": "roses",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-boxa-figueres",
+  "nombre": "Club de Boxa Figueres",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Plaça del Voluntaris S/n, Figueres-Girona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-judo-vilafant",
+  "nombre": "Club Esportiu Judo Vilafant",
+  "tipo": "club",
+  "municipio": "vilafant",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Llers, 1 17740 – VILAFANT",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-tramuntana-llanca",
+  "nombre": "Club Taekwondo Tramuntana Llança",
+  "tipo": "club",
+  "municipio": "llanca",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "8 de Març, S/n, 17490 Llança",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "escuela-kang",
+  "nombre": "Escuela Kang",
+  "tipo": "escuela",
+  "municipio": "figueres",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Nuestra Sra. de Montserrat, S/n, 17600 Figueres",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gendai-nihon-kobudo-bujutsu",
+  "nombre": "Gendai Nihon Kobudo Bujutsu",
+  "tipo": "escuela",
+  "municipio": "figueres",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "otras": [
+   "bujutsu"
+  ],
+  "direccion": "C/juli Garreta, 18- 17600",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GNK2",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "i-m-a-f",
+  "nombre": "I M a F",
+  "tipo": "escuela",
+  "municipio": "figueres",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "jan-su-figueres",
+  "nombre": "Jan Su Figueres",
+  "tipo": "escuela",
+  "municipio": "figueres",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Victor Catala, 9-11, 17600 Figueres",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "joans",
+  "nombre": "Joan'S",
+  "tipo": "escuela",
+  "municipio": "roses",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Puig Rom, 119, 17480 Roses",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "judo-club-nakama-vilafant",
+  "nombre": "Judo club Nakama Vilafant",
+  "tipo": "escuela",
+  "municipio": "vilafant",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Sud, 14, Vilafant",
+  "web": "http://www.nakama.cat",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tae-sport",
+  "nombre": "Tae Sport",
+  "tipo": "escuela",
+  "municipio": "vilafant",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Ampurda, 25-A, 17740 Vilafant",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-jonquera",
+  "nombre": "Taekwondo Jonquera",
+  "tipo": "escuela",
+  "municipio": "la-jonquera",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Zona Esportiva, S/n, 17741 la Jonquera",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

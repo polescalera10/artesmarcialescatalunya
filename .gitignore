@@ -11,3 +11,4 @@ node_modules/
 
 # Configuración local del entorno de previsualización, no del proyecto.
 .claude/
+.env*

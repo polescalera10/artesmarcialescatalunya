@@ -1,0 +1,16 @@
+[
+ {
+  "slug": "punt-desport-balaguer",
+  "nombre": "Punt d'Esport Balaguer",
+  "tipo": "escuela",
+  "municipio": "balaguer",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Bellmunt, 10, 25600 Balaguer",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

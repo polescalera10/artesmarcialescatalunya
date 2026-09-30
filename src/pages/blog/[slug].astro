@@ -1,0 +1,6 @@
+---
+import T from '../../templates/Post.astro';
+import { POSTS } from '../../lib/editorial';
+export const getStaticPaths = () => POSTS.map(post => ({ params: { slug: post.slug }, props: { post } }));
+---
+<T post={Astro.props.post} />

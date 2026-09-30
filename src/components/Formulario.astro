@@ -1,0 +1,145 @@
+---
+// Formulario único para centros y visitantes. Envía a /api/contacto (Resend);
+// si el envío no está disponible, abre el cliente de correo con el mensaje ya
+// redactado y lo deja visible para copiarlo.
+import { L, url, type Lang } from '../lib/i18n';
+import { SITE } from '../lib/site';
+
+interface Props {
+  lang: Lang;
+  modo: 'centro' | 'visitante';
+}
+const { lang, modo } = Astro.props;
+const input = 'w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white text-sm placeholder-brand-muted focus:outline-none focus:border-brand-red';
+const tipos = modo === 'centro'
+  ? [
+      ['alta', L(lang, 'Quiero añadir mi centro (gratis)', 'Vull afegir el meu centre (gratis)')],
+      ['correccion', L(lang, 'Corregir o completar mi ficha (gratis)', 'Corregir o completar la meva fitxa (gratis)')],
+      ['promocion', L(lang, 'Destacar mi centro (promocionado)', 'Destacar el meu centre (promocionat)')],
+      ['web', L(lang, 'No tengo web y quiero una', 'No tinc web i en vull una')],
+      ['seo', L(lang, 'Quiero mejorar mi posicionamiento en Google', 'Vull millorar el meu posicionament a Google')],
+    ]
+  : [
+      ['consulta', L(lang, 'Busco dónde entrenar', 'Busco on entrenar')],
+      ['correccion', L(lang, 'He visto un dato incorrecto', 'He vist una dada incorrecta')],
+      ['otro', L(lang, 'Otra cosa', 'Una altra cosa')],
+    ];
+---
+
+<form class="space-y-4" data-formulario data-email={SITE.email} data-lang={lang} novalidate>
+  <div>
+    <label for="f-tipo" class="block text-sm text-white mb-1.5">{L(lang, '¿Qué necesitas?', 'Què necessites?')}</label>
+    <select id="f-tipo" name="tipo" class={input}>
+      {tipos.map(([v, t]) => <option value={v}>{t}</option>)}
+    </select>
+  </div>
+  <div class="grid sm:grid-cols-2 gap-4">
+    <div>
+      <label for="f-nombre" class="block text-sm text-white mb-1.5">{L(lang, 'Tu nombre', 'El teu nom')}</label>
+      <input id="f-nombre" name="nombre" autocomplete="name" class={input} maxlength="120" />
+    </div>
+    <div>
+      <label for="f-email" class="block text-sm text-white mb-1.5">Email <span class="text-brand-red">*</span></label>
+      <input id="f-email" name="email" type="email" autocomplete="email" required class={input} maxlength="160" />
+    </div>
+  </div>
+  {modo === 'centro' && (
+    <div class="grid sm:grid-cols-3 gap-4">
+      <div>
+        <label for="f-centro" class="block text-sm text-white mb-1.5">{L(lang, 'Centro', 'Centre')}</label>
+        <input id="f-centro" name="centro" class={input} maxlength="160" />
+      </div>
+      <div>
+        <label for="f-municipio" class="block text-sm text-white mb-1.5">{L(lang, 'Municipio', 'Municipi')}</label>
+        <input id="f-municipio" name="municipio" class={input} maxlength="120" />
+      </div>
+      <div>
+        <label for="f-web" class="block text-sm text-white mb-1.5">{L(lang, 'Web o red social', 'Web o xarxa social')}</label>
+        <input id="f-web" name="web" type="url" inputmode="url" class={input} maxlength="300" placeholder="https://" />
+      </div>
+    </div>
+  )}
+  <div>
+    <label for="f-mensaje" class="block text-sm text-white mb-1.5">{L(lang, 'Mensaje', 'Missatge')}</label>
+    <textarea id="f-mensaje" name="mensaje" rows="5" class={input} maxlength="4000"
+      placeholder={modo === 'centro'
+        ? L(lang, 'Disciplinas que ofreces, dirección, clases infantiles… o lo que haya que corregir.', 'Disciplines que ofereixes, adreça, classes infantils… o el que calgui corregir.')
+        : L(lang, 'Cuéntanos qué buscas o qué dato está mal.', "Explica'ns què busques o quina dada està malament.")}></textarea>
+  </div>
+  <div class="hidden" aria-hidden="true">
+    <label>No rellenar <input name="empresa_web" tabindex="-1" autocomplete="off" /></label>
+  </div>
+  <label class="flex items-start gap-2 text-xs text-brand-muted">
+    <input type="checkbox" name="acepto" required class="mt-0.5" />
+    <span>
+      {L(lang, 'He leído la ', "He llegit la ")}<a href={url.privacidad()} class="underline hover:text-white">{L(lang, 'política de privacidad', 'política de privadesa')}</a>{L(lang,
+        '. Usamos tus datos solo para responderte; no se ceden a terceros ni se usan para publicidad.',
+        ". Fem servir les teves dades només per respondre't; no se cedeixen a tercers ni s'utilitzen per a publicitat.")}
+    </span>
+  </label>
+  <button type="submit" class="w-full sm:w-auto bg-brand-red hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+    {L(lang, 'Enviar', 'Envia')}
+  </button>
+  <p class="text-sm hidden" data-estado role="status"></p>
+  <div class="hidden" data-plan-b>
+    <p class="text-sm text-brand-muted mb-2">{L(lang, `Si no se ha abierto tu correo, copia este mensaje y envíalo a ${SITE.email}:`, `Si no s'ha obert el teu correu, copia aquest missatge i envia'l a ${SITE.email}:`)}</p>
+    <textarea readonly rows="8" class={input} data-plan-b-texto></textarea>
+  </div>
+</form>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('[data-formulario]').forEach(form => {
+    const ca = form.dataset.lang === 'ca';
+    const t = (es: string, c: string) => (ca ? c : es);
+    const estado = form.querySelector<HTMLElement>('[data-estado]')!;
+    const planB = form.querySelector<HTMLElement>('[data-plan-b]')!;
+    const planBTexto = form.querySelector<HTMLTextAreaElement>('[data-plan-b-texto]')!;
+    const params = new URLSearchParams(location.search);
+    const centro = params.get('centro');
+    if (centro) {
+      const sel = form.querySelector<HTMLSelectElement>('[name=tipo]');
+      if (sel) sel.value = 'correccion';
+      const c = form.querySelector<HTMLInputElement>('[name=centro]');
+      if (c) c.value = centro;
+    }
+    const tipo = params.get('tipo');
+    if (tipo) { const sel = form.querySelector<HTMLSelectElement>('[name=tipo]'); if (sel && [...sel.options].some(o => o.value === tipo)) sel.value = tipo; }
+
+    const mostrar = (msg: string, ok: boolean) => {
+      estado.textContent = msg;
+      estado.className = `text-sm ${ok ? 'text-green-400' : 'text-amber-400'}`;
+    };
+
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      const fd = new FormData(form);
+      const datos: Record<string, string | boolean> = Object.fromEntries([...fd.entries()].map(([k, v]) => [k, String(v)]));
+      datos.acepto = fd.get('acepto') === 'on';
+      datos.pagina = location.pathname;
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(datos.email || ''))) return mostrar(t('Revisa el email.', "Revisa l'email."), false);
+      if (!datos.acepto) return mostrar(t('Marca la casilla de privacidad para poder enviarlo.', 'Marca la casella de privadesa per poder enviar-lo.'), false);
+      const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+      btn.disabled = true;
+      try {
+        const r = await fetch('/api/contacto', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(datos) });
+        if (r.ok) {
+          form.reset();
+          mostrar(t('Recibido. Te respondemos por email en uno o dos días laborables.', 'Rebut. Et responem per email en un o dos dies feiners.'), true);
+          (window as any).gtag?.('event', 'generate_lead', { form_tipo: datos.tipo });
+          return;
+        }
+        if (r.status !== 503) throw new Error(String(r.status));
+      } catch {
+        // cae al plan B
+      } finally {
+        btn.disabled = false;
+      }
+      const cuerpo = ['tipo', 'nombre', 'email', 'centro', 'municipio', 'web'].filter(k => datos[k]).map(k => `${k}: ${datos[k]}`).join('\n') + `\n\n${datos.mensaje ?? ''}`;
+      const asunto = `[${datos.tipo}] ${datos.centro || datos.nombre || ''}`.trim();
+      planBTexto.value = cuerpo;
+      planB.classList.remove('hidden');
+      mostrar(t('Abriendo tu programa de correo…', 'Obrint el teu programa de correu…'), true);
+      location.href = `mailto:${form.dataset.email}?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(cuerpo)}`;
+    });
+  });
+</script>

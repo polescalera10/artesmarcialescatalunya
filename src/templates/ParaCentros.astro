@@ -1,0 +1,139 @@
+---
+// Página comercial para centros: alta y correcciones gratis; promocionado,
+// web y SEO local de pago. Sin precios publicados hasta que Pol los fije.
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import FAQ from '../components/FAQ.astro';
+import Formulario from '../components/Formulario.astro';
+import { L, url, type Lang } from '../lib/i18n';
+import { CENTROS, comarcasConCentros } from '../lib/centros';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const sinWeb = CENTROS.filter(c => !c.web).length;
+
+const title = L(lang, 'Para centros de artes marciales: alta gratis y promoción', "Per a centres d'arts marcials: alta gratis i promoció");
+const description = L(lang,
+  'Añade o corrige gratis la ficha de tu centro en el directorio de artes marciales de Cataluña. Y si quieres destacar o no tienes web, te ayudamos.',
+  "Afegeix o corregeix gratis la fitxa del teu centre al directori d'arts marcials de Catalunya. I si vols destacar o no tens web, t'ajudem.");
+
+const bloques = [
+  {
+    titulo: L(lang, 'Ficha gratuita', 'Fitxa gratuïta'),
+    precio: L(lang, 'Gratis, siempre', 'Gratis, sempre'),
+    texto: L(lang,
+      'Todos los centros con una fuente pública aparecen en el directorio sin pagar nada. Si falta el tuyo o algún dato está mal, escríbenos y lo corregimos.',
+      "Tots els centres amb una font pública surten al directori sense pagar res. Si hi falta el teu o alguna dada està malament, escriu-nos i ho corregim."),
+    cta: 'alta',
+  },
+  {
+    titulo: L(lang, 'Centro promocionado', 'Centre promocionat'),
+    precio: L(lang, 'Cuota mensual', 'Quota mensual'),
+    texto: L(lang,
+      'Tu ficha aparece también en un bloque destacado arriba de las páginas de tu comarca, tu municipio y tus disciplinas, con la etiqueta "Promocionado". El listado alfabético no cambia: nadie paga por estar más arriba en él.',
+      "La teva fitxa apareix també en un bloc destacat a dalt de les pàgines de la teva comarca, el teu municipi i les teves disciplines, amb l'etiqueta \"Promocionat\". El llistat alfabètic no canvia: ningú paga per estar més amunt.")
+    ,
+    cta: 'promocion',
+  },
+  {
+    titulo: L(lang, 'Web para tu centro', 'Web per al teu centre'),
+    precio: L(lang, 'Proyecto a medida', 'Projecte a mida'),
+    texto: L(lang,
+      `${sinWeb} centros del directorio no tienen web propia que hayamos podido encontrar. Si es tu caso, te hacemos una web rápida, pensada para aparecer en Google cuando alguien busca tu disciplina en tu municipio.`,
+      `${sinWeb} centres del directori no tenen web pròpia que hàgim pogut trobar. Si és el teu cas, et fem un web ràpid, pensat per sortir a Google quan algú busca la teva disciplina al teu municipi.`),
+    cta: 'web',
+  },
+  {
+    titulo: L(lang, 'SEO local para gimnasios', 'SEO local per a gimnasos'),
+    precio: L(lang, 'Según objetivos', 'Segons objectius'),
+    texto: L(lang,
+      'Ficha de Google Business Profile, páginas por disciplina y municipio, contenido y medición. Lo mismo que hacemos con este directorio, aplicado a tu centro.',
+      'Fitxa de Google Business Profile, pàgines per disciplina i municipi, contingut i mesura. El mateix que fem amb aquest directori, aplicat al teu centre.'),
+    cta: 'seo',
+  },
+];
+
+const faq = [
+  {
+    q: L(lang, '¿Tengo que pagar para aparecer?', 'He de pagar per aparèixer?'),
+    a: L(lang,
+      'No. El directorio incluye todos los centros que podemos verificar con una fuente pública, paguen o no. Pagar solo añade un bloque destacado y etiquetado; nunca cambia el orden del listado ni lo que decimos de otros centros.',
+      "No. El directori inclou tots els centres que podem verificar amb una font pública, paguin o no. Pagar només afegeix un bloc destacat i etiquetat; mai no canvia l'ordre del llistat ni el que diem d'altres centres."),
+  },
+  {
+    q: L(lang, '¿Qué datos publicáis de mi centro?', 'Quines dades publiqueu del meu centre?'),
+    a: L(lang,
+      'Nombre, municipio, disciplinas, dirección y web si constan en una fuente pública, y la fuente con su fecha. No publicamos teléfonos personales, nombres de instructores, precios ni valoraciones.',
+      "Nom, municipi, disciplines, adreça i web si consten en una font pública, i la font amb la data. No publiquem telèfons personals, noms d'instructors, preus ni valoracions."),
+  },
+  {
+    q: L(lang, 'Quiero que retiréis mi centro. ¿Se puede?', 'Vull que retireu el meu centre. Es pot?'),
+    a: L(lang,
+      'Sí. Escríbenos desde un correo del centro o indícanos cómo comprobar que eres el responsable y lo retiramos.',
+      "Sí. Escriu-nos des d'un correu del centre o indica'ns com comprovar que n'ets el responsable i el retirem."),
+  },
+];
+
+const alternates = { es: url.paraCentros('es'), ca: url.paraCentros('ca') };
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${SITE.url}${url.paraCentros(lang)}`,
+  name: title,
+  description,
+  url: `${SITE.url}${url.paraCentros(lang)}`,
+  inLanguage: lang,
+  isPartOf: { '@id': SCHEMA_IDS.website },
+  publisher: { '@id': SCHEMA_IDS.organization },
+};
+---
+
+<Layout title={title} description={description} canonical={url.paraCentros(lang)} schema={schema} lang={lang} alternates={alternates}>
+  <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
+  <main id="contenido">
+    <Migas lang={lang} items={[{ nombre: L(lang, 'Para centros', 'Per a centres'), href: url.paraCentros(lang) }]} />
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight max-w-3xl">
+        {L(lang, 'Tu centro, donde te buscan', 'El teu centre, on et busquen')}
+      </h1>
+      <p class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed">
+        {L(lang,
+          `Artes Marciales Catalunya reúne ${CENTROS.length} centros de ${comarcasConCentros().length} comarcas, cada uno con su fuente pública. Aparecer es gratis. Si además quieres destacar o necesitas web, te lo contamos aquí.`,
+          `Arts Marcials Catalunya reuneix ${CENTROS.length} centres de ${comarcasConCentros().length} comarques, cadascun amb la seva font pública. Sortir-hi és gratis. Si a més vols destacar o necessites web, t'ho expliquem aquí.`)}
+      </p>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {bloques.map(b => (
+        <div class="bg-brand-gray border border-brand-border rounded-xl p-6 flex flex-col gap-3">
+          <p class="text-xs uppercase tracking-wide text-brand-red font-semibold">{b.precio}</p>
+          <h2 class="text-lg font-bold text-white">{b.titulo}</h2>
+          <p class="text-sm text-brand-muted leading-relaxed">{b.texto}</p>
+          <a href={`?tipo=${b.cta}#formulario`} class="mt-auto text-sm font-semibold text-brand-red hover:text-red-400" data-tipo={b.cta}>{L(lang, 'Me interesa', "M'interessa")} →</a>
+        </div>
+      ))}
+    </section>
+
+    <section id="formulario" class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 scroll-mt-24">
+      <h2 class="text-2xl font-bold text-white mb-2">{L(lang, 'Escríbenos', 'Escriu-nos')}</h2>
+      <p class="text-sm text-brand-muted mb-6">{L(lang, 'Respondemos por email en uno o dos días laborables.', 'Responem per email en un o dos dies feiners.')}</p>
+      <div class="bg-brand-gray border border-brand-border rounded-xl p-6">
+        <Formulario lang={lang} modo="centro" />
+      </div>
+    </section>
+
+    <FAQ items={faq} title={L(lang, 'Preguntas frecuentes', 'Preguntes freqüents')} />
+  </main>
+  <Footer lang={lang} />
+</Layout>
+
+<script>
+  document.querySelectorAll<HTMLAnchorElement>('[data-tipo]').forEach(a => a.addEventListener('click', () => {
+    const sel = document.querySelector<HTMLSelectElement>('#f-tipo');
+    if (sel) sel.value = a.dataset.tipo!;
+  }));
+</script>

@@ -1,0 +1,7 @@
+---
+import T from '../../../templates/Disciplina.astro';
+import { rutasDisciplina } from '../../../lib/rutas';
+export const getStaticPaths = () => rutasDisciplina().map(params => ({ params }));
+const p = Astro.params as Record<string, string>;
+---
+<T lang="es" disciplina={p.disciplina} />

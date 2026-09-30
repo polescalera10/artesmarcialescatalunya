@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "club-esportiu-mma-valls",
+  "nombre": "Club Esportiu MMA Valls",
+  "tipo": "club",
+  "municipio": "valls",
+  "disciplinas": [
+   "grappling",
+   "jiu-jitsu-japones",
+   "mma"
+  ],
+  "direccion": "C/ Josep Maria Fabregà, núm. 6",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=MMAVALLS",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-asna",
+  "nombre": "Club Karate Asnà",
+  "tipo": "club",
+  "municipio": "valls",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kumgang-valls",
+  "nombre": "Kumgang Valls",
+  "tipo": "escuela",
+  "municipio": "valls",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Plaça del Titit, S/n, 43800 Valls",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

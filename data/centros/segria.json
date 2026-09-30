@@ -1,0 +1,236 @@
+[
+ {
+  "slug": "afides",
+  "nombre": "Afides",
+  "tipo": "escuela",
+  "municipio": "alpicat",
+  "disciplinas": [
+   "defensa-personal",
+   "lucha"
+  ],
+  "direccion": "c/Sant Sebastià núm 16",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FIDES",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "alcarras",
+  "nombre": "Alcarras",
+  "tipo": "escuela",
+  "municipio": "alcarras",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Passeig del Riu, 16, 25180 Alcarras",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "assoc-esportiva-ekke-lleida",
+  "nombre": "Assoc Esportiva Ekke Lleida",
+  "tipo": "escuela",
+  "municipio": "lleida",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "Avinguda Rovira Roure, 41-43, LLEIDA",
+  "web": "https://ekke.cat/ca/",
+  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "bordeta",
+  "nombre": "Bordeta",
+  "tipo": "escuela",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Juneda, 31, 25001 Lleida",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "budokan-lerida-gimnasio",
+  "nombre": "Budokan Lerida, Gimnasio",
+  "tipo": "gimnasio",
+  "municipio": "lleida",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=3",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-dojo-lleida",
+  "nombre": "C.E. Dojo Lleida",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Bergadà, 6, LLEIDA",
+  "web": "https://www.facebook.com/Dojo-Lleida-160442421058162/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-guantes-de-oro",
+  "nombre": "Club Boxa Guantes de Oro",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-uppercut",
+  "nombre": "Club Boxa Uppercut",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-karate-alguaire",
+  "nombre": "Club Esportiu Karate Alguaire",
+  "tipo": "club",
+  "municipio": "alguaire",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-almacelles",
+  "nombre": "Club Judo Almacelles",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Sant Roc, 67 - 25100 - ALMACELLES - LLEIDA",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "do-san-lee",
+  "nombre": "Do San Lee",
+  "tipo": "escuela",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Avda. San Ruf, 16 Bjos, 25004 Lerida",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-umiten",
+  "nombre": "Dojo Umiten",
+  "tipo": "escuela",
+  "municipio": "lleida",
+  "disciplinas": [
+   "aikido"
+  ],
+  "direccion": "C/Passatge Sant Jeroni, 25, 25005 LLEIDA",
+  "fuente": "https://www.fcaikido.cat/dojos.html",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gimnas-puente",
+  "nombre": "Gimnàs Puente",
+  "tipo": "gimnasio",
+  "municipio": "lleida",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "karate-almacelles",
+  "nombre": "Karate Almacelles",
+  "tipo": "escuela",
+  "municipio": "almacelles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "mikazuki-kai",
+  "nombre": "Mikazuki Kai",
+  "tipo": "escuela",
+  "municipio": "lleida",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=6",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "natacio-lleida",
+  "nombre": "Natacio Lleida",
+  "tipo": "escuela",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Pda. Balafia, 132, 25196 Lleida",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "pac-dom",
+  "nombre": "Pac Dom",
+  "tipo": "escuela",
+  "municipio": "almacelles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Norte, 15, 25100 Almacelles",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "panther-team-brazilian-jiu-jitsu",
+  "nombre": "Panther Team Brazilian Jiu Jitsu",
+  "tipo": "escuela",
+  "municipio": "lleida",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "C/ Santa Cecilia, 4-6",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=PTBJJ",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

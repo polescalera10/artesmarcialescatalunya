@@ -1,0 +1,230 @@
+[
+ {
+  "slug": "bosch-karate-manresa",
+  "nombre": "Bosch Karate Manresa",
+  "tipo": "escuela",
+  "municipio": "manresa",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=3",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-judo-santpedor",
+  "nombre": "C.E. Judo Santpedor",
+  "tipo": "club",
+  "municipio": "santpedor",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Ronda Sant Pere, 322, SANTPEDOR",
+  "web": "http://www.sportcentre.cat/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "castellet",
+  "nombre": "Castellet",
+  "tipo": "escuela",
+  "municipio": "sant-vicenc-de-castellet",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Poeta Maragall, S/n, 08295 Sant Vicenç de Castellet",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-manresa",
+  "nombre": "Club Boxa Manresa",
+  "tipo": "club",
+  "municipio": "manresa",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-budokan-la-tribu",
+  "nombre": "Club Budokan La Tribu",
+  "tipo": "club",
+  "municipio": "manresa",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-boxa-manresa",
+  "nombre": "Club de Boxa Manresa",
+  "tipo": "club",
+  "municipio": "manresa",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer del Sol Nº 5, Manresa—barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-bages",
+  "nombre": "Club Esportiu Arts Marcials Bages",
+  "tipo": "club",
+  "municipio": "sant-fruitos-de-bages",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Carles Buïgas Nº 32, Sant Fruitós de Bages–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-eix-navas",
+  "nombre": "Club Judo Eix Navàs",
+  "tipo": "club",
+  "municipio": "navas",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Passieg Alzineta, 64-66 - 08670 - NAVAS",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-bages",
+  "nombre": "Club Karate Bages",
+  "tipo": "club",
+  "municipio": "suria",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-cantero",
+  "nombre": "Club Karate Cantero",
+  "tipo": "club",
+  "municipio": "navas",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-vilatorrada",
+  "nombre": "Club Karate Vilatorrada",
+  "tipo": "club",
+  "municipio": "sant-joan-de-vilatorrada",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esport-7-karate",
+  "nombre": "Esport 7, Karate",
+  "tipo": "escuela",
+  "municipio": "manresa",
+  "disciplinas": [
+   "karate",
+   "judo"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kick-boxing-pugnator-castellet",
+  "nombre": "Kick Boxing Pugnator Castellet",
+  "tipo": "escuela",
+  "municipio": "sant-vicenc-de-castellet",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Rosa Sensat Nº14, 2º5, Sant Vicen de Castellet–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kiwon-taekwondo",
+  "nombre": "Kiwon Taekwondo",
+  "tipo": "escuela",
+  "municipio": "manresa",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "C/. Abad Oliva, 38 Bjos, 08242 Manresa",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sant-vicenc-club-karate-do",
+  "nombre": "Sant Vicenç, Club Karate Do",
+  "tipo": "escuela",
+  "municipio": "santpedor",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "societat-atletica-de-suria",
+  "nombre": "Societat Atletica de Suria",
+  "tipo": "escuela",
+  "municipio": "suria",
+  "disciplinas": [
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "C/ Ignasi Abadal, S/N. SURIA",
+  "fuente": "https://fedecatjudo.cat/jiu-jitsu/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sport-centre-fitness-i-salut",
+  "nombre": "Sport Centre Fitness i Salut",
+  "tipo": "gimnasio",
+  "municipio": "santpedor",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-viturtia",
+  "nombre": "Taekwondo Viturtia",
+  "tipo": "escuela",
+  "municipio": "manresa",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Avda Tudela, 38 Local, 08241 Manresa",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

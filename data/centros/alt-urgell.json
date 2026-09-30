@@ -1,0 +1,54 @@
+[
+ {
+  "slug": "a-e-karate-kobudo-tradicional-pirineus",
+  "nombre": "A.E. Karate Kobudo Tradicional Pirineus",
+  "tipo": "asociacion",
+  "municipio": "la-seu-durgell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=20",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "awen-jiu-jitsu",
+  "nombre": "Awen Jiu-Jitsu",
+  "tipo": "escuela",
+  "municipio": "la-seu-durgell",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "grappling"
+  ],
+  "direccion": "Comtat d'Urgell 31",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=AWEN",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-la-seu",
+  "nombre": "Club Boxa la Seu",
+  "tipo": "club",
+  "municipio": "la-seu-durgell",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "jiu-jitsu-la-seu-flow-or-die",
+  "nombre": "Jiu Jitsu la Seu - Flow Or Die",
+  "tipo": "escuela",
+  "municipio": "la-seu-durgell",
+  "disciplinas": [
+   "grappling"
+  ],
+  "direccion": "CENTRE ESPORTIU PIRINEUS, S.L. Av.Guillem Graell 67",
+  "web": "https://bjjlaseu.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FLOWBJJ",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

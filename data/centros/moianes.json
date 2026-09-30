@@ -1,0 +1,16 @@
+[
+ {
+  "slug": "club-judo-moia",
+  "nombre": "Club Judo Moia",
+  "tipo": "club",
+  "municipio": "moia",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Josep Gallart, 18-20, MOIÀ",
+  "web": "https://m.facebook.com/david.roca.1297",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

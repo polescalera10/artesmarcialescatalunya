@@ -1,0 +1,159 @@
+---
+// Disciplina en toda Cataluña: reparto por comarca y municipio. La parte
+// divulgativa (primera clase, equipación, FAQ) viene del sitio del Garraf y
+// solo existe en castellano.
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import ListaCentros from '../components/ListaCentros.astro';
+import FAQ from '../components/FAQ.astro';
+import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
+import { centrosConDisciplina } from '../lib/centros';
+import { getComarca, getMunicipio } from '../lib/geo';
+import { getDisciplina, DISCIPLINAS, GRUPOS } from '../lib/disciplinas';
+import { rutasDiscComarca, rutasMunDisc, rutasDisciplina } from '../lib/rutas';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+import { getDisciplineBySlug } from '../legacy/disciplines';
+
+interface Props { lang: Lang; disciplina: string }
+const { lang, disciplina } = Astro.props;
+const dis = getDisciplina(disciplina)!;
+const nd = dis[lang];
+const ndl = nd.toLowerCase();
+const centros = centrosConDisciplina(disciplina);
+const guia = lang === 'es' ? getDisciplineBySlug(disciplina) : undefined;
+
+const porComarca = [...new Set(centros.map(c => c.comarca))]
+  .map(slug => ({ slug, nombre: getComarca(slug)!.nombre, k: centros.filter(c => c.comarca === slug).length }))
+  .sort((a, b) => b.k - a.k || a.nombre.localeCompare(b.nombre, 'ca'));
+const conDiscComarca = new Set(rutasDiscComarca().filter(r => r.disciplina === disciplina).map(r => r.comarca));
+const munis = rutasMunDisc().filter(r => r.disciplina === disciplina)
+  .map(r => ({ ...r, nombre: getMunicipio(r.municipio)!.nombre, k: centros.filter(c => c.municipio === r.municipio).length }))
+  .sort((a, b) => b.k - a.k || a.nombre.localeCompare(b.nombre, 'ca'));
+const mismasGrupo = rutasDisciplina().map(r => getDisciplina(r.disciplina)!).filter(d => d.grupo === dis.grupo && d.slug !== disciplina);
+const top = porComarca.slice(0, 3).map(c => c.nombre);
+
+const intro = centros.length
+  ? L(lang,
+      `En nuestro directorio constan ${n(centros.length, 'centro', 'centros')} que anuncian ${ndl} en ${n(porComarca.length, 'comarca', 'comarcas')} de Cataluña. Donde más hay: ${lista(lang, top)}. Elige tu comarca o municipio para ver los centros con su fuente pública.`,
+      `Al nostre directori hi consten ${n(centros.length, 'centre', 'centres')} que anuncien ${ndl} en ${n(porComarca.length, 'comarca', 'comarques')} de Catalunya. On n'hi ha més: ${lista(lang, top)}. Tria la teva comarca o municipi per veure els centres amb la seva font pública.`)
+  : L(lang,
+      `Todavía no hemos verificado ningún centro de ${ndl} en Cataluña. Estamos ampliando el directorio comarca a comarca.`,
+      `Encara no hem verificat cap centre de ${ndl} a Catalunya. Estem ampliant el directori comarca a comarca.`);
+
+const title = titulo(
+  L(lang, `${nd} en Cataluña: ${n(centros.length, 'centro', 'centros')} por comarca`, `${nd} a Catalunya: ${n(centros.length, 'centre', 'centres')} per comarca`),
+  L(lang, `${nd} en Cataluña: ${n(centros.length, 'centro', 'centros')}`, `${nd} a Catalunya: ${n(centros.length, 'centre', 'centres')}`),
+);
+const description = descripcion(
+  L(lang,
+    `Dónde entrenar ${ndl} en Cataluña: ${n(centros.length, 'centro', 'centros')} en ${n(porComarca.length, 'comarca', 'comarcas')}, con fuente pública verificada. Busca por comarca o municipio.`,
+    `On entrenar ${ndl} a Catalunya: ${n(centros.length, 'centre', 'centres')} en ${n(porComarca.length, 'comarca', 'comarques')}, amb font pública verificada. Cerca per comarca o municipi.`),
+);
+
+const faq = [
+  ...(centros.length ? [{
+    q: L(lang, `¿Dónde hay más centros de ${ndl} en Cataluña?`, `On hi ha més centres de ${ndl} a Catalunya?`),
+    a: L(lang,
+      `Por comarcas: ${lista(lang, porComarca.slice(0, 5).map(c => `${c.nombre} (${c.k})`))}. Son los centros que anuncian ${ndl} en su web oficial o en el registro de su federación.`,
+      `Per comarques: ${lista(lang, porComarca.slice(0, 5).map(c => `${c.nombre} (${c.k})`))}. Són els centres que anuncien ${ndl} al seu web oficial o al registre de la seva federació.`),
+  }] : []),
+  ...(guia?.faq ?? []),
+];
+
+const alternates = { es: url.disciplina('es', disciplina), ca: url.disciplina('ca', disciplina) };
+const pageUrl = `${SITE.url}${url.disciplina(lang, disciplina)}`;
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': pageUrl,
+  name: title,
+  description,
+  url: pageUrl,
+  inLanguage: lang,
+  isPartOf: { '@id': SCHEMA_IDS.website },
+  publisher: { '@id': SCHEMA_IDS.organization },
+  about: { '@type': 'Thing', name: nd },
+};
+---
+
+<Layout title={title} description={description} canonical={url.disciplina(lang, disciplina)} schema={schema} lang={lang} alternates={alternates}>
+  <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
+  <main id="contenido">
+    <Migas lang={lang} items={[{ nombre: L(lang, 'Disciplinas', 'Disciplines'), href: url.disciplinas(lang) }, { nombre: nd, href: url.disciplina(lang, disciplina) }]} />
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+      <p class="text-xs uppercase tracking-wide text-brand-red font-semibold mb-3">{GRUPOS[dis.grupo][lang]}</p>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">{L(lang, `${nd} en Cataluña`, `${nd} a Catalunya`)}</h1>
+      <p class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed">{intro}</p>
+    </section>
+
+    {porComarca.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 grid lg:grid-cols-2 gap-8">
+        <div>
+          <h2 class="text-lg font-bold text-white mb-3">{L(lang, 'Por comarca', 'Per comarca')}</h2>
+          <ul class="grid grid-cols-2 gap-2">
+            {porComarca.map(c => (
+              <li>
+                <a href={conDiscComarca.has(c.slug) ? url.discComarca(lang, disciplina, c.slug) : url.comarca(lang, c.slug)} class="flex justify-between gap-2 bg-brand-gray border border-brand-border rounded-lg px-3 py-2 text-sm text-brand-muted hover:text-white hover:border-brand-red/40">
+                  <span>{c.nombre}</span><span class="text-white font-semibold">{c.k}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        {munis.length > 0 && (
+          <div>
+            <h2 class="text-lg font-bold text-white mb-3">{L(lang, 'Por municipio', 'Per municipi')}</h2>
+            <ul class="grid grid-cols-2 gap-2">
+              {munis.map(m => (
+                <li>
+                  <a href={url.munDisc(lang, m.comarca, m.municipio, disciplina)} class="flex justify-between gap-2 bg-brand-gray border border-brand-border rounded-lg px-3 py-2 text-sm text-brand-muted hover:text-white hover:border-brand-red/40">
+                    <span>{m.nombre}</span><span class="text-white font-semibold">{m.k}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </section>
+    )}
+
+    {centros.length > 0 && centros.length <= 30 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h2 class="text-2xl font-bold text-white mb-6">{L(lang, `Todos los centros de ${ndl}`, `Tots els centres de ${ndl}`)}</h2>
+        <ListaCentros centros={centros} lang={lang} />
+      </section>
+    )}
+
+    {guia && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid md:grid-cols-2 gap-8">
+        <div class="bg-brand-gray border border-brand-border rounded-xl p-6">
+          <h2 class="text-lg font-bold text-white mb-3">Cómo suele ser la primera clase de {ndl}</h2>
+          <ol class="list-decimal pl-5 space-y-2 text-sm text-brand-muted">{guia.primeraClase.map(p => <li>{p}</li>)}</ol>
+          <p class="text-xs text-brand-muted/80 mt-3">Es lo habitual en la disciplina, no la descripción de ningún centro concreto.</p>
+        </div>
+        <div class="bg-brand-gray border border-brand-border rounded-xl p-6">
+          <h2 class="text-lg font-bold text-white mb-3">Qué necesitas para empezar</h2>
+          <ul class="list-disc pl-5 space-y-2 text-sm text-brand-muted">{guia.equipacion.map(p => <li>{p}</li>)}</ul>
+        </div>
+      </section>
+    )}
+
+    {mismasGrupo.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <h2 class="text-lg font-bold text-white mb-3">{L(lang, 'Disciplinas parecidas', 'Disciplines semblants')}</h2>
+        <ul class="flex flex-wrap gap-2">
+          {mismasGrupo.map(d => <li><a href={url.disciplina(lang, d.slug)} class="inline-block bg-brand-gray border border-brand-border rounded-full px-3 py-1.5 text-sm text-brand-muted hover:text-white">{d[lang]}</a></li>)}
+          <li><a href={url.disciplinas(lang)} class="inline-block px-3 py-1.5 text-sm text-brand-red hover:text-red-400">{L(lang, 'Todas las disciplinas', 'Totes les disciplines')} →</a></li>
+        </ul>
+      </section>
+    )}
+
+    <ParaCentrosCTA lang={lang} />
+    {faq.length > 0 && <FAQ items={faq} title={L(lang, `Preguntas frecuentes sobre ${ndl}`, `Preguntes freqüents sobre ${ndl}`)} />}
+  </main>
+  <Footer lang={lang} />
+</Layout>

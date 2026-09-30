@@ -1,0 +1,94 @@
+[
+ {
+  "slug": "alfaro",
+  "nombre": "Alfaro",
+  "tipo": "escuela",
+  "municipio": "amposta",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "L'Arache, 12, 43870 Amposta",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-defensa-personal-amposta",
+  "nombre": "Club Boxa Defensa Personal Amposta",
+  "tipo": "club",
+  "municipio": "amposta",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-la-rapita",
+  "nombre": "Club Boxa la Ràpita",
+  "tipo": "club",
+  "municipio": "la-rapita",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-lluita-amposta",
+  "nombre": "Club de Lluita Amposta",
+  "tipo": "club",
+  "municipio": "amposta",
+  "disciplinas": [
+   "krav-maga",
+   "jiu-jitsu-japones",
+   "grappling"
+  ],
+  "direccion": "C-America 48 Baixos",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CLLA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-amposta",
+  "nombre": "Club Judo Amposta",
+  "tipo": "club",
+  "municipio": "amposta",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Sebastia Arbo, 16. AMPOSTA",
+  "web": "http://clubjudoamposta.blogspot.com.es/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "escola-arts-marcials-baihu",
+  "nombre": "Escola Arts Marcials Baihu",
+  "tipo": "escuela",
+  "municipio": "alcanar",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "direccion": "C/ Calig, 63, baixos - 43530 - ALCANAR",
+  "fuente": "https://fedecatjudo.cat/wu-shu/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "olympic-kushin-kai-sant-jaume",
+  "nombre": "Olympic Kushin-Kai Sant Jaume",
+  "tipo": "escuela",
+  "municipio": "sant-jaume-denveja",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

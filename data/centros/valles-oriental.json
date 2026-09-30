@@ -1,0 +1,552 @@
+[
+ {
+  "slug": "a-e-karate-judo-la-llagosta",
+  "nombre": "A.E. Karate Judo La Llagosta",
+  "tipo": "asociacion",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "direccion": "C/ Santa Rosalía, 20, LA LLAGOSTA",
+  "web": "http://judolallagosta.es/contacte/",
+  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "assoc-esp-karate-judo-la-llagosta",
+  "nombre": "Assoc Esp Karate-Judo La Llagosta",
+  "tipo": "escuela",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Santa Rosalia, 20, LA LLAGOSTA",
+  "web": "http://www.judolallagosta.es",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "assoc-judo-cardedeu",
+  "nombre": "Assoc Judo Cardedeu",
+  "tipo": "escuela",
+  "municipio": "cardedeu",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Carrer de Llinars, s/n, CARDEDEU",
+  "web": "https://es-es.facebook.com/pages/category/Nonprofit-Organization/Associaci%C3%B3-Judo-Cardedeu-1543472019225496/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-cultural-i-lleure-judo-llica-damunt",
+  "nombre": "Associació Cultural i Lleure Judo Lliçà d'Amunt",
+  "tipo": "asociacion",
+  "municipio": "llica-damunt",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Del Capcir, 30 08196 LLIÇÀ D'AMUNT",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "boxa-kick-boxing-actitud-crew",
+  "nombre": "Boxa Kick-Boxing Actitud Crew",
+  "tipo": "escuela",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Girona Nº15, Mollet del Vallés–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-aikido-bigues-i-riells",
+  "nombre": "C.E. Aikido Bigues i Riells",
+  "tipo": "club",
+  "municipio": "bigues-i-riells-del-fai",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "direccion": "Cami de Can Ribas, s/n (Gimnàs CEIP El Colomer), BIGUES I RIELLS",
+  "web": "https://es-es.facebook.com/AikidoBir",
+  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-okamishin-bellavista",
+  "nombre": "C.E. Okamishin Bellavista",
+  "tipo": "club",
+  "municipio": "les-franqueses-del-valles",
+  "disciplinas": [
+   "judo",
+   "defensa-personal",
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "Paseo de Andalucia, 91., LES FRANQUESES DEL VALLÈS",
+  "web": "http://www.okamishin.com",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-kaluosi-fight",
+  "nombre": "Club Boxa Kaluosi Fight",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-kendo-cardedeu",
+  "nombre": "Club de Kendo Cardedeu",
+  "tipo": "club",
+  "municipio": "cardedeu",
+  "disciplinas": [
+   "kendo"
+  ],
+  "direccion": "Tèxtil Rase, Nau B, Carrer llinars, 61. CARDEDEU",
+  "web": "https://es-es.facebook.com/pages/category/Sports-Club/Club-de-Kendo-Cardedeu-421293841762073/",
+  "fuente": "https://fedecatjudo.cat/kendo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-deportivo-catalan-de-luchas-olimpicas",
+  "nombre": "Club Deportivo Catalán de Luchas Olímpicas",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "lucha"
+  ],
+  "direccion": "C/ Agustí Vinyamata, 73, 08402",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CDC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-aikido-bir-bigues-i-riells",
+  "nombre": "Club Esportiu Aikido Bir Bigues i Riells",
+  "tipo": "club",
+  "municipio": "bigues-i-riells-del-fai",
+  "disciplinas": [
+   "aikido"
+  ],
+  "direccion": "cami de can Ribas, s/n (CEIP El colomer) BIGUES I RIELLS",
+  "fuente": "https://fedecatjudo.cat/aikido/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-dynamic-la-roca",
+  "nombre": "Club Esportiu Dynamic la Roca",
+  "tipo": "club",
+  "municipio": "la-roca-del-valles",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Font del Cargol Nº 14, la Roca Valles–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-mollet-team",
+  "nombre": "Club Esportiu Mollet Team",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-muay-thai-granollers",
+  "nombre": "Club Esportiu Muay Thaï Granollers",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Carrer Almogavers Nº 19, Granollers—barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-muay-thai-sant-celoni",
+  "nombre": "Club Esportiu Muay-Thaï Sant Celoni",
+  "tipo": "club",
+  "municipio": "sant-celoni",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Avda. Hospital Nº 14 Local, Sant Celoni–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-shorin-ryu-karate-goshin-do",
+  "nombre": "Club Esportiu Shorin-Ryu Karate Goshin-Do",
+  "tipo": "club",
+  "municipio": "llica-damunt",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-gimnas-karate-sant-feliu",
+  "nombre": "Club Gimnàs Karate Sant Feliu",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-codines",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-baix-montseny",
+  "nombre": "Club Judo Baix Montseny",
+  "tipo": "club",
+  "municipio": "santa-maria-de-palautordera",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Passatge margarida, 1. SANTA MARIA DE PALAUTORDERA",
+  "web": "http://clubjudobaixmontseny.com",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-bigues-i-riells",
+  "nombre": "Club Judo Bigues I Riells",
+  "tipo": "club",
+  "municipio": "bigues-i-riells-del-fai",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Cami de Can Badell, s/n., BIGUES I RIELLS",
+  "web": "https://judobiguesiriells.cat/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-granollers",
+  "nombre": "Club Judo Granollers",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Santiago Rusiñol, 15, GRANOLLERS",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-cardedeu",
+  "nombre": "Club Karate Cardedeu",
+  "tipo": "club",
+  "municipio": "cardedeu",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=14",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-martorelles",
+  "nombre": "Club Karate Martorelles",
+  "tipo": "club",
+  "municipio": "martorelles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-montmelo",
+  "nombre": "Club Karate Montmeló",
+  "tipo": "club",
+  "municipio": "montmelo",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-montornes",
+  "nombre": "Club Karate Montornés",
+  "tipo": "club",
+  "municipio": "montornes-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-swing",
+  "nombre": "Club Karate Swing",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-kick-boxing-el-cami",
+  "nombre": "Club Kick Boxing el Camí",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "C/ Bartomeu Robert Nº 44, Mollet del Vallés-Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-sambo-granollers",
+  "nombre": "Club Sambo Granollers",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "lucha",
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Camp de les moreres 24",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=SG",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "defensa-krav-maga-parets-del-vallia-s",
+  "nombre": "Defensa Krav Maga Parets del VallÍÂ¨s",
+  "tipo": "escuela",
+  "municipio": "parets-del-valles",
+  "disciplinas": [
+   "krav-maga"
+  ],
+  "direccion": "Av. Lluis Companys, 47, 08150",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KMPV",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "escola-tkd-hansu",
+  "nombre": "Escola TKD Hansu",
+  "tipo": "escuela",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avda. Burgos, 63 Baixos, 08100 Mollet del Valles",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-ares-arena",
+  "nombre": "Esportiu Ares Arena",
+  "tipo": "escuela",
+  "municipio": "sant-fost-de-campsentelles",
+  "disciplinas": [
+   "kickboxing",
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Carrer Josep Maria Folch i Torres Nº7, Sant Fost de Campsentelles–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "granollers",
+  "nombre": "Granollers",
+  "tipo": "escuela",
+  "municipio": "granollers",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Pl. de la Porxada, 21-23, 08402 Granollers",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "jotunheim",
+  "nombre": "Jotünheim",
+  "tipo": "escuela",
+  "municipio": "sant-fost-de-campsentelles",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Calle Joan Xxiii 51",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=JOTUNHEIM",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "karate-club-just",
+  "nombre": "Karate Club Just",
+  "tipo": "escuela",
+  "municipio": "sant-celoni",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "la-llagosta-karate",
+  "nombre": "La Llagosta Karate",
+  "tipo": "escuela",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "lee-young-parets",
+  "nombre": "Lee Young Parets",
+  "tipo": "escuela",
+  "municipio": "parets-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Sant Jaume, 79, 08150 Parets del Vallés",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "ohana-taekwondo-school",
+  "nombre": "Ohana Taekwondo School",
+  "tipo": "escuela",
+  "municipio": "les-franqueses-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Sant Antoni, 6 Local 2, 08520 les Franqueses del Valles",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "seok",
+  "nombre": "Seok",
+  "tipo": "escuela",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Can Pantiquet, 36, 08100 Mollet del Valles",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "shinkryukan-gimnasio",
+  "nombre": "Shinkryukan, Gimnasio",
+  "tipo": "gimnasio",
+  "municipio": "les-franqueses-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "shinryu-kan-granollers",
+  "nombre": "Shinryu-Kan Granollers",
+  "tipo": "escuela",
+  "municipio": "granollers",
+  "disciplinas": [
+   "aikido"
+  ],
+  "direccion": "Camí Romà, 49 3ª Planta, 08402 Granollers",
+  "web": "http://www.shinryu-kangranollers.com",
+  "fuente": "https://www.fcaikido.cat/dojos.html",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-bandal-granollers",
+  "nombre": "Taekwondo Bandal Granollers",
+  "tipo": "escuela",
+  "municipio": "granollers",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Joan Pere Fontanella, 41, 08401 Granollers",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "ushiro-club-esportiu",
+  "nombre": "Ushiro, Club Esportiu",
+  "tipo": "escuela",
+  "municipio": "la-garriga",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "yawara-karate-llinars",
+  "nombre": "Yawara Karate Llinars",
+  "tipo": "escuela",
+  "municipio": "llinars-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

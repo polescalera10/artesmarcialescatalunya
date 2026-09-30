@@ -1,74 +1,44 @@
-import { ALL_PAGES } from '../data/pages';
-import { MUNICIPIS_CA_ORDRE, rutaCa } from '../data/ca';
-import { SITE as SITE_DATA } from '../data/site';
+// Sitemap con alternativas hreflang. <lastmod>: fecha de verificación en las
+// fichas, fecha de publicación en el blog y la última revisión editorial en el
+// resto (no la fecha del build: Google ignora los lastmod que siempre son hoy).
+import type { APIRoute } from 'astro';
+import { SITE } from '../lib/site';
+import { url, LANGS, type Lang } from '../lib/i18n';
+import { CENTROS } from '../lib/centros';
+import { POSTS } from '../lib/editorial';
+import { rutasComarca, rutasMunicipio, rutasMunDisc, rutasDisciplina, rutasDiscComarca, fichaIndexable } from '../lib/rutas';
 
-const SITE = SITE_DATA.url;
-
-// <lastmod> honesto: los artículos del blog llevan su fecha de publicación y el
-// resto lleva la fecha de la última revisión editorial (SITE.ultimaRevision).
-// Antes se emitía la fecha del build en las 66 URLs, lo que afirmaba que todo el
-// sitio cambiaba cada vez que se desplegaba cualquier cosa. Google desconfía de
-// los sitemaps cuyo lastmod es siempre "hoy" y acaba ignorando el campo entero,
-// que es justo la señal que aquí interesa conservar.
-const REVISION = SITE_DATA.ultimaRevision;
-
-const staticPages = [
-  { slug: '', priority: '1.0', changefreq: 'weekly' },
-  { slug: 'centros', priority: '0.9', changefreq: 'weekly' },
-  { slug: 'blog', priority: '0.7', changefreq: 'monthly' },
-  // Mientras el canal de contacto está desactivado, /contacto/ es un aviso en
-  // noindex: incluirlo aquí sería mandarle a Google una señal contradictoria.
-  ...(SITE_DATA.contactoActivo
-    ? [{ slug: 'contacto', priority: '0.9', changefreq: 'monthly' }]
-    : []),
-  { slug: 'sobre-nosotros', priority: '0.8', changefreq: 'monthly' },
+type Entrada = { por: (l: Lang) => string; lastmod: string; bilingue: boolean };
+const R = SITE.ultimaRevision;
+const entradas: Entrada[] = [
+  { por: l => url.home(l), lastmod: R, bilingue: true },
+  { por: l => url.centros(l), lastmod: R, bilingue: true },
+  { por: l => url.disciplinas(l), lastmod: R, bilingue: true },
+  { por: l => url.paraCentros(l), lastmod: R, bilingue: true },
+  { por: l => url.sobre(l), lastmod: R, bilingue: true },
+  { por: l => url.contacto(l), lastmod: R, bilingue: true },
+  ...rutasComarca().map(r => ({ por: (l: Lang) => url.comarca(l, r.comarca), lastmod: R, bilingue: true })),
+  ...rutasMunicipio().map(r => ({ por: (l: Lang) => url.municipio(l, r.comarca, r.municipio), lastmod: R, bilingue: true })),
+  ...rutasMunDisc().map(r => ({ por: (l: Lang) => url.munDisc(l, r.comarca, r.municipio, r.disciplina), lastmod: R, bilingue: true })),
+  ...rutasDisciplina().map(r => ({ por: (l: Lang) => url.disciplina(l, r.disciplina), lastmod: R, bilingue: true })),
+  ...rutasDiscComarca().map(r => ({ por: (l: Lang) => url.discComarca(l, r.disciplina, r.comarca), lastmod: R, bilingue: true })),
+  ...CENTROS.filter(fichaIndexable).map(c => ({ por: (l: Lang) => url.centro(l, c.slug), lastmod: c.verificado, bilingue: true })),
+  { por: () => url.blog(), lastmod: POSTS[0]?.fecha ?? R, bilingue: false },
+  ...POSTS.map(p => ({ por: () => url.post(p.slug), lastmod: p.fecha, bilingue: false })),
 ];
 
-function getPriority(type: string): string {
-  if (type === 'money-page') return '0.9';
-  if (type === 'hub-municipio') return '0.85';
-  if (type === 'hub-disciplina') return '0.8';
-  if (type === 'hub-perfil') return '0.75';
-  if (type === 'blog') return '0.65';
-  return '0.5';
-}
-
-function url(loc: string, lastmod: string, changefreq: string, priority: string): string {
-  return `  <url>
-    <loc>${loc}</loc>
-    <lastmod>${lastmod}</lastmod>
-    <changefreq>${changefreq}</changefreq>
-    <priority>${priority}</priority>
-  </url>`;
-}
-
-export async function GET() {
-  const staticUrls = staticPages.map(p =>
-    url(`${SITE}/${p.slug ? p.slug + '/' : ''}`, REVISION, p.changefreq, p.priority),
-  );
-
-  const dynamicUrls = ALL_PAGES.map(p =>
-    url(
-      `${SITE}/${p.slug}/`,
-      // Un artículo publicado en julio no debe decir que se modificó hoy.
-      p.type === 'blog' ? (p.fecha ?? REVISION) : REVISION,
-      p.type === 'blog' ? 'yearly' : 'monthly',
-      getPriority(p.type),
-    ),
-  );
-
-  // Piloto en catalán: el directorio y una guía por municipio.
-  const catalanUrls = [
-    url(`${SITE}/ca/`, REVISION, 'weekly', '0.8'),
-    ...MUNICIPIS_CA_ORDRE.map(m => url(`${SITE}${rutaCa(m)}`, REVISION, 'monthly', '0.75')),
-  ];
-
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${[...staticUrls, ...dynamicUrls, ...catalanUrls].join('\n')}
-</urlset>`;
-
-  return new Response(xml, {
-    headers: { 'Content-Type': 'application/xml; charset=utf-8' },
-  });
-}
+export const GET: APIRoute = () => {
+  const urls: string[] = [];
+  for (const e of entradas) {
+    const langs = e.bilingue ? LANGS : (['es'] as Lang[]);
+    for (const l of langs) {
+      const alt = e.bilingue
+        ? LANGS.map(x => `<xhtml:link rel="alternate" hreflang="${x}" href="${SITE.url}${e.por(x)}"/>`).join('') +
+          `<xhtml:link rel="alternate" hreflang="x-default" href="${SITE.url}${e.por('es')}"/>`
+        : '';
+      urls.push(`<url><loc>${SITE.url}${e.por(l)}</loc><lastmod>${e.lastmod}</lastmod>${alt}</url>`);
+    }
+  }
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`;
+  return new Response(xml, { headers: { 'Content-Type': 'application/xml; charset=utf-8' } });
+};

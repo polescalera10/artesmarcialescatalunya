@@ -1,0 +1,200 @@
+[
+ {
+  "slug": "arboc",
+  "nombre": "Arboç",
+  "tipo": "escuela",
+  "municipio": "larboc",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Ricard Domingo, 6-8 Bjos, 43720 l'Arboç del Penedes",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-arts-marcials-kodojo",
+  "nombre": "Club Arts Marcials Kodojo",
+  "tipo": "club",
+  "municipio": "calafell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-albinyana",
+  "nombre": "Club Boxa Albinyana",
+  "tipo": "club",
+  "municipio": "la-bisbal-del-penedes",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-sancho",
+  "nombre": "Club Esportiu Arts Marcials Sancho",
+  "tipo": "club",
+  "municipio": "calafell",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Carrer Joan Nin, 5, CALAFELL",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-de-lluita-olimpica-calafell",
+  "nombre": "Club Esportiu de Lluita Olímpica Calafell",
+  "tipo": "club",
+  "municipio": "calafell",
+  "disciplinas": [
+   "lucha"
+  ],
+  "direccion": "C/ Ramon Llull 7, 2n B (43820-Calafell)",
+  "web": "http://www.lluitaolimpicacalafell.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CAL",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-karate-cunit",
+  "nombre": "Club Esportiu Karate Cunit",
+  "tipo": "club",
+  "municipio": "cunit",
+  "disciplinas": [
+   "mma",
+   "krav-maga"
+  ],
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=EKC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-el-vendrell",
+  "nombre": "Club Judo El Vendrell",
+  "tipo": "club",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Av. Narcís Monturiol, 30 B., EL VENDRELL",
+  "web": "https://ebreal3.wixsite.com/espaicubvendrell",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-mma-vendrell",
+  "nombre": "Club MMA Vendrell",
+  "tipo": "club",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "C/ Peònia Nº38, el Vendrell—tarragona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-arazola",
+  "nombre": "Dojo Arazola",
+  "tipo": "escuela",
+  "municipio": "calafell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=11",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kanaloa-fight-academy",
+  "nombre": "Kanaloa Fight Academy",
+  "tipo": "escuela",
+  "municipio": "calafell",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "passatge Blat 5",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KFA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "la-lira-vendrellenca",
+  "nombre": "La Lira Vendrellenca",
+  "tipo": "escuela",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Sant Jordi, 7, 43700 el Vendrell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sutemi-vendrell",
+  "nombre": "Sutemi Vendrell",
+  "tipo": "escuela",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "C/ Les Mates nave2-3",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=SUTEMIVEN",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-my-ju-cunit",
+  "nombre": "Taekwondo My Ju Cunit",
+  "tipo": "escuela",
+  "municipio": "cunit",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Costa Daurada, 1 Local 5, 43881 Cunit",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-olimpic-el-vendrell",
+  "nombre": "Taekwondo Olimpic el Vendrell",
+  "tipo": "escuela",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Rosselló, 41 Local, 43700 el Vendrell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "templo-thaimuay-thai-club",
+  "nombre": "Templo Thaï—muay Thaï Club",
+  "tipo": "escuela",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Carrer Industria Nº 19, Local 2, el Vendrel—tarragona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

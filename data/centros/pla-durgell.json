@@ -1,0 +1,15 @@
+[
+ {
+  "slug": "gym-bellpuig",
+  "nombre": "Gym Bellpuig",
+  "tipo": "gimnasio",
+  "municipio": "castellnou-de-seana",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Mitjavila Nº22, Castellnou de Seana–lleida",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

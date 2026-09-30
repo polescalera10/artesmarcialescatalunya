@@ -1,0 +1,7 @@
+---
+import T from '../../../templates/DiscComarca.astro';
+import { rutasDiscComarca } from '../../../lib/rutas';
+export const getStaticPaths = () => rutasDiscComarca().map(params => ({ params }));
+const p = Astro.params as Record<string, string>;
+---
+<T lang="es" disciplina={p.disciplina} comarca={p.comarca} />

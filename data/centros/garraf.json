@@ -70,6 +70,21 @@
   "verificado": "2026-08-15"
  },
  {
+  "slug": "art-of-fighting",
+  "nombre": "Art of Fighting",
+  "tipo": "escuela",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "grappling",
+   "lucha",
+   "mma"
+  ],
+  "direccion": "Calle Sant Joan 14",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ART",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
   "slug": "associacio-cultural-darts-marcials-xineses",
   "nombre": "Associació Cultural d'Arts Marcials Xineses",
   "tipo": "asociacion",
@@ -164,6 +179,19 @@
   "verificado": "2026-07-07"
  },
  {
+  "slug": "chois-canyelles",
+  "nombre": "Choi'S Canyelles",
+  "tipo": "escuela",
+  "municipio": "canyelles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Romaguer, S/n, 08811 Canyelles",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
   "slug": "chois-vilanova",
   "nombre": "Choi's Vilanova",
   "tipo": "escuela",
@@ -178,6 +206,45 @@
   "direccion": "Carrer del Recreo, 77, 08800 Vilanova i la Geltrú",
   "fuente": "https://www.vilanova.cat/directori/detall?id=43651",
   "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-vilanova",
+  "nombre": "Club Boxa Vilanova",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-ko-ten",
+  "nombre": "Club Esportiu Ko-Ten",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Avda. Francesc Macià, Nº138, Esc. B, 5º 1ª, Vilanova i la Geltrú—barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-jitsu",
+  "nombre": "Club Jitsu",
+  "tipo": "club",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "defensa-personal"
+  ],
+  "direccion": "Carrer Modistas nº 8",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=JITSU",
+  "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
  {
@@ -242,12 +309,27 @@
   "tipo": "club",
   "municipio": "sant-pere-de-ribes",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "hapkido"
   ],
   "direccion": "Carrer de Sitges, 85, 08810 Sant Pere de Ribes",
   "fuente": "https://taekwondocatala.com",
   "fuenteTipo": "federacion",
   "verificado": "2026-07-07"
+ },
+ {
+  "slug": "flowmotion-brazilian-jiujitsu",
+  "nombre": "Flowmotion brazilian jiujitsu",
+  "tipo": "escuela",
+  "municipio": "sitges",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Carrer illa de cuba 38, Sitges",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FBJ",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
  },
  {
   "slug": "gym-fys-fitness-defense",
@@ -267,6 +349,18 @@
   "web": "https://www.gymfysgarraf.com",
   "fuente": "https://www.gymfysgarraf.com",
   "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "m-g-ryu",
+  "nombre": "M&G - Ryu",
+  "tipo": "escuela",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=6",
+  "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
  {

@@ -1,60 +1,60 @@
 ---
-import { FUENTE_LABELS, type Centro } from '../data/centros';
-import { getDisciplineBySlug } from '../data/disciplines';
-import { getLocationBySlug } from '../data/locations';
-import LineIcon from './LineIcon.astro';
+import { L, url, type Lang } from '../lib/i18n';
+import { esPromocionado, type Centro } from '../lib/centros';
+import { nombreDisciplina } from '../lib/disciplinas';
+import { getMunicipio } from '../lib/geo';
 
 interface Props {
   centro: Centro;
-  /** Mostrar el municipio en la ficha (útil fuera de su página de municipio) */
-  showMunicipio?: boolean;
+  lang: Lang;
+  /** Mostrar municipio (fuera de la página del propio municipio). */
+  conMunicipio?: boolean;
+  /** Distancia orientativa en km, para listados de "cercanos". */
+  km?: number;
 }
-const { centro: c, showMunicipio = false } = Astro.props;
-const municipio = showMunicipio ? getLocationBySlug(c.municipio) : null;
+const { centro: c, lang, conMunicipio = true, km } = Astro.props;
+const promo = esPromocionado(c.slug);
+const m = getMunicipio(c.municipio)!;
 ---
 
-<div class="bg-brand-gray border border-brand-border rounded-xl p-5 flex flex-col gap-3">
-  <div>
-    <h3 class="font-bold text-white leading-snug">{c.nombre}</h3>
-    {municipio && <p class="text-xs text-brand-muted mt-0.5">{municipio.name}</p>}
+<article class:list={[
+  'bg-brand-gray border rounded-xl p-5 flex flex-col gap-3 transition-colors',
+  promo ? 'border-amber-500/50' : 'border-brand-border hover:border-brand-red/40',
+]}>
+  <div class="flex items-start justify-between gap-3">
+    <div>
+      <h3 class="font-bold text-white leading-snug">
+        <a href={url.centro(lang, c.slug)} class="hover:text-brand-red transition-colors">{c.nombre}</a>
+      </h3>
+      {conMunicipio && (
+        <p class="text-xs text-brand-muted mt-0.5">
+          {m.nombre}{km !== undefined && <span> · {L(lang, `a unos ${Math.round(km)} km`, `a uns ${Math.round(km)} km`)}</span>}
+        </p>
+      )}
+    </div>
+    {promo && (
+      <span class="shrink-0 text-[10px] uppercase tracking-wide font-semibold text-amber-400 border border-amber-500/40 rounded px-1.5 py-0.5" title={L(lang, 'Este centro paga por aparecer destacado', 'Aquest centre paga per aparèixer destacat')}>
+        {L(lang, 'Promocionado', 'Promocionat')}
+      </span>
+    )}
   </div>
 
-  <div class="flex flex-wrap gap-1.5">
-    {c.disciplinas.map(slug => {
-      const d = getDisciplineBySlug(slug);
-      return d ? (
-        <span class="inline-flex items-center gap-1 bg-brand-dark border border-brand-border rounded-full px-2.5 py-0.5 text-xs text-brand-muted">
-          <LineIcon name={d.slug} class="w-3.5 h-3.5 text-brand-red shrink-0" />{d.nameEs}
-        </span>
-      ) : null;
-    })}
-  </div>
+  {c.disciplinas.length > 0 && (
+    <ul class="flex flex-wrap gap-1.5">
+      {c.disciplinas.map(d => (
+        <li class="bg-brand-dark border border-brand-border rounded-full px-2.5 py-0.5 text-xs text-brand-muted">{nombreDisciplina(d, lang)}</li>
+      ))}
+    </ul>
+  )}
 
   {c.direccion && <p class="text-xs text-brand-muted">{c.direccion}</p>}
 
-  <div class="mt-auto pt-2 border-t border-brand-border flex items-center justify-between gap-2">
+  <div class="mt-auto pt-2 border-t border-brand-border flex items-center justify-between gap-2 text-xs">
+    <a href={url.centro(lang, c.slug)} class="font-semibold text-brand-red hover:text-red-400">{L(lang, 'Ver ficha', 'Veure fitxa')} →</a>
     {c.web ? (
-      <!--
-        Sin `nofollow` a propósito (revisado 2026-08-15). Este enlace no es
-        publicidad: es la fuente pública con la que se verificó la ficha, y el
-        sitio se presenta como guía editorial independiente. Citar las fuentes
-        con enlaces normales es coherente con ese papel; marcarlas todas como
-        no fiables era la señal contraria. Si algún día un centro paga por
-        aparecer destacado, ese enlace sí tendrá que llevar rel="sponsored".
-      -->
-      <a
-        href={c.web}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="text-xs font-semibold text-brand-red hover:text-red-400 transition-colors"
-      >
-        Ver web del centro ↗
-      </a>
+      <a href={c.web} target="_blank" rel={promo ? 'sponsored noopener' : 'noopener'} class="text-brand-muted hover:text-white">{L(lang, 'Web del centro', 'Web del centre')} ↗</a>
     ) : (
-      <span class="text-xs text-brand-muted/70">Sin web propia conocida</span>
+      <span class="text-brand-muted/70">{L(lang, 'Sin web conocida', 'Sense web coneguda')}</span>
     )}
-    <span class="text-[11px] text-brand-muted/70" title={`Verificado ${c.verificado}`}>
-      {FUENTE_LABELS[c.fuenteTipo]}
-    </span>
   </div>
-</div>
+</article>

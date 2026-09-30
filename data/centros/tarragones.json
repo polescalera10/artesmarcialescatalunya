@@ -1,0 +1,555 @@
+[
+ {
+  "slug": "acadir-associacio-catalana-aikido-dento-iwama-ryu",
+  "nombre": "ACADIR (Associació Catalana Aikido Dento Iwama Ryu)",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "aikido"
+  ],
+  "direccion": "Carrer General Contreras 8 1 3, 43004 Tarragona",
+  "fuente": "https://www.fcaikido.cat/dojos.html",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "arteam",
+  "nombre": "ARTeam",
+  "tipo": "escuela",
+  "municipio": "salou",
+  "disciplinas": [
+   "defensa-personal",
+   "lucha",
+   "grappling"
+  ],
+  "direccion": "Passatge del Dr. Pigem S/N",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ARTBJJ",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-karate-yondan-tarraco",
+  "nombre": "C.E. Karate Yondan Tarraco",
+  "tipo": "club",
+  "municipio": "els-pallaresos",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "cha-tarragona",
+  "nombre": "Cha Tarragona",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avda. Andorra, 11, 43002 Tarragona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-apolo-torredembarra",
+  "nombre": "Club Boxa Apolo Torredembarra",
+  "tipo": "club",
+  "municipio": "torredembarra",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-kmt-combat-tarrako",
+  "nombre": "Club Boxa Kmt Combat Tarrako",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-torredembarra",
+  "nombre": "Club Boxa Torredembarra",
+  "tipo": "club",
+  "municipio": "torredembarra",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-boxa-ko-room",
+  "nombre": "Club de Boxa KO Room",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-salou",
+  "nombre": "Club de Judo Salou",
+  "tipo": "club",
+  "municipio": "salou",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "c/ Milà, 3, SALOU",
+  "web": "http://www.facebook.com/clubdejudosalou",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-dep-only-fighters-salou",
+  "nombre": "Club Dep. Only Fighters Salou",
+  "tipo": "club",
+  "municipio": "salou",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "C/ Mas de Clariana Nº 4, Salou—tarragona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-dojo-salou",
+  "nombre": "Club Judo Dojo Salou",
+  "tipo": "club",
+  "municipio": "salou",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "direccion": "C/ Milà, 3, SALOU",
+  "web": "https://es-es.facebook.com/clubdejudodojosalou/",
+  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-dojo-tarraco",
+  "nombre": "Club Judo Dojo Tarraco",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "judo",
+   "jiu-jitsu-japones",
+   "defensa-personal",
+   "kickboxing"
+  ],
+  "direccion": "C/ San Auguri, 5., TARAGONA",
+  "web": "http://www.dojotarraco.es",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-els-pallaresos",
+  "nombre": "Club Judo Els Pallaresos",
+  "tipo": "club",
+  "municipio": "els-pallaresos",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Av. Catalunya, 12, ELS PALLARESOS",
+  "web": "https://es-es.facebook.com/clubjudoelspallaresos/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-hachi-torredembarra",
+  "nombre": "Club Judo HAchi Torredembarra",
+  "tipo": "club",
+  "municipio": "torredembarra",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Onze de setembre, 3 43830 TORREDEMBARRA",
+  "web": "http://www.dojohachi.org",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-ikigai",
+  "nombre": "Club Judo Ikigai",
+  "tipo": "club",
+  "municipio": "el-catllar",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Cami Mas de Tolosa, 14 - 43764 - EL CATLLAR",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-lhospitalet-de-linfant",
+  "nombre": "Club Judo l'Hospitalet de l'Infant",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Polisportiu Casal Hifrensa, TARRAGONA",
+  "web": "https://es-es.facebook.com/judovital.judohospitalet/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-roda",
+  "nombre": "Club Judo Roda",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Av Avenç, 16 d - 43883 - Roda de Bara - Tarragona",
+  "web": "https://www.facebook.com/profile.php?id=100063595659307",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-tarragona",
+  "nombre": "Club Judo Tarragona",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "judo",
+   "defensa-personal",
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "Passeig Torroja, 86, TARRAGONA",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-vital-esport",
+  "nombre": "Club Judo Vital Esport",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Ed. Montsant, baixos 14, Sant Pere, TARRAGONA",
+  "web": "https://m.facebook.com/judovital.judohospitalet/?locale2=es_ES",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-kushin-kai",
+  "nombre": "Club Karate Kushin-Kai",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-otero",
+  "nombre": "Club Karate Otero",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-vilaseca",
+  "nombre": "Club Karate Vilaseca",
+  "tipo": "club",
+  "municipio": "vila-seca",
+  "disciplinas": [
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-zanshin",
+  "nombre": "Dojo Zanshin",
+  "tipo": "escuela",
+  "municipio": "torredembarra",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esports-clemente",
+  "nombre": "Esports Clemente",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido",
+   "kickboxing"
+  ],
+  "direccion": "Mallorca, 28, 43006 Tarragona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "free-jiu-jitsu-salou",
+  "nombre": "Free Jiu-jitsu Salou",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "grappling"
+  ],
+  "direccion": "Carrer Cesar, n3, local 10",
+  "web": "https://www.instagram.com/freejiujitsusalou/",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FREEJJ",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "fttspain",
+  "nombre": "Fttspain",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "mma"
+  ],
+  "direccion": "C/ del cami del mas clariana n 06. cambrils",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FTT",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gracie-barra-vila-seca",
+  "nombre": "Gracie Barra Vila-Seca",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "C/ Galceran de Pinos, 12 â?? Vilaseca",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GBVS",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "guerreros-de-fe",
+  "nombre": "Guerreros de fe",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "mma",
+   "grappling",
+   "lucha"
+  ],
+  "direccion": "Pgind Francoli, Num 13 Parcela 20",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GFE",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kanaloa-sutemi-calafell",
+  "nombre": "Kanaloa Sutemi Calafell",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "mma"
+  ],
+  "direccion": "Passatge del Blat 5-7 Calafell C.P 43820",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KSC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kano-judo-club",
+  "nombre": "Kano Judo Club",
+  "tipo": "escuela",
+  "municipio": "roda-de-bera",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Polígon Industrial L'Avenar C/ Comerç, 4 nau 5 - 43883 - RODA DE BERA",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "karate-club-shuto",
+  "nombre": "Karate Club Shuto",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "krav-maga-kapap-center",
+  "nombre": "Krav Maga Kapap Center",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "krav-maga"
+  ],
+  "direccion": "C/ Verge del Carme, 21B  43839 Creixell",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KMKAPAP",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kushinkai-constanti-ricardo-corbacho",
+  "nombre": "Kushinkai Constantí Ricardo Corbacho",
+  "tipo": "escuela",
+  "municipio": "constanti",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "morell",
+  "nombre": "Morell",
+  "tipo": "escuela",
+  "municipio": "el-morell",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Av. Dels Paisos Catalans, 6, 43760 el Morell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "mushin-team",
+  "nombre": "Mushin Team",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [],
+  "direccion": "Torna a la Federació",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=Mushin%20Team",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "musoken-club-karate",
+  "nombre": "Musoken, Club Karate",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=6",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sant-pere-i-sant-pau",
+  "nombre": "Sant Pere i Sant Pau",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avgda. Països Catalans, 32b, 43007 Tarragona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sinhus-sport-club-karate",
+  "nombre": "Sinhus Sport, Club Karate",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-sungman-cha",
+  "nombre": "Taekwondo Sungman Cha",
+  "tipo": "escuela",
+  "municipio": "salou",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Francoli, 10 Local 10, 43840 Salou",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tai-hodoki-club-tai-jitsu",
+  "nombre": "Tai Hodoki, Club Tai Jitsu",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "ten-chi-jin-karate-do",
+  "nombre": "Ten-Chi-Jin, Karate Do",
+  "tipo": "escuela",
+  "municipio": "salou",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "zion-brazilian-jiu-jitsu",
+  "nombre": "Zion Brazilian Jiu-Jitsu",
+  "tipo": "escuela",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Avenida Dels Paisos Catalans 162,",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ZION",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

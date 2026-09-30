@@ -2,77 +2,24 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { DISCIPLINES } from '../data/disciplines';
-import { LOCATIONS } from '../data/locations';
-import LineIcon from '../components/LineIcon.astro';
+import { url } from '../lib/i18n';
+import { comarcasConCentros } from '../lib/centros';
+import { getComarca } from '../lib/geo';
 ---
 
-<Layout
-  title="Página no encontrada | Artes Marciales Garraf"
-  description="La página que buscas no existe o ha cambiado de dirección. Encuentra tu disciplina o municipio desde aquí."
-  noindex
->
-  <Header />
-  <main id="contenido">
-
-  <section class="relative overflow-hidden bg-brand-dark pt-16 pb-12 px-4">
-    <div class="absolute inset-0 bg-gradient-to-br from-brand-red/8 via-transparent to-transparent pointer-events-none" />
-    <div class="max-w-3xl mx-auto relative text-center">
-      <p class="text-brand-red font-black text-6xl mb-4" aria-hidden="true">404</p>
-      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight mb-4">
-        Esta página no existe
-      </h1>
-      <p class="text-brand-muted leading-relaxed text-lg mb-8">
-        Puede que el enlace haya cambiado o que la dirección esté mal escrita.
-        Lo que buscas probablemente está a un clic:
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="/" class="bg-brand-red hover:bg-red-700 text-white font-bold px-8 py-3 rounded-lg transition-colors">
-          Ir a la portada
-        </a>
-        <a href="/centros/" class="bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-3 rounded-lg border border-white/20 transition-colors">
-          Ver el directorio de centros
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-12 px-4">
-    <div class="max-w-5xl mx-auto grid gap-10 md:grid-cols-2">
-      <div>
-        <h2 class="text-lg font-bold text-white mb-4">Guías por disciplina</h2>
-        <div class="flex flex-wrap gap-2">
-          {DISCIPLINES.map(d => (
-            <a
-              href={`/${d.slug}/`}
-              class="flex items-center gap-2 bg-brand-gray border border-brand-border hover:border-brand-red/40 rounded-lg px-3 py-2 text-sm text-brand-muted hover:text-white transition-all"
-            >
-              <LineIcon name={d.slug} class="w-4 h-4 text-brand-red shrink-0" />{d.nameEs}
-            </a>
-          ))}
-        </div>
-      </div>
-      <div>
-        <h2 class="text-lg font-bold text-white mb-4">Guías por municipio</h2>
-        <div class="flex flex-wrap gap-2">
-          {LOCATIONS.map(l => (
-            <a
-              href={`/${l.slug}/`}
-              class="bg-brand-gray border border-brand-border hover:border-brand-red/40 rounded-lg px-3 py-2 text-sm text-brand-muted hover:text-white transition-all"
-            >
-              {l.name}
-            </a>
-          ))}
-        </div>
-        <p class="mt-6 text-sm text-brand-muted">
-          ¿No encuentras lo que buscabas?{' '}
-          <a href="/contacto/" class="text-brand-red hover:text-red-400">Escríbenos</a> y te orientamos sin coste.
-        </p>
-      </div>
-    </div>
-  </section>
-
+<Layout title="Página no encontrada | Artes Marciales Catalunya" description="La página que buscas no existe o ha cambiado de dirección." noindex={true}>
+  <Header lang="es" />
+  <main id="contenido" class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <p class="text-brand-red font-black text-6xl">404</p>
+    <h1 class="text-3xl font-black text-white mt-4">Esta página no existe</h1>
+    <p class="text-brand-muted mt-3">Puede que haya cambiado de dirección al ampliar el directorio a toda Cataluña. Prueba desde aquí:</p>
+    <form action={url.centros('es')} method="get" class="mt-6 flex gap-3" role="search">
+      <input name="q" type="search" placeholder="Municipio, disciplina o centro" aria-label="Buscar" class="flex-1 bg-brand-gray border border-brand-border rounded-lg px-4 py-3 text-white placeholder-brand-muted focus:outline-none focus:border-brand-red" />
+      <button class="bg-brand-red hover:bg-red-700 text-white font-semibold px-5 py-3 rounded-lg">Buscar</button>
+    </form>
+    <ul class="flex flex-wrap gap-2 mt-8">
+      {comarcasConCentros().map(c => <li><a href={url.comarca('es', c)} class="inline-block bg-brand-gray border border-brand-border rounded-lg px-3 py-1.5 text-sm text-brand-muted hover:text-white">{getComarca(c)!.nombre}</a></li>)}
+    </ul>
   </main>
-
-  <Footer />
+  <Footer lang="es" />
 </Layout>

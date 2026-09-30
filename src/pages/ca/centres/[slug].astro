@@ -1,0 +1,7 @@
+---
+import T from '../../../templates/Centro.astro';
+import { rutasCentro } from '../../../lib/rutas';
+export const getStaticPaths = () => rutasCentro().map(params => ({ params }));
+const p = Astro.params as Record<string, string>;
+---
+<T lang="ca" slug={p.slug} />

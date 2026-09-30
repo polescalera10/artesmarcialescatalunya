@@ -16,8 +16,11 @@
 //     año, como recomienda la AEPD.
 //   · Sin consentimiento, la web no carga ningún tercero.
 // ────────────────────────────────────────────────────────────────────────────
-import { SITE } from '../data/site';
+import { SITE } from '../lib/site';
+import { L, url, type Lang } from '../lib/i18n';
 
+interface Props { lang?: Lang }
+const { lang = 'es' } = Astro.props;
 const gaId = SITE.analytics?.gaId;
 ---
 
@@ -28,15 +31,15 @@ const gaId = SITE.analytics?.gaId;
     class="hidden fixed bottom-0 inset-x-0 z-50 p-4 sm:p-5"
     role="dialog"
     aria-live="polite"
-    aria-label="Aviso sobre cookies"
+    aria-label={L(lang, "Aviso sobre cookies", "Avís sobre galetes")}
   >
     <div class="max-w-4xl mx-auto bg-brand-gray border border-brand-border rounded-2xl shadow-2xl p-5 sm:p-6">
-      <h2 class="text-white font-bold mb-2">Cookies de medición</h2>
+      <h2 class="text-white font-bold mb-2">{L(lang, "Cookies de medición", "Galetes de mesura")}</h2>
       <p class="text-sm text-brand-muted leading-relaxed mb-5">
-        Usamos Google Analytics para saber qué guías se leen y mejorar la web. Instala cookies
-        y envía datos a Google, así que solo lo activamos si nos das permiso. Si prefieres que no,
-        la web funciona exactamente igual.{' '}
-        <a href="/politica-privacidad/" class="text-brand-red hover:text-red-400 underline underline-offset-2">Más detalle en la política de privacidad</a>.
+        {L(lang,
+          'Usamos Google Analytics para saber qué páginas se consultan y mejorar el directorio. Instala cookies y envía datos a Google, así que solo lo activamos si nos das permiso. Si prefieres que no, la web funciona exactamente igual.',
+          "Fem servir Google Analytics per saber quines pàgines es consulten i millorar el directori. Instal·la galetes i envia dades a Google, així que només l'activem si ens dones permís. Si prefereixes que no, el web funciona exactament igual.")}{' '}
+        <a href={url.privacidad()} class="text-brand-red hover:text-red-400 underline underline-offset-2">{L(lang, 'Más detalle en la política de privacidad', 'Més detall a la política de privadesa')}</a>.
       </p>
       <div class="flex flex-col sm:flex-row gap-3">
         <button
@@ -44,14 +47,14 @@ const gaId = SITE.analytics?.gaId;
           data-consent="granted"
           class="flex-1 bg-brand-red hover:bg-red-700 text-white font-bold px-6 py-3 rounded-lg transition-colors"
         >
-          Aceptar
+          {L(lang, 'Aceptar', 'Acceptar')}
         </button>
         <button
           type="button"
           data-consent="denied"
           class="flex-1 bg-white/10 hover:bg-white/20 text-white font-bold px-6 py-3 rounded-lg border border-white/20 transition-colors"
         >
-          Rechazar
+          {L(lang, 'Rechazar', 'Rebutjar')}
         </button>
       </div>
     </div>
@@ -62,7 +65,7 @@ const gaId = SITE.analytics?.gaId;
   const banner = document.getElementById('cookie-consent');
   if (banner) {
     const GA_ID = banner.dataset.gaId;
-    const KEY = 'amg-consent';
+    const KEY = 'amc-consent';
     // La AEPD recomienda renovar el consentimiento como máximo cada 24 meses.
     // Un año es más conservador y evita arrastrar decisiones muy antiguas.
     const MAX_EDAD_MS = 365 * 24 * 60 * 60 * 1000;

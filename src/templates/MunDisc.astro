@@ -1,0 +1,152 @@
+---
+// Disciplina en un municipio ("boxeo en Sitges"). Existe con 2+ centros
+// locales o con texto heredado. Si hay pocos locales, se completan con los
+// más cercanos de la misma disciplina, marcados con su distancia.
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import ListaCentros from '../components/ListaCentros.astro';
+import CentroCard from '../components/CentroCard.astro';
+import FAQ from '../components/FAQ.astro';
+import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
+import { centrosDeMunicipio, centrosConDisciplina, cercanos } from '../lib/centros';
+import { getComarca, getMunicipio } from '../lib/geo';
+import { getDisciplina, nombreDisciplina } from '../lib/disciplinas';
+import { rutasMunDisc, editorialMunDisc, rutasDiscComarca } from '../lib/rutas';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+
+interface Props { lang: Lang; comarca: string; municipio: string; disciplina: string }
+const { lang, comarca, municipio, disciplina } = Astro.props;
+const com = getComarca(comarca)!;
+const mun = getMunicipio(municipio)!;
+const dis = getDisciplina(disciplina)!;
+const nd = dis[lang];
+const ndl = nd.toLowerCase();
+const locales = centrosConDisciplina(disciplina, centrosDeMunicipio(municipio));
+const cerca = locales.length < 4 ? cercanos(mun, c => c.disciplinas.includes(disciplina), 6 - Math.min(locales.length, 3), 30) : [];
+const ed = lang === 'es' ? editorialMunDisc(comarca, municipio, disciplina) : null;
+
+const otras = rutasMunDisc().filter(r => r.municipio === municipio && r.disciplina !== disciplina);
+const enOtros = rutasMunDisc().filter(r => r.disciplina === disciplina && r.comarca === comarca && r.municipio !== municipio);
+const hayDiscComarca = rutasDiscComarca().some(r => r.disciplina === disciplina && r.comarca === comarca);
+
+const intro = locales.length
+  ? L(lang,
+      `En ${mun.nombre} ${locales.length === 1 ? 'consta 1 centro' : `constan ${locales.length} centros`} que anuncian ${ndl} en su fuente pública: ${lista(lang, locales.map(c => c.nombre))}.${cerca.length ? ` Si quieres más opciones, abajo tienes los más cercanos con ${ndl}.` : ''}`,
+      `A ${mun.nombre} ${locales.length === 1 ? 'hi consta 1 centre' : `hi consten ${locales.length} centres`} que anuncien ${ndl} a la seva font pública: ${lista(lang, locales.map(c => c.nombre))}.${cerca.length ? ` Si vols més opcions, a sota tens els més propers amb ${ndl}.` : ''}`)
+  : L(lang,
+      `En nuestro directorio no consta ningún centro de ${mun.nombre} que anuncie ${ndl}. Estos son los más cercanos que sí lo hacen.`,
+      `Al nostre directori no hi consta cap centre de ${mun.nombre} que anunciï ${ndl}. Aquests són els més propers que sí que ho fan.`);
+
+const title = ed?.titulo ?? titulo(
+  L(lang, `${nd} en ${mun.nombre}: ${n(locales.length, 'centro', 'centros')} | ${com.nombre}`, `${nd} a ${mun.nombre}: ${n(locales.length, 'centre', 'centres')} | ${com.nombre}`),
+  L(lang, `${nd} en ${mun.nombre}: ${n(locales.length, 'centro', 'centros')}`, `${nd} a ${mun.nombre}: ${n(locales.length, 'centre', 'centres')}`),
+  L(lang, `${nd} en ${mun.nombre}`, `${nd} a ${mun.nombre}`),
+);
+const description = ed?.descripcion ?? descripcion(
+  L(lang,
+    `Dónde entrenar ${ndl} en ${mun.nombre}: ${n(locales.length, 'centro', 'centros')} con fuente pública verificada${cerca.length ? ' y los más cercanos de la zona' : ''}. Sin valoraciones ni rankings.`,
+    `On entrenar ${ndl} a ${mun.nombre}: ${n(locales.length, 'centre', 'centres')} amb font pública verificada${cerca.length ? ' i els més propers de la zona' : ''}. Sense valoracions ni rànquings.`),
+  L(lang, `${nd} en ${mun.nombre}: centros con fuente pública verificada.`, `${nd} a ${mun.nombre}: centres amb font pública verificada.`),
+);
+const h1 = ed?.h1 ?? L(lang, `${nd} en ${mun.nombre}`, `${nd} a ${mun.nombre}`);
+
+const faq = ed?.faq?.length ? ed.faq : [
+  {
+    q: L(lang, `¿Dónde puedo entrenar ${ndl} en ${mun.nombre}?`, `On puc entrenar ${ndl} a ${mun.nombre}?`),
+    a: locales.length
+      ? L(lang, `Según nuestro directorio: ${lista(lang, locales.map(c => c.nombre))}. Todos anuncian ${ndl} en su web oficial o en el registro de su federación.`, `Segons el nostre directori: ${lista(lang, locales.map(c => c.nombre))}. Tots anuncien ${ndl} al seu web oficial o al registre de la seva federació.`)
+      : L(lang, `No consta ningún centro en ${mun.nombre}. Los más cercanos con ${ndl} están en ${lista(lang, [...new Set(cerca.map(x => getMunicipio(x.centro.municipio)!.nombre))])}.`, `No hi consta cap centre a ${mun.nombre}. Els més propers amb ${ndl} són a ${lista(lang, [...new Set(cerca.map(x => getMunicipio(x.centro.municipio)!.nombre))])}.`),
+  },
+  {
+    q: L(lang, '¿Por qué no hay precios ni horarios?', 'Per què no hi ha preus ni horaris?'),
+    a: L(lang,
+      'Cambian cada temporada y no podemos garantizar que estén al día. Te enlazamos a la web oficial de cada centro cuando existe, que es donde están actualizados.',
+      "Canvien cada temporada i no podem garantir que estiguin al dia. T'enllacem al web oficial de cada centre quan existeix, que és on estan actualitzats."),
+  },
+];
+
+const alternates = { es: url.munDisc('es', comarca, municipio, disciplina), ca: url.munDisc('ca', comarca, municipio, disciplina) };
+const pageUrl = `${SITE.url}${url.munDisc(lang, comarca, municipio, disciplina)}`;
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': pageUrl,
+  name: title,
+  description,
+  url: pageUrl,
+  inLanguage: lang,
+  isPartOf: { '@id': SCHEMA_IDS.website },
+  publisher: { '@id': SCHEMA_IDS.organization },
+  about: [{ '@type': 'City', name: mun.nombre }, { '@type': 'Thing', name: nd }],
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: locales.length,
+    itemListElement: locales.map((c, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${url.centro(lang, c.slug)}`, name: c.nombre })),
+  },
+};
+---
+
+<Layout title={title} description={description} canonical={url.munDisc(lang, comarca, municipio, disciplina)} schema={schema} lang={lang} alternates={alternates}>
+  <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
+  <main id="contenido">
+    <Migas lang={lang} items={[
+      { nombre: com.nombre, href: url.comarca(lang, comarca) },
+      { nombre: mun.nombre, href: url.municipio(lang, comarca, municipio) },
+      { nombre: nd, href: url.munDisc(lang, comarca, municipio, disciplina) },
+    ]} />
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+      <p class="text-xs uppercase tracking-wide text-brand-red font-semibold mb-3">{nd} · {mun.nombre}</p>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">{h1}</h1>
+      <div class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed" set:html={ed?.intro ?? intro} />
+    </section>
+
+    {locales.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h2 class="text-2xl font-bold text-white mb-6">{L(lang, `${nd} en ${mun.nombre}`, `${nd} a ${mun.nombre}`)} <span class="text-brand-muted font-normal">({locales.length})</span></h2>
+        <ListaCentros centros={locales} lang={lang} conMunicipio={false} />
+      </section>
+    )}
+
+    {cerca.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h2 class="text-xl font-bold text-white mb-2">{L(lang, `${nd} cerca de ${mun.nombre}`, `${nd} a prop de ${mun.nombre}`)}</h2>
+        <p class="text-sm text-brand-muted mb-5">{L(lang, 'Distancia en línea recta entre centros de municipio, orientativa.', 'Distància en línia recta entre centres de municipi, orientativa.')}</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {cerca.map(({ centro, km }) => <CentroCard centro={centro} lang={lang} km={km} />)}
+        </div>
+      </section>
+    )}
+
+    {ed?.body && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <article class="max-w-3xl articulo" set:html={ed.body} />
+      </section>
+    )}
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 grid md:grid-cols-2 gap-8">
+      {otras.length > 0 && (
+        <div>
+          <h2 class="text-lg font-bold text-white mb-3">{L(lang, `Otras disciplinas en ${mun.nombre}`, `Altres disciplines a ${mun.nombre}`)}</h2>
+          <ul class="flex flex-wrap gap-2">
+            {otras.map(o => <li><a href={url.munDisc(lang, comarca, municipio, o.disciplina)} class="inline-block bg-brand-gray border border-brand-border rounded-full px-3 py-1.5 text-sm text-brand-muted hover:text-white">{nombreDisciplina(o.disciplina, lang)}</a></li>)}
+          </ul>
+        </div>
+      )}
+      <div>
+        <h2 class="text-lg font-bold text-white mb-3">{L(lang, `${nd} en otros municipios`, `${nd} en altres municipis`)}</h2>
+        <ul class="flex flex-wrap gap-2">
+          {enOtros.map(o => <li><a href={url.munDisc(lang, comarca, o.municipio, disciplina)} class="inline-block bg-brand-gray border border-brand-border rounded-full px-3 py-1.5 text-sm text-brand-muted hover:text-white">{getMunicipio(o.municipio)!.nombre}</a></li>)}
+          <li><a href={hayDiscComarca ? url.discComarca(lang, disciplina, comarca) : url.disciplina(lang, disciplina)} class="inline-block px-3 py-1.5 text-sm text-brand-red hover:text-red-400">{hayDiscComarca ? L(lang, `${nd} en ${com.nombre}`, `${nd} a ${com.nombre}`) : L(lang, `${nd} en Cataluña`, `${nd} a Catalunya`)} →</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <ParaCentrosCTA lang={lang} ambito={mun.nombre} />
+    <FAQ items={faq} title={L(lang, 'Preguntas frecuentes', 'Preguntes freqüents')} />
+  </main>
+  <Footer lang={lang} />
+</Layout>

@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "club-judo-ripoll",
+  "nombre": "Club Judo Ripoll",
+  "tipo": "club",
+  "municipio": "ripoll",
+  "disciplinas": [
+   "judo",
+   "defensa-personal"
+  ],
+  "direccion": "C/ Sant Amand s/n. RIPOLL",
+  "web": "http://judoclubripoll.blogspot.com/p/judo-club-ripoll.html",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "lee-young-ripoll",
+  "nombre": "Lee Young Ripoll",
+  "tipo": "escuela",
+  "municipio": "ripoll",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Ctra.de Ribes, 12, 17500 Ripoll",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "ribetana-karate-do",
+  "nombre": "Ribetana Karate Do",
+  "tipo": "escuela",
+  "municipio": "ribes-de-freser",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

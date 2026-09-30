@@ -1,0 +1,105 @@
+[
+ {
+  "slug": "club-boxa-arts-marcials-vic",
+  "nombre": "Club Boxa Arts Marcials Vic",
+  "tipo": "club",
+  "municipio": "vic",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-hook-school",
+  "nombre": "Club Boxa Hook School",
+  "tipo": "club",
+  "municipio": "manlleu",
+  "disciplinas": [
+   "boxeo",
+   "mma",
+   "grappling"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-osona",
+  "nombre": "Club Boxa Osona",
+  "tipo": "club",
+  "municipio": "sant-vicenc-de-torello",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-jiu-jitsu-brasiler-vic",
+  "nombre": "Club de Jiu jitsu brasiler Vic",
+  "tipo": "club",
+  "municipio": "vic",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "C/Figueres 10-12 08500",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=JJV",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-as-putxet-karate",
+  "nombre": "Club Esportiu As Putxet Karate",
+  "tipo": "club",
+  "municipio": "centelles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=3",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "osona-judo-club",
+  "nombre": "Osona Judo Club",
+  "tipo": "escuela",
+  "municipio": "montesquiu",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Carretera de Barcelona, 14 - 08585, - MONTESQUIEU",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "shin-do-rocky-ryu",
+  "nombre": "Shin-Do Rocky Ryu",
+  "tipo": "escuela",
+  "municipio": "vic",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-vic",
+  "nombre": "Taekwondo Vic",
+  "tipo": "escuela",
+  "municipio": "vic",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Passatge Joan Puig, 4 Bajos, 08500 Vic",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

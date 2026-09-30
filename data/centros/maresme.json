@@ -1,0 +1,601 @@
+[
+ {
+  "slug": "a-d-dojo-cervantes",
+  "nombre": "A.D. Dojo Cervantes",
+  "tipo": "escuela",
+  "municipio": "mataro",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=20",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "afe-malgrat",
+  "nombre": "Afe Malgrat",
+  "tipo": "escuela",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Germanes Torrell Nº 11, Malgrat de Mar–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "asociacion-deportiva-jiu-jitsu-pretorians",
+  "nombre": "Asociación Deportiva Jiu Jitsu Pretorians",
+  "tipo": "asociacion",
+  "municipio": "tordera",
+  "disciplinas": [],
+  "direccion": "Torna a la Federació",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=Pretorians%20Jiu%20Jitsu",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "assoc-judo-i-d-a-ateneu-vilassar-de-mar",
+  "nombre": "Assoc Judo i D.A. Ateneu Vilassar de Mar",
+  "tipo": "escuela",
+  "municipio": "vilassar-de-mar",
+  "disciplinas": [
+   "judo",
+   "aikido"
+  ],
+  "direccion": "C/ Sant Josep, 17, 1er, VILASSAR DE MAR",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-a-9-esports-el-mas",
+  "nombre": "Associació Esportiva A+9 Esports el Mas",
+  "tipo": "asociacion",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Ciutat sant Sebastià, 14, local - 08320 - EL MASNOU",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "assosiacio-de-muay-thai-malgrat-de-mar",
+  "nombre": "Assosiació de Muay Thai Malgrat de Mar",
+  "tipo": "escuela",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Carrer Escoles Nº 23, Malgrat de Mar–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "cantos",
+  "nombre": "Cantos",
+  "tipo": "escuela",
+  "municipio": "pineda-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avda. Hispanidad, 3 Bajos, 08397 Pineda de Mar",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-aikido-malgrat",
+  "nombre": "Club Aikido Malgrat",
+  "tipo": "club",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "aikido"
+  ],
+  "direccion": "Pavelló Germans Margall, Malgrat de Mar",
+  "web": "https://www.instagram.com/club_aikido_malgrat/",
+  "fuente": "https://fedecatjudo.cat/aikido/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-almogavers",
+  "nombre": "Club Boxa Almogavers",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-jg-xperience",
+  "nombre": "Club Boxa Jg Xperience",
+  "tipo": "club",
+  "municipio": "premia-de-dalt",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-team-antoni-campoy",
+  "nombre": "Club Boxa Team Antoni Campoy",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-amics-teia",
+  "nombre": "Club de Judo Amics Teià",
+  "tipo": "club",
+  "municipio": "teia",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Puig Oriol, 68-84, TEIÀ",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-pineda-de-mar",
+  "nombre": "Club de Judo Pineda de Mar",
+  "tipo": "club",
+  "municipio": "pineda-de-mar",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "c/Montpalau nº 16, PINEDA DE MAR",
+  "web": "https://es-es.facebook.com/pages/category/Amateur-Sports-Team/CLUB-DE-JUDO-PINEDA-DE-MAR-113820458644776/",
+  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-lara-thai",
+  "nombre": "Club Esportiu Lara Thai",
+  "tipo": "club",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "C/flos i Calcat Nº7 – 9, 2º, el Masnou—barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-taekwondo-vilassar",
+  "nombre": "Club Esportiu Taekwondo Vilassar",
+  "tipo": "club",
+  "municipio": "vilassar-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Carrer de l'Angel, 10, 08340 Vilassar de Mar",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-budokai-svm",
+  "nombre": "Club Judo Budokai SVM",
+  "tipo": "club",
+  "municipio": "sant-vicenc-de-montalt",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Avda Toni Sors, s/n - 08394 - SANT VICENÇ DE MONTALT",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-calella",
+  "nombre": "Club Judo Calella",
+  "tipo": "club",
+  "municipio": "calella",
+  "disciplinas": [
+   "judo",
+   "defensa-personal"
+  ],
+  "direccion": "C/ Sant Jaume, S/N. CALELLA",
+  "web": "http://www.facebook.com/judocalella",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-carles",
+  "nombre": "Club Judo Carles",
+  "tipo": "club",
+  "municipio": "arenys-de-munt",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Ctra Lourdes, 9 - 08358 - ARENYS DE MUNT",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-malgrat",
+  "nombre": "Club Judo Malgrat",
+  "tipo": "club",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Av. Tarragona, 25 Pavelló Municipal - 08380 - MALGRAT DE MAR",
+  "web": "https://www.facebook.com/people/Club-Judo-Malgrat/100068541345100/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-mataro",
+  "nombre": "Club Judo Mataró",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Avda Puig i cadafalch, 80. MATARO",
+  "web": "https://judomataro.com/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-pineda-de-mar",
+  "nombre": "Club Judo Pineda de Mar",
+  "tipo": "club",
+  "municipio": "pineda-de-mar",
+  "disciplinas": [
+   "judo",
+   "aikido"
+  ],
+  "direccion": "Montpalau, 16, PINEDA DE MAR",
+  "web": "https://es-es.facebook.com/pages/category/Amateur-Sports-Team/CLUB-DE-JUDO-PINEDA-DE-MAR-113820458644776/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-rei",
+  "nombre": "Club Judo Rei",
+  "tipo": "club",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Avda. Constitucio, s/n. EL MASNOU",
+  "web": "https://es-es.facebook.com/judobushidorei/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-tordera",
+  "nombre": "Club Judo Tordera",
+  "tipo": "club",
+  "municipio": "tordera",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Poliesportiu Tordera. Av Països Catalans, 104. Tordera",
+  "web": "https://es-es.facebook.com/pages/category/Sports-team/CLUBJUDOTordera-840542566099682/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-pineda-de-mar",
+  "nombre": "Club Karate Pineda de Mar",
+  "tipo": "club",
+  "municipio": "pineda-de-mar",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-kenpo-karate-malgrat",
+  "nombre": "Club Kenpo Karate Malgrat",
+  "tipo": "club",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-resilience-jiu-jitsu-malgrat-de-mar",
+  "nombre": "Club Resilience Jiu Jitsu Malgrat de Mar",
+  "tipo": "club",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "defensa-personal",
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Av/ Tarragona 28 Malgrat de Mar",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=JMJM",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-fitsport-vilassar-de-mar",
+  "nombre": "Club Taekwondo Fitsport Vilassar de Mar",
+  "tipo": "club",
+  "municipio": "vilassar-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avgda. Montevideo, 68, 08340 Vilassar de Mar",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-mes-tordera",
+  "nombre": "Club Taekwondo Mes Tordera",
+  "tipo": "club",
+  "municipio": "tordera",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Petunia, 29, 08490 Tordera",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "crazy-jumpers",
+  "nombre": "Crazy Jumpers",
+  "tipo": "escuela",
+  "municipio": "argentona",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "General Llauder, 44 1º, 08310 Argentona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "deportivo-tonbal",
+  "nombre": "Deportivo Tonbal",
+  "tipo": "escuela",
+  "municipio": "mataro",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Josep Vicens Foix, 53, 08304 Mataro",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-taekwondo-mataro",
+  "nombre": "Esportiu Taekwondo Mataro",
+  "tipo": "escuela",
+  "municipio": "mataro",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avila, 28, 08304 Mataro",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gimdan-tae",
+  "nombre": "Gimdan Tae",
+  "tipo": "escuela",
+  "municipio": "montgat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Francesc Moragas, S/n (galerias), 08390 Montgat",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "grapplers-paradise",
+  "nombre": "Grapplers Paradise",
+  "tipo": "escuela",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "grappling"
+  ],
+  "direccion": "Av Joan Maragall 4 6",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=PARADISE",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "hukutsu-dojo",
+  "nombre": "Hukutsu Dojo",
+  "tipo": "escuela",
+  "municipio": "premia-de-mar",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "hwarang-mataro",
+  "nombre": "Hwarang Mataro",
+  "tipo": "escuela",
+  "municipio": "mataro",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Passatge l'Ymbern, 2 1º 2ª, 08302 Mataro",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "joan-marc-barulls-puyal",
+  "nombre": "Joan Marc Barulls Puyal",
+  "tipo": "escuela",
+  "municipio": "sant-vicenc-de-montalt",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Ctra. Sant Vicenç de Montalt, 35, 08394 Sant Vicenç de Montalt",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kim-moo",
+  "nombre": "Kim Moo",
+  "tipo": "escuela",
+  "municipio": "arenys-de-munt",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Sant Antoni, 11, 08358 Arenys de Munt",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "maresme-waves-dojo",
+  "nombre": "Maresme Waves Dojo",
+  "tipo": "escuela",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "mma",
+   "jiu-jitsu-japones",
+   "grappling"
+  ],
+  "direccion": "Carrer Angel Guimera 11,",
+  "web": "www.maresmewaves.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=WAVES",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "nanbudo-barcelona",
+  "nombre": "Nanbudo Barcelona",
+  "tipo": "escuela",
+  "municipio": "mataro",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=6",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-viro",
+  "nombre": "Taekwondo Viro",
+  "tipo": "escuela",
+  "municipio": "arenys-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "C/. Sant Zenon, 32 4º, 08350 Arenys de Mar",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "the-white-monkey",
+  "nombre": "The White Monkey",
+  "tipo": "escuela",
+  "municipio": "mataro",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Méndez núñez N12",
+  "web": "https://www.thewhitemonkey.eu/",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=TWM",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tkd-avellaneda",
+  "nombre": "TKD Avellaneda",
+  "tipo": "escuela",
+  "municipio": "premia-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Gran Via de Lluís Companys, 182 Local, 08330 Premia de Mar",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tkd-palafolls-escola-juls",
+  "nombre": "TKD Palafolls (escola Juls)",
+  "tipo": "escuela",
+  "municipio": "palafolls",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Pompeu Fabra, (palauet), 08389 Palafolls",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "top-king-training-center",
+  "nombre": "Top King Training Center",
+  "tipo": "escuela",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Germanes Torroell, 11, 08380 Malgrat de Mar",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "venzala",
+  "nombre": "Venzala",
+  "tipo": "escuela",
+  "municipio": "sant-andreu-de-llavaneres",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "San Juan, 11, 08392 San Andres de Llavaneras",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

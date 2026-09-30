@@ -2,7 +2,7 @@ import { DISCIPLINES, getDisciplineBySlug } from './disciplines';
 import { LOCATIONS, getLocationBySlug } from './locations';
 import { getCentros, getCentrosByDisciplina, getCentrosByMunicipio } from './centros';
 import { conDatos } from './recuentos';
-import { SITE } from './site';
+import { SITE } from './site-garraf';
 import { BLOG_BODIES } from './blog-posts';
 import {
   MUNICIPIO_BODIES,

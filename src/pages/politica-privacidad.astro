@@ -2,16 +2,17 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE, whatsappActivo } from '../data/site';
+import { SITE } from '../lib/site';
+const whatsappActivo = false;
 ---
 
 <Layout
-  title="Política de Privacidad | Artes Marciales Garraf"
-  description="Política de privacidad y protección de datos de artesmarcialesgarraf.es. Información sobre el tratamiento de tus datos personales conforme al RGPD."
+  title="Política de Privacidad | Artes Marciales Catalunya"
+  description="Política de privacidad y protección de datos de artesmarciales.cat. Información sobre el tratamiento de tus datos personales conforme al RGPD."
   canonical="/politica-privacidad/"
   noindex={true}
 >
-  <Header />
+  <Header lang="es" />
   <main id="contenido">
 
   <section class="py-16 px-4">
@@ -28,11 +29,11 @@ import { SITE, whatsappActivo } from '../data/site';
           <h2 class="text-xl font-bold text-white mb-4">1. Responsable del tratamiento</h2>
           <ul class="text-brand-muted space-y-1">
             {/* TODO: completar con los datos reales del responsable antes del deploy (nombre o razón social, NIF y domicilio). No publicar datos inventados. */}
-            <li><strong class="text-white">Nombre comercial del sitio:</strong> Artes Marciales Garraf</li>
+            <li><strong class="text-white">Nombre comercial del sitio:</strong> Artes Marciales Catalunya</li>
             <li><strong class="text-white">Responsable:</strong> [Pendiente de completar: nombre y apellidos o razón social]</li>
             <li><strong class="text-white">NIF:</strong> [Pendiente de completar]</li>
-            <li><strong class="text-white">Correo electrónico:</strong> contacto@artesmarcialesgarraf.es</li>
-            <li><strong class="text-white">Dominio:</strong> artesmarcialesgarraf.es</li>
+            <li><strong class="text-white">Correo electrónico:</strong> contacto@artesmarciales.cat</li>
+            <li><strong class="text-white">Dominio:</strong> artesmarciales.cat</li>
           </ul>
         </div>
 
@@ -65,18 +66,11 @@ import { SITE, whatsappActivo } from '../data/site';
           </p>
           <ul class="text-brand-muted mt-3 space-y-2 list-disc list-inside">
             <li><strong class="text-white">Vercel Inc.</strong>: alojamiento del sitio web.</li>
+            <li><strong class="text-white">Resend (Plus Five Five, Inc.)</strong>: entrega por correo electrónico del mensaje que envías con los formularios del sitio. No lo conserva más allá de lo necesario para entregarlo. Puede tratarse fuera del Espacio Económico Europeo, con las garantías de las cláusulas contractuales tipo de la Comisión Europea.</li>
             <li><strong class="text-white">Proveedor de correo electrónico</strong>: recepción y conservación de tu mensaje en nuestro buzón.</li>
-            {whatsappActivo && (
-              <li>
-                <strong class="text-white">WhatsApp (Meta Platforms Ireland Ltd.)</strong>: si eliges
-                escribirnos por WhatsApp, el contenido de la conversación se trata en esa plataforma
-                conforme a sus propias condiciones y política de privacidad, además de en nuestro
-                dispositivo. Es un canal opcional: puedes usar el formulario o el correo en su lugar.
-              </li>
-            )}
           </ul>
           <p class="text-brand-muted leading-relaxed mt-3">
-            El formulario de contacto <strong class="text-white">no envía tus datos a ningún servicio intermediario</strong>: compone el mensaje en tu propio navegador y lo abre en tu programa de correo, de modo que tu consulta viaja directamente de tu buzón al nuestro.
+            Los formularios no guardan tus datos en ninguna base de datos: el mensaje se reenvía a nuestro buzón y nada más. Si el envío automático no está disponible, el formulario abre tu propio programa de correo con el mensaje ya redactado.
           </p>
           <p class="text-brand-muted leading-relaxed mt-3">
             Solo compartiremos tus datos con un centro deportivo concreto si nos autorizas expresamente a hacerlo, y te diremos con quién antes de hacerlo.
@@ -104,7 +98,7 @@ import { SITE, whatsappActivo } from '../data/site';
             <li><strong class="text-white">Limitación:</strong> solicitar la limitación del tratamiento</li>
           </ul>
           <p class="text-brand-muted leading-relaxed mt-3">
-            Para ejercer cualquiera de estos derechos, contacta con nosotros en: <a href="mailto:contacto@artesmarcialesgarraf.es" class="text-brand-red hover:underline">contacto@artesmarcialesgarraf.es</a>
+            Para ejercer cualquiera de estos derechos, contacta con nosotros en: <a href="mailto:contacto@artesmarciales.cat" class="text-brand-red hover:underline">contacto@artesmarciales.cat</a>
           </p>
           <p class="text-brand-muted leading-relaxed mt-3">
             También tienes derecho a presentar una reclamación ante la <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer" class="text-brand-red hover:underline">Agencia Española de Protección de Datos (AEPD)</a> si consideras que el tratamiento no se ajusta a la normativa vigente.
@@ -186,7 +180,14 @@ import { SITE, whatsappActivo } from '../data/site';
         </div>
 
         <div>
-          <h2 class="text-xl font-bold text-white mb-4">8. Seguridad</h2>
+          <h2 class="text-xl font-bold text-white mb-4">8. Datos de los centros del directorio</h2>
+          <p class="text-brand-muted leading-relaxed">
+            El directorio publica datos de centros deportivos (nombre, municipio, disciplinas, dirección y web) que constan en fuentes públicas: la web oficial del centro, el registro de clubs de su federación o el directorio de entidades de su ayuntamiento. No publicamos datos de personas físicas como teléfonos personales, correos o nombres de instructores. La base legal es el interés legítimo en ofrecer información de interés público sobre la oferta deportiva. Cualquier centro puede pedir la corrección o la retirada de su ficha escribiendo a <a href="mailto:contacto@artesmarciales.cat" class="text-brand-red hover:underline">contacto@artesmarciales.cat</a>.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-bold text-white mb-4">9. Seguridad</h2>
           <p class="text-brand-muted leading-relaxed">
             Adoptamos las medidas técnicas y organizativas apropiadas para proteger tus datos personales contra el acceso no autorizado, la pérdida o la destrucción accidental.
           </p>
@@ -195,12 +196,12 @@ import { SITE, whatsappActivo } from '../data/site';
       </div>
 
       <p class="text-brand-muted text-xs mt-10">
-        Última actualización: agosto de 2026
+        Última actualización: septiembre de 2026
       </p>
     </div>
   </section>
 
   </main>
 
-  <Footer />
+  <Footer lang="es" />
 </Layout>

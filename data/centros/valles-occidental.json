@@ -1,0 +1,1227 @@
+[
+ {
+  "slug": "a-e-cinfi-south-star",
+  "nombre": "A.e.cinfi South Star",
+  "tipo": "asociacion",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Romeu, 1 8º 1ª, 08202 Sabadell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "a-s-tkd-sabadell",
+  "nombre": "A.s.tkd Sabadell",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Via Alexandra, 43 8º 2ª, 08206 Sabadell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "alexandra",
+  "nombre": "Alexandra",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Juvenal, 9 A, 08206 Sabadell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-club-esportiu-taekwondo-terrassa",
+  "nombre": "Associació Club Esportiu Taekwondo Terrassa",
+  "tipo": "asociacion",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Av. Joaquin de Sagrera, 15, 08224 Terrassa",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-de-karate-shotokan-ryu-kase-ha-catalunya",
+  "nombre": "Associació de Karate Shotokan Ryu Kase Ha Catalunya",
+  "tipo": "asociacion",
+  "municipio": "castellbisbal",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esp-can-deu",
+  "nombre": "Associació Esp. Can Deu",
+  "tipo": "asociacion",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-budokan-go-dai",
+  "nombre": "Associació Esportiva Budokan Go Dai",
+  "tipo": "asociacion",
+  "municipio": "palau-solita-i-plegamans",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Rossinyol Nº 45, Palau-Solità i Plegamans–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-defensa-personal-barcelona",
+  "nombre": "Associació Esportiva Defensa Personal Barcelona",
+  "tipo": "asociacion",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Ctra. Sentmenat Nº147, 1r 1ª, Sabadell–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-dicon-sant-quirze",
+  "nombre": "Associació Esportiva Dicon Sant Quirze",
+  "tipo": "asociacion",
+  "municipio": "sant-quirze-del-valles",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Vallcorba Nº 9, Local, Sant Quirze del Vallès–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-team-leon",
+  "nombre": "Associació Esportiva Team Leon",
+  "tipo": "asociacion",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carretera Matadepera Nº 301, Loc. 21-23, Terrassa-Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "balmes-rubi",
+  "nombre": "Balmes Rubi",
+  "tipo": "escuela",
+  "municipio": "rubi",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Carretera de Terrassa, 55 (local), 08191 Rubi",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-k-multi-sport-cerdanyola",
+  "nombre": "C.K. Multi-Sport Cerdanyola",
+  "tipo": "escuela",
+  "municipio": "cerdanyola-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "cfc-team-sergio-calderon",
+  "nombre": "CFC Team - Sergio Calderón",
+  "tipo": "escuela",
+  "municipio": "cerdanyola-del-valles",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Ronda de Cerdanyola 13",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CFC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-actitud-boxing-crew",
+  "nombre": "Club Boxa Actitud Boxing Crew",
+  "tipo": "club",
+  "municipio": "polinya",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-castellbisbal",
+  "nombre": "Club Boxa Castellbisbal",
+  "tipo": "club",
+  "municipio": "castellbisbal",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-cerdanyola",
+  "nombre": "Club Boxa Cerdanyola",
+  "tipo": "club",
+  "municipio": "cerdanyola-del-valles",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-la-cubierta",
+  "nombre": "Club Boxa la Cubierta",
+  "tipo": "club",
+  "municipio": "badia-del-valles",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-rocblanc",
+  "nombre": "Club Boxa Rocblanc",
+  "tipo": "club",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-rubi",
+  "nombre": "Club Boxa Rubì",
+  "tipo": "club",
+  "municipio": "rubi",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-team-castillo",
+  "nombre": "Club Boxa Team Castillo",
+  "tipo": "club",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-team-dani-fighters",
+  "nombre": "Club Boxa Team Dani Fighters",
+  "tipo": "club",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-team-vega",
+  "nombre": "Club Boxa Team Vega",
+  "tipo": "club",
+  "municipio": "rubi",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-terrassa",
+  "nombre": "Club Boxa Terrassa",
+  "tipo": "club",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-zona-de-combate",
+  "nombre": "Club Boxa Zona de Combate",
+  "tipo": "club",
+  "municipio": "ripollet",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-bunkay",
+  "nombre": "Club Bunkay",
+  "tipo": "club",
+  "municipio": "ripollet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=3",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-badia",
+  "nombre": "Club de Judo Badia",
+  "tipo": "club",
+  "municipio": "badia-del-valles",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Av. Via de la Plata, s/n., BADIA DEL VALLÈS",
+  "web": "http://judobadia.blogspot.com.es/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-egara",
+  "nombre": "Club de Judo Egara",
+  "tipo": "club",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Ricardo Caro, 90, 3º 5º, TERRASSA",
+  "web": "http://www.judoegara.es",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-santa-perpetua",
+  "nombre": "Club de Judo Santa Perpetua",
+  "tipo": "club",
+  "municipio": "santa-perpetua-de-mogoda",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Av. Girona, 7 Pavelló Polisportiu, SANTA PERPETUA DE MOGODA",
+  "web": "https://www.facebook.com/Club-de-Judo-StPerpetua-2077602122465363/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-sentmenat",
+  "nombre": "Club De Judo Sentmenat",
+  "tipo": "club",
+  "municipio": "sentmenat",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Carrer de Poca Farina, s/n, SENTMENAT",
+  "web": "https://www.facebook.com/judo.sentmenat",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-lucha-ripollet",
+  "nombre": "Club de Lucha Ripollet",
+  "tipo": "club",
+  "municipio": "ripollet",
+  "disciplinas": [
+   "lucha",
+   "grappling"
+  ],
+  "direccion": "C/ Pizarro s/n, Pabellón Municipal de Ripollet",
+  "web": "https://www.lluitaripollet.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=RP",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-dir-palau",
+  "nombre": "Club DIR Palau",
+  "tipo": "club",
+  "municipio": "palau-solita-i-plegamans",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=17",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esp-do-san-barbera",
+  "nombre": "Club Esp. Do-San Barbera",
+  "tipo": "club",
+  "municipio": "barbera-del-valles",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Urgel Nº 19, Barbera del Valles—barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-darts-marcials-tatami",
+  "nombre": "Club Esportiu d'Arts Marcials Tatami",
+  "tipo": "club",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-eixample-sabadell",
+  "nombre": "Club Esportiu Eixample Sabadell",
+  "tipo": "club",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Fray Luis de Leon Nº 179, Sabadell–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-fight-team-sabadell",
+  "nombre": "Club Esportiu Fight Team Sabadell",
+  "tipo": "club",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Carrer Gorina i Pujol 113",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=EFT",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-kyokushin-castellar",
+  "nombre": "Club esportiu Kyokushin Castellar",
+  "tipo": "club",
+  "municipio": "castellar-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-last-round-polinya",
+  "nombre": "Club Esportiu Last Round Polinya",
+  "tipo": "club",
+  "municipio": "polinya",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Pirineus Nº7-11, Esc G, Polinya–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-shi-kan-barbera",
+  "nombre": "Club Esportiu Shi-Kan Barberà",
+  "tipo": "club",
+  "municipio": "barbera-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-shi-kan-montcada",
+  "nombre": "Club Esportiu Shi-Kan Montcada",
+  "tipo": "club",
+  "municipio": "montcada-i-reixac",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-jiu-jitsu-sant-cugat",
+  "nombre": "Club Jiu Jitsu Sant Cugat",
+  "tipo": "club",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "Rambla del Celler, s/n, pav III, SANT CUGAT DEL VALLES",
+  "web": "http://www.jiujitsusantcugat.com",
+  "fuente": "https://fedecatjudo.cat/jiu-jitsu/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-badia",
+  "nombre": "Club Judo Badia",
+  "tipo": "club",
+  "municipio": "badia-del-valles",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "direccion": "Av. Via de la Plata, s/n (Complex Esportiu), BADIA DEL VALLES",
+  "web": "http://judobadia.blogspot.com/",
+  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-badia",
+  "nombre": "Club Karate Badia",
+  "tipo": "club",
+  "municipio": "badia-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-sant-cugat",
+  "nombre": "Club Karate Sant Cugat",
+  "tipo": "club",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-ksk",
+  "nombre": "Club KSK",
+  "tipo": "club",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-m-canela",
+  "nombre": "Club M Canela",
+  "tipo": "club",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ San Antonio, 70. SANT CUGAT DEL VALLES",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-natacio-sabadell",
+  "nombre": "Club Natacio Sabadell",
+  "tipo": "club",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "aikido"
+  ],
+  "direccion": "C/ Montcada, 2. SABADELL",
+  "web": "http://www.nataciosabadell.cat",
+  "fuente": "https://fedecatjudo.cat/aikido/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-natacio-terrassa",
+  "nombre": "Club Natació Terrassa",
+  "tipo": "club",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "karate",
+   "judo"
+  ],
+  "direccion": "Av. Abat Marcet, s/n. TERRASSA",
+  "web": "http://www.clubnatacioterrassa.cat/",
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=11",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-sant-cugat",
+  "nombre": "Club Taekwondo Sant Cugat",
+  "tipo": "club",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "C/. Sant Llorenç, 30, 08172 Sant Cugat del Valles",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "cops-cave",
+  "nombre": "Cops Cave",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "defensa-personal",
+   "mma",
+   "lucha",
+   "grappling"
+  ],
+  "direccion": "Sabadell",
+  "web": "www.copscave.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=COPS",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "cos-olimpic",
+  "nombre": "Cos Olimpic",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Reus, 48-52, 08227 Terrassa",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dalma-kim-rubi",
+  "nombre": "Dalma Kim Rubi",
+  "tipo": "escuela",
+  "municipio": "rubi",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Santa Lucia, 9, 08191 Rubi",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dance-street-fes-gym",
+  "nombre": "Dance Street - Fes Gym",
+  "tipo": "gimnasio",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "hapkido"
+  ],
+  "direccion": "Colon, 104, 08222 Terrassa",
+  "fuente": "https://taekwondocatala.com/_hapkido/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "doil-lee",
+  "nombre": "Doil Lee",
+  "tipo": "escuela",
+  "municipio": "cerdanyola-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avd. Canaletas, 47 Local 6, 08290 Cerdanyola del Valles",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-gaman",
+  "nombre": "Dojo Gaman",
+  "tipo": "escuela",
+  "municipio": "cerdanyola-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-kaishi",
+  "nombre": "Dojo Kaishi",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=11",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-seishin",
+  "nombre": "Dojo Seishin",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-yawara-acscdpc",
+  "nombre": "Dojo Yawara ACSCDPC",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "mma",
+   "defensa-personal",
+   "grappling"
+  ],
+  "direccion": "Av. DÂ'Àngel Sallent 188, bj",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=DOJAYAWARA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "escola-arts",
+  "nombre": "Escola Arts",
+  "tipo": "escuela",
+  "municipio": "barbera-del-valles",
+  "disciplinas": [
+   "karate",
+   "aikido"
+  ],
+  "direccion": "Carretera de Barcelona, 239 - 08210 - BARBERA DEL VALLES",
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-arts-marcials-sant-cugat",
+  "nombre": "Esportiu Arts Marcials Sant Cugat",
+  "tipo": "escuela",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Vic Nº 15, Sant Cugat del Válles –barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-la-creu",
+  "nombre": "Esportiu La Creu",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-ostora-terrassa",
+  "nombre": "Esportiu Ostora Terrassa",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carretera de Castellar Nº 281-283, Terrassa–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-sant-jordi-terrassa",
+  "nombre": "Esportiu Sant Jordi Terrassa",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Pare Llaurador Nº99, Terrassa–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-shadow",
+  "nombre": "Esportiu Shadow",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gimnas-squash-4",
+  "nombre": "Gimnàs Squash 4",
+  "tipo": "gimnasio",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gym-kiubi",
+  "nombre": "Gym Kiubi",
+  "tipo": "gimnasio",
+  "municipio": "ripollet",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Casanovas, 21 - 08291 - RIPOLLET",
+  "web": "https://www.instagram.com/gym_kyubi/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "ikigai-associacio-esportiva-de-karate",
+  "nombre": "Ikigai, Associació Esportiva de Karate",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "jean",
+  "nombre": "Jean",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Puiggener, 3 Bjos. 1ª, 08208 Sabadell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "judo-barbera",
+  "nombre": "Judo Barbera",
+  "tipo": "escuela",
+  "municipio": "barbera-del-valles",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Estoril, 8. Barbera del Valles",
+  "web": "https://es-es.facebook.com/judobarbera/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "judo-club-valles",
+  "nombre": "Judo Club Vallès",
+  "tipo": "escuela",
+  "municipio": "cerdanyola-del-valles",
+  "disciplinas": [
+   "judo",
+   "aikido"
+  ],
+  "direccion": "C/ Anselm Clavé, 8, CERDANYOLA DEL VALLES",
+  "web": "https://www.cerdanyolagymvalles.es/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "karate-denia",
+  "nombre": "Karate Denia",
+  "tipo": "escuela",
+  "municipio": "ripollet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "koryo-sabadell",
+  "nombre": "Koryo Sabadell",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Andorra, 63, 08207 Sabadell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "krav-maga-terrassa",
+  "nombre": "Krav Maga Terrassa",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "krav-maga",
+   "mma",
+   "grappling"
+  ],
+  "direccion": "C/ Mare de Deu del Socors, 11, C.P. 08222",
+  "web": "www.kravmagaterrassa.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KMTTC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kyokushin-dojo-eft",
+  "nombre": "Kyokushin Dojo EFT",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "lee-young-montcada",
+  "nombre": "Lee Young Montcada",
+  "tipo": "escuela",
+  "municipio": "montcada-i-reixac",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Paris, 25, 08110 Montcada i Reixac",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "linces-kenpo-karate-club-esportiu",
+  "nombre": "Linces Kenpo Karate, Club Esportiu",
+  "tipo": "escuela",
+  "municipio": "castellar-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "mon-taekwondo-sentmenat",
+  "nombre": "Mon Taekwondo Sentmenat",
+  "tipo": "escuela",
+  "municipio": "sentmenat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Av. Terrasa, 5 Local Bajos, 08181 Sentmenat",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "olympia-gym-club",
+  "nombre": "Olympia Gym Club",
+  "tipo": "gimnasio",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "mma"
+  ],
+  "direccion": "Carrer del Ter 140-142",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=OLYMPIA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "oskarkwon-sant-quirze",
+  "nombre": "Oskarkwon Sant Quirze",
+  "tipo": "escuela",
+  "municipio": "sant-quirze-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avgda. Pau Casals, 30-32 Local 2, 08192 Sant Quirze del Valles",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "p-r-fight-team",
+  "nombre": "P&R Fight Team",
+  "tipo": "escuela",
+  "municipio": "barbera-del-valles",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "c/ Galceran de Pinos, 12",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=PRFT",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "senshi-dojo",
+  "nombre": "Senshi Dojo",
+  "tipo": "escuela",
+  "municipio": "santa-perpetua-de-mogoda",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "seul",
+  "nombre": "Seul",
+  "tipo": "escuela",
+  "municipio": "rubi",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Carretera Molins de Rei, 43-45, 08191 Rubi",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "seul-polinya",
+  "nombre": "Seul Polinya",
+  "tipo": "escuela",
+  "municipio": "polinya",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Atmellers, 1, 08213 Polinya",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sfc-sabadell-fight-club",
+  "nombre": "SFC Sabadell Fight Club",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "C/Las Navas 53, Sabadell.",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=SFC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "su-ba-lee",
+  "nombre": "Su Ba Lee",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Antonio Vico, 44, 08206 Sabadell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taechunkwon",
+  "nombre": "Taechunkwon",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Pallars, 10, 08207 Sabadell",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-sonbae",
+  "nombre": "Taekwondo Sonbae",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Parc de Guernika, 25b, 08227 Terrassa",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tao-do",
+  "nombre": "Tao Do",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "C/. Martin Diez 30 Pis, 08224 Terrassa",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tkd-prieto",
+  "nombre": "TKD Prieto",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Sabadell, S/n, 08225 Terrassa",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "toham",
+  "nombre": "Toham",
+  "tipo": "escuela",
+  "municipio": "ripollet",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avgda. Mediterrani, 28-30 (local 16), 08291 Ripollet",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "toledo-dong-yang",
+  "nombre": "Toledo Dong Yang",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "AVDA. BARBERA, 304 bajos, 08203 SABADELL",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tomodachi-judo-club",
+  "nombre": "Tomodachi Judo Club",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "judo",
+   "defensa-personal"
+  ],
+  "direccion": "C/ De la Rasa, 72. TERRASSA",
+  "web": "http://tomodachijudoclubbarcelona.blogspot.com",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "valles-jiujitsu",
+  "nombre": "Valles Jiujitsu",
+  "tipo": "escuela",
+  "municipio": "sant-quirze-del-valles",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "carrer nou 48",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=VJJ",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "world",
+  "nombre": "World",
+  "tipo": "escuela",
+  "municipio": "castellar-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Padre Borrell, 12, 08211 Castellar del Valles",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "yoshikan-dojo-asociacion-deportiva",
+  "nombre": "Yoshikan Dojo, Asociación Deportiva",
+  "tipo": "escuela",
+  "municipio": "ripollet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

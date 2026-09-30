@@ -1,0 +1,46 @@
+[
+ {
+  "slug": "c-e-triops",
+  "nombre": "C.E. Triops",
+  "tipo": "club",
+  "municipio": "banyoles",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Doctor Mascaro, s/n. BANYOLES",
+  "web": "https://gimnastriops.com/escola-infantil/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-girones-defensa-personal",
+  "nombre": "Club Esportiu Girones Defensa Personal",
+  "tipo": "club",
+  "municipio": "cornella-del-terri",
+  "disciplinas": [
+   "lucha",
+   "defensa-personal"
+  ],
+  "direccion": "Carrerera Medinyà 2",
+  "web": "www.defensapersonalgirones.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CEGDP",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-vall-de-terri",
+  "nombre": "Club Esportiu Vall de Terri",
+  "tipo": "club",
+  "municipio": "cornella-del-terri",
+  "disciplinas": [
+   "judo",
+   "defensa-personal"
+  ],
+  "direccion": "C/ Mossen Jacint Verdaguer, 4. CORNELLA DE TERRI",
+  "web": "https://www.judovalldelterri.cat",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

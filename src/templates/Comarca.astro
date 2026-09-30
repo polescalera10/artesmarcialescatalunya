@@ -1,0 +1,143 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import ListaCentros from '../components/ListaCentros.astro';
+import FAQ from '../components/FAQ.astro';
+import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
+import { centrosDeComarca, disciplinasPresentes } from '../lib/centros';
+import { getComarca, getMunicipio } from '../lib/geo';
+import { nombreDisciplina } from '../lib/disciplinas';
+import { tienePaginaMunicipio, rutasDiscComarca } from '../lib/rutas';
+import { laComarca, enComarca, deComarca } from '../lib/textos';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+
+interface Props { lang: Lang; comarca: string }
+const { lang, comarca } = Astro.props;
+const com = getComarca(comarca)!;
+const centros = centrosDeComarca(comarca);
+const disc = disciplinasPresentes(centros);
+const porMunicipio = [...new Set(centros.map(c => c.municipio))]
+  .map(m => ({ m: getMunicipio(m)!, centros: centros.filter(c => c.municipio === m) }))
+  .sort((a, b) => b.centros.length - a.centros.length || a.m.nombre.localeCompare(b.m.nombre, 'ca'));
+const discComarca = new Set(rutasDiscComarca().filter(r => r.comarca === comarca).map(r => r.disciplina));
+const top = disc.slice(0, 4).map(d => nombreDisciplina(d.slug, lang).toLowerCase());
+const nombreEn = enComarca(lang, comarca);
+
+const title = titulo(
+  L(lang, `Artes Marciales en ${com.nombre}: ${n(centros.length, 'centro', 'centros')} | Directorio`, `Arts Marcials ${enComarca('ca', comarca).replace(/^a /, 'a ').replace(/^al /, 'al ')}: ${n(centros.length, 'centre', 'centres')}`),
+  L(lang, `Artes Marciales en ${com.nombre}: ${n(centros.length, 'centro', 'centros')}`, `Arts Marcials: ${com.nombre} (${centros.length})`),
+);
+const description = descripcion(
+  L(lang,
+    `${n(centros.length, 'centro', 'centros')} de artes marciales ${nombreEn} verificados con fuente pública: ${lista(lang, top)}. Por municipio y disciplina.`,
+    `${n(centros.length, 'centre', 'centres')} d'arts marcials ${nombreEn} verificats amb font pública: ${lista(lang, top)}. Per municipi i disciplina.`),
+  L(lang, `${n(centros.length, 'centro', 'centros')} de artes marciales ${nombreEn}, con fuente pública. Por municipio y disciplina.`, `${n(centros.length, 'centre', 'centres')} d'arts marcials ${nombreEn}, amb font pública.`),
+);
+
+const faq = [
+  {
+    q: L(lang, `¿Cuántos centros de artes marciales hay ${nombreEn}?`, `Quants centres d'arts marcials hi ha ${nombreEn}?`),
+    a: L(lang,
+      `En nuestro directorio constan ${n(centros.length, 'centro', 'centros')} ${nombreEn}, repartidos en ${n(porMunicipio.length, 'municipio', 'municipios')}. ${porMunicipio[0].m.nombre} es el que más tiene (${porMunicipio[0].centros.length}). Solo publicamos centros con una fuente pública verificable.`,
+      `Al nostre directori hi consten ${n(centros.length, 'centre', 'centres')} ${nombreEn}, repartits en ${n(porMunicipio.length, 'municipi', 'municipis')}. ${porMunicipio[0].m.nombre} és el que en té més (${porMunicipio[0].centros.length}). Només publiquem centres amb una font pública verificable.`),
+  },
+  {
+    q: L(lang, `¿Qué artes marciales se pueden practicar ${nombreEn}?`, `Quines arts marcials es poden practicar ${nombreEn}?`),
+    a: L(lang,
+      `Las disciplinas con más centros son ${lista(lang, disc.slice(0, 5).map(d => `${nombreDisciplina(d.slug, lang).toLowerCase()} (${d.n})`))}. En total constan ${n(disc.length, 'disciplina', 'disciplinas')} distintas.`,
+      `Les disciplines amb més centres són ${lista(lang, disc.slice(0, 5).map(d => `${nombreDisciplina(d.slug, lang).toLowerCase()} (${d.n})`))}. En total hi consten ${n(disc.length, 'disciplina', 'disciplines')} diferents.`),
+  },
+  {
+    q: L(lang, '¿De dónde salen los datos?', "D'on surten les dades?"),
+    a: L(lang,
+      'Cada ficha procede de una fuente pública: la web oficial del centro, el registro de clubs de una federación catalana o el directorio de entidades de un ayuntamiento. En cada ficha consta la fuente y la fecha en que la comprobamos. No publicamos valoraciones, precios ni horarios.',
+      "Cada fitxa prové d'una font pública: el web oficial del centre, el registre de clubs d'una federació catalana o el directori d'entitats d'un ajuntament. A cada fitxa hi consta la font i la data en què la vam comprovar. No publiquem valoracions, preus ni horaris."),
+  },
+];
+
+const alternates = { es: url.comarca('es', comarca), ca: url.comarca('ca', comarca) };
+const pageUrl = `${SITE.url}${url.comarca(lang, comarca)}`;
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': pageUrl,
+  name: title,
+  description,
+  url: pageUrl,
+  inLanguage: lang,
+  isPartOf: { '@id': SCHEMA_IDS.website },
+  publisher: { '@id': SCHEMA_IDS.organization },
+  about: { '@type': 'AdministrativeArea', name: com.nombre, containedInPlace: { '@type': 'AdministrativeArea', name: 'Catalunya' } },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: centros.length,
+    itemListElement: centros.map((c, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${url.centro(lang, c.slug)}`, name: c.nombre })),
+  },
+};
+---
+
+<Layout title={title} description={description} canonical={url.comarca(lang, comarca)} schema={schema} lang={lang} alternates={alternates}>
+  <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
+  <main id="contenido">
+    <Migas lang={lang} items={[{ nombre: com.nombre, href: url.comarca(lang, comarca) }]} />
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+      <p class="text-xs uppercase tracking-wide text-brand-red font-semibold mb-3">{L(lang, 'Comarca', 'Comarca')} · {com.provincias.join(', ')}</p>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">
+        {L(lang, `Artes marciales ${nombreEn}`, `Arts marcials ${nombreEn}`)}
+      </h1>
+      <p class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed">
+        {L(lang,
+          `${n(centros.length, 'centro', 'centros')} de artes marciales en ${n(porMunicipio.length, 'municipio', 'municipios')} ${deComarca(lang, comarca).replace(/^de /, 'de ')}. Lo que más hay: ${lista(lang, top)}. Todos con su fuente pública y la fecha de verificación, sin valoraciones ni rankings.`,
+          `${n(centros.length, 'centre', 'centres')} d'arts marcials en ${n(porMunicipio.length, 'municipi', 'municipis')} ${deComarca(lang, comarca)}. El que més hi ha: ${lista(lang, top)}. Tots amb la seva font pública i la data de verificació, sense valoracions ni rànquings.`)}
+      </p>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 grid lg:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-lg font-bold text-white mb-3">{L(lang, 'Por municipio', 'Per municipi')}</h2>
+        <ul class="grid grid-cols-2 gap-2">
+          {porMunicipio.map(({ m, centros: cs }) => (
+            <li>
+              <a href={tienePaginaMunicipio(m.slug) ? url.municipio(lang, comarca, m.slug) : `#m-${m.slug}`} class="flex justify-between gap-2 bg-brand-gray border border-brand-border rounded-lg px-3 py-2 text-sm text-brand-muted hover:text-white hover:border-brand-red/40">
+                <span>{m.nombre}</span><span class="text-white font-semibold">{cs.length}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold text-white mb-3">{L(lang, 'Por disciplina', 'Per disciplina')}</h2>
+        <ul class="flex flex-wrap gap-2">
+          {disc.map(d => (
+            <li>
+              <a href={discComarca.has(d.slug) ? url.discComarca(lang, d.slug, comarca) : url.disciplina(lang, d.slug)} class="inline-flex items-center gap-2 bg-brand-gray border border-brand-border rounded-full px-3 py-1.5 text-sm text-brand-muted hover:text-white hover:border-brand-red/40">
+                {nombreDisciplina(d.slug, lang)} <span class="text-white font-semibold">{d.n}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h2 class="text-2xl font-bold text-white mb-6">{L(lang, `Todos los centros ${nombreEn}`, `Tots els centres ${nombreEn}`)}</h2>
+      {porMunicipio.map(({ m, centros: cs }) => (
+        <div class="mb-10 scroll-mt-24" id={`m-${m.slug}`}>
+          <div class="flex items-baseline justify-between gap-4 mb-4">
+            <h3 class="text-lg font-bold text-white">{m.nombre} <span class="text-brand-muted font-normal">({cs.length})</span></h3>
+            {tienePaginaMunicipio(m.slug) && <a href={url.municipio(lang, comarca, m.slug)} class="text-sm text-brand-red hover:text-red-400 shrink-0">{L(lang, `Guía de ${m.nombre}`, `Guia de ${m.nombre}`)} →</a>}
+          </div>
+          <ListaCentros centros={cs} lang={lang} conMunicipio={false} />
+        </div>
+      ))}
+    </section>
+
+    <ParaCentrosCTA lang={lang} ambito={laComarca(lang, comarca)} />
+    <FAQ items={faq} title={L(lang, 'Preguntas frecuentes', 'Preguntes freqüents')} />
+  </main>
+  <Footer lang={lang} />
+</Layout>

@@ -1,0 +1,171 @@
+---
+// Ficha de centro. Solo datos con fuente pública: nada de teléfonos, correos,
+// nombres de personas, precios ni valoraciones. Si solo hay nombre, municipio
+// y disciplina, la ficha existe (para quien busca el nombre) pero en noindex.
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import CentroCard from '../components/CentroCard.astro';
+import { L, url, lista, titulo, descripcion, fecha, type Lang } from '../lib/i18n';
+import { getCentro, centrosDeMunicipio, cercanos, esPromocionado } from '../lib/centros';
+import { getComarca, getMunicipio } from '../lib/geo';
+import { nombreDisciplina } from '../lib/disciplinas';
+import { tienePaginaMunicipio, tienePaginaMunDisc, fichaIndexable } from '../lib/rutas';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+
+interface Props { lang: Lang; slug: string }
+const { lang, slug } = Astro.props;
+const c = getCentro(slug)!;
+const mun = getMunicipio(c.municipio)!;
+const com = getComarca(c.comarca)!;
+const promo = esPromocionado(c.slug);
+const discs = c.disciplinas.map(d => nombreDisciplina(d, lang));
+const vecinos = centrosDeMunicipio(c.municipio).filter(x => x.slug !== c.slug).slice(0, 6);
+const parecidos = vecinos.length < 3
+  ? cercanos(mun, x => x.slug !== c.slug && x.disciplinas.some(d => c.disciplinas.includes(d)), 6 - vecinos.length, 30)
+  : [];
+
+const FUENTE: Record<string, [string, string]> = {
+  'web-oficial': ['Web oficial del centro', 'Web oficial del centre'],
+  'federacion': ['Registro de clubs de la federación', 'Registre de clubs de la federació'],
+  'directorio-municipal': ['Directorio municipal de entidades', "Directori municipal d'entitats"],
+  'perfil-publico': ['Perfil público del centro', 'Perfil públic del centre'],
+};
+const TIPO: Record<string, [string, string]> = {
+  escuela: ['Escuela', 'Escola'], club: ['Club', 'Club'], asociacion: ['Asociación', 'Associació'], gimnasio: ['Gimnasio', 'Gimnàs'],
+};
+const fuenteLabel = L(lang, ...FUENTE[c.fuenteTipo]);
+
+const title = titulo(
+  L(lang, `${c.nombre} · ${mun.nombre} | ${lista(lang, discs.slice(0, 2))}`, `${c.nombre} · ${mun.nombre} | ${lista(lang, discs.slice(0, 2))}`),
+  `${c.nombre} · ${mun.nombre}`,
+  c.nombre,
+);
+const description = descripcion(
+  L(lang,
+    `${c.nombre}, ${TIPO[c.tipo][0].toLowerCase()} de ${lista(lang, discs.map(d => d.toLowerCase()))} en ${mun.nombre} (${com.nombre}). Datos verificados con su fuente pública${c.web ? ' y enlace a su web' : ''}.`,
+    `${c.nombre}, ${TIPO[c.tipo][1].toLowerCase()} de ${lista(lang, discs.map(d => d.toLowerCase()))} a ${mun.nombre} (${com.nombre}). Dades verificades amb la seva font pública${c.web ? ' i enllaç al seu web' : ''}.`),
+);
+
+const alternates = { es: url.centro('es', c.slug), ca: url.centro('ca', c.slug) };
+const pageUrl = `${SITE.url}${url.centro(lang, c.slug)}`;
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SportsActivityLocation',
+    '@id': `${pageUrl}#centro`,
+    name: c.nombre,
+    ...(c.web ? { url: c.web, sameAs: [c.web] } : {}),
+    ...(c.direccion
+      ? { address: { '@type': 'PostalAddress', streetAddress: c.direccion, addressLocality: mun.nombre, addressRegion: 'Catalunya', addressCountry: 'ES' } }
+      : { address: { '@type': 'PostalAddress', addressLocality: mun.nombre, addressRegion: 'Catalunya', addressCountry: 'ES' } }),
+    knowsAbout: c.disciplinas.map(d => nombreDisciplina(d, 'es')),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': pageUrl,
+    name: title,
+    url: pageUrl,
+    inLanguage: lang,
+    isPartOf: { '@id': SCHEMA_IDS.website },
+    publisher: { '@id': SCHEMA_IDS.organization },
+    about: { '@id': `${pageUrl}#centro` },
+    dateModified: c.verificado,
+  },
+];
+---
+
+<Layout title={title} description={description} canonical={url.centro(lang, c.slug)} schema={schema} lang={lang} alternates={alternates} noindex={!fichaIndexable(c)}>
+  <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
+  <main id="contenido">
+    <Migas lang={lang} items={[
+      { nombre: com.nombre, href: url.comarca(lang, c.comarca) },
+      ...(tienePaginaMunicipio(c.municipio) ? [{ nombre: mun.nombre, href: url.municipio(lang, c.comarca, c.municipio) }] : []),
+      { nombre: c.nombre, href: url.centro(lang, c.slug) },
+    ]} />
+
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+      <p class="text-xs uppercase tracking-wide text-brand-red font-semibold mb-3">
+        {L(lang, ...TIPO[c.tipo])} · {mun.nombre} · {com.nombre}
+        {promo && <span class="ml-2 text-amber-400 border border-amber-500/40 rounded px-1.5 py-0.5">{L(lang, 'Promocionado', 'Promocionat')}</span>}
+      </p>
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{c.nombre}</h1>
+      <p class="text-lg text-brand-muted mt-4 leading-relaxed">
+        {L(lang,
+          `${TIPO[c.tipo][0]} de ${lista(lang, discs.map(d => d.toLowerCase()))} en ${mun.nombre}.`,
+          `${TIPO[c.tipo][1]} de ${lista(lang, discs.map(d => d.toLowerCase()))} a ${mun.nombre}.`)}
+        {c.infantil && L(lang, ' Su fuente anuncia clases para niños.', ' La seva font anuncia classes per a infants.')}
+      </p>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <dl class="bg-brand-gray border border-brand-border rounded-xl divide-y divide-brand-border">
+        <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
+          <dt class="text-sm text-brand-muted">{L(lang, 'Disciplinas', 'Disciplines')}</dt>
+          <dd class="sm:col-span-2 flex flex-wrap gap-1.5">
+            {c.disciplinas.map(d => tienePaginaMunDisc(c.municipio, d)
+              ? <a href={url.munDisc(lang, c.comarca, c.municipio, d)} class="bg-brand-dark border border-brand-border rounded-full px-2.5 py-0.5 text-sm text-white hover:border-brand-red/40">{nombreDisciplina(d, lang)}</a>
+              : <a href={url.disciplina(lang, d)} class="bg-brand-dark border border-brand-border rounded-full px-2.5 py-0.5 text-sm text-white hover:border-brand-red/40">{nombreDisciplina(d, lang)}</a>)}
+          </dd>
+        </div>
+        {c.otras && c.otras.length > 0 && (
+          <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
+            <dt class="text-sm text-brand-muted">{L(lang, 'También anuncia', 'També anuncia')}</dt>
+            <dd class="sm:col-span-2 text-sm text-white">{c.otras.join(' · ')}</dd>
+          </div>
+        )}
+        <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
+          <dt class="text-sm text-brand-muted">{L(lang, 'Ubicación', 'Ubicació')}</dt>
+          <dd class="sm:col-span-2 text-sm text-white">{c.direccion ? `${c.direccion}` : `${mun.nombre} (${com.nombre})`}</dd>
+        </div>
+        <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
+          <dt class="text-sm text-brand-muted">Web</dt>
+          <dd class="sm:col-span-2 text-sm">
+            {c.web
+              ? <a href={c.web} target="_blank" rel={promo ? 'sponsored noopener' : 'noopener'} class="text-brand-red hover:text-red-400 break-all">{c.web.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')} ↗</a>
+              : <span class="text-brand-muted">{L(lang, 'No hemos encontrado web propia.', 'No hem trobat web propi.')}</span>}
+          </dd>
+        </div>
+        <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
+          <dt class="text-sm text-brand-muted">{L(lang, 'Fuente', 'Font')}</dt>
+          <dd class="sm:col-span-2 text-sm text-white">
+            <a href={c.fuente} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-brand-red">{fuenteLabel}</a>
+            <span class="text-brand-muted"> · {L(lang, 'verificado el', 'verificat el')} {fecha(lang, c.verificado)}</span>
+          </dd>
+        </div>
+      </dl>
+      <p class="text-xs text-brand-muted mt-3">
+        {L(lang,
+          'No publicamos horarios, precios ni valoraciones: cambian y no podemos garantizarlos. Consulta siempre la web o la fuente del centro.',
+          'No publiquem horaris, preus ni valoracions: canvien i no els podem garantir. Consulta sempre el web o la font del centre.')}
+      </p>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div class="border border-brand-border rounded-xl p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <p class="font-semibold text-white">{L(lang, '¿Es tu centro?', 'És el teu centre?')}</p>
+          <p class="text-sm text-brand-muted mt-1">
+            {c.web
+              ? L(lang, 'Corrige o completa la ficha gratis, o destácala en tu comarca.', 'Corregeix o completa la fitxa gratis, o destaca-la a la teva comarca.')
+              : L(lang, 'Corrige la ficha gratis. Y si aún no tienes web, te contamos cómo te podemos ayudar.', "Corregeix la fitxa gratis. I si encara no tens web, t'expliquem com et podem ajudar.")}
+          </p>
+        </div>
+        <a href={`${url.paraCentros(lang)}?centro=${c.slug}`} class="shrink-0 text-center bg-brand-red hover:bg-red-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg" rel="nofollow">{L(lang, 'Gestionar ficha', 'Gestionar fitxa')}</a>
+      </div>
+    </section>
+
+    {(vecinos.length > 0 || parecidos.length > 0) && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h2 class="text-xl font-bold text-white mb-5">{L(lang, `Otros centros cerca`, `Altres centres a prop`)}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {vecinos.map(v => <CentroCard centro={v} lang={lang} />)}
+          {parecidos.map(({ centro, km }) => <CentroCard centro={centro} lang={lang} km={km} />)}
+        </div>
+      </section>
+    )}
+  </main>
+  <Footer lang={lang} />
+</Layout>

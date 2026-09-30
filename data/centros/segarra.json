@@ -1,0 +1,16 @@
+[
+ {
+  "slug": "team-ronin",
+  "nombre": "Team Ronin",
+  "tipo": "escuela",
+  "municipio": "cervera",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Avda. Guissona, 8, 25200 Cervera",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

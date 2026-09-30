@@ -1,5 +1,5 @@
 ---
-import { SITE, ORGANIZATION_SCHEMA, WEBSITE_SCHEMA } from '../data/site';
+import { SITE, ORGANIZATION_SCHEMA, WEBSITE_SCHEMA } from '../lib/site';
 import CookieConsent from '../components/CookieConsent.astro';
 // Inter self-hosted (@fontsource): sin peticiones a Google Fonts — mejor
 // rendimiento y sin cesión de IPs a terceros (RGPD post-Schrems II).
@@ -44,7 +44,7 @@ const {
   description,
   canonical = Astro.url.pathname,
   ogImage = `${SITE.url}/og-default.png`,
-  ogImageAlt = SITE.tagline,
+  ogImageAlt = SITE.name,
   schema,
   noindex = false,
   lang = 'es',
@@ -54,11 +54,6 @@ const {
 const canonicalUrl = `${SITE.url}${canonical.endsWith('/') ? canonical : canonical + '/'}`;
 const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
 
-// Analítica Plausible (B1): solo se emite si Pol define PUBLIC_PLAUSIBLE_DOMAIN
-// en Vercel (p. ej. "artesmarcialesgarraf.vercel.app"). Plausible no usa
-// cookies ni identifica usuarios → no requiere banner de consentimiento (B2);
-// la política de privacidad ya recoge este caso condicionalmente.
-const plausibleDomain = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
 ---
 
 <!DOCTYPE html>
@@ -93,7 +88,7 @@ const plausibleDomain = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content={ogImageAlt} />
   <meta property="og:locale" content={lang === 'ca' ? 'ca_ES' : 'es_ES'} />
-  <meta property="og:site_name" content={SITE.name} />
+  <meta property="og:site_name" content={lang === 'ca' ? SITE.nameCa : SITE.name} />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -104,14 +99,11 @@ const plausibleDomain = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
 
   <!-- Geo tags for local SEO -->
   <meta name="geo.region" content="ES-B" />
-  <meta name="geo.placename" content="Garraf, Barcelona" />
+  <meta name="geo.placename" content="Catalunya" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-  {plausibleDomain && (
-    <script defer data-domain={plausibleDomain} src="https://plausible.io/js/script.js"></script>
-  )}
 
   <!-- Schema JSON-LD -->
   {schemaArray.map(s => (
@@ -128,11 +120,42 @@ const plausibleDomain = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
 </head>
 <body class="bg-brand-dark text-white font-sans antialiased">
   <slot />
-  <CookieConsent />
+  <CookieConsent lang={lang} />
   <style is:global>
     @media (prefers-reduced-motion: no-preference) {
       html { scroll-behavior: smooth; }
     }
+    /* Cuerpo de texto que entra por set:html (textos editoriales y blog). */
+  .articulo { color: #9CA3AF; line-height: 1.75; }
+  .articulo h2 {
+    color: #fff; font-weight: 800; font-size: 1.5rem; line-height: 1.3;
+    margin: 2.25rem 0 1rem;
+  }
+  .articulo h3 {
+    color: #fff; font-weight: 700; font-size: 1.125rem;
+    margin: 1.75rem 0 0.75rem;
+  }
+  .articulo > h2:first-child { margin-top: 0; }
+  .articulo p { margin: 0 0 1.1rem; }
+  .articulo ul, .articulo ol { margin: 0 0 1.25rem; padding-left: 1.4rem; }
+  .articulo ul { list-style: disc; }
+  .articulo ol { list-style: decimal; }
+  .articulo li { margin-bottom: 0.6rem; }
+  .articulo li::marker { color: #DC2626; }
+  .articulo strong { color: #E5E7EB; }
+  .articulo a { color: #DC2626; text-decoration: underline; text-underline-offset: 3px; }
+  .articulo a:hover { color: #F87171; }
+  .articulo table {
+    width: 100%; border-collapse: collapse; margin: 1.5rem 0;
+    font-size: 0.875rem; display: block; overflow-x: auto;
+  }
+  .articulo th, .articulo td {
+    border: 1px solid #1F1F1F; padding: 0.6rem 0.8rem; text-align: left;
+    vertical-align: top; min-width: 8rem;
+  }
+  .articulo th:first-child, .articulo td:first-child { min-width: 6rem; }
+  .articulo thead th { background: #141414; color: #fff; font-weight: 700; }
+  .articulo tbody tr:nth-child(even) { background: #101010; }
   </style>
 </body>
 </html>

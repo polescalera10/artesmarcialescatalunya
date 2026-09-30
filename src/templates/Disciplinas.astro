@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import { L, url, type Lang } from '../lib/i18n';
+import { centrosConDisciplina } from '../lib/centros';
+import { getDisciplina, GRUPOS, type Disciplina } from '../lib/disciplinas';
+import { rutasDisciplina } from '../lib/rutas';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const disciplinas = rutasDisciplina().map(r => getDisciplina(r.disciplina)!);
+const grupos = (Object.keys(GRUPOS) as Disciplina['grupo'][])
+  .map(g => ({ g, ds: disciplinas.filter(d => d.grupo === g) }))
+  .filter(x => x.ds.length);
+
+const title = L(lang, 'Disciplinas de artes marciales en Cataluña', "Disciplines d'arts marcials a Catalunya");
+const description = L(lang,
+  `Boxeo, kickboxing, muay thai, MMA, jiu-jitsu, judo, karate, taekwondo y ${disciplinas.length - 8} disciplinas más: dónde se practica cada una en Cataluña.`,
+  `Boxa, kickboxing, muay thai, MMA, jiu-jitsu, judo, karate, taekwondo i ${disciplinas.length - 8} disciplines més: on es practica cadascuna a Catalunya.`);
+const alternates = { es: url.disciplinas('es'), ca: url.disciplinas('ca') };
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': `${SITE.url}${url.disciplinas(lang)}`,
+  name: title,
+  description,
+  url: `${SITE.url}${url.disciplinas(lang)}`,
+  inLanguage: lang,
+  isPartOf: { '@id': SCHEMA_IDS.website },
+  publisher: { '@id': SCHEMA_IDS.organization },
+};
+---
+
+<Layout title={title} description={description} canonical={url.disciplinas(lang)} schema={schema} lang={lang} alternates={alternates}>
+  <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
+  <main id="contenido">
+    <Migas lang={lang} items={[{ nombre: L(lang, 'Disciplinas', 'Disciplines'), href: url.disciplinas(lang) }]} />
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{title}</h1>
+      <p class="text-lg text-brand-muted mt-4 max-w-3xl">
+        {L(lang, 'Elige una disciplina para ver en qué comarcas y municipios hay centros que la anuncian.', 'Tria una disciplina per veure a quines comarques i municipis hi ha centres que l’anuncien.')}
+      </p>
+    </section>
+    {grupos.map(({ g, ds }) => (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+        <h2 class="text-lg font-bold text-white mb-3">{GRUPOS[g][lang]}</h2>
+        <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          {ds.map(d => (
+            <li>
+              <a href={url.disciplina(lang, d.slug)} class="flex justify-between items-center gap-2 bg-brand-gray border border-brand-border rounded-lg px-4 py-3 hover:border-brand-red/40">
+                <span class="text-white font-medium">{d[lang]}</span>
+                <span class="text-brand-muted text-sm">{centrosConDisciplina(d.slug).length}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+    <ParaCentrosCTA lang={lang} />
+  </main>
+  <Footer lang={lang} />
+</Layout>

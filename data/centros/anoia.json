@@ -1,0 +1,66 @@
+[
+ {
+  "slug": "arts-marcials-vilanova-del-cami",
+  "nombre": "Arts Marcials Vilanova del Cami",
+  "tipo": "escuela",
+  "municipio": "vilanova-del-cami",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Manresa, 27 Bajos, 08788 Vilanova del Cami",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "bosch-karate-igualada",
+  "nombre": "Bosch Karate Igualada",
+  "tipo": "escuela",
+  "municipio": "igualada",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "budokan-vilanova-del-cami-tai-jitsu",
+  "nombre": "Budokan Vilanova del Cami, Tai-Jitsu",
+  "tipo": "escuela",
+  "municipio": "vilanova-del-cami",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=3",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "ebox-igualada",
+  "nombre": "Ebox Igualada",
+  "tipo": "escuela",
+  "municipio": "igualada",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Carrer Masquefa 9,  Igualada (08700)",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=EBOX",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gui",
+  "nombre": "Gui",
+  "tipo": "escuela",
+  "municipio": "igualada",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Passeig Jacinto Verdaguer, 15, 08700 Igualada",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

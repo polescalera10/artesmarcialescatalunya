@@ -1,0 +1,207 @@
+[
+ {
+  "slug": "assoc-esp-gironina-de-judo",
+  "nombre": "Assoc Esp Gironina de Judo",
+  "tipo": "escuela",
+  "municipio": "girona",
+  "disciplinas": [
+   "judo",
+   "defensa-personal"
+  ],
+  "direccion": "Nord, 13, GIRONA",
+  "web": "http://www.gironajudo.com",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-de-kendo-girona",
+  "nombre": "Associacio Esportiva de Kendo Girona",
+  "tipo": "asociacion",
+  "municipio": "girona",
+  "disciplinas": [
+   "kendo"
+  ],
+  "direccion": "C/ De les monges, 4. GIRONA",
+  "web": "http://WWW.KENDOGIRONA.COM",
+  "fuente": "https://fedecatjudo.cat/kendo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "chois-lee-i",
+  "nombre": "Choi'S Lee i",
+  "tipo": "escuela",
+  "municipio": "girona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Rutlla, 57, 17002 Gerona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "chun-kwon-salt",
+  "nombre": "Chun Kwon Salt",
+  "tipo": "escuela",
+  "municipio": "salt",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Mayor, 121 Bjos, 17190 Salt",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-girona",
+  "nombre": "Club Boxa Girona",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-oswald",
+  "nombre": "Club Esportiu Oswald",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "taekwondo",
+   "boxeo",
+   "kickboxing"
+  ],
+  "direccion": "Maçana, 44, 17006 Girona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-ryu-centre-girona",
+  "nombre": "Club Esportiu Ryu Centre Girona",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "kickboxing",
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Carrer del Riu Gel Nº10, Girona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-ikigai-emporda",
+  "nombre": "Club Judo Ikigai Empordà",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Barri de molins de dalt, 2 - 17706 - PONT DE MOLINS - GIRONA",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-palau",
+  "nombre": "Club Judo Palau",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Av Josep Marti, 2 - PAvello d'Esports Palau- 17003 - Girona",
+  "web": "http://www.judopalau.com",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "fudoshin-dojo-girona",
+  "nombre": "Fudoshin Dojo Girona",
+  "tipo": "escuela",
+  "municipio": "girona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "g-e-i-e-g",
+  "nombre": "G.e. i E.g.",
+  "tipo": "escuela",
+  "municipio": "girona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Empúries, s/n, GIRONA",
+  "web": "http://www.geieg.cat",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gracie-costa-brava",
+  "nombre": "Gracie Costa Brava",
+  "tipo": "escuela",
+  "municipio": "girona",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "calle camelias 17, Palafrugell",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CCB",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "jorsan",
+  "nombre": "Jorsan",
+  "tipo": "escuela",
+  "municipio": "cassa-de-la-selva",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Del Futbol, S/n, 17244 Cassa de la Selva",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "llagostera",
+  "nombre": "Llagostera",
+  "tipo": "escuela",
+  "municipio": "llagostera",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Del Sport, S/n, 17240 Llagostera",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tmc-girona",
+  "nombre": "Tmc Girona",
+  "tipo": "escuela",
+  "municipio": "girona",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "C Can Pau Birol 12 1ª Planta",
+  "web": "www.somostmc.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=TMC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

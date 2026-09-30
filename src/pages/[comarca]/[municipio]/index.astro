@@ -1,0 +1,7 @@
+---
+import T from '../../../templates/Municipio.astro';
+import { rutasMunicipio } from '../../../lib/rutas';
+export const getStaticPaths = () => rutasMunicipio().map(params => ({ params }));
+const p = Astro.params as Record<string, string>;
+---
+<T lang="es" comarca={p.comarca} municipio={p.municipio} />

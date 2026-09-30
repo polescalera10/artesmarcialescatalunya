@@ -1,0 +1,16 @@
+[
+ {
+  "slug": "solsona",
+  "nombre": "Solsona",
+  "tipo": "escuela",
+  "municipio": "solsona",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Ctra. Manresa, 26 Bajos, 25280 Solsona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

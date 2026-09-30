@@ -1,0 +1,29 @@
+[
+ {
+  "slug": "ass-esp-muay-thai-pla-de-lestany",
+  "nombre": "Ass. Esp. Muay-Thai Pla de l'Estany",
+  "tipo": "escuela",
+  "municipio": "sales-de-llierca",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Sales de Llierca-Castell de Sales S/n, Sales de Llierca–girona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwon-dolot",
+  "nombre": "Taekwon d'Olot",
+  "tipo": "escuela",
+  "municipio": "olot",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Estorch i Xiques, 16, 17800 Olot",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

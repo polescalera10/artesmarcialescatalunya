@@ -1,0 +1,84 @@
+---
+// Metodología del directorio (E-E-A-T). Todo lo que se afirma aquí debe
+// coincidir con las reglas reales de data/INSTRUCCIONES-CENTROS.md y de
+// src/lib/centros.ts.
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import { L, url, type Lang } from '../lib/i18n';
+import { CENTROS, comarcasConCentros } from '../lib/centros';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const porFuente = (t: string) => CENTROS.filter(c => c.fuenteTipo === t).length;
+
+const title = L(lang, 'Sobre nosotros y cómo verificamos los centros', 'Qui som i com verifiquem els centres');
+const description = L(lang,
+  'Qué es Artes Marciales Catalunya y las reglas del directorio: solo centros con fuente pública, orden alfabético, sin valoraciones ni datos inventados.',
+  "Què és Arts Marcials Catalunya i les regles del directori: només centres amb font pública, ordre alfabètic, sense valoracions ni dades inventades.");
+const alternates = { es: url.sobre('es'), ca: url.sobre('ca') };
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  '@id': `${SITE.url}${url.sobre(lang)}`,
+  name: title,
+  description,
+  url: `${SITE.url}${url.sobre(lang)}`,
+  inLanguage: lang,
+  isPartOf: { '@id': SCHEMA_IDS.website },
+  publisher: { '@id': SCHEMA_IDS.organization },
+  mainEntity: { '@id': SCHEMA_IDS.organization },
+  dateModified: SITE.ultimaRevision,
+};
+const reglas = lang === 'es' ? [
+  ['Solo entran centros con fuente pública.', 'La web oficial del centro, el registro de clubs de una federación catalana o el directorio de entidades de un ayuntamiento. Cada ficha enlaza su fuente y dice cuándo la comprobamos.'],
+  ['Si un dato no se puede verificar, no se publica.', 'Por eso hay fichas sin dirección o sin web: preferimos una ficha incompleta a un dato inventado.'],
+  ['Sin valoraciones ni rankings.', 'El orden es alfabético. No decimos cuál es "el mejor centro" porque no tenemos forma honesta de saberlo.'],
+  ['Sin precios ni horarios.', 'Cambian cada temporada. Se consultan en la web del centro.'],
+  ['Sin datos personales.', 'No publicamos teléfonos personales, correos ni nombres de instructores.'],
+  ['Lo pagado va aparte y etiquetado.', 'Un centro puede pagar por aparecer en un bloque destacado con la etiqueta "Promocionado". Eso no cambia el listado ni lo que decimos de nadie.'],
+] : [
+  ['Només hi entren centres amb font pública.', "El web oficial del centre, el registre de clubs d'una federació catalana o el directori d'entitats d'un ajuntament. Cada fitxa enllaça la seva font i diu quan la vam comprovar."],
+  ["Si una dada no es pot verificar, no es publica.", "Per això hi ha fitxes sense adreça o sense web: preferim una fitxa incompleta a una dada inventada."],
+  ['Sense valoracions ni rànquings.', "L'ordre és alfabètic. No diem quin és \"el millor centre\" perquè no tenim cap manera honesta de saber-ho."],
+  ['Sense preus ni horaris.', 'Canvien cada temporada. Es consulten al web del centre.'],
+  ['Sense dades personals.', "No publiquem telèfons personals, correus ni noms d'instructors."],
+  ['El que és pagat va a part i etiquetat.', "Un centre pot pagar per sortir en un bloc destacat amb l'etiqueta \"Promocionat\". Això no canvia el llistat ni el que diem de ningú."],
+];
+---
+
+<Layout title={title} description={description} canonical={url.sobre(lang)} schema={schema} lang={lang} alternates={alternates}>
+  <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
+  <main id="contenido">
+    <Migas lang={lang} items={[{ nombre: L(lang, 'Sobre nosotros', 'Qui som'), href: url.sobre(lang) }]} />
+    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{L(lang, 'Un directorio que puedes comprobar', 'Un directori que pots comprovar')}</h1>
+      <div class="articulo mt-6">
+        {lang === 'es' ? (
+          <>
+            <p>Artes Marciales Catalunya es un directorio independiente de centros de artes marciales en Cataluña. Empezó en 2026 como guía de la comarca del Garraf y se ha ampliado al resto del territorio, comarca a comarca. No somos un gimnasio ni una academia.</p>
+            <p>Hoy reúne {CENTROS.length} centros de {comarcasConCentros().length} comarcas: {porFuente('web-oficial')} verificados en su web oficial, {porFuente('federacion')} en el registro de clubs de su federación y {porFuente('directorio-municipal') + porFuente('perfil-publico')} en directorios municipales o perfiles públicos.</p>
+          </>
+        ) : (
+          <>
+            <p>Arts Marcials Catalunya és un directori independent de centres d'arts marcials a Catalunya. Va començar el 2026 com a guia de la comarca del Garraf i s'ha ampliat a la resta del territori, comarca a comarca. No som un gimnàs ni una acadèmia.</p>
+            <p>Avui reuneix {CENTROS.length} centres de {comarcasConCentros().length} comarques: {porFuente('web-oficial')} verificats al seu web oficial, {porFuente('federacion')} al registre de clubs de la seva federació i {porFuente('directorio-municipal') + porFuente('perfil-publico')} en directoris municipals o perfils públics.</p>
+          </>
+        )}
+        <h2>{L(lang, 'Las reglas del directorio', 'Les regles del directori')}</h2>
+        <ul>{reglas.map(([t, d]) => <li><strong>{t}</strong> {d}</li>)}</ul>
+        <h2>{L(lang, 'Correcciones y retiradas', 'Correccions i retirades')}</h2>
+        <p>
+          {L(lang, 'Si tu centro no aparece o algún dato está mal, ', 'Si el teu centre no hi surt o alguna dada està malament, ')}
+          <a href={url.paraCentros(lang)}>{L(lang, 'escríbenos', 'escriu-nos')}</a>
+          {L(lang, ' y lo revisamos. También retiramos cualquier ficha a petición del propio centro.', ' i ho revisem. També retirem qualsevol fitxa a petició del mateix centre.')}
+        </p>
+      </div>
+    </section>
+    <ParaCentrosCTA lang={lang} />
+  </main>
+  <Footer lang={lang} />
+</Layout>

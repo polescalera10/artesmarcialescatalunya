@@ -1,0 +1,55 @@
+[
+ {
+  "slug": "associacio-de-karate-kushinkai-de-deltebre",
+  "nombre": "Associació de Karate Kushinkai de Deltebre",
+  "tipo": "asociacion",
+  "municipio": "deltebre",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "chong-do-kim",
+  "nombre": "Chong Do Kim",
+  "tipo": "escuela",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Rosello, 4 Bjos, 43500 Tortosa",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-priorat-terres-de-lebre",
+  "nombre": "Club Judo Priorat-Terres de l'Ebre",
+  "tipo": "club",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "judo",
+   "defensa-personal"
+  ],
+  "direccion": "Avda de l'Estadi, s/n. TORTOSA",
+  "web": "https://prioratterresdelebre.wixsite.com/prioratterresdelebre",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "hibera-ludus-academy",
+  "nombre": "Hibera Ludus Academy",
+  "tipo": "escuela",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "grappling"
+  ],
+  "direccion": "passeig Joan moreira 10",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=HIBERA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

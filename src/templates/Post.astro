@@ -1,0 +1,66 @@
+---
+// Artículos y guías heredados del sitio del Garraf. Solo en castellano.
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import FAQ from '../components/FAQ.astro';
+import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import { url, fecha } from '../lib/i18n';
+import { POSTS, type Post } from '../lib/editorial';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+import manifiesto from '../legacy/imagenes-generadas.json';
+
+interface Props { post: Post }
+const { post } = Astro.props;
+const clave = post.tipo === 'articulo' ? `blog-${post.slug}` : post.slug;
+const hero = (manifiesto.img as string[]).includes(clave) ? `/img/${clave}.webp` : null;
+const og = (manifiesto.og as string[]).includes(clave) ? `${SITE.url}/og/${clave}.png` : undefined;
+const otros = POSTS.filter(p => p.slug !== post.slug && p.tipo === post.tipo).slice(0, 3);
+const pageUrl = `${SITE.url}${url.post(post.slug)}`;
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  '@id': pageUrl,
+  headline: post.h1,
+  description: post.descripcion,
+  url: pageUrl,
+  inLanguage: 'es',
+  datePublished: post.fecha,
+  dateModified: post.fecha,
+  image: og ?? `${SITE.url}/og-default.png`,
+  author: { '@id': SCHEMA_IDS.organization },
+  publisher: { '@id': SCHEMA_IDS.organization },
+  isPartOf: { '@id': SCHEMA_IDS.website },
+};
+---
+
+<Layout title={post.titulo} description={post.descripcion} canonical={url.post(post.slug)} schema={schema} lang="es" ogImage={og}>
+  <Header lang="es" />
+  <main id="contenido">
+    <Migas lang="es" items={[{ nombre: 'Blog', href: url.blog() }, { nombre: post.h1, href: url.post(post.slug) }]} />
+    <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{post.h1}</h1>
+      <p class="text-xs text-brand-muted mt-4">Publicado el <time datetime={post.fecha}>{fecha('es', post.fecha)}</time> · {SITE.name}</p>
+      {hero && <img src={hero} alt="" width="1600" height="400" decoding="async" class="mt-8 w-full object-cover rounded-2xl border border-brand-border" />}
+      <div class="text-lg text-brand-muted mt-8 leading-relaxed" set:html={post.intro} />
+      {post.body && <div class="articulo mt-8" set:html={post.body} />}
+    </article>
+    {post.faq && post.faq.length > 0 && <FAQ items={post.faq} />}
+    {otros.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h2 class="text-lg font-bold text-white mb-4">Sigue leyendo</h2>
+        <ul class="grid md:grid-cols-3 gap-5">
+          {otros.map(p => (
+            <li class="bg-brand-gray border border-brand-border rounded-xl p-5">
+              <a href={url.post(p.slug)} class="font-semibold text-white hover:text-brand-red">{p.h1}</a>
+              <p class="text-sm text-brand-muted mt-2 line-clamp-3">{p.descripcion}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+    <ParaCentrosCTA lang="es" />
+  </main>
+  <Footer lang="es" />
+</Layout>

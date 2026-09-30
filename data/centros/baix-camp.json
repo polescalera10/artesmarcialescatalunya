@@ -1,0 +1,287 @@
+[
+ {
+  "slug": "asociacion-karate-villafortuny-ken-shin-kan",
+  "nombre": "Asociación Karate Villafortuny Ken Shin Kan",
+  "tipo": "asociacion",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-do-trinidad-de-karate",
+  "nombre": "Associació Do Trinidad De Karate",
+  "tipo": "asociacion",
+  "municipio": "reus",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-de-wu-shu-wu-xia-catalunya",
+  "nombre": "Associacio Esportiva de Wu shu Wu Xia Catalunya",
+  "tipo": "asociacion",
+  "municipio": "reus",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "direccion": "Plaça del victor, 7, 4 C. REUS",
+  "web": "http://www.wuxia-kungfu.com",
+  "fuente": "https://fedecatjudo.cat/wu-shu/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-de-judo-dojo-cambrils",
+  "nombre": "C.E. de Judo Dojo Cambrils",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Angel Guimerà, 3, CAMBRILS",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-golden-gloves",
+  "nombre": "Club Boxa Golden Gloves",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-cambrils-karate",
+  "nombre": "Club Cambrils Karate",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-jiujitsu-brasiler-reus",
+  "nombre": "Club de Jiujitsu Brasiler Reus",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Calle Balmes N 58",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=JJBR",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esp-arts-marcials-reus",
+  "nombre": "Club Esp. Arts Marcials Reus",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "C/ Roger de Belfort Nº39, Reus—tarragona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-sakura-reus",
+  "nombre": "Club Judo Sakura Reus",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Fatarella, 16, REUS",
+  "web": "https://es-es.facebook.com/pages/category/Sports-team/Club-Judo-Sakura-de-Reus-1981271395440026/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-hospitalet-de-linfant",
+  "nombre": "Club Karate Hospitalet de l'Infant",
+  "tipo": "club",
+  "municipio": "vandellos-i-lhospitalet-de-linfant",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=14",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-patxanguerus-dalforja-karate-kushin-kai",
+  "nombre": "Club Patxanguerus d'Alforja Karate Kushin-Kai",
+  "tipo": "club",
+  "municipio": "alforja",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=11",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-tot-judo-reus",
+  "nombre": "Club Tot Judo Reus",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Av. Onze de Setembre, 3 1è C., REUS",
+  "web": "https://es-es.facebook.com/clubtot.reus",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "damian",
+  "nombre": "Damian",
+  "tipo": "escuela",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Sant Lluis, 64, 43201 Reus",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "escola-judo-shingitai",
+  "nombre": "Escola Judo Shingitai",
+  "tipo": "escuela",
+  "municipio": "reus",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Balmes, 21, REUS",
+  "web": "https://www.facebook.com/people/Escola-Judo-Shingitai-Reus/100047007082227/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "escola-teresa-miquel-i-pamies",
+  "nombre": "Escola Teresa Miquel i Pàmies",
+  "tipo": "escuela",
+  "municipio": "reus",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-darts-marcials-reus",
+  "nombre": "Esportiu d'Arts Marcials Reus",
+  "tipo": "escuela",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Tetuan, 9-A, 43205 Reus",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gimnas-siluets",
+  "nombre": "Gimnàs Siluet's",
+  "tipo": "gimnasio",
+  "municipio": "reus",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "koryo-reus",
+  "nombre": "Koryo Reus",
+  "tipo": "escuela",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Carrasco i Formiguera, 3 Bjos, 43204 Reus",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "laissa",
+  "nombre": "Laissa",
+  "tipo": "escuela",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Joan Bertran, 40, 43202 Reus",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "rga-spain-jiu-jitsu-club-jiu-jitsu-club-cambrils",
+  "nombre": "Rga Spain Jiu Jitsu Club-Jiu Jitsu Club Cambrils",
+  "tipo": "escuela",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Avda. de la Independencia Nº 11, 43850",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=RGA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-sundo-cambrils",
+  "nombre": "Taekwondo Sundo Cambrils",
+  "tipo": "escuela",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Les Tres Eres, 3 Baixos 1, 43850 Cambrils",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tiburon-fitness-club",
+  "nombre": "Tiburón Fitness Club",
+  "tipo": "gimnasio",
+  "municipio": "reus",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Carrer Nicaragua 20",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=TIBURON",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

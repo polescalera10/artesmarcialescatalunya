@@ -1,0 +1,40 @@
+[
+ {
+  "slug": "club-judo-ippon-bellpuig",
+  "nombre": "Club Judo Ippon Bellpuig",
+  "tipo": "club",
+  "municipio": "bellpuig",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Avda de les garrigues, S/N, BELLPUIG",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "natacio-tarrega",
+  "nombre": "Natació Tàrrega",
+  "tipo": "escuela",
+  "municipio": "tarrega",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=6",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tarrega",
+  "nombre": "Tarrega",
+  "tipo": "escuela",
+  "municipio": "tarrega",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Sol Ixent, 4 1º A, 25300 Tarrega",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

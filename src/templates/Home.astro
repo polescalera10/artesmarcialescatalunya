@@ -1,0 +1,161 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import FAQ from '../components/FAQ.astro';
+import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import { L, url, lista, n, type Lang } from '../lib/i18n';
+import { CENTROS, comarcasConCentros, disciplinasPresentes, centrosDeComarca } from '../lib/centros';
+import { COMARCAS, getComarca, getMunicipio } from '../lib/geo';
+import { getDisciplina } from '../lib/disciplinas';
+import { rutasMunicipio, rutasDisciplina } from '../lib/rutas';
+import { POSTS } from '../lib/editorial';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const comarcas = comarcasConCentros().map(slug => ({ slug, nombre: getComarca(slug)!.nombre, k: centrosDeComarca(slug).length }));
+const disc = disciplinasPresentes(CENTROS);
+const conPagina = new Set(rutasDisciplina().map(r => r.disciplina));
+const topMunis = rutasMunicipio()
+  .map(r => ({ ...r, nombre: getMunicipio(r.municipio)!.nombre, k: CENTROS.filter(c => c.municipio === r.municipio).length }))
+  .sort((a, b) => b.k - a.k)
+  .slice(0, 12);
+const posts = lang === 'es' ? POSTS.filter(p => p.tipo === 'articulo').slice(0, 3) : [];
+
+const title = L(lang, `Artes Marciales Catalunya: ${CENTROS.length} centros verificados`, `Arts Marcials Catalunya: ${CENTROS.length} centres verificats`);
+const description = L(lang,
+  `Directorio de ${CENTROS.length} centros de artes marciales en Cataluña: boxeo, judo, karate, jiu-jitsu, MMA y más, por comarca y municipio. Cada ficha con su fuente.`,
+  `Directori de ${CENTROS.length} centres d'arts marcials a Catalunya: boxa, judo, karate, jiu-jitsu, MMA i més, per comarca i municipi. Cada fitxa amb la seva font.`);
+
+const faq = [
+  {
+    q: L(lang, '¿Qué es Artes Marciales Catalunya?', 'Què és Arts Marcials Catalunya?'),
+    a: L(lang,
+      'Un directorio independiente de centros de artes marciales en Cataluña. No somos un gimnasio. Listamos cada centro que podemos verificar con una fuente pública (su web, el registro de su federación o el directorio de su ayuntamiento), en orden alfabético y sin valoraciones.',
+      "Un directori independent de centres d'arts marcials a Catalunya. No som un gimnàs. Llistem cada centre que podem verificar amb una font pública (el seu web, el registre de la seva federació o el directori del seu ajuntament), en ordre alfabètic i sense valoracions."),
+  },
+  {
+    q: L(lang, '¿Por qué no aparece un centro que conozco?', 'Per què no hi surt un centre que conec?'),
+    a: L(lang,
+      'Porque aún no hemos encontrado una fuente pública que lo confirme, o porque todavía no hemos llegado a su comarca. Si nos lo dices, lo comprobamos y lo añadimos gratis.',
+      "Perquè encara no hem trobat una font pública que ho confirmi, o perquè encara no hem arribat a la seva comarca. Si ens ho dius, ho comprovem i l'afegim gratis."),
+  },
+  {
+    q: L(lang, '¿Los centros pagan por aparecer?', 'Els centres paguen per aparèixer?'),
+    a: L(lang,
+      'No. Aparecer es gratis. Algunos centros pueden pagar por un bloque destacado, siempre etiquetado como "Promocionado"; el listado alfabético no cambia.',
+      "No. Aparèixer és gratis. Alguns centres poden pagar per un bloc destacat, sempre etiquetat com a \"Promocionat\"; el llistat alfabètic no canvia."),
+  },
+];
+
+const alternates = { es: url.home('es'), ca: url.home('ca') };
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': `${SITE.url}${url.home(lang)}`,
+  name: title,
+  description,
+  url: `${SITE.url}${url.home(lang)}`,
+  inLanguage: lang,
+  isPartOf: { '@id': SCHEMA_IDS.website },
+  publisher: { '@id': SCHEMA_IDS.organization },
+};
+---
+
+<Layout title={title} description={description} canonical={url.home(lang)} schema={schema} lang={lang} alternates={alternates}>
+  <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
+  <main id="contenido">
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-10">
+      <p class="text-xs uppercase tracking-wide text-brand-red font-semibold mb-4">{L(lang, 'Directorio independiente · Cataluña', 'Directori independent · Catalunya')}</p>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.05] max-w-4xl">
+        {L(lang, 'Encuentra dónde entrenar artes marciales en Cataluña', 'Troba on entrenar arts marcials a Catalunya')}
+      </h1>
+      <p class="text-lg text-brand-muted mt-5 max-w-3xl leading-relaxed">
+        {L(lang,
+          `${n(CENTROS.length, 'centro', 'centros')} en ${n(comarcas.length, 'comarca', 'comarcas')}, cada uno con la fuente pública que lo confirma y la fecha en que la comprobamos. Sin valoraciones, sin rankings pagados.`,
+          `${n(CENTROS.length, 'centre', 'centres')} en ${n(comarcas.length, 'comarca', 'comarques')}, cadascun amb la font pública que el confirma i la data en què la vam comprovar. Sense valoracions, sense rànquings pagats.`)}
+      </p>
+      <form action={url.centros(lang)} method="get" class="mt-8 flex flex-col sm:flex-row gap-3 max-w-2xl" role="search">
+        <label for="q" class="sr-only">{L(lang, 'Buscar', 'Cercar')}</label>
+        <input id="q" name="q" type="search" placeholder={L(lang, 'Municipio, disciplina o nombre del centro', 'Municipi, disciplina o nom del centre')} class="flex-1 bg-brand-gray border border-brand-border rounded-lg px-4 py-3 text-white placeholder-brand-muted focus:outline-none focus:border-brand-red" />
+        <button class="bg-brand-red hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg">{L(lang, 'Buscar', 'Cercar')}</button>
+      </form>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h2 class="text-2xl font-bold text-white mb-5">{L(lang, 'Por disciplina', 'Per disciplina')}</h2>
+      <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+        {disc.filter(d => conPagina.has(d.slug)).map(d => (
+          <li>
+            <a href={url.disciplina(lang, d.slug)} class="flex justify-between items-center gap-2 bg-brand-gray border border-brand-border rounded-lg px-4 py-3 hover:border-brand-red/40">
+              <span class="text-white font-medium text-sm">{getDisciplina(d.slug)![lang]}</span>
+              <span class="text-brand-muted text-xs">{d.n}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h2 class="text-2xl font-bold text-white mb-2">{L(lang, 'Por comarca', 'Per comarca')}</h2>
+      <p class="text-sm text-brand-muted mb-5">
+        {L(lang,
+          `${comarcas.length} de las ${COMARCAS.length} comarcas de Cataluña tienen ya centros verificados. Vamos sumando el resto.`,
+          `${comarcas.length} de les ${COMARCAS.length} comarques de Catalunya ja tenen centres verificats. Anem sumant la resta.`)}
+      </p>
+      <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+        {comarcas.map(c => (
+          <li>
+            <a href={url.comarca(lang, c.slug)} class="flex justify-between gap-2 bg-brand-gray border border-brand-border rounded-lg px-3 py-2 text-sm text-brand-muted hover:text-white hover:border-brand-red/40">
+              <span>{c.nombre}</span><span class="text-white font-semibold">{c.k}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h2 class="text-2xl font-bold text-white mb-5">{L(lang, 'Municipios con más centros', 'Municipis amb més centres')}</h2>
+      <ul class="flex flex-wrap gap-2">
+        {topMunis.map(m => (
+          <li><a href={url.municipio(lang, m.comarca, m.municipio)} class="inline-flex gap-2 bg-brand-gray border border-brand-border rounded-full px-3 py-1.5 text-sm text-brand-muted hover:text-white">{m.nombre} <span class="text-white font-semibold">{m.k}</span></a></li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid md:grid-cols-3 gap-6">
+      {[
+        [L(lang, 'Fuente en cada ficha', 'Font a cada fitxa'), L(lang, 'Web oficial, registro federativo o directorio municipal. La enlazamos para que lo compruebes tú.', 'Web oficial, registre federatiu o directori municipal. La enllacem perquè ho comprovis tu.')],
+        [L(lang, 'Orden alfabético', 'Ordre alfabètic'), L(lang, 'No puntuamos centros ni vendemos posiciones. Los destacados van aparte y etiquetados.', 'No puntuem centres ni venem posicions. Els destacats van a part i etiquetats.')],
+        [L(lang, 'Sin datos inventados', 'Sense dades inventades'), L(lang, 'Si algo no consta en una fuente pública, no lo publicamos: ni horarios, ni precios, ni opiniones.', "Si una cosa no consta en una font pública, no la publiquem: ni horaris, ni preus, ni opinions.")],
+      ].map(([t, d]) => (
+        <div class="border border-brand-border rounded-xl p-6">
+          <h3 class="font-bold text-white">{t}</h3>
+          <p class="text-sm text-brand-muted mt-2 leading-relaxed">{d}</p>
+        </div>
+      ))}
+    </section>
+
+    {posts.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="flex items-baseline justify-between mb-5">
+          <h2 class="text-2xl font-bold text-white">Del blog</h2>
+          <a href={url.blog()} class="text-sm text-brand-red hover:text-red-400">Ver todo →</a>
+        </div>
+        <ul class="grid md:grid-cols-3 gap-5">
+          {posts.map(p => (
+            <li class="bg-brand-gray border border-brand-border rounded-xl p-5">
+              <a href={url.post(p.slug)} class="font-semibold text-white hover:text-brand-red">{p.h1}</a>
+              <p class="text-sm text-brand-muted mt-2 line-clamp-3">{p.descripcion}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <ParaCentrosCTA lang={lang} />
+    <FAQ items={faq} title={L(lang, 'Preguntas frecuentes', 'Preguntes freqüents')} />
+  </main>
+  <Footer lang={lang} />
+</Layout>

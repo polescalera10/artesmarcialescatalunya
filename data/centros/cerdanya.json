@@ -1,0 +1,27 @@
+[
+ {
+  "slug": "club-karate-llivia-puigcerda",
+  "nombre": "Club Karate Llívia-Puigcerdà",
+  "tipo": "club",
+  "municipio": "llivia",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-no-limits-gym-puigcerda",
+  "nombre": "Taekwondo No Limits Gym Puigcerda",
+  "tipo": "gimnasio",
+  "municipio": "puigcerda",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Euskalerria, 1, 17520 Puigcerda",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

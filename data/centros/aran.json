@@ -1,0 +1,14 @@
+[
+ {
+  "slug": "club-boxa-sambo-valles",
+  "nombre": "Club Boxa Sambo Vallès",
+  "tipo": "club",
+  "municipio": "vielha-e-mijaran",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

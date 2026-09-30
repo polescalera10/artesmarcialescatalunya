@@ -1,0 +1,29 @@
+---
+// Migas de pan visibles + BreadcrumbList. El último elemento es la página actual.
+import { SITE } from '../lib/site';
+import { L, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  items: { nombre: string; href: string }[];
+}
+const { lang, items } = Astro.props;
+const todos = [{ nombre: L(lang, 'Inicio', 'Inici'), href: url.home(lang) }, ...items];
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: todos.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.nombre, item: `${SITE.url}${it.href}` })),
+};
+---
+
+<nav aria-label={L(lang, 'Migas de pan', 'Molles de pa')} class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 text-xs text-brand-muted">
+  <ol class="flex flex-wrap items-center gap-1.5">
+    {todos.map((it, i) => (
+      <li class="flex items-center gap-1.5">
+        {i < todos.length - 1 ? <a href={it.href} class="hover:text-white">{it.nombre}</a> : <span aria-current="page" class="text-brand-muted/80">{it.nombre}</span>}
+        {i < todos.length - 1 && <span aria-hidden="true">/</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

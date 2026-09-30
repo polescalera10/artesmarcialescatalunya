@@ -1,0 +1,1958 @@
+[
+ {
+  "slug": "10th-planet-barcelona",
+  "nombre": "10th Planet Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Carrer Sant Pere Martir 37",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=PLANET",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "a-e-arts-marcials-enan",
+  "nombre": "A.E. Arts Marcials Enan",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=20",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "a-e-renshinkan",
+  "nombre": "A.E. Renshinkan",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kendo"
+  ],
+  "direccion": "Travessera de Gràcia, 419, BARCELONA",
+  "web": "https://www.renshinkan-barcelona.org/",
+  "fuente": "https://fedecatjudo.cat/kendo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "a-e-shintaikan-budo-kyokai-tai-jitsu",
+  "nombre": "A.E. Shintaikan Budo Kyokai, Tai-Jitsu",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=20",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "academia-kerker-gym",
+  "nombre": "Academia Kerker Gym",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Av. Eduard Tol Dra, 32b",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KERKER",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "alpha-gym-mma",
+  "nombre": "Alpha Gym Mma",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Passatge d'Elena Girol 18",
+  "web": "www.alphagymmma.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ALPHACAT",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "anoll",
+  "nombre": "Anoll",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Camil Fabra, 2-4 Entlo., 08030 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "aranha-barcelona",
+  "nombre": "Aranha Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "grappling",
+   "mma"
+  ],
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ARANHA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "ars-phisica",
+  "nombre": "Ars Phisica",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Ronda General Mitre, 116, 08021 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "asociacion-deportiva-team-cuevas-bjj",
+  "nombre": "Asociación deportiva TEAM CUEVAS BJJ",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "grappling",
+   "mma",
+   "defensa-personal"
+  ],
+  "direccion": "Can oliva 97 local 1  08020",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CUE",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-club-esports-fabra",
+  "nombre": "Associacio Club Esports Fabra",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Passeig Fabra i Puig, 318, 08031 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-arrels-congres",
+  "nombre": "Associacio Esportiva Arrels congrés",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Cardenal Tedeschini, 76-80, 08027 - BARCELONA",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-esparta-300",
+  "nombre": "Associació Esportiva Esparta 300",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Gran de Sant Andreu Nº 505, Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-nou-barris",
+  "nombre": "Associació Esportiva Nou Barris",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Carrer de l'Artesania, 63",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=AENB",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-team-calvet",
+  "nombre": "Associació Esportiva Team Calvet",
+  "tipo": "asociacion",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer d'En Prim Nº 110 – 2ª Plt., Badalona-Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-judo-baetulo",
+  "nombre": "Associació Judo Baetulo",
+  "tipo": "asociacion",
+  "municipio": "badalona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Sant Marc, 6, BADALONA",
+  "web": "http://www.asjuba.com",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-judo-torre-fuerte",
+  "nombre": "Associació Judo Torre Fuerte",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Passeig verneda, 85 - 08020 - BARCELONA",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-karate-espronceda",
+  "nombre": "Associació Karate Espronceda",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=19",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "bam-chun",
+  "nombre": "Bam Chun",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Gran Via de les Corts, 843 Local 5, 08018 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "banus",
+  "nombre": "Banus",
+  "tipo": "escuela",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Banus Baixa, 68, 08923 Santa Coloma Gramanet",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "barcelona-jiu-jitsu",
+  "nombre": "Barcelona Jiu-Jitsu",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "grappling",
+   "mma",
+   "lucha"
+  ],
+  "direccion": "Carrer Llull 16-18",
+  "web": "www.barcelonajiujitsu.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BARJJ",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "barcelona-taekwondo-starclass",
+  "nombre": "Barcelona Taekwondo Starclass",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Foneria, 7 9º, 08038 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "brave-martial-arts",
+  "nombre": "Brave Martial Arts",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Barcelona",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BRAVE",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-badrena",
+  "nombre": "C.E. Badrena",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "jiu-jitsu-japones",
+   "taekwondo"
+  ],
+  "direccion": "C/ Joan Güell, 38, local 2, BARCELONA",
+  "web": "http://www.esportiubadrena.com",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-maristes-ademar",
+  "nombre": "C.E. Maristes Ademar",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Dos de Maig, 67. BADALONA",
+  "web": "https://www.badalona.maristes.cat/judo-0",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-muay-thai-barcelona",
+  "nombre": "C.E. Muay Thai Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Entença, 102. BARCELONA",
+  "web": "https://xfit.com.es/artes-marciales/judo/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "c-e-wu-shu-siu-lam",
+  "nombre": "C.E. Wu shu Siu Lam",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "kung-fu"
+  ],
+  "direccion": "C/ Mare de Déu de Lorda, 72, BARCELONA",
+  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "centre-destudis-montseny",
+  "nombre": "Centre d'Estudis Montseny",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "centre-jing-kung-fu",
+  "nombre": "Centre Jing, Kung Fu",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "cho-san",
+  "nombre": "Cho San",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Casanova, 156, 08036 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "chois-urquinaona",
+  "nombre": "Choi'S Urquinaona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Roger de Flor, 133 Entlo, 08013 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-alianza-arts-marcials",
+  "nombre": "Club Alianza Arts Marcials",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Baixada del Passerell Nº12 Bajos, 08032—barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-barcelona",
+  "nombre": "Club Boxa Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-canadas-boxing",
+  "nombre": "Club Boxa Cañadas Boxing",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-gran-price",
+  "nombre": "Club Boxa Gran Price",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-ilion-les-corts",
+  "nombre": "Club Boxa Ilion les Corts",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-ko-verdun",
+  "nombre": "Club Boxa KO Verdun",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-la-verneda",
+  "nombre": "Club Boxa la Verneda",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-mediterraneo",
+  "nombre": "Club Boxa Mediterraneo",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-red-bird",
+  "nombre": "Club Boxa Red Bird",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-sant-adria",
+  "nombre": "Club Boxa Sant Adrià",
+  "tipo": "club",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-bushido",
+  "nombre": "Club Bushido",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Emili Roca, 22, BARCELONA",
+  "web": "http://www.facebook.com/judobushidoclosa",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-can-clos",
+  "nombre": "Club Can Clos",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "lucha"
+  ],
+  "direccion": "Plaza del Mig 7 9",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-cer",
+  "nombre": "Club CER",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=17",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-boxa-yoroi",
+  "nombre": "Club de Boxa Yoroi",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "mma",
+   "grappling",
+   "lucha"
+  ],
+  "direccion": "Rambla Prim Nº 252, Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-barcelona-nord",
+  "nombre": "Club de Judo Barcelona Nord",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Travessera de Gracia 419, BARCELONA",
+  "web": "http://www.judobcn.com",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-la-salle-horta",
+  "nombre": "Club de Judo la Salle Horta",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "direccion": "Paseo Universal, 31, BARCELONA",
+  "web": "https://club-de-judo-la-salle-horta.negocio.site/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-lluria",
+  "nombre": "Club de Judo Llúria",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Arago, 302, BARCELONA",
+  "web": "https://judolluria.wordpress.com/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-santa-coloma-komi",
+  "nombre": "Club de Judo Santa Coloma-Komi",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Avenida Puig Castellar nº 9 (IES Les Vinyes) - SANTA COLOMA DE GRAMANET, SANTA COLOMA DE GRAMANET",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-kendo-ryo-shin-kai",
+  "nombre": "Club de kendo Ryo Shin Kai",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kendo"
+  ],
+  "direccion": "Avda Roma, 159, 4rt. BARCELONA",
+  "web": "http://ryoshinkai.es/",
+  "fuente": "https://fedecatjudo.cat/kendo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-kendo-upc",
+  "nombre": "Club de kendo UPC",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kendo"
+  ],
+  "direccion": "Poliesportiu del Campus Nord UPC, carrer Jordi Girona 1, edifici omega, BARCELONA",
+  "web": "http://clubkendoupc.com/",
+  "fuente": "https://fedecatjudo.cat/kendo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-lluita-baro-de-viver",
+  "nombre": "Club de Lluita Baró de Viver",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "lucha",
+   "grappling"
+  ],
+  "direccion": "C/Clariana s/n,08030",
+  "web": "http://www.lluitabarodeviver.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BV",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-lluita-sant-adria",
+  "nombre": "Club de lluita Sant Adrià",
+  "tipo": "club",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "lucha",
+   "defensa-personal",
+   "grappling"
+  ],
+  "direccion": "Poliesportiu Nou Ricard - Passeig la Rambleta s/n",
+  "web": "http://www.lluitasantadria.es",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=SA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-dep-gimnas-kyu",
+  "nombre": "Club Dep. Gimnàs Kyu",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate",
+   "jiu-jitsu-japones"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=17",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-badalona-fighters",
+  "nombre": "Club Esportiu Badalona Fighters",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Eduard Maristany, 71 - 08912 - BADALONA",
+  "web": "https://www.cembdn.es/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-bruc-fitness",
+  "nombre": "Club Esportiu Bruc Fitness",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "C/ Bruc Nª20 Local, Hospitalet de Llobregat—barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-de-lluites-olimpiques-hayastan",
+  "nombre": "Club esportiu de lluites olímpiques Hayastán",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "lucha",
+   "grappling"
+  ],
+  "direccion": "Paseo Verdumm 9",
+  "web": "http://www.lluitaolimpicahayastan.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=HAY",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-dojo-kokoro-barcelona",
+  "nombre": "Club Esportiu Dojo Kokoro Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Passatge Garcia Robles Nº17, Bajos Ext., Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-edgar-esport",
+  "nombre": "Club Esportiu Edgar Esport",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Alveniz Nº 17, Hospitalet–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-goldenkyu-barcelona",
+  "nombre": "Club Esportiu Goldenkyu Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Ronda General Mitre Nº23, Local 2., Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-instituto-de-wu-shumallorca-219-1er",
+  "nombre": "Club Esportiu Instituto de Wu-Shumallorca 219, 1er",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-jiu-jitsu-monica-barcelona",
+  "nombre": "Club Esportiu Jiu Jitsu Monica Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "C/ Segre, 71. BARCELONA",
+  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-jiujitsu-brasiler-befit-badalona",
+  "nombre": "Club Esportiu Jiujitsu Brasiler Befit Badalona",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [],
+  "direccion": "Torna a la Federació",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BJJBFIT%20Badalona",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-kick-barcelona",
+  "nombre": "Club Esportiu Kick Barcelona",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Modern Nº23-29, Local 3, Hospitalet de Llobregat–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-kickboxing-barcelona-clot",
+  "nombre": "Club Esportiu Kickboxing Barcelona Clot",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Huelva Nº 40, Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-kickboxing-blackbull-barcelona",
+  "nombre": "Club Esportiu Kickboxing Blackbull Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "C/ Joan Riera, Nº 8, Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-leones",
+  "nombre": "Club Esportiu Leones",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Avinguda Can Serra Nº45, Bloc U, l'Hospitalet–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-mediterrani",
+  "nombre": "Club Esportiu Mediterrani",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-puro-impacto",
+  "nombre": "Club Esportiu Puro Impacto",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "mma"
+  ],
+  "direccion": "C/ Puerto Principe Nº 26-40, Local, Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-taekwondo-taeyang",
+  "nombre": "Club Esportiu Taekwondo Taeyang",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Joaquim Ruyra, 19, 08917 Badalona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-gimnas-judo-condal",
+  "nombre": "Club Gimnàs Judo Condal",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "defensa-personal"
+  ],
+  "direccion": "Consell de Cent, 44., BARCELONA",
+  "web": "http://www.judo-condal.cat",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-gimnas-louis",
+  "nombre": "Club Gimnàs Louis",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate",
+   "judo"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-go-kan",
+  "nombre": "Club Go-Kan",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-avda-montserrat",
+  "nombre": "Club Judo Avda Montserrat",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "jiu-jitsu-japones",
+   "kung-fu"
+  ],
+  "direccion": "Vallseca, 20, BARCELONA",
+  "web": "https://m.facebook.com/GimnasAvMontserrat/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-musubi",
+  "nombre": "Club Judo Musubi",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Jumilla, S/N, 08918 - BADALONA, (Instal.lacions camp de futbol)",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-okami",
+  "nombre": "Club Judo Okami",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "C/ Industria, 12. BARCELONA",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-ciutat-vella",
+  "nombre": "Club Karate Ciutat Vella",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=14",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-dojo-lobo",
+  "nombre": "Club Karate Dojo Lobo",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=14",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-europa",
+  "nombre": "Club Karate Europa",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=14",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-ippon",
+  "nombre": "Club Karate Ippon",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=14",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-lhospitalet",
+  "nombre": "Club Karate l'Hospitalet",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-ridao",
+  "nombre": "Club Karate Ridao",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-ryubukan",
+  "nombre": "Club Karate Ryubukan",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-kick-boxing-gramanet",
+  "nombre": "Club Kick Boxing Gramanet",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Angel Guimerá Nº17, Sta Coloma de Gramanet–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-kickboxing-dojo",
+  "nombre": "Club Kickboxing Dojo",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Travessera de Gràcia Nº341, Barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-lluita-olimpica-la-mina",
+  "nombre": "Club Lluita Olímpica la Mina",
+  "tipo": "club",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "lucha",
+   "defensa-personal",
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Carrer Aristides Maillol s/n",
+  "web": "http://www.lluitaolimpicalamina.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=LM",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "deportivo-marin",
+  "nombre": "Deportivo Marin",
+  "tipo": "escuela",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Roma, 55, 08921 Santa Coloma de Gramanet",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "distrito-655",
+  "nombre": "Distrito 655",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo",
+   "aikido"
+  ],
+  "direccion": "Aragon, 655 Local 2, 08026 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-chowa-bcn",
+  "nombre": "Dojo Chowa BCN",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=11",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-narot",
+  "nombre": "Dojo Narot",
+  "tipo": "escuela",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=11",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-taido",
+  "nombre": "Dojo Taido",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dojo-waseda",
+  "nombre": "Dojo Waseda",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "don-gimnas",
+  "nombre": "Don Gimnas",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Avd. Republica Argentina, 38 3º 5º, 08023 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "elite-top-team",
+  "nombre": "Elite Top Team",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "grappling",
+   "lucha"
+  ],
+  "direccion": "No Tiene",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ETT",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "escuela-de-artes-marciales",
+  "nombre": "Escuela de Artes Marciales",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "escuelas-do-yang",
+  "nombre": "Escuelas Do Yang",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Francesc Tarrega, 21, 08027 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esport-rogent",
+  "nombre": "Esport Rogent",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido",
+   "boxeo",
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "Rogent, 11, 08026 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-claret",
+  "nombre": "Esportiu Claret",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "esportiu-kick-boxing-badalona",
+  "nombre": "Esportiu Kick Boxing Badalona",
+  "tipo": "escuela",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Plaça de la Marinada Nº1, Badalona–barcelona",
+  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "federacio-catalana-de-lluita-arbitre",
+  "nombre": "Federació Catalana de Lluita. Arbitre",
+  "tipo": "escuela",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "lucha",
+   "mma",
+   "grappling",
+   "defensa-personal"
+  ],
+  "direccion": "C/ Arístides Maillol, s/n",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FCLL",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "flex-fighting-academy",
+  "nombre": "Flex Fighting Academy",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "lucha",
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Calle Entenza 218,",
+  "web": "www.flexfighting.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FFA",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "fudoshin-dojo-garcia",
+  "nombre": "Fudoshin Dojo García",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "fuji-gimnasio",
+  "nombre": "Fuji, Gimnasio",
+  "tipo": "gimnasio",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "fundacio-privada-claror",
+  "nombre": "Fundació Privada Claror",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Sardenya, 333, BARCELONA",
+  "web": "https://claror.cat/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gimnas-club-francas",
+  "nombre": "Gimnàs Club Francàs",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gracie-barra-barcelona",
+  "nombre": "Gracie Barra Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Calle Aragò 109",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GRACIE",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gym-boxing-saus",
+  "nombre": "Gym Boxing Saus",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "lucha",
+   "grappling"
+  ],
+  "direccion": "C/doctor Marti y Julia 43",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GBS",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "han-ra",
+  "nombre": "Han Ra",
+  "tipo": "escuela",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "San Silvestre, 5, 08921 Santa Coloma de Gramanet",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "hermanos-argudo",
+  "nombre": "Hermanos Argudo",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Turo Blau, 22, 08016 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "hibera-ludus",
+  "nombre": "Hibera Ludus",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "grappling",
+   "lucha"
+  ],
+  "direccion": "Passeig Joan Moreira 10",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=HIBE",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "hirota-karate-club",
+  "nombre": "Hirota, Karate Club",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "hospitalet-jiujitsu-sl",
+  "nombre": "Hospitalet Jiujitsu SL",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "C/ Almadén 3 bajos",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=HJSL",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "i-f-k-catalunya",
+  "nombre": "I.F.K. Catalunya",
+  "tipo": "escuela",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "j-martinez-sport-center",
+  "nombre": "J. Martínez Sport Center",
+  "tipo": "gimnasio",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "judo-club-hospitalet",
+  "nombre": "Judo Club Hospitalet",
+  "tipo": "escuela",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "direccion": "C/ General Prim, 48, baix 1 A. L'HOSPITALET DE LLOBREGAT",
+  "web": "http://www.judoclubhospitalet.com/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "juntai-i",
+  "nombre": "Juntai i",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Milanesat, 32-34, 08017 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "karate-club-accio-sant-marti",
+  "nombre": "Karate Club Acció Sant Martí",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate",
+   "judo",
+   "taekwondo",
+   "boxeo"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kazoku-karate",
+  "nombre": "Kazoku Karate",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kihon-club",
+  "nombre": "Kihon, Club",
+  "tipo": "escuela",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "koryo-barcelona",
+  "nombre": "Koryo Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Joan Gamper, 5, 08014 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "krav-maga-barcelona",
+  "nombre": "Krav Maga Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "krav-maga",
+   "mma"
+  ],
+  "direccion": "Av Litoral 86-96",
+  "web": "www.kravmagabcn.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KMBCN",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "lee-young-badalona",
+  "nombre": "Lee Young Badalona",
+  "tipo": "escuela",
+  "municipio": "badalona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "SAN RAMON, 7-9 bajos, 08912 BADALONA",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "lion-fighters",
+  "nombre": "Lion Fighters",
+  "tipo": "escuela",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "mma",
+   "grappling",
+   "lucha"
+  ],
+  "direccion": "Carlos Carmona",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=LION",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "natacio-barcelona-club",
+  "nombre": "Natació Barcelona, Club",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=6",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "nazaret",
+  "nombre": "Nazaret",
+  "tipo": "escuela",
+  "municipio": "badalona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Arnus, 16-18, 08911 Badalona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "nebari-jiujitsu",
+  "nombre": "Nebari Jiujitsu",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Avenida constitucio 56",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=NEBARI",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "olimpico-gimnasio",
+  "nombre": "Olimpico Gimnasio",
+  "tipo": "gimnasio",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "oyamas-karate",
+  "nombre": "Oyama's Karate",
+  "tipo": "escuela",
+  "municipio": "badalona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "parera",
+  "nombre": "Parera",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Plaza Eduardo Torroja, S/n, 08020 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "poliesportiu-mundet-acell",
+  "nombre": "Poliesportiu Mundet (acell)",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "princess-margaret-school",
+  "nombre": "Princess Margaret School",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Passeig Font d'en Farges, 15-17. BARCELONA",
+  "web": "https://www.princessmargaret.org/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "pusan",
+  "nombre": "Pusan",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "LIUVA, 39 bajos, 08030 BARCELONA",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sasori-fight-academy",
+  "nombre": "Sasori Fight Academy",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "grappling"
+  ],
+  "direccion": "Avenida Santiga , 20 , Santa Perpetua de Mogoda , 08130",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=SASORI",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "satori",
+  "nombre": "Satori",
+  "tipo": "escuela",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "semai-dojo",
+  "nombre": "Semai Dojo",
+  "tipo": "escuela",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "serral-team",
+  "nombre": "Serral team",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma"
+  ],
+  "direccion": "C/ gran capitán n 3",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=SERRAL",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "shihan-escola-de-karate",
+  "nombre": "Shihan, Escola de Karate",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sob-seng-won",
+  "nombre": "Sob Seng Won",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Alfonso Xii, 39 B, 08006 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "song-duck-i",
+  "nombre": "Song Duck i",
+  "tipo": "escuela",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "La Rambleta, 18 Bajos 2º, 08930 Sant Adria del Besos",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "sutra-yoga-center",
+  "nombre": "Sutra Yoga Center",
+  "tipo": "escuela",
+  "municipio": "badalona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "union-fighters-team",
+  "nombre": "Union Fighters Team",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "grappling",
+   "lucha"
+  ],
+  "direccion": "C/ Entença 218, local 2",
+  "web": "https://www.unionfteam.com",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=UFT",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "uppercut-training-center",
+  "nombre": "Uppercut Training Center",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "grappling",
+   "lucha"
+  ],
+  "direccion": "Barcelona",
+  "web": "https://uppercuttraining.com/",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=UPP",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "wons-barcelona",
+  "nombre": "Won'S Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Sant Frederic, 1-3, 08028 Barcelona",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "wrestling-estornell",
+  "nombre": "Wrestling Estornell",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "lucha",
+   "mma"
+  ],
+  "direccion": "Maspons 22-25, 1o 1a",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ESTOR",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "xfit-eixample",
+  "nombre": "Xfit Eixample",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate",
+   "mma",
+   "grappling",
+   "lucha"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "yugen-dojo",
+  "nombre": "Yugen Dojo",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "zenytsports",
+  "nombre": "ZenytSports",
+  "tipo": "escuela",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "lucha"
+  ],
+  "direccion": "Carrer Aristides Maillol s/n",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ZS",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]

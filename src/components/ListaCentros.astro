@@ -1,0 +1,28 @@
+---
+// Listado de centros: primero, aparte y etiquetados, los promocionados de la
+// lista; después todos en orden alfabético (los promocionados también, en su
+// sitio). Pagar da visibilidad extra, nunca cambia el orden del directorio.
+import CentroCard from './CentroCard.astro';
+import { L, type Lang } from '../lib/i18n';
+import { promocionadosEn, type Centro } from '../lib/centros';
+
+interface Props {
+  centros: Centro[];
+  lang: Lang;
+  conMunicipio?: boolean;
+}
+const { centros, lang, conMunicipio = true } = Astro.props;
+const promos = promocionadosEn(centros);
+---
+
+{promos.length > 0 && (
+  <div class="mb-8">
+    <p class="text-xs uppercase tracking-wide text-amber-400 mb-3">{L(lang, 'Centros promocionados', 'Centres promocionats')}</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {promos.map(c => <CentroCard centro={c} lang={lang} conMunicipio={conMunicipio} />)}
+    </div>
+  </div>
+)}
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+  {centros.map(c => <CentroCard centro={c} lang={lang} conMunicipio={conMunicipio} />)}
+</div>

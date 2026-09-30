@@ -1,0 +1,30 @@
+[
+ {
+  "slug": "club-judo-i-jiu-jitsu-mora",
+  "nombre": "Club Judo i Jiu-Jitsu Mora",
+  "tipo": "club",
+  "municipio": "mora-debre",
+  "disciplinas": [
+   "judo",
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "Travessera Barcelona, 2, MORA D EBRE",
+  "web": "https://es-es.facebook.com/pages/category/Amateur-Sports-Team/Dojo-Mora-Mora-crosstraining-592577211105983/",
+  "fuente": "https://fedecatjudo.cat/judo/clubs/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ },
+ {
+  "slug": "escola-darts-marcials-dojang-toksu",
+  "nombre": "Escola d'Arts Marcials Dojang Toksu",
+  "tipo": "escuela",
+  "municipio": "mora-la-nova",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Ventura Gassol, 8, 43770 Mora la Nova",
+  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-29"
+ }
+]
