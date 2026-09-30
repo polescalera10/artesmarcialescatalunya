@@ -1,0 +1,170 @@
+[
+ {
+  "nombre": "16 Cordes",
+  "municipio": "esparreguera",
+  "pista": "solodeboxeo.com y zeusfitness.net (Carrer Guardiola, 1)",
+  "motivo": "Sin web oficial encontrada; disciplinas no verificables en fuente válida"
+ },
+ {
+  "nombre": "Anaconda Jiu-Jitsu (Gimnasio Sandow)",
+  "municipio": "cornella-de-llobregat",
+  "pista": "fightsol.com (Frederic Soler, 4) y https://anacondajiujitsu.com/",
+  "motivo": "La web carga por JavaScript y no se ha podido leer que tenga sede en Cornellà"
+ },
+ {
+  "nombre": "Antarai Training Camp",
+  "municipio": "sant-joan-despi",
+  "pista": "guardiabjj.com (listado de academias BJJ)",
+  "motivo": "El dominio antarai.com está en venta: no hay web oficial activa"
+ },
+ {
+  "nombre": "Boonchuay Gym",
+  "municipio": "sant-boi-de-llobregat",
+  "pista": "Listado de clubs de OWKLE (owkle.es/clubs), Facebook y agregadores (Carrer d'Eusebi Güell, 14)",
+  "motivo": "Sin web oficial encontrada; solo redes sociales y agregadores"
+ },
+ {
+  "nombre": "CFC Cornellà Fight Club",
+  "municipio": "cornella-de-llobregat",
+  "pista": "fightsol.com (C/ Costa Brava, 6)",
+  "motivo": "Sin web oficial propia; solo aparece en directorios y blog de otro club"
+ },
+ {
+  "nombre": "Club Boxeo Cornellà",
+  "municipio": "cornella-de-llobregat",
+  "pista": "tugimnasio.es y solodeboxeo.com",
+  "motivo": "Sin web oficial encontrada"
+ },
+ {
+  "nombre": "Club Boxeo Prat",
+  "municipio": "el-prat-de-llobregat",
+  "pista": "solodeboxeo.com (Carrer de Frederica Montseny, 2-8) y TikTok @c.b.prat",
+  "motivo": "Sin web oficial; probablemente es el mismo Club Boxa el Prat ya listado por la federación"
+ },
+ {
+  "nombre": "Club Boxa Olesa",
+  "municipio": "olesa-de-montserrat",
+  "pista": "solodeboxeo.com (Carrer de la Reverenda Margarida Biosca, 59)",
+  "motivo": "Su web era un negocio.site, servicio ya cerrado; no hay otra fuente válida"
+ },
+ {
+  "nombre": "Club Esportiu Boxing Amores",
+  "municipio": "sant-andreu-de-la-barca",
+  "pista": "solodeboxeo.com y gimnasios.fitness (Carrer de l'Anoia, 33)",
+  "motivo": "Sin web oficial encontrada"
+ },
+ {
+  "nombre": "Dojo Hikari",
+  "municipio": "sant-boi-de-llobregat",
+  "pista": "guardiabjj.com y búsqueda web (www.aikidobaixllobregat.com)",
+  "motivo": "La web aikidobaixllobregat.com no responde"
+ },
+ {
+  "nombre": "Double Hit Gym",
+  "municipio": "molins-de-rei",
+  "pista": "solodeboxeo.com",
+  "motivo": "Sin web oficial ni dirección verificable"
+ },
+ {
+  "nombre": "Gimnasio Dojo",
+  "municipio": "cornella-de-llobregat",
+  "pista": "tugimnasio.es (Carrer de la Verge de Montserrat, 42)",
+  "motivo": "Sin web oficial; disciplinas no verificadas"
+ },
+ {
+  "nombre": "Gimnasio Yin Fels",
+  "municipio": "castelldefels",
+  "pista": "zeusfitness.net y tugimnasio.es (www.yinfels.com)",
+  "motivo": "La web bloquea el acceso (403 Cloudflare): no se han podido leer las disciplinas"
+ },
+ {
+  "nombre": "Gym Alex Escuela de Artes Marciales",
+  "municipio": "el-prat-de-llobregat",
+  "pista": "zeusfitness.net y tugimnasio.es (Carrer d'Ignasi Iglesias, 19)",
+  "motivo": "Su web era un negocio.site (404); no hay otra fuente válida"
+ },
+ {
+  "nombre": "Gym Boxing Saus",
+  "municipio": "cornella-de-llobregat",
+  "pista": "https://www.gymboxingsaus.com/ (boxeo, boxeo infantil, kickboxing, K1; Calle Doctor Marti i Julia 43, 08940 Cornellà)",
+  "motivo": "Verificado en su web, pero ya existe en barcelones.json (slug gym-boxing-saus) con municipio barcelona por error: hay que moverlo a Cornellà, no duplicarlo"
+ },
+ {
+  "nombre": "Hyun Su Pallejà",
+  "municipio": "palleja",
+  "pista": "zeusfitness.net (Carrer l'Atlàntida, 37) y reservio de Hyun Su Vallirana i Pallejà",
+  "motivo": "La web gimnasiovallirana.com no responde"
+ },
+ {
+  "nombre": "Instituto Artes Marciales",
+  "municipio": "sant-boi-de-llobregat",
+  "pista": "zeusfitness.net y gimnasios.fitness (Carrer de Mossèn Jacint Verdaguer, 7)",
+  "motivo": "Sin web oficial encontrada"
+ },
+ {
+  "nombre": "Instituto Wutan",
+  "municipio": "esplugues-de-llobregat",
+  "pista": "zeusfitness.net (Carrer del Mestre Joan Corrales, 17)",
+  "motivo": "El dominio wutanbarcelona.com muestra contenido ajeno al centro"
+ },
+ {
+  "nombre": "Krav Magá Cornellá (Krav Magá Activo)",
+  "municipio": "cornella-de-llobregat",
+  "pista": "Búsqueda web (kravmagacornella.com)",
+  "motivo": "El dominio no resuelve al verificar"
+ },
+ {
+  "nombre": "Lifefit Club Esportiu Arts Marcials Pallejà",
+  "municipio": "palleja",
+  "pista": "zeusfitness.net (Carrer Mare de Déu de Montserrat, 4; www.lifefit.coop)",
+  "motivo": "El dominio lifefit.coop no resuelve"
+ },
+ {
+  "nombre": "Lion Fighters MMA",
+  "municipio": "cornella-de-llobregat",
+  "pista": "solodeboxeo.com, gimnasios.fitness y búsqueda web (lionfightersmma.com; Carrer de la Travessera, 24; también anuncia sede en Gavà)",
+  "motivo": "La web oficial no respondió al verificar (timeout y 404)"
+ },
+ {
+  "nombre": "Los Caballeros de Oc - División Sant Boi",
+  "municipio": "sant-boi-de-llobregat",
+  "pista": "fightsol.com (C/ Francesc Pi i Margall, 53)",
+  "motivo": "Solo página de Facebook, sin web oficial"
+ },
+ {
+  "nombre": "Mugendo Sant Feliu",
+  "municipio": "sant-feliu-de-llobregat",
+  "pista": "Búsqueda web (santfeliu.mugendo.es)",
+  "motivo": "El subdominio no resuelve y la sede no aparece en el listado oficial de escuelas de mugendo.es"
+ },
+ {
+  "nombre": "Primal Instinct Bcn",
+  "municipio": "cornella-de-llobregat",
+  "pista": "zeusfitness.net y tugimnasio.es (Carrer del General Joan Prim i Prats, 7; www.primalbcn.com)",
+  "motivo": "La web devuelve error 522; disciplinas no verificadas"
+ },
+ {
+  "nombre": "Ryu San Do Caballero Artes Marciales",
+  "municipio": "sant-boi-de-llobregat",
+  "pista": "solodeboxeo.com (Carrer Primer de Maig)",
+  "motivo": "Sin web oficial encontrada"
+ },
+ {
+  "nombre": "Sala Arsen",
+  "municipio": "sant-vicenc-dels-horts",
+  "pista": "solodeboxeo.com y zeusfitness.net (Avinguda del Ferrocarril, 74)",
+  "motivo": "Sin web oficial; disciplinas no verificadas"
+ },
+ {
+  "nombre": "TeamCT9 Sports",
+  "municipio": "castelldefels",
+  "pista": "zeusfitness.net (Rambla de Blas Infante, 17)",
+  "motivo": "Sin web oficial; MMA no verificado en fuente válida"
+ },
+ {
+  "nombre": "Union MMA",
+  "municipio": "cornella-de-llobregat",
+  "pista": "fightsol.com (Av. República Argentina, 59)",
+  "motivo": "El dominio unionmma.com está en venta"
+ }
+]
