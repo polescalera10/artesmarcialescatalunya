@@ -53,6 +53,8 @@ def bonito(nombre: str) -> str:
                 partes.append(p)
             elif partes and partes[-1] == "'" and len(partes) >= 2 and partes[-2] in ('d', 'l'):
                 partes.append(p[:1].upper() + p[1:])
+            elif partes and partes[-1] == "'":
+                partes.append(p)  # genitivo inglés: Choi's, no Choi'S
             else:
                 partes.append(p if (i > 0 and p in MINUSCULAS) else p[:1].upper() + p[1:])
         palabras.append(''.join(partes))

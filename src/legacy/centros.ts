@@ -38,7 +38,7 @@ export const FUENTE_LABELS: Record<FuenteTipo, string> = {
   'perfil-publico': 'Perfil público del centro',
 };
 
-// Adaptador: los 22 centros del Garraf viven ahora en data/centros/garraf.json
+// Adaptador: los centros del Garraf viven ahora en data/centros/garraf.json
 // con el formato del directorio catalán. El contenido heredado del Garraf
 // (textos, FAQ, recuentos) sigue leyéndolos con la forma antigua.
 import garraf from '../../data/centros/garraf.json';

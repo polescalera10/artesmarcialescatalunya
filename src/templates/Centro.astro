@@ -21,6 +21,8 @@ const mun = getMunicipio(c.municipio)!;
 const com = getComarca(c.comarca)!;
 const promo = esPromocionado(c.slug);
 const discs = c.disciplinas.map(d => nombreDisciplina(d, lang));
+// Algunas fuentes solo dicen "artes marciales": la ficha no inventa la disciplina.
+const actividad = discs.length ? lista(lang, discs.map(d => d.toLowerCase())) : L(lang, 'artes marciales', 'arts marcials');
 const vecinos = centrosDeMunicipio(c.municipio).filter(x => x.slug !== c.slug).slice(0, 6);
 const parecidos = vecinos.length < 3
   ? cercanos(mun, x => x.slug !== c.slug && x.disciplinas.some(d => c.disciplinas.includes(d)), 6 - vecinos.length, 30)
@@ -38,14 +40,14 @@ const TIPO: Record<string, [string, string]> = {
 const fuenteLabel = L(lang, ...FUENTE[c.fuenteTipo]);
 
 const title = titulo(
-  L(lang, `${c.nombre} · ${mun.nombre} | ${lista(lang, discs.slice(0, 2))}`, `${c.nombre} · ${mun.nombre} | ${lista(lang, discs.slice(0, 2))}`),
+  L(lang, `${c.nombre} · ${mun.nombre} | ${discs.length ? lista(lang, discs.slice(0, 2)) : L(lang, 'Artes marciales', 'Arts marcials')}`, `${c.nombre} · ${mun.nombre}`),
   `${c.nombre} · ${mun.nombre}`,
   c.nombre,
 );
 const description = descripcion(
   L(lang,
-    `${c.nombre}, ${TIPO[c.tipo][0].toLowerCase()} de ${lista(lang, discs.map(d => d.toLowerCase()))} en ${mun.nombre} (${com.nombre}). Datos verificados con su fuente pública${c.web ? ' y enlace a su web' : ''}.`,
-    `${c.nombre}, ${TIPO[c.tipo][1].toLowerCase()} de ${lista(lang, discs.map(d => d.toLowerCase()))} a ${mun.nombre} (${com.nombre}). Dades verificades amb la seva font pública${c.web ? ' i enllaç al seu web' : ''}.`),
+    `${c.nombre}, ${TIPO[c.tipo][0].toLowerCase()} de ${actividad} en ${mun.nombre} (${com.nombre}). Datos verificados con su fuente pública${c.web ? ' y enlace a su web' : ''}.`,
+    `${c.nombre}, ${TIPO[c.tipo][1].toLowerCase()} de ${actividad} a ${mun.nombre} (${com.nombre}). Dades verificades amb la seva font pública${c.web ? ' i enllaç al seu web' : ''}.`),
 );
 
 const alternates = { es: url.centro('es', c.slug), ca: url.centro('ca', c.slug) };
@@ -94,8 +96,8 @@ const schema = [
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{c.nombre}</h1>
       <p class="text-lg text-brand-muted mt-4 leading-relaxed">
         {L(lang,
-          `${TIPO[c.tipo][0]} de ${lista(lang, discs.map(d => d.toLowerCase()))} en ${mun.nombre}.`,
-          `${TIPO[c.tipo][1]} de ${lista(lang, discs.map(d => d.toLowerCase()))} a ${mun.nombre}.`)}
+          `${TIPO[c.tipo][0]} de ${actividad} en ${mun.nombre}.`,
+          `${TIPO[c.tipo][1]} de ${actividad} a ${mun.nombre}.`)}
         {c.infantil && L(lang, ' Su fuente anuncia clases para niños.', ' La seva font anuncia classes per a infants.')}
       </p>
     </section>

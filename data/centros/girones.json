@@ -30,7 +30,7 @@
  },
  {
   "slug": "chois-lee-i",
-  "nombre": "Choi'S Lee i",
+  "nombre": "Choi's Lee i",
   "tipo": "escuela",
   "municipio": "girona",
   "disciplinas": [
@@ -199,7 +199,7 @@
    "grappling"
   ],
   "direccion": "C Can Pau Birol 12 1ª Planta",
-  "web": "www.somostmc.com",
+  "web": "https://www.somostmc.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=TMC",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"

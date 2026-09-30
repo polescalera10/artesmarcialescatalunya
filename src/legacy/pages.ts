@@ -418,7 +418,7 @@ const LOCAL_FAQS: Record<string, Record<string, { q: string; a: string }[]>> = {
       { q: '¿Cuántos días a la semana se entrena taekwondo?', a: 'Para niños, dos días semanales es el estándar razonable. Para adultos con objetivos de progresión o competición, tres sesiones semanales aceleran claramente el avance.' },
     ],
     'sant-pere-de-ribes': [
-      { q: '¿Vale la pena desplazarse desde Sant Pere de Ribes para entrenar taekwondo?', a: 'Sitges y Vilanova están a 10-15 minutos en coche, una distancia muy asumible para dos entrenamientos semanales. Si el desplazamiento es un problema, pregunta también por actividades en polideportivos municipales de Ribes.' },
+      { q: '¿Hace falta salir de Sant Pere de Ribes para entrenar taekwondo?', a: 'No. En nuestro directorio constan {{dm:taekwondo:sant-pere-de-ribes}} centros del municipio que lo enseñan, entre Ribes y Les Roquetes. Vilanova, a 10-15 minutos en coche, tiene {{dm:taekwondo:vilanova-i-la-geltru}} más si quieres comparar.' },
     ],
   },
   'krav-maga': {
@@ -446,12 +446,12 @@ function generateMoneyPage(combo: typeof MONEY_COMBOS[0]): PageDef {
       'sitges': `¿Buscas clases de boxeo en Sitges? Esta guía te cuenta lo que debes saber antes de empezar: cómo son las clases de iniciación (técnica sobre saco y manoplas, sin contacto obligatorio), qué material necesitas y qué preguntar en cada gimnasio antes de apuntarte. Sitges tiene una vida deportiva activa, y a 10-15 minutos tienes también toda la oferta de Vilanova i la Geltrú. Si quieres, escríbenos y te orientamos sin coste.`,
       'vilanova-i-la-geltru': `El boxeo es una de las formas más completas de ponerse en forma: cardio, coordinación, descarga de estrés y técnica real. Vilanova i la Geltrú, como capital de la comarca del Garraf, es el municipio donde más fácil resulta encontrar clases de boxeo con grupos de iniciación de verdad. En esta guía te explicamos cómo funciona una clase típica, qué material hace falta y con qué criterios elegir gimnasio.`,
       'sant-pere-de-ribes': `Si buscas boxeo y vives en Sant Pere de Ribes, lo más práctico suele ser desplazarse: Sitges y Vilanova i la Geltrú están a 10-15 minutos en coche desde Ribes o Les Roquetes y concentran la mayor parte de la oferta de la comarca. En esta guía te contamos cómo empezar en el boxeo desde cero y qué valorar al elegir gimnasio en la zona.`,
-      'cubelles': `Desde Cubelles, la referencia más cercana para entrenar boxeo es Vilanova i la Geltrú, a menos de 10 minutos por la C-31. En esta guía te explicamos cómo son las clases de boxeo para principiantes, qué necesitas para empezar y qué preguntar antes de apuntarte a cualquier gimnasio de la zona.`,
+      'cubelles': `En Cubelles consta un centro que anuncia boxeo, y si quieres comparar, Vilanova i la Geltrú queda a menos de 10 minutos por la C-31. En esta guía te explicamos cómo son las clases de boxeo para principiantes, qué necesitas para empezar y qué preguntar antes de apuntarte a cualquier gimnasio de la zona.`,
     },
     'karate': {
       'sitges': `El karate es el arte marcial más practicado del mundo y una de las mejores puertas de entrada a las artes marciales, tanto para niños como para adultos. Si buscas karate en Sitges, esta guía te explica qué estilos existen, cómo es la progresión de cinturones, desde qué edad pueden empezar los niños y qué criterios usar para elegir una buena escuela en el municipio o en la vecina Vilanova.`,
       'vilanova-i-la-geltru': `¿Karate en Vilanova i la Geltrú? Buena elección: es una de las disciplinas con más tradición e implantación en Cataluña, y en la capital del Garraf es donde más probabilidades tienes de encontrar escuelas con grupos por edad y nivel. En esta guía repasamos qué aporta el karate a niños y adultos, cómo funciona el sistema de grados y qué preguntar antes de apuntarte.`,
-      'sant-pere-de-ribes': `Para los vecinos de Sant Pere de Ribes que buscan karate, las opciones más completas de la zona están en Sitges y Vilanova i la Geltrú, a 10-15 minutos en coche. También vale la pena consultar la oferta deportiva municipal de Ribes y Les Roquetes. En esta guía te contamos desde qué edad empezar, qué beneficios reales aporta el karate y cómo reconocer una buena escuela.`,
+      'sant-pere-de-ribes': `Los vecinos de Sant Pere de Ribes que buscan karate tienen un centro en el propio municipio, y si quieren comparar, Sitges y Vilanova i la Geltrú están a 10-15 minutos en coche. En esta guía te contamos desde qué edad empezar, qué beneficios reales aporta el karate y cómo reconocer una buena escuela.`,
       'cubelles': `Si vives en Cubelles y te interesa el karate, para ti o para tus hijos, la oferta más amplia de la zona está en Vilanova i la Geltrú, a menos de 10 minutos. En esta guía te explicamos qué aporta el karate según la edad, cómo es la progresión de cinturones y qué criterios usar para elegir escuela.`,
     },
     'mma': {
@@ -465,7 +465,7 @@ function generateMoneyPage(combo: typeof MONEY_COMBOS[0]): PageDef {
     'muay-thai': {
       'sitges': `El muay thai, el arte de las ocho extremidades, añade codos, rodillas y clinch al repertorio del kickboxing. Si buscas muay thai en Sitges, esta guía te explica cómo es el entrenamiento real (mucha técnica, contacto siempre progresivo y opcional), qué material necesitas y cómo valorar las opciones de la zona, incluida Vilanova a pocos minutos.`,
       'vilanova-i-la-geltru': `El muay thai es una de las disciplinas de striking más completas y exigentes, y su popularidad en Cataluña no deja de crecer. Si quieres empezar en Vilanova i la Geltrú, esta guía te cuenta qué esperar de las primeras semanas, la diferencia con el kickboxing y qué criterios usar para elegir un buen gimnasio en la capital del Garraf.`,
-      'sant-pere-de-ribes': `Para entrenar muay thai desde Sant Pere de Ribes, lo habitual es desplazarse a Sitges o Vilanova i la Geltrú, a 10-15 minutos en coche. Esta guía te explica cómo empezar en el muay thai desde cero, qué material hace falta y qué preguntar en cualquier gimnasio de la zona antes de apuntarte.`,
+      'sant-pere-de-ribes': `Para entrenar muay thai desde Sant Pere de Ribes hay que salir de la comarca: en el Garraf no consta ningún centro que lo anuncie. Lo más parecido cerca es el K-1 y el kickboxing de Sitges y Vilanova i la Geltrú, a 10-15 minutos en coche. Esta guía te explica cómo empezar en el muay thai desde cero, qué material hace falta y qué preguntar en cualquier gimnasio de la zona antes de apuntarte.`,
     },
     'jiu-jitsu-brasileno': {
       'sitges': `El Brazilian Jiu Jitsu (BJJ) es el arte del suelo: control, palancas y estrangulamientos donde la técnica vence a la fuerza. Su comunidad crece cada año en Cataluña, también en el Garraf. Si buscas BJJ en Sitges, esta guía te explica cómo es una clase típica, qué significa "rollar", cuánto se tarda de verdad en progresar y cómo evaluar una academia.`,
@@ -478,13 +478,13 @@ function generateMoneyPage(combo: typeof MONEY_COMBOS[0]): PageDef {
     'taekwondo': {
       'sitges': `El taekwondo, deporte olímpico desde Seúl 1988, es el arte de las patadas: velocidad, flexibilidad y precisión. Si lo buscas en Sitges, para ti o para tus hijos, esta guía te explica desde qué edad empezar, la diferencia entre los enfoques olímpico (WT) y tradicional (ITF), y qué criterios usar para elegir escuela en la zona.`,
       'vilanova-i-la-geltru': `El taekwondo es una de las artes marciales más practicadas por niños en España, y Vilanova i la Geltrú, como capital de la comarca, es donde más fácil resulta encontrar grupos por edad y nivel. En esta guía te contamos qué aporta el taekwondo, cómo es la progresión de cinturones y qué preguntar antes de apuntarte o apuntar a tu hijo.`,
-      'sant-pere-de-ribes': `Si buscas taekwondo desde Sant Pere de Ribes, valora tanto la oferta deportiva municipal como los centros de Sitges y Vilanova, a 10-15 minutos en coche. Esta guía te explica los beneficios del taekwondo por edades y cómo reconocer una buena escuela, para que el desplazamiento, si lo hay, valga la pena.`,
-      'cubelles': `Para practicar taekwondo desde Cubelles, la referencia más cercana con oferta amplia es Vilanova i la Geltrú, a menos de 10 minutos. En esta guía te contamos desde qué edad tiene sentido empezar, qué aporta el taekwondo a niños y adultos y qué criterios usar al elegir escuela en la zona.`,
+      'sant-pere-de-ribes': `Si buscas taekwondo en Sant Pere de Ribes, no necesitas salir del municipio: es el que más clubs de taekwondo reúne en todo el Garraf. Esta guía te explica los beneficios del taekwondo por edades y cómo reconocer una buena escuela, para que elijas con criterio entre los que tienes cerca.`,
+      'cubelles': `Para practicar taekwondo en Cubelles no hace falta salir del municipio: los dos centros verificados lo enseñan, y Vilanova i la Geltrú queda a menos de 10 minutos si quieres comparar. En esta guía te contamos desde qué edad tiene sentido empezar, qué aporta el taekwondo a niños y adultos y qué criterios usar al elegir escuela en la zona.`,
     },
     'defensa-personal': {
       'sitges': `La defensa personal seria no es un cursillo de trucos: es un entrenamiento continuo de técnicas simples y funcionales, prevención y gestión del estrés. Si buscas defensa personal en Sitges, esta guía te explica qué debe incluir un buen programa, qué diferencias hay con disciplinas como el krav maga y qué preguntar antes de apuntarte en cualquier centro de la zona.`,
       'vilanova-i-la-geltru': `¿Defensa personal en Vilanova i la Geltrú? Antes de apuntarte a cualquier curso, conviene saber qué funciona de verdad: técnicas simples entrenadas bajo presión progresiva, trabajo de prevención y conciencia situacional, y un instructor con metodología clara. Esta guía te da los criterios para evaluar la oferta de la capital del Garraf con ojo crítico.`,
-      'sant-pere-de-ribes': `Si buscas defensa personal desde Sant Pere de Ribes, tienes a 10-15 minutos la oferta de Sitges y Vilanova. Esta guía te explica qué debe incluir un programa serio de defensa personal, cuántas sesiones hacen falta para interiorizar lo básico y qué señales distinguen la formación útil del marketing.`,
+      'sant-pere-de-ribes': `Si buscas defensa personal en Sant Pere de Ribes, hay centros que la anuncian dentro del municipio, y a 10-15 minutos tienes además la oferta de Sitges y Vilanova. Esta guía te explica qué debe incluir un programa serio de defensa personal, cuántas sesiones hacen falta para interiorizar lo básico y qué señales distinguen la formación útil del marketing.`,
       'cubelles': `Para formarte en defensa personal desde Cubelles, la opción más práctica es Vilanova i la Geltrú, a menos de 10 minutos. En esta guía te contamos qué técnicas funcionan en situaciones reales, qué esperar de las primeras sesiones y cómo evaluar la seriedad de cualquier programa antes de pagar una cuota.`,
     },
     'krav-maga': {
@@ -540,7 +540,7 @@ function generateMoneyPage(combo: typeof MONEY_COMBOS[0]): PageDef {
             'Garraf',
           ]),
       description: nCentros > 0
-        ? `${contarCentros(nCentros)} de ${dName.toLowerCase()} en ${mName} verificados con fuente pública: dónde están, qué preguntar antes de apuntarte y cómo es la primera clase.`
+        ? `${contarCentros(nCentros)} de ${dName.toLowerCase()} en ${mName} ${nCentros === 1 ? 'verificado' : 'verificados'} con fuente pública: ${nCentros === 1 ? 'dónde está' : 'dónde están'}, qué preguntar antes de apuntarte y cómo es la primera clase.`
         : `Ningún centro de ${mName} anuncia ${dName.toLowerCase()} hoy. Te decimos qué hay cerca, qué disciplina se le parece y con qué criterios elegir en el Garraf.`,
     },
     h1: `Clases de ${dTitle} en ${mName}`,
@@ -600,7 +600,9 @@ const HUB_DISCIPLINA_PAGES: PageDef[] = DISCIPLINES.map(d => ({
           'Guía Local',
         ]),
     description: getCentrosByDisciplina(d.slug).length > 0
-      ? `${contarCentros(getCentrosByDisciplina(d.slug).length)} de ${d.nameEs.toLowerCase()} en la comarca del Garraf verificados con fuente pública: en qué municipio está cada uno y para quién encaja.`
+      ? (getCentrosByDisciplina(d.slug).length === 1
+        ? `1 centro de ${d.nameEs.toLowerCase()} en la comarca del Garraf verificado con fuente pública: en qué municipio está y para quién encaja.`
+        : `${contarCentros(getCentrosByDisciplina(d.slug).length)} de ${d.nameEs.toLowerCase()} en la comarca del Garraf verificados con fuente pública: en qué municipio está cada uno y para quién encaja.`)
       : `Ningún centro del Garraf anuncia ${d.nameEs.toLowerCase()} con fuente pública verificable. Qué es, para quién encaja y qué disciplinas de la comarca se le parecen.`,
   },
   h1: `${d.nameEs} en el Garraf`,
@@ -676,7 +678,7 @@ const BLOG_PAGES: PageDef[] = [
       description: 'Qué es el grappling, en qué se diferencia del jiu-jitsu con kimono y del judo, y en cuántos centros del Garraf consta la palabra hoy.',
     },
     h1: 'Grappling en el Garraf: Qué Es y Dónde Consta',
-    intro: 'Lucha de agarre sin kimono: ni golpes ni tela de la que tirar. La palabra aparece en el horario de tres de los {{centros}} centros que constan en la comarca, y en ninguno como disciplina principal. Aquí va qué significa en cada caso y qué preguntar antes de apuntarte.',
+    intro: 'Lucha de agarre sin kimono: ni golpes ni tela de la que tirar. La palabra aparece en el horario de {{d:grappling}} de los {{centros}} centros que constan en la comarca, casi siempre junto al MMA o al jiu-jitsu. Aquí va qué significa en cada caso y qué preguntar antes de apuntarte.',
     body: BLOG_BODIES['blog/que-es-el-grappling-y-donde-se-practica'],
     fecha: '2026-09-25',
     phase: 2,

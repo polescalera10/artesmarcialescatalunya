@@ -40,7 +40,7 @@ export const LOCATIONS: Location[] = [
     comarca: 'Garraf',
     province: 'Barcelona',
     priority: 2,
-    desc: 'Sant Pere de Ribes incluye núcleos como Les Roquetes y Ribes. Aunque la oferta local es más limitada, Sitges y Vilanova i la Geltrú quedan a menos de 10-15 minutos en coche, con muchas más opciones para entrenar.',
+    desc: 'Sant Pere de Ribes incluye núcleos como Les Roquetes y Ribes. Tiene oferta propia, sobre todo de taekwondo, y para lo que no encuentres aquí, Sitges y Vilanova i la Geltrú quedan a 10-15 minutos en coche.',
     nearbyTowns: ['Les Roquetes', 'Olivella', 'Canyelles'],
   },
   {
@@ -60,7 +60,7 @@ export const LOCATIONS: Location[] = [
     comarca: 'Garraf',
     province: 'Barcelona',
     priority: 3,
-    desc: 'Canyelles es un municipio del interior del Garraf. Para entrenar artes marciales, la opción más habitual de sus vecinos es desplazarse a Vilanova i la Geltrú, a unos 15 minutos por la C-15.',
+    desc: 'Canyelles es un municipio del interior del Garraf. Tiene un club de taekwondo; para el resto de disciplinas, la opción más habitual de sus vecinos es desplazarse a Vilanova i la Geltrú, a unos 15 minutos por la C-15.',
     nearbyTowns: ['Olivella', 'Begues'],
   },
   {
