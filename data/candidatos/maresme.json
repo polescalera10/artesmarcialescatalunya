@@ -1,0 +1,98 @@
+[
+ {
+  "nombre": "Top King Training Center",
+  "municipio": "malgrat-de-mar",
+  "pista": "Directorios y cartel de eventos (Top King Series) en Carrer Germanes Torrell, 11",
+  "motivo": "No se ha localizado web oficial; ya figura en el directorio por federación (solo taekwondo), faltaría confirmar muay thai/BJJ/MMA"
+ },
+ {
+  "nombre": "Club Taekwondo Arenys de Mar",
+  "municipio": "arenys-de-mar",
+  "pista": "https://entitats.arenysdemar.cat/taekwondo",
+  "motivo": "La ficha municipal solo aporta el nombre y el ámbito deportivo, sin disciplina explícita; no se infiere por el nombre"
+ },
+ {
+  "nombre": "Wing Chun Mataró",
+  "municipio": "mataro",
+  "pista": "https://www.wingchunmataro.com/",
+  "motivo": "La web muestra 'Servicio suspendido'; sin fuente verificable activa"
+ },
+ {
+  "nombre": "IKM Krav Maga Mataró",
+  "municipio": "mataro",
+  "pista": "http://kravmagamataro.blogspot.com/",
+  "motivo": "Blog inactivo desde 2015; el Krav Maga actual consta en la web de Dojo Cervantes, que ya lo recoge"
+ },
+ {
+  "nombre": "Associació Cultural Aikido-Ku",
+  "municipio": "mataro",
+  "pista": "https://www.mataro.cat/ca/temes/esports/esport-federat/clubs (categoría Arts marcials; enlaza a Instagram ki_aikido_mataro)",
+  "motivo": "Solo perfil de Instagram no legible; el listado municipal no indica la disciplina"
+ },
+ {
+  "nombre": "Iluro Club Esportiu",
+  "municipio": "mataro",
+  "pista": "https://www.mataro.cat/ca/temes/esports/esport-federat/clubs (categoría Arts marcials)",
+  "motivo": "El listado municipal no indica disciplina ni web"
+ },
+ {
+  "nombre": "Bushido Jiu Jitsu",
+  "municipio": "canet-de-mar",
+  "pista": "Directorio espainfo.com (Canet de Mar)",
+  "motivo": "Sin web oficial encontrada"
+ },
+ {
+  "nombre": "Muay Thai Club Bangkok",
+  "municipio": "canet-de-mar",
+  "pista": "Directorio espainfo.com (Riera Gavarra 84, Canet de Mar)",
+  "motivo": "Sin web oficial encontrada"
+ },
+ {
+  "nombre": "Muay thai Arenys de Mar",
+  "municipio": "arenys-de-mar",
+  "pista": "Facebook: Muay-thai-Arenys-de-mar",
+  "motivo": "Solo Facebook, no verificado como fuente"
+ },
+ {
+  "nombre": "Combat Sambo Maresme / Meguro Vilassar",
+  "municipio": "vilassar-de-dalt",
+  "pista": "http://combatsambomaresme.blogspot.com/",
+  "motivo": "Blog sin actualizar desde 2012; sede en Vilassar de Dalt"
+ },
+ {
+  "nombre": "Club Kick Boxing Vilassar",
+  "municipio": "vilassar-de-dalt",
+  "pista": "https://entitats.cat/club-kick-boxing-vilassar",
+  "motivo": "Solo aparece en agregadores; sin web oficial"
+ },
+ {
+  "nombre": "Amma Mataró",
+  "municipio": "mataro",
+  "pista": "Directorio bjjhomeland.com (Méndez Núñez 27)",
+  "motivo": "Sin web oficial encontrada (BJJ, grappling, MMA, wrestling según agregador)"
+ },
+ {
+  "nombre": "Wons 2000",
+  "municipio": "mataro",
+  "pista": "Directorio de muay thai (Carrer Créteil 29)",
+  "motivo": "Sin web oficial ni disciplina verificable"
+ },
+ {
+  "nombre": "Siam Gym",
+  "municipio": "mataro",
+  "pista": "https://gimnasios.fitness/es/i/7750-siam-gym/",
+  "motivo": "Sin web oficial encontrada"
+ },
+ {
+  "nombre": "Fuji Sport Barcelona",
+  "municipio": "premia-de-mar",
+  "pista": "Resultado de ProntoPro (MMA Premià de Mar)",
+  "motivo": "Sin web oficial encontrada"
+ },
+ {
+  "nombre": "Shiawaneza Kazoku",
+  "municipio": "calella",
+  "pista": "https://www.calella.cat/ciutat/guia-del-municipi/entitats-i-associacions/asociacio-shiawaneza-kazoku.html",
+  "motivo": "La ficha municipal no indica ninguna disciplina"
+ }
+]

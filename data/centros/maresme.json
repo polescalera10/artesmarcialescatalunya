@@ -5,11 +5,19 @@
   "tipo": "escuela",
   "municipio": "mataro",
   "disciplinas": [
-   "karate"
+   "karate",
+   "krav-maga",
+   "boxeo"
   ],
+  "otras": [
+   "Karate Dento Shito-ryu"
+  ],
+  "infantil": true,
+  "direccion": "Ronda Francesc Macià, 1-3, 08302 Mataró",
+  "web": "https://www.dojokaratecervantes.es/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=20",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "afe-malgrat",
@@ -23,6 +31,38 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "aikido-mataro",
+  "nombre": "Aikido Mataró",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "aikido"
+  ],
+  "direccion": "Carrer de Sant Cugat, 142, 08302 Mataró (Poliesportiu Mpal Eusebi Millán)",
+  "web": "http://www.aikidomataro.com/",
+  "fuente": "http://www.aikidomataro.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "asociacion-de-artes-marciales-nihon-tai-jitsu-aspa",
+  "nombre": "Asociación de Artes Marciales Nihon Tai-Jitsu Aspa",
+  "tipo": "asociacion",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Nihon Tai-Jitsu",
+   "Defensa personal femenina"
+  ],
+  "direccion": "Flos i Calcat, 7 (2a planta) 08320 - El Masnou",
+  "fuente": "https://www.elmasnou.cat/guia-del-municipi/portal-entitats/asociacion-de-artes-marciales-nihon-tai-jitsu-aspa",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "asociacion-deportiva-jiu-jitsu-pretorians",
@@ -76,6 +116,44 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "atlas-mataro",
+  "nombre": "Atlas Mataró",
+  "tipo": "gimnasio",
+  "municipio": "mataro",
+  "disciplinas": [
+   "jiu-jitsu-brasileno",
+   "boxeo",
+   "kickboxing",
+   "mma"
+  ],
+  "infantil": true,
+  "direccion": "Carrer Sant Jordi 34, 08303 Mataró",
+  "web": "https://atlasmataro.com/",
+  "fuente": "https://atlasmataro.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "be-tryhard",
+  "nombre": "Be Tryhard",
+  "tipo": "gimnasio",
+  "municipio": "mataro",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "otras": [
+   "Combat Performance"
+  ],
+  "infantil": true,
+  "direccion": "RD. Mossen Jacint Verdaguer, 51, bajos 08304, Mataró",
+  "web": "https://betryhard.es/",
+  "fuente": "https://betryhard.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "cantos",
   "nombre": "Cantos",
   "tipo": "escuela",
@@ -126,6 +204,18 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-mataro",
+  "nombre": "Club Boxa Mataró",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://www.mataro.cat/ca/temes/esports/esport-federat/clubs",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-team-antoni-campoy",
@@ -351,12 +441,15 @@
   "tipo": "club",
   "municipio": "vilassar-de-mar",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "kickboxing",
+   "muay-thai"
   ],
   "direccion": "Avgda. Montevideo, 68, 08340 Vilassar de Mar",
+  "web": "https://www.gimnasfitsport.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-taekwondo-mes-tordera",
@@ -370,6 +463,25 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "costa-fit-calella",
+  "nombre": "Costa Fit Calella",
+  "tipo": "escuela",
+  "municipio": "calella",
+  "disciplinas": [
+   "muay-thai",
+   "boxeo",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Jiu Jitsu"
+  ],
+  "infantil": true,
+  "web": "https://costafitcalella.com/",
+  "fuente": "https://costafitcalella.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "crazy-jumpers",
@@ -391,12 +503,42 @@
   "tipo": "escuela",
   "municipio": "mataro",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "kickboxing",
+   "kali",
+   "defensa-personal"
   ],
+  "otras": [
+   "Jun Fan"
+  ],
+  "infantil": true,
   "direccion": "Josep Vicens Foix, 53, 08304 Mataro",
+  "web": "http://escuelatonbal.es/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "dojo-aitai",
+  "nombre": "Dojo Aitai",
+  "tipo": "escuela",
+  "municipio": "premia-de-mar",
+  "disciplinas": [
+   "aikido",
+   "karate",
+   "ninjutsu",
+   "tai-chi"
+  ],
+  "otras": [
+   "Karate Shotokan JKA",
+   "Budo Taijutsu Bujinkan"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Núria 6, Premià de Mar 08330, Barcelona",
+  "web": "https://aitai.es/",
+  "fuente": "https://aitai.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "esportiu-taekwondo-mataro",
@@ -432,10 +574,15 @@
   "disciplinas": [
    "grappling"
   ],
-  "direccion": "Av Joan Maragall 4 6",
+  "otras": [
+   "Jiu Jitsu (Gi y No Gi)"
+  ],
+  "infantil": true,
+  "direccion": "Avinguda Joan Maragall, 4-6, 08320 El Masnou",
+  "web": "https://grapplersparadise.es/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=PARADISE",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "hukutsu-dojo",
@@ -445,9 +592,10 @@
   "disciplinas": [
    "karate"
   ],
+  "web": "https://hukutsudojo.com/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "hwarang-mataro",
@@ -455,12 +603,34 @@
   "tipo": "escuela",
   "municipio": "mataro",
   "disciplinas": [
-   "taekwondo"
+   "taekwondo",
+   "grappling"
+  ],
+  "otras": [
+   "Jiu-Jitsu",
+   "Kajukenbo"
   ],
   "direccion": "Passatge l'Ymbern, 2 1º 2ª, 08302 Mataro",
+  "web": "https://www.hwarangmataro.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "janes-sport-gym",
+  "nombre": "Janes Sport",
+  "tipo": "gimnasio",
+  "municipio": "arenys-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "otras": [
+   "Jiujitsu"
+  ],
+  "direccion": "Carrer d'Avall, 14 local D",
+  "fuente": "https://arenysdemar.cat/fitxa.php?id=37792",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "joan-marc-barulls-puyal",
@@ -487,6 +657,39 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kung-fu-arenys",
+  "nombre": "Kung Fu Arenys",
+  "tipo": "escuela",
+  "municipio": "arenys-de-mar",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "otras": [
+   "Chi Kung",
+   "Kung fu Shaolin del Norte"
+  ],
+  "direccion": "Escola Sinera, Av. de Pau Costa, 73, 08350 Arenys de Mar",
+  "web": "https://www.kungfuarenys.com/",
+  "fuente": "https://www.kungfuarenys.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "lookprakarn",
+  "nombre": "Lookprakarn",
+  "tipo": "gimnasio",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Carrer de Josep Maria Folch i Torres, 25, 08380 Malgrat de Mar",
+  "web": "https://www.lookprakarn.com/",
+  "fuente": "https://www.lookprakarn.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "maresme-waves-dojo",
@@ -553,10 +756,12 @@
   "disciplinas": [
    "taekwondo"
   ],
+  "infantil": true,
   "direccion": "Gran Via de Lluís Companys, 182 Local, 08330 Premia de Mar",
+  "web": "https://tkdavellaneda.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-30"
  },
  {
   "slug": "tkd-palafolls-escola-juls",
