@@ -1,0 +1,32 @@
+[
+ {
+  "nombre": "Academia Artes Marciales Gaston",
+  "municipio": "cambrils",
+  "pista": "Aparece solo en listados de ProntoPro (judo, karate, jiu-jitsu, krav maga)",
+  "motivo": "Sin web propia ni ficha en directorio municipal; fuente no válida"
+ },
+ {
+  "nombre": "Amics de Riudoms",
+  "municipio": "riudoms",
+  "pista": "http://www.entitatsderiudoms.cat/esportives (dice que promociona el judo entre otros deportes; su web amicsderiudoms.cat da 404)",
+  "motivo": "El directorio municipal no anuncia el judo como clase propia y la web no responde"
+ },
+ {
+  "nombre": "Club de Muaythai i Boxa Cambrils",
+  "municipio": "cambrils",
+  "pista": "https://www.instagram.com/muaythaiiboxacambrils/ (la web sombaixcamp.cat que lo listaba ya no responde)",
+  "motivo": "Solo Instagram/Facebook; sin web propia ni directorio municipal accesible"
+ },
+ {
+  "nombre": "Reinaldo Ribeiro Team BJJ Reus",
+  "municipio": "reus",
+  "pista": "Aparece en búsquedas como sede en Reus (BJJ y judo); el dominio reinaldoribeiroteam.com sirve contenido de spam",
+  "motivo": "Web oficial comprometida o inaccesible; sin otra fuente válida"
+ },
+ {
+  "nombre": "Reus Fight Club",
+  "municipio": "reus",
+  "pista": "https://www.instagram.com/reusfightclub/ (Av. del President Companys, 6; K1, boxeo y muay thai según agregadores)",
+  "motivo": "Solo Instagram; sin web propia ni directorio municipal"
+ }
+]
