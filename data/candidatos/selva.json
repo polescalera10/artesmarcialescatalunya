@@ -1,0 +1,56 @@
+[
+ {
+  "nombre": "Brave Coast Martial Arts",
+  "municipio": "blanes",
+  "pista": "Ctra. de Malgrat, 22, Blanes; resultados de búsqueda citan muay thai, BJJ, boxeo, kickboxing, taekwondo y MMA (bravecoastgroup.com/martial_arts/)",
+  "motivo": "La web oficial devuelve 503 y tiene el certificado caducado; no se ha podido leer la oferta"
+ },
+ {
+  "nombre": "Alpha Gym Breda",
+  "municipio": "breda",
+  "pista": "https://alphagymbreda.com/ (Polígon Can Guilleumes, Breda); snippets indican clases de kick-boxing/boxeo para niños y adultos",
+  "motivo": "La web responde 200 pero con el cuerpo vacío; sin fuente legible"
+ },
+ {
+  "nombre": "ZADIK",
+  "municipio": "santa-coloma-de-farners",
+  "pista": "Foro de artes marciales (hispagimnasios.com, Mapa Nacional de Foreros Marciales): muay thai, kickboxing, Sin Moo Hapkido y taekwondo ITF",
+  "motivo": "No se ha localizado web oficial ni ficha municipal; solo una fuente de foro"
+ },
+ {
+  "nombre": "Buhda Gym",
+  "municipio": "lloret-de-mar",
+  "pista": "Avinguda Vila de Blanes, 10; Instagram y Facebook @buhdagymlloret; agregadores citan BJJ y muay thai",
+  "motivo": "Sin web propia; solo redes y agregadores"
+ },
+ {
+  "nombre": "Club Esportiu Satori",
+  "municipio": "santa-coloma-de-farners",
+  "pista": "Página de Facebook en los resultados de búsqueda de artes marciales en Santa Coloma de Farners",
+  "motivo": "No se ha podido leer la página ni consta la disciplina"
+ },
+ {
+  "nombre": "Associació de Tai-chi de Lloret de Mar",
+  "municipio": "lloret-de-mar",
+  "pista": "Listado de entidades deportivas de lloret.cat (página 1)",
+  "motivo": "La ficha municipal solo aporta el nombre, sin descripción; no se infiere la disciplina por el nombre"
+ },
+ {
+  "nombre": "Associació Simplesmente Capoeira Catalunya",
+  "municipio": "macanet-de-la-selva",
+  "pista": "https://www.xn--maanetdelaselva-fmb.cat/entitats",
+  "motivo": "La ficha municipal solo da el nombre y un contacto; sin descripción de clases ni dirección"
+ },
+ {
+  "nombre": "Dojo Umiten (web oficial)",
+  "municipio": "hostalric",
+  "pista": "https://dojoumiten.com/ (la ficha existente de DOJO UMITEN Hostalric procede de la federación)",
+  "motivo": "La web responde 200 pero con el cuerpo vacío; no se añade como web hasta poder leerla"
+ },
+ {
+  "nombre": "Club de la Lluita BJJ Blanes (filial Brazilian Top Team)",
+  "municipio": "blanes",
+  "pista": "http://braziliantopteamblanes.blogspot.com/ y fightsol.com (inauguración en 2007, Avda. dels Pavos)",
+  "motivo": "Información de 2007; no consta que siga activo (posible antecedente del Club Esportiu Jiu-Jitsu Brasiler Blanes)"
+ }
+]

@@ -1,5 +1,33 @@
 [
  {
+  "slug": "associacio-aikido-escola-yoshinkan-blanes",
+  "nombre": "Associació d'Aikido Escola Yoshinkan de Blanes",
+  "tipo": "asociacion",
+  "municipio": "blanes",
+  "disciplinas": [
+   "aikido"
+  ],
+  "otras": [
+   "Budo Taijutsu"
+  ],
+  "direccion": "C. Mas Cuní, 43, 17310 Blanes",
+  "fuente": "https://www.blanes.cat/entitat/aikido-yoshinkan",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "associacio-karate-la-selva-blanes",
+  "nombre": "Associació de Karate La Selva",
+  "tipo": "asociacion",
+  "municipio": "blanes",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://www.blanes.cat/entitat/karate-laselva",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "c-e-thunders-girona",
   "nombre": "C. E. Thunders Girona",
   "tipo": "escuela",
@@ -36,10 +64,24 @@
    "judo"
   ],
   "direccion": "C/ Dels mestres, s/n, LLORET DE MAR",
-  "web": "https://www.facebook.com/profile.php?id=100063667834373",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "centro-cultural-senzala-capoeira-blanes",
+  "nombre": "Centro Cultural Senzala de Capoeira i Dansa Costa Brava",
+  "tipo": "asociacion",
+  "municipio": "blanes",
+  "disciplinas": [
+   "capoeira"
+  ],
+  "otras": [
+   "Dansa brasilera"
+  ],
+  "fuente": "https://www.blanes.cat/entitat/capoeira-dansa",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-boxa-blanes",
@@ -76,10 +118,79 @@
    "jiu-jitsu-japones"
   ],
   "direccion": "C/ Mas Cuni, 43, BLANES",
-  "web": "http://www.facebook.com/club-judo-blanes",
+  "web": "http://clubjudoblanes.blogspot.com/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "lendinez-gym-blanes",
+  "nombre": "Club de Kenpo-Karate Lendinez Gym Blanes",
+  "tipo": "club",
+  "municipio": "blanes",
+  "disciplinas": [
+   "karate",
+   "kickboxing",
+   "boxeo",
+   "muay-thai",
+   "defensa-personal",
+   "kobudo"
+  ],
+  "otras": [
+   "Fu-Shih Kenpo",
+   "Full contact",
+   "K-1",
+   "Defensa operativa policial"
+  ],
+  "infantil": true,
+  "web": "http://escueladekenpo-karatelendinezgym.blogspot.com/",
+  "fuente": "http://escueladekenpo-karatelendinezgym.blogspot.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-esportiu-autodefensa-marga-lloret",
+  "nombre": "Club Esportiu Autodefensa Marga Lloret",
+  "tipo": "club",
+  "municipio": "lloret-de-mar",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai",
+   "defensa-personal"
+  ],
+  "fuente": "https://www.lloret.cat/ca/seccions/participacio-ciutadana/associacions-i-clubs/entitats?entitat=esport&b_start%3Aint=20",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-esportiu-jiu-jitsu-brasiler-blanes",
+  "nombre": "Club Esportiu Jiu-Jitsu Brasiler Blanes",
+  "tipo": "club",
+  "municipio": "blanes",
+  "disciplinas": [
+   "jiu-jitsu-brasileno"
+  ],
+  "fuente": "https://www.blanes.cat/entitat/jiu-jitsu-brasiler",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-esportiu-k-1-blanes",
+  "nombre": "Club Esportiu K-1 Blanes",
+  "tipo": "club",
+  "municipio": "blanes",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "otras": [
+   "Regles K-1"
+  ],
+  "direccion": "Carrer Mas Cuní, 43, 17300 Blanes",
+  "fuente": "https://www.blanes.cat/entitat/k1",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-kenpo-karate-blanes",
@@ -99,14 +210,16 @@
   "tipo": "club",
   "municipio": "lloret-de-mar",
   "disciplinas": [
+   "judo",
    "lucha",
    "grappling",
    "mma"
   ],
   "direccion": "Travesera de les tres creus, 10",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=NOV",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "web": "https://judonovaunio.blogspot.com/",
+  "fuente": "https://judonovaunio.blogspot.com/p/informacion-general.html",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-esportiu-sils",
@@ -120,6 +233,25 @@
   "fuente": "https://fedecatjudo.cat/jiu-jitsu/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-jiujitsu-blanes",
+  "nombre": "Club Jiujitsu Blanes",
+  "tipo": "club",
+  "municipio": "blanes",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "otras": [
+   "Jiu-jitsu",
+   "Kyusho"
+  ],
+  "infantil": true,
+  "direccion": "Carrer Mas Cuní, 43, 17300 Blanes, Girona",
+  "web": "https://jiujitsublanes.wordpress.com/",
+  "fuente": "https://jiujitsublanes.wordpress.com/localizacion/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "club-judo-arbucies",
@@ -145,7 +277,6 @@
    "defensa-personal"
   ],
   "direccion": "Avinguda salvador espriu, s/n, SANTA COLOMA DE FARNERS",
-  "web": "https://es-es.facebook.com/pages/category/Sports-Club/Club-Judo-Ippon-Farners-697084510338714/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -175,16 +306,31 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-taekwondo-juls-blanes",
+  "nombre": "Club Taekwondo Juls Blanes",
+  "tipo": "club",
+  "municipio": "blanes",
+  "disciplinas": [
+   "taekwondo",
+   "hapkido"
+  ],
+  "direccion": "Mas Cuní, 43, 17300 Blanes",
+  "fuente": "https://www.blanes.cat/entitat/taekwondo-juls",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "club-taijitsu-lloret-de-mar",
   "nombre": "Club Taijitsu Lloret de Mar",
   "tipo": "club",
   "municipio": "lloret-de-mar",
   "disciplinas": [
-   "karate"
+   "jiu-jitsu-japones",
+   "kobudo"
   ],
-  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=11",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "fuente": "https://www.lloret.cat/ca/seccions/participacio-ciutadana/associacions-i-clubs/entitats?entitat=esport&b_start%3Aint=40",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "dojo-umiten-hostalric",
@@ -200,17 +346,43 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "doragon-santa-coloma-de-farners",
+  "nombre": "Doragon Santa Coloma de Farners",
+  "tipo": "escuela",
+  "municipio": "santa-coloma-de-farners",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal",
+   "taekwondo"
+  ],
+  "otras": [
+   "Rengokai",
+   "Full contact"
+  ],
+  "infantil": true,
+  "direccion": "Carrer Girona, 8, Santa Coloma de Farners",
+  "web": "https://www.dojodoragon.com/",
+  "fuente": "https://www.dojodoragon.com/doragon-santa-coloma-de-farners",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "esportiu-de-boxa-lloret-team-albino",
   "nombre": "Esportiu de Boxa Lloret Team Albino",
   "tipo": "escuela",
   "municipio": "lloret-de-mar",
   "disciplinas": [
-   "kickboxing"
+   "boxeo",
+   "kickboxing",
+   "muay-thai",
+   "defensa-personal"
   ],
-  "direccion": "Carrer Corsega Nº36, Lloret de Mar–girona",
-  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "infantil": true,
+  "direccion": "Pavelló Municipal d'Esports, Carrer dels Mestres, s/n, 17310 Lloret de Mar",
+  "web": "https://teamalbino.com/",
+  "fuente": "https://teamalbino.com/entreno-ninos-adultos-y-profesionales/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "hafc",
@@ -235,7 +407,6 @@
    "defensa-personal"
   ],
   "direccion": "C/ Dels mestres, s/n. Lloret de Mar",
-  "web": "https://www.facebook.com/people/Judo-JEC-Lloret-Judo-Esport-Club-Lloret/100063667834373/",
   "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -251,6 +422,28 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=6",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "musashi-dojo",
+  "nombre": "Musashi Dojo",
+  "tipo": "escuela",
+  "municipio": "sant-hilari-sacalm",
+  "disciplinas": [
+   "kendo",
+   "jiu-jitsu-japones",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Niten Ichi Ryu Kenjutsu",
+   "Iaido",
+   "Hanbojutsu",
+   "Goshinjutsu"
+  ],
+  "direccion": "Plaça Dr. Robert, s/n (Sala Noble), 17403 Sant Hilari Sacalm",
+  "web": "https://www.musashidojo.com/",
+  "fuente": "https://www.musashidojo.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  },
  {
   "slug": "new-age-lloret",
@@ -290,6 +483,43 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "spai-sport-wellness-padel",
+  "nombre": "Spai Sport Wellness & Pàdel",
+  "tipo": "gimnasio",
+  "municipio": "caldes-de-malavella",
+  "disciplinas": [
+   "kickboxing",
+   "taekwondo"
+  ],
+  "otras": [
+   "Jiu-jitsu"
+  ],
+  "infantil": true,
+  "direccion": "C/Sant Sebastià, 41, 17455 Caldes de Malavella",
+  "web": "https://www.spaisport.com/",
+  "fuente": "https://www.spaisport.com/arts-marcials/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
+  "slug": "tam-taekwon-do-asociacion-marcial-blanes",
+  "nombre": "T.A.M. Taekwon-Do Asociación Marcial",
+  "tipo": "asociacion",
+  "municipio": "blanes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "otras": [
+   "Taekwon-Do ITF"
+  ],
+  "infantil": true,
+  "direccion": "C/ Mas Cuní, 43, 17300 Blanes, Girona",
+  "web": "https://www.tkd-tradicional.com/",
+  "fuente": "https://www.tkd-tradicional.com/p/centros.html",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "taekwondo-chaos-i-feelfitnes-flow",
   "nombre": "Taekwondo Chaos i Feelfitnes&flow",
   "tipo": "escuela",
@@ -306,13 +536,15 @@
   "slug": "tkd-vidreres",
   "nombre": "TKD Vidreres",
   "tipo": "escuela",
-  "municipio": "lloret-de-mar",
+  "municipio": "vidreres",
   "disciplinas": [
    "taekwondo"
   ],
-  "direccion": "C/. Can Guidet, 9 Local 4, 17310 Lloret de Mar",
-  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "infantil": true,
+  "direccion": "Pavelló d'Esports Municipal, Ctra. Lloret de Mar, s/n, 17411 Vidreres",
+  "web": "https://www.tkdvidreres.com/es",
+  "fuente": "https://www.tkdvidreres.com/es/club",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-09-30"
  }
 ]
