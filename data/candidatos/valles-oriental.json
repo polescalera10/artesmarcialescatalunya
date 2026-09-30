@@ -1,0 +1,98 @@
+[
+ {
+  "nombre": "Club Boxa Olímpics Granollers",
+  "municipio": "granollers",
+  "pista": "https://www.granollers.cat/adreces/esportives/club-boxa-olimpics-granollers (ficha del directorio municipal, C/ Céllecs 1)",
+  "motivo": "La ficha municipal solo contiene el nombre, sin descripción de disciplinas ni web; no figura en el listado de clubs afiliados 2024/25 de fcboxa.cat"
+ },
+ {
+  "nombre": "Associació Taekwondo Sant Celoni",
+  "municipio": "sant-celoni",
+  "pista": "https://santceloni.cat/fitxes.php?categoria=145 (entitats esportives de Sant Celoni)",
+  "motivo": "El directorio municipal solo da el nombre (sin descripción, dirección ni web); la disciplina solo se deduciría del nombre"
+ },
+ {
+  "nombre": "Old School Boxing",
+  "municipio": "sant-celoni",
+  "pista": "Carrer Germà Emilià 4; agregadores lo citan con boxeo, kickboxing, muay thai y krav maga; perfil de Facebook",
+  "motivo": "Sin web oficial; solo agregadores y Facebook (no legible)"
+ },
+ {
+  "nombre": "Ares Arena (Mollet)",
+  "municipio": "mollet-del-valles",
+  "pista": "C/ Can Flequer 6-8 (Iron Project/Pantiquet); agregadores: boxeo, K1, MMA, kyokushin, muay thai; Facebook aresarenagym",
+  "motivo": "El dominio aresarena.com ahora pertenece a otra empresa (natación) y no hay web propia vigente; posible relación con la ficha existente 'Esportiu Ares Arena' (Sant Fost, federación)"
+ },
+ {
+  "nombre": "Blood Brothers Mollet / Aranha Mollet BJJ",
+  "municipio": "mollet-del-valles",
+  "pista": "C/ Alexander Fleming 59; Facebook AranhaMolletBJJ",
+  "motivo": "Sin web oficial propia accesible; solo Facebook y agregadores"
+ },
+ {
+  "nombre": "Blood Brothers Granollers",
+  "municipio": "granollers",
+  "pista": "Carrer Londres 11-13 (instalaciones de Ranxo CrossFit); Instagram bloodbrothersgranollers",
+  "motivo": "Sin web oficial; solo redes sociales (no legibles)"
+ },
+ {
+  "nombre": "Kaluosi Sport Club",
+  "municipio": "mollet-del-valles",
+  "pista": "C/ Alexander Fleming 33; agregadores lo listan con wushu, kung fu, jiu jitsu, taekwondo, boxeo, kickboxing, MMA y krav maga",
+  "motivo": "Ya existe como 'Club Boxa Kaluosi Fight' (federación de boxeo); no se encontró web oficial que permita confirmar el resto de disciplinas"
+ },
+ {
+  "nombre": "Pain & Gain Gym Granollers",
+  "municipio": "granollers",
+  "pista": "C/ Aragó 47; Facebook paingaingym; agregadores: boxeo, K1, krav maga",
+  "motivo": "Sin web oficial; solo Facebook y agregadores"
+ },
+ {
+  "nombre": "Krav Maga Granollers (Krav360)",
+  "municipio": "granollers",
+  "pista": "Facebook kravmagagranollers y canal de YouTube; aparece vinculado a krav360.com",
+  "motivo": "No se ha verificado en la web de Krav360 que exista un centro en Granollers; solo redes sociales"
+ },
+ {
+  "nombre": "CNAM Fitness & Sport Artes Marciales",
+  "municipio": "les-franqueses-del-valles",
+  "pista": "https://artsmarcialscn.wixsite.com/cnam (Llerona, C/ Via Europa esq. C/ Alemania; krav maga, boxeo, defensa personal)",
+  "motivo": "La web tiene contenido de 2018 y restos de plantilla Wix; no se puede confirmar que la actividad siga vigente"
+ },
+ {
+  "nombre": "Gym MGV Llinars",
+  "municipio": "llinars-del-valles",
+  "pista": "Agregador badgie.com (escuela de karate con BJJ y krav maga) y Facebook",
+  "motivo": "La cuenta de su software de gestión está dada de baja y no hay web oficial"
+ },
+ {
+  "nombre": "Maan Mat Wing Chun Parets",
+  "municipio": "parets-del-valles",
+  "pista": "C/ Vapor 17; web maanmatkwoon.com",
+  "motivo": "El dominio no responde"
+ },
+ {
+  "nombre": "MONT-GIMNAS",
+  "municipio": "montornes-del-valles",
+  "pista": "C/ Sol 1; guía comercial: fitness, taekwondo y artes marciales",
+  "motivo": "Sin web oficial; fuente solo de directorio comercial"
+ },
+ {
+  "nombre": "Gimnàs Pantiquet (Muay Thai y Jiu Jitsu)",
+  "municipio": "mollet-del-valles",
+  "pista": "C/ Can Flequer 6-8; gimnaspantiquet.com lo anuncia con muay thai y jiu jitsu",
+  "motivo": "La web gimnaspantiquet.com no responde; la web de Iron Project Sport Club (ironprojectmollet.com) no menciona artes marciales"
+ },
+ {
+  "nombre": "Tenkan Dojo",
+  "municipio": "granollers",
+  "pista": "https://www.tenkandojo.org (aikijujutsu, iaijutsu)",
+  "motivo": "La web no responde; según lo publicado en buscadores habían suspendido la actividad y buscaban local"
+ },
+ {
+  "nombre": "Hansu Escola Taekwondo i Jiu Jitsu (jiu-jitsu)",
+  "municipio": "mollet-del-valles",
+  "pista": "Facebook HansuEscolaTaekwondoiJiuJitsu; Avda. Burgos 63",
+  "motivo": "Ya está como 'Escola TKD Hansu' (solo taekwondo, federación). El dominio hansu.es ahora es una tienda de ropa, así que no se puede confirmar el jiu-jitsu desde una web propia"
+ }
+]
