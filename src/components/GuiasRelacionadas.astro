@@ -1,0 +1,71 @@
+---
+// Hasta 3 guías del blog que ayudan a decidir en esa página: primero la de
+// niños de la comarca (si existe), luego las de la disciplina y, de relleno,
+// las generales. El blog solo existe en castellano: en catalán no se pinta.
+// Un slug que no exista rompe el build (mejor que un enlace roto).
+import { url, type Lang } from '../lib/i18n';
+import { articulos } from '../lib/blog';
+
+interface Props {
+  lang: Lang;
+  disciplinas?: string[];
+  comarca?: string;
+  /** Página orientada a niños: prioriza las guías infantiles */
+  infantil?: boolean;
+  titulo?: string;
+}
+const { lang, disciplinas = [], comarca, infantil = false, titulo = 'Guías para decidir' } = Astro.props;
+
+const POR_DISCIPLINA: Record<string, string[]> = {
+  boxeo: ['como-empezar-en-boxeo', 'boxeo-o-kickboxing', 'fitboxing-o-boxeo'],
+  kickboxing: ['boxeo-o-kickboxing', 'muay-thai-o-kickboxing'],
+  'muay-thai': ['muay-thai-o-kickboxing'],
+  mma: ['golpeo-o-agarre-por-donde-empezar'],
+  judo: ['judo-o-jiu-jitsu-brasileno', 'karate-o-judo-para-ninos'],
+  'jiu-jitsu-brasileno': ['judo-o-jiu-jitsu-brasileno', 'que-es-el-grappling-y-donde-se-practica'],
+  grappling: ['que-es-el-grappling-y-donde-se-practica', 'judo-o-jiu-jitsu-brasileno'],
+  lucha: ['golpeo-o-agarre-por-donde-empezar'],
+  karate: ['karate-o-judo-para-ninos', 'karate-o-taekwondo-para-ninos'],
+  taekwondo: ['karate-o-taekwondo-para-ninos'],
+  'defensa-personal': ['defensa-personal-para-mujeres', 'krav-maga-o-defensa-personal', 'cursos-defensa-personal-fin-de-semana'],
+  'krav-maga': ['krav-maga-o-defensa-personal', 'defensa-personal-para-mujeres'],
+};
+const NINOS_COMARCA: Record<string, string> = {
+  barcelones: 'artes-marciales-para-ninos-en-barcelona',
+  'baix-llobregat': 'artes-marciales-para-ninos-en-el-baix-llobregat',
+  'valles-occidental': 'artes-marciales-para-ninos-en-el-valles-occidental',
+  'valles-oriental': 'artes-marciales-para-ninos-en-el-valles-oriental',
+};
+const GENERALES = infantil
+  ? ['mejor-arte-marcial-para-ninos', 'a-que-edad-empezar-artes-marciales', 'clase-de-prueba-que-preguntar']
+  : ['clase-de-prueba-que-preguntar', 'como-elegir-centro-artes-marciales', 'artes-marciales-adultos-principiantes'];
+
+const slugs = [...new Set([
+  ...(comarca && NINOS_COMARCA[comarca] && (infantil || !disciplinas.length) ? [NINOS_COMARCA[comarca]] : []),
+  ...disciplinas.flatMap(d => POR_DISCIPLINA[d] ?? []),
+  ...GENERALES,
+])].slice(0, 3);
+
+const todos = lang === 'es' ? await articulos() : [];
+const guias = slugs.map(s => {
+  const a = todos.find(x => x.slug === s);
+  if (lang === 'es' && !a) throw new Error(`GuiasRelacionadas: no existe el artículo ${s}`);
+  return a!;
+}).filter(Boolean);
+---
+
+{guias.length > 0 && (
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <h2 class="text-lg font-bold text-white mb-3">{titulo}</h2>
+    <ul class="grid md:grid-cols-3 gap-4">
+      {guias.map(g => (
+        <li>
+          <a href={url.post(g.slug)} class="block h-full bg-brand-gray border border-brand-border rounded-xl p-4 hover:border-brand-red/40 transition-colors">
+            <span class="block font-semibold text-white leading-snug">{g.titulo}</span>
+            <span class="block text-sm text-brand-muted mt-1.5 line-clamp-2">{g.descripcion}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

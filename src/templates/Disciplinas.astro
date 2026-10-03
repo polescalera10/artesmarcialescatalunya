@@ -5,7 +5,9 @@ import Footer from '../components/Footer.astro';
 import Migas from '../components/Migas.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { L, url, type Lang } from '../lib/i18n';
-import { centrosConDisciplina } from '../lib/centros';
+import { centrosConDisciplina, verificados } from '../lib/centros';
+import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
+import { PERFIL_COMPARATIVO } from '../legacy/disciplines';
 import { getDisciplina, GRUPOS, type Disciplina } from '../lib/disciplinas';
 import { rutasDisciplina } from '../lib/rutas';
 import { SITE, SCHEMA_IDS } from '../lib/site';
@@ -16,6 +18,10 @@ const disciplinas = rutasDisciplina().map(r => getDisciplina(r.disciplina)!);
 const grupos = (Object.keys(GRUPOS) as Disciplina['grupo'][])
   .map(g => ({ g, ds: disciplinas.filter(d => d.grupo === g) }))
   .filter(x => x.ds.length);
+
+// Comparador (solo castellano: los perfiles vienen del sitio del Garraf).
+const comparables = lang === 'es' ? disciplinas.filter(d => PERFIL_COMPARATIVO[d.slug]) : [];
+const COLOR = { Bajo: 'text-emerald-300', Medio: 'text-amber-300', Alto: 'text-red-300' } as const;
 
 const title = L(lang, 'Disciplinas de artes marciales en Cataluña', "Disciplines d'arts marcials a Catalunya");
 const description = L(lang,
@@ -43,6 +49,7 @@ const schema = {
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{title}</h1>
       <p class="text-lg text-brand-muted mt-4 max-w-3xl">
         {L(lang, 'Elige una disciplina para ver en qué comarcas y municipios hay centros que la anuncian.', 'Tria una disciplina per veure a quines comarques i municipis hi ha centres que l’anuncien.')}
+        {comparables.length > 0 && <a href="#comparar" class="text-brand-red hover:text-red-400 whitespace-nowrap"> ¿No sabes cuál? Compáralas ↓</a>}
       </p>
     </section>
     {grupos.map(({ g, ds }) => (
@@ -53,13 +60,52 @@ const schema = {
             <li>
               <a href={url.disciplina(lang, d.slug)} class="flex justify-between items-center gap-2 bg-brand-gray border border-brand-border rounded-lg px-4 py-3 hover:border-brand-red/40">
                 <span class="text-white font-medium">{d[lang]}</span>
-                <span class="text-brand-muted text-sm">{centrosConDisciplina(d.slug).length}</span>
+                <span class="text-brand-muted text-sm">{verificados(centrosConDisciplina(d.slug)).length}</span>
               </a>
             </li>
           ))}
         </ul>
       </section>
     ))}
+
+    {comparables.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" id="comparar">
+        <h2 class="text-2xl font-bold text-white">¿No sabes cuál elegir?</h2>
+        <p class="text-brand-muted mt-2 max-w-3xl">Lo habitual en cada disciplina al empezar: cuánto contacto hay, desde qué edad suele haber grupo y qué papel tiene la competición. Cada centro lo adapta, así que pregúntalo en la clase de prueba.</p>
+        <div class="hidden md:block mt-5 overflow-x-auto border border-brand-border rounded-xl">
+          <table class="w-full text-sm">
+            <thead class="bg-brand-gray text-left text-xs uppercase tracking-wide text-brand-muted">
+              <tr><th class="px-4 py-3">Disciplina</th><th class="px-4 py-3">Qué se hace</th><th class="px-4 py-3">Contacto al empezar</th><th class="px-4 py-3">Edad de entrada</th><th class="px-4 py-3">Competición</th></tr>
+            </thead>
+            <tbody class="divide-y divide-brand-border">
+              {comparables.map(d => { const p = PERFIL_COMPARATIVO[d.slug]; return (
+                <tr class="align-top hover:bg-brand-gray/60">
+                  <td class="px-4 py-3"><a href={url.disciplina('es', d.slug)} class="font-semibold text-white hover:text-brand-red">{d.es}</a></td>
+                  <td class="px-4 py-3 text-brand-muted">{p.enfoque}</td>
+                  <td class:list={['px-4 py-3 font-semibold', COLOR[p.contacto]]}>{p.contacto}</td>
+                  <td class="px-4 py-3 text-brand-muted">{p.edad}</td>
+                  <td class="px-4 py-3 text-brand-muted">{p.competicion}</td>
+                </tr>
+              ); })}
+            </tbody>
+          </table>
+        </div>
+        <ul class="md:hidden mt-5 space-y-3">
+          {comparables.map(d => { const p = PERFIL_COMPARATIVO[d.slug]; return (
+            <li class="bg-brand-gray border border-brand-border rounded-xl p-4">
+              <div class="flex items-baseline justify-between gap-3">
+                <a href={url.disciplina('es', d.slug)} class="font-semibold text-white">{d.es} →</a>
+                <span class:list={['text-xs font-semibold', COLOR[p.contacto]]}>Contacto {p.contacto.toLowerCase()}</span>
+              </div>
+              <p class="text-sm text-brand-muted mt-1">{p.enfoque}</p>
+              <p class="text-xs text-brand-muted mt-2">{p.edad}</p>
+            </li>
+          ); })}
+        </ul>
+      </section>
+    )}
+
+    <GuiasRelacionadas lang={lang} disciplinas={[]} titulo="Para elegir con criterio" />
     <ParaCentrosCTA lang={lang} />
   </main>
   <Footer lang={lang} />

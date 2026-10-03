@@ -376,6 +376,36 @@
       "source": "/ca/centres/club-chunkwon/",
       "destination": "/ca/centres/sfc-sabadell-fight-club/",
       "permanent": true
+    },
+    {
+      "source": "/centros/judo-club-sant-feliu/",
+      "destination": "/centros/c-e-judo-sant-feliu/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/judo-club-sant-feliu/",
+      "destination": "/ca/centres/c-e-judo-sant-feliu/",
+      "permanent": true
+    },
+    {
+      "source": "/centros/club-de-judo-pineda-de-mar/",
+      "destination": "/centros/club-judo-pineda-de-mar/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/club-de-judo-pineda-de-mar/",
+      "destination": "/ca/centres/club-judo-pineda-de-mar/",
+      "permanent": true
+    },
+    {
+      "source": "/centros/club-judo-badia/",
+      "destination": "/centros/club-de-judo-badia/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/club-judo-badia/",
+      "destination": "/ca/centres/club-de-judo-badia/",
+      "permanent": true
     }
   ]
 }

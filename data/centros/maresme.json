@@ -83,7 +83,7 @@
    "judo",
    "aikido"
   ],
-  "direccion": "C/ Sant Josep, 17, 1er, VILASSAR DE MAR",
+  "direccion": "C/ Sant Josep, 17, 1er, Vilassar de Mar",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -449,7 +449,7 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "C/ Puig Oriol, 68-84, TEIÀ",
+  "direccion": "C/ Puig Oriol, 68-84, Teià",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -465,21 +465,6 @@
   "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07023",
   "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
- },
- {
-  "slug": "club-de-judo-pineda-de-mar",
-  "nombre": "Club de Judo Pineda de Mar",
-  "tipo": "club",
-  "municipio": "pineda-de-mar",
-  "disciplinas": [
-   "defensa-personal",
-   "jiu-jitsu-japones"
-  ],
-  "direccion": "c/Montpalau nº 16, PINEDA DE MAR",
-  "web": "https://es-es.facebook.com/pages/category/Amateur-Sports-Team/CLUB-DE-JUDO-PINEDA-DE-MAR-113820458644776/",
-  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
  },
  {
   "slug": "club-deportivo-black-thai-team-chacon",
@@ -951,9 +936,11 @@
   "municipio": "pineda-de-mar",
   "disciplinas": [
    "judo",
-   "aikido"
+   "aikido",
+   "defensa-personal",
+   "jiu-jitsu-japones"
   ],
-  "direccion": "Montpalau, 16, PINEDA DE MAR",
+  "direccion": "Montpalau, 16, Pineda de Mar",
   "web": "https://es-es.facebook.com/pages/category/Amateur-Sports-Team/CLUB-DE-JUDO-PINEDA-DE-MAR-113820458644776/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",

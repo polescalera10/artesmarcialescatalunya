@@ -8,6 +8,7 @@ import Footer from '../components/Footer.astro';
 import Migas from '../components/Migas.astro';
 import CentroCard from '../components/CentroCard.astro';
 import Formulario from '../components/Formulario.astro';
+import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import { L, url, lista, titulo, descripcion, fecha, type Lang } from '../lib/i18n';
 import { getCentro, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
@@ -213,7 +214,7 @@ const schema = [
         </section>
         <div class="border border-brand-border rounded-xl p-4 flex items-center justify-between gap-3">
           <p class="text-sm text-brand-muted"><span class="block font-semibold text-white">{L(lang, '¿Es tu centro?', 'És el teu centre?')}</span>{L(lang, 'Corrige o completa la ficha gratis.', 'Corregeix o completa la fitxa gratis.')}</p>
-          <a href={`${url.paraCentros(lang)}?centro=${c.slug}`} class="shrink-0 text-sm font-semibold text-brand-red hover:text-red-400" rel="nofollow" data-evento="gestionar_ficha" data-centro={c.slug}>{L(lang, 'Gestionar', 'Gestionar')} →</a>
+          <a href={`${url.paraCentros(lang)}?centro=${encodeURIComponent(c.nombre)}&municipio=${encodeURIComponent(mun.nombre)}&ficha=${c.slug}`} class="shrink-0 text-sm font-semibold text-brand-red hover:text-red-400" rel="nofollow" data-evento="gestionar_ficha" data-centro={c.slug}>{L(lang, 'Gestionar', 'Gestionar')} →</a>
         </div>
       </aside>
     </div>
@@ -227,6 +228,8 @@ const schema = [
         </div>
       </section>
     )}
+
+    <GuiasRelacionadas lang={lang} disciplinas={c.disciplinas} comarca={c.comarca} infantil={c.infantil} />
 
     <div class="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-brand-dark/95 backdrop-blur border-t border-brand-border p-3 flex gap-2">
       {c.web && <a href={c.web} target="_blank" rel={promo ? 'sponsored noopener' : 'noopener'} class="flex-1 text-center bg-white/5 border border-brand-border text-white text-sm font-semibold py-3 rounded-lg" data-evento="clic_web_centro" data-centro={c.slug}>{L(lang, 'Su web', 'El seu web')} ↗</a>}

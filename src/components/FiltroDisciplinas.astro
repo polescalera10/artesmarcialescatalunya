@@ -3,7 +3,10 @@
 // (comarca o municipio). Actúa sobre las fichas con [data-d] dentro de
 // `ambito` y oculta los grupos ([data-grupo]) que se quedan vacíos. Sin
 // JavaScript no hace nada: el listado completo sigue a la vista.
-import { L, type Lang } from '../lib/i18n';
+// Con `infantil` añade un interruptor "Clases para niños" ([data-inf]); con
+// `cerca`, si una disciplina deja menos de 2 verificados, ofrece los más
+// cercanos en el buscador general.
+import { L, url, type Lang } from '../lib/i18n';
 import { nombreDisciplina } from '../lib/disciplinas';
 
 interface Props {
@@ -11,15 +14,25 @@ interface Props {
   disciplinas: { slug: string; n: number }[];
   /** id del contenedor cuyas fichas se filtran */
   ambito: string;
+  /** Centros que anuncian clases para niños en el ámbito */
+  infantil?: number;
+  /** Municipio de la página, para enlazar a los más cercanos */
+  cerca?: { comarca: string; municipio: string };
 }
-const { lang, disciplinas, ambito } = Astro.props;
+const { lang, disciplinas, ambito, infantil = 0, cerca } = Astro.props;
 const chip = 'inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm transition-colors';
+const buscador = cerca ? `${url.centros(lang)}?comarca=${cerca.comarca}&municipio=${cerca.municipio}` : '';
 ---
 
-{disciplinas.length > 1 && (
-  <div class="lg:sticky lg:top-16 z-30 bg-brand-dark/95 backdrop-blur py-3 mb-6" data-filtro-disc={ambito}>
+{(disciplinas.length > 1 || infantil > 0) && (
+  <div class="lg:sticky lg:top-16 z-30 bg-brand-dark/95 backdrop-blur py-3 mb-6" data-filtro-disc={ambito} data-buscador={buscador}>
     <p class="text-xs uppercase tracking-wide text-brand-muted mb-2">{L(lang, 'Filtrar por disciplina', 'Filtra per disciplina')}</p>
     <div class="flex flex-wrap gap-2" role="group" aria-label={L(lang, 'Filtrar por disciplina', 'Filtra per disciplina')}>
+      {infantil > 0 && (
+        <button type="button" class:list={[chip, 'border-sky-500/40 bg-sky-500/10 text-sky-200 hover:text-white']} data-inf-toggle aria-pressed="false">
+          {L(lang, 'Clases para niños', 'Classes per a infants')} <span class="font-semibold">{infantil}</span>
+        </button>
+      )}
       <button type="button" class:list={[chip, 'border-brand-red bg-brand-red/15 text-white']} data-disc="" aria-pressed="true">
         {L(lang, 'Todas', 'Totes')}
       </button>
@@ -38,38 +51,66 @@ const chip = 'inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 t
     const ambito = document.getElementById(barra.dataset.filtroDisc!);
     if (!ambito) return;
     const botones = [...barra.querySelectorAll<HTMLButtonElement>('[data-disc]')];
+    const inf = barra.querySelector<HTMLButtonElement>('[data-inf-toggle]');
     const resumen = barra.querySelector<HTMLElement>('[data-filtro-resumen]')!;
+    const buscador = barra.dataset.buscador;
     const ca = document.documentElement.lang === 'ca';
     const ACTIVO = ['border-brand-red', 'bg-brand-red/15', 'text-white'];
     const INACTIVO = ['border-brand-border', 'bg-brand-gray', 'text-brand-muted'];
+    let disc = '';
+    let soloInf = false;
 
-    function aplicar(disc: string) {
+    function aplicar() {
       for (const b of botones) {
         const on = b.dataset.disc === disc;
         b.setAttribute('aria-pressed', String(on));
         b.classList.remove(...(on ? INACTIVO : ACTIVO));
         b.classList.add(...(on ? ACTIVO : INACTIVO));
       }
+      if (inf) {
+        inf.setAttribute('aria-pressed', String(soloInf));
+        inf.classList.toggle('ring-2', soloInf);
+        inf.classList.toggle('ring-sky-400/60', soloInf);
+      }
       // Una ficha puede aparecer dos veces (bloque promocionado y listado): se cuenta una.
       const vistos = new Set<string>();
+      const verif = new Set<string>();
       for (const f of ambito!.querySelectorAll<HTMLElement>('[data-d]')) {
-        const ok = !disc || f.dataset.d!.split(' ').includes(disc);
+        const ok = (!disc || f.dataset.d!.split(' ').includes(disc)) && (!soloInf || f.dataset.inf === '1');
         f.hidden = !ok;
-        if (ok && f.dataset.slug) vistos.add(f.dataset.slug);
+        if (ok && f.dataset.slug) {
+          vistos.add(f.dataset.slug);
+          if (f.dataset.v === '1') verif.add(f.dataset.slug);
+        }
       }
       for (const g of ambito!.querySelectorAll<HTMLElement>('[data-grupo]')) {
         g.hidden = !g.querySelector('[data-d]:not([hidden])');
       }
-      resumen.classList.toggle('hidden', !disc);
+      const filtrado = disc || soloInf;
+      resumen.classList.toggle('hidden', !filtrado);
       const k = vistos.size;
-      if (disc) resumen.textContent = ca ? `${k} ${k === 1 ? 'centre' : 'centres'} amb aquesta disciplina` : `${k} ${k === 1 ? 'centro' : 'centros'} con esta disciplina`;
+      if (filtrado) {
+        resumen.textContent = ca ? `${k} ${k === 1 ? 'centre' : 'centres'}` : `${k} ${k === 1 ? 'centro' : 'centros'}`;
+        if (disc && buscador && verif.size < 2) {
+          const a = document.createElement('a');
+          a.href = `${buscador}&disciplina=${disc}`;
+          a.className = 'ml-2 text-brand-red hover:text-red-400 font-semibold';
+          a.textContent = ca ? 'Pocs verificats aquí: veure els més propers →' : 'Pocos verificados aquí: ver los más cercanos →';
+          resumen.append(a);
+        }
+      }
       const url = new URL(location.href);
       if (disc) url.searchParams.set('disciplina', disc); else url.searchParams.delete('disciplina');
+      if (soloInf) url.searchParams.set('infantil', '1'); else url.searchParams.delete('infantil');
       history.replaceState(null, '', url);
     }
 
-    botones.forEach(b => b.addEventListener('click', () => aplicar(b.dataset.disc!)));
-    const inicial = new URLSearchParams(location.search).get('disciplina');
-    if (inicial && botones.some(b => b.dataset.disc === inicial)) aplicar(inicial);
+    botones.forEach(b => b.addEventListener('click', () => { disc = b.dataset.disc!; aplicar(); }));
+    inf?.addEventListener('click', () => { soloInf = !soloInf; aplicar(); });
+    const p = new URLSearchParams(location.search);
+    const inicial = p.get('disciplina');
+    if (inicial && botones.some(b => b.dataset.disc === inicial)) disc = inicial;
+    if (inf && p.get('infantil') === '1') soloInf = true;
+    if (disc || soloInf) aplicar();
   });
 </script>

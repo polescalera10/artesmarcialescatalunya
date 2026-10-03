@@ -905,9 +905,10 @@
   "tipo": "club",
   "municipio": "badia-del-valles",
   "disciplinas": [
-   "judo"
+   "judo",
+   "defensa-personal"
   ],
-  "direccion": "Av. Via de la Plata, s/n., BADIA DEL VALLÈS",
+  "direccion": "Av. Via de la Plata, s/n (Complex Esportiu), Badia del Vallès",
   "web": "http://judobadia.blogspot.com.es/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -921,7 +922,7 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "C/ Ricardo Caro, 90, 3º 5º, TERRASSA",
+  "direccion": "C/ Ricardo Caro, 90, 3º 5º, Terrassa",
   "web": "http://www.judoegara.es",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -935,7 +936,7 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "Av. Girona, 7 Pavelló Polisportiu, SANTA PERPETUA DE MOGODA",
+  "direccion": "Av. Girona, 7 Pavelló Polisportiu, Santa Perpètua de Mogoda",
   "web": "https://www.facebook.com/Club-de-Judo-StPerpetua-2077602122465363/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -949,7 +950,7 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "Carrer de Poca Farina, s/n, SENTMENAT",
+  "direccion": "Carrer de Poca Farina, s/n, Sentmenat",
   "web": "https://www.facebook.com/judo.sentmenat",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -1738,7 +1739,7 @@
   "disciplinas": [
    "jiu-jitsu-japones"
   ],
-  "direccion": "Rambla del Celler, s/n, pav III, SANT CUGAT DEL VALLES",
+  "direccion": "Rambla del Celler, s/n, pav III, Sant Cugat del Vallès",
   "web": "http://www.jiujitsusantcugat.com",
   "fuente": "https://fedecatjudo.cat/jiu-jitsu/clubs/",
   "fuenteTipo": "federacion",
@@ -1755,20 +1756,6 @@
   "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20264",
   "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
- },
- {
-  "slug": "club-judo-badia",
-  "nombre": "Club Judo Badia",
-  "tipo": "club",
-  "municipio": "badia-del-valles",
-  "disciplinas": [
-   "defensa-personal"
-  ],
-  "direccion": "Av. Via de la Plata, s/n (Complex Esportiu), BADIA DEL VALLES",
-  "web": "http://judobadia.blogspot.com/",
-  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
  },
  {
   "slug": "club-judo-cerdanyola",
@@ -2515,7 +2502,7 @@
    "judo",
    "aikido"
   ],
-  "direccion": "C/ Anselm Clavé, 8, CERDANYOLA DEL VALLES",
+  "direccion": "C/ Anselm Clavé, 8, Cerdanyola del Vallès",
   "web": "https://www.cerdanyolagymvalles.es/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",

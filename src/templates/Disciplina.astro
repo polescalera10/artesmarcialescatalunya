@@ -9,6 +9,7 @@ import Migas from '../components/Migas.astro';
 import ListaCentros from '../components/ListaCentros.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
 import { centrosConDisciplina, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
@@ -153,6 +154,7 @@ const schema = {
       </section>
     )}
 
+    <GuiasRelacionadas lang={lang} disciplinas={[disciplina]} />
     <ParaCentrosCTA lang={lang} />
     {faq.length > 0 && <FAQ items={faq} title={L(lang, `Preguntas frecuentes sobre ${ndl}`, `Preguntes freqüents sobre ${ndl}`)} />}
   </main>

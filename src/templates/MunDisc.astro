@@ -10,6 +10,7 @@ import ListaCentros from '../components/ListaCentros.astro';
 import CentroCard from '../components/CentroCard.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
 import { centrosDeMunicipio, centrosConDisciplina, cercanos, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
@@ -147,6 +148,7 @@ const schema = {
       </div>
     </section>
 
+    <GuiasRelacionadas lang={lang} disciplinas={[disciplina]} comarca={comarca} />
     <ParaCentrosCTA lang={lang} ambito={mun.nombre} />
     <FAQ items={faq} title={L(lang, 'Preguntas frecuentes', 'Preguntes freqüents')} />
   </main>

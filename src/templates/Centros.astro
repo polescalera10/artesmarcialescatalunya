@@ -7,7 +7,7 @@ import Footer from '../components/Footer.astro';
 import Migas from '../components/Migas.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { L, url, n, type Lang } from '../lib/i18n';
-import { CENTROS, comarcasConCentros, disciplinasPresentes, esPromocionado } from '../lib/centros';
+import { CENTROS, comarcasConCentros, disciplinasPresentes, esPromocionado, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { SITE, SCHEMA_IDS } from '../lib/site';
@@ -16,12 +16,14 @@ interface Props { lang: Lang }
 const { lang } = Astro.props;
 const comarcas = comarcasConCentros().map(slug => ({ slug, nombre: getComarca(slug)!.nombre }));
 const disc = disciplinasPresentes(CENTROS);
+const NV = verificados(CENTROS).length;
+const NR = CENTROS.length - NV;
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
-const title = L(lang, `Directorio de artes marciales en Cataluña: ${CENTROS.length} centros`, `Directori d'arts marcials a Catalunya: ${CENTROS.length} centres`);
+const title = L(lang, `Buscador de centros de artes marciales en Cataluña (${NV})`, `Cercador de centres d'arts marcials a Catalunya (${NV})`);
 const description = L(lang,
-  `Los ${CENTROS.length} centros de artes marciales del directorio, filtrables por comarca, municipio, disciplina y nombre. Cada uno con su fuente pública y fecha de verificación.`,
-  `Els ${CENTROS.length} centres d'arts marcials del directori, filtrables per comarca, municipi, disciplina i nom. Cadascun amb la seva font pública i data de verificació.`);
+  `Busca entre ${NV} centros de artes marciales verificados en Cataluña por municipio, disciplina, clases para niños o nombre. Cada uno con su fuente pública.`,
+  `Cerca entre ${NV} centres d'arts marcials verificats a Catalunya per municipi, disciplina, classes per a infants o nom. Cadascun amb la seva font pública.`);
 const alternates = { es: url.centros('es'), ca: url.centros('ca') };
 const schema = {
   '@context': 'https://schema.org',
@@ -42,18 +44,18 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
   <main id="contenido">
     <Migas lang={lang} items={[{ nombre: L(lang, 'Centros', 'Centres'), href: url.centros(lang) }]} />
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
-      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{L(lang, 'Todos los centros', 'Tots els centres')}</h1>
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{L(lang, 'Buscar centro', 'Cercar centre')}</h1>
       <p class="text-brand-muted mt-3 max-w-3xl">
         {L(lang,
-          `${n(CENTROS.length, 'centro', 'centros')} en orden alfabético. Elige comarca y municipio, y después filtra por disciplina o busca por nombre.`,
-          `${n(CENTROS.length, 'centre', 'centres')} en ordre alfabètic. Tria comarca i municipi, i després filtra per disciplina o cerca pel nom.`)}
+          `${NV} centros verificados y ${NR} clubs del registro de la Generalitat sin verificar (salen después). Escribe qué y dónde, por ejemplo «judo Sabadell» o «karate niños Girona», o usa los filtros.`,
+          `${NV} centres verificats i ${NR} clubs del registre de la Generalitat sense verificar (surten després). Escriu què i on, per exemple «judo Sabadell» o «karate nens Girona», o fes servir els filtres.`)}
       </p>
     </section>
 
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sticky top-16 z-40 bg-brand-dark/95 backdrop-blur" data-filtros>
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 lg:sticky lg:top-16 z-40 bg-brand-dark/95 backdrop-blur" data-filtros>
       <div class="grid sm:grid-cols-2 lg:grid-cols-[1fr_auto_auto_auto] gap-3">
         <label class="sr-only" for="f-q">{L(lang, 'Buscar', 'Cercar')}</label>
-        <input id="f-q" type="search" placeholder={L(lang, 'Nombre, municipio o disciplina', 'Nom, municipi o disciplina')} class={sel} />
+        <input id="f-q" type="search" enterkeyhint="search" placeholder={L(lang, 'Qué y dónde: «boxeo Reus», nombre del club…', 'Què i on: «boxa Reus», nom del club…')} class={sel} />
         <label class="sr-only" for="f-comarca">{L(lang, 'Comarca', 'Comarca')}</label>
         <select id="f-comarca" class={sel}>
           <option value="">{L(lang, 'Todas las comarcas', 'Totes les comarques')}</option>
@@ -69,10 +71,24 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
           {disc.map(d => <option value={d.slug} data-nombre={nombreDisciplina(d.slug, lang)}>{nombreDisciplina(d.slug, lang)} ({d.n})</option>)}
         </select>
       </div>
-      <p class="text-xs text-brand-muted mt-2" aria-live="polite"><span data-cuenta>{CENTROS.length}</span> {L(lang, 'centros', 'centres')}</p>
+      <div class="flex flex-wrap items-center justify-between gap-3 mt-2">
+        <p class="text-xs text-brand-muted" aria-live="polite"><span data-cuenta>{CENTROS.length}</span> {L(lang, 'centros', 'centres')}</p>
+        <div class="flex items-center gap-4">
+          <label class="inline-flex items-center gap-2 text-sm text-sky-200 cursor-pointer">
+            <input id="f-inf" type="checkbox" class="accent-sky-400" />
+            {L(lang, 'Con clases para niños', 'Amb classes per a infants')}
+          </label>
+          <button type="button" class="hidden text-xs text-brand-muted hover:text-white underline" data-limpiar>{L(lang, 'Quitar filtros', 'Treure filtres')}</button>
+        </div>
+      </div>
     </section>
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="hidden mb-6 border border-emerald-500/30 bg-emerald-500/5 rounded-xl p-4" data-cerca>
+        <p class="font-semibold text-white" data-cerca-titulo></p>
+        <p class="text-xs text-brand-muted mt-1">{L(lang, 'Distancia orientativa en línea recta entre municipios.', 'Distància orientativa en línia recta entre municipis.')}</p>
+        <ul class="mt-3 divide-y divide-brand-border" data-cerca-lista></ul>
+      </div>
       <ul class="divide-y divide-brand-border border border-brand-border rounded-xl overflow-hidden" data-lista aria-live="polite"></ul>
       <button type="button" class="hidden mt-4 w-full sm:w-auto bg-brand-gray border border-brand-border hover:border-brand-red/40 text-white text-sm font-semibold px-5 py-2.5 rounded-lg" data-mas>
         {L(lang, 'Mostrar más', 'Mostra’n més')}
@@ -92,38 +108,79 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
   <Footer lang={lang} />
 </Layout>
 
-<script define:vars={{ lang, prefijo: lang === 'ca' ? '/ca/centres/' : '/centros/', txtVer: lang === 'ca' ? 'Sense verificar' : 'Sin verificar' }}>
+<script define:vars={{ lang, prefijo: lang === 'ca' ? '/ca/centres/' : '/centros/' }}>
   // Filtro en cascada sobre /datos/centros.json: ubicación (comarca → municipio)
-  // y, sobre ese resultado, disciplina; búsqueda por texto. Verificados primero.
+  // y, sobre ese resultado, disciplina y clases para niños; búsqueda por texto.
+  // El texto se interpreta: «judo sabadell» fija disciplina y municipio. Si en
+  // un municipio quedan menos de 3 verificados, se proponen los más cercanos.
   const PAGINA = 60;
+  const ca = lang === 'ca';
+  const t = (es, c) => (ca ? c : es);
   const q = document.querySelector('#f-q');
   const com = document.querySelector('#f-comarca');
   const mun = document.querySelector('#f-municipio');
   const dis = document.querySelector('#f-disc');
+  const inf = document.querySelector('#f-inf');
   const lista = document.querySelector('[data-lista]');
   const cuenta = document.querySelector('[data-cuenta]');
   const vacio = document.querySelector('[data-vacio]');
   const mas = document.querySelector('[data-mas]');
+  const limpiar = document.querySelector('[data-limpiar]');
+  const cerca = document.querySelector('[data-cerca]');
   const todosMunicipios = mun.options[0].text;
-  const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[’']/g, "'");
   const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-  const L = lang === 'ca' ? 1 : 0;
-  let D = null, resultado = [], mostrados = 0, timer;
+  const L = ca ? 1 : 0;
+  // Palabras que la gente escribe y no son el nombre de la disciplina.
+  const ALIAS = { bjj: 'jiu-jitsu-brasileno', 'jiu jitsu': 'jiu-jitsu-brasileno', jiujitsu: 'jiu-jitsu-brasileno', kick: 'kickboxing', 'kick boxing': 'kickboxing', boxa: 'boxeo', box: 'boxeo', tkd: 'taekwondo', 'thai boxing': 'muay-thai', muaythai: 'muay-thai', 'kung-fu': 'kung-fu', 'tai-chi': 'tai-chi', 'defensa': 'defensa-personal', 'autodefensa': 'defensa-personal', 'krav': 'krav-maga', 'lluita': 'lucha', 'mixtas': 'mma' };
+  const NINOS = /\b(ninos|ninas|nino|nina|nens|nenes|nen|infantil|infantils|infantiles|kids|criatures)\b/;
+  let D = null, resultado = [], mostrados = 0, timer, claves = [];
 
   fetch('/datos/centros.json').then(r => r.json()).then(datos => {
     D = datos;
-    D.filas = D.centros.map(([slug, nombre, m, c, ds, v]) => ({
-      slug, nombre, m, c, ds, v,
-      t: norm([nombre, D.municipios[m], D.comarcas[c], ...ds.flatMap(d => D.disciplinas[d] || [])].join(' ')),
-    }));
+    D.comDeMun = {};
+    D.filas = D.centros.map(([slug, nombre, m, c, ds, v, i]) => {
+      D.comDeMun[m] = c;
+      return { slug, nombre, m, c, ds, v, i, t: norm([nombre, D.municipios[m], D.comarcas[c], ...ds.flatMap(d => D.disciplinas[d] || [])].join(' ')) };
+    });
     D.filas.sort((a, b) => b.v - a.v || a.nombre.localeCompare(b.nombre, 'es'));
+    // Claves para interpretar el texto: municipios (con y sin artículo) y disciplinas, las largas primero.
+    for (const [s, n] of Object.entries(D.municipios)) {
+      const k = norm(n);
+      claves.push(['m', k, s]);
+      const sin = k.replace(/^(l'|el |la |les |els )/, '');
+      if (sin !== k && sin.length > 3) claves.push(['m', sin, s]);
+    }
+    for (const [s, ns] of Object.entries(D.disciplinas)) for (const n of [...ns, s.replace(/-/g, ' ')]) claves.push(['d', norm(n), s]);
+    for (const [k, s] of Object.entries(ALIAS)) if (D.disciplinas[s]) claves.push(['d', k, s]);
+    claves.sort((a, b) => b[1].length - a[1].length);
     const p = new URLSearchParams(location.search);
     q.value = p.get('q') ?? '';
     com.value = p.get('comarca') ?? '';
     rellenarMunicipios(p.get('municipio') ?? '');
     dis.value = p.get('disciplina') ?? '';
+    inf.checked = p.get('infantil') === '1';
+    interpretar();
     filtrar(false);
   });
+
+  // «karate niños girona» → disciplina karate, municipio Girona, solo infantil.
+  function interpretar() {
+    let txt = ` ${norm(q.value).replace(/\s+/g, ' ').trim()} `;
+    if (txt.trim().length < 3) return;
+    let cambio = false;
+    if (NINOS.test(txt)) { inf.checked = true; txt = txt.replace(NINOS, ' '); cambio = true; }
+    for (const [tipo, k, s] of claves) {
+      const i = txt.indexOf(` ${k} `);
+      if (i < 0) continue;
+      if (tipo === 'm' && !mun.value) { com.value = D.comDeMun[s]; rellenarMunicipios(s); }
+      else if (tipo === 'd' && !dis.value) dis.value = s;
+      else continue;
+      txt = `${txt.slice(0, i)} ${txt.slice(i + k.length + 1)}`;
+      cambio = true;
+    }
+    if (cambio) q.value = txt.replace(/\b(en|a|de|del|cerca|prop|clases|classes|escuela|escola|gimnasio|gimnas)\b/g, ' ').replace(/\s+/g, ' ').trim();
+  }
 
   function rellenarMunicipios(valor = '') {
     const vistos = new Map();
@@ -138,43 +195,71 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
 
   function recontar() {
     const n = new Map();
-    for (const f of D.filas) if (enUbicacion(f)) for (const d of f.ds) n.set(d, (n.get(d) ?? 0) + 1);
+    for (const f of D.filas) if (enUbicacion(f) && (!inf.checked || f.i)) for (const d of f.ds) n.set(d, (n.get(d) ?? 0) + 1);
     for (const o of [...dis.options].slice(1)) {
       const k = n.get(o.value) ?? 0;
       o.text = `${o.dataset.nombre} (${k})`;
-      o.hidden = o.disabled = k === 0;
+      o.hidden = o.disabled = k === 0 && o.value !== dis.value;
     }
-    if (dis.value && !n.get(dis.value)) dis.value = '';
   }
 
-  function fila(f) {
+  const etiqueta = (txt, cls) => ` <span class="ml-1 text-[10px] uppercase rounded px-1 border ${cls}">${txt}</span>`;
+  function fila(f, km) {
     const ds = f.ds.map(d => (D.disciplinas[d] || [d])[L]).join(' · ');
     return `<li class="grid sm:grid-cols-[2fr_1fr_2fr] gap-1 sm:gap-4 px-4 py-3 bg-brand-gray/40 hover:bg-brand-gray">
-      <a href="${prefijo}${f.slug}/" class="font-medium text-white hover:text-brand-red">${esc(f.nombre)}${f.v ? '' : ` <span class="ml-1 text-[10px] uppercase text-brand-muted border border-brand-border rounded px-1">${txtVer}</span>`}</a>
-      <span class="text-sm text-brand-muted">${esc(D.municipios[f.m])}</span>
+      <a href="${prefijo}${f.slug}/" class="font-medium text-white hover:text-brand-red">${esc(f.nombre)}${f.v ? '' : etiqueta(t('Sin verificar', 'Sense verificar'), 'text-brand-muted border-brand-border')}${f.i ? etiqueta(t('Niños', 'Infants'), 'text-sky-300 border-sky-500/40') : ''}</a>
+      <span class="text-sm text-brand-muted">${esc(D.municipios[f.m])}${km !== undefined ? ` · ${t('a unos', 'a uns')} ${km} km` : ''}</span>
       <span class="text-xs text-brand-muted">${esc(ds)}</span></li>`;
   }
   function pintar(desde) {
     const trozo = resultado.slice(desde, desde + PAGINA);
-    lista.insertAdjacentHTML('beforeend', trozo.map(fila).join(''));
+    lista.insertAdjacentHTML('beforeend', trozo.map(f => fila(f)).join(''));
     mostrados = desde + trozo.length;
     mas.classList.toggle('hidden', mostrados >= resultado.length);
+  }
+
+  const rad = x => (x * Math.PI) / 180;
+  function km(a, b) {
+    const [la1, lo1] = D.geo[a], [la2, lo2] = D.geo[b];
+    const h = Math.sin(rad(la2 - la1) / 2) ** 2 + Math.cos(rad(la1)) * Math.cos(rad(la2)) * Math.sin(rad(lo2 - lo1) / 2) ** 2;
+    return 2 * 6371 * Math.asin(Math.sqrt(h));
+  }
+  // Con municipio y disciplina, si hay menos de 3 verificados: verificados más cercanos (hasta 40 km).
+  function pintarCerca() {
+    const verif = resultado.filter(f => f.v).length;
+    const ok = mun.value && dis.value && verif < 3 && D.geo[mun.value];
+    cerca.classList.toggle('hidden', !ok);
+    if (!ok) return;
+    const otros = D.filas
+      .filter(f => f.v && f.m !== mun.value && f.ds.includes(dis.value) && (!inf.checked || f.i))
+      .map(f => [f, km(mun.value, f.m)]).filter(([, k]) => k <= 40).sort((a, b) => a[1] - b[1]).slice(0, 6);
+    const nd = dis.selectedOptions[0].dataset.nombre.toLowerCase();
+    const nm = D.municipios[mun.value];
+    cerca.querySelector('[data-cerca-titulo]').textContent = otros.length
+      ? (verif
+          ? t(`Solo ${verif} ${verif > 1 ? 'verificados' : 'verificado'} de ${nd} en ${nm}. Los más cercanos:`, `Només ${verif} ${verif > 1 ? 'verificats' : 'verificat'} de ${nd} a ${nm}. Els més propers:`)
+          : t(`Ningún centro verificado de ${nd} en ${nm}. Los más cercanos:`, `Cap centre verificat de ${nd} a ${nm}. Els més propers:`))
+      : t(`No hay centros verificados de ${nd} a menos de 40 km de ${nm}.`, `No hi ha centres verificats de ${nd} a menys de 40 km de ${nm}.`);
+    cerca.querySelector('[data-cerca-lista]').innerHTML = otros.map(([f, k]) => fila(f, Math.max(1, Math.round(k)))).join('');
   }
 
   function filtrar(medir = true) {
     if (!D) return;
     recontar();
     const palabras = norm(q.value).split(/\s+/).filter(Boolean);
-    resultado = D.filas.filter(f => enUbicacion(f) && (!dis.value || f.ds.includes(dis.value)) && palabras.every(p => f.t.includes(p)));
+    resultado = D.filas.filter(f => enUbicacion(f) && (!dis.value || f.ds.includes(dis.value)) && (!inf.checked || f.i) && palabras.every(p => f.t.includes(p)));
     lista.innerHTML = '';
     pintar(0);
+    pintarCerca();
     cuenta.textContent = String(resultado.length);
-    vacio.classList.toggle('hidden', resultado.length > 0);
+    vacio.classList.toggle('hidden', resultado.length > 0 || !cerca.classList.contains('hidden'));
     const p = new URLSearchParams();
     if (q.value) p.set('q', q.value);
     if (com.value) p.set('comarca', com.value);
     if (mun.value) p.set('municipio', mun.value);
     if (dis.value) p.set('disciplina', dis.value);
+    if (inf.checked) p.set('infantil', '1');
+    limpiar.classList.toggle('hidden', !p.toString());
     history.replaceState(null, '', `${location.pathname}${p.toString() ? `?${p}` : ''}`);
     if (medir) {
       clearTimeout(timer);
@@ -184,8 +269,11 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
     }
   }
   q.addEventListener('input', () => filtrar());
+  q.addEventListener('change', () => { interpretar(); filtrar(); });
   com.addEventListener('change', () => { rellenarMunicipios(); filtrar(); });
   mun.addEventListener('change', () => filtrar());
   dis.addEventListener('change', () => filtrar());
+  inf.addEventListener('change', () => filtrar());
+  limpiar.addEventListener('click', () => { q.value = ''; com.value = ''; rellenarMunicipios(); dis.value = ''; inf.checked = false; filtrar(); });
   mas.addEventListener('click', () => pintar(mostrados));
 </script>

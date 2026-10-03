@@ -508,9 +508,10 @@
   "municipio": "sant-feliu-de-llobregat",
   "disciplinas": [
    "judo",
-   "defensa-personal"
+   "defensa-personal",
+   "jiu-jitsu-japones"
   ],
-  "direccion": "C/ Pere Alvarez, 39,local 7, SANT FELIU DE LLOBREGAT",
+  "direccion": "C/ Pere Alvarez, 39,local 7, Sant Feliu de Llobregat",
   "web": "http://www.judostfeliu.com",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -961,7 +962,7 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "C/ Noguera, 18, CASTELLDEFELS",
+  "direccion": "C/ Noguera, 18, Castelldefels",
   "web": "https://www.laginesta.com/index.php",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -988,7 +989,7 @@
    "judo",
    "defensa-personal"
   ],
-  "direccion": "C/ Felip Canalies, s/n, MOLINS DE REI",
+  "direccion": "C/ Felip Canalies, s/n, Molins de Rei",
   "web": "http://www.clubjudomolinsderei.cat",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -1595,7 +1596,7 @@
    "defensa-personal",
    "taekwondo"
   ],
-  "direccion": "C. de l' Ave Maria, 7-9, ESPLUGUES DE LLOBREGAT",
+  "direccion": "C. de l' Ave Maria, 7-9, Esplugues de Llobregat",
   "web": "https://www.judo-tao.com/",
   "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
   "fuenteTipo": "federacion",
@@ -1633,7 +1634,7 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "C/ Mossen Cinto Verdaguer, 2, BEGUES",
+  "direccion": "C/ Mossen Cinto Verdaguer, 2, Begues",
   "web": "https://es-es.facebook.com/judobegues/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -1647,7 +1648,7 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "General Palafox, 25., CASTELLDEFELS",
+  "direccion": "General Palafox, 25., Castelldefels",
   "web": "http://www.gimnasiodanes.es",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -1673,7 +1674,7 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "Av. Germans Martí, 16, MARTORELL",
+  "direccion": "Av. Germans Martí, 16, Martorell",
   "web": "https://www.instagram.com/clubjudomartorell/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
@@ -1687,7 +1688,7 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "Església, 100, CASTELLDEFELS",
+  "direccion": "Església, 100, Castelldefels",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -2388,20 +2389,6 @@
   "fuente": "https://www.owkle.es/clubs/invictus-69-cornella/",
   "fuenteTipo": "federacion",
   "verificado": "2026-10-03"
- },
- {
-  "slug": "judo-club-sant-feliu",
-  "nombre": "Judo Club Sant Feliu",
-  "tipo": "escuela",
-  "municipio": "sant-feliu-de-llobregat",
-  "disciplinas": [
-   "jiu-jitsu-japones"
-  ],
-  "direccion": "C/ Pere Alvarez, 39, local 7, SANT FELIU DE LLOBREGAT",
-  "web": "http://www.judostfeliu.com",
-  "fuente": "https://fedecatjudo.cat/jiu-jitsu/clubs/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
  },
  {
   "slug": "karate-kobudo-i-goshin-s-a-b",

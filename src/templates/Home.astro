@@ -16,11 +16,12 @@ import { SITE, SCHEMA_IDS } from '../lib/site';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
-const comarcas = comarcasConCentros().map(slug => ({ slug, nombre: getComarca(slug)!.nombre, k: centrosDeComarca(slug).length }));
-const disc = disciplinasPresentes(CENTROS);
+const comarcas = comarcasConCentros().map(slug => ({ slug, nombre: getComarca(slug)!.nombre, k: verificados(centrosDeComarca(slug)).length }));
+// Recuentos públicos: solo verificados, coherentes con el total del titular.
+const disc = disciplinasPresentes(verificados(CENTROS));
 const conPagina = new Set(rutasDisciplina().map(r => r.disciplina));
 const topMunis = rutasMunicipio()
-  .map(r => ({ ...r, nombre: getMunicipio(r.municipio)!.nombre, k: CENTROS.filter(c => c.municipio === r.municipio).length }))
+  .map(r => ({ ...r, nombre: getMunicipio(r.municipio)!.nombre, k: verificados(CENTROS).filter(c => c.municipio === r.municipio).length }))
   .sort((a, b) => b.k - a.k)
   .slice(0, 12);
 const posts = lang === 'es' ? (await articulos()).filter(p => p.tipo === 'articulo').slice(0, 3) : [];

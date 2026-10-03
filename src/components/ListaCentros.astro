@@ -46,7 +46,7 @@ const reg = sinVerificar(centros);
     </p>
     <ul class="divide-y divide-brand-border border border-brand-border rounded-xl">
       {reg.map(c => (
-        <li class="px-4 py-2.5 flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm" data-d={c.disciplinas.join(' ')} data-slug={c.slug}>
+        <li class="px-4 py-2.5 flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm" data-d={c.disciplinas.join(' ')} data-slug={c.slug} data-v="0" data-inf={c.infantil ? '1' : undefined}>
           <a href={url.centro(lang, c.slug)} class="text-white hover:text-brand-red">{c.nombre}</a>
           {conMunicipio && <span class="text-xs text-brand-muted">{getMunicipio(c.municipio)!.nombre}</span>}
           <span class="text-xs text-brand-muted">{c.disciplinas.map(d => nombreDisciplina(d, lang)).join(' · ')}</span>

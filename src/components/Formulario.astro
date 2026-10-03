@@ -123,6 +123,11 @@ const tipos = modo === 'info'
       if (sel) sel.value = 'correccion';
       const c = form.querySelector<HTMLInputElement>('[name=centro]');
       if (c) c.value = centro;
+      const m = form.querySelector<HTMLInputElement>('[name=municipio]');
+      if (m && params.get('municipio')) m.value = params.get('municipio')!;
+      const msg = form.querySelector<HTMLTextAreaElement>('[name=mensaje]');
+      const ficha = params.get('ficha');
+      if (msg && ficha && /^[a-z0-9-]+$/.test(ficha) && !msg.value) msg.value = `${location.origin}${t('/centros/', '/ca/centres/')}${ficha}/\n\n`;
     }
     const tipo = params.get('tipo');
     if (tipo) { const sel = form.querySelector<HTMLSelectElement>('[name=tipo]'); if (sel && [...sel.options].some(o => o.value === tipo)) sel.value = tipo; }
