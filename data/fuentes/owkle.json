@@ -1,0 +1,1840 @@
+{
+ "fuente": "https://www.owkle.es/clubs/",
+ "generado": "2026-10-03",
+ "clubs": [
+  {
+   "nombre": "16 CUERDAS",
+   "localidad": "Esparraguera",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Guardiola, 1, 08292 Esparreguera, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/16-cuerdas/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "LARAW KALI PAMUOK",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "A. BAIXES",
+   "localidad": "barc",
+   "provincia": "Barcelona",
+   "direccion": "<a",
+   "url": "https://www.owkle.es/clubs/a-baixes/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "A. E.  KAW FIGHT CLUB",
+   "localidad": "Sabadell",
+   "provincia": "Barcelona",
+   "direccion": "Via Júlia, 11, 08206 Sabadell, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/a-e-kaw-fight-club/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "AAMV ACADEMIA DE ARTES MARCIALES VILANOVA",
+   "localidad": "Vilanova i la Geltrú",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de la Unió, 98, 08800 Vilanova i la Geltrú, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/aamv-academia-de-artes-marciales-vilanova/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "ACADEMIA DE ARTES MARCIALES SITGES (AAMS)",
+   "localidad": "Sitges",
+   "provincia": "Barcelona",
+   "direccion": "Avinguda del Camí Pla, 29, 08870 Sitges, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/academia-de-artes-marciales-sitges-aams/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BJJ / GRAPPLING",
+    "DEFENSA PERSONAL",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "ACADEMIA KERKER GYM",
+   "localidad": "Vilanova i la Geltrú",
+   "provincia": "Barcelona",
+   "direccion": "Avinguda d'Eduard Toldrà, 34, 08800 Vilanova i la Geltrú, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/academia-kerker-gym/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "BJJ / GRAPPLING",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "ACTITUD BOXING CREW",
+   "localidad": "Mollet del Vallès",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Girona, 15, 08100 Mollet del Vallès, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/actitud-boxing-crew/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "ANTARAI TRAINING CAMP",
+   "localidad": "Sant Joan Despí",
+   "provincia": "Barcelona",
+   "direccion": "Av. de la Generalitat, 45, 08970 Sant Joan Despí, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/antarai-training-camp-2/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "KRAV MAGA",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "ARANHA HOSPITALET",
+   "localidad": "L'Hospitalet",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de la Constitució, 169, Sants-Montjuïc, 08014 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/aranha-hospitalet/",
+   "disciplinas_owkle": [
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "ARES ARENA",
+   "localidad": "Mollet del Vallès",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Can Flequer, 6, 08100 Mollet del Vallès, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/ares-arena/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "ASOCIACIO ESPORTIVA KICK BOXING LLEIDA",
+   "localidad": "Balafia",
+   "provincia": "Lleida",
+   "direccion": "Carrer de la Cerdanya, 19, 25005 Lleida, España",
+   "url": "https://www.owkle.es/clubs/asociacio-esportiva-kick-boxing-lleida/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "ATENEA",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer del Rosselló, 102, Eixample, 08029 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/atenea/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "FULL CONTACT"
+   ]
+  },
+  {
+   "nombre": "AYUTTHAYA MUAYTHAI CLUB",
+   "localidad": "Tárrega",
+   "provincia": "Lleida",
+   "direccion": "Av. de la Generalitat, 3, 25300 Tàrrega, Lleida, España",
+   "url": "https://www.owkle.es/clubs/ayutthaya-muaythai-club/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "BCN TRAINING CENTER",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer del Maresme, 24-28, Sant Martí, 08019 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/bcn-training-center/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "BE TRYHARD",
+   "localidad": "Mataró",
+   "provincia": "Barcelona",
+   "direccion": "Ronda Mossèn Jacint Verdaguer, 51, 08304 Mataró, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/be-tryhard/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "BFIT BADALONA",
+   "localidad": "Badalona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de l'Escultor Salcillo, 3, 08917 Badalona, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/bfit-badalona/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "BOONCHUAY GYM",
+   "localidad": "Sant Boi De Llobregat",
+   "provincia": "Barcelona",
+   "direccion": "Carrer d'Eusebi Güell, 14, 08830 Sant Boi de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/boonchuay-gym/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "BOX GYM MANRESA",
+   "localidad": "Manresa",
+   "provincia": "Barcelona",
+   "direccion": "Carrer del Sol, 5, 08241 Manresa, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/box-gym-manresa/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "BOXING JOL",
+   "localidad": "Olesa de Montserrat",
+   "provincia": "Barcelona",
+   "direccion": "C. del Metge Carrera, 72, 08640 Olesa de Montserrat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/boxing-jol/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "BRAVE COAST MARTIAL ARTS",
+   "localidad": "Blanes",
+   "provincia": "Girona",
+   "direccion": "Ctra. Malgrat, 22, 17300 Blanes, Girona, España",
+   "url": "https://www.owkle.es/clubs/brave-coast-martial-arts/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "BUSHIDO DOJO",
+   "localidad": "Vallirana",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Cerdanya, 08759 Vallirana, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/bushido-dojo/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "DEFENSA PERSONAL",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "CAMPIO CLUB XPERIENCE",
+   "localidad": "Sabadell",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Leonardo da Vinci, 35, 08204 Sabadell, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/campio-club-xperience/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "CERDANYOLA FIGHT CLUB",
+   "localidad": "Cerdanyola del Vallès",
+   "provincia": "Barcelona",
+   "direccion": "Ronda De Cerdanyola, 13, 08290 Cerdanyola del Vallès, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/cerdanyola-fight-club/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "CLUB BOXA LLICA DE MUNT",
+   "localidad": "Lliça de Munt",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Josep Carner, 79, 08186 Lliça de Munt, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-boxa-llica-de-munt/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "CLUB DE BOXA SANT FELIU DE CODINES",
+   "localidad": "Sant Feliu de Codines",
+   "provincia": "Barcelona",
+   "direccion": "Plaça Josep Umbert Ventura, 4, 08182 Sant Feliu de Codines, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-de-boxa-sant-feliu-de-codines/",
+   "disciplinas_owkle": [
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "CLUB DE LUCHA GARRA",
+   "localidad": "Bellvei",
+   "provincia": "Tarragona",
+   "direccion": "Avinguda Bellvei, 11, 43719 Bellvei, Tarragona, España",
+   "url": "https://www.owkle.es/clubs/club-de-lucha-garra/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "CLUB DEPORTIVO VERSUS",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Ventalo, 8, 08025 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-deportivo-versus/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "CLUB ESPORTIU BRUC FITNESS (DAYTHON)",
+   "localidad": "L’Hospitalet",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Bruc, 20, 08901 L'Hospitalet de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-esportiu-bruc-fitness-daython/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "CLUB ESPORTIU D’ARTS MARCIALS XAVI NADAL",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Siracusa, 5, Gràcia, 08012 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-esportiu-darts-marcials-xavi-nadal/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "KRAV MAGA",
+    "DEFENSA PERSONAL"
+   ]
+  },
+  {
+   "nombre": "CLUB ESPORTIU DE LLUITA VILAFRANCA",
+   "localidad": "Vilafranca del Penedés",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de la Múnia, 30, 08720 Vilafranca del Penedès, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-esportiu-de-lluita-vilafranca/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "CLUB ESPORTIU K1 BLANES",
+   "localidad": "Blanes",
+   "provincia": "Girona",
+   "direccion": "Mas Cuni, 17, 17300 Blanes, Girona, España",
+   "url": "https://www.owkle.es/clubs/club-esportiu-k1-blanes/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "CLUB ESPORTIU KICK BARCELONA",
+   "localidad": "L’Hospitalet",
+   "provincia": "Barcelona",
+   "direccion": "Local 2, Carrer Modern, 23-29, 08902 L'Hospitalet de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-esportiu-kick-barcelona/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "CLUB ESPORTIU SISTRELLS",
+   "localidad": "Badalona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer d'Eduard Maristany, 71, 08912 Badalona, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-esportiu-sistrells/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "CLUB ESPORTIU ZEN TAO",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Neptuno, 39, 08006 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-esportiu-zen-tao/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "CLUB FIGHTERS PALAU",
+   "localidad": "Santa Maria de Palautordera",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Martí i Julià, 10, 08460 Santa Maria de Palautordera, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-fighters-palau/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "CLUB KICK ADRIMA GLADIUS",
+   "localidad": "Esplugues de Llobregat",
+   "provincia": "Barcelona",
+   "direccion": "Av. de Cornellà, 135, 08950 Esplugues de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-kick-adrima-gladius/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "CLUB KICK BOXING VILASSAR",
+   "localidad": "Vilassar",
+   "provincia": "Barcelona",
+   "direccion": "<a",
+   "url": "https://www.owkle.es/clubs/club-kick-boxing-vilassar/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "CLUB LLAGOSTERA",
+   "localidad": "Llagostera",
+   "provincia": "Barcelona",
+   "direccion": "Av. de l'Esport, 39, 17240 Llagostera, Girona, España",
+   "url": "https://www.owkle.es/clubs/club-llagostera/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "CLUB LLUITA AMPOSTA",
+   "localidad": "Amposta",
+   "provincia": "Tarragona",
+   "direccion": "Carrer Itàlia, 1, 43870 Amposta, Tarragona, España",
+   "url": "https://www.owkle.es/clubs/club-lluita-amposta/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "DEFENSA PERSONAL",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "CLUB MUAY THAI DOSRIUS",
+   "localidad": "Dosrius",
+   "provincia": "Barcelona",
+   "direccion": "Escola Castell de Dosrius, Carrer de l'1 d'Octubre, Dosrius, Barcelona",
+   "url": "https://www.owkle.es/clubs/club-muay-thai-dosrius/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "CLUB MUYTHAI I BOXA CAMBRILS",
+   "localidad": "Cambrils",
+   "provincia": "Tarragona",
+   "direccion": "Av. del Baix Camp, 22, 43850 Cambrils, Tarragona, España",
+   "url": "https://www.owkle.es/clubs/club-muythai-i-boxa-cambrils/",
+   "disciplinas_owkle": [
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "CLUB SANT MARTÍ DE SARROCA",
+   "localidad": "Sant Martí de Sarroca",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de la Font, 11, 08731 Sant Martí Sarroca, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-sant-marti-de-sarroca/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "CLUB TORRELLES DE FOIX",
+   "localidad": "Torrelles de Foix",
+   "provincia": "Barcelona",
+   "direccion": "Plaça de la Vila, 1, 08737 Torrelles de Foix, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/club-torrelles-de-foix/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "CLUB UPPERCUT LLEIDA (GIMNAS CAP PONT)",
+   "localidad": "Lleida",
+   "provincia": "Lleida",
+   "direccion": "Carrer Riu Llobregat, 3, 25001 Lleida, España",
+   "url": "https://www.owkle.es/clubs/club-uppercut-lleida-gimnas-cap-pont/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "COMBAT WOLF CREW",
+   "localidad": "Sant Boi De Llobregat",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Jaume Balmes, 43, 08830 Sant Boi de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/combat-wolf-crew/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "COSTA FIT",
+   "localidad": "Calella",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Jovara, 64, 08370 Calella, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/costa-fit/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "D. CORPAS",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "<a",
+   "url": "https://www.owkle.es/clubs/d-corpas/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "DKSR – CLUB DEPORTIVO PARALELO",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Salvà, 17, Sants-Montjuïc, 08004 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/dksr-club-deportivo-paralelo/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "DOJO CERVANTES",
+   "localidad": "Mataró",
+   "provincia": "Barcelona",
+   "direccion": "Plaça de l'Assemblea de Catalunya, 1, 08302 Mataró, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/dojo-cervantes/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "DOUBLE HIT",
+   "localidad": "Molins de Rei",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Sant Isidre, 21, 08750 Molins de Rei, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/double-hit/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "DYM BADALONA",
+   "localidad": "Badalona",
+   "provincia": "Barcelona",
+   "direccion": "Plaça de la Marinada, 1, 08911 Badalona, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/dym-badalona/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "ENERGYM LLINARS",
+   "localidad": "Llinars del Vallès",
+   "provincia": "Barcelona",
+   "direccion": "Av. Pau Casals, :28-30, 08450 Llinars del Vallès, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/energym-llinars/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "ESCUELA YERAY",
+   "localidad": "Lliça de Munt",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Josep Carner, 39, 08186 Can Lledó, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/escuela-yeray/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "ESPORT ROGENT",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Rogent, 11, 08026 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/esport-rogent/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "ESPORTIU BADRENA",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Galileu, 142, Sants-Montjuïc, 08014 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/esportiu-badrena/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "ESTUDI ARTS MARCIALS K2",
+   "localidad": "Vic",
+   "provincia": "Barcelona",
+   "direccion": "Ctra. de la Guixa, 27, 08500 Vic, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/estudi-arts-marcials-k2/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "BJJ / GRAPPLING",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "FARO FITNESS CENTER",
+   "localidad": "Reus",
+   "provincia": "Tarragona",
+   "direccion": "Carrer de Balmes, 21, 43204 Reus, Tarragona, España",
+   "url": "https://www.owkle.es/clubs/faro-fitness-center/",
+   "disciplinas_owkle": [
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "FIGHTERS TEAM LLEIDA",
+   "localidad": "Lleida",
+   "provincia": "Lleida",
+   "direccion": "Carrer de Roca Labrador, 21, 25003 Lleida, España",
+   "url": "https://www.owkle.es/clubs/fighters-team-lleida/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "FUERZA Y HONOR",
+   "localidad": "Salou",
+   "provincia": "Tarragona",
+   "direccion": "Carrer de les Sínies, 8, 43840 Salou, Tarragona, España",
+   "url": "https://www.owkle.es/clubs/fuerza-y-honor/",
+   "disciplinas_owkle": [
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "FURIO JOL",
+   "localidad": "Vilanova del Camí",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Manresa, 27, 08788 Vilanova del Camí, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/furio-jol/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "GI TRAINING CAMP",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Gran Via de les Corts Catalanes, 1097, Sant Martí, 08020 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/gi-training-camp/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "GIMDANTAE",
+   "localidad": "Montgat",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Francesc Moragas, 3, 08390 Montgat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/gimdantae/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "GIMNAS ESPORT – 7",
+   "localidad": "Manresa",
+   "provincia": "Barcelona",
+   "direccion": "Carrer del Flor de Lis, 34, 08242 Manresa, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/gimnas-esport-7/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "GIMNASIO E-BOX",
+   "localidad": "Igualada",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Masquefa, 9, 08700 Igualada, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/gimnasio-e-box/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "GYM PRO KICK SANT ADRIA",
+   "localidad": "Sant Adrià del Besos",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Josep Royo, 24, 08930 Sant Adrià de Besòs, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/gym-pro-kick-sant-adria/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "KRAV MAGA"
+   ]
+  },
+  {
+   "nombre": "GYM V20",
+   "localidad": "Sant Fruitós del Vallès",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Barcelona, 58, 08272 Sant Fruitós de Bages, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/gym-v20/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "HONOR  GYM",
+   "localidad": "Piera",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Sant Bonifaci, 53, 08784 Piera, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/honor-gym/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "HOOK SCHOOL – CLUB BOXA MANLLEU",
+   "localidad": "Manlleu",
+   "provincia": "Barcelona",
+   "direccion": "Carrer del Serpent, 27, 08560 Manlleu, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/hook-school-club-boxa-manlleu/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "IMPERIA BY ALVARO CAMPOS",
+   "localidad": "Sallent",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Tomàs Viladomiu, 54, 08650 Sallent, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/imperia-by-alvaro-campos/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "INTERNTACIONAL GYM",
+   "localidad": "Canovelles",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Juan de la Cierva, 6, 08420 Canovelles, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/interntacional-gym/",
+   "disciplinas_owkle": [
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "INVICTUS 69 CORNELLA",
+   "localidad": "Cornellà de Llobregat",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Joaquim Rubió i Ors, 21, 08940 Cornellà de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/invictus-69-cornella/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1",
+    "BJJ / GRAPPLING"
+   ]
+  },
+  {
+   "nombre": "IRON GYM BADALONA",
+   "localidad": "Badalona",
+   "provincia": "Barcelona",
+   "direccion": "Ctra. Antiga de València, 43-45, Ático 4, 08914 Badalona, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/iron-gym-badalona/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "J.A. VARONA",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Avinguda de Rio de Janeiro, 76, Nou Barris, 08016 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/j-a-varona/",
+   "disciplinas_owkle": [
+    "XTRIKE COMBAT SUPER LEAGUE",
+    "SAVATE",
+    "PANKRATION",
+    "MMA PROFESIONAL",
+    "KUDO",
+    "KICK BOXING / K1",
+    "FULL CONTACT",
+    "CARDIO KICKBOXING",
+    "BJJ / GRAPPLING",
+    "XTREM",
+    "TAI JITSU",
+    "NIPPON KEMPO KYOKAI",
+    "LARAW KALI PAMUOK",
+    "KRAV MAGA",
+    "KAJUKENBO",
+    "DEFENSA PERSONAL OPERATIVA",
+    "DEFENSA PERSONAL",
+    "DEFCON MUNGOT",
+    "BYAKUREN KARATE KAIKAN",
+    "TAEKWON DO",
+    "KUNG FU",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "JK BOXING",
+   "localidad": "Badalona",
+   "provincia": "Barcelona",
+   "direccion": "Passeig de la Salut, 102, 08914 Badalona, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/jk-boxing/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "K1 FIGHTERS TEAM",
+   "localidad": "L’Hospitalet",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Santiago Ramon y Cajal, 1, 08902 L'Hospitalet de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/k1-fighters-team/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "KAI ZEN TRAINING CAMP",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de la Ferreria, 9, Sants-Montjuïc, 08014 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/kai-zen-training-camp/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "KALUOSI FIGHT CLUB",
+   "localidad": "Mollet del Vallès",
+   "provincia": "Barcelona",
+   "direccion": "Kaluosi Sport Club, Carrer d'Alexander Fleming, 33, 08100 Mollet del Vallès, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/kaluosi-fight-club/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "KARATE BUDO KENRYUDO ROSES",
+   "localidad": "Roses",
+   "provincia": "Girona",
+   "direccion": "Carrer Eugeni d'Ors, 9, 17488 Cadaqués, Girona, España",
+   "url": "https://www.owkle.es/clubs/karate-budokenryudo-roses/",
+   "disciplinas_owkle": [
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "KEN RYU",
+   "localidad": "Sant Boi De Llobregat",
+   "provincia": "Barcelona",
+   "direccion": "Avinguda de la Torre de la Vila, 27, 08830 Sant Boi de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/ken-ryu/",
+   "disciplinas_owkle": [
+    "SAVATE",
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "KICK BOXING & MUAY THAI TARRAGONA",
+   "localidad": "Tarragona",
+   "provincia": "Tarragona",
+   "direccion": "Carrer del Taquígraf Martí, 12, 43002 Tarragona, España",
+   "url": "https://www.owkle.es/clubs/kick-boxing-muay-thai-tarragona/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "LA GARRIGA BRAZILIAN JIU JITSU  & GRAPPLING (C.A.L.G.)",
+   "localidad": "La Garriga",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Rocabuquera, 78, 08530 La Garriga, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/la-garriga-brazilian-jiu-jitsu-grappling-c-a-l-g/",
+   "disciplinas_owkle": [
+    "BJJ / GRAPPLING",
+    "DEFENSA PERSONAL"
+   ]
+  },
+  {
+   "nombre": "LA SALA MMA",
+   "localidad": "Santa Maria de Palautordera",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Fluvià, 13, 08460 Santa Maria de Palautordera, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/la-sala-mma/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "LAS CUERDAS DEL CARMELO",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer d'Arbós, 25, Horta-Guinardó, 08032 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/las-cuerdas-del-carmelo/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "LARAW KALI PAMUOK",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "LOKER’S TEAM",
+   "localidad": "Castell d'Aro",
+   "provincia": "Girona",
+   "direccion": "<a",
+   "url": "https://www.owkle.es/clubs/lokers-team/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "LOOKPRAKARN",
+   "localidad": "Malgrat de Mar",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Josep Maria Folch i Torres, 25, 08380 Malgrat de Mar, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/lookprakarn/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "M.T. CLUB VIDA EN FORMA",
+   "localidad": "Sant Celoni",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Campins, 61, 08470 Sant Celoni, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/m-t-club-vida-en-forma/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "MAKI THAI",
+   "localidad": "Vilafranca del Penedés",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Valls, 15, 08720 Vilafranca del Penedès, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/maki-thai/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "MUAY KHAO REUS",
+   "localidad": "Reus",
+   "provincia": "Tarragona",
+   "direccion": "Vallespinosa Salvat, Carrer Bonaventura Vallespino, 6, 43204 Reus, Tarragona, España",
+   "url": "https://www.owkle.es/clubs/muay-khao-reus/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "MUAY SIAM",
+   "localidad": "Sant Martí de Sarroca",
+   "provincia": "Barcelona",
+   "direccion": "Av. de Josep Anselm Clavé, 66, 08731 Sant Martí Sarroca, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/muay-siam/",
+   "disciplinas_owkle": [
+    "DEFENSA PERSONAL",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "MUAY THAI ARENYS",
+   "localidad": "Arenys de Mar",
+   "provincia": "Barcelona",
+   "direccion": "Mortal, 6, 08350 Arenys de Mar, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/muay-thai-arenys/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "MUAY THAI AYUTTHAYA PALAFOLLS",
+   "localidad": "Palafolls",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Roig i Jalpí, 20, 08389 Palafolls, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/muay-thai-ayutthaya-palafolls/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "MUAY THAI BANGKOK",
+   "localidad": "Canet de Mar",
+   "provincia": "Barcelona",
+   "direccion": "Riera Gavarra, 84, 08360 Canet de Mar, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/muay-thai-bangkok/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BJJ / GRAPPLING",
+    "BOXEO",
+    "MUAY THAI",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "MUAY THAI ROYALTY FITNESS FIRST",
+   "localidad": "Granollers",
+   "provincia": "Barcelona",
+   "direccion": "<a",
+   "url": "https://www.owkle.es/clubs/muay-thai-royalty-fitness-first/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "MUAY THAI RUBI",
+   "localidad": "Rubí",
+   "provincia": "Barcelona",
+   "direccion": "Av. Castellbisbal, 74, 08191 Rubí, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/muay-thai-rubi/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "NACIONAL FITNESS LLEIDA",
+   "localidad": "Lleida",
+   "provincia": "Lleida",
+   "direccion": "Av. Alcalde Rovira Roure, 87, 25199 Lleida, España",
+   "url": "https://www.owkle.es/clubs/nacional-fitness-lleida/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "NAK SU THAI",
+   "localidad": "San Celoni",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Esteve Brunell, 2, 08470 Sant Celoni, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/nak-su-thai/",
+   "disciplinas_owkle": [
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "NAKROB MUAY THAI BANYOLES",
+   "localidad": "Banyoles",
+   "provincia": "Girona",
+   "direccion": "Avinguda Països Catalans, 191, 1-3, 17820 Banyoles, Girona, España",
+   "url": "https://www.owkle.es/clubs/nakrob-muay-thai-banyoles/",
+   "disciplinas_owkle": [
+    "DEFENSA PERSONAL",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "NIPPON",
+   "localidad": "El Prat De Llobregat",
+   "provincia": "Barcelona",
+   "direccion": "Castilla, 50- 54. 08820 El Prat De Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/nippon/",
+   "disciplinas_owkle": [
+    "NIPPON KEMPO KYOKAI"
+   ]
+  },
+  {
+   "nombre": "OCTOGON SPORT CENTER",
+   "localidad": "Martorell",
+   "provincia": "Barcelona",
+   "direccion": "Av. Germans Martí, 1, 08760 Martorell, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/octogon-sport-center/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1",
+    "BJJ / GRAPPLING",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "OSO FIGHTERS TEAM",
+   "localidad": "Sant Andreu de la Barca",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Almería, 34, 08740 Sant Andreu de la Barca, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/oso-fighters-team/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "PAIN & GAIN",
+   "localidad": "La Garriga",
+   "provincia": "Barcelona",
+   "direccion": "Passatge Anselm Clavé, 4, 08530 La Garriga, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/pain-gain/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "PURO IMPACTO",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Puerto Príncipe, 26, Sant Andreu, 08027 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/gym-puro-impacto/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "RAYO BOX",
+   "localidad": "Santa Cristina d’Aro",
+   "provincia": "Girona",
+   "direccion": "Sta. Cristina D'aro, Mas Josep (Dir. Castell), 17246, Girona, España",
+   "url": "https://www.owkle.es/clubs/rayo-box/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "RAYO TEAM",
+   "localidad": "Collbató",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Migdia, 11, 08293 Collbató, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/rayo-team/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "REUS FIGHT CLUB",
+   "localidad": "Reus",
+   "provincia": "Tarragona",
+   "direccion": "Av. del President Companys, 6, 43201 Reus, Tarragona, España",
+   "url": "https://www.owkle.es/clubs/reus-fight-club/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "RYU CENTRE GIRONA",
+   "localidad": "Girona",
+   "provincia": "Girona",
+   "direccion": "Carrer del Riu Güell, 10, 17001 Girona, España",
+   "url": "https://www.owkle.es/clubs/ryu-centre-girona/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1",
+    "BOXEO",
+    "KARATE"
+   ]
+  },
+  {
+   "nombre": "SASORI",
+   "localidad": "Santa Perpètua de Mogoda",
+   "provincia": "Barcelona",
+   "direccion": "Avinguda de Santiga, 11, 08130 Santa Perpètua de Mogoda, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/sasori/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "SAUS",
+   "localidad": "Cornellà de Llobregat",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de I'Empordanès, 43, 08940 Cornellà de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/saus/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "SENSHI NO MICHI",
+   "localidad": "Vilanova i la Geltrú",
+   "provincia": "Barcelona",
+   "direccion": "Av. de Jaume Balmes, 18, 08800 Vilanova i la Geltrú, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/senshi-no-michi/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "SHEILA MARTIAL ARTS ACADEMY",
+   "localidad": "Vilanova i la Geltrú",
+   "provincia": "Barcelona",
+   "direccion": "Av. de Jaume Balmes, 18, 08800 Vilanova i la Geltrú, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/sheila-martial-arts-academy/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "SHINGI-KAI",
+   "localidad": "Palafrugell",
+   "provincia": "Girona",
+   "direccion": "Carrer d'en Vela, 2, 17200 Palafrugell, Girona, España",
+   "url": "https://www.owkle.es/clubs/shingi-kai/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "SPARTA BCN FIGHT CLUB",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Gran de Sant Andreu, 505, Sant Andreu, 08030 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/sparta-bcn-fight-club/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KUDO",
+    "BJJ / GRAPPLING"
+   ]
+  },
+  {
+   "nombre": "SPORT GYM",
+   "localidad": "Badalona",
+   "provincia": "Barcelona",
+   "direccion": "Ctra. Antiga de València, 42, 08914 Santa Coloma de Gramenet, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/sport-gym/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "SRK FIGHT CLUB",
+   "localidad": "Sarroca de Lleida",
+   "provincia": "Lleida",
+   "direccion": "Carrer Montsenyor Vilaplana, 34, 25175 Sarroca de Lleida, Lleida, España",
+   "url": "https://www.owkle.es/clubs/muay-thai-sarroca-de-lleida/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "STRIKING TIME",
+   "localidad": "Badalona",
+   "provincia": "Barcelona",
+   "direccion": "Rambla de Sant Joan, 101, 08917 Badalona, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/striking-time/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "T.M.C.",
+   "localidad": "Girona",
+   "provincia": "Girona",
+   "direccion": "Carrer Can Pau Birol, 12, Bj, 17005 Girona, España",
+   "url": "https://www.owkle.es/clubs/t-m-c/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "BJJ / GRAPPLING",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "TEAM DAHBI",
+   "localidad": "Reus",
+   "provincia": "Tarragona",
+   "direccion": "Carrer de Jovellanos, 12, 43201 Reus, Tarragona, España",
+   "url": "https://www.owkle.es/clubs/team-dahbi/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "TEAM DO-CHAN",
+   "localidad": "Sant Andres de la Barca",
+   "provincia": "Barcelona",
+   "direccion": "Carrer del Perú, 2, 08740 Sant Andreu de la Barca, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/team-do-chan/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "TEAM PRIMI OLMO",
+   "localidad": "Sant Joan de Villatorrada",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Rafael de Casanova, 5, 08250 Sant Joan de Vilatorrada, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/team-primi-olmo/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "TEAM VICTOR NUÑEZ",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Gran Via de les Corts Catalanes, 1016, Sant Martí, 08020 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/team-victor-nunez/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "TEMPLO GYM",
+   "localidad": "Torroella de Montgrí",
+   "provincia": "Girona",
+   "direccion": "Carretera de Torroella, 4, 17258 Torroella de Montgrí, Girona, España",
+   "url": "https://www.owkle.es/clubs/templo-gym/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "TEMPLUM BCN",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer d'Entença, 113, L'Eixample, 08015 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/templum-bcn/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "THE ACADEMY BARCELONA",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Roc Boronat, 66, Sant Martí, 08005 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/the-academy-barcelona/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BJJ / GRAPPLING"
+   ]
+  },
+  {
+   "nombre": "THE SHADOW FIGHTERS",
+   "localidad": "Terrassa",
+   "provincia": "Barcelona",
+   "direccion": "Ctra. de Rellinars, 169, 08225 Terrassa, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/the-shadow-fighters/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BJJ / GRAPPLING",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "THE WARRIORS MARTIAL ARTS CLUB",
+   "localidad": "L’Hospitalet",
+   "provincia": "Barcelona",
+   "direccion": "Carrer del Doctor Martí Julià, 58, 08903 L'Hospitalet de Llobregat, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/the-warriors-martial-arts-club/",
+   "disciplinas_owkle": [
+    "MMA PROFESIONAL",
+    "KICK BOXING / K1",
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "THE WHITE MONKEY",
+   "localidad": "Mataró",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Méndez Núñez, 12, 08302 Mataró, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/the-white-monkey/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "TOP MOTION",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer d'en Grassot, 64, Gràcia, 08025 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/top-motion/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "TOP MOTION",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer d'en Grassot, 64, Gràcia, 08025 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/top-motion-2/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "TOPTEAM FIGHT & FITNESS",
+   "localidad": "La Canya",
+   "provincia": "Girona",
+   "direccion": "Avinguda d'Olot, 33, 17858 La Canya, Girona, España",
+   "url": "https://www.owkle.es/clubs/topteam-fight-fitness/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "URBAN WARRIORS",
+   "localidad": "Girona",
+   "provincia": "Girona",
+   "direccion": "Carrer del Montseny, 8, 17006 Girona, España",
+   "url": "https://www.owkle.es/clubs/urban-warriors/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "VALLES BOXING TEAM",
+   "localidad": "Sant Quirze del Vallès",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Nou, 38, 08192 Sant Quirze del Vallès, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/valles-boxing-team/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1",
+    "BJJ / GRAPPLING",
+    "BOXEO"
+   ]
+  },
+  {
+   "nombre": "WON’S BARCELONA",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer de Sant Frederic, 1, Sants-Montjuïc, 08028 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/wons-barcelona/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "WONS 2000",
+   "localidad": "Mataró",
+   "provincia": "Barcelona",
+   "direccion": "Carrer Créteil, 29, 08304 Mataró, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/wons-2000/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  },
+  {
+   "nombre": "XFIT EIXAMPLE FITNESS",
+   "localidad": "Barcelona",
+   "provincia": "Barcelona",
+   "direccion": "Carrer d'Entença, 102, L'Eixample, 08015 Barcelona, España",
+   "url": "https://www.owkle.es/clubs/eixample-fitness/",
+   "disciplinas_owkle": [
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "Z GYM DIAZ",
+   "localidad": "Castelldefels",
+   "provincia": "Barcelona",
+   "direccion": "General Palafols, 14. 08860 Castelldefels. Barcelona, España",
+   "url": "https://www.owkle.es/clubs/z-gym-diaz/",
+   "disciplinas_owkle": [
+    "BOXEO",
+    "MUAY THAI"
+   ]
+  },
+  {
+   "nombre": "Z GYM DIAZ",
+   "localidad": "Castelldefels",
+   "provincia": "Barcelona",
+   "direccion": "Carrer del General Palafox, 14, 08860 Castelldefels, Barcelona, España",
+   "url": "https://www.owkle.es/clubs/z-gym-diaz-2/",
+   "disciplinas_owkle": [
+    "KICK BOXING / K1"
+   ]
+  }
+ ]
+}

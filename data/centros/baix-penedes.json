@@ -37,6 +37,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-de-lucha-garra",
+  "nombre": "Club de Lucha Garra",
+  "tipo": "club",
+  "municipio": "bellvei",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "direccion": "Avinguda Bellvei, 11, 43719 Bellvei, Tarragona",
+  "fuente": "https://www.owkle.es/clubs/club-de-lucha-garra/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-arts-marcials-sancho",
   "nombre": "Club Esportiu Arts Marcials Sancho",
   "tipo": "club",

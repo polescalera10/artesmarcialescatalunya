@@ -1,5 +1,20 @@
 [
  {
+  "slug": "ares-arena",
+  "nombre": "Ares Arena",
+  "tipo": "gimnasio",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Carrer de Can Flequer, 6, 08100 Mollet del Vallès, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/ares-arena/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "asociacion-wing-chun-wong-shun-leung-mollet",
   "nombre": "Asociación de Wing Chun Kung Fu Wong Shun Leung",
   "tipo": "asociacion",
@@ -140,6 +155,33 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-llica-de-munt",
+  "nombre": "Club Boxa Llica de Munt",
+  "tipo": "club",
+  "municipio": "llica-damunt",
+  "disciplinas": [
+   "kickboxing",
+   "mma"
+  ],
+  "direccion": "Carrer de Josep Carner, 79, 08186 Lliça de Munt, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/club-boxa-llica-de-munt/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-sant-feliu-de-codines",
+  "nombre": "Club de Boxa Sant Feliu de Codines",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-codines",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Plaça Josep Umbert Ventura, 4, 08182 Sant Feliu de Codines, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/club-de-boxa-sant-feliu-de-codines/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-kendo-cardedeu",
@@ -581,6 +623,20 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "la-garriga-brazilian-jiu-jitsu-grappling-c-a-l-g",
+  "nombre": "La Garriga Brazilian Jiu Jitsu & Grappling (C.A.L.G.)",
+  "tipo": "gimnasio",
+  "municipio": "la-garriga",
+  "disciplinas": [
+   "defensa-personal",
+   "grappling"
+  ],
+  "direccion": "Carrer de Rocabuquera, 78, 08530 La Garriga, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/la-garriga-brazilian-jiu-jitsu-grappling-c-a-l-g/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "la-llagosta-karate",
   "nombre": "La Llagosta Karate",
   "tipo": "escuela",
@@ -591,6 +647,22 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "la-sala-mma",
+  "nombre": "La Sala MMA",
+  "tipo": "gimnasio",
+  "municipio": "santa-maria-de-palautordera",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "mma",
+   "muay-thai"
+  ],
+  "direccion": "Carrer Fluvià, 13, 08460 Santa Maria de Palautordera, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/la-sala-mma/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "lee-young-parets",
@@ -604,6 +676,33 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "m-t-club-vida-en-forma",
+  "nombre": "M.T. Club Vida en Forma",
+  "tipo": "club",
+  "municipio": "sant-celoni",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Carrer Campins, 61, 08470 Sant Celoni, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/m-t-club-vida-en-forma/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "muay-thai-royalty-fitness-first",
+  "nombre": "Muay Thai Royalty Fitness First",
+  "tipo": "gimnasio",
+  "municipio": "granollers",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://www.owkle.es/clubs/muay-thai-royalty-fitness-first/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "nak-su-thai-sant-celoni",
@@ -642,6 +741,19 @@
   "fuente": "https://ohanataekwondo.com/cursos/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "pain-gain",
+  "nombre": "Pain & Gain",
+  "tipo": "gimnasio",
+  "municipio": "la-garriga",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Passatge Anselm Clavé, 4, 08530 La Garriga, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/pain-gain/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "seok",

@@ -176,6 +176,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-llagostera",
+  "nombre": "Club Llagostera",
+  "tipo": "club",
+  "municipio": "llagostera",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Av. de l'Esport, 39, 17240 Llagostera, Girona",
+  "fuente": "https://www.owkle.es/clubs/club-llagostera/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-malayo-boxing",
   "nombre": "Club Malayo Boxing",
   "tipo": "club",
@@ -410,6 +423,19 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=TMC",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "urban-warriors",
+  "nombre": "Urban Warriors",
+  "tipo": "gimnasio",
+  "municipio": "girona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer del Montseny, 8, 17006 Girona",
+  "fuente": "https://www.owkle.es/clubs/urban-warriors/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "yi-jin-tao",

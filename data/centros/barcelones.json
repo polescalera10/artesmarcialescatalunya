@@ -277,6 +277,19 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "atenea",
+  "nombre": "Atenea",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer del Rosselló, 102, Eixample, 08029 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/atenea/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "bam-chun",
   "nombre": "Bam Chun",
   "tipo": "escuela",
@@ -330,6 +343,32 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "bcn-training-center",
+  "nombre": "BCN Training Center",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer del Maresme, 24-28, Sant Martí, 08019 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/bcn-training-center/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "bfit-badalona",
+  "nombre": "Bfit Badalona",
+  "tipo": "gimnasio",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer de l'Escultor Salcillo, 3, 08917 Badalona, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/bfit-badalona/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "brave-martial-arts",
@@ -809,6 +848,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-deportivo-versus",
+  "nombre": "Club Deportivo Versus",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Ventalo, 8, 08025 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/club-deportivo-versus/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-badalona-fighters",
   "nombre": "Club Esportiu Badalona Fighters",
   "tipo": "club",
@@ -834,6 +886,21 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-darts-marcials-xavi-nadal",
+  "nombre": "Club Esportiu D'Arts Marcials Xavi Nadal",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "kickboxing",
+   "krav-maga"
+  ],
+  "direccion": "Carrer de Siracusa, 5, Gràcia, 08012 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/club-esportiu-darts-marcials-xavi-nadal/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-de-lluites-olimpiques-hayastan",
@@ -1058,6 +1125,19 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-esportiu-zen-tao",
+  "nombre": "Club Esportiu Zen Tao",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Neptuno, 39, 08006 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/club-esportiu-zen-tao/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-gimnas-judo-condal",
@@ -1330,6 +1410,21 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "dksr-club-deportivo-paralelo",
+  "nombre": "DKSR – Club Deportivo Paralelo",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "mma"
+  ],
+  "direccion": "Carrer de Salvà, 17, Sants-Montjuïc, 08004 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/dksr-club-deportivo-paralelo/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "dojo-chowa-bcn",
   "nombre": "Dojo Chowa BCN",
   "tipo": "escuela",
@@ -1414,6 +1509,20 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "dym-badalona",
+  "nombre": "DYM Badalona",
+  "tipo": "gimnasio",
+  "municipio": "badalona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "direccion": "Plaça de la Marinada, 1, 08911 Badalona, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/dym-badalona/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "el-petit-bosc",
@@ -1624,6 +1733,20 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "gi-training-camp",
+  "nombre": "Gi Training Camp",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "direccion": "Gran Via de les Corts Catalanes, 1097, Sant Martí, 08020 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/gi-training-camp/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "gimnas-club-francas",
   "nombre": "Gimnàs Club Francàs",
   "tipo": "gimnasio",
@@ -1675,6 +1798,20 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=GRACIE",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "gym-pro-kick-sant-adria",
+  "nombre": "Gym Pro Kick Sant Adria",
+  "tipo": "gimnasio",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "kickboxing",
+   "krav-maga"
+  ],
+  "direccion": "Carrer de Josep Royo, 24, 08930 Sant Adrià de Besòs, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/gym-pro-kick-sant-adria/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "han-ra",
@@ -1741,6 +1878,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "iron-gym-badalona",
+  "nombre": "Iron Gym Badalona",
+  "tipo": "gimnasio",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Ctra. Antiga de València, 43-45, Ático 4, 08914 Badalona, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/iron-gym-badalona/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "j-martinez-sport-center",
   "nombre": "J. Martínez Sport Center",
   "tipo": "gimnasio",
@@ -1751,6 +1901,20 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "jk-boxing",
+  "nombre": "JK Boxing",
+  "tipo": "gimnasio",
+  "municipio": "badalona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "direccion": "Passeig de la Salut, 102, 08914 Badalona, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/jk-boxing/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "judo-club-hospitalet",
@@ -1779,6 +1943,19 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "k1-fighters-team",
+  "nombre": "K1 Fighters Team",
+  "tipo": "gimnasio",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer de Santiago Ramon y Cajal, 1, 08902 L'Hospitalet de Llobregat, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/k1-fighters-team/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "karate-club-accio-sant-marti",
@@ -1918,6 +2095,22 @@
   "fuente": "https://krav360.com/centro-krav360/sant-andreu-nou-barris/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "las-cuerdas-del-carmelo",
+  "nombre": "Las Cuerdas del Carmelo",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kali",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Carrer d'Arbós, 25, Horta-Guinardó, 08032 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/las-cuerdas-del-carmelo/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "lee-young-badalona",
@@ -2334,6 +2527,50 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "sparta-bcn-fight-club",
+  "nombre": "Sparta BCN Fight Club",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "otras": [
+   "Kudo"
+  ],
+  "direccion": "Carrer Gran de Sant Andreu, 505, Sant Andreu, 08030 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/sparta-bcn-fight-club/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "sport-gym",
+  "nombre": "Sport Gym",
+  "tipo": "gimnasio",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Ctra. Antiga de València, 42, 08914 Santa Coloma de Gramenet, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/sport-gym/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "striking-time",
+  "nombre": "Striking Time",
+  "tipo": "gimnasio",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Rambla de Sant Joan, 101, 08917 Badalona, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/striking-time/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "sutra-yoga-center",
   "nombre": "Sutra Yoga Center",
   "tipo": "escuela",
@@ -2344,6 +2581,20 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "team-victor-nunez",
+  "nombre": "Team Victor Nuñez",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Gran Via de les Corts Catalanes, 1016, Sant Martí, 08020 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/team-victor-nunez/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "templum-bcn",
@@ -2370,6 +2621,20 @@
   "fuente": "https://templumbcn.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "the-academy-barcelona",
+  "nombre": "The Academy Barcelona",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "grappling",
+   "kickboxing"
+  ],
+  "direccion": "Carrer de Roc Boronat, 66, Sant Martí, 08005 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/the-academy-barcelona/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "the-boxer-club-diagonal",
@@ -2409,6 +2674,20 @@
   "fuente": "https://www.warriorsmartialarts.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "top-motion",
+  "nombre": "Top Motion",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "direccion": "Carrer d'en Grassot, 64, Gràcia, 08025 Barcelona",
+  "fuente": "https://www.owkle.es/clubs/top-motion/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "union-fighters-team",

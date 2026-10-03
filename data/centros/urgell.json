@@ -1,5 +1,18 @@
 [
  {
+  "slug": "ayutthaya-muaythai-club",
+  "nombre": "Ayutthaya Muaythai Club",
+  "tipo": "club",
+  "municipio": "tarrega",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Av. de la Generalitat, 3, 25300 Tàrrega, Lleida",
+  "fuente": "https://www.owkle.es/clubs/ayutthaya-muaythai-club/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-ippon-bellpuig",
   "nombre": "Club Judo Ippon Bellpuig",
   "tipo": "club",

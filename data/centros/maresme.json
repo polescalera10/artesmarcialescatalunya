@@ -421,6 +421,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-muay-thai-dosrius",
+  "nombre": "Club Muay Thai Dosrius",
+  "tipo": "club",
+  "municipio": "dosrius",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Escola Castell de Dosrius, Carrer de l'1 d'Octubre, Dosrius, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/club-muay-thai-dosrius/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-resilience-jiu-jitsu-malgrat-de-mar",
   "nombre": "Club Resilience Jiu Jitsu Malgrat de Mar",
   "tipo": "club",
@@ -708,6 +721,49 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "muay-thai-arenys",
+  "nombre": "Muay Thai Arenys",
+  "tipo": "gimnasio",
+  "municipio": "arenys-de-mar",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Mortal, 6, 08350 Arenys de Mar, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/muay-thai-arenys/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "muay-thai-ayutthaya-palafolls",
+  "nombre": "Muay Thai Ayutthaya Palafolls",
+  "tipo": "gimnasio",
+  "municipio": "palafolls",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Carrer Roig i Jalpí, 20, 08389 Palafolls, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/muay-thai-ayutthaya-palafolls/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "muay-thai-bangkok",
+  "nombre": "Muay Thai Bangkok",
+  "tipo": "gimnasio",
+  "municipio": "canet-de-mar",
+  "disciplinas": [
+   "boxeo",
+   "grappling",
+   "karate",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Riera Gavarra, 84, 08360 Canet de Mar, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/muay-thai-bangkok/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "nanbudo-barcelona",
   "nombre": "Nanbudo Barcelona",
   "tipo": "escuela",
@@ -801,5 +857,18 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "wons-2000",
+  "nombre": "Wons 2000",
+  "tipo": "gimnasio",
+  "municipio": "mataro",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Créteil, 29, 08304 Mataró, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/wons-2000/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  }
 ]

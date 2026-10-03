@@ -371,6 +371,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "fuerza-y-honor",
+  "nombre": "Fuerza y Honor",
+  "tipo": "gimnasio",
+  "municipio": "salou",
+  "disciplinas": [
+   "karate"
+  ],
+  "direccion": "Carrer de les Sínies, 8, 43840 Salou, Tarragona",
+  "fuente": "https://www.owkle.es/clubs/fuerza-y-honor/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "gracie-barra-vila-seca",
   "nombre": "Gracie Barra Vila-Seca",
   "tipo": "escuela",

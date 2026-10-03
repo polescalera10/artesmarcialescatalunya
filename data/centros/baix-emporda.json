@@ -139,5 +139,44 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "lokers-team",
+  "nombre": "Loker's Team",
+  "tipo": "gimnasio",
+  "municipio": "platja-daro-i-sagaro-castell-daro",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://www.owkle.es/clubs/lokers-team/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "rayo-box",
+  "nombre": "Rayo Box",
+  "tipo": "gimnasio",
+  "municipio": "santa-cristina-daro",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Sta. Cristina D'aro, Mas Josep (Dir. Castell), 17246, Girona",
+  "fuente": "https://www.owkle.es/clubs/rayo-box/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "shingi-kai",
+  "nombre": "Shingi-Kai",
+  "tipo": "gimnasio",
+  "municipio": "palafrugell",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "direccion": "Carrer d'en Vela, 2, 17200 Palafrugell, Girona",
+  "fuente": "https://www.owkle.es/clubs/shingi-kai/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  }
 ]

@@ -181,6 +181,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "karate-budo-kenryudo-roses",
+  "nombre": "Karate Budo Kenryudo Roses",
+  "tipo": "gimnasio",
+  "municipio": "roses",
+  "disciplinas": [
+   "karate"
+  ],
+  "direccion": "Carrer Eugeni d'Ors, 9, 17488 Cadaqués, Girona",
+  "fuente": "https://www.owkle.es/clubs/karate-budokenryudo-roses/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "tae-sport",
   "nombre": "Tae Sport",
   "tipo": "escuela",

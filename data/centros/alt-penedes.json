@@ -105,6 +105,32 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-sant-marti-de-sarroca",
+  "nombre": "Club Sant Martí de Sarroca",
+  "tipo": "club",
+  "municipio": "sant-marti-sarroca",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer de la Font, 11, 08731 Sant Martí Sarroca, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/club-sant-marti-de-sarroca/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-torrelles-de-foix",
+  "nombre": "Club Torrelles de Foix",
+  "tipo": "club",
+  "municipio": "torrelles-de-foix",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Plaça de la Vila, 1, 08737 Torrelles de Foix, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/club-torrelles-de-foix/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "combat-sambo-vilafranca",
   "nombre": "Combat sambo Vilafranca",
   "tipo": "escuela",
@@ -140,6 +166,34 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "maki-thai",
+  "nombre": "Maki Thai",
+  "tipo": "gimnasio",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Carrer de Valls, 15, 08720 Vilafranca del Penedès, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/maki-thai/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "muay-siam",
+  "nombre": "Muay Siam",
+  "tipo": "gimnasio",
+  "municipio": "sant-marti-sarroca",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "muay-thai"
+  ],
+  "direccion": "Av. de Josep Anselm Clavé, 66, 08731 Sant Martí Sarroca, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/muay-siam/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "sambo-els-monjos",

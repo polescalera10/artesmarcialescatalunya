@@ -176,6 +176,21 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "estudi-arts-marcials-k2",
+  "nombre": "Estudi Arts Marcials K2",
+  "tipo": "gimnasio",
+  "municipio": "vic",
+  "disciplinas": [
+   "grappling",
+   "mma",
+   "muay-thai"
+  ],
+  "direccion": "Ctra. de la Guixa, 27, 08500 Vic, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/estudi-arts-marcials-k2/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "osona-judo-club",
   "nombre": "Osona Judo Club",
   "tipo": "escuela",

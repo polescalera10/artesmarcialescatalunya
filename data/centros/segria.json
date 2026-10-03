@@ -14,6 +14,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "asociacio-esportiva-kick-boxing-lleida",
+  "nombre": "Asociacio Esportiva Kick Boxing Lleida",
+  "tipo": "gimnasio",
+  "municipio": "lleida",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer de la Cerdanya, 19, 25005 Lleida",
+  "fuente": "https://www.owkle.es/clubs/asociacio-esportiva-kick-boxing-lleida/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "assoc-esportiva-ekke-lleida",
   "nombre": "Assoc Esportiva Ekke Lleida",
   "tipo": "escuela",
@@ -215,6 +228,19 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "fighters-team-lleida",
+  "nombre": "Fighters Team Lleida",
+  "tipo": "gimnasio",
+  "municipio": "lleida",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer de Roca Labrador, 21, 25003 Lleida",
+  "fuente": "https://www.owkle.es/clubs/fighters-team-lleida/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "bordeta",
   "nombre": "Gimnàs Bordeta",
   "tipo": "gimnasio",
@@ -319,5 +345,18 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=PTBJJ",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "srk-fight-club",
+  "nombre": "SRK Fight Club",
+  "tipo": "club",
+  "municipio": "sarroca-de-lleida",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Carrer Montsenyor Vilaplana, 34, 25175 Sarroca de Lleida, Lleida",
+  "fuente": "https://www.owkle.es/clubs/muay-thai-sarroca-de-lleida/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  }
 ]

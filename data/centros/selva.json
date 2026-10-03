@@ -28,6 +28,21 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "brave-coast-martial-arts",
+  "nombre": "Brave Coast Martial Arts",
+  "tipo": "gimnasio",
+  "municipio": "blanes",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Ctra. Malgrat, 22, 17300 Blanes, Girona",
+  "fuente": "https://www.owkle.es/clubs/brave-coast-martial-arts/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "c-e-thunders-girona",
   "nombre": "C. E. Thunders Girona",
   "tipo": "escuela",

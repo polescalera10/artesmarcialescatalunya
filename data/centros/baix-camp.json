@@ -215,6 +215,20 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-muythai-i-boxa-cambrils",
+  "nombre": "Club Muythai i Boxa Cambrils",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "boxeo",
+   "muay-thai"
+  ],
+  "direccion": "Av. del Baix Camp, 22, 43850 Cambrils, Tarragona",
+  "fuente": "https://www.owkle.es/clubs/club-muythai-i-boxa-cambrils/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-patxanguerus-dalforja-karate-kushin-kai",
   "nombre": "Club Patxanguerus d'Alforja Karate Kushin-Kai",
   "tipo": "club",
@@ -295,6 +309,20 @@
   "fuente": "https://www.choissport.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "faro-fitness-center",
+  "nombre": "Faro Fitness Center",
+  "tipo": "gimnasio",
+  "municipio": "reus",
+  "disciplinas": [
+   "boxeo",
+   "muay-thai"
+  ],
+  "direccion": "Carrer de Balmes, 21, 43204 Reus, Tarragona",
+  "fuente": "https://www.owkle.es/clubs/faro-fitness-center/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "fttspain",
@@ -390,6 +418,19 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "reus-fight-club",
+  "nombre": "Reus Fight Club",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Av. del President Companys, 6, 43201 Reus, Tarragona",
+  "fuente": "https://www.owkle.es/clubs/reus-fight-club/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "reus-team",
   "nombre": "Reus Team",
   "tipo": "gimnasio",
@@ -435,6 +476,19 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tar",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "team-dahbi",
+  "nombre": "Team Dahbi",
+  "tipo": "gimnasio",
+  "municipio": "reus",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Carrer de Jovellanos, 12, 43201 Reus, Tarragona",
+  "fuente": "https://www.owkle.es/clubs/team-dahbi/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "tiburon-fitness-club",

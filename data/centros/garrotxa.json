@@ -25,5 +25,18 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "topteam-fight-fitness",
+  "nombre": "Topteam Fight & Fitness",
+  "tipo": "gimnasio",
+  "municipio": "la-vall-den-bas",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Avinguda d'Olot, 33, 17858 La Canya, Girona",
+  "fuente": "https://www.owkle.es/clubs/topteam-fight-fitness/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  }
 ]

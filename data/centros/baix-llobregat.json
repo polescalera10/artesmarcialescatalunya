@@ -1,5 +1,21 @@
 [
  {
+  "slug": "16-cuerdas",
+  "nombre": "16 Cuerdas",
+  "tipo": "gimnasio",
+  "municipio": "esparreguera",
+  "disciplinas": [
+   "boxeo",
+   "kali",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Carrer Guardiola, 1, 08292 Esparreguera, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/16-cuerdas/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "247-sportscenter",
   "nombre": "247 Sportscenter",
   "tipo": "gimnasio",
@@ -61,6 +77,22 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "antarai-training-camp",
+  "nombre": "Antarai Training Camp",
+  "tipo": "gimnasio",
+  "municipio": "sant-joan-despi",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "krav-maga",
+   "muay-thai"
+  ],
+  "direccion": "Av. de la Generalitat, 45, 08970 Sant Joan Despí, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/antarai-training-camp-2/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "aoc-grappling-club",
@@ -173,6 +205,50 @@
   "fuente": "https://www.blackbeltacademy.es/sant-joan-despi",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "boonchuay-gym",
+  "nombre": "Boonchuay Gym",
+  "tipo": "gimnasio",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Carrer d'Eusebi Güell, 14, 08830 Sant Boi de Llobregat, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/boonchuay-gym/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "boxing-jol",
+  "nombre": "Boxing Jol",
+  "tipo": "gimnasio",
+  "municipio": "olesa-de-montserrat",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "mma",
+   "muay-thai"
+  ],
+  "direccion": "C. del Metge Carrera, 72, 08640 Olesa de Montserrat, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/boxing-jol/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "bushido-dojo",
+  "nombre": "Bushido Dojo",
+  "tipo": "gimnasio",
+  "municipio": "vallirana",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kickboxing"
+  ],
+  "direccion": "Carrer Cerdanya, 08759 Vallirana, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/bushido-dojo/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "c-e-judo-sant-feliu",
@@ -633,6 +709,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "combat-wolf-crew",
+  "nombre": "Combat Wolf Crew",
+  "tipo": "gimnasio",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Jaume Balmes, 43, 08830 Sant Boi de Llobregat, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/combat-wolf-crew/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "corbera",
   "nombre": "Corbera",
   "tipo": "escuela",
@@ -875,6 +964,21 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "invictus-69-cornella",
+  "nombre": "Invictus 69 Cornella",
+  "tipo": "gimnasio",
+  "municipio": "cornella-de-llobregat",
+  "disciplinas": [
+   "grappling",
+   "kickboxing",
+   "mma"
+  ],
+  "direccion": "Carrer de Joaquim Rubió i Ors, 21, 08940 Cornellà de Llobregat, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/invictus-69-cornella/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "judo-club-sant-feliu",
   "nombre": "Judo Club Sant Feliu",
   "tipo": "escuela",
@@ -907,6 +1011,22 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=7",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "ken-ryu",
+  "nombre": "Ken Ryu",
+  "tipo": "gimnasio",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "otras": [
+   "Savate"
+  ],
+  "direccion": "Avinguda de la Torre de la Vila, 27, 08830 Sant Boi de Llobregat, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/ken-ryu/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "martial-arts-castelldefels",
@@ -1150,6 +1270,19 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "oso-fighters-team",
+  "nombre": "Oso Fighters Team",
+  "tipo": "gimnasio",
+  "municipio": "sant-andreu-de-la-barca",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Almería, 34, 08740 Sant Andreu de la Barca, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/oso-fighters-team/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "ramon-casas",
   "nombre": "Ramon Casas",
   "tipo": "escuela",
@@ -1162,6 +1295,19 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "rayo-team",
+  "nombre": "Rayo Team",
+  "tipo": "gimnasio",
+  "municipio": "collbato",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Carrer Migdia, 11, 08293 Collbató, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/rayo-team/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "redbelt-academia-slu",
@@ -1312,5 +1458,19 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "z-gym-diaz",
+  "nombre": "Z Gym Diaz",
+  "tipo": "gimnasio",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "boxeo",
+   "muay-thai"
+  ],
+  "direccion": "General Palafols, 14. 08860 Castelldefels. Barcelona",
+  "fuente": "https://www.owkle.es/clubs/z-gym-diaz/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  }
 ]

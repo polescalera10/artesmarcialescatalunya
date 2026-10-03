@@ -413,6 +413,19 @@
   "verificado": "2026-07-07"
  },
  {
+  "slug": "sheila-martial-arts-academy",
+  "nombre": "Sheila Martial Arts Academy",
+  "tipo": "gimnasio",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Av. de Jaume Balmes, 18, 08800 Vilanova i la Geltrú, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/sheila-martial-arts-academy/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "sitgesfit",
   "nombre": "SitgesFit",
   "tipo": "gimnasio",

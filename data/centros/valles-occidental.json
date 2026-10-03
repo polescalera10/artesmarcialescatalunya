@@ -1,5 +1,20 @@
 [
  {
+  "slug": "a-e-kaw-fight-club",
+  "nombre": "A. E. Kaw Fight Club",
+  "tipo": "club",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Via Júlia, 11, 08206 Sabadell, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/a-e-kaw-fight-club/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "a-e-cinfi-south-star",
   "nombre": "A.e.cinfi South Star",
   "tipo": "asociacion",
@@ -1212,6 +1227,19 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "muay-thai-rubi",
+  "nombre": "Muay Thai Rubi",
+  "tipo": "gimnasio",
+  "municipio": "rubi",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Av. Castellbisbal, 74, 08191 Rubí, Barcelona",
+  "fuente": "https://www.owkle.es/clubs/muay-thai-rubi/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "mugendo-rubi",
