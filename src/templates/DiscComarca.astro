@@ -9,7 +9,7 @@ import ListaCentros from '../components/ListaCentros.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
-import { centrosDeComarca, centrosConDisciplina } from '../lib/centros';
+import { centrosDeComarca, centrosConDisciplina, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { getDisciplina, nombreDisciplina } from '../lib/disciplinas';
 import { rutasDiscComarca, tienePaginaMunDisc, tienePaginaMunicipio } from '../lib/rutas';
@@ -23,6 +23,7 @@ const dis = getDisciplina(disciplina)!;
 const nd = dis[lang];
 const ndl = nd.toLowerCase();
 const centros = centrosConDisciplina(disciplina, centrosDeComarca(comarca));
+const nV = verificados(centros).length;
 const porMunicipio = [...new Set(centros.map(c => c.municipio))]
   .map(m => ({ m: getMunicipio(m)!, cs: centros.filter(c => c.municipio === m) }))
   .sort((a, b) => b.cs.length - a.cs.length || a.m.nombre.localeCompare(b.m.nombre, 'ca'));
@@ -30,14 +31,14 @@ const enCom = enComarca(lang, comarca);
 const otrasDisc = rutasDiscComarca().filter(r => r.comarca === comarca && r.disciplina !== disciplina);
 
 const title = titulo(
-  L(lang, `${nd} ${enCom}: ${n(centros.length, 'centro', 'centros')}`, `${nd} ${enCom}: ${n(centros.length, 'centre', 'centres')}`),
-  L(lang, `${nd} en ${com.nombre}: ${n(centros.length, 'centro', 'centros')}`, `${nd} a ${com.nombre}: ${centros.length}`),
+  L(lang, `${nd} ${enCom}: ${n(nV, 'centro', 'centros')}`, `${nd} ${enCom}: ${n(nV, 'centre', 'centres')}`),
+  L(lang, `${nd} en ${com.nombre}: ${n(nV, 'centro', 'centros')}`, `${nd} a ${com.nombre}: ${nV}`),
 );
 const description = descripcion(
   L(lang,
-    `${n(centros.length, 'centro', 'centros')} de ${ndl} ${enCom}, en ${lista(lang, porMunicipio.slice(0, 4).map(x => x.m.nombre))}. Con fuente pública y fecha de verificación.`,
-    `${n(centros.length, 'centre', 'centres')} de ${ndl} ${enCom}, a ${lista(lang, porMunicipio.slice(0, 4).map(x => x.m.nombre))}. Amb font pública i data de verificació.`),
-  L(lang, `${n(centros.length, 'centro', 'centros')} de ${ndl} ${enCom}, con fuente pública verificada.`, `${n(centros.length, 'centre', 'centres')} de ${ndl} ${enCom}, amb font pública verificada.`),
+    `${n(nV, 'centro', 'centros')} de ${ndl} ${enCom}, en ${lista(lang, porMunicipio.slice(0, 4).map(x => x.m.nombre))}. Con fuente pública y fecha de verificación.`,
+    `${n(nV, 'centre', 'centres')} de ${ndl} ${enCom}, a ${lista(lang, porMunicipio.slice(0, 4).map(x => x.m.nombre))}. Amb font pública i data de verificació.`),
+  L(lang, `${n(nV, 'centro', 'centros')} de ${ndl} ${enCom}, con fuente pública verificada.`, `${n(nV, 'centre', 'centres')} de ${ndl} ${enCom}, amb font pública verificada.`),
 );
 
 const faq = [{
@@ -81,8 +82,8 @@ const schema = {
       <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">{L(lang, `${nd} ${enCom}`, `${nd} ${enCom}`)}</h1>
       <p class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed">
         {L(lang,
-          `${n(centros.length, 'centro', 'centros')} ${enCom} anuncian ${ndl} en su web oficial o en el registro de su federación, repartidos en ${n(porMunicipio.length, 'municipio', 'municipios')}. Los listamos por municipio y en orden alfabético.`,
-          `${n(centros.length, 'centre', 'centres')} ${enCom} anuncien ${ndl} al seu web oficial o al registre de la seva federació, repartits en ${n(porMunicipio.length, 'municipi', 'municipis')}. Els llistem per municipi i en ordre alfabètic.`)}
+          `${n(nV, 'centro', 'centros')} ${enCom} anuncian ${ndl} en su web oficial o en el registro de su federación, repartidos en ${n(porMunicipio.length, 'municipio', 'municipios')}. Los listamos por municipio y en orden alfabético.`,
+          `${n(nV, 'centre', 'centres')} ${enCom} anuncien ${ndl} al seu web oficial o al registre de la seva federació, repartits en ${n(porMunicipio.length, 'municipi', 'municipis')}. Els llistem per municipi i en ordre alfabètic.`)}
       </p>
     </section>
 

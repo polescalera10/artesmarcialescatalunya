@@ -1,7 +1,7 @@
 [
  {
   "slug": "associacio-esportiva-darts-marcials-tradicionals-chiisai",
-  "nombre": "Associacio Esportiva d'Arts Marcials Tradicionals Chiisai",
+  "nombre": "Associació Esportiva d'Arts Marcials Tradicionals Chiisai",
   "tipo": "asociacion",
   "municipio": "santpedor",
   "disciplinas": [
@@ -16,7 +16,7 @@
  },
  {
   "slug": "associacio-esportiva-recreativa-i-cultural-sant-joan-de-vilatorrada",
-  "nombre": "Associacio Esportiva Recreativa i Cultural Sant Joan de Vilatorrada",
+  "nombre": "Associació Esportiva Recreativa i Cultural Sant Joan de Vilatorrada",
   "tipo": "asociacion",
   "municipio": "sant-joan-de-vilatorrada",
   "disciplinas": [
@@ -33,7 +33,7 @@
  },
  {
   "slug": "associacio-guardiolenca",
-  "nombre": "Associacio Guardiolenca",
+  "nombre": "Associació Guardiolenca",
   "tipo": "asociacion",
   "municipio": "sant-salvador-de-guardiola",
   "disciplinas": [
@@ -45,7 +45,7 @@
  },
  {
   "slug": "associacio-jiujitsu-catalunya",
-  "nombre": "Associacio Jiujitsu Catalunya",
+  "nombre": "Associació Jiujitsu Catalunya",
   "tipo": "asociacion",
   "municipio": "santpedor",
   "disciplinas": [
@@ -57,7 +57,7 @@
  },
  {
   "slug": "associacio-kickboxing-castellbell-i-el-vilar",
-  "nombre": "Associacio Kickboxing Castellbell i el Vilar",
+  "nombre": "Associació Kickboxing Castellbell i el Vilar",
   "tipo": "asociacion",
   "municipio": "castellbell-i-el-vilar",
   "disciplinas": [
@@ -234,7 +234,7 @@
  },
  {
   "slug": "club-gimnastic-suria",
-  "nombre": "Club Gimnastic Suria",
+  "nombre": "Club Gimnàstic Suria",
   "tipo": "club",
   "municipio": "suria",
   "disciplinas": [

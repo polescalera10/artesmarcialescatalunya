@@ -5,7 +5,9 @@ import Footer from '../components/Footer.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { L, url, lista, n, type Lang } from '../lib/i18n';
-import { CENTROS, comarcasConCentros, disciplinasPresentes, centrosDeComarca } from '../lib/centros';
+import { CENTROS, comarcasConCentros, disciplinasPresentes, centrosDeComarca, verificados } from '../lib/centros';
+// Recuento público: solo centros con actividad verificada (no los del registro).
+const NV = verificados(CENTROS).length;
 import { COMARCAS, getComarca, getMunicipio } from '../lib/geo';
 import { getDisciplina } from '../lib/disciplinas';
 import { rutasMunicipio, rutasDisciplina } from '../lib/rutas';
@@ -23,10 +25,10 @@ const topMunis = rutasMunicipio()
   .slice(0, 12);
 const posts = lang === 'es' ? (await articulos()).filter(p => p.tipo === 'articulo').slice(0, 3) : [];
 
-const title = L(lang, `Artes Marciales Catalunya: ${CENTROS.length} centros verificados`, `Arts Marcials Catalunya: ${CENTROS.length} centres verificats`);
+const title = L(lang, `Artes Marciales Catalunya: ${NV} centros verificados`, `Arts Marcials Catalunya: ${NV} centres verificats`);
 const description = L(lang,
-  `Directorio de ${CENTROS.length} centros de artes marciales en Cataluña: boxeo, judo, karate, jiu-jitsu, MMA y más, por comarca y municipio. Cada ficha con su fuente.`,
-  `Directori de ${CENTROS.length} centres d'arts marcials a Catalunya: boxa, judo, karate, jiu-jitsu, MMA i més, per comarca i municipi. Cada fitxa amb la seva font.`);
+  `Directorio de ${NV} centros de artes marciales en Cataluña: boxeo, judo, karate, jiu-jitsu, MMA y más, por comarca y municipio. Cada ficha con su fuente.`,
+  `Directori de ${NV} centres d'arts marcials a Catalunya: boxa, judo, karate, jiu-jitsu, MMA i més, per comarca i municipi. Cada fitxa amb la seva font.`);
 
 const faq = [
   {
@@ -73,8 +75,8 @@ const schema = {
       </h1>
       <p class="text-lg text-brand-muted mt-5 max-w-3xl leading-relaxed">
         {L(lang,
-          `${n(CENTROS.length, 'centro', 'centros')} en ${n(comarcas.length, 'comarca', 'comarcas')}, cada uno con la fuente pública que lo confirma y la fecha en que la comprobamos. Sin valoraciones, sin rankings pagados.`,
-          `${n(CENTROS.length, 'centre', 'centres')} en ${n(comarcas.length, 'comarca', 'comarques')}, cadascun amb la font pública que el confirma i la data en què la vam comprovar. Sense valoracions, sense rànquings pagats.`)}
+          `${n(NV, 'centro', 'centros')} en ${n(comarcas.length, 'comarca', 'comarcas')}, cada uno con la fuente pública que lo confirma y la fecha en que la comprobamos. Sin valoraciones, sin rankings pagados.`,
+          `${n(NV, 'centre', 'centres')} en ${n(comarcas.length, 'comarca', 'comarques')}, cadascun amb la font pública que el confirma i la data en què la vam comprovar. Sense valoracions, sense rànquings pagats.`)}
       </p>
       <form action={url.centros(lang)} method="get" class="mt-8 flex flex-col sm:flex-row gap-3 max-w-2xl" role="search">
         <label for="q" class="sr-only">{L(lang, 'Buscar', 'Cercar')}</label>

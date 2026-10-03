@@ -8,8 +8,8 @@
 
 const DESTINO = 'contacto@artesmarciales.cat';
 const REMITENTE = 'Artes Marciales Catalunya <formulario@artesmarciales.cat>';
-const MAX = { nombre: 120, email: 160, centro: 160, municipio: 120, web: 300, tipo: 40, mensaje: 4000, pagina: 300 };
-const TIPOS = new Set(['alta', 'correccion', 'promocion', 'web', 'seo', 'otro', 'consulta']);
+const MAX = { nombre: 120, email: 160, centro: 160, municipio: 120, web: 300, tipo: 40, mensaje: 4000, pagina: 300, reenvio: 5 };
+const TIPOS = new Set(['alta', 'correccion', 'promocion', 'web', 'seo', 'otro', 'consulta', 'info']);
 
 const limpiar = (v, max) => String(v ?? '').replace(/[\u0000-\u001f\u007f]/g, ' ').trim().slice(0, max);
 const esc = s => s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -41,6 +41,7 @@ export default async function handler(req, res) {
   const filas = [
     ['Tipo', d.tipo], ['Nombre', d.nombre], ['Email', d.email], ['Centro', d.centro],
     ['Municipio', d.municipio], ['Web', d.web], ['Página', d.pagina],
+    ['Acepta reenvío al centro', d.reenvio === 'true' || d.reenvio === 'on' ? 'sí' : ''],
   ].filter(([, v]) => v);
   const html = `<table cellpadding="6" style="border-collapse:collapse;font-family:sans-serif;font-size:14px">${filas
     .map(([k, v]) => `<tr><td style="color:#666">${k}</td><td>${esc(v)}</td></tr>`)

@@ -1,10 +1,14 @@
 ---
-// Listado de centros: primero, aparte y etiquetados, los promocionados de la
-// lista; después todos en orden alfabético (los promocionados también, en su
-// sitio). Pagar da visibilidad extra, nunca cambia el orden del directorio.
+// Listado de centros:
+// 1. Promocionados, aparte y etiquetados (pagar no cambia el orden del resto).
+// 2. Verificados (web, federación, ayuntamiento), en tarjetas y por orden alfabético.
+// 3. Inscritos solo en el Registre d'Entitats Esportives, en lista compacta y
+//    etiquetados: el registro no confirma que sigan activos.
 import CentroCard from './CentroCard.astro';
-import { L, type Lang } from '../lib/i18n';
-import { promocionadosEn, type Centro } from '../lib/centros';
+import { L, url, type Lang } from '../lib/i18n';
+import { promocionadosEn, verificados, sinVerificar, type Centro } from '../lib/centros';
+import { nombreDisciplina } from '../lib/disciplinas';
+import { getMunicipio } from '../lib/geo';
 
 interface Props {
   centros: Centro[];
@@ -13,6 +17,8 @@ interface Props {
 }
 const { centros, lang, conMunicipio = true } = Astro.props;
 const promos = promocionadosEn(centros);
+const ver = verificados(centros);
+const reg = sinVerificar(centros);
 ---
 
 {promos.length > 0 && (
@@ -23,6 +29,29 @@ const promos = promocionadosEn(centros);
     </div>
   </div>
 )}
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-  {centros.map(c => <CentroCard centro={c} lang={lang} conMunicipio={conMunicipio} />)}
-</div>
+{ver.length > 0 && (
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" data-grupo>
+    {ver.map(c => <CentroCard centro={c} lang={lang} conMunicipio={conMunicipio} />)}
+  </div>
+)}
+{reg.length > 0 && (
+  <div class="mt-8" data-grupo>
+    <p class="text-sm font-semibold text-white">
+      {L(lang, `Inscritos en el registro de la Generalitat (${reg.length})`, `Inscrits al registre de la Generalitat (${reg.length})`)}
+    </p>
+    <p class="text-xs text-brand-muted mt-1 mb-3 max-w-3xl">
+      {L(lang,
+        "Constan en el Registre d'Entitats Esportives con estas modalidades, pero no hemos podido confirmar que sigan dando clases. Pregunta antes de ir.",
+        "Consten al Registre d'Entitats Esportives amb aquestes modalitats, però no hem pogut confirmar que continuïn fent classes. Pregunta abans d'anar-hi.")}
+    </p>
+    <ul class="divide-y divide-brand-border border border-brand-border rounded-xl">
+      {reg.map(c => (
+        <li class="px-4 py-2.5 flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm" data-d={c.disciplinas.join(' ')} data-slug={c.slug}>
+          <a href={url.centro(lang, c.slug)} class="text-white hover:text-brand-red">{c.nombre}</a>
+          {conMunicipio && <span class="text-xs text-brand-muted">{getMunicipio(c.municipio)!.nombre}</span>}
+          <span class="text-xs text-brand-muted">{c.disciplinas.map(d => nombreDisciplina(d, lang)).join(' · ')}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}

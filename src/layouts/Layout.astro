@@ -66,7 +66,7 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
   <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalUrl} />
-  {noindex && <meta name="robots" content="noindex, nofollow" />}
+  {noindex && <meta name="robots" content="noindex, follow" />}
   {alternates && (
     <>
       <link rel="alternate" hreflang="es" href={`${SITE.url}${alternates.es}`} />
@@ -121,6 +121,18 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
 <body class="bg-brand-dark text-white font-sans antialiased">
   <slot />
   <CookieConsent lang={lang} />
+  <script>
+    // Eventos de GA4 para las acciones clave. gtag solo existe si hay consentimiento.
+    const enviar = (nombre: string, params: Record<string, string> = {}) => (window as any).gtag?.('event', nombre, params);
+    document.addEventListener('click', e => {
+      const el = (e.target as HTMLElement).closest<HTMLElement>('[data-evento]');
+      if (el) enviar(el.dataset.evento!, { centro: el.dataset.centro ?? '', pagina: location.pathname });
+    });
+    document.querySelectorAll<HTMLDetailsElement>('details[data-evento-abrir]').forEach(d =>
+      d.addEventListener('toggle', () => d.open && enviar(d.dataset.eventoAbrir!, { pagina: location.pathname })));
+    document.querySelectorAll<HTMLFormElement>('form[role=search]').forEach(f =>
+      f.addEventListener('submit', () => enviar('busqueda', { termino: String(new FormData(f).get('q') ?? '').slice(0, 60) })));
+  </script>
   <style is:global>
     /* Los filtros ocultan con [hidden]; sin esto, clases como flex o grid lo anulan. */
     [hidden] { display: none !important; }

@@ -1,7 +1,9 @@
 ---
 import { L, url, type Lang } from '../lib/i18n';
 import { SITE } from '../lib/site';
-import { CENTROS, comarcasConCentros } from '../lib/centros';
+import { CENTROS, comarcasConCentros, verificados } from '../lib/centros';
+// Recuento público: solo centros con actividad verificada (no los del registro).
+const NV = verificados(CENTROS).length;
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -14,8 +16,8 @@ const year = new Date().getFullYear();
       <p class="font-bold text-white">{L(lang, SITE.name, SITE.nameCa)}</p>
       <p class="text-sm text-brand-muted mt-2 max-w-md leading-relaxed">
         {L(lang,
-          `Directorio independiente de ${CENTROS.length} centros de artes marciales en ${comarcasConCentros().length} comarcas de Cataluña. Cada ficha lleva su fuente pública y la fecha en que se verificó. No somos un gimnasio ni cobramos por aparecer en el listado.`,
-          `Directori independent de ${CENTROS.length} centres d'arts marcials a ${comarcasConCentros().length} comarques de Catalunya. Cada fitxa porta la font pública i la data en què es va verificar. No som un gimnàs ni cobrem per aparèixer al llistat.`)}
+          `Directorio independiente de ${NV} centros de artes marciales en ${comarcasConCentros().length} comarcas de Cataluña. Cada ficha lleva su fuente pública y la fecha en que se verificó. No somos un gimnasio ni cobramos por aparecer en el listado.`,
+          `Directori independent de ${NV} centres d'arts marcials a ${comarcasConCentros().length} comarques de Catalunya. Cada fitxa porta la font pública i la data en què es va verificar. No som un gimnàs ni cobrem per aparèixer al llistat.`)}
       </p>
     </div>
     <ul class="space-y-2 text-sm">

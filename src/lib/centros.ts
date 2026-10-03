@@ -62,6 +62,12 @@ export const CENTROS: Centro[] = cargar();
 const porSlug = new Map(CENTROS.map(c => [c.slug, c]));
 export const getCentro = (slug: string) => porSlug.get(slug);
 
+/** Verificado = con fuente que confirma actividad (web, federación, ayuntamiento).
+ *  Los que solo constan en el Registre d'Entitats Esportives no lo están. */
+export const esVerificado = (c: Centro) => c.fuenteTipo !== 'registro-oficial';
+export const verificados = (lista: Centro[]) => lista.filter(esVerificado);
+export const sinVerificar = (lista: Centro[]) => lista.filter(c => !esVerificado(c));
+
 export const centrosDeComarca = (comarca: string) => CENTROS.filter(c => c.comarca === comarca);
 export const centrosDeMunicipio = (municipio: string) => CENTROS.filter(c => c.municipio === municipio);
 export const centrosConDisciplina = (disciplina: string, lista: Centro[] = CENTROS) =>

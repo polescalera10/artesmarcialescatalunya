@@ -16,7 +16,7 @@ Idempotente. Uso: python3 scripts/importar-registro.py
 """
 import datetime, json, re, sys, urllib.parse, urllib.request
 sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent))
-from importar_comun import DATA, bonito, cargar_directorio, duplicado, guardar, insertar, municipio, slugify
+from importar_comun import DATA, acentuar, bonito, cargar_directorio, duplicado, guardar, insertar, municipio, slugify
 
 API = 'https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json'
 HOY = datetime.date.today().isoformat()
@@ -79,7 +79,7 @@ def main():
         bruto = f['nom_entitat']
         for rx, sub in APOSTROFO:
             bruto = rx.sub(sub, bruto)
-        nombre = bonito(bruto)
+        nombre = acentuar(bonito(bruto))
         direccion = (f.get('adre_a') or '').strip()
         if not (INSTALACION.search(direccion) and not DOMICILIO.search(direccion)):
             direccion = ''

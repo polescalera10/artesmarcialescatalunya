@@ -13,6 +13,7 @@ import { getComarca } from '../lib/geo';
     <p class="text-brand-red font-black text-6xl">404</p>
     <h1 class="text-3xl font-black text-white mt-4">Esta página no existe</h1>
     <p class="text-brand-muted mt-3">Puede que haya cambiado de dirección al ampliar el directorio a toda Cataluña. Prueba desde aquí:</p>
+    <p class="text-brand-muted mt-2 text-sm" lang="ca">Aquesta pàgina no existeix. Pots cercar al <a href="/ca/centres/" class="text-brand-red underline">directori en català</a> o triar una comarca.</p>
     <form action={url.centros('es')} method="get" class="mt-6 flex gap-3" role="search">
       <input name="q" type="search" placeholder="Municipio, disciplina o centro" aria-label="Buscar" class="flex-1 bg-brand-gray border border-brand-border rounded-lg px-4 py-3 text-white placeholder-brand-muted focus:outline-none focus:border-brand-red" />
       <button class="bg-brand-red hover:bg-red-700 text-white font-semibold px-5 py-3 rounded-lg">Buscar</button>

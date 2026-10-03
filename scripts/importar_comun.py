@@ -21,6 +21,27 @@ SIGLAS = {'MMA', 'BJJ', 'BCN', 'DYM', 'TMC', 'SRK', 'JK', 'K1', 'K2', 'TKD', 'CE
 MINUSCULAS = {'de', 'del', 'la', 'el', 'les', 'els', 'i', 'y', 'en', 'a', 'per'}
 
 
+# Acentos que el Registre d'Entitats Esportives pierde (escribe en mayúsculas sin tildes).
+ACENTOS = {
+    'Associacio': 'Associació', 'Asociacion': 'Asociación', 'Gimnas': 'Gimnàs', 'Valles': 'Vallès', 'Gava': 'Gavà',
+    'Cervello': 'Cervelló', 'Mataro': 'Mataró', 'Sadurni': 'Sadurní', 'Barbera': 'Barberà', 'Palleja': 'Pallejà',
+    'Cornella': 'Cornellà', 'Eulalia': 'Eulàlia', 'Natacio': 'Natació', 'Unio': 'Unió', 'Gimnastic': 'Gimnàstic',
+    'Gimnastica': 'Gimnàstica', 'Fenix': 'Fènix', 'Sadurni': 'Sadurní', 'Iniciacio': 'Iniciació', 'Educacio': 'Educació',
+    'Formacio': 'Formació', 'Agrupacio': 'Agrupació', 'Federacio': 'Federació', 'Seccio': 'Secció', 'Penedes': 'Penedès',
+    'Emporda': 'Empordà', 'Girones': 'Gironès', 'Bages': 'Bages', 'Llucanes': 'Lluçanès', 'Ripolles': 'Ripollès',
+    'Tarragones': 'Tarragonès', 'Barcelones': 'Barcelonès', 'Segria': 'Segrià', 'Montsia': 'Montsià', 'Sitges': 'Sitges',
+    'Lleida': 'Lleida', 'Andreu': 'Andreu', 'Adria': 'Adrià', 'Llica': 'Lliçà', 'Martorelles': 'Martorelles',
+    'Montcada': 'Montcada', 'Montmelo': 'Montmeló', 'Bisbal': 'Bisbal', 'Sallent': 'Sallent', 'Llinars': 'Llinars',
+    'Celoni': 'Celoni', 'Calafell': 'Calafell', 'Vendrell': 'Vendrell', 'Ametlla': 'Ametlla', 'Sentmenat': 'Sentmenat',
+    'Poliesportiu': 'Poliesportiu', 'Pavello': 'Pavelló', 'Olimpic': 'Olímpic', 'Olimpica': 'Olímpica', 'Atletic': 'Atlètic',
+    'Tecnica': 'Tècnica', 'Esportiu': 'Esportiu', 'Diniciacio': "d'Iniciació", 'Dinciacio': "d'Iniciació",
+}
+
+
+def acentuar(nombre: str) -> str:
+    return re.sub(r"[A-Za-z]+", lambda m: ACENTOS.get(m.group(0), m.group(0)), nombre)
+
+
 def bonito(nombre: str) -> str:
     """Nombres en mayúsculas a formato normal; el resto se deja igual."""
     nombre = re.sub(r'\s+', ' ', nombre.replace('’', "'")).strip()

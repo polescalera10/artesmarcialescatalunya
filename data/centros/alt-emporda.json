@@ -32,7 +32,7 @@
  },
  {
   "slug": "associacio-esportiva-karate-la-jonquera",
-  "nombre": "Associacio Esportiva Karate la Jonquera",
+  "nombre": "Associació Esportiva Karate la Jonquera",
   "tipo": "asociacion",
   "municipio": "la-jonquera",
   "disciplinas": [
@@ -44,7 +44,7 @@
  },
  {
   "slug": "associacio-esportiva-nihon-kobudo-lescala",
-  "nombre": "Associacio Esportiva Nihon Kobudo l'Escala",
+  "nombre": "Associació Esportiva Nihon Kobudo l'Escala",
   "tipo": "asociacion",
   "municipio": "lescala",
   "disciplinas": [
@@ -203,7 +203,7 @@
  },
  {
   "slug": "club-gimnas-puig",
-  "nombre": "Club Gimnas Puig",
+  "nombre": "Club Gimnàs Puig",
   "tipo": "club",
   "municipio": "roses",
   "disciplinas": [
@@ -215,7 +215,7 @@
  },
  {
   "slug": "club-gimnas-savas",
-  "nombre": "Club Gimnas Savas",
+  "nombre": "Club Gimnàs Savas",
   "tipo": "club",
   "municipio": "figueres",
   "disciplinas": [
@@ -244,7 +244,7 @@
  },
  {
   "slug": "club-judo-ikigai-emporda-vilafant",
-  "nombre": "Club Judo Ikigai Emporda",
+  "nombre": "Club Judo Ikigai Empordà",
   "tipo": "club",
   "municipio": "vilafant",
   "disciplinas": [
@@ -269,7 +269,7 @@
  },
  {
   "slug": "club-natacio-figueres",
-  "nombre": "Club Natacio Figueres",
+  "nombre": "Club Natació Figueres",
   "tipo": "club",
   "municipio": "figueres",
   "disciplinas": [
@@ -306,7 +306,7 @@
  },
  {
   "slug": "club-taekwondo-emporda",
-  "nombre": "Club Taekwondo Emporda",
+  "nombre": "Club Taekwondo Empordà",
   "tipo": "club",
   "municipio": "llanca",
   "disciplinas": [

@@ -90,7 +90,7 @@
  },
  {
   "slug": "associacio-aikido-senkikai-sant-vicenc-de-montalt",
-  "nombre": "Associacio Aikido Senkikai Sant Vicenç de Montalt",
+  "nombre": "Associació Aikido Senkikai Sant Vicenç de Montalt",
   "tipo": "asociacion",
   "municipio": "sant-vicenc-de-montalt",
   "disciplinas": [
@@ -102,7 +102,7 @@
  },
  {
   "slug": "associacio-de-taekwondo-canet-de-mar",
-  "nombre": "Associacio de Taekwondo Canet de Mar",
+  "nombre": "Associació de Taekwondo Canet de Mar",
   "tipo": "asociacion",
   "municipio": "canet-de-mar",
   "disciplinas": [
@@ -115,7 +115,7 @@
  },
  {
   "slug": "associacio-esportiva-apichat-champ-muay-thai-sports",
-  "nombre": "Associacio Esportiva Apichat Champ Muay Thai Sports",
+  "nombre": "Associació Esportiva Apichat Champ Muay Thai Sports",
   "tipo": "asociacion",
   "municipio": "malgrat-de-mar",
   "disciplinas": [
@@ -132,7 +132,7 @@
  },
  {
   "slug": "associacio-esportiva-artiesport-blau",
-  "nombre": "Associacio Esportiva Artiesport Blau",
+  "nombre": "Associació Esportiva Artiesport Blau",
   "tipo": "asociacion",
   "municipio": "dosrius",
   "disciplinas": [
@@ -144,7 +144,7 @@
  },
  {
   "slug": "associacio-esportiva-drac-roig",
-  "nombre": "Associacio Esportiva Drac Roig",
+  "nombre": "Associació Esportiva Drac Roig",
   "tipo": "asociacion",
   "municipio": "canet-de-mar",
   "disciplinas": [
@@ -160,7 +160,7 @@
  },
  {
   "slug": "associacio-esportiva-juniors-masnou",
-  "nombre": "Associacio Esportiva Juniors Masnou",
+  "nombre": "Associació Esportiva Juniors Masnou",
   "tipo": "asociacion",
   "municipio": "el-masnou",
   "disciplinas": [
@@ -174,7 +174,7 @@
  },
  {
   "slug": "associacio-esportiva-marcial-sant-iscle",
-  "nombre": "Associacio Esportiva Marcial Sant Iscle",
+  "nombre": "Associació Esportiva Marcial Sant Iscle",
   "tipo": "asociacion",
   "municipio": "sant-iscle-de-vallalta",
   "disciplinas": [
@@ -186,7 +186,7 @@
  },
  {
   "slug": "associacio-esportiva-muay-thai-chang-duray-poble-nou-pineda-de-mar",
-  "nombre": "Associacio Esportiva Muay Thai Chang Duray Poble Nou Pineda de Mar",
+  "nombre": "Associació Esportiva Muay Thai Chang Duray Poble Nou Pineda de Mar",
   "tipo": "asociacion",
   "municipio": "pineda-de-mar",
   "disciplinas": [
@@ -198,7 +198,7 @@
  },
  {
   "slug": "associacio-savate-boxa-francesa-catalunya",
-  "nombre": "Associacio Savate Boxa Francesa Catalunya",
+  "nombre": "Associació Savate Boxa Francesa Catalunya",
   "tipo": "asociacion",
   "municipio": "canet-de-mar",
   "disciplinas": [
@@ -317,7 +317,7 @@
  },
  {
   "slug": "club-atletic-masnou",
-  "nombre": "Club Atletic Masnou",
+  "nombre": "Club Atlètic Masnou",
   "tipo": "club",
   "municipio": "el-masnou",
   "disciplinas": [
@@ -329,7 +329,7 @@
  },
  {
   "slug": "club-basquet-escola-pia-mataro",
-  "nombre": "Club Basquet Escola Pia Mataro",
+  "nombre": "Club Basquet Escola Pia Mataró",
   "tipo": "club",
   "municipio": "mataro",
   "disciplinas": [
@@ -672,7 +672,7 @@
  },
  {
   "slug": "club-esportiu-mataro-jiujitsu",
-  "nombre": "Club Esportiu Mataro Jiujitsu",
+  "nombre": "Club Esportiu Mataró Jiujitsu",
   "tipo": "club",
   "municipio": "mataro",
   "disciplinas": [
@@ -778,7 +778,7 @@
  },
  {
   "slug": "club-gimnas-dargentona",
-  "nombre": "Club Gimnas d'Argentona",
+  "nombre": "Club Gimnàs d'Argentona",
   "tipo": "club",
   "municipio": "argentona",
   "disciplinas": [
@@ -790,7 +790,7 @@
  },
  {
   "slug": "club-gimnas-el-maresme",
-  "nombre": "Club Gimnas el Maresme",
+  "nombre": "Club Gimnàs el Maresme",
   "tipo": "club",
   "municipio": "premia-de-mar",
   "disciplinas": [
@@ -803,7 +803,7 @@
  },
  {
   "slug": "club-gimnas-nihon-mataro",
-  "nombre": "Club Gimnas Nihon Mataro",
+  "nombre": "Club Gimnàs Nihon Mataró",
   "tipo": "club",
   "municipio": "mataro",
   "disciplinas": [
@@ -815,7 +815,7 @@
  },
  {
   "slug": "club-gimnas-olimpia",
-  "nombre": "Club Gimnas Olimpia",
+  "nombre": "Club Gimnàs Olimpia",
   "tipo": "club",
   "municipio": "mataro",
   "disciplinas": [
@@ -1050,7 +1050,7 @@
  },
  {
   "slug": "club-olimpic-korio",
-  "nombre": "Club Olimpic Korio",
+  "nombre": "Club Olímpic Korio",
   "tipo": "club",
   "municipio": "mataro",
   "disciplinas": [
@@ -1245,7 +1245,7 @@
  },
  {
   "slug": "esport-ciclista-mataro",
-  "nombre": "Esport Ciclista Mataro",
+  "nombre": "Esport Ciclista Mataró",
   "tipo": "club",
   "municipio": "mataro",
   "disciplinas": [
@@ -1283,7 +1283,7 @@
  },
  {
   "slug": "gimnas-club-premiamar",
-  "nombre": "Gimnas Club Premiamar",
+  "nombre": "Gimnàs Club Premiamar",
   "tipo": "club",
   "municipio": "premia-de-mar",
   "disciplinas": [

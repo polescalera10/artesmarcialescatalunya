@@ -8,7 +8,9 @@ import Migas from '../components/Migas.astro';
 import FAQ from '../components/FAQ.astro';
 import Formulario from '../components/Formulario.astro';
 import { L, url, type Lang } from '../lib/i18n';
-import { CENTROS, comarcasConCentros } from '../lib/centros';
+import { CENTROS, comarcasConCentros, verificados } from '../lib/centros';
+// Recuento público: solo centros con actividad verificada (no los del registro).
+const NV = verificados(CENTROS).length;
 import { SITE, SCHEMA_IDS } from '../lib/site';
 
 interface Props { lang: Lang }
@@ -102,8 +104,8 @@ const schema = {
       </h1>
       <p class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed">
         {L(lang,
-          `Artes Marciales Catalunya reúne ${CENTROS.length} centros de ${comarcasConCentros().length} comarcas, cada uno con su fuente pública. Aparecer es gratis. Si además quieres destacar o necesitas web, te lo contamos aquí.`,
-          `Arts Marcials Catalunya reuneix ${CENTROS.length} centres de ${comarcasConCentros().length} comarques, cadascun amb la seva font pública. Sortir-hi és gratis. Si a més vols destacar o necessites web, t'ho expliquem aquí.`)}
+          `Artes Marciales Catalunya reúne ${NV} centros de ${comarcasConCentros().length} comarcas, cada uno con su fuente pública. Aparecer es gratis. Si además quieres destacar o necesitas web, te lo contamos aquí.`,
+          `Arts Marcials Catalunya reuneix ${NV} centres de ${comarcasConCentros().length} comarques, cadascun amb la seva font pública. Sortir-hi és gratis. Si a més vols destacar o necessites web, t'ho expliquem aquí.`)}
       </p>
     </section>
 

@@ -11,7 +11,7 @@ import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import FiltroDisciplinas from '../components/FiltroDisciplinas.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
-import { centrosDeMunicipio, disciplinasPresentes, cercanos } from '../lib/centros';
+import { centrosDeMunicipio, disciplinasPresentes, cercanos, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { tienePaginaMunDisc, rutasMunicipio, editorialMunicipio } from '../lib/rutas';
@@ -27,6 +27,8 @@ const com = getComarca(comarca)!;
 const mun = getMunicipio(municipio)!;
 const centros = centrosDeMunicipio(municipio);
 const disc = disciplinasPresentes(centros);
+const nV = verificados(centros).length;
+const nR = centros.length - nV;
 const top = disc.slice(0, 4).map(d => nombreDisciplina(d.slug, lang).toLowerCase());
 const cerca = cercanos(mun, () => true, 6, 25);
 
@@ -40,21 +42,21 @@ const vecinos = rutasMunicipio().filter(r => r.comarca === comarca && r.municipi
 
 const generadoIntro = centros.length
   ? L(lang,
-      `En ${mun.nombre} constan ${n(centros.length, 'centro', 'centros')} de artes marciales en nuestro directorio. ${top.length ? `Lo que más se ofrece: ${lista(lang, top)}.` : ''} Cada ficha lleva su fuente pública y la fecha en que la comprobamos.`,
-      `A ${mun.nombre} hi consten ${n(centros.length, 'centre', 'centres')} d'arts marcials al nostre directori. ${top.length ? `El que més s'ofereix: ${lista(lang, top)}.` : ''} Cada fitxa porta la seva font pública i la data en què la vam comprovar.`)
+      `En ${mun.nombre} constan ${n(nV, 'centro', 'centros')} de artes marciales en nuestro directorio. ${top.length ? `Lo que más se ofrece: ${lista(lang, top)}.` : ''} Cada ficha lleva su fuente pública y la fecha en que la comprobamos.`,
+      `A ${mun.nombre} hi consten ${n(nV, 'centre', 'centres')} d'arts marcials al nostre directori. ${top.length ? `El que més s'ofereix: ${lista(lang, top)}.` : ''} Cada fitxa porta la seva font pública i la data en què la vam comprovar.`)
   : L(lang,
       `En nuestro directorio no consta todavía ningún centro de artes marciales en ${mun.nombre}. Abajo tienes los más cercanos.`,
       `Al nostre directori encara no hi consta cap centre d'arts marcials a ${mun.nombre}. A sota tens els més propers.`);
 
 const title = ed?.titulo ?? titulo(
-  L(lang, `Artes Marciales en ${mun.nombre}: ${n(centros.length, 'centro', 'centros')} | ${com.nombre}`, `Arts Marcials a ${mun.nombre}: ${n(centros.length, 'centre', 'centres')} | ${com.nombre}`),
-  L(lang, `Artes Marciales en ${mun.nombre}: ${n(centros.length, 'centro', 'centros')}`, `Arts Marcials a ${mun.nombre}: ${n(centros.length, 'centre', 'centres')}`),
+  L(lang, `Artes Marciales en ${mun.nombre}: ${n(nV, 'centro', 'centros')} | ${com.nombre}`, `Arts Marcials a ${mun.nombre}: ${n(nV, 'centre', 'centres')} | ${com.nombre}`),
+  L(lang, `Artes Marciales en ${mun.nombre}: ${n(nV, 'centro', 'centros')}`, `Arts Marcials a ${mun.nombre}: ${n(nV, 'centre', 'centres')}`),
   L(lang, `Artes Marciales en ${mun.nombre}`, `Arts Marcials a ${mun.nombre}`),
 );
 const description = ed?.descripcion ?? descripcion(
   L(lang,
-    `${n(centros.length, 'centro', 'centros')} de artes marciales en ${mun.nombre} (${com.nombre}): ${lista(lang, top)}. Con fuente pública y fecha de verificación.`,
-    `${n(centros.length, 'centre', 'centres')} d'arts marcials a ${mun.nombre} (${com.nombre}): ${lista(lang, top)}. Amb font pública i data de verificació.`),
+    `${n(nV, 'centro', 'centros')} de artes marciales en ${mun.nombre} (${com.nombre}): ${lista(lang, top)}. Con fuente pública y fecha de verificación.`,
+    `${n(nV, 'centre', 'centres')} d'arts marcials a ${mun.nombre} (${com.nombre}): ${lista(lang, top)}. Amb font pública i data de verificació.`),
   L(lang, `Centros de artes marciales en ${mun.nombre} (${com.nombre}), con fuente pública y fecha de verificación.`, `Centres d'arts marcials a ${mun.nombre} (${com.nombre}), amb font pública i data de verificació.`),
 );
 const h1 = ed?.h1 ?? L(lang, `Artes marciales en ${mun.nombre}`, `Arts marcials a ${mun.nombre}`);
@@ -63,8 +65,8 @@ const faq = ed?.faq?.length ? ed.faq : [
   {
     q: L(lang, `¿Cuántos centros de artes marciales hay en ${mun.nombre}?`, `Quants centres d'arts marcials hi ha a ${mun.nombre}?`),
     a: L(lang,
-      `En nuestro directorio constan ${n(centros.length, 'centro', 'centros')} en ${mun.nombre}. Solo publicamos centros con una fuente pública verificable, así que puede haber alguno más que aún no hemos podido comprobar.`,
-      `Al nostre directori hi consten ${n(centros.length, 'centre', 'centres')} a ${mun.nombre}. Només publiquem centres amb una font pública verificable, així que en pot haver algun més que encara no hem pogut comprovar.`),
+      `En nuestro directorio constan ${n(nV, 'centro', 'centros')} en ${mun.nombre}. Solo publicamos centros con una fuente pública verificable, así que puede haber alguno más que aún no hemos podido comprobar.`,
+      `Al nostre directori hi consten ${n(nV, 'centre', 'centres')} a ${mun.nombre}. Només publiquem centres amb una font pública verificable, així que en pot haver algun més que encara no hem pogut comprovar.`),
   },
   ...(disc.length ? [{
     q: L(lang, `¿Qué artes marciales se pueden practicar en ${mun.nombre}?`, `Quines arts marcials es poden practicar a ${mun.nombre}?`),
@@ -104,6 +106,13 @@ const schema = {
       <p class="text-xs uppercase tracking-wide text-brand-red font-semibold mb-3">{mun.nombre} · {com.nombre}</p>
       <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">{h1}</h1>
       <div class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed" set:html={ed?.intro ?? edCa?.intro ?? generadoIntro} />
+      {nR > 0 && (
+        <p class="text-sm text-brand-muted mt-3 max-w-3xl">
+          {L(lang,
+            `Además constan ${n(nR, 'club inscrito', 'clubs inscritos')} en el registro de la Generalitat cuya actividad no hemos podido confirmar: los verás al final del listado.`,
+            `A més hi consten ${n(nR, 'club inscrit', 'clubs inscrits')} al registre de la Generalitat l'activitat dels quals no hem pogut confirmar: els veuràs al final del llistat.`)}
+        </p>
+      )}
     </section>
 
     {disc.length > 0 && (

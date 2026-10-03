@@ -7,11 +7,15 @@ import { SITE } from '../lib/site';
 
 interface Props {
   lang: Lang;
-  modo: 'centro' | 'visitante';
+  modo: 'centro' | 'visitante' | 'info';
+  /** Para modo 'info': centro sobre el que se pregunta */
+  centro?: { nombre: string; municipio: string };
 }
-const { lang, modo } = Astro.props;
+const { lang, modo, centro } = Astro.props;
 const input = 'w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white text-sm placeholder-brand-muted focus:outline-none focus:border-brand-red';
-const tipos = modo === 'centro'
+const tipos = modo === 'info'
+  ? [['info', '']]
+  : modo === 'centro'
   ? [
       ['alta', L(lang, 'Quiero añadir mi centro (gratis)', 'Vull afegir el meu centre (gratis)')],
       ['correccion', L(lang, 'Corregir o completar mi ficha (gratis)', 'Corregir o completar la meva fitxa (gratis)')],
@@ -27,12 +31,20 @@ const tipos = modo === 'centro'
 ---
 
 <form class="space-y-4" data-formulario data-email={SITE.email} data-lang={lang} novalidate>
-  <div>
-    <label for="f-tipo" class="block text-sm text-white mb-1.5">{L(lang, '¿Qué necesitas?', 'Què necessites?')}</label>
-    <select id="f-tipo" name="tipo" class={input}>
-      {tipos.map(([v, t]) => <option value={v}>{t}</option>)}
-    </select>
-  </div>
+  {modo === 'info' ? (
+    <>
+      <input type="hidden" name="tipo" value="info" />
+      <input type="hidden" name="centro" value={centro?.nombre} />
+      <input type="hidden" name="municipio" value={centro?.municipio} />
+    </>
+  ) : (
+    <div>
+      <label for="f-tipo" class="block text-sm text-white mb-1.5">{L(lang, '¿Qué necesitas?', 'Què necessites?')}</label>
+      <select id="f-tipo" name="tipo" class={input}>
+        {tipos.map(([v, t]) => <option value={v}>{t}</option>)}
+      </select>
+    </div>
+  )}
   <div class="grid sm:grid-cols-2 gap-4">
     <div>
       <label for="f-nombre" class="block text-sm text-white mb-1.5">{L(lang, 'Tu nombre', 'El teu nom')}</label>
@@ -62,13 +74,21 @@ const tipos = modo === 'centro'
   <div>
     <label for="f-mensaje" class="block text-sm text-white mb-1.5">{L(lang, 'Mensaje', 'Missatge')}</label>
     <textarea id="f-mensaje" name="mensaje" rows="5" class={input} maxlength="4000"
-      placeholder={modo === 'centro'
+      placeholder={modo === 'info'
+        ? L(lang, 'Qué quieres saber: edad, nivel, horarios, precio de la clase de prueba…', 'Què vols saber: edat, nivell, horaris, preu de la classe de prova…')
+        : modo === 'centro'
         ? L(lang, 'Disciplinas que ofreces, dirección, clases infantiles… o lo que haya que corregir.', 'Disciplines que ofereixes, adreça, classes infantils… o el que calgui corregir.')
         : L(lang, 'Cuéntanos qué buscas o qué dato está mal.', "Explica'ns què busques o quina dada està malament.")}></textarea>
   </div>
   <div class="hidden" aria-hidden="true">
     <label>No rellenar <input name="empresa_web" tabindex="-1" autocomplete="off" /></label>
   </div>
+  {modo === 'info' && (
+    <label class="flex items-start gap-2 text-xs text-brand-muted">
+      <input type="checkbox" name="reenvio" required class="mt-0.5" />
+      <span>{L(lang, 'Acepto que hagáis llegar mi consulta y mi email a este centro para que me responda.', "Accepto que feu arribar la meva consulta i el meu email a aquest centre perquè em respongui.")}</span>
+    </label>
+  )}
   <label class="flex items-start gap-2 text-xs text-brand-muted">
     <input type="checkbox" name="acepto" required class="mt-0.5" />
     <span>
@@ -115,6 +135,7 @@ const tipos = modo === 'centro'
       const fd = new FormData(form);
       const datos: Record<string, string | boolean> = Object.fromEntries([...fd.entries()].map(([k, v]) => [k, String(v)]));
       datos.acepto = fd.get('acepto') === 'on';
+      if (form.querySelector('[name=reenvio]') && fd.get('reenvio') !== 'on') return mostrar(t('Marca la casilla para que podamos hacer llegar tu consulta al centro.', 'Marca la casella perquè puguem fer arribar la consulta al centre.'), false);
       datos.pagina = location.pathname;
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(datos.email || ''))) return mostrar(t('Revisa el email.', "Revisa l'email."), false);
       if (!datos.acepto) return mostrar(t('Marca la casilla de privacidad para poder enviarlo.', 'Marca la casella de privadesa per poder enviar-lo.'), false);
@@ -125,7 +146,7 @@ const tipos = modo === 'centro'
         if (r.ok) {
           form.reset();
           mostrar(t('Recibido. Te respondemos por email en uno o dos días laborables.', 'Rebut. Et responem per email en un o dos dies feiners.'), true);
-          (window as any).gtag?.('event', 'generate_lead', { form_tipo: datos.tipo });
+          (window as any).gtag?.('event', 'generate_lead', { form_tipo: datos.tipo, centro: datos.centro || '' });
           return;
         }
         if (r.status !== 503) throw new Error(String(r.status));

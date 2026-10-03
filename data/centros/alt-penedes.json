@@ -1,7 +1,7 @@
 [
  {
   "slug": "asociacion-karate-kushikai-espana",
-  "nombre": "Asociacion Karate Kushikai España",
+  "nombre": "Asociación Karate Kushikai España",
   "tipo": "asociacion",
   "municipio": "vilafranca-del-penedes",
   "disciplinas": [
@@ -14,7 +14,7 @@
  },
  {
   "slug": "associacio-esportiva-mediterrani-vilafranca-del-penedes-aemv",
-  "nombre": "Associacio Esportiva Mediterrani Vilafranca del Penedes Aemv",
+  "nombre": "Associació Esportiva Mediterrani Vilafranca del Penedès Aemv",
   "tipo": "asociacion",
   "municipio": "vilafranca-del-penedes",
   "disciplinas": [
@@ -28,7 +28,7 @@
  },
  {
   "slug": "associacio-esportiva-shindo-kai",
-  "nombre": "Associacio Esportiva Shindo Kai",
+  "nombre": "Associació Esportiva Shindo Kai",
   "tipo": "asociacion",
   "municipio": "vilafranca-del-penedes",
   "disciplinas": [
@@ -40,7 +40,7 @@
  },
  {
   "slug": "associacio-esportiva-taekwondo-vilafranca",
-  "nombre": "Associacio Esportiva Taekwondo Vilafranca",
+  "nombre": "Associació Esportiva Taekwondo Vilafranca",
   "tipo": "asociacion",
   "municipio": "vilafranca-del-penedes",
   "disciplinas": [
@@ -52,7 +52,7 @@
  },
  {
   "slug": "associacio-karate-niwa-torrelles-de-foix",
-  "nombre": "Associacio Karate Niwa Torrelles de Foix",
+  "nombre": "Associació Karate Niwa Torrelles de Foix",
   "tipo": "asociacion",
   "municipio": "torrelles-de-foix",
   "disciplinas": [
@@ -128,7 +128,7 @@
  },
  {
   "slug": "club-de-boxa-sant-sadurni",
-  "nombre": "Club de Boxa Sant Sadurni",
+  "nombre": "Club de Boxa Sant Sadurní",
   "tipo": "club",
   "municipio": "sant-sadurni-danoia",
   "disciplinas": [
@@ -140,7 +140,7 @@
  },
  {
   "slug": "club-de-taekwondo-sant-sadurni-danoia",
-  "nombre": "Club de Taekwondo Sant Sadurni d'Anoia",
+  "nombre": "Club de Taekwondo Sant Sadurní d'Anoia",
   "tipo": "club",
   "municipio": "sant-sadurni-danoia",
   "disciplinas": [
@@ -183,7 +183,7 @@
  },
  {
   "slug": "club-esportiu-jiu-jitsu-sant-sadurni",
-  "nombre": "Club Esportiu Jiu Jitsu Sant Sadurni",
+  "nombre": "Club Esportiu Jiu Jitsu Sant Sadurní",
   "tipo": "club",
   "municipio": "sant-sadurni-danoia",
   "disciplinas": [
@@ -249,7 +249,7 @@
  },
  {
   "slug": "club-judo-sant-sadurni-danoia",
-  "nombre": "Club Judo Sant Sadurni d'Anoia",
+  "nombre": "Club Judo Sant Sadurní d'Anoia",
   "tipo": "club",
   "municipio": "sant-sadurni-danoia",
   "disciplinas": [

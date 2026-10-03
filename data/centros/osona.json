@@ -1,7 +1,7 @@
 [
  {
   "slug": "associacio-esportiva-arts-marcials-hagakure-vic",
-  "nombre": "Associacio Esportiva Arts Marcials Hagakure Vic",
+  "nombre": "Associació Esportiva Arts Marcials Hagakure Vic",
   "tipo": "asociacion",
   "municipio": "vic",
   "disciplinas": [
@@ -15,7 +15,7 @@
  },
  {
   "slug": "associacio-esportiva-de-judo-repartim-makikomis",
-  "nombre": "Associacio Esportiva de Judo Repartim Makikomis",
+  "nombre": "Associació Esportiva de Judo Repartim Makikomis",
   "tipo": "asociacion",
   "municipio": "tona",
   "disciplinas": [
@@ -27,7 +27,7 @@
  },
  {
   "slug": "associacio-esportiva-defensa-personal-osona",
-  "nombre": "Associacio Esportiva Defensa Personal Osona",
+  "nombre": "Associació Esportiva Defensa Personal Osona",
   "tipo": "asociacion",
   "municipio": "sant-bartomeu-del-grau",
   "disciplinas": [
@@ -39,7 +39,7 @@
  },
  {
   "slug": "associacio-esportiva-lianhua",
-  "nombre": "Associacio Esportiva Lianhua",
+  "nombre": "Associació Esportiva Lianhua",
   "tipo": "asociacion",
   "municipio": "montesquiu",
   "disciplinas": [
@@ -51,7 +51,7 @@
  },
  {
   "slug": "associacio-karate-tona",
-  "nombre": "Associacio Karate Tona",
+  "nombre": "Associació Karate Tona",
   "tipo": "asociacion",
   "municipio": "tona",
   "disciplinas": [
@@ -306,7 +306,7 @@
  },
  {
   "slug": "club-gimnas-pratdesaba",
-  "nombre": "Club Gimnas Pratdesaba",
+  "nombre": "Club Gimnàs Pratdesaba",
   "tipo": "club",
   "municipio": "torello",
   "disciplinas": [
@@ -318,7 +318,7 @@
  },
  {
   "slug": "club-gimnastic-recreatiu-roda",
-  "nombre": "Club Gimnastic Recreatiu Roda",
+  "nombre": "Club Gimnàstic Recreatiu Roda",
   "tipo": "club",
   "municipio": "roda-de-ter",
   "disciplinas": [

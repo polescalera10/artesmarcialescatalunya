@@ -68,7 +68,7 @@
  },
  {
   "slug": "agrupacio-esportiva-santa-eulalia",
-  "nombre": "Agrupacio Esportiva Santa Eulalia",
+  "nombre": "Agrupació Esportiva Santa Eulàlia",
   "tipo": "asociacion",
   "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
@@ -169,7 +169,7 @@
  },
  {
   "slug": "asociacion-deportiva-chatarras-palace",
-  "nombre": "Asociacion Deportiva Chatarras Palace",
+  "nombre": "Asociación Deportiva Chatarras Palace",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -181,7 +181,7 @@
  },
  {
   "slug": "asociacion-deportiva-de-artes-marciales-badalona",
-  "nombre": "Asociacion Deportiva de Artes Marciales Badalona",
+  "nombre": "Asociación Deportiva de Artes Marciales Badalona",
   "tipo": "asociacion",
   "municipio": "badalona",
   "disciplinas": [
@@ -193,7 +193,7 @@
  },
  {
   "slug": "asociacion-deportiva-de-karate-educativo",
-  "nombre": "Asociacion Deportiva de Karate Educativo",
+  "nombre": "Asociación Deportiva de Karate Educativo",
   "tipo": "asociacion",
   "municipio": "santa-coloma-de-gramenet",
   "disciplinas": [
@@ -206,7 +206,7 @@
  },
  {
   "slug": "asociacion-qigong-y-yoga-para-todos-barcelona",
-  "nombre": "Asociacion Qigong y Yoga Para Todos Barcelona",
+  "nombre": "Asociación Qigong y Yoga Para Todos Barcelona",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -233,7 +233,7 @@
  },
  {
   "slug": "associacio-catalana-pachi-tang-lang",
-  "nombre": "Associacio Catalana Pachi Tang Lang",
+  "nombre": "Associació Catalana Pachi Tang Lang",
   "tipo": "asociacion",
   "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
@@ -268,7 +268,7 @@
  },
  {
   "slug": "associacio-de-choylifut",
-  "nombre": "Associacio de Choylifut",
+  "nombre": "Associació de Choylifut",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -282,7 +282,7 @@
  },
  {
   "slug": "associacio-de-taekwondo-catalonia-esportiu",
-  "nombre": "Associacio de Taekwondo Catalonia Esportiu",
+  "nombre": "Associació de Taekwondo Catalonia Esportiu",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -294,7 +294,7 @@
  },
  {
   "slug": "associacio-de-taitxi-hong",
-  "nombre": "Associacio de Taitxi Hong",
+  "nombre": "Associació de Taitxi Hong",
   "tipo": "asociacion",
   "municipio": "santa-coloma-de-gramenet",
   "disciplinas": [
@@ -319,7 +319,7 @@
  },
  {
   "slug": "associacio-esportiva-art-i-esport-badalona",
-  "nombre": "Associacio Esportiva Art i Esport Badalona",
+  "nombre": "Associació Esportiva Art i Esport Badalona",
   "tipo": "asociacion",
   "municipio": "badalona",
   "disciplinas": [
@@ -331,7 +331,7 @@
  },
  {
   "slug": "associacio-esportiva-bgs-barcelona",
-  "nombre": "Associacio Esportiva Bgs Barcelona",
+  "nombre": "Associació Esportiva Bgs Barcelona",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -343,7 +343,7 @@
  },
  {
   "slug": "associacio-esportiva-darts-marcial-enan",
-  "nombre": "Associacio Esportiva d'Arts Marcial Enan",
+  "nombre": "Associació Esportiva d'Arts Marcial Enan",
   "tipo": "asociacion",
   "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
@@ -370,7 +370,7 @@
  },
  {
   "slug": "associacio-esportiva-de-jiu-jitsu-i-mma-mediterranea",
-  "nombre": "Associacio Esportiva de Jiu Jitsu i MMA Mediterranea",
+  "nombre": "Associació Esportiva de Jiu Jitsu i MMA Mediterranea",
   "tipo": "asociacion",
   "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
@@ -383,7 +383,7 @@
  },
  {
   "slug": "associacio-esportiva-de-judo-musashi-barcelona",
-  "nombre": "Associacio Esportiva de Judo Musashi Barcelona",
+  "nombre": "Associació Esportiva de Judo Musashi Barcelona",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -396,7 +396,7 @@
  },
  {
   "slug": "associacio-esportiva-kyoshi",
-  "nombre": "Associacio Esportiva Kyoshi",
+  "nombre": "Associació Esportiva Kyoshi",
   "tipo": "asociacion",
   "municipio": "badalona",
   "disciplinas": [
@@ -408,7 +408,7 @@
  },
  {
   "slug": "associacio-esportiva-leixample",
-  "nombre": "Associacio Esportiva Leixample",
+  "nombre": "Associació Esportiva Leixample",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -421,7 +421,7 @@
  },
  {
   "slug": "associacio-esportiva-madrid",
-  "nombre": "Associacio Esportiva Madrid",
+  "nombre": "Associació Esportiva Madrid",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -433,7 +433,7 @@
  },
  {
   "slug": "associacio-esportiva-mare-de-deu-del-coll",
-  "nombre": "Associacio Esportiva Mare de Deu del Coll",
+  "nombre": "Associació Esportiva Mare de Deu del Coll",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -445,7 +445,7 @@
  },
  {
   "slug": "associacio-esportiva-rafael-diaz",
-  "nombre": "Associacio Esportiva Rafael Diaz",
+  "nombre": "Associació Esportiva Rafael Diaz",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -457,7 +457,7 @@
  },
  {
   "slug": "associacio-esportiva-sanjeevani",
-  "nombre": "Associacio Esportiva Sanjeevani",
+  "nombre": "Associació Esportiva Sanjeevani",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -487,7 +487,7 @@
  },
  {
   "slug": "associacio-esportiva-valle-hebron",
-  "nombre": "Associacio Esportiva Valle Hebron",
+  "nombre": "Associació Esportiva Valle Hebron",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -499,7 +499,7 @@
  },
  {
   "slug": "associacio-indepros",
-  "nombre": "Associacio Indepros",
+  "nombre": "Associació Indepros",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -511,7 +511,7 @@
  },
  {
   "slug": "associacio-karate-espanya-2016",
-  "nombre": "Associacio Karate Espanya 2016",
+  "nombre": "Associació Karate Espanya 2016",
   "tipo": "asociacion",
   "municipio": "badalona",
   "disciplinas": [
@@ -523,7 +523,7 @@
  },
  {
   "slug": "associacio-kickboxing-barcelona-centre",
-  "nombre": "Associacio Kickboxing Barcelona Centre",
+  "nombre": "Associació Kickboxing Barcelona Centre",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -541,7 +541,7 @@
  },
  {
   "slug": "associacio-kickboxing-muaythai-catalunya",
-  "nombre": "Associacio Kickboxing Muaythai Catalunya",
+  "nombre": "Associació Kickboxing Muaythai Catalunya",
   "tipo": "asociacion",
   "municipio": "barcelona",
   "disciplinas": [
@@ -901,7 +901,7 @@
  },
  {
   "slug": "centre-gimnastic-barcelones",
-  "nombre": "Centre Gimnastic Barcelones",
+  "nombre": "Centre Gimnàstic Barcelonès",
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
@@ -991,7 +991,7 @@
  },
  {
   "slug": "club-arts-marcials-cornella",
-  "nombre": "Club Arts Marcials Cornella",
+  "nombre": "Club Arts Marcials Cornellà",
   "tipo": "club",
   "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
@@ -1194,7 +1194,7 @@
  },
  {
   "slug": "club-centre-esportiu-gimnas-independencia",
-  "nombre": "Club Centre Esportiu Gimnas Independencia",
+  "nombre": "Club Centre Esportiu Gimnàs Independencia",
   "tipo": "club",
   "municipio": "badalona",
   "disciplinas": [
@@ -2590,7 +2590,7 @@
  },
  {
   "slug": "club-futbol-sala-la-sardana-de-badia-del-valles",
-  "nombre": "Club Futbol Sala la Sardana de Badia del Valles",
+  "nombre": "Club Futbol Sala la Sardana de Badia del Vallès",
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
@@ -2602,7 +2602,7 @@
  },
  {
   "slug": "club-gimnas-judo-tao-lhospitalet-de-llobregat",
-  "nombre": "Club Gimnas Judo Tao",
+  "nombre": "Club Gimnàs Judo Tao",
   "tipo": "club",
   "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
@@ -2615,7 +2615,7 @@
  },
  {
   "slug": "club-gimnas-judo-yawara-arenal",
-  "nombre": "Club Gimnas Judo Yawara Arenal",
+  "nombre": "Club Gimnàs Judo Yawara Arenal",
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
@@ -2629,7 +2629,7 @@
  },
  {
   "slug": "club-gimnas-judomandri",
-  "nombre": "Club Gimnas Judomandri",
+  "nombre": "Club Gimnàs Judomandri",
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
@@ -2643,7 +2643,7 @@
  },
  {
   "slug": "club-gimnas-lleure",
-  "nombre": "Club Gimnas Lleure",
+  "nombre": "Club Gimnàs Lleure",
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
@@ -2656,7 +2656,7 @@
  },
  {
   "slug": "club-gimnas-louis-badalona",
-  "nombre": "Club Gimnas Louis",
+  "nombre": "Club Gimnàs Louis",
   "tipo": "club",
   "municipio": "badalona",
   "disciplinas": [
@@ -2668,7 +2668,7 @@
  },
  {
   "slug": "club-gimnas-marin",
-  "nombre": "Club Gimnas Marin",
+  "nombre": "Club Gimnàs Marin",
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
@@ -2684,7 +2684,7 @@
  },
  {
   "slug": "club-gimnas-nuria",
-  "nombre": "Club Gimnas Nuria",
+  "nombre": "Club Gimnàs Nuria",
   "tipo": "club",
   "municipio": "badalona",
   "disciplinas": [
@@ -2696,7 +2696,7 @@
  },
  {
   "slug": "club-gimnas-panchame",
-  "nombre": "Club Gimnas Panchame",
+  "nombre": "Club Gimnàs Panchame",
   "tipo": "club",
   "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
@@ -2710,7 +2710,7 @@
  },
  {
   "slug": "club-gimnas-rodon",
-  "nombre": "Club Gimnas Rodon",
+  "nombre": "Club Gimnàs Rodon",
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
@@ -2770,7 +2770,7 @@
  },
  {
   "slug": "club-gimnastic-badalona",
-  "nombre": "Club Gimnastic Badalona",
+  "nombre": "Club Gimnàstic Badalona",
   "tipo": "club",
   "municipio": "badalona",
   "disciplinas": [
@@ -3119,7 +3119,7 @@
  },
  {
   "slug": "club-karate-ippon-sant-adria",
-  "nombre": "Club Karate Ippon Sant Adria",
+  "nombre": "Club Karate Ippon Sant Adrià",
   "tipo": "club",
   "municipio": "sant-adria-de-besos",
   "disciplinas": [
@@ -5025,7 +5025,7 @@
  },
  {
   "slug": "unio-gimnastica-i-esportiva-de-badalona",
-  "nombre": "Unio Gimnastica i Esportiva de Badalona",
+  "nombre": "Unió Gimnàstica i Esportiva de Badalona",
   "tipo": "club",
   "municipio": "badalona",
   "disciplinas": [

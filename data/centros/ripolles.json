@@ -1,7 +1,7 @@
 [
  {
   "slug": "associacio-esportiva-yuan-dao",
-  "nombre": "Associacio Esportiva Yuan Dao",
+  "nombre": "Associació Esportiva Yuan Dao",
   "tipo": "asociacion",
   "municipio": "ripoll",
   "disciplinas": [
@@ -38,7 +38,7 @@
  },
  {
   "slug": "club-gimnastic-campdevanol",
-  "nombre": "Club Gimnastic Campdevanol",
+  "nombre": "Club Gimnàstic Campdevanol",
   "tipo": "club",
   "municipio": "campdevanol",
   "disciplinas": [

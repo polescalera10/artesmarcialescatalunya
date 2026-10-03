@@ -7,8 +7,9 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Migas from '../components/Migas.astro';
 import CentroCard from '../components/CentroCard.astro';
+import Formulario from '../components/Formulario.astro';
 import { L, url, lista, titulo, descripcion, fecha, type Lang } from '../lib/i18n';
-import { getCentro, centrosDeMunicipio, cercanos, esPromocionado } from '../lib/centros';
+import { getCentro, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { tienePaginaMunicipio, tienePaginaMunDisc, fichaIndexable } from '../lib/rutas';
@@ -23,7 +24,8 @@ const promo = esPromocionado(c.slug);
 const discs = c.disciplinas.map(d => nombreDisciplina(d, lang));
 // Algunas fuentes solo dicen "artes marciales": la ficha no inventa la disciplina.
 const actividad = discs.length ? lista(lang, discs.map(d => d.toLowerCase())) : L(lang, 'artes marciales', 'arts marcials');
-const vecinos = centrosDeMunicipio(c.municipio).filter(x => x.slug !== c.slug).slice(0, 6);
+const vecinos = centrosDeMunicipio(c.municipio).filter(x => x.slug !== c.slug)
+  .sort((a, b) => Number(esVerificado(b)) - Number(esVerificado(a))).slice(0, 6);
 const parecidos = vecinos.length < 3
   ? cercanos(mun, x => x.slug !== c.slug && x.disciplinas.some(d => c.disciplinas.includes(d)), 6 - vecinos.length, 30)
   : [];
@@ -39,6 +41,9 @@ const TIPO: Record<string, [string, string]> = {
   escuela: ['Escuela', 'Escola'], club: ['Club', 'Club'], asociacion: ['Asociación', 'Associació'], gimnasio: ['Gimnasio', 'Gimnàs'],
 };
 const fuenteLabel = L(lang, ...FUENTE[c.fuenteTipo]);
+// El registro se enlaza en su página pública de datos abiertos, no en la API (que devuelve JSON).
+const nRegistro = c.fuenteTipo === 'registro-oficial' ? new URL(c.fuente).searchParams.get('n_m_registre') : null;
+const fuenteHref = nRegistro ? 'https://analisi.transparenciacatalunya.cat/d/qrgc-u7pk' : c.fuente;
 
 const title = titulo(
   L(lang, `${c.nombre} · ${mun.nombre} | ${discs.length ? lista(lang, discs.slice(0, 2)) : L(lang, 'Artes marciales', 'Arts marcials')}`, `${c.nombre} · ${mun.nombre}`),
@@ -127,14 +132,14 @@ const schema = [
           <dt class="text-sm text-brand-muted">Web</dt>
           <dd class="sm:col-span-2 text-sm">
             {c.web
-              ? <a href={c.web} target="_blank" rel={promo ? 'sponsored noopener' : 'noopener'} class="text-brand-red hover:text-red-400 break-all">{c.web.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')} ↗</a>
+              ? <a href={c.web} target="_blank" rel={promo ? 'sponsored noopener' : 'noopener'} class="text-brand-red hover:text-red-400 break-all" data-evento="clic_web_centro" data-centro={c.slug}>{c.web.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')} ↗</a>
               : <span class="text-brand-muted">{L(lang, 'No hemos encontrado web propia.', 'No hem trobat web propi.')}</span>}
           </dd>
         </div>
         <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
           <dt class="text-sm text-brand-muted">{L(lang, 'Fuente', 'Font')}</dt>
           <dd class="sm:col-span-2 text-sm text-white">
-            <a href={c.fuente} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-brand-red">{fuenteLabel}</a>
+            <a href={fuenteHref} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-brand-red" data-evento="clic_fuente">{fuenteLabel}</a>{nRegistro && <span class="text-brand-muted"> ({L(lang, 'n.º de inscripción', "núm. d'inscripció")} {nRegistro})</span>}
             {c.fuenteTipo === 'registro-oficial'
               ? <span class="text-brand-muted"> · {L(lang, 'consultado el', 'consultat el')} {fecha(lang, c.verificado)}. {L(lang, 'El registro confirma que la entidad está inscrita, no que siga dando clases: compruébalo con el club.', "El registre confirma que l'entitat hi és inscrita, no que continuï fent classes: comprova-ho amb el club.")}</span>
               : <span class="text-brand-muted"> · {L(lang, 'verificado el', 'verificat el')} {fecha(lang, c.verificado)}</span>}
@@ -148,6 +153,23 @@ const schema = [
       </p>
     </section>
 
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <details class="group bg-brand-gray border border-brand-border rounded-xl" data-evento-abrir="abrir_pedir_info">
+        <summary class="list-none cursor-pointer px-5 py-4 flex items-center justify-between gap-4">
+          <span>
+            <span class="block font-semibold text-white">{L(lang, `Pedir información a ${c.nombre}`, `Demanar informació a ${c.nombre}`)}</span>
+            <span class="block text-sm text-brand-muted mt-1">{c.web
+              ? L(lang, 'Puedes escribir directamente desde su web o dejarnos tu consulta y se la hacemos llegar.', 'Pots escriure directament des del seu web o deixar-nos la consulta i la hi fem arribar.')
+              : L(lang, 'No tiene web conocida: déjanos tu consulta y se la hacemos llegar.', 'No té web coneguda: deixa’ns la consulta i la hi fem arribar.')}</span>
+          </span>
+          <span class="shrink-0 bg-brand-red text-white text-sm font-semibold px-4 py-2 rounded-lg group-open:hidden">{L(lang, 'Escribir', 'Escriure')}</span>
+        </summary>
+        <div class="px-5 pb-5">
+          <Formulario lang={lang} modo="info" centro={{ nombre: c.nombre, municipio: mun.nombre }} />
+        </div>
+      </details>
+    </section>
+
     <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <div class="border border-brand-border rounded-xl p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
@@ -158,7 +180,7 @@ const schema = [
               : L(lang, 'Corrige la ficha gratis. Y si aún no tienes web, te contamos cómo te podemos ayudar.', "Corregeix la fitxa gratis. I si encara no tens web, t'expliquem com et podem ajudar.")}
           </p>
         </div>
-        <a href={`${url.paraCentros(lang)}?centro=${c.slug}`} class="shrink-0 text-center bg-brand-red hover:bg-red-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg" rel="nofollow">{L(lang, 'Gestionar ficha', 'Gestionar fitxa')}</a>
+        <a href={`${url.paraCentros(lang)}?centro=${c.slug}`} class="shrink-0 text-center bg-brand-red hover:bg-red-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg" rel="nofollow" data-evento="gestionar_ficha" data-centro={c.slug}>{L(lang, 'Gestionar ficha', 'Gestionar fitxa')}</a>
       </div>
     </section>
 

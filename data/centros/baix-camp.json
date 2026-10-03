@@ -31,7 +31,7 @@
  },
  {
   "slug": "associacio-amics-de-riudoms",
-  "nombre": "Associacio Amics de Riudoms",
+  "nombre": "Associació Amics de Riudoms",
   "tipo": "asociacion",
   "municipio": "riudoms",
   "disciplinas": [
@@ -43,7 +43,7 @@
  },
  {
   "slug": "associacio-esportiva-de-taekwondo-costa-daurada",
-  "nombre": "Associacio Esportiva de Taekwondo Costa Daurada",
+  "nombre": "Associació Esportiva de Taekwondo Costa Daurada",
   "tipo": "asociacion",
   "municipio": "reus",
   "disciplinas": [
@@ -75,7 +75,7 @@
  },
  {
   "slug": "associacio-esportiva-el-salt-esport-i-lleure",
-  "nombre": "Associacio Esportiva el Salt Esport i Lleure",
+  "nombre": "Associació Esportiva el Salt Esport i Lleure",
   "tipo": "asociacion",
   "municipio": "castellvell-del-camp",
   "disciplinas": [
@@ -87,7 +87,7 @@
  },
  {
   "slug": "associacio-esportiva-jiujitsu-brasiler-cambrils",
-  "nombre": "Associacio Esportiva Jiujitsu Brasiler Cambrils",
+  "nombre": "Associació Esportiva Jiujitsu Brasiler Cambrils",
   "tipo": "asociacion",
   "municipio": "cambrils",
   "disciplinas": [
@@ -99,7 +99,7 @@
  },
  {
   "slug": "associacio-esportiva-karate-i-goshindo-reus",
-  "nombre": "Associacio Esportiva Karate i Goshindo Reus",
+  "nombre": "Associació Esportiva Karate i Goshindo Reus",
   "tipo": "asociacion",
   "municipio": "la-selva-del-camp",
   "disciplinas": [
@@ -114,7 +114,7 @@
  },
  {
   "slug": "associacio-esportiva-mare-de-deu-de-la-misericordia",
-  "nombre": "Associacio Esportiva Mare de Deu de la Misericordia",
+  "nombre": "Associació Esportiva Mare de Deu de la Misericordia",
   "tipo": "asociacion",
   "municipio": "reus",
   "disciplinas": [
@@ -126,7 +126,7 @@
  },
  {
   "slug": "associacio-esportiva-pare-manyanet",
-  "nombre": "Associacio Esportiva Pare Manyanet",
+  "nombre": "Associació Esportiva Pare Manyanet",
   "tipo": "asociacion",
   "municipio": "reus",
   "disciplinas": [
@@ -138,7 +138,7 @@
  },
  {
   "slug": "associacio-esportiva-vilafortuny",
-  "nombre": "Associacio Esportiva Vilafortuny",
+  "nombre": "Associació Esportiva Vilafortuny",
   "tipo": "asociacion",
   "municipio": "cambrils",
   "disciplinas": [
@@ -258,7 +258,7 @@
  },
  {
   "slug": "club-de-boxa-cambrils-olimpica",
-  "nombre": "Club de Boxa Cambrils Olimpica",
+  "nombre": "Club de Boxa Cambrils Olímpica",
   "tipo": "club",
   "municipio": "cambrils",
   "disciplinas": [
@@ -451,7 +451,7 @@
  },
  {
   "slug": "club-gimnas-cambrils-port",
-  "nombre": "Club Gimnas Cambrils Port",
+  "nombre": "Club Gimnàs Cambrils Port",
   "tipo": "club",
   "municipio": "cambrils",
   "disciplinas": [

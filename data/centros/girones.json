@@ -16,7 +16,7 @@
  },
  {
   "slug": "associacio-esportiva-de-kendo-cassa-de-la-selva",
-  "nombre": "Associacio Esportiva de Kendo Cassa de la Selva",
+  "nombre": "Associació Esportiva de Kendo Cassa de la Selva",
   "tipo": "asociacion",
   "municipio": "cassa-de-la-selva",
   "disciplinas": [
@@ -42,7 +42,7 @@
  },
  {
   "slug": "associacio-esportiva-kick-boxing-fenix",
-  "nombre": "Associacio Esportiva Kick Boxing Fenix",
+  "nombre": "Associació Esportiva Kick Boxing Fènix",
   "tipo": "asociacion",
   "municipio": "cassa-de-la-selva",
   "disciplinas": [
@@ -58,7 +58,7 @@
  },
  {
   "slug": "associacio-esportiva-la-farga",
-  "nombre": "Associacio Esportiva la Farga",
+  "nombre": "Associació Esportiva la Farga",
   "tipo": "asociacion",
   "municipio": "salt",
   "disciplinas": [
@@ -70,7 +70,7 @@
  },
  {
   "slug": "associacio-gironina-daikido-yoshinkan",
-  "nombre": "Associacio Gironina d'Aikido Yoshinkan",
+  "nombre": "Associació Gironina d'Aikido Yoshinkan",
   "tipo": "asociacion",
   "municipio": "campllong",
   "disciplinas": [
@@ -83,7 +83,7 @@
  },
  {
   "slug": "associacio-judo-ter",
-  "nombre": "Associacio Judo Ter",
+  "nombre": "Associació Judo Ter",
   "tipo": "asociacion",
   "municipio": "salt",
   "disciplinas": [
@@ -232,7 +232,7 @@
  },
  {
   "slug": "club-esportiu-girones-defensa-personal-girona",
-  "nombre": "Club Esportiu Girones Defensa Personal",
+  "nombre": "Club Esportiu Gironès Defensa Personal",
   "tipo": "club",
   "municipio": "girona",
   "disciplinas": [
@@ -349,7 +349,7 @@
  },
  {
   "slug": "club-gimnas-fujiyama",
-  "nombre": "Club Gimnas Fujiyama",
+  "nombre": "Club Gimnàs Fujiyama",
   "tipo": "club",
   "municipio": "girona",
   "disciplinas": [
@@ -362,7 +362,7 @@
  },
  {
   "slug": "club-gimnas-judo-sant-jordi",
-  "nombre": "Club Gimnas Judo Sant Jordi",
+  "nombre": "Club Gimnàs Judo Sant Jordi",
   "tipo": "club",
   "municipio": "girona",
   "disciplinas": [
@@ -674,7 +674,7 @@
  },
  {
   "slug": "unio-esportiva-la-salle-girona",
-  "nombre": "Unio Esportiva la Salle Girona",
+  "nombre": "Unió Esportiva la Salle Girona",
   "tipo": "club",
   "municipio": "girona",
   "disciplinas": [

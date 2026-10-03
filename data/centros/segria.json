@@ -43,7 +43,7 @@
  },
  {
   "slug": "associacio-esportiva-de-kick-boxing-alcoletge",
-  "nombre": "Associacio Esportiva de Kick Boxing Alcoletge",
+  "nombre": "Associació Esportiva de Kick Boxing Alcoletge",
   "tipo": "asociacion",
   "municipio": "alcoletge",
   "disciplinas": [
@@ -56,7 +56,7 @@
  },
  {
   "slug": "associacio-esportiva-de-nanbudo-daitona",
-  "nombre": "Associacio Esportiva de Nanbudo Daitona",
+  "nombre": "Associació Esportiva de Nanbudo Daitona",
   "tipo": "asociacion",
   "municipio": "aitona",
   "disciplinas": [
@@ -68,7 +68,7 @@
  },
  {
   "slug": "associacio-esportiva-esport-femeni-lleida-flor-de-lis",
-  "nombre": "Associacio Esportiva Esport Femeni Lleida Flor de Lis",
+  "nombre": "Associació Esportiva Esport Femeni Lleida Flor de Lis",
   "tipo": "asociacion",
   "municipio": "lleida",
   "disciplinas": [
@@ -84,7 +84,7 @@
  },
  {
   "slug": "associacio-esportiva-la-cristaleria",
-  "nombre": "Associacio Esportiva la Cristaleria",
+  "nombre": "Associació Esportiva la Cristaleria",
   "tipo": "asociacion",
   "municipio": "lleida",
   "disciplinas": [
@@ -96,7 +96,7 @@
  },
  {
   "slug": "associacio-esportiva-nanbudo-alcarras",
-  "nombre": "Associacio Esportiva Nanbudo Alcarras",
+  "nombre": "Associació Esportiva Nanbudo Alcarras",
   "tipo": "asociacion",
   "municipio": "alcarras",
   "disciplinas": [
@@ -108,7 +108,7 @@
  },
  {
   "slug": "associacio-judo-vilanova-de-la-barca",
-  "nombre": "Associacio Judo Vilanova de la Barca",
+  "nombre": "Associació Judo Vilanova de la Barca",
   "tipo": "asociacion",
   "municipio": "vilanova-de-la-barca",
   "disciplinas": [
@@ -226,7 +226,7 @@
  },
  {
   "slug": "club-de-taekwondo-gimnas-belllloc",
-  "nombre": "Club de Taekwondo Gimnas Belllloc",
+  "nombre": "Club de Taekwondo Gimnàs Belllloc",
   "tipo": "club",
   "municipio": "lleida",
   "disciplinas": [
@@ -447,7 +447,7 @@
  },
  {
   "slug": "club-gimnastica-ritmica-lleida",
-  "nombre": "Club Gimnastica Ritmica Lleida",
+  "nombre": "Club Gimnàstica Ritmica Lleida",
   "tipo": "club",
   "municipio": "lleida",
   "disciplinas": [

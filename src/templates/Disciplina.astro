@@ -10,7 +10,7 @@ import ListaCentros from '../components/ListaCentros.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
-import { centrosConDisciplina } from '../lib/centros';
+import { centrosConDisciplina, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { getDisciplina, DISCIPLINAS, GRUPOS } from '../lib/disciplinas';
 import { rutasDiscComarca, rutasMunDisc, rutasDisciplina } from '../lib/rutas';
@@ -23,6 +23,7 @@ const dis = getDisciplina(disciplina)!;
 const nd = dis[lang];
 const ndl = nd.toLowerCase();
 const centros = centrosConDisciplina(disciplina);
+const nV = verificados(centros).length;
 const guia = lang === 'es' ? getDisciplineBySlug(disciplina) : undefined;
 
 const porComarca = [...new Set(centros.map(c => c.comarca))]
@@ -37,20 +38,20 @@ const top = porComarca.slice(0, 3).map(c => c.nombre);
 
 const intro = centros.length
   ? L(lang,
-      `En nuestro directorio constan ${n(centros.length, 'centro', 'centros')} que anuncian ${ndl} en ${n(porComarca.length, 'comarca', 'comarcas')} de Cataluña. Donde más hay: ${lista(lang, top)}. Elige tu comarca o municipio para ver los centros con su fuente pública.`,
-      `Al nostre directori hi consten ${n(centros.length, 'centre', 'centres')} que anuncien ${ndl} en ${n(porComarca.length, 'comarca', 'comarques')} de Catalunya. On n'hi ha més: ${lista(lang, top)}. Tria la teva comarca o municipi per veure els centres amb la seva font pública.`)
+      `En nuestro directorio constan ${n(nV, 'centro', 'centros')} que anuncian ${ndl} en ${n(porComarca.length, 'comarca', 'comarcas')} de Cataluña. Donde más hay: ${lista(lang, top)}. Elige tu comarca o municipio para ver los centros con su fuente pública.`,
+      `Al nostre directori hi consten ${n(nV, 'centre', 'centres')} que anuncien ${ndl} en ${n(porComarca.length, 'comarca', 'comarques')} de Catalunya. On n'hi ha més: ${lista(lang, top)}. Tria la teva comarca o municipi per veure els centres amb la seva font pública.`)
   : L(lang,
       `Todavía no hemos verificado ningún centro de ${ndl} en Cataluña. Estamos ampliando el directorio comarca a comarca.`,
       `Encara no hem verificat cap centre de ${ndl} a Catalunya. Estem ampliant el directori comarca a comarca.`);
 
 const title = titulo(
-  L(lang, `${nd} en Cataluña: ${n(centros.length, 'centro', 'centros')} por comarca`, `${nd} a Catalunya: ${n(centros.length, 'centre', 'centres')} per comarca`),
-  L(lang, `${nd} en Cataluña: ${n(centros.length, 'centro', 'centros')}`, `${nd} a Catalunya: ${n(centros.length, 'centre', 'centres')}`),
+  L(lang, `${nd} en Cataluña: ${n(nV, 'centro', 'centros')} por comarca`, `${nd} a Catalunya: ${n(nV, 'centre', 'centres')} per comarca`),
+  L(lang, `${nd} en Cataluña: ${n(nV, 'centro', 'centros')}`, `${nd} a Catalunya: ${n(nV, 'centre', 'centres')}`),
 );
 const description = descripcion(
   L(lang,
-    `Dónde entrenar ${ndl} en Cataluña: ${n(centros.length, 'centro', 'centros')} en ${n(porComarca.length, 'comarca', 'comarcas')}, con fuente pública verificada. Busca por comarca o municipio.`,
-    `On entrenar ${ndl} a Catalunya: ${n(centros.length, 'centre', 'centres')} en ${n(porComarca.length, 'comarca', 'comarques')}, amb font pública verificada. Cerca per comarca o municipi.`),
+    `Dónde entrenar ${ndl} en Cataluña: ${n(nV, 'centro', 'centros')} en ${n(porComarca.length, 'comarca', 'comarcas')}, con fuente pública verificada. Busca por comarca o municipio.`,
+    `On entrenar ${ndl} a Catalunya: ${n(nV, 'centre', 'centres')} en ${n(porComarca.length, 'comarca', 'comarques')}, amb font pública verificada. Cerca per comarca o municipi.`),
 );
 
 const faq = [

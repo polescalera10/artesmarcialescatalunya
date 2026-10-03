@@ -1,7 +1,7 @@
 [
  {
   "slug": "associacio-esportiva-de-kendo-girona-vidreres",
-  "nombre": "Associacio Esportiva de Kendo Girona",
+  "nombre": "Associació Esportiva de Kendo Girona",
   "tipo": "asociacion",
   "municipio": "vidreres",
   "disciplinas": [
@@ -15,7 +15,7 @@
  },
  {
   "slug": "associacio-esportiva-taekwondo-blanes",
-  "nombre": "Associacio Esportiva Taekwondo Blanes",
+  "nombre": "Associació Esportiva Taekwondo Blanes",
   "tipo": "asociacion",
   "municipio": "blanes",
   "disciplinas": [
@@ -27,7 +27,7 @@
  },
  {
   "slug": "associacio-esportiva-taekwondo-catalunya-blanes",
-  "nombre": "Associacio Esportiva Taekwondo Catalunya Blanes",
+  "nombre": "Associació Esportiva Taekwondo Catalunya Blanes",
   "tipo": "asociacion",
   "municipio": "riudarenes",
   "disciplinas": [
@@ -39,7 +39,7 @@
  },
  {
   "slug": "associacio-karate-quinones",
-  "nombre": "Associacio Karate Quiñones",
+  "nombre": "Associació Karate Quiñones",
   "tipo": "asociacion",
   "municipio": "macanet-de-la-selva",
   "disciplinas": [
