@@ -7,9 +7,26 @@
   "disciplinas": [
    "karate"
   ],
+  "direccion": "CTRA del PONT de VILOMARA 85 08240 MANRESA",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=3",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "box-gym-vilomara",
+  "nombre": "Box Gym Vilomara",
+  "tipo": "gimnasio",
+  "municipio": "el-pont-de-vilomara-i-rocafort",
+  "disciplinas": [
+   "kickboxing",
+   "boxeo"
+  ],
+  "infantil": true,
+  "direccion": "Carrer Jesus 63, 08254 El Pont de Vilomara, Barcelona",
+  "web": "https://boxgym.es/",
+  "fuente": "https://boxgym.es/box-gym-vilomara/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "c-e-judo-santpedor",
@@ -44,11 +61,21 @@
   "tipo": "club",
   "municipio": "manresa",
   "disciplinas": [
-   "boxeo"
+   "boxeo",
+   "kickboxing",
+   "grappling"
   ],
-  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "otras": [
+   "Kick-Thai",
+   "Jiujitsu",
+   "Entrenamientos personales"
+  ],
+  "infantil": true,
+  "direccion": "Carrer del Sol 5, 08241 Manresa, Barcelona",
+  "web": "https://boxgym.es/",
+  "fuente": "https://boxgym.es/box-gym-manresa/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-budokan-la-tribu",
@@ -59,19 +86,6 @@
    "karate"
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
-  "slug": "club-de-boxa-manresa",
-  "nombre": "Club de Boxa Manresa",
-  "tipo": "club",
-  "municipio": "manresa",
-  "disciplinas": [
-   "kickboxing"
-  ],
-  "direccion": "Carrer del Sol Nº 5, Manresa—barcelona",
-  "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
@@ -119,11 +133,20 @@
   "tipo": "club",
   "municipio": "navas",
   "disciplinas": [
-   "karate"
+   "karate",
+   "kobudo",
+   "defensa-personal"
   ],
-  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "otras": [
+   "Karate Shotokan",
+   "Preparación física"
+  ],
+  "infantil": true,
+  "direccion": "C/ Pau Casals 67, 08670 NAVÀS (Barcelona)",
+  "web": "https://clubkaratecantero.com/",
+  "fuente": "https://clubkaratecantero.com/qui-s%C3%B3m",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-karate-vilatorrada",
@@ -133,22 +156,59 @@
   "disciplinas": [
    "karate"
   ],
+  "direccion": "Carretera de Calaf, s/n",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },
  {
   "slug": "esport-7-karate",
-  "nombre": "Esport 7, Karate",
+  "nombre": "Esport7",
   "tipo": "escuela",
   "municipio": "manresa",
   "disciplinas": [
    "karate",
-   "judo"
+   "judo",
+   "jiu-jitsu-japones",
+   "jiu-jitsu-brasileno",
+   "kickboxing"
   ],
-  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=9",
+  "otras": [
+   "Entrenaments personals"
+  ],
+  "infantil": true,
+  "direccion": "Carrer del Flor de Lis, 34-36, 08242 Manresa, Barcelona",
+  "web": "https://esport7.cat/",
+  "fuente": "https://esport7.cat/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "gym-v20",
+  "nombre": "GYM V20",
+  "tipo": "gimnasio",
+  "municipio": "sant-fruitos-de-bages",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Carrer Barcelona, 58, 08272 Sant Fruitós de Bages, Barcelona, España",
+  "fuente": "https://www.owkle.es/clubs/gym-v20/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "imperia-by-alvaro-campos",
+  "nombre": "IMPERIA BY ALVARO CAMPOS",
+  "tipo": "gimnasio",
+  "municipio": "sallent",
+  "disciplinas": [
+   "kickboxing",
+   "boxeo"
+  ],
+  "direccion": "Carrer Tomàs Viladomiu, 54, 08650 Sallent, Barcelona, España",
+  "fuente": "https://www.owkle.es/clubs/imperia-by-alvaro-campos/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "kick-boxing-pugnator-castellet",
@@ -171,10 +231,28 @@
   "disciplinas": [
    "taekwondo"
   ],
+  "infantil": true,
   "direccion": "C/. Abad Oliva, 38 Bjos, 08242 Manresa",
-  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "web": "https://kiwon.es/",
+  "fuente": "https://kiwon.es/kiwon-taekwondo/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "mugendo-manresa",
+  "nombre": "Mugendo Manresa",
+  "tipo": "escuela",
+  "municipio": "manresa",
+  "disciplinas": [
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "Carrer Barcelona 27, Manresa, Barcelona, España",
+  "web": "https://manresa.mugendo.es/",
+  "fuente": "https://manresa.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "sant-vicenc-club-karate-do",
@@ -197,6 +275,7 @@
    "jiu-jitsu-japones"
   ],
   "direccion": "C/ Ignasi Abadal, S/N. SURIA",
+  "web": "https://sites.google.com/view/sas-site/",
   "fuente": "https://fedecatjudo.cat/jiu-jitsu/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -207,11 +286,19 @@
   "tipo": "gimnasio",
   "municipio": "santpedor",
   "disciplinas": [
-   "karate"
+   "karate",
+   "muay-thai"
   ],
-  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "otras": [
+   "Karate Shotokan",
+   "Jujitsu"
+  ],
+  "infantil": true,
+  "direccion": "Ronda de Sant Pere, nau 332, Pol. Ind. Les Verges, 08251 – SANTPEDOR",
+  "web": "https://www.sportcentre.cat/",
+  "fuente": "https://www.sportcentre.cat/arts-marcials/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "taekwondo-viturtia",
@@ -222,9 +309,41 @@
    "taekwondo",
    "hapkido"
   ],
-  "direccion": "Avda Tudela, 38 Local, 08241 Manresa",
+  "direccion": "C de MARTÍ I JULIÀ 15, 1r (08242)",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "team-primi-olmo",
+  "nombre": "TEAM PRIMI OLMO",
+  "tipo": "club",
+  "municipio": "sant-joan-de-vilatorrada",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "direccion": "Carrer Rafael de Casanova, 5, 08250 Sant Joan de Vilatorrada, Barcelona, España",
+  "fuente": "https://www.owkle.es/clubs/team-primi-olmo/",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "wushu-manresa",
+  "nombre": "Wushu Manresa",
+  "tipo": "escuela",
+  "municipio": "manresa",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "otras": [
+   "Tánglángquán (kungfu tradicional)",
+   "Armas tradicionales"
+  ],
+  "direccion": "PÇ/ Oleguer Mirò S/N (La Balconada), Manresa",
+  "web": "https://www.wushumanresa.com/",
+  "fuente": "https://www.wushumanresa.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  }
 ]

@@ -1,0 +1,38 @@
+[
+ {
+  "nombre": "Sento Dojo (Club Esportiu Budokan Manresa)",
+  "municipio": "manresa",
+  "pista": "Agregadores y entitats.cat lo sitúan en Av. Tudela 36-38 / Cardona 65 con kendo, iaido, jodo y karate kyokushin; web citada: sentodojo.es",
+  "motivo": "La web sentodojo.es es una página de dominio aparcado (sin contenido); sin fuente válida. Posible relación con Club Budokan La Tribu (ya en el directorio)"
+ },
+ {
+  "nombre": "Associació Taishudo",
+  "municipio": "manresa",
+  "pista": "Directori d'entitats de l'Ajuntament de Manresa (entitats/49828), Ctra. de Vic 165-167",
+  "motivo": "La ficha municipal solo da nombre y dirección; no consta qué disciplina enseña ni se ha encontrado web"
+ },
+ {
+  "nombre": "Bosch Karate Navarcles",
+  "municipio": "navarcles",
+  "pista": "Esportpedia (Enciclopèdia) cita gimnasos Bosch Karate en Navarcles; registros mercantiles lo sitúan en C/ Badalona 28",
+  "motivo": "Sin web propia ni ficha en el directorio municipal de Navarcles; no verificable hoy"
+ },
+ {
+  "nombre": "Escola d'Aikido Mutokukandojo",
+  "municipio": "manresa",
+  "pista": "Cylex (agregador), C/ Martí i Julià 15",
+  "motivo": "Solo aparece en agregadores y comparte dirección con el gimnasio Viturtia; sin web ni ficha oficial"
+ },
+ {
+  "nombre": "Urban Fight Mix Manresa",
+  "municipio": "manresa",
+  "pista": "Facebook urbanfightmixmanresa; agregadores lo sitúan en C/ Martí i Julià 15 con muay thai, taekwondo, hapkido y defensa personal",
+  "motivo": "Solo perfil de Facebook ilegible; misma dirección que Taekwondo Viturtia (probable misma instalación o nombre comercial)"
+ },
+ {
+  "nombre": "Billy Fight Team",
+  "municipio": "sant-fruitos-de-bages",
+  "pista": "Agenda del Ajuntament de Sant Fruitós (taller de boxing, Setmana Jove 2024) y prensa local",
+  "motivo": "Sin web ni ficha propia; misma dirección (C/ Barcelona 58) que GYM V20, ya añadido desde OWKLE: probable misma entidad"
+ }
+]

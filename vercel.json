@@ -356,6 +356,16 @@
       "source": "/ca/centres/alcarras/",
       "destination": "/ca/centres/epic-sport-365/",
       "permanent": true
+    },
+    {
+      "source": "/centros/club-de-boxa-manresa/",
+      "destination": "/centros/club-boxa-manresa/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/club-de-boxa-manresa/",
+      "destination": "/ca/centres/club-boxa-manresa/",
+      "permanent": true
     }
   ]
 }

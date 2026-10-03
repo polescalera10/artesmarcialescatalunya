@@ -1,5 +1,43 @@
 [
  {
+  "slug": "associacio-esportiva-karate-tona",
+  "nombre": "Associació Esportiva Karate Tona",
+  "tipo": "asociacion",
+  "municipio": "tona",
+  "disciplinas": [
+   "karate"
+  ],
+  "infantil": true,
+  "direccion": "C/Major, 6 - 08551 Tona",
+  "fuente": "https://www.tona.cat/viure-a-tona/entitats-i-associacions/associacio-esportiva-karate-osona.html",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "budokan-vic",
+  "nombre": "Budokan Vic",
+  "tipo": "escuela",
+  "municipio": "vic",
+  "disciplinas": [
+   "karate",
+   "jiu-jitsu-japones",
+   "kobudo",
+   "kendo",
+   "tai-chi",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Battojutsu",
+   "Defensa personal femenina"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Sant Jordi, 92, 08500 Vic",
+  "web": "https://www.budokanvic.cat/",
+  "fuente": "https://www.budokanvic.cat/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-arts-marcials-vic",
   "nombre": "Club Boxa Arts Marcials Vic",
   "tipo": "club",
@@ -21,6 +59,7 @@
    "mma",
    "grappling"
   ],
+  "direccion": "C. del Serpent, 31 baixos 08560 Manlleu",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -36,6 +75,21 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-boxa-balenya",
+  "nombre": "Club de boxa",
+  "tipo": "club",
+  "municipio": "balenya",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "direccion": "Carrer Sant Josep, núm. 11",
+  "fuente": "https://www.entitatsbalenya.cat/entitats/club-de-boxa/",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-jiu-jitsu-brasiler-vic",
@@ -64,6 +118,64 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-k2-vic",
+  "nombre": "Club Esportiu K2 Vic",
+  "tipo": "club",
+  "municipio": "vic",
+  "disciplinas": [
+   "grappling",
+   "mma"
+  ],
+  "direccion": "Carrer Sant Jordi 92",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=K2VIC",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-kyokushin-osona",
+  "nombre": "Club Karate Kyokushin Osona",
+  "tipo": "club",
+  "municipio": "vic",
+  "disciplinas": [
+   "karate"
+  ],
+  "otras": [
+   "Karate kyokushin"
+  ],
+  "direccion": "Plaça Vicenç Albert Ballester (08500 Vic)",
+  "fuente": "https://www.vic.cat/serveis/esports/entitats/entitats-esportives",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-rocky-kai-catalunya",
+  "nombre": "Club Karate Rocky-Kai Catalunya",
+  "tipo": "club",
+  "municipio": "vic",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "delegacio-balenya-taekwondo-itf-catalunya",
+  "nombre": "Delegació de Balenyà de l’Associació de taekwondo tradicional ITF Catalunya",
+  "tipo": "asociacion",
+  "municipio": "balenya",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "otras": [
+   "Taekwondo tradicional ITF"
+  ],
+  "direccion": "Carrer Major, 28",
+  "fuente": "https://www.entitatsbalenya.cat/entitats/delegacio-de-balenya-de-lassociacio-de-taekwondo-tradicional-itf-catalunya/",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "osona-judo-club",
   "nombre": "Osona Judo Club",
   "tipo": "escuela",
@@ -71,10 +183,11 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "Carretera de Barcelona, 14 - 08585, - MONTESQUIEU",
-  "fuente": "https://fedecatjudo.cat/judo/clubs/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "infantil": true,
+  "direccion": "Carretera de Ribes, 14 - 08585 Montesquiu",
+  "fuente": "https://www.montesquiu.cat/el-municipi/registre-municipal-dentitats/osona-judo-club.html",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "shin-do-rocky-ryu",
@@ -84,9 +197,12 @@
   "disciplinas": [
    "karate"
   ],
-  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "infantil": true,
+  "direccion": "C. de Figueres, 10, 08500 Vic",
+  "web": "https://www.shin-do.org/",
+  "fuente": "https://www.shin-do.org/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "taekwondo-vic",
@@ -95,11 +211,14 @@
   "municipio": "vic",
   "disciplinas": [
    "taekwondo",
-   "hapkido"
+   "hapkido",
+   "kickboxing"
   ],
+  "infantil": true,
   "direccion": "Passatge Joan Puig, 4 Bajos, 08500 Vic",
+  "web": "https://taekwondovic.com/",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-10-03"
  }
 ]
