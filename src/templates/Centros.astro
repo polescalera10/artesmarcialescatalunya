@@ -20,8 +20,8 @@ const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCa
 
 const title = L(lang, `Directorio de artes marciales en Cataluña: ${CENTROS.length} centros`, `Directori d'arts marcials a Catalunya: ${CENTROS.length} centres`);
 const description = L(lang,
-  `Los ${CENTROS.length} centros de artes marciales del directorio, filtrables por comarca, disciplina y nombre. Cada uno con su fuente pública y fecha de verificación.`,
-  `Els ${CENTROS.length} centres d'arts marcials del directori, filtrables per comarca, disciplina i nom. Cadascun amb la seva font pública i data de verificació.`);
+  `Los ${CENTROS.length} centros de artes marciales del directorio, filtrables por comarca, municipio, disciplina y nombre. Cada uno con su fuente pública y fecha de verificación.`,
+  `Els ${CENTROS.length} centres d'arts marcials del directori, filtrables per comarca, municipi, disciplina i nom. Cadascun amb la seva font pública i data de verificació.`);
 const alternates = { es: url.centros('es'), ca: url.centros('ca') };
 const schema = {
   '@context': 'https://schema.org',
@@ -45,13 +45,13 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{L(lang, 'Todos los centros', 'Tots els centres')}</h1>
       <p class="text-brand-muted mt-3 max-w-3xl">
         {L(lang,
-          `${n(CENTROS.length, 'centro', 'centros')} en orden alfabético. Filtra por comarca, disciplina o nombre.`,
-          `${n(CENTROS.length, 'centre', 'centres')} en ordre alfabètic. Filtra per comarca, disciplina o nom.`)}
+          `${n(CENTROS.length, 'centro', 'centros')} en orden alfabético. Elige comarca y municipio, y después filtra por disciplina o busca por nombre.`,
+          `${n(CENTROS.length, 'centre', 'centres')} en ordre alfabètic. Tria comarca i municipi, i després filtra per disciplina o cerca pel nom.`)}
       </p>
     </section>
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sticky top-16 z-40 bg-brand-dark/95 backdrop-blur" data-filtros>
-      <div class="grid sm:grid-cols-[1fr_auto_auto] gap-3">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-[1fr_auto_auto_auto] gap-3">
         <label class="sr-only" for="f-q">{L(lang, 'Buscar', 'Cercar')}</label>
         <input id="f-q" type="search" placeholder={L(lang, 'Nombre, municipio o disciplina', 'Nom, municipi o disciplina')} class={sel} />
         <label class="sr-only" for="f-comarca">{L(lang, 'Comarca', 'Comarca')}</label>
@@ -59,10 +59,14 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
           <option value="">{L(lang, 'Todas las comarcas', 'Totes les comarques')}</option>
           {comarcas.map(c => <option value={c.slug}>{c.nombre}</option>)}
         </select>
+        <label class="sr-only" for="f-municipio">{L(lang, 'Municipio', 'Municipi')}</label>
+        <select id="f-municipio" class={sel} disabled>
+          <option value="">{L(lang, 'Todos los municipios', 'Tots els municipis')}</option>
+        </select>
         <label class="sr-only" for="f-disc">{L(lang, 'Disciplina', 'Disciplina')}</label>
         <select id="f-disc" class={sel}>
           <option value="">{L(lang, 'Todas las disciplinas', 'Totes les disciplines')}</option>
-          {disc.map(d => <option value={d.slug}>{nombreDisciplina(d.slug, lang)} ({d.n})</option>)}
+          {disc.map(d => <option value={d.slug} data-nombre={nombreDisciplina(d.slug, lang)}>{nombreDisciplina(d.slug, lang)} ({d.n})</option>)}
         </select>
       </div>
       <p class="text-xs text-brand-muted mt-2" aria-live="polite"><span data-cuenta>{CENTROS.length}</span> {L(lang, 'centros', 'centres')}</p>
@@ -74,7 +78,7 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
           const m = getMunicipio(c.municipio)!;
           const texto = norm([c.nombre, m.nombre, getComarca(c.comarca)!.nombre, ...c.disciplinas.map(d => `${nombreDisciplina(d, 'es')} ${nombreDisciplina(d, 'ca')}`)].join(' '));
           return (
-            <li class="grid sm:grid-cols-[2fr_1fr_2fr] gap-1 sm:gap-4 px-4 py-3 bg-brand-gray/40 hover:bg-brand-gray" data-c={c.comarca} data-d={c.disciplinas.join(' ')} data-t={texto}>
+            <li class="grid sm:grid-cols-[2fr_1fr_2fr] gap-1 sm:gap-4 px-4 py-3 bg-brand-gray/40 hover:bg-brand-gray" data-c={c.comarca} data-m={c.municipio} data-mn={m.nombre} data-d={c.disciplinas.join(' ')} data-t={texto}>
               <a href={url.centro(lang, c.slug)} class="font-medium text-white hover:text-brand-red">
                 {c.nombre}{esPromocionado(c.slug) && <span class="ml-2 text-[10px] uppercase text-amber-400">{L(lang, 'Promocionado', 'Promocionat')}</span>}
               </a>
@@ -96,23 +100,50 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
 </Layout>
 
 <script>
+  // Filtro en cascada: ubicación (comarca → municipio) y, sobre ese resultado,
+  // disciplina. Las disciplinas se recuentan con la ubicación elegida y las
+  // que se quedan a cero se ocultan.
   const q = document.querySelector<HTMLInputElement>('#f-q')!;
   const com = document.querySelector<HTMLSelectElement>('#f-comarca')!;
+  const mun = document.querySelector<HTMLSelectElement>('#f-municipio')!;
   const dis = document.querySelector<HTMLSelectElement>('#f-disc')!;
   const filas = [...document.querySelectorAll<HTMLElement>('[data-lista] > li')];
   const cuenta = document.querySelector<HTMLElement>('[data-cuenta]')!;
   const vacio = document.querySelector<HTMLElement>('[data-vacio]')!;
-  const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const todosMunicipios = mun.options[0].text;
+  const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const params = new URLSearchParams(location.search);
-  q.value = params.get('q') ?? '';
-  com.value = params.get('comarca') ?? '';
-  dis.value = params.get('disciplina') ?? '';
+
+  function rellenarMunicipios(valor = '') {
+    const vistos = new Map<string, string>();
+    for (const f of filas) if (f.dataset.c === com.value) vistos.set(f.dataset.m!, f.dataset.mn!);
+    mun.innerHTML = '';
+    mun.add(new Option(todosMunicipios, ''));
+    [...vistos.entries()].sort((a, b) => a[1].localeCompare(b[1], 'ca')).forEach(([slug, nombre]) => mun.add(new Option(nombre, slug)));
+    mun.disabled = !com.value;
+    mun.value = vistos.has(valor) ? valor : '';
+  }
+
+  const enUbicacion = (f: HTMLElement) => (!com.value || f.dataset.c === com.value) && (!mun.value || f.dataset.m === mun.value);
+
+  function recontarDisciplinas() {
+    const n = new Map<string, number>();
+    for (const f of filas) if (enUbicacion(f)) for (const d of f.dataset.d!.split(' ')) if (d) n.set(d, (n.get(d) ?? 0) + 1);
+    for (const o of [...dis.options].slice(1)) {
+      const k = n.get(o.value) ?? 0;
+      o.text = `${o.dataset.nombre} (${k})`;
+      o.hidden = k === 0;
+      o.disabled = k === 0;
+    }
+    if (dis.value && !n.get(dis.value)) dis.value = '';
+  }
 
   function filtrar() {
+    recontarDisciplinas();
     const palabras = norm(q.value).split(/\s+/).filter(Boolean);
     let k = 0;
     for (const f of filas) {
-      const ok = (!com.value || f.dataset.c === com.value)
+      const ok = enUbicacion(f)
         && (!dis.value || f.dataset.d!.split(' ').includes(dis.value))
         && palabras.every(p => f.dataset.t!.includes(p));
       f.hidden = !ok;
@@ -123,11 +154,18 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
     const p = new URLSearchParams();
     if (q.value) p.set('q', q.value);
     if (com.value) p.set('comarca', com.value);
+    if (mun.value) p.set('municipio', mun.value);
     if (dis.value) p.set('disciplina', dis.value);
     history.replaceState(null, '', `${location.pathname}${p.toString() ? `?${p}` : ''}`);
   }
+
+  q.value = params.get('q') ?? '';
+  com.value = params.get('comarca') ?? '';
+  rellenarMunicipios(params.get('municipio') ?? '');
+  dis.value = params.get('disciplina') ?? '';
   q.addEventListener('input', filtrar);
-  com.addEventListener('change', filtrar);
+  com.addEventListener('change', () => { rellenarMunicipios(); filtrar(); });
+  mun.addEventListener('change', filtrar);
   dis.addEventListener('change', filtrar);
   if (q.value || com.value || dis.value) filtrar();
 </script>

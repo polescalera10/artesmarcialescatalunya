@@ -1,0 +1,75 @@
+---
+// Chips para filtrar por disciplina los centros de una página de ubicación
+// (comarca o municipio). Actúa sobre las fichas con [data-d] dentro de
+// `ambito` y oculta los grupos ([data-grupo]) que se quedan vacíos. Sin
+// JavaScript no hace nada: el listado completo sigue a la vista.
+import { L, type Lang } from '../lib/i18n';
+import { nombreDisciplina } from '../lib/disciplinas';
+
+interface Props {
+  lang: Lang;
+  disciplinas: { slug: string; n: number }[];
+  /** id del contenedor cuyas fichas se filtran */
+  ambito: string;
+}
+const { lang, disciplinas, ambito } = Astro.props;
+const chip = 'inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm transition-colors';
+---
+
+{disciplinas.length > 1 && (
+  <div class="lg:sticky lg:top-16 z-30 bg-brand-dark/95 backdrop-blur py-3 mb-6" data-filtro-disc={ambito}>
+    <p class="text-xs uppercase tracking-wide text-brand-muted mb-2">{L(lang, 'Filtrar por disciplina', 'Filtra per disciplina')}</p>
+    <div class="flex flex-wrap gap-2" role="group" aria-label={L(lang, 'Filtrar por disciplina', 'Filtra per disciplina')}>
+      <button type="button" class:list={[chip, 'border-brand-red bg-brand-red/15 text-white']} data-disc="" aria-pressed="true">
+        {L(lang, 'Todas', 'Totes')}
+      </button>
+      {disciplinas.map(d => (
+        <button type="button" class:list={[chip, 'border-brand-border bg-brand-gray text-brand-muted hover:text-white']} data-disc={d.slug} aria-pressed="false">
+          {nombreDisciplina(d.slug, lang)} <span class="text-white/80 font-semibold">{d.n}</span>
+        </button>
+      ))}
+    </div>
+    <p class="text-xs text-brand-muted mt-2 hidden" aria-live="polite" data-filtro-resumen></p>
+  </div>
+)}
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-filtro-disc]').forEach(barra => {
+    const ambito = document.getElementById(barra.dataset.filtroDisc!);
+    if (!ambito) return;
+    const botones = [...barra.querySelectorAll<HTMLButtonElement>('[data-disc]')];
+    const resumen = barra.querySelector<HTMLElement>('[data-filtro-resumen]')!;
+    const ca = document.documentElement.lang === 'ca';
+    const ACTIVO = ['border-brand-red', 'bg-brand-red/15', 'text-white'];
+    const INACTIVO = ['border-brand-border', 'bg-brand-gray', 'text-brand-muted'];
+
+    function aplicar(disc: string) {
+      for (const b of botones) {
+        const on = b.dataset.disc === disc;
+        b.setAttribute('aria-pressed', String(on));
+        b.classList.remove(...(on ? INACTIVO : ACTIVO));
+        b.classList.add(...(on ? ACTIVO : INACTIVO));
+      }
+      // Una ficha puede aparecer dos veces (bloque promocionado y listado): se cuenta una.
+      const vistos = new Set<string>();
+      for (const f of ambito!.querySelectorAll<HTMLElement>('[data-d]')) {
+        const ok = !disc || f.dataset.d!.split(' ').includes(disc);
+        f.hidden = !ok;
+        if (ok && f.dataset.slug) vistos.add(f.dataset.slug);
+      }
+      for (const g of ambito!.querySelectorAll<HTMLElement>('[data-grupo]')) {
+        g.hidden = !g.querySelector('[data-d]:not([hidden])');
+      }
+      resumen.classList.toggle('hidden', !disc);
+      const k = vistos.size;
+      if (disc) resumen.textContent = ca ? `${k} ${k === 1 ? 'centre' : 'centres'} amb aquesta disciplina` : `${k} ${k === 1 ? 'centro' : 'centros'} con esta disciplina`;
+      const url = new URL(location.href);
+      if (disc) url.searchParams.set('disciplina', disc); else url.searchParams.delete('disciplina');
+      history.replaceState(null, '', url);
+    }
+
+    botones.forEach(b => b.addEventListener('click', () => aplicar(b.dataset.disc!)));
+    const inicial = new URLSearchParams(location.search).get('disciplina');
+    if (inicial && botones.some(b => b.dataset.disc === inicial)) aplicar(inicial);
+  });
+</script>

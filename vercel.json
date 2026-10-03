@@ -116,6 +116,16 @@
       "source": "/ca/centres/llagostera/",
       "destination": "/ca/centres/club-taekwondo-llagostera/",
       "permanent": true
+    },
+    {
+      "source": "/centros/jec-lloret/",
+      "destination": "/centros/c-e-judo-lloret/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/jec-lloret/",
+      "destination": "/ca/centres/c-e-judo-lloret/",
+      "permanent": true
     }
   ]
 }

@@ -9,6 +9,7 @@ import ListaCentros from '../components/ListaCentros.astro';
 import CentroCard from '../components/CentroCard.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import FiltroDisciplinas from '../components/FiltroDisciplinas.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
 import { centrosDeMunicipio, disciplinasPresentes, cercanos } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
@@ -127,8 +128,9 @@ const schema = {
     )}
 
     {centros.length > 0 && (
-      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h2 class="text-2xl font-bold text-white mb-6">{L(lang, `Centros en ${mun.nombre}`, `Centres a ${mun.nombre}`)} <span class="text-brand-muted font-normal">({centros.length})</span></h2>
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" id="lista-centros">
+        <h2 class="text-2xl font-bold text-white mb-4">{L(lang, `Centros en ${mun.nombre}`, `Centres a ${mun.nombre}`)} <span class="text-brand-muted font-normal">({centros.length})</span></h2>
+        <FiltroDisciplinas lang={lang} disciplinas={disc} ambito="lista-centros" />
         <ListaCentros centros={centros} lang={lang} conMunicipio={false} />
         <p class="text-xs text-brand-muted mt-4">{L(lang, 'Orden alfabético. No valoramos ni ordenamos por calidad.', 'Ordre alfabètic. No valorem ni ordenem per qualitat.')}</p>
       </section>

@@ -6,6 +6,7 @@ import Migas from '../components/Migas.astro';
 import ListaCentros from '../components/ListaCentros.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import FiltroDisciplinas from '../components/FiltroDisciplinas.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
 import { centrosDeComarca, disciplinasPresentes } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
@@ -123,10 +124,11 @@ const schema = {
       </div>
     </section>
 
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <h2 class="text-2xl font-bold text-white mb-6">{L(lang, `Todos los centros ${nombreEn}`, `Tots els centres ${nombreEn}`)}</h2>
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" id="lista-centros">
+      <h2 class="text-2xl font-bold text-white mb-4">{L(lang, `Todos los centros ${nombreEn}`, `Tots els centres ${nombreEn}`)}</h2>
+      <FiltroDisciplinas lang={lang} disciplinas={disc} ambito="lista-centros" />
       {porMunicipio.map(({ m, centros: cs }) => (
-        <div class="mb-10 scroll-mt-24" id={`m-${m.slug}`}>
+        <div class="mb-10 scroll-mt-24" id={`m-${m.slug}`} data-grupo>
           <div class="flex items-baseline justify-between gap-4 mb-4">
             <h3 class="text-lg font-bold text-white">{m.nombre} <span class="text-brand-muted font-normal">({cs.length})</span></h3>
             {tienePaginaMunicipio(m.slug) && <a href={url.municipio(lang, comarca, m.slug)} class="text-sm text-brand-red hover:text-red-400 shrink-0">{L(lang, `Guía de ${m.nombre}`, `Guia de ${m.nombre}`)} →</a>}

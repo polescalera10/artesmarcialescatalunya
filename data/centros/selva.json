@@ -61,7 +61,8 @@
   "tipo": "club",
   "municipio": "lloret-de-mar",
   "disciplinas": [
-   "judo"
+   "judo",
+   "defensa-personal"
   ],
   "direccion": "C/ Dels mestres, s/n, LLORET DE MAR",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -395,19 +396,6 @@
   ],
   "direccion": "c/ Víctor Català S/N",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=HAFC",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
-  "slug": "jec-lloret",
-  "nombre": "JEC Lloret",
-  "tipo": "escuela",
-  "municipio": "lloret-de-mar",
-  "disciplinas": [
-   "defensa-personal"
-  ],
-  "direccion": "C/ Dels mestres, s/n. Lloret de Mar",
-  "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
  },

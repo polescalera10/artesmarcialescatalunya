@@ -122,6 +122,8 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
   <slot />
   <CookieConsent lang={lang} />
   <style is:global>
+    /* Los filtros ocultan con [hidden]; sin esto, clases como flex o grid lo anulan. */
+    [hidden] { display: none !important; }
     @media (prefers-reduced-motion: no-preference) {
       html { scroll-behavior: smooth; }
     }
