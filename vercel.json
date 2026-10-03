@@ -126,6 +126,36 @@
       "source": "/ca/centres/jec-lloret/",
       "destination": "/ca/centres/c-e-judo-lloret/",
       "permanent": true
+    },
+    {
+      "source": "/blog/mejor-arte-marcial-para-ninos-garraf/",
+      "destination": "/blog/mejor-arte-marcial-para-ninos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mejor-arte-marcial-para-ninos-garraf",
+      "destination": "/blog/mejor-arte-marcial-para-ninos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/karate-vs-taekwondo-ninos-garraf/",
+      "destination": "/blog/karate-o-taekwondo-para-ninos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/karate-vs-taekwondo-ninos-garraf",
+      "destination": "/blog/karate-o-taekwondo-para-ninos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/defensa-personal-para-mujeres-garraf/",
+      "destination": "/blog/defensa-personal-para-mujeres/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/defensa-personal-para-mujeres-garraf",
+      "destination": "/blog/defensa-personal-para-mujeres/",
+      "permanent": true
     }
   ]
 }

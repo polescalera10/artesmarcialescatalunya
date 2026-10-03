@@ -4,13 +4,14 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Migas from '../components/Migas.astro';
 import { url, fecha } from '../lib/i18n';
-import { POSTS } from '../lib/editorial';
+import { articulos } from '../lib/blog';
 import { SITE, SCHEMA_IDS } from '../lib/site';
 
-const articulos = POSTS.filter(p => p.tipo === 'articulo');
+const POSTS = await articulos();
+const articulosBlog = POSTS.filter(p => p.tipo === 'articulo');
 const guias = POSTS.filter(p => p.tipo === 'guia');
 const title = 'Blog de artes marciales: guías para empezar';
-const description = 'Qué arte marcial elegir, a qué edad empezar, cómo es la primera clase y cómo comparar centros. Guías prácticas, sin publicidad de centros.';
+const description = 'Qué arte marcial elegir, a qué edad empezar, cómo es la primera clase y cómo comparar centros en Cataluña. Guías prácticas, sin publicidad.';
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'Blog',
@@ -32,7 +33,7 @@ const schema = {
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">Blog</h1>
       <p class="text-lg text-brand-muted mt-3 max-w-3xl">{description}</p>
     </section>
-    {[['Artículos', articulos], ['Guías por perfil y objetivo', guias]].map(([t, ps]) => (
+    {[['Artículos', articulosBlog], ['Guías por perfil y objetivo', guias]].map(([t, ps]) => (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <h2 class="text-xl font-bold text-white mb-4">{t}</h2>
         <ul class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">

@@ -1,80 +1,58 @@
-# Playbook del blog — instrucciones para el agente programado
+# Playbook del blog de Artes Marciales Catalunya
 
-> Este archivo es la única fuente de verdad para escribir entradas del blog. El agente que lo ejecuta arranca **sin contexto previo**: todo lo que necesita saber está aquí. Leerlo entero antes de tocar nada.
+> Única fuente de verdad para escribir o reescribir artículos del blog de https://artesmarciales.cat. Quien lo ejecuta arranca sin contexto: todo lo que necesita está aquí. Se lee entero antes de tocar nada.
 
 ---
 
-## 1. Qué es este sitio (y qué no es)
+## 1. Qué es este sitio
 
-`artesmarcialesgarraf.es` es una **guía editorial independiente** sobre artes marciales en la comarca del Garraf (Barcelona): Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y Canyelles.
+Artes Marciales Catalunya es un **directorio independiente de centros de artes marciales de Cataluña**: {{centros}} centros en {{comarcas}} comarcas (cifras que se calculan solas, ver sección 4), cada uno con la fuente pública que lo confirma. Castellano en la raíz y catalán en `/ca/`. El blog está solo en castellano.
 
-**No es un gimnasio ni una academia.** No tiene instalaciones, ni instructores, ni alumnos, ni horarios propios. Es un recurso que explica cada disciplina y ayuda a la gente a dar el primer paso, y que mantiene un directorio verificado de los centros reales de la comarca.
+**No es un gimnasio ni una academia.** No tiene instalaciones, instructores ni alumnos. El blog existe para captar a quien está decidiendo **qué** practicar y **cómo** empezar, y llevarlo al directorio, donde encuentra **dónde**. El negocio es el directorio: fichas promocionadas, webs y SEO para centros. La credibilidad es el activo: un dato inventado que alguien detecte destruye lo construido.
 
-El modelo de negocio es alquilar o vender la web a un centro real cuando genere tráfico y leads. Eso hace que la credibilidad del contenido **sea el activo**: un solo dato inventado que alguien detecte destruye lo que se está construyendo.
+El blog nació en 2026 como el de una guía del Garraf. En octubre de 2026 se reescribe para toda Cataluña: el Garraf pasa a ser una comarca más.
 
 ---
 
 ## 2. Reglas innegociables
 
-Estas reglas están por encima de cualquier objetivo de tráfico. Si cumplirlas obliga a escribir un artículo peor, se escribe peor.
+1. **Cero datos de negocio inventados.** Nunca precios, cuotas, horarios, direcciones, teléfonos, nombres de instructores, número de alumnos, años de antigüedad, reseñas ni testimonios.
+2. **Nunca nombrar centros concretos en el cuerpo.** Para la oferta real se enlaza al directorio (`/centros/` con filtros, páginas de comarca, municipio y disciplina). Así el texto no caduca y no se favorece a nadie.
+3. **Cero afirmaciones de resultados o eficacia** ("el 80 % de los alumnos", "está demostrado"). Lo general se formula como lo que es: lo habitual, lo típico.
+4. **Nada de consejo médico, legal ni terapéutico.** En salud, lesiones, embarazo, TDAH, sobrepeso o similares: describir el formato de la práctica y remitir al profesional.
+5. **Neutralidad comercial.** Ningún centro recibe trato preferente en un artículo.
+6. **Español de España**, con la terminología marcial habitual (kata, randori, sparring, clinch, gi).
+7. **Anclaje en el directorio, obligatorio.** Un artículo cumple si reúne las tres cosas:
+   - usa al menos un dato del directorio mediante marcadores de recuento (sección 4): cuántos centros anuncian una disciplina en Cataluña, en cuántas comarcas consta, cuántos hay en una comarca o ciudad de ejemplo;
+   - enlaza al menos a una página de disciplina (`/disciplinas/<slug>/`) o al directorio filtrado (`/centros/?disciplina=<slug>`), no solo a otros artículos;
+   - cierra con una sección práctica de **cómo encontrarlo en tu zona**: el directorio filtrable por comarca, municipio y disciplina, y alguna página de comarca o municipio de ejemplo.
 
-1. **Cero datos de negocio inventados.** Nunca inventar ni estimar: precios, cuotas, horarios, direcciones, teléfonos, nombres de instructores, número de alumnos, años de antigüedad, reseñas o testimonios. Si un dato no consta en una fuente pública verificable, no se publica.
-2. **Nunca nombrar centros concretos en el cuerpo de un artículo.** Para hablar de la oferta real se enlaza a `/centros/`, que es la única página con verificación y fecha por ficha. Así el contenido no caduca y no se favorece a nadie.
-3. **Cero afirmaciones de tráfico, resultados o eficacia.** Nada de "el 80 % de los alumnos", "está demostrado que", "en tres meses conseguirás". Si hay una afirmación general del ámbito, se formula como lo que es: lo habitual, lo típico, lo que suele pasar.
-4. **Nada de consejo médico, legal ni terapéutico.** En temas de salud, lesiones, embarazo, TDAH o similares: describir el formato de la práctica y remitir explícitamente al profesional correspondiente.
-5. **Neutralidad comercial.** Ningún centro recibe trato preferente. Si algún día alguno paga por aparecer, se declarará en su ficha y su enlace llevará `rel="sponsored"` — pero eso no lo decide este agente.
-6. **Todo en español de España**, con la terminología marcial en su forma habitual (kata, randori, sparring, clinch, gi).
-7. **Ancla local obligatoria. Sin ella, el artículo no se escribe.** El informe del 25-08-2026 encontró que 8 de los 12 artículos que había publicado esta rutina no llevaban el Garraf ni en el título ni en la intención: comparativas nacionales genéricas que compiten en España entera contra dominios de diez años. Resultado medido: impresiones subiendo y **cero clics**. Y aunque llegaran a rankear, no servirían al negocio, porque un gimnasio de Vilanova no paga por un lector de Sevilla. Este sitio es Rank2Rent: el KPI no es tráfico, es lead con código postal del Garraf.
-
-   Un artículo cumple el ancla local si reúne las cuatro cosas:
-
-   - el Garraf o uno de sus municipios aparece en el título o, como mínimo, en las primeras 100 palabras **y** en el H2 principal;
-   - usa al menos un dato propio del directorio: cuántos centros constan, qué disciplina hay en qué municipio, o qué **no** existe en la comarca (que el muay thai no tenga ni un centro verificado es un dato tan bueno como cualquier otro). **Los recuentos se sacan siempre de `src/data/centros.ts` el día que se escribe, nunca de artículos anteriores ni del campo `ancla_local` de la cola**: el directorio cambia. El 29-09-2026 pasó de 13 a 17 centros y el krav maga dejó de ser un hueco (consta en un centro de Cubelles), y hubo que corregir unas cien frases publicadas. **Ningún recuento se escribe a mano: usa los marcadores de `src/data/recuentos.ts`** (`{{centros}}`, `{{m:vilanova-i-la-geltru}}`, `{{d:boxeo}}`, `{{dm:boxeo:sitges}}`, `{{infantil}}`… en letra, o con `#` en cifra, y con mayúscula inicial para principio de frase: `{{M:sitges}}`). Se sustituyen al compilar y no se desfasan. El 29-09-2026 el directorio pasó de 13 a 22 centros en un día;
-   - enlaza como mínimo a una money page o a un hub de municipio, no solo a otros artículos del blog;
-   - el campo `ancla_local` de su entrada en la cola dice cuál es ese ángulo. Si la entrada no lo trae, es que no se revisó: aplica el criterio y anótalo.
-
-   Si un tema no admite ángulo local honesto, **no se fuerza**: se marca `"estado": "descartado"` con su `motivo_descarte` y se coge la siguiente.
+   **El ámbito es Cataluña.** Se pueden usar comarcas o ciudades como ejemplo (Barcelonès, Vallès Occidental, Girona, Reus, Lleida…), siempre con su recuento por marcador y su enlace, y sin que el artículo se convierta en una guía de un solo sitio. Los detalles locales del Garraf (la R2 Sud, Sitges–Vilanova en 10-15 minutos) se quitan salvo que el artículo trate de ese sitio.
 
 ---
 
 ## 3. Estilo
 
-El estándar es el de los artículos ya publicados. Antes de escribir, **abre `src/data/blog-posts.ts` y lee entero uno de los últimos** (`blog/como-elegir-centro-artes-marciales-garraf` o `blog/a-que-edad-empezar-artes-marciales`) para calibrar el tono.
+**Voz.** Directa, de igual a igual, con criterio propio. Toma partido cuando hay motivo ("nuestra recomendación es", "si ves esto, vete") pero nunca vende. El lector tiene prisa.
 
-**Voz.** Directa, de igual a igual, con criterio propio. La guía toma partido cuando hay motivo ("nuestra recomendación es", "si ves esto, vete") pero nunca vende. Trata al lector como alguien con prisa y sin ganas de que le den la turra.
-
-**Qué hace que estos artículos no sean genéricos:**
+**Qué hace que no sean genéricos:**
 - Empiezan reconociendo la pregunta real que hay detrás de la búsqueda, que casi nunca es la literal.
 - Dan la respuesta corta pronto y luego explican por qué la larga importa más.
-- Incluyen el matiz incómodo: qué NO esperar, qué es marketing, dónde desconfiar.
-- Aterrizan siempre en el Garraf: distancias reales entre municipios (Sitges–Vilanova, 10-15 min en coche; línea R2 Sud), oferta concentrada en Vilanova y Sitges, municipios pequeños que se desplazan.
-- Cierran con una sección local que enlaza al directorio y a las guías de municipio, y un CTA a `/contacto/`.
+- Incluyen el matiz incómodo: qué no esperar, qué es marketing, dónde desconfiar.
+- Aterrizan en datos del directorio: qué disciplinas tienen mucha oferta y cuáles poca, dónde se concentra, qué no existe en una zona.
+- Cierran con la sección práctica de la regla 7 y, si encaja, un enlace a `/para-centros/` **solo** cuando el artículo habla a dueños de centros (casi nunca).
 
 **Estructura.**
-- 1.000-1.400 palabras de cuerpo. Menos se queda corto; más se hace pesado.
-- 6-9 secciones `<h2>`. `<h3>` solo si una sección lo pide de verdad.
-- Los `<h2>` son frases con contenido, no etiquetas: "La respuesta corta, y por qué la larga importa más", no "Introducción".
-- Párrafos de 2-4 frases. Listas `<ul>`/`<ol>` cuando hay enumeración real, no para trocear prosa.
-- `<strong>` para la idea que el lector debe llevarse si solo lee en diagonal. Con moderación.
-- Tablas solo si comparan de verdad (el CSS ya las hace desplazables en móvil).
+- 1.000-1.400 palabras de cuerpo.
+- 6-9 secciones `##`. `###` solo si una sección lo pide.
+- Los `##` son frases con contenido, no etiquetas ("La respuesta corta, y por qué la larga importa más", no "Introducción").
+- Párrafos de 2-4 frases. Listas cuando hay enumeración real. **Negrita** para la idea que se lleva quien lee en diagonal, con moderación.
+- Tablas Markdown solo si comparan de verdad.
+- 3-5 preguntas frecuentes en el frontmatter (`faq`), con respuestas de 2-4 frases que se entiendan solas.
 
-**Formato del cuerpo.** HTML plano en una plantilla de string. Etiquetas permitidas: `<h2> <h3> <p> <ul> <ol> <li> <strong> <em> <a> <table> <thead> <tbody> <tr> <th> <td>`. Sin `<h1>` (lo pone la plantilla), sin clases CSS, sin `<div>`, sin `<img>`.
+### Pasada anti-IA (obligatoria antes de guardar)
 
-**Prohibido en la redacción:** emojis; signos de exclamación en prosa; "¡Descubre…!"; preguntas retóricas encadenadas; "en el mundo de las artes marciales"; "no es solo X, es Y"; "sumérgete", "adéntrate", "desata"; cualquier frase que podría estar en la web de cualquier gimnasio de España. Si una frase no aporta información, se borra.
-
-**Enlazado interno.** Entre 6 y 12 enlaces internos por artículo, con anchor descriptivo (nunca "aquí" o "este enlace"). Usa los destinos que trae la entrada de la cola en `enlaces_internos`, más los que pidan el texto. Enlaza al menos a: una guía de disciplina, `/centros/`, un artículo del blog relacionado y `/contacto/` en el cierre.
-
----
-
-## 3-bis. Pasada de humanización (obligatoria, antes de guardar)
-
-Un texto que huele a IA le cuesta credibilidad a una guía que se vende como editorial independiente. Todo artículo pasa por esta revisión **antes** de escribirlo en `blog-posts.ts`.
-
-**Primero, intenta usar la skill.** Invoca la skill `blog` (claude-blog) sobre el borrador completo y aplica su referencia de revisión editorial, `references/ai-slop-detection.md`, con su método de dos niveles: el reflejo de primer orden (vocabulario y muletillas) y el de segundo orden (estructura repetida, ritmo plano, relleno que sobrevive a una limpieza de palabras). Si el entorno la tiene disponible, es la versión canónica y manda sobre el resumen de abajo. Si no está disponible, no pasa nada: aplica esta lista, que es su destilado.
-
-Sustituye a la antigua skill `humanizer`, que ya no se usa en este proyecto. La lista de abajo sigue siendo válida y es específica de esta web: la skill cubre el patrón general en inglés, y esta lista añade lo que aplica al castellano y al Garraf.
-
-**El método:** escribe el borrador, luego pregúntate en frío *"¿qué delata que esto lo ha escrito una máquina?"*, y reescribe atacando lo que encuentres. Una sola pasada de revisión no basta si el borrador salió plano.
+Invoca la skill `blog` y aplica `references/ai-slop-detection.md` (dos niveles: vocabulario, luego estructura y ritmo). Si no está disponible, aplica este destilado, que además cubre lo específico del castellano:
 
 ### Corta siempre
 
@@ -102,158 +80,78 @@ Sustituye a la antigua skill `humanizer`, que ya no se usa en este proyecto. La 
 - **Ritmo variado.** Frases cortas. Y frases más largas que se toman su tiempo para llegar a donde van. La cadencia uniforme de longitud media es lo que suena a máquina.
 - **Criterio propio.** Mojarse: "esto es marketing", "si ves esto, vete", "nuestra recomendación es". Un texto sin opinión es un texto sin autor.
 - **El matiz incómodo.** Lo que no funciona, lo que no se puede prometer, la duda que queda. La IA tiende a resolverlo todo limpiamente.
-- **Detalle concreto y difícil de fabricar.** Los 10-15 minutos entre Sitges y Vilanova, la R2 Sud, el martes de noviembre con lluvia. Los detalles específicos son la firma de que hay alguien detrás.
+- **Detalle concreto y difícil de fabricar.** El trayecto de vuelta del trabajo a la hora de la clase, el kimono que hay que lavar dos veces por semana, el martes de noviembre con lluvia. Los detalles específicos son la firma de que hay alguien detrás.
 - **Alguna aparte o autocorrección.** Un inciso entre paréntesis, un "aunque aquí conviene matizar". La prosa perfectamente ordenada se lee como generada.
 
 **No te pases.** Humanizar no es meter coloquialismos ni chistes. El objetivo es que suene a la persona que escribió los artículos de referencia: alguien con criterio, con prisa y sin ganas de vender nada.
 
----
-
-## 3-ter. Puertas de calidad (skill `blog`, antes de guardar)
-
-Si la skill `blog` está disponible, cada artículo pasa además por dos comprobaciones automáticas. No sustituyen al criterio de las secciones 2, 3 y 3-bis: son la red de seguridad.
-
-**Cómo se ejecutan.** El cuerpo del artículo vive dentro de una plantilla de string en `blog-posts.ts`, así que primero se vuelca el borrador a un archivo temporal y se analiza ahí:
-
-```bash
-# El borrador, tal cual, en un temporal fuera del repo
-cat > /tmp/borrador-<slug>.html <<'EOF'
-<h2>…</h2>
-EOF
-
-python3 ~/.claude/scripts/analyze_blog.py /tmp/borrador-<slug>.html
-```
-
-**Puerta 1, calidad (`blog-analyze`).** Score sobre 100 en cinco categorías: contenido, SEO, E-E-A-T, elementos técnicos y preparación para citas en buscadores de IA. **Mínimo para guardar: 90.** Por debajo, se lee la lista de recomendaciones (vienen priorizadas como Critical / High / Medium / Low), se corrige lo Critical y High, y se vuelve a puntuar. Si tras dos iteraciones sigue por debajo de 90, se deja la entrada pendiente y se dice en el resumen. No se baja el listón para cerrar la tanda.
-
-Ojo con dos cosas al leer el score: las categorías técnicas y de schema puntúan sobre el artículo aislado, sin la plantilla del sitio, así que penalizaciones por falta de JSON-LD, canonical u Open Graph son falsos positivos aquí (los pone la plantilla, y la verificación sobre `dist/` del paso 5 ya los cubre). Lo que sí manda es la parte de contenido, E-E-A-T y citabilidad.
-
-**Puerta 2, SEO on-page (`blog-seo-check`).** Checklist de pass/fail sobre título, meta descripción, jerarquía de encabezados, enlaces internos y externos con su anchor, y texto alternativo de imágenes. Todo lo que salga en fail se corrige antes de guardar, salvo lo que dependa de la plantilla.
-
-**Puerta 3, la de siempre.** `grep -c '—\|–'` sobre el cuerpo nuevo tiene que dar 0. Esta no la delega la skill: es regla dura del proyecto y se comprueba a mano.
-
-**Si la skill no está disponible**, no se aborta la tanda: se aplica el destilado de la sección 3-bis, se cumple la puerta 3 igualmente, y el resumen final dice que se trabajó sin skill.
+**No te pases.** Humanizar no es meter coloquialismos ni chistes: tiene que sonar a alguien con criterio, con prisa y sin ganas de vender.
 
 ---
 
-## 4. Mecánica: cómo se añade una entrada
+## 4. Formato: un Markdown por artículo
 
-Cuatro archivos, en este orden. Todos bajo `src/`.
+Cada artículo es `src/content/blog/<slug>.md`:
 
-### 4.1 `src/data/blog-posts.ts` — el cuerpo
+```markdown
+---
+titulo: "Karate o Judo para Niños: Cuál Elegir"        # <= 60 caracteres (lo valida el build)
+descripcion: "Qué cambia entre karate y judo para un niño, ..."   # <= 155
+h1: "Karate o judo para niños: cuál elegir y por qué"
+intro: "Entradilla de 2-3 frases. Admite marcadores y <a href>."
+tipo: articulo            # articulo | guia
+fecha: "2026-09-02"       # publicación original: se conserva al reescribir
+actualizado: "2026-10-03" # día de esta revisión
+slugAnterior: "karate-vs-taekwondo-ninos-garraf"   # solo si el slug cambia
+faq:
+  - q: "¿Pregunta?"
+    a: "Respuesta."
+---
 
-Añadir dentro de `BLOG_BODIES`, con la clave `'blog/<slug>'`:
+## Primer H2 con contenido
 
-```ts
-  'blog/<slug>': `
-<h2>Primer titular</h2>
-<p>…</p>
-`,
+Cuerpo en Markdown...
 ```
 
-Cuidado con las comillas invertidas y con `${` dentro del texto: es una plantilla de string, hay que escaparlos (`\``, `\${`).
+**Slugs.** Sin topónimos salvo que el artículo trate de un sitio. Si un artículo heredado tenía el Garraf o un municipio en el slug, se le da uno nuevo, se pone el viejo en `slugAnterior` y se añaden a `vercel.json` (array `redirects`) **dos** reglas: `/blog/<viejo>/` → `/blog/<nuevo>/` con `"permanent": true`. Sin ese 301 el build falla. Si el slug no cambia, no se pone `slugAnterior` y el Markdown sustituye al heredado.
 
-### 4.2 `src/data/pages.ts` — la definición de página
+**Recuentos (`src/lib/recuentos.ts`).** Ningún número del directorio se escribe a mano. Siempre en cifra:
 
-Añadir al principio del array `BLOG_PAGES`:
+| Marcador | Qué cuenta |
+|---|---|
+| `{{centros}}` | centros del directorio |
+| `{{comarcas}}` | comarcas con algún centro |
+| `{{d:boxeo}}` | centros que anuncian la disciplina |
+| `{{dmun:boxeo}}` / `{{dcom:boxeo}}` | municipios / comarcas donde consta |
+| `{{c:barcelones}}` / `{{m:sabadell}}` | centros de una comarca / municipio |
+| `{{dc:boxeo:barcelones}}` / `{{dm:boxeo:sabadell}}` | disciplina en una comarca / municipio |
+| `{{infantil}}` | centros cuya fuente anuncia clases para niños |
 
-```ts
-  {
-    slug: 'blog/<slug>',
-    type: 'blog',
-    meta: {
-      title: '…',        // máximo 60 caracteres, sin excepción
-      description: '…',  // entre 120 y 158 caracteres
-    },
-    h1: '…',
-    intro: '…',          // 2-3 frases; es el párrafo del hero, no repite el h1
-    body: BLOG_BODIES['blog/<slug>'],
-    fecha: 'YYYY-MM-DD', // la fecha real de publicación
-    phase: 2,
-  },
-```
+Slugs de disciplina en `data/disciplinas.json`; de comarca y municipio en `data/geo/comarcas.json` y `data/geo/municipios.json`. Un slug mal escrito rompe el build. Escribe la frase de modo que funcione con cualquier cifra ("constan {{d:judo}} centros con judo"), porque cambiará.
 
-El `title` y la `description` se recortan automáticamente si se pasan, pero un recorte automático queda feo: escríbelos ya dentro del límite.
+**Enlaces internos válidos** (rutas absolutas, con barra final):
+- `/disciplinas/<d>/`, `/disciplinas/<d>/<comarca>/` (si existe), `/disciplinas/`
+- `/<comarca>/`, `/<comarca>/<municipio>/`, `/<comarca>/<municipio>/<d>/` (solo si existen: compruébalo en `dist/` tras compilar)
+- `/centros/`, con filtros: `/centros/?disciplina=judo`, `/centros/?comarca=barcelones&disciplina=judo`
+- `/blog/<slug>/` de otros artículos
+- `/para-centros/`, `/sobre-nosotros/`
 
-### 4.3 `src/data/blog-posts.ts` — enlazado entrante
-
-En el mapa `BLOG_POR_TEMA`, añadir el nuevo artículo a la clave o claves que le correspondan (slug de disciplina, o `clases-para-ninos` / `clases-para-mujeres` / `clases-para-adultos` / `iniciacion`). Máximo dos artículos por clave: si la clave ya tiene dos, sustituye el menos relevante. **Sin este paso el artículo nace con 1 enlace entrante en lugar de 15-20.**
-
-### 4.4 `scripts/gen-images.mjs` — tarjeta social e ilustración
-
-En el array `BLOG`, añadir una fila:
-
-```js
-  ['<slug>', '<Título corto>', '<icono>', '<subtítulo de una línea>'],
-```
-
-- `<Título corto>`: cabe en dos líneas de 17 caracteres. No es el `h1` completo.
-- `<icono>`: uno de los nombres de `src/components/LineIcon.astro` — los diez slugs de disciplina, o `brujula`, `mapa-pin`, `personas`, `check-circulo`, `sobre`, `balanza`.
-
-Después, ejecutar `npm run images`. Regenera todo y actualiza `src/data/imagenes-generadas.json`.
+Enlaces externos solo a fuentes de autoridad cuando aportan (federaciones catalanas, organismos públicos), con el anchor descriptivo.
 
 ---
 
-## 5. Procedimiento de cada tanda
+## 5. Puertas de calidad (antes de dar un artículo por terminado)
 
-1. `npm install` si hace falta.
-2. Leer `content/cola-blog.json`. Coger las **2 primeras entradas con `"estado": "pendiente"`** (bajado de 4 a 2 el 25-08-2026: cuatro artículos cada cuatro días sobre un dominio de junio sin un solo backlink es el perfil que Google describe como *scaled content abuse*). Ordenar por **`intencion_comercial`** (`alta` antes que `media`), luego por `prioridad` (1 antes que 2 antes que 3) y, dentro del mismo nivel, por el orden del archivo.
-   - **Estacionalidad:** si estamos en agosto o septiembre, adelantar las entradas con `"estacionalidad": "septiembre"`. En diciembre y enero, las de `"enero"`.
-   - **Entradas con `requiere_datos`:** leer ese campo y cumplirlo. Si el dato no existe, **saltar la entrada, dejarla pendiente** y coger la siguiente. No inventar nunca para desbloquearla.
-3. Escribir los 2 artículos siguiendo las secciones 2, 3 y 4. **Comprobar la regla 7 (ancla local) antes de dar por bueno cada uno.**
-3-bis. **Pasar cada artículo por la humanización de la sección 3-bis y por las puertas de calidad de la 3-ter** antes de guardarlo. Incluye la comprobación mecánica: `grep -c '—' ` sobre el texto nuevo tiene que dar 0, y el score de `analyze_blog.py` tiene que llegar a 90.
-4. `npm run images` y `npm run build`. **El build tiene que quedar en verde.**
-5. Verificar sobre `dist/`, y no dar por bueno nada que falle:
-   - las 2 páginas nuevas existen en `dist/blog/<slug>/index.html`;
-   - `<title>` ≤ 60 caracteres y `meta description` ≤ 160 en las 2;
-   - **cada artículo enlaza al menos a una money page o hub de municipio** (regla 7);
-   - exactamente un `<h1>` por página;
-   - el `og:image` de cada una apunta a `/og/blog-<slug>.png` y ese archivo existe;
-   - todos los enlaces internos del cuerpo resuelven a una página que existe en `dist/`;
-   - `sitemap.xml` incluye las 2 URLs nuevas;
-   - **cero guiones largos o medios** en el cuerpo de los 2 artículos nuevos (`grep -c '—\|–'` sobre las claves nuevas de `BLOG_BODIES` debe dar 0).
-6. Marcar en `content/cola-blog.json` cada entrada publicada: `"estado": "publicado"` y `"publicado_en": "YYYY-MM-DD"`. Añadir su slug al array `publicados`.
-7. Actualizar `SITE.ultimaRevision` en `src/data/site.ts` a la fecha de hoy.
-8. Un solo commit con los 2 artículos y `git push origin main`. Vercel despliega solo.
-9. Cuando el despliegue esté en producción (la URL nueva responde 200), `npm run indexnow -- /blog/<slug-1>/ /blog/<slug-2>/` para avisar a Bing. Si falla, dilo en el resumen; no bloquea la tanda.
-
-**Mensaje de commit:**
-
-```
-Blog: <título 1> y <título 2>
-
-Tanda programada de la cola editorial (content/cola-blog.json).
-<Una línea por artículo: a qué búsqueda responde.>
-
-Co-Authored-By: Claude <noreply@anthropic.com>
-```
-
-**Si algo falla** (build en rojo, verificación que no pasa, una entrada que no se puede escribir sin inventar datos): **no publicar esa entrada**. Publicar las que sí estén bien, dejar la otra pendiente y decirlo con claridad en el resumen final. Es preferible una tanda de uno que un artículo con datos inventados o sin ancla local.
+1. **Calidad:** `python3 ~/.claude/scripts/analyze_blog.py src/content/blog/<slug>.md`. **Mínimo 90.** Por debajo: corregir lo Critical y High y volver a puntuar; tras dos iteraciones sin llegar, se deja pendiente y se dice. Las penalizaciones por JSON-LD, canonical u Open Graph son falsos positivos (los pone la plantilla).
+2. **SEO on-page** (skill `blog-seo-check` si está): título, descripción, jerarquía, enlaces y anchors.
+3. **Guiones:** `grep -c '—\|–' src/content/blog/<slug>.md` tiene que dar 0.
+4. **Build y enlaces:** `npm run build` (debe acabar en "Complete!") y `python3 scripts/enlaces.py` (debe dar OK).
 
 ---
 
-## 6. La revisión de la cola (rutina de cada 20 días)
+## 6. Contexto técnico mínimo
 
-Objetivo: que la cola no se agote y que no se repita lo ya publicado.
-
-1. Leer `content/cola-blog.json` entero y listar `src/data/pages.ts` para ver qué hay publicado de verdad.
-2. Revisar también las 62 páginas de disciplina, municipio y perfil (`ALL_PAGES` en `src/data/pages.ts`): una entrada de blog **no puede duplicar la intención** de una money page.
-3. Proponer **20 entradas nuevas** y añadirlas al final de `cola`, con `"estado": "pendiente"` y el mismo esquema de campos que las existentes (`id` correlativo, `slug`, `h1`, `keyword_principal`, `keywords_secundarias`, `cluster`, `prioridad`, `angulo`, `enlaces_internos`; `estacionalidad` y `requiere_datos` si aplican).
-   - Criterio: intención **informacional**, cola larga, con **ancla local que cumpla la regla 7** (no vale "con ángulo local" en abstracto: hay que poder escribir el campo `ancla_local` de forma concreta), y que no canibalice ni un artículo publicado ni una money page.
-   - Campos obligatorios añadidos el 25-08-2026: **`ancla_local`** (qué dato propio del Garraf sostiene el artículo) e **`intencion_comercial`** (`alta` si quien busca eso está a un paso de apuntarse a algo, `media` si es objeción o comparación previa a la decisión). **No se admiten entradas de intención `baja`:** si la búsqueda no lleva a ningún centro, es tráfico que no se puede vender.
-   - **Prohibido reponer comparativas nacionales genéricas** del tipo "boxeo o kickboxing", "diferencia judo y jiu jitsu": son el error que se corrigió el 25-08-2026 y ya hay doce publicadas.
-   - Fuentes de ideas: preguntas que aparecen en los `faq` de `src/data/disciplines.ts` y en los `localFaq` de `src/data/local-content.ts` que aún no tengan artículo; huecos de cobertura conocidos (fitboxing, kung fu, aikido, grappling); estacionalidad del calendario; y variantes de las entradas que mejor encajen con lo ya publicado.
-4. Marcar como `"estado": "descartado"` (con `"motivo_descarte"`) cualquier entrada pendiente que haya quedado obsoleta o que se solape con algo publicado desde entonces. No borrarlas: el histórico importa.
-5. Commit y push solo de `content/cola-blog.json`, con un resumen de qué se ha añadido y por qué.
-
-Esta rutina **no escribe artículos**. Solo mantiene la cola.
-
----
-
-## 7. Contexto técnico mínimo
-
-- Astro 4 + Tailwind + TypeScript, salida estática, desplegado en Vercel con auto-deploy desde `main`.
-- El contenido vive en `src/data/*.ts`; las páginas se generan en `src/pages/[...slug].astro`.
-- `npm run build` genera `dist/`. `npm run images` regenera la imaginería.
-- No instalar dependencias nuevas. No tocar la maquetación, los componentes ni la configuración: este agente escribe contenido.
-- No reintroducir el plugin `@astrojs/sitemap` (dio problemas de compatibilidad; el sitemap es propio, en `src/pages/sitemap.xml.ts`).
+- Astro estático; Vercel despliega al hacer push a `main`.
+- Los artículos heredados (sin Markdown todavía) viven en `src/legacy/` y se sirven igual; un Markdown con el mismo slug o con `slugAnterior` los sustituye. No se editan los heredados: se reescriben en Markdown.
+- Plantilla del artículo: `src/templates/Post.astro`. Cargador: `src/lib/blog.ts`.
+- Los agentes que reescriben no ejecutan git: lo hace quien coordina, tras revisar.

@@ -9,7 +9,7 @@ import { CENTROS, comarcasConCentros, disciplinasPresentes, centrosDeComarca } f
 import { COMARCAS, getComarca, getMunicipio } from '../lib/geo';
 import { getDisciplina } from '../lib/disciplinas';
 import { rutasMunicipio, rutasDisciplina } from '../lib/rutas';
-import { POSTS } from '../lib/editorial';
+import { articulos } from '../lib/blog';
 import { SITE, SCHEMA_IDS } from '../lib/site';
 
 interface Props { lang: Lang }
@@ -21,7 +21,7 @@ const topMunis = rutasMunicipio()
   .map(r => ({ ...r, nombre: getMunicipio(r.municipio)!.nombre, k: CENTROS.filter(c => c.municipio === r.municipio).length }))
   .sort((a, b) => b.k - a.k)
   .slice(0, 12);
-const posts = lang === 'es' ? POSTS.filter(p => p.tipo === 'articulo').slice(0, 3) : [];
+const posts = lang === 'es' ? (await articulos()).filter(p => p.tipo === 'articulo').slice(0, 3) : [];
 
 const title = L(lang, `Artes Marciales Catalunya: ${CENTROS.length} centros verificados`, `Arts Marcials Catalunya: ${CENTROS.length} centres verificats`);
 const description = L(lang,

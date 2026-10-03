@@ -6,9 +6,10 @@ import { CENTROS, comarcasConCentros, centrosDeComarca, disciplinasPresentes } f
 import { getComarca } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { rutasDisciplina } from '../lib/rutas';
-import { POSTS } from '../lib/editorial';
+import { articulos } from '../lib/blog';
 
-export const GET: APIRoute = () => {
+export const GET: APIRoute = async () => {
+  const POSTS = await articulos();
   const disc = disciplinasPresentes(CENTROS);
   const conPagina = new Set(rutasDisciplina().map(r => r.disciplina));
   const txt = `# ${SITE.name}

@@ -5,11 +5,12 @@ import type { APIRoute } from 'astro';
 import { SITE } from '../lib/site';
 import { url, LANGS, type Lang } from '../lib/i18n';
 import { CENTROS } from '../lib/centros';
-import { POSTS } from '../lib/editorial';
+import { articulos } from '../lib/blog';
 import { rutasComarca, rutasMunicipio, rutasMunDisc, rutasDisciplina, rutasDiscComarca, fichaIndexable } from '../lib/rutas';
 
 type Entrada = { por: (l: Lang) => string; lastmod: string; bilingue: boolean };
 const R = SITE.ultimaRevision;
+const POSTS = await articulos();
 const entradas: Entrada[] = [
   { por: l => url.home(l), lastmod: R, bilingue: true },
   { por: l => url.centros(l), lastmod: R, bilingue: true },
@@ -24,7 +25,7 @@ const entradas: Entrada[] = [
   ...rutasDiscComarca().map(r => ({ por: (l: Lang) => url.discComarca(l, r.disciplina, r.comarca), lastmod: R, bilingue: true })),
   ...CENTROS.filter(fichaIndexable).map(c => ({ por: (l: Lang) => url.centro(l, c.slug), lastmod: c.verificado, bilingue: true })),
   { por: () => url.blog(), lastmod: POSTS[0]?.fecha ?? R, bilingue: false },
-  ...POSTS.map(p => ({ por: () => url.post(p.slug), lastmod: p.fecha, bilingue: false })),
+  ...POSTS.map(p => ({ por: () => url.post(p.slug), lastmod: p.actualizado, bilingue: false })),
 ];
 
 export const GET: APIRoute = () => {

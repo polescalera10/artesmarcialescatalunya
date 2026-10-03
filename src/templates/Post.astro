@@ -7,16 +7,17 @@ import Migas from '../components/Migas.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { url, fecha } from '../lib/i18n';
-import { POSTS, type Post } from '../lib/editorial';
+import { articulos, type Articulo } from '../lib/blog';
 import { SITE, SCHEMA_IDS } from '../lib/site';
 import manifiesto from '../legacy/imagenes-generadas.json';
 
-interface Props { post: Post }
+interface Props { post: Articulo }
 const { post } = Astro.props;
-const clave = post.tipo === 'articulo' ? `blog-${post.slug}` : post.slug;
+const base = post.slugAnterior ?? post.slug;
+const clave = post.imagen ?? (post.tipo === 'articulo' ? `blog-${base}` : base);
 const hero = (manifiesto.img as string[]).includes(clave) ? `/img/${clave}.webp` : null;
 const og = (manifiesto.og as string[]).includes(clave) ? `${SITE.url}/og/${clave}.png` : undefined;
-const otros = POSTS.filter(p => p.slug !== post.slug && p.tipo === post.tipo).slice(0, 3);
+const otros = (await articulos()).filter(p => p.slug !== post.slug && p.tipo === post.tipo).slice(0, 3);
 const pageUrl = `${SITE.url}${url.post(post.slug)}`;
 const schema = {
   '@context': 'https://schema.org',
@@ -27,7 +28,7 @@ const schema = {
   url: pageUrl,
   inLanguage: 'es',
   datePublished: post.fecha,
-  dateModified: post.fecha,
+  dateModified: post.actualizado,
   image: og ?? `${SITE.url}/og-default.png`,
   author: { '@id': SCHEMA_IDS.organization },
   publisher: { '@id': SCHEMA_IDS.organization },
@@ -41,7 +42,7 @@ const schema = {
     <Migas lang="es" items={[{ nombre: 'Blog', href: url.blog() }, { nombre: post.h1, href: url.post(post.slug) }]} />
     <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{post.h1}</h1>
-      <p class="text-xs text-brand-muted mt-4">Publicado el <time datetime={post.fecha}>{fecha('es', post.fecha)}</time> · {SITE.name}</p>
+      <p class="text-xs text-brand-muted mt-4">Publicado el <time datetime={post.fecha}>{fecha('es', post.fecha)}</time>{post.actualizado !== post.fecha && <> · Actualizado el <time datetime={post.actualizado}>{fecha('es', post.actualizado)}</time></>} · {SITE.name}</p>
       {hero && <img src={hero} alt="" width="1600" height="400" decoding="async" class="mt-8 w-full object-cover rounded-2xl border border-brand-border" />}
       <div class="text-lg text-brand-muted mt-8 leading-relaxed" set:html={post.intro} />
       {post.body && <div class="articulo mt-8" set:html={post.body} />}
