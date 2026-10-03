@@ -366,6 +366,16 @@
       "source": "/ca/centres/club-de-boxa-manresa/",
       "destination": "/ca/centres/club-boxa-manresa/",
       "permanent": true
+    },
+    {
+      "source": "/centros/club-chunkwon/",
+      "destination": "/centros/sfc-sabadell-fight-club/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/club-chunkwon/",
+      "destination": "/ca/centres/sfc-sabadell-fight-club/",
+      "permanent": true
     }
   ]
 }

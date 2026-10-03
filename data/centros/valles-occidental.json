@@ -801,18 +801,6 @@
   "verificado": "2026-10-03"
  },
  {
-  "slug": "club-chunkwon",
-  "nombre": "Club Chunkwon",
-  "tipo": "club",
-  "municipio": "sabadell",
-  "disciplinas": [
-   "taekwondo"
-  ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02114",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
- },
- {
   "slug": "club-de-boxa-black-bull",
   "nombre": "Club de Boxa Black Bull",
   "tipo": "club",
@@ -1112,16 +1100,12 @@
   "tipo": "club",
   "municipio": "sabadell",
   "disciplinas": [
-   "boxeo",
-   "defensa-personal",
-   "grappling",
-   "jiu-jitsu-brasileno",
-   "kickboxing",
-   "mma"
+   "jiu-jitsu-brasileno"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20678",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "https://aranhabjjsabadell.wordpress.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03",
+  "web": "https://aranhabjjsabadell.wordpress.com/"
  },
  {
   "slug": "club-esportiu-arts-marcials-phoenix",
@@ -1885,11 +1869,14 @@
   "tipo": "club",
   "municipio": "sabadell",
   "disciplinas": [
-   "karate"
+   "aikido",
+   "kendo"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05712",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "https://www.aikidokobukai.es/nuestros-dojos/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03",
+  "direccion": "Club Natació Sabadell, C/ Budapest, 1, 08202 Sabadell",
+  "web": "https://www.aikidokobukai.es/"
  },
  {
   "slug": "club-ksk",
