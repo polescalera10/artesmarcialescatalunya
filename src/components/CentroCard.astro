@@ -54,7 +54,9 @@ const m = getMunicipio(c.municipio)!;
 
   {c.infantil && <p class="text-xs text-sky-300">{L(lang, 'Anuncia clases para niños', 'Anuncia classes per a infants')}</p>}
 
-  {c.direccion && <p class="text-xs text-brand-muted">{c.direccion}</p>}
+  {c.direccion && (
+    <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${c.nombre}, ${c.direccion}, ${m.nombre}`)}`} target="_blank" rel="noopener nofollow" class="text-xs text-brand-muted hover:text-white underline decoration-brand-border underline-offset-2" data-evento="clic_mapa" data-centro={c.slug} title={L(lang, 'Ver en el mapa', 'Veure al mapa')}>{c.direccion}</a>
+  )}
 
   <div class="mt-auto pt-2 border-t border-brand-border flex items-center justify-between gap-2 text-xs">
     <a href={url.centro(lang, c.slug)} class="font-semibold text-brand-red hover:text-red-400">{L(lang, 'Ver ficha', 'Veure fitxa')} →</a>
