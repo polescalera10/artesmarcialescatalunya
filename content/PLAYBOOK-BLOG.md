@@ -142,7 +142,7 @@ Enlaces externos solo a fuentes de autoridad cuando aportan (federaciones catala
 
 ## 5. Puertas de calidad (antes de dar un artículo por terminado)
 
-1. **Calidad:** `python3 ~/.claude/scripts/analyze_blog.py src/content/blog/<slug>.md`. **Mínimo 90.** Por debajo: corregir lo Critical y High y volver a puntuar; tras dos iteraciones sin llegar, se deja pendiente y se dice. Las penalizaciones por JSON-LD, canonical u Open Graph son falsos positivos (los pone la plantilla).
+1. **Calidad:** `python3 scripts/validar-articulo.py src/content/blog/<slug>.md` (pasa el artículo a `analyze_blog.py` con el frontmatter traducido). **Mínimo 60 en bruto** (decisión de Pol, 03-10-2026): el analizador está calibrado para inglés (legibilidad Flesch, definiciones, ejemplos y resúmenes solo con patrones ingleses) y no puntúa lo que pone la plantilla (JSON-LD, Open Graph, imagen), así que en castellano el techo real ronda 70. La nota es una red de seguridad; lo que manda es la revisión humana de las reglas 1-7 y la pasada anti-IA. **Prohibido subir la nota con trucos**: comentarios `<!-- ORIGINAL DATA -->`, `TL;DR`, relleno en inglés o fechas fijas junto a marcadores.
 2. **SEO on-page** (skill `blog-seo-check` si está): título, descripción, jerarquía, enlaces y anchors.
 3. **Guiones:** `grep -c '—\|–' src/content/blog/<slug>.md` tiene que dar 0.
 4. **Build y enlaces:** `npm run build` (debe acabar en "Complete!") y `python3 scripts/enlaces.py` (debe dar OK).

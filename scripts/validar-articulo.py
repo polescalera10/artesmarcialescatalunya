@@ -4,7 +4,7 @@ Uso: python3 scripts/validar-articulo.py src/content/blog/<slug>.md
 
 Revisa: frontmatter (campos y longitudes), marcadores de recuento con slugs
 reales, enlaces internos (contra dist/ del último build y vercel.json),
-guiones largos, y la nota de analyze_blog.py (mínimo 90)."""
+guiones largos, y la nota de analyze_blog.py (mínimo 60 en castellano, ver CLAUDE.md)."""
 import json, os, re, subprocess, sys
 
 RAIZ = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
@@ -87,7 +87,7 @@ try:
     out = subprocess.run(['python3', os.path.expanduser('~/.claude/scripts/analyze_blog.py'), tmp.name, '--format', 'json'], capture_output=True, text=True, timeout=120).stdout
     sc = json.loads(out)['score']
     n = sc['total']
-    (errores if n < 90 else avisos).append(f'analyze_blog: {n}/100' + (' (mínimo 90)' if n < 90 else ''))
+    (errores if n < 60 else avisos).append(f'analyze_blog: {n}/100' + (' (mínimo 60)' if n < 60 else ''))
     for i in sc.get('issues', []):
         if i['severity'] in ('critical', 'high') and not any(k in i['issue'] for k in ('JSON-LD', 'schema', 'Open Graph', 'canonical')):
             avisos.append(f"analyze_blog [{i['severity']}] {i['issue']}")
