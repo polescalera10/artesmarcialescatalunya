@@ -43,7 +43,7 @@ const {
   title,
   description,
   canonical = Astro.url.pathname,
-  ogImage = `${SITE.url}/og-default.png`,
+  ogImage,
   ogImageAlt = SITE.name,
   schema,
   noindex = false,
@@ -51,6 +51,8 @@ const {
   alternates,
 } = Astro.props;
 
+// Tarjeta social: la de la página si la trae; si no, la de portada en su idioma.
+const og = ogImage ?? `${SITE.url}/og/home-${lang}.jpg`;
 const canonicalUrl = `${SITE.url}${canonical.endsWith('/') ? canonical : canonical + '/'}`;
 const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
 
@@ -80,7 +82,7 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content={ogImage} />
+  <meta property="og:image" content={og} />
   <!-- Ancho y alto declarados: sin ellos, algunas plataformas descargan la
        imagen antes de decidir el formato de la tarjeta, y otras la degradan a
        miniatura pequeña. -->
@@ -94,7 +96,7 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={ogImage} />
+  <meta name="twitter:image" content={og} />
   <meta name="twitter:image:alt" content={ogImageAlt} />
 
   <!-- Geo tags for local SEO -->

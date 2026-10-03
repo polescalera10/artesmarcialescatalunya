@@ -97,7 +97,7 @@ const schema = {
 };
 ---
 
-<Layout title={title} description={description} canonical={url.municipio(lang, comarca, municipio)} schema={schema} lang={lang} alternates={alternates}>
+<Layout ogImage={`${SITE.url}/og/c/${comarca}-${lang}.jpg`} title={title} description={description} canonical={url.municipio(lang, comarca, municipio)} schema={schema} lang={lang} alternates={alternates}>
   <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
   <main id="contenido">
     <Migas lang={lang} items={[{ nombre: com.nombre, href: url.comarca(lang, comarca) }, { nombre: mun.nombre, href: url.municipio(lang, comarca, municipio) }]} />

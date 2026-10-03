@@ -85,7 +85,7 @@ const schema = [
 ];
 ---
 
-<Layout title={title} description={description} canonical={url.centro(lang, c.slug)} schema={schema} lang={lang} alternates={alternates} noindex={!fichaIndexable(c)}>
+<Layout ogImage={`${SITE.url}/og/c/${c.comarca}-${lang}.jpg`} title={title} description={description} canonical={url.centro(lang, c.slug)} schema={schema} lang={lang} alternates={alternates} noindex={!fichaIndexable(c)}>
   <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
   <main id="contenido">
     <Migas lang={lang} items={[

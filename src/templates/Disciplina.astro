@@ -80,7 +80,7 @@ const schema = {
 };
 ---
 
-<Layout title={title} description={description} canonical={url.disciplina(lang, disciplina)} schema={schema} lang={lang} alternates={alternates}>
+<Layout ogImage={`${SITE.url}/og/d/${disciplina}-${lang}.jpg`} title={title} description={description} canonical={url.disciplina(lang, disciplina)} schema={schema} lang={lang} alternates={alternates}>
   <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
   <main id="contenido">
     <Migas lang={lang} items={[{ nombre: L(lang, 'Disciplinas', 'Disciplines'), href: url.disciplinas(lang) }, { nombre: nd, href: url.disciplina(lang, disciplina) }]} />
