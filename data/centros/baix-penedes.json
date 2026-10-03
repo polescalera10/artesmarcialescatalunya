@@ -13,6 +13,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-esportiva-grulla-i-serp-de-wushu",
+  "nombre": "Associacio Esportiva Grulla i Serp de Wushu",
+  "tipo": "asociacion",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18105",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-arts-marcials-kodojo",
   "nombre": "Club Arts Marcials Kodojo",
   "tipo": "club",
@@ -35,6 +47,33 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-swing-segur-2018",
+  "nombre": "Club Boxa Swing Segur 2018",
+  "tipo": "club",
+  "municipio": "calafell",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-brasileno",
+   "karate",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18395",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxeo-albinyana",
+  "nombre": "Club Boxeo Albinyana",
+  "tipo": "club",
+  "municipio": "albinyana",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15600",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-lucha-garra",
@@ -64,6 +103,43 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-budokan-cunit",
+  "nombre": "Club Esportiu Budokan Cunit",
+  "tipo": "club",
+  "municipio": "cunit",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19489",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-budokan-vendrell",
+  "nombre": "Club Esportiu Budokan Vendrell",
+  "tipo": "club",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14447",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-calafell-2011",
+  "nombre": "Club Esportiu Calafell 2011",
+  "tipo": "club",
+  "municipio": "calafell",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15530",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-de-lluita-olimpica-calafell",
   "nombre": "Club Esportiu de Lluita Olímpica Calafell",
   "tipo": "club",
@@ -78,6 +154,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-jiu-jitsu-brasiler-calafell",
+  "nombre": "Club Esportiu Jiu Jitsu Brasiler Calafell",
+  "tipo": "club",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "jiu-jitsu-japones"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19123",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-karate-cunit",
   "nombre": "Club Esportiu Karate Cunit",
   "tipo": "club",
@@ -89,6 +177,18 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=EKC",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-muaythai-el-vendrell",
+  "nombre": "Club Esportiu Muaythai el Vendrell",
+  "tipo": "club",
+  "municipio": "el-vendrell",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18085",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-el-vendrell",
@@ -105,6 +205,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-karate-vilarenc",
+  "nombre": "Club Karate Vilarenc",
+  "tipo": "club",
+  "municipio": "calafell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18277",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-mma-vendrell",
   "nombre": "Club MMA Vendrell",
   "tipo": "club",
@@ -116,6 +228,30 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-muaythai-camp-santa-oliva",
+  "nombre": "Club Muaythai Camp Santa Oliva",
+  "tipo": "club",
+  "municipio": "santa-oliva",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19776",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-larboc",
+  "nombre": "Club Taekwondo Larboç",
+  "tipo": "club",
+  "municipio": "larboc",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02921",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "dojo-arazola",

@@ -1,0 +1,38 @@
+[
+ {
+  "slug": "club-de-judo-montblancconca-de-barbera",
+  "nombre": "Club de Judo Montblancconca de Barbera",
+  "tipo": "club",
+  "municipio": "montblanc",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02914",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-terra-de-la-bonavida",
+  "nombre": "Club Esportiu Terra de la Bonavida",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-queralt",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14990",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-ceresus",
+  "nombre": "Club Judo Ceresus",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-queralt",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02708",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ }
+]

@@ -8,7 +8,7 @@ municipios = {m['slug']: m for m in json.load(open(os.path.join(RAIZ, 'data/geo/
 comarcas = {c['slug'] for c in json.load(open(os.path.join(RAIZ, 'data/geo/comarcas.json')))}
 disciplinas = {d['slug'] for d in json.load(open(os.path.join(RAIZ, 'data/disciplinas.json')))}
 TIPOS = {'escuela', 'club', 'asociacion', 'gimnasio'}
-FUENTES = {'web-oficial', 'federacion', 'directorio-municipal', 'perfil-publico'}
+FUENTES = {'web-oficial', 'federacion', 'directorio-municipal', 'registro-oficial', 'perfil-publico'}
 
 errores, vistos, total = [], set(), 0
 for ruta in sorted(glob.glob(os.path.join(RAIZ, 'data/centros/*.json'))):

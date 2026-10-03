@@ -13,6 +13,57 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "club-de-taekwondo-gimnas-tarrega",
+  "nombre": "Club de Taekwondo Gimnas Tarrega",
+  "tipo": "club",
+  "municipio": "tarrega",
+  "disciplinas": [
+   "boxeo",
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06926",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-daikido-urgell",
+  "nombre": "Club Esportiu d'Aikido Urgell",
+  "tipo": "club",
+  "municipio": "agramunt",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16110",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-geminis",
+  "nombre": "Club Esportiu Geminis",
+  "tipo": "club",
+  "municipio": "tarrega",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08890",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-gym-bellpuig",
+  "nombre": "Club Esportiu Gym Bellpuig",
+  "tipo": "club",
+  "municipio": "bellpuig",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11199",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-ippon-bellpuig",
   "nombre": "Club Judo Ippon Bellpuig",
   "tipo": "club",
@@ -24,6 +75,30 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-shintai",
+  "nombre": "Club Judo Shintai",
+  "tipo": "club",
+  "municipio": "tarrega",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11046",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-genesi",
+  "nombre": "Club Taekwondo Genesi",
+  "tipo": "club",
+  "municipio": "agramunt",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07528",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "natacio-tarrega",
@@ -38,6 +113,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "pentathlon-esports-club-de-fuliola",
+  "nombre": "Pentathlon Esports Club de Fuliola",
+  "tipo": "club",
+  "municipio": "la-fuliola",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02755",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "tarrega",
   "nombre": "Tarrega",
   "tipo": "escuela",
@@ -49,5 +136,17 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "unio-atletica-urgellenca-club-esportiu",
+  "nombre": "Unio Atletica Urgellenca Club Esportiu",
+  "tipo": "club",
+  "municipio": "tarrega",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09000",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  }
 ]

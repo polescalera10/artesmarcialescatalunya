@@ -1,5 +1,42 @@
 [
  {
+  "slug": "asociacion-catalana-de-boxeo-chino-j-candela",
+  "nombre": "Asociacion Catalana de Boxeo Chino J Candela",
+  "tipo": "asociacion",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "karate",
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01653",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-aikido-terres-de-lebre",
+  "nombre": "Associacio Aikido Terres de Lebre",
+  "tipo": "asociacion",
+  "municipio": "camarles",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14977",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-escolar-zer-mestral",
+  "nombre": "Associacio Esportiva Escolar Zer Mestral",
+  "tipo": "asociacion",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15009",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-de-karate-kushinkai-de-deltebre",
   "nombre": "Associació de Karate Kushinkai de Deltebre",
   "tipo": "asociacion",
@@ -25,6 +62,98 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-boxa-roquetes",
+  "nombre": "Club Boxa Roquetes",
+  "tipo": "club",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18706",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-defensa-personal-dertosa",
+  "nombre": "Club de Defensa Personal Dertosa",
+  "tipo": "club",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16829",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-boxa-vinallop",
+  "nombre": "Club Esportiu Boxa Vinallop",
+  "tipo": "club",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17760",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-dinamics-tortosa",
+  "nombre": "Club Esportiu Dinamics Tortosa",
+  "tipo": "club",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "defensa-personal",
+   "judo",
+   "kickboxing",
+   "kung-fu",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15093",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-kronnos-fighters",
+  "nombre": "Club Esportiu Kronnos Fighters",
+  "tipo": "club",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16593",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-self-defense-tortosa",
+  "nombre": "Club Esportiu Self Defense Tortosa",
+  "tipo": "club",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18376",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-universal-tortosa-3000",
+  "nombre": "Club Esportiu Universal Tortosa 3000",
+  "tipo": "club",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16278",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-priorat-terres-de-lebre",
   "nombre": "Club Judo Priorat-Terres de l'Ebre",
   "tipo": "club",
@@ -40,6 +169,33 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-karate-do-lametlla-de-mar",
+  "nombre": "Club Karate Do l'Ametlla de Mar",
+  "tipo": "club",
+  "municipio": "lametlla-de-mar",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09312",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-kushinkai-camarles",
+  "nombre": "Club Karate Kushinkai Camarles",
+  "tipo": "club",
+  "municipio": "camarles",
+  "disciplinas": [
+   "defensa-personal",
+   "karate",
+   "kickboxing",
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14231",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "hibera-ludus-academy",
   "nombre": "Hibera Ludus Academy",
   "tipo": "escuela",
@@ -53,5 +209,17 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=HIBERA",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "judo-club-catalonia",
+  "nombre": "Judo Club Catalonia",
+  "tipo": "club",
+  "municipio": "tortosa",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04392",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  }
 ]

@@ -30,6 +30,30 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-amics-de-riudoms",
+  "nombre": "Associacio Amics de Riudoms",
+  "tipo": "asociacion",
+  "municipio": "riudoms",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03583",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-de-taekwondo-costa-daurada",
+  "nombre": "Associacio Esportiva de Taekwondo Costa Daurada",
+  "tipo": "asociacion",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18197",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-esportiva-de-wu-shu-wu-xia-catalunya",
   "nombre": "Associacio Esportiva de Wu shu Wu Xia Catalunya",
   "tipo": "asociacion",
@@ -48,6 +72,81 @@
   "fuente": "https://wuxia-kungfu.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "associacio-esportiva-el-salt-esport-i-lleure",
+  "nombre": "Associacio Esportiva el Salt Esport i Lleure",
+  "tipo": "asociacion",
+  "municipio": "castellvell-del-camp",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14290",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-jiujitsu-brasiler-cambrils",
+  "nombre": "Associacio Esportiva Jiujitsu Brasiler Cambrils",
+  "tipo": "asociacion",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "jiu-jitsu-brasileno"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18800",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-karate-i-goshindo-reus",
+  "nombre": "Associacio Esportiva Karate i Goshindo Reus",
+  "tipo": "asociacion",
+  "municipio": "la-selva-del-camp",
+  "disciplinas": [
+   "boxeo",
+   "judo",
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18375",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-mare-de-deu-de-la-misericordia",
+  "nombre": "Associacio Esportiva Mare de Deu de la Misericordia",
+  "tipo": "asociacion",
+  "municipio": "reus",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08664",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-pare-manyanet",
+  "nombre": "Associacio Esportiva Pare Manyanet",
+  "tipo": "asociacion",
+  "municipio": "reus",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01923",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-vilafortuny",
+  "nombre": "Associacio Esportiva Vilafortuny",
+  "tipo": "asociacion",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12931",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "associacio-do-trinidad-de-karate",
@@ -83,6 +182,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "boxing-club-esportiu-reus",
+  "nombre": "Boxing Club Esportiu Reus",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11537",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "c-e-de-judo-dojo-cambrils",
   "nombre": "C.E. de Judo Dojo Cambrils",
   "tipo": "club",
@@ -109,6 +220,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-boxa-la-roca",
+  "nombre": "Club Boxa la Roca",
+  "tipo": "club",
+  "municipio": "mont-roig-del-camp",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17664",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-cambrils-karate",
   "nombre": "Club Cambrils Karate",
   "tipo": "club",
@@ -120,6 +243,30 @@
   "fuente": "http://clubkaratecambrils.blogspot.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-chois-cha",
+  "nombre": "Club Chois Cha",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02612",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-cambrils-olimpica",
+  "nombre": "Club de Boxa Cambrils Olimpica",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17861",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-jiujitsu-brasiler-reus",
@@ -136,6 +283,44 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-de-judo-altafulla",
+  "nombre": "Club de Judo Altafulla",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "defensa-personal",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18810",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-tai-txi-cambrils",
+  "nombre": "Club de Tai Txi Cambrils",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "kickboxing",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18658",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-escola-de-judo-dojo-cambrils",
+  "nombre": "Club Escola de Judo Dojo Cambrils",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11935",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esp-arts-marcials-reus",
   "nombre": "Club Esp. Arts Marcials Reus",
   "tipo": "club",
@@ -149,6 +334,70 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-alyan",
+  "nombre": "Club Esportiu Alyan",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17308",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-cambrils",
+  "nombre": "Club Esportiu Arts Marcials Cambrils",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "kobudo",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20313",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-boxing-club-cambrils",
+  "nombre": "Club Esportiu Boxing Club Cambrils",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15860",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-cejer",
+  "nombre": "Club Esportiu Cejer",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11557",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-de-sords-cambrils",
+  "nombre": "Club Esportiu de Sords Cambrils",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20670",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-de-taekwondo-mont-roig-del-camp",
   "nombre": "Club Esportiu de Taekwondo",
   "tipo": "club",
@@ -159,6 +408,59 @@
   "fuente": "https://mont-roig.cat/wp-content/uploads/MM_ESPORTS_TARDOR24_web.pdf",
   "fuenteTipo": "directorio-municipal",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-esportiu-prades-o2",
+  "nombre": "Club Esportiu Prades O2",
+  "tipo": "club",
+  "municipio": "prades",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16101",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-reus-team-fighters",
+  "nombre": "Club Esportiu Reus Team Fighters",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-japones",
+   "kickboxing",
+   "lucha",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17966",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-taekwondo-reus",
+  "nombre": "Club Esportiu Taekwondo Reus",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18198",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-cambrils-port",
+  "nombre": "Club Gimnas Cambrils Port",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02469",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-lhospitalet-de-linfant",
@@ -201,6 +503,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-karate-keops-de-miami-playa",
+  "nombre": "Club Karate Keops de Miami Playa",
+  "tipo": "club",
+  "municipio": "mont-roig-del-camp",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10068",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-karate-mizoguchi-sensei-reus",
   "nombre": "Club Karate Mizoguchi Sensei",
   "tipo": "club",
@@ -213,6 +527,19 @@
   "fuente": "http://karatereus.blogspot.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-muay-thai-reus",
+  "nombre": "Club Muay Thai Reus",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17771",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-muythai-i-boxa-cambrils",
@@ -239,6 +566,42 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=11",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-alonso",
+  "nombre": "Club Taekwondo Alonso",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10098",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-heliopolis",
+  "nombre": "Club Taekwondo Heliopolis",
+  "tipo": "club",
+  "municipio": "reus",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08372",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwoondo-cambrils",
+  "nombre": "Club Taekwoondo Cambrils",
+  "tipo": "club",
+  "municipio": "cambrils",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19506",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-tot-judo-reus",
@@ -358,6 +721,19 @@
   "fuente": "https://gimnassiluets.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "jiu-jitsu-club-cambrils",
+  "nombre": "Jiu Jitsu Club Cambrils",
+  "tipo": "club",
+  "municipio": "vinyols-i-els-arcs",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19706",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "koryo-reus",

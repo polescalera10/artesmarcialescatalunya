@@ -1,5 +1,66 @@
 [
  {
+  "slug": "associacio-esportiva-ago-team-cervera",
+  "nombre": "Associacio Esportiva Ago Team Cervera",
+  "tipo": "asociacion",
+  "municipio": "cervera",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18439",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnastic-cervera",
+  "nombre": "Club Gimnastic Cervera",
+  "tipo": "club",
+  "municipio": "cervera",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11417",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-kodokan-cervera",
+  "nombre": "Club Kodokan Cervera",
+  "tipo": "club",
+  "municipio": "cervera",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02614",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-ritmica-cervera",
+  "nombre": "Club Ritmica Cervera",
+  "tipo": "club",
+  "municipio": "cervera",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18471",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-un-nou-aire",
+  "nombre": "Club Un Nou Aire",
+  "tipo": "club",
+  "municipio": "guissona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06169",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "team-ronin",
   "nombre": "Team Ronin",
   "tipo": "escuela",

@@ -1,5 +1,18 @@
 [
  {
+  "slug": "amics-dinfancia-judo-club-mollet-del-valles",
+  "nombre": "Amics Dinfancia Judo Club Mollet del Valles",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "defensa-personal",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17215",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "ares-arena",
   "nombre": "Ares Arena",
   "tipo": "gimnasio",
@@ -12,6 +25,44 @@
   "direccion": "Carrer de Can Flequer, 6, 08100 Mollet del Vallès, Barcelona",
   "fuente": "https://www.owkle.es/clubs/ares-arena/",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "asociacio-esportiva-kat-sei-karate-kai-catalunya",
+  "nombre": "Asociacio Esportiva Kat Sei Karate Kai Catalunya",
+  "tipo": "asociacion",
+  "municipio": "granollers",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00884",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "asociacion-deportiva-amigos-del-kickboxing-y-muaythai-de-canovellas",
+  "nombre": "Asociacion Deportiva Amigos del Kickboxing y Muaythai de Canovellas",
+  "tipo": "asociacion",
+  "municipio": "canovelles",
+  "disciplinas": [
+   "boxeo",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11205",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "asociacion-femenina-kickboxing-muaythai-les-franqueses",
+  "nombre": "Asociacion Femenina Kickboxing Muaythai les Franqueses",
+  "tipo": "asociacion",
+  "municipio": "les-franqueses-del-valles",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11169",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {
@@ -58,6 +109,161 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-aikido-palautordera",
+  "nombre": "Associacio Aikido Palautordera",
+  "tipo": "asociacion",
+  "municipio": "santa-maria-de-palautordera",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15582",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-de-karate-jutsu-palautordera",
+  "nombre": "Associacio de Karate Jutsu Palautordera",
+  "tipo": "asociacion",
+  "municipio": "santa-maria-de-palautordera",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13279",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-aikido-tsukikai",
+  "nombre": "Associacio Esportiva Aikido Tsukikai",
+  "tipo": "asociacion",
+  "municipio": "llica-damunt",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16013",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-karatejudo-la-llagosta",
+  "nombre": "Associacio Esportiva Karatejudo la Llagosta",
+  "tipo": "asociacion",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12244",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-la-perestroika",
+  "nombre": "Associacio Esportiva la Perestroika",
+  "tipo": "asociacion",
+  "municipio": "les-franqueses-del-valles",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "direccion": "Zona Esportiva Municipal, s/n, Les Franqueses del Vallès",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09927",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-sambo-la-torreta",
+  "nombre": "Associacio Esportiva Sambo la Torreta",
+  "tipo": "asociacion",
+  "municipio": "la-roca-del-valles",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17906",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-som-esport-valles",
+  "nombre": "Associacio Esportiva Som Esport Valles",
+  "tipo": "asociacion",
+  "municipio": "sant-antoni-de-vilamajor",
+  "disciplinas": [
+   "capoeira",
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17478",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-judo-cardedeu",
+  "nombre": "Associacio Judo Cardedeu",
+  "tipo": "asociacion",
+  "municipio": "cardedeu",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13949",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-karate-rufo",
+  "nombre": "Associacio Karate Rufo",
+  "tipo": "asociacion",
+  "municipio": "llica-damunt",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15044",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-kickboxing-warcry",
+  "nombre": "Associacio Kickboxing Warcry",
+  "tipo": "asociacion",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17913",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-lluita-lliure-olimpica-ametllense",
+  "nombre": "Associacio Lluita Lliure Olimpica Ametllense",
+  "tipo": "asociacion",
+  "municipio": "lametlla-del-valles",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11344",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-taekwondo-sant-celoni",
+  "nombre": "Associacio Taekwondo Sant Celoni",
+  "tipo": "asociacion",
+  "municipio": "sant-celoni",
+  "disciplinas": [
+   "aikido",
+   "hapkido",
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18669",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "associacio-cultural-i-lleure-judo-llica-damunt",
@@ -132,6 +338,31 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "cerdanyola-judo-club-valles-2010",
+  "nombre": "Cerdanyola Judo Club Valles 2010",
+  "tipo": "club",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14423",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-aikido-ametlla-del-valles",
+  "nombre": "Club Aikido Ametlla del Valles",
+  "tipo": "club",
+  "municipio": "lametlla-del-valles",
+  "disciplinas": [
+   "aikido",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19969",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-aikido-granollers",
   "nombre": "Club Aikido Granollers",
   "tipo": "club",
@@ -143,6 +374,31 @@
   "fuente": "https://www.granollers.cat/adreces/esportives/club-ailkido-granollers",
   "fuenteTipo": "directorio-municipal",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-aikido-la-garriga",
+  "nombre": "Club Aikido la Garriga",
+  "tipo": "club",
+  "municipio": "la-garriga",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13204",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-granollers-fitness",
+  "nombre": "Club Boxa Granollers Fitness",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "C. Mataró, núm. 39, nau 6, Granollers",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20367",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-boxa-kaluosi-fight",
@@ -171,6 +427,93 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "club-boxa-martorelles",
+  "nombre": "Club Boxa Martorelles",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16260",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-ripollet",
+  "nombre": "Club Boxa Ripollet",
+  "tipo": "club",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06709",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxeo-femenino-tania-iqbal",
+  "nombre": "Club Boxeo Femenino Tania Iqbal",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20446",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxeo-infierno-mollet",
+  "nombre": "Club Boxeo Infierno Mollet",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16456",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-granollers",
+  "nombre": "Club de Boxa Granollers",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02455",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-i-kick-boxing-santa-eulalia-de-roncana",
+  "nombre": "Club de Boxa i Kick Boxing Santa Eulalia de Ronçana",
+  "tipo": "club",
+  "municipio": "santa-eulalia-de-roncana",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20650",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-montmelo",
+  "nombre": "Club de Boxa Montmelo",
+  "tipo": "club",
+  "municipio": "montmelo",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15657",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-de-boxa-sant-feliu-de-codines",
   "nombre": "Club de Boxa Sant Feliu de Codines",
   "tipo": "club",
@@ -181,6 +524,18 @@
   "direccion": "Plaça Josep Umbert Ventura, 4, 08182 Sant Feliu de Codines, Barcelona",
   "fuente": "https://www.owkle.es/clubs/club-de-boxa-sant-feliu-de-codines/",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-futbol-america-granollers-fenix",
+  "nombre": "Club de Futbol America Granollers Fenix",
+  "tipo": "club",
+  "municipio": "canovelles",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12360",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {
@@ -198,6 +553,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-deportivo-bujinkan-waryu-granollers-bcn",
+  "nombre": "Club Deportivo Bujinkan Waryu Granollers BCN",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19600",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-deportivo-catalan-de-luchas-olimpicas",
   "nombre": "Club Deportivo Catalán de Luchas Olímpicas",
   "tipo": "club",
@@ -211,6 +578,32 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-deportivo-sekcatalunya",
+  "nombre": "Club Deportivo Sekcatalunya",
+  "tipo": "club",
+  "municipio": "la-garriga",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13078",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-do-chang-park",
+  "nombre": "Club Do Chang Park",
+  "tipo": "club",
+  "municipio": "sant-celoni",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02293",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-aikido-bir-bigues-i-riells",
   "nombre": "Club Esportiu Aikido Bir Bigues i Riells",
   "tipo": "club",
@@ -222,6 +615,80 @@
   "fuente": "https://fedecatjudo.cat/aikido/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-bloodbrothers",
+  "nombre": "Club Esportiu Bloodbrothers",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "jiu-jitsu-brasileno",
+   "jiu-jitsu-japones",
+   "judo",
+   "kickboxing",
+   "kung-fu",
+   "lucha",
+   "muay-thai",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17445",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-cartago",
+  "nombre": "Club Esportiu Cartago",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13951",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-cuban-trail-team",
+  "nombre": "Club Esportiu Cuban Trail Team",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18905",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-de-karate-okinawa-team",
+  "nombre": "Club Esportiu de Karate Okinawa Team",
+  "tipo": "club",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "karate",
+   "kickboxing",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17091",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-de-sords-granollers",
+  "nombre": "Club Esportiu de Sords Granollers",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20127",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-dynamic-la-roca",
@@ -242,6 +709,45 @@
   "fuente": "https://gimnasdynamic.com/horarios",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-esportiu-infinit-move-barcelona",
+  "nombre": "Club Esportiu Infinit Move Barcelona",
+  "tipo": "club",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "boxeo",
+   "judo",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20465",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-jiujitsu-monica-barcelona",
+  "nombre": "Club Esportiu Jiujitsu Monica Barcelona",
+  "tipo": "club",
+  "municipio": "montmelo",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "defensa-personal",
+   "hapkido",
+   "jiu-jitsu-japones",
+   "karate",
+   "kendo",
+   "kickboxing",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "otras": [
+   "Kempo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19032",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-karate-nokachi",
@@ -299,6 +805,52 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-pantiquet",
+  "nombre": "Club Esportiu Pantiquet",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11377",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-samura-self-defense",
+  "nombre": "Club Esportiu Samura Self Defense",
+  "tipo": "club",
+  "municipio": "llica-de-vall",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kendo",
+   "kickboxing",
+   "kobudo",
+   "lucha",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14900",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-shiho-wari",
+  "nombre": "Club Esportiu Shiho Wari",
+  "tipo": "club",
+  "municipio": "les-franqueses-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07878",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-shorin-ryu-karate-goshin-do",
   "nombre": "Club Esportiu Shorin-Ryu Karate Goshin-Do",
   "tipo": "club",
@@ -309,6 +861,71 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-team-curriki",
+  "nombre": "Club Esportiu Team Curriki",
+  "tipo": "club",
+  "municipio": "llica-de-vall",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15496",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-the-house-of-crown",
+  "nombre": "Club Esportiu The House Of Crown",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18793",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnasio-arvi",
+  "nombre": "Club Gimnasio Arvi",
+  "tipo": "club",
+  "municipio": "caldes-de-montbui",
+  "disciplinas": [
+   "aikido",
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03062",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnasio-jordi-sport",
+  "nombre": "Club Gimnasio Jordi Sport",
+  "tipo": "club",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05848",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnasio-kanku",
+  "nombre": "Club Gimnasio Kanku",
+  "tipo": "club",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01885",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-gimnas-karate-sant-feliu",
@@ -338,6 +955,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-judo-barcelona-nord",
+  "nombre": "Club Judo Barcelona Nord",
+  "tipo": "club",
+  "municipio": "mollet-del-valles",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01753",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-bigues-i-riells",
   "nombre": "Club Judo Bigues I Riells",
   "tipo": "club",
@@ -354,6 +983,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-judo-fabregat",
+  "nombre": "Club Judo Fabregat",
+  "tipo": "club",
+  "municipio": "la-llagosta",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02397",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-granollers",
   "nombre": "Club Judo Granollers",
   "tipo": "club",
@@ -365,6 +1006,19 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-ntrasra-de-montserrat",
+  "nombre": "Club Judo Ntrasra de Montserrat",
+  "tipo": "club",
+  "municipio": "lametlla-del-valles",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02284",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-karate-cardedeu",
@@ -379,6 +1033,18 @@
   "fuente": "https://www.cardedeu.cat/public/directori/club-karate-cardedeu/",
   "fuenteTipo": "directorio-municipal",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-karate-j-martinez",
+  "nombre": "Club Karate J Martinez",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08917",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-karate-martorelles",
@@ -421,6 +1087,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-karate-sant-feliu",
+  "nombre": "Club Karate Sant Feliu",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-codines",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11684",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-karate-swing",
   "nombre": "Club Karate Swing",
   "tipo": "club",
@@ -447,6 +1125,18 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-natacio-caldes",
+  "nombre": "Club Natacio Caldes",
+  "tipo": "club",
+  "municipio": "caldes-de-montbui",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00834",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-sambo-granollers",
@@ -480,6 +1170,42 @@
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30",
   "web": "https://www.taekwondogranollers.com/"
+ },
+ {
+  "slug": "club-taekwondo-sport-taebek",
+  "nombre": "Club Taekwondo Sport Taebek",
+  "tipo": "club",
+  "municipio": "la-roca-del-valles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09093",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-thaishido",
+  "nombre": "Club Thaishido",
+  "tipo": "club",
+  "municipio": "la-garriga",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03324",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-wushu-granollers",
+  "nombre": "Club Wushu Granollers",
+  "tipo": "club",
+  "municipio": "granollers",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06167",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "cross-academy-les-franqueses",

@@ -1,5 +1,19 @@
 [
  {
+  "slug": "associacio-de-muay-thai-sabai-dee-calonge",
+  "nombre": "Associacio de Muay Thai Sabai Dee Calonge",
+  "tipo": "asociacion",
+  "municipio": "calonge-i-sant-antoni",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19051",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "c-e-aikido-emporda",
   "nombre": "C.E. Aikido Empordà",
   "tipo": "club",
@@ -13,6 +27,97 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-boxa-calonge",
+  "nombre": "Club Boxa Calonge",
+  "tipo": "club",
+  "municipio": "mont-ras",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17958",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxeo-toni-buda-palafrugell",
+  "nombre": "Club Boxeo Toni Buda Palafrugell",
+  "tipo": "club",
+  "municipio": "palafrugell",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19232",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-palafrugell",
+  "nombre": "Club de Boxa Palafrugell",
+  "tipo": "club",
+  "municipio": "palafrugell",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15936",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-vall-daro",
+  "nombre": "Club de Boxa Vall Daro",
+  "tipo": "club",
+  "municipio": "platja-daro-i-sagaro-castell-daro",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16655",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-karate-cristinenc",
+  "nombre": "Club de Karate Cristinenc",
+  "tipo": "club",
+  "municipio": "santa-cristina-daro",
+  "disciplinas": [
+   "defensa-personal",
+   "karate"
+  ],
+  "direccion": "Zona esportiva Municipal s/n, Santa Cristina d'Aro",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17395",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-muay-thai-costa-brava",
+  "nombre": "Club de Muay Thai Costa Brava",
+  "tipo": "club",
+  "municipio": "platja-daro-i-sagaro-castell-daro",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Pavelló municipal d'Esports, s/n, Platja d'Aro i s'Agaró Castell d'Aro",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16754",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-tai-txi-i-kung-fu-emporda",
+  "nombre": "Club de Tai Txi i Kung Fu Emporda",
+  "tipo": "club",
+  "municipio": "vall-llobrega",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14146",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-de-tai-txi-kung-fu-emporda",
   "nombre": "Club de Tai Txi Kung Fu Emporda",
   "tipo": "club",
@@ -21,6 +126,79 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=KRAV%20MAGA%20PALAMOS",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-defensa-personal-sant-feliu-de-guixols",
+  "nombre": "Club Defensa Personal Sant Feliu de Guixols",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-guixols",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16545",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-budo-palamos",
+  "nombre": "Club Esportiu Budo Palamos",
+  "tipo": "club",
+  "municipio": "palamos-i-sant-joan",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "kendo",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16595",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-bujinkan-palamos",
+  "nombre": "Club Esportiu Bujinkan Palamos",
+  "tipo": "club",
+  "municipio": "palamos-i-sant-joan",
+  "disciplinas": [
+   "defensa-personal",
+   "judo",
+   "karate",
+   "kendo",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14761",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-bujinkan-sant-feliu",
+  "nombre": "Club Esportiu Bujinkan Sant Feliu",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-guixols",
+  "disciplinas": [
+   "defensa-personal",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14762",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-costa-brava-palamos",
+  "nombre": "Club Esportiu Costa Brava Palamos",
+  "tipo": "club",
+  "municipio": "palamos-i-sant-joan",
+  "disciplinas": [
+   "boxeo",
+   "judo",
+   "karate",
+   "kickboxing",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19099",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-dojo-sant-feliu",
@@ -47,6 +225,30 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-kickboxing-vilartaga",
+  "nombre": "Club Esportiu Kickboxing Vilartaga",
+  "tipo": "club",
+  "municipio": "platja-daro-i-sagaro-castell-daro",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12665",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-rodriguez-martial-art-defensa-personal",
+  "nombre": "Club Esportiu Rodriguez Martial Art Defensa Personal",
+  "tipo": "club",
+  "municipio": "platja-daro-i-sagaro-castell-daro",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18396",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-templo-fighting",
   "nombre": "Club Esportiu Templo Fighting",
   "tipo": "club",
@@ -58,6 +260,18 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-ganxo-de-taekwondo",
+  "nombre": "Club Ganxo de Taekwondo",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-guixols",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09775",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-jita-kyoei-calonge",
@@ -101,6 +315,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-kickboxing-knockout-sant-feliu",
+  "nombre": "Club Kickboxing Knockout Sant Feliu",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-guixols",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20664",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-muay-thai-dasilva",
   "nombre": "Club Muay Thaï Dasilva",
   "tipo": "club",
@@ -113,6 +341,52 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-nihon-kobudo-sant-feliu",
+  "nombre": "Club Nihon Kobudo Sant Feliu",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-guixols",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kendo"
+  ],
+  "otras": [
+   "Kempo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15466",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-a-punt",
+  "nombre": "Club Taekwondo a Punt",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-guixols",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10345",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "gimnas-rovi",
+  "nombre": "Gimnas Rovi",
+  "tipo": "club",
+  "municipio": "palafrugell",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03230",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "gracie-costa-brava",

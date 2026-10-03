@@ -15,6 +15,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-esportiva-de-kendo-cassa-de-la-selva",
+  "nombre": "Associacio Esportiva de Kendo Cassa de la Selva",
+  "tipo": "asociacion",
+  "municipio": "cassa-de-la-selva",
+  "disciplinas": [
+   "kendo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20106",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-esportiva-de-kendo-girona",
   "nombre": "Associacio Esportiva de Kendo Girona",
   "tipo": "asociacion",
@@ -27,6 +39,60 @@
   "fuente": "https://fedecatjudo.cat/kendo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-kick-boxing-fenix",
+  "nombre": "Associacio Esportiva Kick Boxing Fenix",
+  "tipo": "asociacion",
+  "municipio": "cassa-de-la-selva",
+  "disciplinas": [
+   "defensa-personal",
+   "hapkido",
+   "jiu-jitsu-japones",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15741",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-la-farga",
+  "nombre": "Associacio Esportiva la Farga",
+  "tipo": "asociacion",
+  "municipio": "salt",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04750",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-gironina-daikido-yoshinkan",
+  "nombre": "Associacio Gironina d'Aikido Yoshinkan",
+  "tipo": "asociacion",
+  "municipio": "campllong",
+  "disciplinas": [
+   "aikido",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06466",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-judo-ter",
+  "nombre": "Associacio Judo Ter",
+  "tipo": "asociacion",
+  "municipio": "salt",
+  "disciplinas": [
+   "defensa-personal",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20705",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "associacio-capoeira-canigo",
@@ -56,6 +122,18 @@
   "fuente": "https://www.celra.cat/wp/blog/directori/associacio-de-taitxi-moviment-conscient-celra/",
   "fuenteTipo": "directorio-municipal",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "boxing-club-girona",
+  "nombre": "Boxing Club Girona",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02981",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "bujinkan-girona-dojo",
@@ -123,6 +201,75 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-boxa-salt",
+  "nombre": "Club Boxa Salt",
+  "tipo": "club",
+  "municipio": "salt",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-japones",
+   "kickboxing",
+   "mma",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "direccion": "Pg.PaÍsos Catalans, s/n Pavelló municipal, Salt",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20255",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-judo-budokan-sister-funk",
+  "nombre": "Club de Judo Budokan Sister Funk",
+  "tipo": "club",
+  "municipio": "salt",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16419",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-girones-defensa-personal-girona",
+  "nombre": "Club Esportiu Girones Defensa Personal",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "defensa-personal",
+   "karate",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17291",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-idem-salt",
+  "nombre": "Club Esportiu Idem Salt",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "boxeo",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16609",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-multiesports-celra",
+  "nombre": "Club Esportiu Multiesports Celra",
+  "tipo": "club",
+  "municipio": "celra",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16363",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-oswald",
   "nombre": "Club Esportiu Oswald",
   "tipo": "club",
@@ -162,6 +309,82 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-taekwondo-girona",
+  "nombre": "Club Esportiu Taekwondo Girona",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19828",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-tots-som-girona",
+  "nombre": "Club Esportiu Tots Som Girona",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15494",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-tvt-girona",
+  "nombre": "Club Esportiu Tvt Girona",
+  "tipo": "club",
+  "municipio": "salt",
+  "disciplinas": [
+   "kickboxing",
+   "lucha",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15943",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-fujiyama",
+  "nombre": "Club Gimnas Fujiyama",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02088",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-judo-sant-jordi",
+  "nombre": "Club Gimnas Judo Sant Jordi",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00107",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-halteras-girona",
+  "nombre": "Club Halteras Girona",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03143",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-palau",
   "nombre": "Club Judo Palau",
   "tipo": "club",
@@ -174,6 +397,31 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-quart",
+  "nombre": "Club Judo Quart",
+  "tipo": "club",
+  "municipio": "quart",
+  "disciplinas": [
+   "defensa-personal",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19636",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-salt",
+  "nombre": "Club Judo Salt",
+  "tipo": "club",
+  "municipio": "salt",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06474",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-llagostera",
@@ -423,6 +671,18 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=TMC",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "unio-esportiva-la-salle-girona",
+  "nombre": "Unio Esportiva la Salle Girona",
+  "tipo": "club",
+  "municipio": "girona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01242",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "urban-warriors",

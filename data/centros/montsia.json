@@ -13,6 +13,21 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-alcanar-tot-esport",
+  "nombre": "Club Alcanar Tot Esport",
+  "tipo": "club",
+  "municipio": "alcanar",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11374",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-defensa-personal-amposta",
   "nombre": "Club Boxa Defensa Personal Amposta",
   "tipo": "club",
@@ -26,6 +41,33 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-boxa-deltebre",
+  "nombre": "Club Boxa Deltebre",
+  "tipo": "club",
+  "municipio": "santa-barbara",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17074",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-gandesa",
+  "nombre": "Club Boxa Gandesa",
+  "tipo": "club",
+  "municipio": "santa-barbara",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16226",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-la-rapita",
   "nombre": "Club Boxa la Ràpita",
   "tipo": "club",
@@ -36,6 +78,87 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-la-senia",
+  "nombre": "Club Boxa la Senia",
+  "tipo": "club",
+  "municipio": "santa-barbara",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16224",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-sant-carles-de-la-rapita",
+  "nombre": "Club Boxa Sant Carles de la Rapita",
+  "tipo": "club",
+  "municipio": "la-rapita",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16105",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-sant-jaume-denveja",
+  "nombre": "Club Boxa Sant Jaume Denveja",
+  "tipo": "club",
+  "municipio": "santa-barbara",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16972",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-tortosa",
+  "nombre": "Club Boxa Tortosa",
+  "tipo": "club",
+  "municipio": "santa-barbara",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16501",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-ulldecona",
+  "nombre": "Club Boxa Ulldecona",
+  "tipo": "club",
+  "municipio": "santa-barbara",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16304",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-xerta",
+  "nombre": "Club Boxa Xerta",
+  "tipo": "club",
+  "municipio": "santa-barbara",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17519",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-lluita-amposta",
@@ -53,6 +176,87 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-diniciacio-esportiva-alcanar",
+  "nombre": "Club Diniciacio Esportiva Alcanar",
+  "tipo": "club",
+  "municipio": "alcanar",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08867",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-aikido-amposta",
+  "nombre": "Club Esportiu Aikido Amposta",
+  "tipo": "club",
+  "municipio": "amposta",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16407",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-boxa-amposta",
+  "nombre": "Club Esportiu Boxa Amposta",
+  "tipo": "club",
+  "municipio": "santa-barbara",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16104",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-dinamics-sta-barbara",
+  "nombre": "Club Esportiu Dinamics Sta Barbara",
+  "tipo": "club",
+  "municipio": "santa-barbara",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09601",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-dinamics-ulldecona",
+  "nombre": "Club Esportiu Dinamics Ulldecona",
+  "tipo": "club",
+  "municipio": "ulldecona",
+  "disciplinas": [
+   "aikido",
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05932",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-joventut-ulldecona",
+  "nombre": "Club Joventut Ulldecona",
+  "tipo": "club",
+  "municipio": "ulldecona",
+  "disciplinas": [
+   "capoeira",
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00123",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-amposta",
   "nombre": "Club Judo Amposta",
   "tipo": "club",
@@ -65,6 +269,31 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-aines",
+  "nombre": "Club Taekwondo Aines",
+  "tipo": "club",
+  "municipio": "la-senia",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16395",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-atencia-alcanar",
+  "nombre": "Club Taekwondo Atencia Alcanar",
+  "tipo": "club",
+  "municipio": "alcanar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17666",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "escola-arts-marcials-baihu",
@@ -80,6 +309,31 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "hirudora-alcanar-karate-club",
+  "nombre": "Hirudora Alcanar Karate Club",
+  "tipo": "club",
+  "municipio": "alcanar",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18742",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "kobukan-dojo-club-esportiu",
+  "nombre": "Kobukan Dojo Club Esportiu",
+  "tipo": "club",
+  "municipio": "amposta",
+  "disciplinas": [
+   "aikido",
+   "kendo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08434",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "olympic-kushin-kai-sant-jaume",
   "nombre": "Olympic Kushin-Kai Sant Jaume",
   "tipo": "escuela",
@@ -90,5 +344,17 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "rapita-associacio-esportiva",
+  "nombre": "Rapita Associacio Esportiva",
+  "tipo": "club",
+  "municipio": "la-rapita",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02997",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  }
 ]

@@ -99,6 +99,106 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "asociacion-de-kung-fu-lo-han-chuen",
+  "nombre": "Asociacion de Kung Fu Lo Han Chuen",
+  "tipo": "asociacion",
+  "municipio": "sitges",
+  "disciplinas": [
+   "karate",
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06479",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "asociacion-deportiva-vitalidad-y-salud-sitges",
+  "nombre": "Asociacion Deportiva Vitalidad y Salud Sitges",
+  "tipo": "asociacion",
+  "municipio": "sitges",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18805",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-boxing-club-les-roquetes",
+  "nombre": "Associacio Boxing Club les Roquetes",
+  "tipo": "asociacion",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10023",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-de-defensa-personal-sitges",
+  "nombre": "Associacio Esportiva de Defensa Personal Sitges",
+  "tipo": "asociacion",
+  "municipio": "sitges",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17911",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-kuninagado-shitoryu-karatedo",
+  "nombre": "Associacio Esportiva Kuninagado Shitoryu Karatedo",
+  "tipo": "asociacion",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11754",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-laragai",
+  "nombre": "Associacio Esportiva Laragai",
+  "tipo": "asociacion",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "kickboxing",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17429",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-sant-nicolau-de-canyelles",
+  "nombre": "Associacio Esportiva Sant Nicolau de Canyelles",
+  "tipo": "asociacion",
+  "municipio": "canyelles",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18792",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-shintaikan-dojo-vilanova-i-la-geltru",
+  "nombre": "Associacio Esportiva Shintaikan Dojo Vilanova i la Geltru",
+  "tipo": "asociacion",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14704",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-cultural-darts-marcials-xineses",
   "nombre": "Associació Cultural d'Arts Marcials Xineses",
   "tipo": "asociacion",
@@ -151,6 +251,18 @@
   "fuente": "https://www.olivella.cat/el-municipi/entitats-esportives-/associacio-esportiva-taekwondo-olivella-.html",
   "fuenteTipo": "directorio-municipal",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "boxa-club-vilanova",
+  "nombre": "Boxa Club Vilanova",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19559",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "centros-dym-escuela-de-sitges",
@@ -235,6 +347,119 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-de-boxa-segundo-round",
+  "nombre": "Club de Boxa Segundo Round",
+  "tipo": "club",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17627",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-judo-vilanova-i-la-geltru",
+  "nombre": "Club de Judo Vilanova i la Geltru",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12256",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-taekwondo-nosshaga",
+  "nombre": "Club de Taekwondo Nosshaga",
+  "tipo": "club",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11113",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-catalunya",
+  "nombre": "Club Esportiu Arts Marcials Catalunya",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "karate",
+   "kobudo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17235",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-barcelo-warriors",
+  "nombre": "Club Esportiu Barcelo Warriors",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19541",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-darts-marcials-ichiban",
+  "nombre": "Club Esportiu d'Arts Marcials Ichiban",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17324",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-dpp-sambodefensa-personal",
+  "nombre": "Club Esportiu Dpp Sambodefensa Personal",
+  "tipo": "club",
+  "municipio": "olivella",
+  "disciplinas": [
+   "defensa-personal",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12059",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-franciscans-de-vilanova-i-la-geltru",
+  "nombre": "Club Esportiu Franciscans de Vilanova i la Geltru",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18402",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-gladius-vilanova",
+  "nombre": "Club Esportiu Gladius Vilanova",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15694",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-ko-ten",
   "nombre": "Club Esportiu Ko-Ten",
   "tipo": "club",
@@ -285,6 +510,58 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-juntai-vilalta-sitges",
+  "nombre": "Club Juntai Vilalta Sitges",
+  "tipo": "club",
+  "municipio": "sitges",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03189",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-arazola",
+  "nombre": "Club Karate Arazola",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "defensa-personal",
+   "karate",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16211",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-otai-jujitsu-ryu",
+  "nombre": "Club Otai Jujitsu Ryu",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02120",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-tae-kwon-do-hanse",
+  "nombre": "Club Tae Kwon Do Hanse",
+  "tipo": "club",
+  "municipio": "vilanova-i-la-geltru",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03542",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-taekwondo-cubelles",
   "nombre": "Club Taekwondo Cubelles",
   "tipo": "club",
@@ -295,6 +572,44 @@
   "fuente": "https://www.facebook.com/p/Club-taekwondo-Cubelles-100057026816192/",
   "fuenteTipo": "perfil-publico",
   "verificado": "2026-07-07"
+ },
+ {
+  "slug": "club-taekwondo-haru-castelldefels",
+  "nombre": "Club Taekwondo Haru Castelldefels",
+  "tipo": "club",
+  "municipio": "canyelles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18431",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-i-judo-canyelles",
+  "nombre": "Club Taekwondo i Judo Canyelles",
+  "tipo": "club",
+  "municipio": "canyelles",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "direccion": "Romaguer, s/n (Gimnàs Municipal), Canyelles",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11877",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-ribes",
+  "nombre": "Club Taekwondo Ribes",
+  "tipo": "club",
+  "municipio": "sant-pere-de-ribes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10453",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "dojo-castaneda-1976",

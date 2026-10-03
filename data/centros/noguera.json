@@ -1,5 +1,77 @@
 [
  {
+  "slug": "club-ager-deportiu-montsec",
+  "nombre": "Club Ager Deportiu Montsec",
+  "tipo": "club",
+  "municipio": "ager",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12675",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-taekwondo-vallfogona",
+  "nombre": "Club de Taekwondo Vallfogona",
+  "tipo": "club",
+  "municipio": "vallfogona-de-balaguer",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07970",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-de-aikido-balaguer",
+  "nombre": "Club Esportiu de Aikido Balaguer",
+  "tipo": "club",
+  "municipio": "balaguer",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17822",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-balaguer",
+  "nombre": "Club Judo Balaguer",
+  "tipo": "club",
+  "municipio": "balaguer",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01870",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-style",
+  "nombre": "Club Karate Style",
+  "tipo": "club",
+  "municipio": "balaguer",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09757",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-balaguer",
+  "nombre": "Club Taekwondo Balaguer",
+  "tipo": "club",
+  "municipio": "balaguer",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07473",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "punt-desport-balaguer",
   "nombre": "Punt d'Esport Balaguer",
   "tipo": "escuela",

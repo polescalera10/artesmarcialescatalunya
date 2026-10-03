@@ -1,5 +1,67 @@
 [
  {
+  "slug": "associacio-esportiva-arts-marcials-hagakure-vic",
+  "nombre": "Associacio Esportiva Arts Marcials Hagakure Vic",
+  "tipo": "asociacion",
+  "municipio": "vic",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "karate",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18977",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-de-judo-repartim-makikomis",
+  "nombre": "Associacio Esportiva de Judo Repartim Makikomis",
+  "tipo": "asociacion",
+  "municipio": "tona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20430",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-defensa-personal-osona",
+  "nombre": "Associacio Esportiva Defensa Personal Osona",
+  "tipo": "asociacion",
+  "municipio": "sant-bartomeu-del-grau",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17973",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-lianhua",
+  "nombre": "Associacio Esportiva Lianhua",
+  "tipo": "asociacion",
+  "municipio": "montesquiu",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17924",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-karate-tona",
+  "nombre": "Associacio Karate Tona",
+  "tipo": "asociacion",
+  "municipio": "tona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16622",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-esportiva-karate-tona",
   "nombre": "Associació Esportiva Karate Tona",
   "tipo": "asociacion",
@@ -35,6 +97,18 @@
   "web": "https://www.budokanvic.cat/",
   "fuente": "https://www.budokanvic.cat/",
   "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-apolo-de-fisicoculturisme",
+  "nombre": "Club Apolo de Fisicoculturisme",
+  "tipo": "club",
+  "municipio": "manlleu",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05630",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {
@@ -77,6 +151,30 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-brazilian-jiujitsu-torello",
+  "nombre": "Club Brazilian Jiujitsu Torello",
+  "tipo": "club",
+  "municipio": "torello",
+  "disciplinas": [
+   "jiu-jitsu-brasileno"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20186",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-bushido-torello",
+  "nombre": "Club Bushido Torello",
+  "tipo": "club",
+  "municipio": "torello",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02351",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-de-boxa-balenya",
   "nombre": "Club de boxa",
   "tipo": "club",
@@ -92,6 +190,20 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "club-de-boxa-manlleu",
+  "nombre": "Club de Boxa Manlleu",
+  "tipo": "club",
+  "municipio": "manlleu",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-japones",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17562",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-de-jiu-jitsu-brasiler-vic",
   "nombre": "Club de Jiu jitsu brasiler Vic",
   "tipo": "club",
@@ -104,6 +216,21 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=JJV",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-del-parc-desports-de-taradell",
+  "nombre": "Club del Parc d'Esports de Taradell",
+  "tipo": "club",
+  "municipio": "taradell",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04489",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-as-putxet-karate",
@@ -129,6 +256,101 @@
   "direccion": "Carrer Sant Jordi 92",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=K2VIC",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-lindret",
+  "nombre": "Club Esportiu Lindret",
+  "tipo": "club",
+  "municipio": "vic",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14095",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-miura",
+  "nombre": "Club Esportiu Miura",
+  "tipo": "club",
+  "municipio": "balenya",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20043",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-osona-fighters",
+  "nombre": "Club Esportiu Osona Fighters",
+  "tipo": "club",
+  "municipio": "taradell",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "karate",
+   "kickboxing",
+   "lucha",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18041",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-pratdesaba",
+  "nombre": "Club Gimnas Pratdesaba",
+  "tipo": "club",
+  "municipio": "torello",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03782",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnastic-recreatiu-roda",
+  "nombre": "Club Gimnastic Recreatiu Roda",
+  "tipo": "club",
+  "municipio": "roda-de-ter",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03415",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-pive",
+  "nombre": "Club Judo Pive",
+  "tipo": "club",
+  "municipio": "tona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02999",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-vicesport-vic",
+  "nombre": "Club Judo Vicesport Vic",
+  "tipo": "club",
+  "municipio": "vic",
+  "disciplinas": [
+   "judo",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01757",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {
@@ -160,6 +382,59 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "club-karate-rockykai-catalunya",
+  "nombre": "Club Karate Rockykai Catalunya",
+  "tipo": "club",
+  "municipio": "tona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18714",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-sakura-vic",
+  "nombre": "Club Karate Sakura Vic",
+  "tipo": "club",
+  "municipio": "vic",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "karate",
+   "kendo",
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18349",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-sambo-i-defensa-personal-granollers",
+  "nombre": "Club Sambo i Defensa Personal Granollers",
+  "tipo": "club",
+  "municipio": "gurb",
+  "disciplinas": [
+   "defensa-personal",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16220",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-vic-gim",
+  "nombre": "Club Vic Gim",
+  "tipo": "club",
+  "municipio": "centelles",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05613",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "delegacio-balenya-taekwondo-itf-catalunya",
   "nombre": "Delegació de Balenyà de l’Associació de taekwondo tradicional ITF Catalunya",
   "tipo": "asociacion",
@@ -188,6 +463,18 @@
   "direccion": "Ctra. de la Guixa, 27, 08500 Vic, Barcelona",
   "fuente": "https://www.owkle.es/clubs/estudi-arts-marcials-k2/",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "gym-salas-club-esportiu",
+  "nombre": "Gym Salas Club Esportiu",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llucanes",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12199",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {

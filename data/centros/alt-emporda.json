@@ -1,5 +1,17 @@
 [
  {
+  "slug": "agrupacion-deportiva-la-caseracatalunya",
+  "nombre": "Agrupacion Deportiva la Caseracatalunya",
+  "tipo": "asociacion",
+  "municipio": "figueres",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00566",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "assoc-judo-de-lalt-emporda",
   "nombre": "Assoc. Judo de l'Alt Emporda",
   "tipo": "escuela",
@@ -19,6 +31,33 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-esportiva-karate-la-jonquera",
+  "nombre": "Associacio Esportiva Karate la Jonquera",
+  "tipo": "asociacion",
+  "municipio": "la-jonquera",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19666",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-nihon-kobudo-lescala",
+  "nombre": "Associacio Esportiva Nihon Kobudo l'Escala",
+  "tipo": "asociacion",
+  "municipio": "lescala",
+  "disciplinas": [
+   "aikido",
+   "jiu-jitsu-japones",
+   "karate",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16120",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-hapkido-figueres",
   "nombre": "Associacio Hapkido Figueres",
   "tipo": "asociacion",
@@ -33,6 +72,18 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-aikido-tramuntana",
+  "nombre": "Club Aikido Tramuntana",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19007",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-boxa-warriors-roses",
@@ -60,6 +111,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-boxa-amater-girona",
+  "nombre": "Club Esportiu Boxa Amater Girona",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12077",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-judo-vilafant",
   "nombre": "Club Esportiu Judo Vilafant",
   "tipo": "club",
@@ -71,6 +134,125 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-muay-thai-girona",
+  "nombre": "Club Esportiu Muay Thai Girona",
+  "tipo": "club",
+  "municipio": "castello-dempuries",
+  "disciplinas": [
+   "kickboxing",
+   "kung-fu",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14904",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-mugendo-figueres",
+  "nombre": "Club Esportiu Mugendo Figueres",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10261",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-sorinfuzen",
+  "nombre": "Club Esportiu Sorinfuzen",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "otras": [
+   "Kempo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14993",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-squash-catalunyavilafant",
+  "nombre": "Club Esportiu Squash Catalunyavilafant",
+  "tipo": "club",
+  "municipio": "vilafant",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05618",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-excursionista-portbou",
+  "nombre": "Club Excursionista Portbou",
+  "tipo": "club",
+  "municipio": "portbou",
+  "disciplinas": [
+   "hapkido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19911",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-puig",
+  "nombre": "Club Gimnas Puig",
+  "tipo": "club",
+  "municipio": "roses",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04402",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-savas",
+  "nombre": "Club Gimnas Savas",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01843",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-jiu-jitsu-titans-figueres",
+  "nombre": "Club Jiu Jitsu Titans Figueres",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo",
+   "kickboxing",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19394",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-ikigai-emporda-vilafant",
+  "nombre": "Club Judo Ikigai Emporda",
+  "tipo": "club",
+  "municipio": "vilafant",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20091",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-ikigai-emporda",
@@ -86,6 +268,57 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-natacio-figueres",
+  "nombre": "Club Natacio Figueres",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "karate"
+  ],
+  "direccion": "Zona Esportiva, s/n (Piscina Municipal), Figueres",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00929",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-ring-figueres",
+  "nombre": "Club Ring Figueres",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02452",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-tae-kwondo-roses",
+  "nombre": "Club Tae Kwondo Roses",
+  "tipo": "club",
+  "municipio": "roses",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07686",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-emporda",
+  "nombre": "Club Taekwondo Emporda",
+  "tipo": "club",
+  "municipio": "llanca",
+  "disciplinas": [
+   "defensa-personal",
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07461",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-taekwondo-tramuntana-llanca",
   "nombre": "Club Taekwondo Tramuntana Llança",
   "tipo": "club",
@@ -97,6 +330,30 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-trim",
+  "nombre": "Club Trim",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05710",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "escola-esportiva-alba-hnos",
+  "nombre": "Escola Esportiva Alba Hnos",
+  "tipo": "club",
+  "municipio": "la-jonquera",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01759",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "escuela-kang",
@@ -167,6 +424,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "judo-club-figueres",
+  "nombre": "Judo Club Figueres",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06836",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "judo-club-nakama-vilafant",
   "nombre": "Judo club Nakama Vilafant",
   "tipo": "escuela",
@@ -194,6 +463,18 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "ki-hop",
+  "nombre": "Ki Hop",
+  "tipo": "club",
+  "municipio": "figueres",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07460",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "tae-sport",
   "nombre": "Tae Sport",
   "tipo": "escuela",
@@ -218,5 +499,17 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "vilafant-futbol-club",
+  "nombre": "Vilafant Futbol Club",
+  "tipo": "club",
+  "municipio": "vilafant",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02219",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  }
 ]

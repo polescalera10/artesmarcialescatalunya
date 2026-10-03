@@ -1,0 +1,51 @@
+[
+ {
+  "slug": "club-boxa-panthers",
+  "nombre": "Club Boxa Panthers",
+  "tipo": "club",
+  "municipio": "berga",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20154",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-kore",
+  "nombre": "Club Esportiu Karate Kore",
+  "tipo": "club",
+  "municipio": "berga",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08923",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-eix-de-navas",
+  "nombre": "Club Karate Eix de Navas",
+  "tipo": "club",
+  "municipio": "berga",
+  "disciplinas": [
+   "defensa-personal",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11687",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "gimnas-el-parc",
+  "nombre": "Gimnas el Parc",
+  "tipo": "club",
+  "municipio": "berga",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02092",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ }
+]

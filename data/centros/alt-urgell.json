@@ -12,6 +12,30 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-esportiva-okinawa-dento-kobudo-kyokai",
+  "nombre": "Associacio Esportiva Okinawa Dento Kobudo Kyokai",
+  "tipo": "asociacion",
+  "municipio": "ribera-durgellet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14252",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-tomayaryu-espana",
+  "nombre": "Associacio Esportiva Tomayaryu España",
+  "tipo": "asociacion",
+  "municipio": "ribera-durgellet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14251",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "awen-jiu-jitsu",
   "nombre": "Awen Jiu-Jitsu",
   "tipo": "escuela",
@@ -38,6 +62,55 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-hapkido-kwan-la-seu",
+  "nombre": "Club Hapkido Kwan la Seu",
+  "tipo": "club",
+  "municipio": "la-seu-durgell",
+  "disciplinas": [
+   "defensa-personal",
+   "hapkido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16117",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-manel-jodar",
+  "nombre": "Club Karate Manel Jodar",
+  "tipo": "club",
+  "municipio": "la-seu-durgell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14703",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-shotokan-karate-sedis-csks",
+  "nombre": "Club Shotokan Karate Sedis Csks",
+  "tipo": "club",
+  "municipio": "la-seu-durgell",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10717",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-oliana",
+  "nombre": "Club Taekwondo Oliana",
+  "tipo": "club",
+  "municipio": "oliana",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07396",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "jiu-jitsu-la-seu-flow-or-die",
   "nombre": "Jiu Jitsu la Seu - Flow Or Die",
   "tipo": "escuela",
@@ -50,5 +123,18 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FLOWBJJ",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-club-la-seu",
+  "nombre": "Taekwondo Club la Seu",
+  "tipo": "club",
+  "municipio": "la-seu-durgell",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12676",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  }
 ]

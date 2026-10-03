@@ -1,5 +1,79 @@
 [
  {
+  "slug": "associacio-esportiva-golmes",
+  "nombre": "Associacio Esportiva Golmes",
+  "tipo": "asociacion",
+  "municipio": "golmes",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07035",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-billar-belllloc",
+  "nombre": "Club Billar Belllloc",
+  "tipo": "club",
+  "municipio": "bell-lloc-durgell",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08761",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-chunkwon-azariouh-i",
+  "nombre": "Club Chunkwon Azariouh i",
+  "tipo": "club",
+  "municipio": "mollerussa",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04478",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-mollerussa",
+  "nombre": "Club Esportiu Mollerussa",
+  "tipo": "club",
+  "municipio": "mollerussa",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17084",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-mollerussa-desports-de-contacte",
+  "nombre": "Club Esportiu Mollerussa d'Esports de Contacte",
+  "tipo": "club",
+  "municipio": "castellnou-de-seana",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11060",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-alfarras",
+  "nombre": "Club Taekwondo Alfarras",
+  "tipo": "club",
+  "municipio": "bell-lloc-durgell",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07515",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "gym-bellpuig",
   "nombre": "Gym Bellpuig",
   "tipo": "gimnasio",

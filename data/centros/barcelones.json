@@ -67,6 +67,31 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "agrupacio-esportiva-santa-eulalia",
+  "nombre": "Agrupacio Esportiva Santa Eulalia",
+  "tipo": "asociacion",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05447",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "agrupacion-deportiva-la-rosa",
+  "nombre": "Agrupacion Deportiva la Rosa",
+  "tipo": "asociacion",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00934",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "alpha-gym-mma",
   "nombre": "Alpha Gym Mma",
   "tipo": "gimnasio",
@@ -143,6 +168,55 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "asociacion-deportiva-chatarras-palace",
+  "nombre": "Asociacion Deportiva Chatarras Palace",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16903",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "asociacion-deportiva-de-artes-marciales-badalona",
+  "nombre": "Asociacion Deportiva de Artes Marciales Badalona",
+  "tipo": "asociacion",
+  "municipio": "badalona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10651",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "asociacion-deportiva-de-karate-educativo",
+  "nombre": "Asociacion Deportiva de Karate Educativo",
+  "tipo": "asociacion",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "karate"
+  ],
+  "direccion": "San Joaquim, 116 baixos (Gimnasio), Santa Coloma de Gramenet",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12194",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "asociacion-qigong-y-yoga-para-todos-barcelona",
+  "nombre": "Asociacion Qigong y Yoga Para Todos Barcelona",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19885",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "asociacion-deportiva-team-cuevas-bjj",
   "nombre": "Asociación deportiva TEAM CUEVAS BJJ",
   "tipo": "asociacion",
@@ -156,6 +230,22 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CUE",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-catalana-pachi-tang-lang",
+  "nombre": "Associacio Catalana Pachi Tang Lang",
+  "tipo": "asociacion",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "aikido",
+   "judo",
+   "karate",
+   "kung-fu",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03355",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "associacio-club-esports-fabra",
@@ -177,6 +267,44 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "associacio-de-choylifut",
+  "nombre": "Associacio de Choylifut",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02760",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-de-taekwondo-catalonia-esportiu",
+  "nombre": "Associacio de Taekwondo Catalonia Esportiu",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09860",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-de-taitxi-hong",
+  "nombre": "Associacio de Taitxi Hong",
+  "tipo": "asociacion",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18774",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-esportiva-arrels-congres",
   "nombre": "Associacio Esportiva Arrels congrés",
   "tipo": "asociacion",
@@ -188,6 +316,241 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-art-i-esport-badalona",
+  "nombre": "Associacio Esportiva Art i Esport Badalona",
+  "tipo": "asociacion",
+  "municipio": "badalona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19201",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-bgs-barcelona",
+  "nombre": "Associacio Esportiva Bgs Barcelona",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17295",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-darts-marcial-enan",
+  "nombre": "Associacio Esportiva d'Arts Marcial Enan",
+  "tipo": "asociacion",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "defensa-personal",
+   "hapkido",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kendo",
+   "kickboxing",
+   "kung-fu",
+   "lucha",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "otras": [
+   "Kempo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16458",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-de-jiu-jitsu-i-mma-mediterranea",
+  "nombre": "Associacio Esportiva de Jiu Jitsu i MMA Mediterranea",
+  "tipo": "asociacion",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "mma"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18808",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-de-judo-musashi-barcelona",
+  "nombre": "Associacio Esportiva de Judo Musashi Barcelona",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "kendo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20505",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-kyoshi",
+  "nombre": "Associacio Esportiva Kyoshi",
+  "tipo": "asociacion",
+  "municipio": "badalona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08225",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-leixample",
+  "nombre": "Associacio Esportiva Leixample",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03776",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-madrid",
+  "nombre": "Associacio Esportiva Madrid",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02320",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-mare-de-deu-del-coll",
+  "nombre": "Associacio Esportiva Mare de Deu del Coll",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03285",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-rafael-diaz",
+  "nombre": "Associacio Esportiva Rafael Diaz",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11196",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-sanjeevani",
+  "nombre": "Associacio Esportiva Sanjeevani",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "defensa-personal",
+   "grappling",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kendo",
+   "kickboxing",
+   "kobudo",
+   "kung-fu",
+   "lucha",
+   "mma",
+   "muay-thai",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "otras": [
+   "Boxkarate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20674",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-valle-hebron",
+  "nombre": "Associacio Esportiva Valle Hebron",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03206",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-indepros",
+  "nombre": "Associacio Indepros",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06955",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-karate-espanya-2016",
+  "nombre": "Associacio Karate Espanya 2016",
+  "tipo": "asociacion",
+  "municipio": "badalona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17599",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-kickboxing-barcelona-centre",
+  "nombre": "Associacio Kickboxing Barcelona Centre",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19460",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-kickboxing-muaythai-catalunya",
+  "nombre": "Associacio Kickboxing Muaythai Catalunya",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10318",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "associacio-esportiva-esparta-300",
@@ -316,6 +679,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "barcelona-dragons-club-deportivo-font-del-gos",
+  "nombre": "Barcelona Dragons Club Deportivo Font del Gos",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18050",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "barcelona-jiu-jitsu",
   "nombre": "Barcelona Jiu-Jitsu",
   "tipo": "escuela",
@@ -382,6 +759,28 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BRAVE",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "bruiser-barcelona-club-esportiu",
+  "nombre": "Bruiser Barcelona Club Esportiu",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "defensa-personal",
+   "jiu-jitsu-brasileno",
+   "judo",
+   "karate",
+   "kickboxing",
+   "kung-fu",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "direccion": "c/ Santander, núm. 71 Nau 18, Barcelona",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18662",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "budo-sensei",
@@ -464,6 +863,31 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "cd-natura",
+  "nombre": "Cd Natura",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03878",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "centre-desports-ipsi",
+  "nombre": "Centre d'Esports Ipsi",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03251",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "centre-destudis-montseny",
   "nombre": "Centre d'Estudis Montseny",
   "tipo": "escuela",
@@ -474,6 +898,19 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "centre-gimnastic-barcelones",
+  "nombre": "Centre Gimnastic Barcelones",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "lucha",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00160",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "centre-jing-kung-fu",
@@ -494,6 +931,18 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=18",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "centro-de-deportes-alfa-5-del-barri-de-la-llacuna",
+  "nombre": "Centro de Deportes Alfa 5 del Barri de la Llacuna",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00714",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "cho-san",
@@ -541,6 +990,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-arts-marcials-cornella",
+  "nombre": "Club Arts Marcials Cornella",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02917",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-barcelona",
   "nombre": "Club Boxa Barcelona",
   "tipo": "club",
@@ -564,6 +1026,31 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-el-tren-ramirez",
+  "nombre": "Club Boxa el Tren Ramirez",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18137",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-escola-catalana-de-santa-coloma",
+  "nombre": "Club Boxa Escola Catalana de Santa Coloma",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06806",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-boxa-gran-price",
@@ -592,6 +1079,18 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-boxa-jaume-pons",
+  "nombre": "Club Boxa Jaume Pons",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15793",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-boxa-ko-verdun",
@@ -669,6 +1168,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-bushido-luna",
+  "nombre": "Club Bushido Luna",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08209",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-can-clos",
   "nombre": "Club Can Clos",
   "tipo": "club",
@@ -680,6 +1191,19 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CC",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-centre-esportiu-gimnas-independencia",
+  "nombre": "Club Centre Esportiu Gimnas Independencia",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08931",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-cer",
@@ -695,6 +1219,83 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=17",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-chois-badalona",
+  "nombre": "Club Chois Badalona",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02318",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-danubio",
+  "nombre": "Club Danubio",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03118",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-experimental",
+  "nombre": "Club de Boxa Experimental",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02461",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-les-cordes-del-carmel",
+  "nombre": "Club de Boxa les Cordes del Carmel",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20563",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-pugilistica-estrellas-altas",
+  "nombre": "Club de Boxa Pugilistica Estrellas Altas",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09985",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-team-moya",
+  "nombre": "Club de Boxa Team Moya",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "otras": [
+   "Savate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15252",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-boxa-yoroi",
@@ -718,6 +1319,30 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-de-boxagimnas-navarro",
+  "nombre": "Club de Boxagimnas Navarro",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03136",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxeo-lhospitalet",
+  "nombre": "Club de Boxeo l'Hospitalet",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02401",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-de-judo-barcelona-nord",
   "nombre": "Club de Judo Barcelona Nord",
   "tipo": "club",
@@ -730,6 +1355,19 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-ipon",
+  "nombre": "Club de Judo Ipon",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02261",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-judo-la-salle-horta",
@@ -774,6 +1412,18 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-de-judo-shevardeni",
+  "nombre": "Club de Judo Shevardeni",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20700",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-kendo-ryo-shin-kai",
@@ -835,6 +1485,31 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-de-lluita-sant-roc",
+  "nombre": "Club de Lluita Sant Roc",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08239",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-taekwondo-i-hapkido-han-kuk",
+  "nombre": "Club de Taekwondo i Hapkido Han Kuk",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10560",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-dep-gimnas-kyu",
   "nombre": "Club Dep. Gimnàs Kyu",
   "tipo": "club",
@@ -848,6 +1523,149 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-deportivo-badal",
+  "nombre": "Club Deportivo Badal",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01725",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-epidauro",
+  "nombre": "Club Deportivo Epidauro",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01719",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-espagat",
+  "nombre": "Club Deportivo Espagat",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08823",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-europeo-de-wushu",
+  "nombre": "Club Deportivo Europeo de Wushu",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13862",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-intercultural-catalanodominicano",
+  "nombre": "Club Deportivo Intercultural Catalanodominicano",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10633",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-kick-boxing-cosmos",
+  "nombre": "Club Deportivo Kick Boxing Cosmos",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11057",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-kickboxing-montes",
+  "nombre": "Club Deportivo Kickboxing Montes",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11391",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-requejo",
+  "nombre": "Club Deportivo Requejo",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20516",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-talma-lhospitalet",
+  "nombre": "Club Deportivo Talma l'Hospitalet",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02287",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-theos",
+  "nombre": "Club Deportivo Theos",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "boxeo",
+   "grappling",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kickboxing",
+   "mma"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20613",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-toomuch",
+  "nombre": "Club Deportivo Toomuch",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06059",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-deportivo-versus",
   "nombre": "Club Deportivo Versus",
   "tipo": "club",
@@ -858,6 +1676,106 @@
   "direccion": "Ventalo, 8, 08025 Barcelona",
   "fuente": "https://www.owkle.es/clubs/club-deportivo-versus/",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-zona-franca",
+  "nombre": "Club Deportivo Zona Franca",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10511",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-dojosan-gervasio",
+  "nombre": "Club Dojosan Gervasio",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02370",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-emporium",
+  "nombre": "Club Emporium",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "judo",
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06918",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-epsa",
+  "nombre": "Club Epsa",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02398",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-equipdos",
+  "nombre": "Club Equipdos",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05533",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-adrianenc-daikido",
+  "nombre": "Club Esportiu Adrianenc d'Aikido",
+  "tipo": "club",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15595",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-alegre-57",
+  "nombre": "Club Esportiu Alegre 57",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06805",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-badalona-boxing",
+  "nombre": "Club Esportiu Badalona Boxing",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16964",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {
@@ -875,6 +1793,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-boxa-urquiaga",
+  "nombre": "Club Esportiu Boxa Urquiaga",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19066",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-bruc-fitness",
   "nombre": "Club Esportiu Bruc Fitness",
   "tipo": "club",
@@ -886,6 +1816,71 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-ccoobarcelona-c-e-c-o-b",
+  "nombre": "Club Esportiu Ccoobarcelona C E C O B",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05149",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-cerecusor-de-barcelona",
+  "nombre": "Club Esportiu Cerecusor de Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01133",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-champions-box",
+  "nombre": "Club Esportiu Champions Box",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10000",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-cosmos-de-santa-coloma",
+  "nombre": "Club Esportiu Cosmos de Santa Coloma",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09980",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-darts-marcials-dao-kwon",
+  "nombre": "Club Esportiu d'Arts Marcials Dao Kwon",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "kung-fu",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17748",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-darts-marcials-xavi-nadal",
@@ -900,6 +1895,33 @@
   "direccion": "Carrer de Siracusa, 5, Gràcia, 08012 Barcelona",
   "fuente": "https://www.owkle.es/clubs/club-esportiu-darts-marcials-xavi-nadal/",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-de-boxa-gracia",
+  "nombre": "Club Esportiu de Boxa Gracia",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15872",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-de-la-guardia-urbana-de-barcelona",
+  "nombre": "Club Esportiu de la Guardia Urbana de Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08292",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {
@@ -918,6 +1940,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-dir",
+  "nombre": "Club Esportiu Dir",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04395",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-dojo-kokoro-barcelona",
   "nombre": "Club Esportiu Dojo Kokoro Barcelona",
   "tipo": "club",
@@ -929,6 +1963,20 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-doksuri",
+  "nombre": "Club Esportiu Doksuri",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "hapkido",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15006",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-edgar-esport",
@@ -950,6 +1998,73 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-esportiu-els-amics-de-les-arts-marcials-i-els-esports-de-contacte-black-bull-badalona",
+  "nombre": "Club Esportiu els Amics de les Arts Marcials i els Esports de Contacte Black Bull Badalona",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17042",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-esport-training",
+  "nombre": "Club Esportiu Esport Training",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09123",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-futsal-dante-2019",
+  "nombre": "Club Esportiu Futsal Dante 2019",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kung-fu",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18893",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-gapra-boxing",
+  "nombre": "Club Esportiu Gapra Boxing",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20315",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-global-taekwondo-barcelona",
+  "nombre": "Club Esportiu Global Taekwondo Barcelona",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18585",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-goldenkyu-barcelona",
@@ -975,6 +2090,43 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-gym-sei",
+  "nombre": "Club Esportiu Gym Sei",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08619",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-ichiban",
+  "nombre": "Club Esportiu Ichiban",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16988",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-infant-jesus",
+  "nombre": "Club Esportiu Infant Jesus",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20423",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-instituto-de-wu-shumallorca-219-1er",
   "nombre": "Club Esportiu Instituto de Wu-Shumallorca 219, 1er",
   "tipo": "club",
@@ -994,6 +2146,18 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-esportiu-jeroni-de-moragas",
+  "nombre": "Club Esportiu Jeroni de Moragas",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15487",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-jiu-jitsu-monica-barcelona",
@@ -1018,6 +2182,57 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BJJBFIT%20Badalona",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-joventut-lhospitalet",
+  "nombre": "Club Esportiu Joventut l'Hospitalet",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14053",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-juche-barcelona",
+  "nombre": "Club Esportiu Juche Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "hapkido",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17753",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-gracia",
+  "nombre": "Club Esportiu Karate Gracia",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19317",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-guinardo",
+  "nombre": "Club Esportiu Karate Guinardo",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20341",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-kick-barcelona",
@@ -1059,6 +2274,33 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-koryu",
+  "nombre": "Club Esportiu Koryu",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13697",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-kyshenko-catalunya",
+  "nombre": "Club Esportiu Kyshenko Catalunya",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19482",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-leones",
   "nombre": "Club Esportiu Leones",
   "tipo": "club",
@@ -1080,6 +2322,19 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-maritim-badalona",
+  "nombre": "Club Esportiu Maritim Badalona",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17510",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-mediterrani",
   "nombre": "Club Esportiu Mediterrani",
   "tipo": "club",
@@ -1090,6 +2345,44 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-mpowah",
+  "nombre": "Club Esportiu Mpowah",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20474",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-nihon-kickboxing",
+  "nombre": "Club Esportiu Nihon Kickboxing",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20323",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-podium",
+  "nombre": "Club Esportiu Podium",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03116",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-puro-impacto",
@@ -1112,6 +2405,68 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-quimic-de-sarria",
+  "nombre": "Club Esportiu Quimic de Sarria",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04663",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-sagrat-cor-diputacio",
+  "nombre": "Club Esportiu Sagrat Cor Diputacio",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19238",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-seda-i-bambu",
+  "nombre": "Club Esportiu Seda i Bambu",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14249",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-seimar-dojo",
+  "nombre": "Club Esportiu Seimar Dojo",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "karate",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16906",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-sistrells",
+  "nombre": "Club Esportiu Sistrells",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10569",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-taekwondo-taeyang",
   "nombre": "Club Esportiu Taekwondo Taeyang",
   "tipo": "club",
@@ -1127,6 +2482,83 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-taichi-saludable-jingshen",
+  "nombre": "Club Esportiu Taichi Saludable Jingshen",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15262",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-tots-cracks",
+  "nombre": "Club Esportiu Tots Cracks",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08171",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-universitari-medicina",
+  "nombre": "Club Esportiu Universitari Medicina",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04565",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-urban",
+  "nombre": "Club Esportiu Urban",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13485",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-valmis",
+  "nombre": "Club Esportiu Valmis",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08834",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-world-kobudo",
+  "nombre": "Club Esportiu World Kobudo",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14877",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-zen-tao",
   "nombre": "Club Esportiu Zen Tao",
   "tipo": "club",
@@ -1137,6 +2569,215 @@
   "direccion": "Neptuno, 39, 08006 Barcelona",
   "fuente": "https://www.owkle.es/clubs/club-esportiu-zen-tao/",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-fitness-lloreda",
+  "nombre": "Club Fitness Lloreda",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "judo",
+   "karate",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20157",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-futbol-sala-la-sardana-de-badia-del-valles",
+  "nombre": "Club Futbol Sala la Sardana de Badia del Valles",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09967",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-judo-tao-lhospitalet-de-llobregat",
+  "nombre": "Club Gimnas Judo Tao",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01846",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-judo-yawara-arenal",
+  "nombre": "Club Gimnas Judo Yawara Arenal",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03486",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-judomandri",
+  "nombre": "Club Gimnas Judomandri",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02714",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-lleure",
+  "nombre": "Club Gimnas Lleure",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02463",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-louis-badalona",
+  "nombre": "Club Gimnas Louis",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01767",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-marin",
+  "nombre": "Club Gimnas Marin",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01287",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-nuria",
+  "nombre": "Club Gimnas Nuria",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02467",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-panchame",
+  "nombre": "Club Gimnas Panchame",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "judo",
+   "kendo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02286",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-rodon",
+  "nombre": "Club Gimnas Rodon",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06134",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnasi-hansu",
+  "nombre": "Club Gimnasi Hansu",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03117",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnasio-barlovento",
+  "nombre": "Club Gimnasio Barlovento",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04182",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnasio-chodokwan",
+  "nombre": "Club Gimnasio Chodokwan",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01752",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnasio-ki-young-do-kwan",
+  "nombre": "Club Gimnasio Ki Young Do Kwan",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04377",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnastic-badalona",
+  "nombre": "Club Gimnastic Badalona",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02296",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {
@@ -1180,6 +2821,45 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-gymjar",
+  "nombre": "Club Gymjar",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04514",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-j-tannous",
+  "nombre": "Club J Tannous",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "lucha",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01764",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-jigotai",
+  "nombre": "Club Jigotai",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02108",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-avda-montserrat",
   "nombre": "Club Judo Avda Montserrat",
   "tipo": "club",
@@ -1194,6 +2874,50 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-barenys",
+  "nombre": "Club Judo Barenys",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "capoeira",
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo",
+   "kung-fu",
+   "muay-thai",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02830",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-capri",
+  "nombre": "Club Judo Capri",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02465",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-cisneros",
+  "nombre": "Club Judo Cisneros",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01751",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-cultural-badalona",
@@ -1214,6 +2938,32 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-judo-hospitalet",
+  "nombre": "Club Judo Hospitalet",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16853",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-montemar",
+  "nombre": "Club Judo Montemar",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01765",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-musubi",
   "nombre": "Club Judo Musubi",
   "tipo": "club",
@@ -1229,6 +2979,20 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-judo-nippon-prat",
+  "nombre": "Club Judo Nippon Prat",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01850",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-okami",
   "nombre": "Club Judo Okami",
   "tipo": "club",
@@ -1240,6 +3004,46 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-rossello-500-de-barcelona",
+  "nombre": "Club Judo Rossello 500 de Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08621",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-ventura",
+  "nombre": "Club Judo Ventura",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02471",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-barcelona",
+  "nombre": "Club Karate Barcelona",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "karate",
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12635",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-karate-ciutat-vella",
@@ -1266,6 +3070,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-karate-esport-2000",
+  "nombre": "Club Karate Esport 2000",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09827",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-karate-europa",
   "nombre": "Club Karate Europa",
   "tipo": "club",
@@ -1276,6 +3092,18 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=14",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-hans-bcn",
+  "nombre": "Club Karate Hans BCN",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18355",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-karate-ippon",
@@ -1290,6 +3118,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-karate-ippon-sant-adria",
+  "nombre": "Club Karate Ippon Sant Adria",
+  "tipo": "club",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18739",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-karate-lhospitalet",
   "nombre": "Club Karate l'Hospitalet",
   "tipo": "club",
@@ -1300,6 +3140,30 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-mafalda",
+  "nombre": "Club Karate Mafalda",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08918",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-oyamas-badalona",
+  "nombre": "Club Karate Oyamas Badalona",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14090",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-karate-ridao",
@@ -1357,6 +3221,68 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-kickboxing-prisma",
+  "nombre": "Club Kickboxing Prisma",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11381",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-kungan1",
+  "nombre": "Club Kungan1",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02291",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-kungfu-santa-coloma",
+  "nombre": "Club Kungfu Santa Coloma",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18570",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-kushinryu",
+  "nombre": "Club Kushinryu",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08240",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-la-paz",
+  "nombre": "Club la Paz",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02288",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-lluita-olimpica-la-mina",
   "nombre": "Club Lluita Olímpica la Mina",
   "tipo": "club",
@@ -1372,6 +3298,264 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=LM",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-master-karate",
+  "nombre": "Club Master Karate",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06416",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-mifune",
+  "nombre": "Club Mifune",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "judo",
+   "kendo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01851",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-okinawa",
+  "nombre": "Club Okinawa",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02107",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-rivilla-dochang",
+  "nombre": "Club Rivilla Dochang",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02086",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-sabariz",
+  "nombre": "Club Sabariz",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02611",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-selva-de-mar-de-lucha-libre-americana",
+  "nombre": "Club Selva de Mar de Lucha Libre Americana",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07598",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-sensi",
+  "nombre": "Club Sensi",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02303",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-shuriken",
+  "nombre": "Club Shuriken",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02256",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-stil",
+  "nombre": "Club Stil",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07835",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-subakgoma",
+  "nombre": "Club Subakgoma",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04479",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwon-do-won-badalona",
+  "nombre": "Club Taekwon Do Won Badalona",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09973",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-bueno",
+  "nombre": "Club Taekwondo Bueno",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02285",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-chois",
+  "nombre": "Club Taekwondo Chois",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02352",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-chung-mu",
+  "nombre": "Club Taekwondo Chung Mu",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09843",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-jose-roset",
+  "nombre": "Club Taekwondo Jose Roset",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09625",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-la-sallehorta",
+  "nombre": "Club Taekwondo la Sallehorta",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02613",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-wons-santa-coloma",
+  "nombre": "Club Taekwondo Wons Santa Coloma",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09275",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-tfd-gaudi",
+  "nombre": "Club Tfd Gaudi",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02439",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-urakan",
+  "nombre": "Club Urakan",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05207",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-whushu-olimpo",
+  "nombre": "Club Whushu Olimpo",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08261",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-wons-barcelona",
+  "nombre": "Club Wons Barcelona",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02109",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "deportivo-marin",
@@ -1651,6 +3835,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "fc-martinenc",
+  "nombre": "Fc Martinenc",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00712",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "flex-fighting-academy",
   "nombre": "Flex Fighting Academy",
   "tipo": "escuela",
@@ -1665,6 +3861,19 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FFA",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "frikis-club-esportiu",
+  "nombre": "Frikis Club Esportiu",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15951",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "fudoshin-dojo-garcia",
@@ -1800,6 +4009,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "grupo-cultural-deportivo-taekwondo-bayer",
+  "nombre": "Grupo Cultural Deportivo Taekwondo Bayer",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02292",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "gym-pro-kick-sant-adria",
   "nombre": "Gym Pro Kick Sant Adria",
   "tipo": "gimnasio",
@@ -1825,6 +4046,18 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "hangul-taekwondo-club",
+  "nombre": "Hangul Taekwondo Club",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02710",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "hermanos-argudo",
@@ -1932,6 +4165,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "judo-escuela-badalona",
+  "nombre": "Judo Escuela Badalona",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02350",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "juntai-i",
   "nombre": "Juntai i",
   "tipo": "escuela",
@@ -1971,6 +4216,18 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "karate-club-katsudo",
+  "nombre": "Karate Club Katsudo",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03429",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "kazoku-karate",
@@ -2330,6 +4587,23 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "odyssey-club-esportiu",
+  "nombre": "Odyssey Club Esportiu",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "jiu-jitsu-brasileno",
+   "judo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16816",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "oldskull-jiu-jitsu",
   "nombre": "Oldskull Jiu-Jitsu",
   "tipo": "escuela",
@@ -2557,6 +4831,42 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "sporting-boxing-club",
+  "nombre": "Sporting Boxing Club",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02459",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "starsub",
+  "nombre": "Starsub",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "hapkido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07249",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "starsub-badalona",
+  "nombre": "Starsub Badalona",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "hapkido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08338",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "striking-time",
   "nombre": "Striking Time",
   "tipo": "gimnasio",
@@ -2581,6 +4891,18 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondowon3marin",
+  "nombre": "Taekwondowon3marin",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02400",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "team-victor-nunez",
@@ -2687,6 +5009,30 @@
   "direccion": "Carrer d'en Grassot, 64, Gràcia, 08025 Barcelona",
   "fuente": "https://www.owkle.es/clubs/top-motion/",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "ud-collblancmas",
+  "nombre": "Ud Collblancmas",
+  "tipo": "club",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05649",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "unio-gimnastica-i-esportiva-de-badalona",
+  "nombre": "Unio Gimnastica i Esportiva de Badalona",
+  "tipo": "club",
+  "municipio": "badalona",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00879",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {

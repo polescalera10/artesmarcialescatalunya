@@ -1,5 +1,82 @@
 [
  {
+  "slug": "club-de-karate-shotokan-asco",
+  "nombre": "Club de Karate Shotokan Asco",
+  "tipo": "club",
+  "municipio": "asco",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15666",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-lucha-rasman",
+  "nombre": "Club de Lucha Rasman",
+  "tipo": "club",
+  "municipio": "mora-la-nova",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "grappling",
+   "judo",
+   "karate",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19017",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-ebresport",
+  "nombre": "Club Esportiu Ebresport",
+  "tipo": "club",
+  "municipio": "tivissa",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13194",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-judo-mora",
+  "nombre": "Club Esportiu Judo Mora",
+  "tipo": "club",
+  "municipio": "mora-debre",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09406",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-physikos-gim",
+  "nombre": "Club Esportiu Physikos Gim",
+  "tipo": "club",
+  "municipio": "mora-debre",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09786",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-taekwondo-mora-la-nova",
+  "nombre": "Club Esportiu Taekwondo Mora la Nova",
+  "tipo": "club",
+  "municipio": "mora-la-nova",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19295",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-i-jiu-jitsu-mora",
   "nombre": "Club Judo i Jiu-Jitsu Mora",
   "tipo": "club",
@@ -13,6 +90,18 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-twirling-asco",
+  "nombre": "Club Twirling Asco",
+  "tipo": "club",
+  "municipio": "asco",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06717",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "escola-darts-marcials-dojang-toksu",

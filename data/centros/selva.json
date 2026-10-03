@@ -1,5 +1,55 @@
 [
  {
+  "slug": "associacio-esportiva-de-kendo-girona-vidreres",
+  "nombre": "Associacio Esportiva de Kendo Girona",
+  "tipo": "asociacion",
+  "municipio": "vidreres",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "kendo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14483",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-taekwondo-blanes",
+  "nombre": "Associacio Esportiva Taekwondo Blanes",
+  "tipo": "asociacion",
+  "municipio": "blanes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17540",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-taekwondo-catalunya-blanes",
+  "nombre": "Associacio Esportiva Taekwondo Catalunya Blanes",
+  "tipo": "asociacion",
+  "municipio": "riudarenes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17371",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-karate-quinones",
+  "nombre": "Associacio Karate Quiñones",
+  "tipo": "asociacion",
+  "municipio": "macanet-de-la-selva",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15155",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-aikido-escola-yoshinkan-blanes",
   "nombre": "Associació d'Aikido Escola Yoshinkan de Blanes",
   "tipo": "asociacion",
@@ -100,6 +150,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-aikido-arbucies-aikikai",
+  "nombre": "Club Aikido Arbucies Aikikai",
+  "tipo": "club",
+  "municipio": "arbucies",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17201",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-blanes",
   "nombre": "Club Boxa Blanes",
   "tipo": "club",
@@ -124,6 +186,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-de-boxa-arbucies-coliseo",
+  "nombre": "Club de Boxa Arbucies Coliseo",
+  "tipo": "club",
+  "municipio": "arbucies",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18258",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-de-judo-blanes",
   "nombre": "Club de Judo Blanes",
   "tipo": "club",
@@ -138,6 +213,19 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-vidreres",
+  "nombre": "Club de Judo Vidreres",
+  "tipo": "club",
+  "municipio": "vidreres",
+  "disciplinas": [
+   "judo"
+  ],
+  "direccion": "Lloret, s/n (Pavelló Mpal dEsports), Vidreres",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11109",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "lendinez-gym-blanes",
@@ -165,6 +253,19 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-deportivo-dragon-riders",
+  "nombre": "Club Deportivo Dragon Riders",
+  "tipo": "club",
+  "municipio": "vidreres",
+  "disciplinas": [
+   "defensa-personal",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16933",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-autodefensa-marga-lloret",
   "nombre": "Club Esportiu Autodefensa Marga Lloret",
   "tipo": "club",
@@ -180,6 +281,19 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-forum-fit-blanes",
+  "nombre": "Club Esportiu Forum Fit Blanes",
+  "tipo": "club",
+  "municipio": "blanes",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18616",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-jiu-jitsu-brasiler-blanes",
   "nombre": "Club Esportiu Jiu-Jitsu Brasiler Blanes",
   "tipo": "club",
@@ -190,6 +304,18 @@
   "fuente": "https://www.blanes.cat/entitat/jiu-jitsu-brasiler",
   "fuenteTipo": "directorio-municipal",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-esportiu-judo-lloret",
+  "nombre": "Club Esportiu Judo Lloret",
+  "tipo": "club",
+  "municipio": "lloret-de-mar",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17615",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-k-1-blanes",
@@ -221,6 +347,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-la-selva-hostalric",
+  "nombre": "Club Esportiu la Selva Hostalric",
+  "tipo": "club",
+  "municipio": "fogars-de-la-selva",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01844",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-nova-unio",
   "nombre": "Club Esportiu Nova Unió",
   "tipo": "club",
@@ -238,6 +377,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-selvamar",
+  "nombre": "Club Esportiu Selvamar",
+  "tipo": "club",
+  "municipio": "lloret-de-mar",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13665",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-sils",
   "nombre": "Club Esportiu Sils",
   "tipo": "club",
@@ -249,6 +400,18 @@
   "fuente": "https://fedecatjudo.cat/jiu-jitsu/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-team-alvarez-espiritu-indomable",
+  "nombre": "Club Esportiu Team Alvarez Espiritu Indomable",
+  "tipo": "club",
+  "municipio": "blanes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18335",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-jiujitsu-blanes",
@@ -268,6 +431,31 @@
   "fuente": "https://jiujitsublanes.wordpress.com/localizacion/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-jiujitsu-brasiler-esports-bonmati",
+  "nombre": "Club Jiujitsu Brasiler Esports Bonmati",
+  "tipo": "club",
+  "municipio": "sant-julia-del-llor-i-bonmati",
+  "disciplinas": [
+   "grappling",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20239",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-jiujitsu-hero-tossa",
+  "nombre": "Club Jiujitsu Hero Tossa",
+  "tipo": "club",
+  "municipio": "tossa-de-mar",
+  "disciplinas": [
+   "jiu-jitsu-japones"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19567",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-arbucies",
@@ -298,6 +486,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-judo-samuray",
+  "nombre": "Club Judo Samuray",
+  "tipo": "club",
+  "municipio": "blanes",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09659",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-karate-do-blanes",
   "nombre": "Club Karate-Do Blanes",
   "tipo": "club",
@@ -322,6 +522,44 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-kick-boxing-vidreres",
+  "nombre": "Club Kick Boxing Vidreres",
+  "tipo": "club",
+  "municipio": "vidreres",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15276",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-squash-blanes",
+  "nombre": "Club Squash Blanes",
+  "tipo": "club",
+  "municipio": "blanes",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06032",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-farners",
+  "nombre": "Club Taekwondo Farners",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-farners",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20140",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-taekwondo-juls-blanes",
   "nombre": "Club Taekwondo Juls Blanes",
   "tipo": "club",
@@ -334,6 +572,31 @@
   "fuente": "https://www.blanes.cat/entitat/taekwondo-juls",
   "fuenteTipo": "directorio-municipal",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-taekwondo-tossa",
+  "nombre": "Club Taekwondo Tossa",
+  "tipo": "club",
+  "municipio": "tossa-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07228",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-vidreres",
+  "nombre": "Club Taekwondo Vidreres",
+  "tipo": "club",
+  "municipio": "vidreres",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14849",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-taijitsu-lloret-de-mar",
@@ -427,6 +690,34 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "muay-thai-club-tossa-de-mar",
+  "nombre": "Muay Thai Club Tossa de Mar",
+  "tipo": "club",
+  "municipio": "tossa-de-mar",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "direccion": "Catalunya, s/n (pavelló poliesportiu), Tossa de Mar",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16786",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "muaythai-club-lloret-de-mar",
+  "nombre": "Muaythai Club Lloret de Mar",
+  "tipo": "club",
+  "municipio": "lloret-de-mar",
+  "disciplinas": [
+   "boxeo",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15806",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "musashi-dojo",
   "nombre": "Musashi Dojo",
   "tipo": "escuela",
@@ -460,6 +751,18 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=gir",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "shaka-brazilian-jiu-jitsu-club",
+  "nombre": "Shaka Brazilian Jiu Jitsu Club",
+  "tipo": "club",
+  "municipio": "lloret-de-mar",
+  "disciplinas": [
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20036",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "shimbukan-dojo-blanes",

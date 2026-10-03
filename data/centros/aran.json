@@ -1,5 +1,18 @@
 [
  {
+  "slug": "aran-kick-boxing-club",
+  "nombre": "Aran Kick Boxing Club",
+  "tipo": "club",
+  "municipio": "vielha-e-mijaran",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17663",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-sambo-valles",
   "nombre": "Club Boxa Sambo Vallès",
   "tipo": "club",
@@ -10,5 +23,17 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-yama-no-kokoro",
+  "nombre": "Club Karate Yama No Kokoro",
+  "tipo": "club",
+  "municipio": "vielha-e-mijaran",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16039",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  }
 ]

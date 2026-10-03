@@ -13,6 +13,7 @@ Solo entra un centro si **una fuente pública verificable dice que existe y qué
 | `web-oficial` | Web propia del centro, que se ha abierto y leído | `https://dojocastaneda1976.com/` |
 | `federacion` | Listado de clubs de una federación deportiva o de una organización nacional de la disciplina con ficha por club (OWKLE, aceptada por Pol el 03-10-2026) | fckarate.cat/clubs, fedecatjudo.cat/judo/clubs, taekwondocatala.com, famc.cat, owkle.es/clubs |
 | `directorio-municipal` | Ficha en el directorio de entidades o equipamientos de un ayuntamiento | `vilanova.cat/directori/detall?id=…` |
+| `registro-oficial` | Registre d'Entitats Esportives de la Generalitat (datos abiertos). Solo se importa por script (`scripts/importar-registro.py`). Su dirección suele ser un domicilio particular: solo se guarda si es una instalación deportiva | `analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=…` |
 | `perfil-publico` | Página pública de Facebook o Instagram **del propio centro**, solo si se ha podido leer y dice la disciplina | último recurso |
 
 **No valen como fuente** (sí para descubrir candidatos): Google Maps, Yelp, Cylex, Páginas Amarillas, KO Directo, PortalFit, Maestros del Combate, ProntoPro, Superprof, gimnasios.com, Kickfit, cualquier "top 10". Nunca se copian reseñas, valoraciones, precios ni horarios de ningún sitio.

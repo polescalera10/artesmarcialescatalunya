@@ -5,7 +5,7 @@ import { getMunicipio, getComarca, distanciaKm, type Municipio } from './geo';
 import { getDisciplina } from './disciplinas';
 import promocionadosRaw from '../../data/promocionados.json';
 
-export type FuenteTipo = 'web-oficial' | 'federacion' | 'directorio-municipal' | 'perfil-publico';
+export type FuenteTipo = 'web-oficial' | 'federacion' | 'directorio-municipal' | 'registro-oficial' | 'perfil-publico';
 
 export interface Centro {
   slug: string;

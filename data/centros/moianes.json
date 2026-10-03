@@ -1,5 +1,23 @@
 [
  {
+  "slug": "agrupacio-esportiva-monistrolenca",
+  "nombre": "Agrupacio Esportiva Monistrolenca",
+  "tipo": "asociacion",
+  "municipio": "monistrol-de-calders",
+  "disciplinas": [
+   "boxeo",
+   "judo",
+   "karate",
+   "kickboxing",
+   "lucha",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00508",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-moia",
   "nombre": "Club Judo Moia",
   "tipo": "club",

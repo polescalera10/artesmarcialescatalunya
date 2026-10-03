@@ -1,5 +1,75 @@
 [
  {
+  "slug": "associacio-esportiva-darts-marcials-tradicionals-chiisai",
+  "nombre": "Associacio Esportiva d'Arts Marcials Tradicionals Chiisai",
+  "tipo": "asociacion",
+  "municipio": "santpedor",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18620",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-recreativa-i-cultural-sant-joan-de-vilatorrada",
+  "nombre": "Associacio Esportiva Recreativa i Cultural Sant Joan de Vilatorrada",
+  "tipo": "asociacion",
+  "municipio": "sant-joan-de-vilatorrada",
+  "disciplinas": [
+   "boxeo",
+   "judo",
+   "karate",
+   "kickboxing",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19727",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-guardiolenca",
+  "nombre": "Associacio Guardiolenca",
+  "tipo": "asociacion",
+  "municipio": "sant-salvador-de-guardiola",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07843",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-jiujitsu-catalunya",
+  "nombre": "Associacio Jiujitsu Catalunya",
+  "tipo": "asociacion",
+  "municipio": "santpedor",
+  "disciplinas": [
+   "jiu-jitsu-japones"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13607",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-kickboxing-castellbell-i-el-vilar",
+  "nombre": "Associacio Kickboxing Castellbell i el Vilar",
+  "tipo": "asociacion",
+  "municipio": "castellbell-i-el-vilar",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "mma"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20151",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "bosch-karate-manresa",
   "nombre": "Bosch Karate Manresa",
   "tipo": "escuela",
@@ -56,6 +126,25 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-bosch-karate-igualada",
+  "nombre": "Club Bosch Karate Igualada",
+  "tipo": "club",
+  "municipio": "navarcles",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "karate",
+   "kickboxing",
+   "kobudo",
+   "kung-fu"
+  ],
+  "otras": [
+   "Kempo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11679",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-manresa",
   "nombre": "Club Boxa Manresa",
   "tipo": "club",
@@ -90,6 +179,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-de-boxa-bagesbergueda",
+  "nombre": "Club de Boxa Bagesbergueda",
+  "tipo": "club",
+  "municipio": "artes",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-japones",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12430",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-arts-marcials-bages",
   "nombre": "Club Esportiu Arts Marcials Bages",
   "tipo": "club",
@@ -101,6 +204,58 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-judo-santpedor",
+  "nombre": "Club Esportiu Judo Santpedor",
+  "tipo": "club",
+  "municipio": "santpedor",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10776",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karatedo-mon-jove",
+  "nombre": "Club Esportiu Karatedo Mon Jove",
+  "tipo": "club",
+  "municipio": "sant-joan-de-vilatorrada",
+  "disciplinas": [
+   "defensa-personal",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12687",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnastic-suria",
+  "nombre": "Club Gimnastic Suria",
+  "tipo": "club",
+  "municipio": "suria",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04821",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-castellet",
+  "nombre": "Club Judo Castellet",
+  "tipo": "club",
+  "municipio": "sant-vicenc-de-castellet",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01866",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-eix-navas",
@@ -116,6 +271,32 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-judo-manresa",
+  "nombre": "Club Judo Manresa",
+  "tipo": "club",
+  "municipio": "manresa",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo",
+   "kendo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01762",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-navas",
+  "nombre": "Club Judo Navas",
+  "tipo": "club",
+  "municipio": "santpedor",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20426",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-karate-bages",
   "nombre": "Club Karate Bages",
   "tipo": "club",
@@ -126,6 +307,20 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-bages-avinyo",
+  "nombre": "Club Karate Bages",
+  "tipo": "club",
+  "municipio": "avinyo",
+  "disciplinas": [
+   "defensa-personal",
+   "karate",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18401",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-karate-cantero",
@@ -149,6 +344,44 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "club-karate-cardona",
+  "nombre": "Club Karate Cardona",
+  "tipo": "club",
+  "municipio": "cardona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15065",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-do-sant-vicenc",
+  "nombre": "Club Karate Do Sant Vicenç",
+  "tipo": "club",
+  "municipio": "sant-vicenc-de-castellet",
+  "disciplinas": [
+   "defensa-personal",
+   "karate"
+  ],
+  "direccion": "Poliesportiu, s/n, Sant Vicenç de Castellet",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04443",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-montserrat",
+  "nombre": "Club Karate Montserrat",
+  "tipo": "club",
+  "municipio": "castellbell-i-el-vilar",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19048",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-karate-vilatorrada",
   "nombre": "Club Karate Vilatorrada",
   "tipo": "club",
@@ -160,6 +393,30 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-castellet",
+  "nombre": "Club Taekwondo Castellet",
+  "tipo": "club",
+  "municipio": "sant-vicenc-de-castellet",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11857",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-tot-judo",
+  "nombre": "Club Tot Judo",
+  "tipo": "club",
+  "municipio": "sant-vicenc-de-castellet",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09938",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "esport-7-karate",

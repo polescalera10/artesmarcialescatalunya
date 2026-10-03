@@ -31,6 +31,44 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-de-muay-thai-torreforta",
+  "nombre": "Associacio de Muay Thai Torreforta",
+  "tipo": "asociacion",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17029",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-de-taekwondo-la-salle-tarragona",
+  "nombre": "Associacio de Taekwondo la Salle Tarragona",
+  "tipo": "asociacion",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10473",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-wushu-junzimen-tarragona",
+  "nombre": "Associacio Esportiva Wushu Junzimen Tarragona",
+  "tipo": "asociacion",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17673",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "budo-shin-tarragona",
   "nombre": "Budo Shin Tarragona",
   "tipo": "escuela",
@@ -82,6 +120,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-alpino-hiperborea",
+  "nombre": "Club Alpino Hiperborea",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00822",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-apolo-torredembarra",
   "nombre": "Club Boxa Apolo Torredembarra",
   "tipo": "club",
@@ -128,6 +178,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-chans",
+  "nombre": "Club Chans",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02955",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-de-boxa-ko-room",
   "nombre": "Club de Boxa KO Room",
   "tipo": "club",
@@ -138,6 +200,46 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-boxa-roda-de-bara",
+  "nombre": "Club de Boxa Roda de Bara",
+  "tipo": "club",
+  "municipio": "roda-de-bera",
+  "disciplinas": [
+   "boxeo",
+   "hapkido",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15512",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-judo-i-defensa-personal-tai-el-morell",
+  "nombre": "Club de Judo i Defensa Personal Tai el Morell",
+  "tipo": "club",
+  "municipio": "el-morell",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19549",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-judo-per-a-cecs-i-deficients-visuals-catalunya",
+  "nombre": "Club de Judo per a Cecs i Deficients Visuals Catalunya",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11496",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-judo-salou",
@@ -155,6 +257,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-de-karate-la-canonja",
+  "nombre": "Club de Karate la Canonja",
+  "tipo": "club",
+  "municipio": "la-canonja",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11295",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-dep-only-fighters-salou",
   "nombre": "Club Dep. Only Fighters Salou",
   "tipo": "club",
@@ -166,6 +280,200 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-deportivo-abada-capoeira-tarragona",
+  "nombre": "Club Deportivo Abada Capoeira Tarragona",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "capoeira"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13736",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-mujeres-nadia",
+  "nombre": "Club Deportivo Mujeres Nadia",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16430",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-ulfhednar",
+  "nombre": "Club Deportivo Ulfhednar",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "boxeo",
+   "mma"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20603",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-budoshin-costa-daurada",
+  "nombre": "Club Esportiu Budoshin Costa Daurada",
+  "tipo": "club",
+  "municipio": "salou",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "kendo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14743",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-de-jiujitsu-brasiler-art-suau-salou",
+  "nombre": "Club Esportiu de Jiujitsu Brasiler Art Suau Salou",
+  "tipo": "club",
+  "municipio": "salou",
+  "disciplinas": [
+   "jiu-jitsu-brasileno"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20358",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-eurosport-la-pineda",
+  "nombre": "Club Esportiu Eurosport la Pineda",
+  "tipo": "club",
+  "municipio": "vila-seca",
+  "disciplinas": [
+   "capoeira"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06470",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-gembukai",
+  "nombre": "Club Esportiu Gembukai",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08653",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-gladius-constanti",
+  "nombre": "Club Esportiu Gladius Constanti",
+  "tipo": "club",
+  "municipio": "constanti",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18613",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karatedo-kokram",
+  "nombre": "Club Esportiu Karatedo Kokram",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "defensa-personal",
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12048",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-play-sports",
+  "nombre": "Club Esportiu Play Sports",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-brasileno",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16396",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-tai-txi-salou",
+  "nombre": "Club Esportiu Tai Txi Salou",
+  "tipo": "club",
+  "municipio": "salou",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "kung-fu",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20138",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-the-team-lion-salou",
+  "nombre": "Club Esportiu The Team Lion Salou",
+  "tipo": "club",
+  "municipio": "salou",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18398",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-torredembarra-boxa-muaythai",
+  "nombre": "Club Esportiu Torredembarra Boxa Muaythai",
+  "tipo": "club",
+  "municipio": "torredembarra",
+  "disciplinas": [
+   "boxeo",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18457",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnastico-karate-michel",
+  "nombre": "Club Gimnastico Karate Michel",
+  "tipo": "club",
+  "municipio": "salou",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09029",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gym-mathias",
+  "nombre": "Club Gym Mathias",
+  "tipo": "club",
+  "municipio": "vilallonga-del-camp",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02954",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-dojo-tarraco",
@@ -308,6 +616,31 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-kumgangcha-bonavista",
+  "nombre": "Club Kumgangcha Bonavista",
+  "tipo": "club",
+  "municipio": "tarragona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06448",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-tai-txi-torredembarra",
+  "nombre": "Club Tai Txi Torredembarra",
+  "tipo": "club",
+  "municipio": "torredembarra",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16118",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "dojo-zanshin",

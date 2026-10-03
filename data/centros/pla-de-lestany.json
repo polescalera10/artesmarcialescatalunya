@@ -1,5 +1,30 @@
 [
  {
+  "slug": "associacio-esportiva-darts-marcials-team-potro",
+  "nombre": "Associacio Esportiva d'Arts Marcials Team Potro",
+  "tipo": "asociacion",
+  "municipio": "banyoles",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20437",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-muay-thai-pla-de-lestany",
+  "nombre": "Associacio Esportiva Muay Thai Pla de Lestany",
+  "tipo": "asociacion",
+  "municipio": "banyoles",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19120",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "c-e-triops",
   "nombre": "C.E. Triops",
   "tipo": "club",
@@ -12,6 +37,33 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-darts-marcials-banyoles",
+  "nombre": "Club Esportiu d'Arts Marcials Banyoles",
+  "tipo": "club",
+  "municipio": "banyoles",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones"
+  ],
+  "direccion": "Pavello de la Draga, s/n, Banyoles",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12089",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-estel-roig-banyoles",
+  "nombre": "Club Esportiu Estel Roig Banyoles",
+  "tipo": "club",
+  "municipio": "banyoles",
+  "disciplinas": [
+   "kickboxing",
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18901",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-girones-defensa-personal",
@@ -42,6 +94,18 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-banyoles",
+  "nombre": "Club Taekwondo Banyoles",
+  "tipo": "club",
+  "municipio": "banyoles",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16176",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "nakrob-muay-thai-banyoles",

@@ -127,6 +127,102 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "asociacion-de-brazilian-jiu-jitsu-molins-de-rei-abjjmr",
+  "nombre": "Asociacion de Brazilian Jiu Jitsu Molins de Rei Abjjmr",
+  "tipo": "asociacion",
+  "municipio": "molins-de-rei",
+  "disciplinas": [
+   "jiu-jitsu-brasileno"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17718",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "asociacion-deportiva-amigos-del-kick-boxing",
+  "nombre": "Asociacion Deportiva Amigos del Kick Boxing",
+  "tipo": "asociacion",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11147",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-de-boxa-cubano-catalana",
+  "nombre": "Associacio de Boxa Cubano Catalana",
+  "tipo": "asociacion",
+  "municipio": "sant-vicenc-dels-horts",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16908",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-de-karate-santboiana-shotokan",
+  "nombre": "Associacio de Karate Santboiana Shotokan",
+  "tipo": "asociacion",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14618",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-de-taekwondo-santa-coloma-de-cervello",
+  "nombre": "Associacio de Taekwondo Santa Coloma de Cervello",
+  "tipo": "asociacion",
+  "municipio": "santa-coloma-de-cervello",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19248",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-chois-castelldefels",
+  "nombre": "Associacio Esportiva Chois Castelldefels",
+  "tipo": "asociacion",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08680",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-coliseum-boxing-viladecans",
+  "nombre": "Associacio Esportiva Coliseum Boxing Viladecans",
+  "tipo": "asociacion",
+  "municipio": "viladecans",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18226",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-creixement-i-salut-sant-just-desvern",
+  "nombre": "Associacio Esportiva Creixement i Salut Sant Just Desvern",
+  "tipo": "asociacion",
+  "municipio": "sant-just-desvern",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17755",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-esportiva-darts-marcials-viladecans",
   "nombre": "Associacio Esportiva d'Arts Marcials Viladecans",
   "tipo": "asociacion",
@@ -139,6 +235,161 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "associacio-esportiva-de-defensa-personal-lokhem-molins-de-rei",
+  "nombre": "Associacio Esportiva de Defensa Personal Lokhem Molins de Rei",
+  "tipo": "asociacion",
+  "municipio": "vallirana",
+  "disciplinas": [
+   "defensa-personal",
+   "mma"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18967",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-defensa-personal-begues",
+  "nombre": "Associacio Esportiva Defensa Personal Begues",
+  "tipo": "asociacion",
+  "municipio": "begues",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17428",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-desenvolupament-integral-de-lactivitat-fisica",
+  "nombre": "Associacio Esportiva Desenvolupament Integral de Lactivitat Fisica",
+  "tipo": "asociacion",
+  "municipio": "la-palma-de-cervello",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11224",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-dokai-collbato",
+  "nombre": "Associacio Esportiva Dokai Collbato",
+  "tipo": "asociacion",
+  "municipio": "collbato",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13627",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-fenix-castelldefels",
+  "nombre": "Associacio Esportiva Fenix Castelldefels",
+  "tipo": "asociacion",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "judo",
+   "karate",
+   "kickboxing",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17630",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-hayashi-ha-shito-ryu-kai-catalunya",
+  "nombre": "Associacio Esportiva Hayashi Ha Shito Ryu Kai Catalunya",
+  "tipo": "asociacion",
+  "municipio": "cornella-de-llobregat",
+  "disciplinas": [
+   "karate",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11260",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-karateprat",
+  "nombre": "Associacio Esportiva Karateprat",
+  "tipo": "asociacion",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13636",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-koun-vallirana",
+  "nombre": "Associacio Esportiva Koun Vallirana",
+  "tipo": "asociacion",
+  "municipio": "vallirana",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15289",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-manyanet-molins",
+  "nombre": "Associacio Esportiva Manyanet Molins",
+  "tipo": "asociacion",
+  "municipio": "molins-de-rei",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18549",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-titans",
+  "nombre": "Associacio Esportiva Titans",
+  "tipo": "asociacion",
+  "municipio": "esplugues-de-llobregat",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16342",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-kickboxing-martorell",
+  "nombre": "Associacio Kickboxing Martorell",
+  "tipo": "asociacion",
+  "municipio": "martorell",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17069",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-shaolin-chang-chuan-kung-fu",
+  "nombre": "Associacio Shaolin Chang Chuan Kung Fu",
+  "tipo": "asociacion",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03502",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "associacio-catalana-wta-de-taekwondo-taro-tae",
@@ -299,6 +550,131 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "chois-club-deportivo-cervello",
+  "nombre": "Chois Club Deportivo Cervello",
+  "tipo": "club",
+  "municipio": "cervello",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14838",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "chois-club-deportivo-el-papiol",
+  "nombre": "Chois Club Deportivo el Papiol",
+  "tipo": "club",
+  "municipio": "el-papiol",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14846",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "chois-club-deportivo-molins-de-rei",
+  "nombre": "Chois Club Deportivo Molins de Rei",
+  "tipo": "club",
+  "municipio": "molins-de-rei",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14842",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "chois-club-deportivo-palleja",
+  "nombre": "Chois Club Deportivo Palleja",
+  "tipo": "club",
+  "municipio": "palleja",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14843",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "chois-club-deportivo-sant-boi",
+  "nombre": "Chois Club Deportivo Sant Boi",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14839",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "chois-club-deportivo-sant-joan-despi",
+  "nombre": "Chois Club Deportivo Sant Joan Despi",
+  "tipo": "club",
+  "municipio": "sant-joan-despi",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14845",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "chois-club-deportivo-sant-vicenc-dels-horts",
+  "nombre": "Chois Club Deportivo Sant Vicenç Dels Horts",
+  "tipo": "club",
+  "municipio": "sant-vicenc-dels-horts",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14840",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "chois-club-deportivo-santa-coloma-de-cervello",
+  "nombre": "Chois Club Deportivo Santa Coloma de Cervello",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-cervello",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14844",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-amateur-full-contact-catalunya",
+  "nombre": "Club Amateur Full Contact Catalunya",
+  "tipo": "club",
+  "municipio": "martorell",
+  "disciplinas": [
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10840",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-amtscc",
   "nombre": "Club AMTSCC",
   "tipo": "club",
@@ -331,6 +707,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-boxa-castelldefels",
+  "nombre": "Club Boxa Castelldefels",
+  "tipo": "club",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19020",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-donovans",
   "nombre": "Club Boxa Donovans",
   "tipo": "club",
@@ -354,6 +742,18 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-gava-2025",
+  "nombre": "Club Boxa Gava 2025",
+  "tipo": "club",
+  "municipio": "gava",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20285",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-boxa-gladius-boxing-health",
@@ -395,6 +795,165 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-boxa-riera-cornella",
+  "nombre": "Club Boxa Riera Cornella",
+  "tipo": "club",
+  "municipio": "cornella-de-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18756",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxeo-cornella",
+  "nombre": "Club Boxeo Cornella",
+  "tipo": "club",
+  "municipio": "cornella-de-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12137",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxeo-el-guante-de-oro",
+  "nombre": "Club Boxeo el Guante de Oro",
+  "tipo": "club",
+  "municipio": "viladecans",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12501",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-capacete",
+  "nombre": "Club Capacete",
+  "tipo": "club",
+  "municipio": "cornella-de-llobregat",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03115",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-chois-wang",
+  "nombre": "Club Chois Wang",
+  "tipo": "club",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02610",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-chun-lee-ii",
+  "nombre": "Club Chun Lee Ii",
+  "tipo": "club",
+  "municipio": "olesa-de-montserrat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02079",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-artes-marciales-cardenas",
+  "nombre": "Club de Artes Marciales Cardenas",
+  "tipo": "club",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02918",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-begues",
+  "nombre": "Club de Begues",
+  "tipo": "club",
+  "municipio": "begues",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01305",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-gava",
+  "nombre": "Club de Boxa Gava",
+  "tipo": "club",
+  "municipio": "gava",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02450",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-sant-josep",
+  "nombre": "Club de Boxa Sant Josep",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02454",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxeo-aras-prat",
+  "nombre": "Club de Boxeo Aras Prat",
+  "tipo": "club",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12900",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxeo-castelldefels",
+  "nombre": "Club de Boxeo Castelldefels",
+  "tipo": "club",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17493",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-jiujitsu-sant-boi",
+  "nombre": "Club de Jiujitsu Sant Boi",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "jiu-jitsu-brasileno"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14025",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-de-judo-la-ginesta",
   "nombre": "Club de Judo la Ginesta",
   "tipo": "club",
@@ -407,6 +966,18 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-los-llanos",
+  "nombre": "Club de Judo Los Llanos",
+  "tipo": "club",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07138",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-judo-molins-de-rei",
@@ -422,6 +993,33 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-deportivo-gracie-gava",
+  "nombre": "Club Deportivo Gracie Gava",
+  "tipo": "club",
+  "municipio": "gava",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20409",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-kick-boxing-castelldefels",
+  "nombre": "Club Deportivo Kick Boxing Castelldefels",
+  "tipo": "club",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "boxeo",
+   "jiu-jitsu-japones",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18536",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-deportivo-shingi-kai-cornella",
@@ -450,6 +1048,73 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-arts-marcials-begues",
+  "nombre": "Club Esportiu Arts Marcials Begues",
+  "tipo": "club",
+  "municipio": "begues",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16573",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-el-papiol",
+  "nombre": "Club Esportiu Arts Marcials el Papiol",
+  "tipo": "club",
+  "municipio": "el-papiol",
+  "disciplinas": [
+   "defensa-personal",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18325",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-palleja",
+  "nombre": "Club Esportiu Arts Marcials Palleja",
+  "tipo": "club",
+  "municipio": "palleja",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "hapkido",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kendo",
+   "kickboxing",
+   "kobudo",
+   "kung-fu",
+   "muay-thai",
+   "tai-chi"
+  ],
+  "otras": [
+   "Kempo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19476",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-santa-coloma-de-cervello",
+  "nombre": "Club Esportiu Arts Marcials Santa Coloma de Cervello",
+  "tipo": "club",
+  "municipio": "santa-coloma-de-cervello",
+  "disciplinas": [
+   "hapkido",
+   "karate",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16265",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-athlon-viladecans",
   "nombre": "Club Esportiu Athlon Viladecans",
   "tipo": "club",
@@ -468,6 +1133,97 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-boxing-factory",
+  "nombre": "Club Esportiu Boxing Factory",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kickboxing"
+  ],
+  "direccion": "Fusos, 10, nau 5, Sant Boi de Llobregat",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14083",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-bushido-kanpetit-mon",
+  "nombre": "Club Esportiu Bushido Kanpetit Mon",
+  "tipo": "club",
+  "municipio": "esplugues-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08693",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-cultural-i-recreatiu-gava",
+  "nombre": "Club Esportiu Cultural i Recreatiu Gava",
+  "tipo": "club",
+  "municipio": "gava",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15602",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-elite-sant-boi",
+  "nombre": "Club Esportiu Elite Sant Boi",
+  "tipo": "club",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16940",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-esperit-sense-limit-sant-feliu-de-llobregat",
+  "nombre": "Club Esportiu Esperit Sense Limit Sant Feliu de Llobregat",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "karate",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16551",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-gimnas-cosmaster",
+  "nombre": "Club Esportiu Gimnas Cosmaster",
+  "tipo": "club",
+  "municipio": "vallirana",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08746",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-gimnas-stylo-martorell",
+  "nombre": "Club Esportiu Gimnas Stylo",
+  "tipo": "club",
+  "municipio": "martorell",
+  "disciplinas": [
+   "defensa-personal",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16144",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-gimnas-stylo",
   "nombre": "Club Esportiu Gimnàs Stylo",
   "tipo": "club",
@@ -478,6 +1234,30 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=17",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-hapkido-musul",
+  "nombre": "Club Esportiu Hapkido Musul",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "hapkido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17410",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-hapkido-tae-kunsul",
+  "nombre": "Club Esportiu Hapkido Tae Kunsul",
+  "tipo": "club",
+  "municipio": "cervello",
+  "disciplinas": [
+   "hapkido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19686",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-hyun-su",
@@ -493,6 +1273,107 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-hyun-su-palleja",
+  "nombre": "Club Esportiu Hyun Su Palleja",
+  "tipo": "club",
+  "municipio": "palleja",
+  "disciplinas": [
+   "defensa-personal",
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19879",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-i-darts-marcials-euiam-2012",
+  "nombre": "Club Esportiu i d'Arts Marcials Euiam 2012",
+  "tipo": "club",
+  "municipio": "sant-vicenc-dels-horts",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "defensa-personal",
+   "hapkido",
+   "jiu-jitsu-japones",
+   "judo",
+   "karate",
+   "kendo",
+   "kickboxing",
+   "kung-fu",
+   "muay-thai",
+   "taekwondo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15929",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-joanyinyang-taiji-quan",
+  "nombre": "Club Esportiu Joanyinyang Taiji Quan",
+  "tipo": "club",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14331",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-judo-sant-feliu",
+  "nombre": "Club Esportiu Judo Sant Feliu",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18644",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-jukyu-sant-vicenc-dels-horts",
+  "nombre": "Club Esportiu Jukyu Sant Vicenç Dels Horts",
+  "tipo": "club",
+  "municipio": "sant-vicenc-dels-horts",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19555",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-begues",
+  "nombre": "Club Esportiu Karate Begues",
+  "tipo": "club",
+  "municipio": "begues",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18459",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-catalunya",
+  "nombre": "Club Esportiu Karate Catalunya",
+  "tipo": "club",
+  "municipio": "gava",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17632",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-karate-sprim-do",
   "nombre": "Club Esportiu Karate Sprim-Do",
   "tipo": "club",
@@ -503,6 +1384,31 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-kick-adrima",
+  "nombre": "Club Esportiu Kick Adrima",
+  "tipo": "club",
+  "municipio": "esplugues-de-llobregat",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15757",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-kick-fighters-barcelona",
+  "nombre": "Club Esportiu Kick Fighters Barcelona",
+  "tipo": "club",
+  "municipio": "esplugues-de-llobregat",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14314",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-kickboxing-defensa-baix-llobregat",
@@ -537,6 +1443,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-kungfu-longzhiyuan",
+  "nombre": "Club Esportiu Kungfu Longzhiyuan",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14460",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-kyokukan",
   "nombre": "Club Esportiu Kyokukan",
   "tipo": "club",
@@ -556,6 +1474,67 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-esportiu-mar-i-muntanya-olesa-cemm-olesa",
+  "nombre": "Club Esportiu Mar i Muntanya Olesa Cemm Olesa",
+  "tipo": "club",
+  "municipio": "olesa-de-montserrat",
+  "disciplinas": [
+   "hapkido",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14730",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-molins-de-rei",
+  "nombre": "Club Esportiu Molins de Rei",
+  "tipo": "club",
+  "municipio": "molins-de-rei",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01650",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-mon-fisic-baix-llobregat",
+  "nombre": "Club Esportiu Mon Fisic Baix Llobregat",
+  "tipo": "club",
+  "municipio": "corbera-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18602",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-sakay",
+  "nombre": "Club Esportiu Sakay",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10862",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-selfdefense-huracan-blanco",
+  "nombre": "Club Esportiu Selfdefense Huracan Blanco",
+  "tipo": "club",
+  "municipio": "martorell",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16795",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-taekwondo-gaby",
   "nombre": "Club Esportiu Taekwondo Gaby",
   "tipo": "club",
@@ -567,6 +1546,45 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-yuca-sports",
+  "nombre": "Club Esportiu Yuca Sports",
+  "tipo": "club",
+  "municipio": "sant-andreu-de-la-barca",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09812",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-farres",
+  "nombre": "Club Farres",
+  "tipo": "club",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02290",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-fitness-prat",
+  "nombre": "Club Fitness Prat",
+  "tipo": "club",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "jiu-jitsu-brasileno",
+   "judo",
+   "karate",
+   "mma"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19244",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-gimnas-judo-tao",
@@ -582,6 +1600,30 @@
   "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-gimnasio-song",
+  "nombre": "Club Gimnasio Song",
+  "tipo": "club",
+  "municipio": "cornella-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03119",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-atleo",
+  "nombre": "Club Judo Atleo",
+  "tipo": "club",
+  "municipio": "molins-de-rei",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06051",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-begues",
@@ -612,6 +1654,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-judo-la-miranda",
+  "nombre": "Club Judo la Miranda",
+  "tipo": "club",
+  "municipio": "sant-just-desvern",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08202",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-martorell",
   "nombre": "Club Judo Martorell",
   "tipo": "club",
@@ -639,6 +1693,55 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-judo-san-lorenzo",
+  "nombre": "Club Judo San Lorenzo",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02399",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-sant-esteve-sesrovires",
+  "nombre": "Club Judo Sant Esteve Sesrovires",
+  "tipo": "club",
+  "municipio": "sant-esteve-sesrovires",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18441",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-tanren",
+  "nombre": "Club Judo Tanren",
+  "tipo": "club",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20671",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-juka",
+  "nombre": "Club Juka",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02348",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-karate-castelldefels",
   "nombre": "Club Karate Castelldefels",
   "tipo": "club",
@@ -649,6 +1752,42 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-hajime",
+  "nombre": "Club Karate Hajime",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17602",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-kyokushin-nintai-sant-feliu",
+  "nombre": "Club Karate Kyokushin Nintai Sant Feliu",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16710",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-karate-sakura-viladecans",
+  "nombre": "Club Karate Sakura Viladecans",
+  "tipo": "club",
+  "municipio": "viladecans",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17717",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-kick-boxing-i-muay-thai-olesa-montserrat",
@@ -670,6 +1809,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "club-kimji",
+  "nombre": "Club Kimji",
+  "tipo": "club",
+  "municipio": "viladecans",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02249",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-kiritsu-de-karate",
   "nombre": "Club Kiritsu de Karate",
   "tipo": "club",
@@ -681,6 +1832,120 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=12",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "club-muay-thai-sant-boi",
+  "nombre": "Club Muay Thai Sant Boi",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17936",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-samurai-molinense",
+  "nombre": "Club Samurai Molinense",
+  "tipo": "club",
+  "municipio": "molins-de-rei",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01763",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-subakdo",
+  "nombre": "Club Subakdo",
+  "tipo": "club",
+  "municipio": "viladecans",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02828",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-abrera",
+  "nombre": "Club Taekwondo Abrera",
+  "tipo": "club",
+  "municipio": "abrera",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08672",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-chois-whang-2-la-palma",
+  "nombre": "Club Taekwondo Chois Whang 2 la Palma",
+  "tipo": "club",
+  "municipio": "la-palma-de-cervello",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11310",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-chois-whang-2-sant-feliu",
+  "nombre": "Club Taekwondo Chois Whang 2 Sant Feliu",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11320",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-corbera",
+  "nombre": "Club Taekwondo Corbera",
+  "tipo": "club",
+  "municipio": "corbera-de-llobregat",
+  "disciplinas": [
+   "defensa-personal",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16776",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-igualada",
+  "nombre": "Club Taekwondo Igualada",
+  "tipo": "club",
+  "municipio": "esparreguera",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02713",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-iris-gava",
+  "nombre": "Club Taekwondo Iris Gava",
+  "tipo": "club",
+  "municipio": "gava",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "judo",
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05479",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-taekwondo-lee-kyu-hong",
@@ -696,6 +1961,104 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-taekwondo-martos",
+  "nombre": "Club Taekwondo Martos",
+  "tipo": "club",
+  "municipio": "sant-joan-despi",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02829",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-molero",
+  "nombre": "Club Taekwondo Molero",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13534",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-mont-cau",
+  "nombre": "Club Taekwondo Mont Cau",
+  "tipo": "club",
+  "municipio": "sant-feliu-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09182",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-parra-ii",
+  "nombre": "Club Taekwondo Parra Ii",
+  "tipo": "club",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09265",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-piera",
+  "nombre": "Club Taekwondo Piera",
+  "tipo": "club",
+  "municipio": "esparreguera",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01727",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-sant-boi",
+  "nombre": "Club Taekwondo Sant Boi",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05663",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-sant-just",
+  "nombre": "Club Taekwondo Sant Just",
+  "tipo": "club",
+  "municipio": "sant-just-desvern",
+  "disciplinas": [
+   "hapkido",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02113",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-sesrovires",
+  "nombre": "Club Taekwondo Sesrovires",
+  "tipo": "club",
+  "municipio": "sant-esteve-sesrovires",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19925",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-taekwondo-warriors",
   "nombre": "Club Taekwondo Warriors",
   "tipo": "club",
@@ -707,6 +2070,54 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-yonggam-molins-de-rei",
+  "nombre": "Club Taekwondo Yonggam Molins de Rei",
+  "tipo": "club",
+  "municipio": "molins-de-rei",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19766",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-yonggam-torrelles-de-llobregat",
+  "nombre": "Club Taekwondo Yonggam Torrelles de Llobregat",
+  "tipo": "club",
+  "municipio": "sant-vicenc-dels-horts",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18419",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-yonggi-sant-boi",
+  "nombre": "Club Taekwondo Yonggi Sant Boi",
+  "tipo": "club",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17432",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-yinfels",
+  "nombre": "Club Yinfels",
+  "tipo": "club",
+  "municipio": "castelldefels",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06178",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "combat-wolf-crew",
@@ -1384,6 +2795,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "societat-esportiva-corbera",
+  "nombre": "Societat Esportiva Corbera",
+  "tipo": "club",
+  "municipio": "corbera-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=00120",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "sparta-tizona",
   "nombre": "Sparta&Tizona",
   "tipo": "escuela",
@@ -1458,6 +2881,30 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-torrelles-club",
+  "nombre": "Taekwondo Torrelles Club",
+  "tipo": "club",
+  "municipio": "molins-de-rei",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16142",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "tot-gimnastica-club",
+  "nombre": "Tot Gimnastica Club",
+  "tipo": "club",
+  "municipio": "torrelles-de-llobregat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12340",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "z-gym-diaz",

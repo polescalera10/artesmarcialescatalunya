@@ -1,5 +1,18 @@
 [
  {
+  "slug": "kick-boxing-club-la-senia",
+  "nombre": "Kick Boxing Club la Senia",
+  "tipo": "club",
+  "municipio": "la-molsosa",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15739",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "solsona",
   "nombre": "Solsona",
   "tipo": "escuela",

@@ -60,12 +60,12 @@ const reglas = lang === 'es' ? [
         {lang === 'es' ? (
           <>
             <p>Artes Marciales Catalunya es un directorio independiente de centros de artes marciales en Cataluña. Empezó en 2026 como guía de la comarca del Garraf y se ha ampliado al resto del territorio, comarca a comarca. No somos un gimnasio ni una academia.</p>
-            <p>Hoy reúne {CENTROS.length} centros de {comarcasConCentros().length} comarcas: {porFuente('web-oficial')} verificados en su web oficial, {porFuente('federacion')} en el registro de clubs de su federación y {porFuente('directorio-municipal') + porFuente('perfil-publico')} en directorios municipales o perfiles públicos.</p>
+            <p>Hoy reúne {CENTROS.length} centros de {comarcasConCentros().length} comarcas: {porFuente('web-oficial')} verificados en su web oficial, {porFuente('federacion')} en el registro de clubs de su federación, {porFuente('registro-oficial')} en el Registre d'Entitats Esportives de la Generalitat y {porFuente('directorio-municipal') + porFuente('perfil-publico')} en directorios municipales o perfiles públicos.</p>
           </>
         ) : (
           <>
             <p>Arts Marcials Catalunya és un directori independent de centres d'arts marcials a Catalunya. Va començar el 2026 com a guia de la comarca del Garraf i s'ha ampliat a la resta del territori, comarca a comarca. No som un gimnàs ni una acadèmia.</p>
-            <p>Avui reuneix {CENTROS.length} centres de {comarcasConCentros().length} comarques: {porFuente('web-oficial')} verificats al seu web oficial, {porFuente('federacion')} al registre de clubs de la seva federació i {porFuente('directorio-municipal') + porFuente('perfil-publico')} en directoris municipals o perfils públics.</p>
+            <p>Avui reuneix {CENTROS.length} centres de {comarcasConCentros().length} comarques: {porFuente('web-oficial')} verificats al seu web oficial, {porFuente('federacion')} al registre de clubs de la seva federació, {porFuente('registro-oficial')} al Registre d'Entitats Esportives de la Generalitat i {porFuente('directorio-municipal') + porFuente('perfil-publico')} en directoris municipals o perfils públics.</p>
           </>
         )}
         <h2>{L(lang, 'Las reglas del directorio', 'Les regles del directori')}</h2>

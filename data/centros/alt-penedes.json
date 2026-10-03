@@ -1,5 +1,68 @@
 [
  {
+  "slug": "asociacion-karate-kushikai-espana",
+  "nombre": "Asociacion Karate Kushikai España",
+  "tipo": "asociacion",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "karate",
+   "kobudo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17174",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-mediterrani-vilafranca-del-penedes-aemv",
+  "nombre": "Associacio Esportiva Mediterrani Vilafranca del Penedes Aemv",
+  "tipo": "asociacion",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "defensa-personal",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15911",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-shindo-kai",
+  "nombre": "Associacio Esportiva Shindo Kai",
+  "tipo": "asociacion",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13141",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-taekwondo-vilafranca",
+  "nombre": "Associacio Esportiva Taekwondo Vilafranca",
+  "tipo": "asociacion",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16241",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-karate-niwa-torrelles-de-foix",
+  "nombre": "Associacio Karate Niwa Torrelles de Foix",
+  "tipo": "asociacion",
+  "municipio": "torrelles-de-foix",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18352",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "budokan-penedes",
   "nombre": "Budokan Penedès",
   "tipo": "escuela",
@@ -52,6 +115,112 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-budokan-monjos",
+  "nombre": "Club Budokan Monjos",
+  "tipo": "club",
+  "municipio": "santa-margarida-i-els-monjos",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06421",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-sant-sadurni",
+  "nombre": "Club de Boxa Sant Sadurni",
+  "tipo": "club",
+  "municipio": "sant-sadurni-danoia",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16666",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-taekwondo-sant-sadurni-danoia",
+  "nombre": "Club de Taekwondo Sant Sadurni d'Anoia",
+  "tipo": "club",
+  "municipio": "sant-sadurni-danoia",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15926",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-team-torres-2025",
+  "nombre": "Club Esportiu Arts Marcials Team Torres 2025",
+  "tipo": "club",
+  "municipio": "mediona",
+  "disciplinas": [
+   "defensa-personal",
+   "kickboxing",
+   "kung-fu",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20347",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-de-lluita-vilafranca",
+  "nombre": "Club Esportiu de Lluita Vilafranca",
+  "tipo": "club",
+  "municipio": "vilafranca-del-penedes",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16707",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-jiu-jitsu-sant-sadurni",
+  "nombre": "Club Esportiu Jiu Jitsu Sant Sadurni",
+  "tipo": "club",
+  "municipio": "sant-sadurni-danoia",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17991",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-societat-hortonenca",
+  "nombre": "Club Esportiu Societat Hortonenca",
+  "tipo": "club",
+  "municipio": "sant-llorenc-dhortons",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09748",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-team-vega-sarroca",
+  "nombre": "Club Esportiu Team Vega Sarroca",
+  "tipo": "club",
+  "municipio": "sant-marti-sarroca",
+  "disciplinas": [
+   "hapkido",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15340",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-els-monjos",
   "nombre": "Club Judo Els Monjos",
   "tipo": "club",
@@ -77,6 +246,18 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-sant-sadurni-danoia",
+  "nombre": "Club Judo Sant Sadurni d'Anoia",
+  "tipo": "club",
+  "municipio": "sant-sadurni-danoia",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15040",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-vilafranca-vilanova-vilafranca-del-penedes",

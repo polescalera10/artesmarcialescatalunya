@@ -7,12 +7,17 @@
 // - Disciplina × comarca: si la disciplina está en 2+ municipios de la comarca.
 // - Ficha de centro: siempre (es la página que busca quien conoce el nombre),
 //   pero en noindex si solo tiene nombre, municipio y disciplina.
+// Los clubs que solo constan en el Registre d'Entitats Esportives (registro-oficial)
+// salen en fichas y listados, pero no cuentan para crear páginas de municipio,
+// municipio × disciplina ni disciplina × comarca: el registro no confirma que
+// sigan activos y esas páginas tienen que sostenerse con centros verificados.
 import { CENTROS, centrosDeMunicipio, centrosConDisciplina, comarcasConCentros, type Centro } from './centros';
 import { getMunicipio } from './geo';
 import { DISCIPLINAS } from './disciplinas';
 import { MUNDISC_HEREDADAS, MUNICIPIOS_HEREDADOS, editorialMunicipio, editorialMunDisc } from './editorial';
 
 const MIN_CENTROS_MUNICIPIO = 2;
+const verificado = (c: Centro) => c.fuenteTipo !== 'registro-oficial';
 
 // Las rutas se consultan cientos de veces por build: se calculan una vez.
 const once = <T,>(f: () => T) => { let v: T | undefined; return () => (v ??= f()); };
@@ -22,7 +27,7 @@ export const rutasComarca = () => comarcasConCentros().map(comarca => ({ comarca
 
 export const rutasMunicipio = once((): { comarca: string; municipio: string }[] => {
   const porMunicipio = new Map<string, number>();
-  for (const c of CENTROS) porMunicipio.set(c.municipio, (porMunicipio.get(c.municipio) ?? 0) + 1);
+  for (const c of CENTROS.filter(verificado)) porMunicipio.set(c.municipio, (porMunicipio.get(c.municipio) ?? 0) + 1);
   const conPagina = new Set<string>(
     [...porMunicipio.entries()].filter(([, k]) => k >= MIN_CENTROS_MUNICIPIO).map(([m]) => m),
   );
@@ -36,7 +41,7 @@ export const tienePaginaMunicipio = (m: string) => municipiosConPagina().has(m);
 export const rutasMunDisc = once((): { comarca: string; municipio: string; disciplina: string }[] => {
   const out = new Map<string, { comarca: string; municipio: string; disciplina: string }>();
   for (const { comarca, municipio } of rutasMunicipio()) {
-    const locales = centrosDeMunicipio(municipio);
+    const locales = centrosDeMunicipio(municipio).filter(verificado);
     for (const d of DISCIPLINAS) {
       if (centrosConDisciplina(d.slug, locales).length >= MIN_CENTROS_MUNDISC)
         out.set(`${municipio}/${d.slug}`, { comarca, municipio, disciplina: d.slug });
@@ -52,7 +57,7 @@ export const tienePaginaMunDisc = (m: string, d: string) =>
 export const rutasDiscComarca = once((): { disciplina: string; comarca: string }[] => {
   const out: { disciplina: string; comarca: string }[] = [];
   for (const comarca of comarcasConCentros()) {
-    const deComarca = CENTROS.filter(c => c.comarca === comarca);
+    const deComarca = CENTROS.filter(c => c.comarca === comarca && verificado(c));
     for (const d of DISCIPLINAS) {
       const munis = new Set(centrosConDisciplina(d.slug, deComarca).map(c => c.municipio));
       if (munis.size >= 2) out.push({ disciplina: d.slug, comarca });

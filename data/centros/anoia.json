@@ -13,6 +13,30 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-esportiva-ocisport-igualada",
+  "nombre": "Associacio Esportiva Ocisport Igualada",
+  "tipo": "asociacion",
+  "municipio": "igualada",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15157",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-karatedo-ten",
+  "nombre": "Associacio Karatedo Ten",
+  "tipo": "asociacion",
+  "municipio": "igualada",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07723",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "bosch-karate-igualada",
   "nombre": "Bosch Karate Igualada",
   "tipo": "escuela",
@@ -35,6 +59,115 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=3",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-igualada",
+  "nombre": "Club Boxa Igualada",
+  "tipo": "club",
+  "municipio": "igualada",
+  "disciplinas": [
+   "capoeira",
+   "jiu-jitsu-brasileno",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16989",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-judo-santa-margarita-de-montbuy",
+  "nombre": "Club de Judo Santa Margarita de Montbuy",
+  "tipo": "club",
+  "municipio": "santa-margarida-de-montbui",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09356",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-escola-de-judo-mirallas",
+  "nombre": "Club Escola de Judo Mirallas",
+  "tipo": "club",
+  "municipio": "piera",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02118",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-budokan-igualada",
+  "nombre": "Club Esportiu Budokan Igualada",
+  "tipo": "club",
+  "municipio": "igualada",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08333",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-darts-marcials-hwa-rang-du-lions",
+  "nombre": "Club Esportiu Darts Marcials Hwa Rang Du Lions",
+  "tipo": "club",
+  "municipio": "masquefa",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20351",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-montbui",
+  "nombre": "Club Esportiu Karate Montbui",
+  "tipo": "club",
+  "municipio": "santa-margarida-de-montbui",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08921",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-sunna-sports",
+  "nombre": "Club Esportiu Sunna Sports",
+  "tipo": "club",
+  "municipio": "igualada",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "kung-fu",
+   "muay-thai",
+   "tai-chi"
+  ],
+  "otras": [
+   "Kempo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16248",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-arjona",
+  "nombre": "Club Taekwondo Arjona",
+  "tipo": "club",
+  "municipio": "igualada",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09792",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "ebox-igualada",

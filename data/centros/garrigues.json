@@ -1,0 +1,89 @@
+[
+ {
+  "slug": "club-arbeca",
+  "nombre": "Club Arbeca",
+  "tipo": "club",
+  "municipio": "les-borges-blanques",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06207",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-taekwondo-gimnas-formes",
+  "nombre": "Club de Taekwondo Gimnas Formes",
+  "tipo": "club",
+  "municipio": "juneda",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06208",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-fighters-borges",
+  "nombre": "Club Esportiu Fighters Borges",
+  "tipo": "club",
+  "municipio": "les-borges-blanques",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20191",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-bellaguarda",
+  "nombre": "Club Esportiu Karate Bellaguarda",
+  "tipo": "club",
+  "municipio": "la-pobla-de-cervoles",
+  "disciplinas": [
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09307",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-granadella",
+  "nombre": "Club Esportiu Karate Granadella",
+  "tipo": "club",
+  "municipio": "la-granadella",
+  "disciplinas": [
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09270",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-juncosa",
+  "nombre": "Club Esportiu Karate Juncosa",
+  "tipo": "club",
+  "municipio": "juncosa",
+  "disciplinas": [
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09298",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-borges",
+  "nombre": "Club Gimnas Borges",
+  "tipo": "club",
+  "municipio": "les-borges-blanques",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06209",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ }
+]

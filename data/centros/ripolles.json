@@ -1,5 +1,54 @@
 [
  {
+  "slug": "associacio-esportiva-yuan-dao",
+  "nombre": "Associacio Esportiva Yuan Dao",
+  "tipo": "asociacion",
+  "municipio": "ripoll",
+  "disciplinas": [
+   "aikido",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17787",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxa-elysium-boxing-club",
+  "nombre": "Club de Boxa Elysium Boxing Club",
+  "tipo": "club",
+  "municipio": "campdevanol",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20428",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-villalba",
+  "nombre": "Club Esportiu Villalba",
+  "tipo": "club",
+  "municipio": "ripoll",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10989",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnastic-campdevanol",
+  "nombre": "Club Gimnastic Campdevanol",
+  "tipo": "club",
+  "municipio": "campdevanol",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04833",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-ripoll",
   "nombre": "Club Judo Ripoll",
   "tipo": "club",
@@ -13,6 +62,31 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-ripoll",
+  "nombre": "Club Karate Ripoll",
+  "tipo": "club",
+  "municipio": "ripoll",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18216",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "judo-club-ripoll",
+  "nombre": "Judo Club Ripoll",
+  "tipo": "club",
+  "municipio": "ripoll",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01848",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "lee-young-ripoll",

@@ -42,6 +42,83 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-esportiva-de-kick-boxing-alcoletge",
+  "nombre": "Associacio Esportiva de Kick Boxing Alcoletge",
+  "tipo": "asociacion",
+  "municipio": "alcoletge",
+  "disciplinas": [
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08015",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-de-nanbudo-daitona",
+  "nombre": "Associacio Esportiva de Nanbudo Daitona",
+  "tipo": "asociacion",
+  "municipio": "aitona",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08585",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-esport-femeni-lleida-flor-de-lis",
+  "nombre": "Associacio Esportiva Esport Femeni Lleida Flor de Lis",
+  "tipo": "asociacion",
+  "municipio": "lleida",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "kickboxing",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18749",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-la-cristaleria",
+  "nombre": "Associacio Esportiva la Cristaleria",
+  "tipo": "asociacion",
+  "municipio": "lleida",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18387",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-nanbudo-alcarras",
+  "nombre": "Associacio Esportiva Nanbudo Alcarras",
+  "tipo": "asociacion",
+  "municipio": "alcarras",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14489",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-judo-vilanova-de-la-barca",
+  "nombre": "Associacio Judo Vilanova de la Barca",
+  "tipo": "asociacion",
+  "municipio": "vilanova-de-la-barca",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11132",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "brazilian-jiu-jitsu-lleida",
   "nombre": "Brazilian Jiu-Jitsu Lleida",
   "tipo": "escuela",
@@ -88,6 +165,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-aikido-lleida",
+  "nombre": "Club Aikido Lleida",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10621",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-guantes-de-oro",
   "nombre": "Club Boxa Guantes de Oro",
   "tipo": "club",
@@ -98,6 +187,78 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-perfils-lleida",
+  "nombre": "Club Boxa Perfils Lleida",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13311",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-defensa-personal-vilanova-de-la-barca",
+  "nombre": "Club de Defensa Personal Vilanova de la Barca",
+  "tipo": "club",
+  "municipio": "vilanova-de-la-barca",
+  "disciplinas": [
+   "defensa-personal"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17808",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-taekwondo-capitan-masip",
+  "nombre": "Club de Taekwondo Capitan Masip",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06198",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-taekwondo-gimnas-belllloc",
+  "nombre": "Club de Taekwondo Gimnas Belllloc",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06888",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-taekwondo-torres-de-segre",
+  "nombre": "Club de Taekwondo Torres de Segre",
+  "tipo": "club",
+  "municipio": "torres-de-segre",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=06199",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-2000-almacelles",
+  "nombre": "Club Esportiu 2000 Almacelles",
+  "tipo": "club",
+  "municipio": "almacelles",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10581",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-almenar",
@@ -120,6 +281,68 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "club-esportiu-bertran",
+  "nombre": "Club Esportiu Bertran",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08703",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-dojo-lleida",
+  "nombre": "Club Esportiu Dojo Lleida",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11637",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-dynamis",
+  "nombre": "Club Esportiu Dynamis",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09674",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-harmony",
+  "nombre": "Club Esportiu Harmony",
+  "tipo": "club",
+  "municipio": "alcarras",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08744",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-hikari-lleida",
+  "nombre": "Club Esportiu Hikari Lleida",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "judo",
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19147",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-karate-alguaire",
   "nombre": "Club Esportiu Karate Alguaire",
   "tipo": "club",
@@ -130,6 +353,109 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=2",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-karate-llardecans",
+  "nombre": "Club Esportiu Karate Llardecans",
+  "tipo": "club",
+  "municipio": "llardecans",
+  "disciplinas": [
+   "karate",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09267",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-karate-seros",
+  "nombre": "Club Esportiu Karate Seros",
+  "tipo": "club",
+  "municipio": "seros",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09097",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-kickboxing-i-muaythai-alpicat",
+  "nombre": "Club Esportiu Kickboxing i Muaythai Alpicat",
+  "tipo": "club",
+  "municipio": "alpicat",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13935",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-peyron",
+  "nombre": "Club Esportiu Peyron",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "karate",
+   "kickboxing",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04828",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-taekwondo-alcarras",
+  "nombre": "Club Esportiu Taekwondo Alcarras",
+  "tipo": "club",
+  "municipio": "alcarras",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "SEGON PASSEIG DE RONDA, S/N (PAVELLÓ ESPORTIU), Alcarràs",
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16331",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-torrefarrera",
+  "nombre": "Club Esportiu Torrefarrera",
+  "tipo": "club",
+  "municipio": "torrefarrera",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10422",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-washi",
+  "nombre": "Club Esportiu Washi",
+  "tipo": "club",
+  "municipio": "aitona",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08954",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnastica-ritmica-lleida",
+  "nombre": "Club Gimnastica Ritmica Lleida",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16476",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-almacelles",
@@ -145,6 +471,43 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-kenkyukai",
+  "nombre": "Club Kenkyukai",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04248",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-kung-fu-lleida",
+  "nombre": "Club Kung Fu Lleida",
+  "tipo": "club",
+  "municipio": "rossello",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17769",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-muay-thai-sarroca-de-lleida",
+  "nombre": "Club Muay Thai Sarroca de Lleida",
+  "tipo": "club",
+  "municipio": "sarroca-de-lleida",
+  "disciplinas": [
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18957",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "natacio-lleida",
   "nombre": "Club Natació Lleida",
   "tipo": "club",
@@ -158,6 +521,30 @@
   "web": "https://www.clubnataciolleida.com/",
   "fuente": "https://www.clubnataciolleida.com/ca/",
   "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-songdukg",
+  "nombre": "Club Taekwondo Songdukg",
+  "tipo": "club",
+  "municipio": "alcarras",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02608",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-vires",
+  "nombre": "Club Taekwondo Vires",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07527",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {
@@ -241,6 +628,18 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "gimnasio-bailee",
+  "nombre": "Gimnasio Bailee",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02412",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "bordeta",
   "nombre": "Gimnàs Bordeta",
   "tipo": "gimnasio",
@@ -285,6 +684,42 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "karate-club-massalcoreig",
+  "nombre": "Karate Club Massalcoreig",
+  "tipo": "club",
+  "municipio": "massalcoreig",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05297",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "karate-club-nichikan",
+  "nombre": "Karate Club Nichikan",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09084",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "karate-club-niten",
+  "nombre": "Karate Club Niten",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18588",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "mikazuki-kai",
@@ -357,6 +792,18 @@
   "direccion": "Carrer Montsenyor Vilaplana, 34, 25175 Sarroca de Lleida, Lleida",
   "fuente": "https://www.owkle.es/clubs/muay-thai-sarroca-de-lleida/",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "ueshiva-aikido-club-seros",
+  "nombre": "Ueshiva Aikido Club Seros",
+  "tipo": "club",
+  "municipio": "seros",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14226",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  }
 ]

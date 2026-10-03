@@ -32,6 +32,7 @@ const FUENTE: Record<string, [string, string]> = {
   'web-oficial': ['Web oficial del centro', 'Web oficial del centre'],
   'federacion': ['Registro de clubs de la federación', 'Registre de clubs de la federació'],
   'directorio-municipal': ['Directorio municipal de entidades', "Directori municipal d'entitats"],
+  'registro-oficial': ["Registre d'Entitats Esportives de la Generalitat", "Registre d'Entitats Esportives de la Generalitat"],
   'perfil-publico': ['Perfil público del centro', 'Perfil públic del centre'],
 };
 const TIPO: Record<string, [string, string]> = {
@@ -134,7 +135,9 @@ const schema = [
           <dt class="text-sm text-brand-muted">{L(lang, 'Fuente', 'Font')}</dt>
           <dd class="sm:col-span-2 text-sm text-white">
             <a href={c.fuente} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-brand-red">{fuenteLabel}</a>
-            <span class="text-brand-muted"> · {L(lang, 'verificado el', 'verificat el')} {fecha(lang, c.verificado)}</span>
+            {c.fuenteTipo === 'registro-oficial'
+              ? <span class="text-brand-muted"> · {L(lang, 'consultado el', 'consultat el')} {fecha(lang, c.verificado)}. {L(lang, 'El registro confirma que la entidad está inscrita, no que siga dando clases: compruébalo con el club.', "El registre confirma que l'entitat hi és inscrita, no que continuï fent classes: comprova-ho amb el club.")}</span>
+              : <span class="text-brand-muted"> · {L(lang, 'verificado el', 'verificat el')} {fecha(lang, c.verificado)}</span>}
           </dd>
         </div>
       </dl>

@@ -1,5 +1,17 @@
 [
  {
+  "slug": "club-esportiu-pyrene",
+  "nombre": "Club Esportiu Pyrene",
+  "tipo": "club",
+  "municipio": "bellver-de-cerdanya",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16348",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-karate-llivia-puigcerda",
   "nombre": "Club Karate Llívia-Puigcerdà",
   "tipo": "club",
@@ -10,6 +22,18 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=13",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-karate-puigcerda",
+  "nombre": "Club Karate Puigcerda",
+  "tipo": "club",
+  "municipio": "puigcerda",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16961",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "taekwondo-no-limits-gym-puigcerda",

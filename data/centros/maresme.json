@@ -89,6 +89,129 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-aikido-senkikai-sant-vicenc-de-montalt",
+  "nombre": "Associacio Aikido Senkikai Sant Vicenç de Montalt",
+  "tipo": "asociacion",
+  "municipio": "sant-vicenc-de-montalt",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19756",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-de-taekwondo-canet-de-mar",
+  "nombre": "Associacio de Taekwondo Canet de Mar",
+  "tipo": "asociacion",
+  "municipio": "canet-de-mar",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18713",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-apichat-champ-muay-thai-sports",
+  "nombre": "Associacio Esportiva Apichat Champ Muay Thai Sports",
+  "tipo": "asociacion",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "karate",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19023",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-artiesport-blau",
+  "nombre": "Associacio Esportiva Artiesport Blau",
+  "tipo": "asociacion",
+  "municipio": "dosrius",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17115",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-drac-roig",
+  "nombre": "Associacio Esportiva Drac Roig",
+  "tipo": "asociacion",
+  "municipio": "canet-de-mar",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "defensa-personal",
+   "kung-fu",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19309",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-juniors-masnou",
+  "nombre": "Associacio Esportiva Juniors Masnou",
+  "tipo": "asociacion",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18545",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-marcial-sant-iscle",
+  "nombre": "Associacio Esportiva Marcial Sant Iscle",
+  "tipo": "asociacion",
+  "municipio": "sant-iscle-de-vallalta",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15851",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-muay-thai-chang-duray-poble-nou-pineda-de-mar",
+  "nombre": "Associacio Esportiva Muay Thai Chang Duray Poble Nou Pineda de Mar",
+  "tipo": "asociacion",
+  "municipio": "pineda-de-mar",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20073",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-savate-boxa-francesa-catalunya",
+  "nombre": "Associacio Savate Boxa Francesa Catalunya",
+  "tipo": "asociacion",
+  "municipio": "canet-de-mar",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "otras": [
+   "Savate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15495",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "associacio-esportiva-a-9-esports-el-mas",
   "nombre": "Associació Esportiva A+9 Esports el Mas",
   "tipo": "asociacion",
@@ -181,6 +304,43 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-aikido-txingurrikai",
+  "nombre": "Club Aikido Txingurrikai",
+  "tipo": "club",
+  "municipio": "caldes-destrac",
+  "disciplinas": [
+   "aikido"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20027",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-atletic-masnou",
+  "nombre": "Club Atletic Masnou",
+  "tipo": "club",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18323",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-basquet-escola-pia-mataro",
+  "nombre": "Club Basquet Escola Pia Mataro",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01729",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-almogavers",
   "nombre": "Club Boxa Almogavers",
   "tipo": "club",
@@ -194,6 +354,31 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-boxa-bola-8-malgrat",
+  "nombre": "Club Boxa Bola 8 Malgrat",
+  "tipo": "club",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16168",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-canet",
+  "nombre": "Club Boxa Canet",
+  "tipo": "club",
+  "municipio": "canet-de-mar",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11336",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-boxa-jg-xperience",
   "nombre": "Club Boxa Jg Xperience",
   "tipo": "club",
@@ -204,6 +389,19 @@
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-boxa-malgrat-de-mar",
+  "nombre": "Club Boxa Malgrat de Mar",
+  "tipo": "club",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "boxeo",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14522",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-boxa-mataro",
@@ -231,6 +429,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-california-el-masnou",
+  "nombre": "Club California el Masnou",
+  "tipo": "club",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01758",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-de-judo-amics-teia",
   "nombre": "Club de Judo Amics Teià",
   "tipo": "club",
@@ -242,6 +453,18 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-de-judo-palafolls",
+  "nombre": "Club de Judo Palafolls",
+  "tipo": "club",
+  "municipio": "palafolls",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=07023",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-de-judo-pineda-de-mar",
@@ -259,6 +482,169 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-deportivo-black-thai-team-chacon",
+  "nombre": "Club Deportivo Black Thai Team Chacon",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "boxeo",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16004",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-deportivo-kempo-karate-malgrat",
+  "nombre": "Club Deportivo Kempo Karate Malgrat",
+  "tipo": "club",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "karate",
+   "kobudo",
+   "tai-chi"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19141",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-do-san-kim",
+  "nombre": "Club Do San Kim",
+  "tipo": "club",
+  "municipio": "premia-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03543",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-autodefensa-marga-lloret-calella",
+  "nombre": "Club Esportiu Autodefensa Marga Lloret",
+  "tipo": "club",
+  "municipio": "calella",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19107",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-cobra",
+  "nombre": "Club Esportiu Cobra",
+  "tipo": "club",
+  "municipio": "pineda-de-mar",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16712",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-dynamic-caldes-destrac",
+  "nombre": "Club Esportiu Dynamic Caldes Destrac",
+  "tipo": "club",
+  "municipio": "caldes-destrac",
+  "disciplinas": [
+   "boxeo",
+   "judo",
+   "karate",
+   "kickboxing",
+   "lucha",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18256",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-hamelinlaie",
+  "nombre": "Club Esportiu Hamelinlaie",
+  "tipo": "club",
+  "municipio": "montgat",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19143",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-jiu-jitsu-palafolls",
+  "nombre": "Club Esportiu Jiu Jitsu Palafolls",
+  "tipo": "club",
+  "municipio": "palafolls",
+  "disciplinas": [
+   "jiu-jitsu-japones"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13653",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-kum-ho",
+  "nombre": "Club Esportiu Kum Ho",
+  "tipo": "club",
+  "municipio": "canet-de-mar",
+  "disciplinas": [
+   "boxeo",
+   "taekwondo"
+  ],
+  "otras": [
+   "Savate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15265",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-kyokugendo",
+  "nombre": "Club Esportiu Kyokugendo",
+  "tipo": "club",
+  "municipio": "sant-andreu-de-llavaneres",
+  "disciplinas": [
+   "boxeo",
+   "judo",
+   "karate",
+   "muay-thai",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17890",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-la-genera",
+  "nombre": "Club Esportiu la Genera",
+  "tipo": "club",
+  "municipio": "cabrera-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18629",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-la-salle-premia-2016",
+  "nombre": "Club Esportiu la Salle Premia 2016",
+  "tipo": "club",
+  "municipio": "premia-de-mar",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17792",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-esportiu-lara-thai",
   "nombre": "Club Esportiu Lara Thai",
   "tipo": "club",
@@ -270,6 +656,100 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-esportiu-maresme-alella",
+  "nombre": "Club Esportiu Maresme Alella",
+  "tipo": "club",
+  "municipio": "alella",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08689",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-mataro-jiujitsu",
+  "nombre": "Club Esportiu Mataro Jiujitsu",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-brasileno",
+   "jiu-jitsu-japones",
+   "judo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19583",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-mestral",
+  "nombre": "Club Esportiu Mestral",
+  "tipo": "club",
+  "municipio": "caldes-destrac",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17260",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-mestral-llavaneres",
+  "nombre": "Club Esportiu Mestral Llavaneres",
+  "tipo": "club",
+  "municipio": "sant-andreu-de-llavaneres",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17425",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-mix-martial-arts-sabadell",
+  "nombre": "Club Esportiu Mix Martial Arts Sabadell",
+  "tipo": "club",
+  "municipio": "malgrat-de-mar",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19586",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-rials",
+  "nombre": "Club Esportiu Rials",
+  "tipo": "club",
+  "municipio": "arenys-de-mar",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18650",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-sparta",
+  "nombre": "Club Esportiu Sparta",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "boxeo",
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10695",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-taekwondo-vilassar",
@@ -285,6 +765,80 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-esportiu-valldemiamaristes",
+  "nombre": "Club Esportiu Valldemiamaristes",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01909",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-dargentona",
+  "nombre": "Club Gimnas d'Argentona",
+  "tipo": "club",
+  "municipio": "argentona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=05305",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-el-maresme",
+  "nombre": "Club Gimnas el Maresme",
+  "tipo": "club",
+  "municipio": "premia-de-mar",
+  "disciplinas": [
+   "judo",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02117",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-nihon-mataro",
+  "nombre": "Club Gimnas Nihon Mataro",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09331",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-gimnas-olimpia",
+  "nombre": "Club Gimnas Olimpia",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "kickboxing",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=08320",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-judo-amics-santvi",
+  "nombre": "Club Judo Amics Santvi",
+  "tipo": "club",
+  "municipio": "sant-vicenc-de-montalt",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16320",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-budokai-svm",
   "nombre": "Club Judo Budokai SVM",
   "tipo": "club",
@@ -296,6 +850,18 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-bujinkan-maresme",
+  "nombre": "Club Judo Bujinkan Maresme",
+  "tipo": "club",
+  "municipio": "canet-de-mar",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15771",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-calella",
@@ -326,6 +892,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-judo-daltmar",
+  "nombre": "Club Judo Daltmar",
+  "tipo": "club",
+  "municipio": "premia-de-mar",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=01769",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-malgrat",
   "nombre": "Club Judo Malgrat",
   "tipo": "club",
@@ -338,6 +917,18 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-judo-maresme-2025",
+  "nombre": "Club Judo Maresme 2025",
+  "tipo": "club",
+  "municipio": "vilassar-de-mar",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20592",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-judo-mataro",
@@ -383,6 +974,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-judo-teia",
+  "nombre": "Club Judo Teia",
+  "tipo": "club",
+  "municipio": "teia",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13606",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-judo-tordera",
   "nombre": "Club Judo Tordera",
   "tipo": "club",
@@ -421,6 +1024,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "club-kick-boxing-vilassar",
+  "nombre": "Club Kick Boxing Vilassar",
+  "tipo": "club",
+  "municipio": "vilassar-de-dalt",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16047",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "club-muay-thai-dosrius",
   "nombre": "Club Muay Thai Dosrius",
   "tipo": "club",
@@ -431,6 +1046,18 @@
   "direccion": "Escola Castell de Dosrius, Carrer de l'1 d'Octubre, Dosrius, Barcelona",
   "fuente": "https://www.owkle.es/clubs/club-muay-thai-dosrius/",
   "fuenteTipo": "federacion",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-olimpic-korio",
+  "nombre": "Club Olimpic Korio",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04574",
+  "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
  },
  {
@@ -447,6 +1074,44 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=JMJM",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-sambo-iluro",
+  "nombre": "Club Sambo Iluro",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "jiu-jitsu-japones",
+   "judo",
+   "lucha"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18274",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-arenys-de-mar",
+  "nombre": "Club Taekwondo Arenys de Mar",
+  "tipo": "club",
+  "municipio": "arenys-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=12804",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-taekwondo-calzada",
+  "nombre": "Club Taekwondo Calzada",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02998",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-taekwondo-fitsport-vilassar-de-mar",
@@ -476,6 +1141,18 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "club-taekwondo-satorras",
+  "nombre": "Club Taekwondo Satorras",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02996",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "costa-fit-calella",
@@ -554,6 +1231,31 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "elephant-thai-club-deportivo",
+  "nombre": "Elephant Thai Club Deportivo",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "boxeo",
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15743",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "esport-ciclista-mataro",
+  "nombre": "Esport Ciclista Mataro",
+  "tipo": "club",
+  "municipio": "mataro",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=04522",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "esportiu-taekwondo-mataro",
   "nombre": "Esportiu Taekwondo Mataro",
   "tipo": "escuela",
@@ -578,6 +1280,20 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "gimnas-club-premiamar",
+  "nombre": "Gimnas Club Premiamar",
+  "tipo": "club",
+  "municipio": "premia-de-mar",
+  "disciplinas": [
+   "judo",
+   "karate",
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02470",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "grapplers-paradise",
@@ -705,6 +1421,18 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "lookprakarn-muaythai-club-pineda-de-mar",
+  "nombre": "Lookprakarn Muaythai Club Pineda de Mar",
+  "tipo": "club",
+  "municipio": "pineda-de-mar",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17444",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "maresme-waves-dojo",
   "nombre": "Maresme Waves Dojo",
   "tipo": "escuela",
@@ -776,6 +1504,18 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "taekwondo-club-canet-de-mar-2023",
+  "nombre": "Taekwondo Club Canet de Mar 2023",
+  "tipo": "club",
+  "municipio": "canet-de-mar",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20132",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "taekwondo-viro",
   "nombre": "Taekwondo Viro",
   "tipo": "escuela",
@@ -831,6 +1571,18 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "tomodachi-judo-club-el-masnou",
+  "nombre": "Tomodachi Judo Club",
+  "tipo": "club",
+  "municipio": "el-masnou",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16031",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "top-king-training-center",

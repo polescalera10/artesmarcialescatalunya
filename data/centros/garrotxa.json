@@ -14,6 +14,68 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "associacio-esportiva-art-viu-amb-cavalls",
+  "nombre": "Associacio Esportiva Art Viu Amb Cavalls",
+  "tipo": "asociacion",
+  "municipio": "sant-joan-les-fonts",
+  "disciplinas": [
+   "karate"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17256",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-munenmushin-olot",
+  "nombre": "Associacio Esportiva Munenmushin Olot",
+  "tipo": "asociacion",
+  "municipio": "sant-joan-les-fonts",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal",
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18374",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "associacio-esportiva-shaolin-tao-olot",
+  "nombre": "Associacio Esportiva Shaolin Tao Olot",
+  "tipo": "asociacion",
+  "municipio": "olot",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15764",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-esportiu-kazanryu",
+  "nombre": "Club Esportiu Kazanryu",
+  "tipo": "club",
+  "municipio": "besalu",
+  "disciplinas": [
+   "judo"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=20233",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "olot-boxing-center-club-esportiu",
+  "nombre": "Olot Boxing Center Club Esportiu",
+  "tipo": "club",
+  "municipio": "olot",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14033",
+  "fuenteTipo": "registro-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
   "slug": "taekwon-dolot",
   "nombre": "Taekwon d'Olot",
   "tipo": "escuela",
