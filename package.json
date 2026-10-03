@@ -6,8 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "images": "node scripts/gen-images.mjs",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "tarjetas": "node scripts/gen-tarjetas.mjs",
+    "check": "python3 scripts/validar-centros.py && astro build && python3 scripts/enlaces.py"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.2.0",

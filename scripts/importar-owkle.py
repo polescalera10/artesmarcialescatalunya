@@ -11,13 +11,11 @@
 
 Idempotente. Uso: python3 scripts/importar-owkle.py
 """
-import json, pathlib, re, unicodedata, datetime, difflib
+import json, pathlib, re, sys
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 DATA = RAIZ / 'data'
 OWKLE = json.load(open(DATA / 'fuentes/owkle.json'))
-MUNICIPIOS = json.load(open(DATA / 'geo/municipios.json'))
-HOY = datetime.date.today().isoformat()
 
 MAPA = {
     'KICK BOXING / K1': ['kickboxing'], 'FULL CONTACT': ['kickboxing'], 'MUAY THAI': ['muay-thai'],
@@ -32,68 +30,18 @@ OTRAS = {'SAVATE': 'Savate', 'PANKRATION': 'Pankration', 'KUDO': 'Kudo', 'NIPPON
 MAX_CREIBLE = 12  # OWKLE ofrece 24; quien las marca todas no aporta información
 
 
-def ascii_(s): return unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode()
-def norm(s): return re.sub(r'[^a-z0-9]+', ' ', ascii_(s.replace('’', "'")).lower()).strip()
-def slugify(s): return re.sub(r'[^a-z0-9]+', '-', ascii_(re.sub(r"['’´`]", '', s)).lower()).strip('-')
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from importar_comun import bonito, cargar_directorio, duplicado, guardar, insertar, municipio as municipio_comun, slugify
 
-
-def bonito(nombre):
-    nombre = re.sub(r'\s+', ' ', nombre.replace('’', "'")).strip()
-    if sum(c.isupper() for c in nombre if c.isalpha()) < 0.8 * max(1, sum(c.isalpha() for c in nombre)):
-        return nombre
-    SIGLAS = {'MMA', 'BJJ', 'BCN', 'DYM', 'TMC', 'SRK', 'JK', 'K1', 'K2', 'V20', 'AAMS', 'AAMV', 'CALG', 'DKSR', 'MT', 'XFIT'}
-    MIN = {'de', 'del', 'la', 'el', 'les', 'els', 'i', 'y', 'en'}
-    out = []
-    for i, w in enumerate(nombre.split(' ')):
-        base = re.sub(r'[^\w]', '', w)
-        if base in SIGLAS or re.fullmatch(r'([A-Z]\.)+', w):
-            out.append(w)
-        elif i and w.lower() in MIN:
-            out.append(w.lower())
-        else:
-            w2 = re.sub(r"(^|['\-(])(\w)", lambda m: m.group(1) + m.group(2).upper(), w.lower())
-            out.append(re.sub(r"'S\b", "'s", w2))
-    return ' '.join(out).replace("D'a", "d'A").replace("L'h", "L'H")
-
-
-# Municipio por nombre (con alias de grafías castellanas o abreviadas)
-por_nombre = {norm(m['nombre']): m for m in MUNICIPIOS}
 ALIAS = {'hospitalet de llobregat': "l'hospitalet de llobregat", 'l hospitalet': "l'hospitalet de llobregat",
          'gerona': 'girona', 'lerida': 'lleida', 'sant adria': 'sant adria de besos', 'sant adria del besos': 'sant adria de besos',
          'balafia': 'lleida', 'esparraguera': 'esparreguera', 'llica de munt': "llica d'amunt", 'sant marti de sarroca': 'sant marti sarroca',
          "castell d'aro": "platja d'aro i s'agaro castell d'aro", 'castell d aro': "platja d'aro i s'agaro castell d'aro",
          'san celoni': 'sant celoni', 'sant andres de la barca': 'sant andreu de la barca', 'la canya': "la vall d'en bas"}
-def municipio(localidad):
-    k = norm(localidad)
-    k = norm(ALIAS.get(k, k))
-    if k in por_nombre: return por_nombre[k]
-    for pref in ('el ', 'la ', 'les ', 'l '):
-        if k.startswith(pref) and k[len(pref):] in por_nombre: return por_nombre[k[len(pref):]]
-        if pref + k in por_nombre: return por_nombre[pref + k]
-    return None
+municipio = lambda localidad: municipio_comun(localidad, ALIAS)
 
 
-VACIAS = set('club clubs esportiu esportiva deportivo deportiva associacio asociacion asociacio gimnas gimnasio gym team escola escuela academia academy de del la el i y fight fighters fighting training camp center centre boxing boxa box boxeo muay thai kick kickboxing mma bjj arts artes marcials marciales the fitness sport sports dojo karate taekwondo judo crew bcn barcelona kai ryu top valles eixample gracia'.split())
-def tokens(s, mun=''):
-    fuera = VACIAS | set(norm(mun).split())
-    return {t for t in norm(s).split() if t not in fuera and len(t) > 2}
-def compacto(s, mun=''):
-    # Nombre sin espacios ni símbolos ni el nombre del pueblo: "Nacional Fitness" = "Nacionalfitness", "K1" = "K-1"
-    c = re.sub(r'[^a-z0-9]', '', norm(s))
-    for t in sorted(norm(mun).split(), key=len, reverse=True):
-        if len(t) > 3: c = c.replace(t, '')
-    return c
-def parecido(a, b, mun):
-    x, y = compacto(a, mun), compacto(b, mun)
-    return bool(x and y) and (x == y or (min(len(x), len(y)) >= 5 and (x in y or y in x))
-                               or difflib.SequenceMatcher(None, x, y).ratio() >= 0.85)
-def calle(s):
-    m = re.match(r'\s*([^,]+?),?\s*(\d+)', norm(s) if s else '')
-    return (m.group(1).split()[-1], m.group(2)) if m else None
-
-
-archivos = {p.stem: json.load(open(p)) for p in sorted((DATA / 'centros').glob('*.json'))}
-existentes = [(com, c) for com, l in archivos.items() for c in l]
+archivos, existentes = cargar_directorio()
 slugs = {c['slug'] for _, c in existentes}
 
 nuevos, ya, candidatos, sin_muni = [], [], [], []
@@ -113,13 +61,7 @@ for club in OWKLE['clubs']:
         candidatos.append({'nombre': nombre, 'municipio': m['slug'], 'pista': club['url'],
                            'motivo': 'OWKLE: marca casi todas sus disciplinas' if disc else 'OWKLE: sin disciplina de la taxonomía (solo cardio o estilos sin equivalente)'})
         continue
-    # Mismo club: mismo municipio y, o bien comparten una palabra distintiva del
-    # nombre (sin genéricos ni el nombre del pueblo), o bien misma calle y número
-    # y alguna disciplina en común (en un polideportivo conviven varios clubs).
-    t, cl = tokens(nombre, m['nombre']), calle(club['direccion'])
-    dup = next((c for _, c in existentes if c['municipio'] == m['slug'] and
-                ((t and t & tokens(c['nombre'], m['nombre'])) or parecido(nombre, c['nombre'], m['nombre']) or
-                 (cl and calle(c.get('direccion', '')) == cl and set(disc) & set(c['disciplinas'])))), None)
+    dup = duplicado(nombre, m, disc, club['direccion'], existentes)
     if dup:
         ya.append((nombre, dup['slug'])); continue
     slug = slugify(nombre)
@@ -133,17 +75,11 @@ for club in OWKLE['clubs']:
     if direccion and '<' not in direccion and re.search(r'[A-Za-z]{3}.*\d', direccion) and not re.search(r'@|\d{3}\s?\d{3}\s?\d{3}', direccion):
         ficha['direccion'] = direccion
     ficha.update({'fuente': club['url'], 'fuenteTipo': 'federacion', 'verificado': OWKLE['generado']})
-    # Se inserta en su sitio alfabético sin reordenar el resto del archivo
-    lista = archivos[m['comarca']]
-    pos = next((i for i, x in enumerate(lista) if x['nombre'].lower() > nombre.lower()), len(lista))
-    lista.insert(pos, ficha)
+    insertar(archivos, m['comarca'], ficha)
     existentes.append((m['comarca'], ficha))
     nuevos.append(ficha)
 
-for com, l in archivos.items():
-    texto = json.dumps(l, ensure_ascii=False, indent=1) + '\n'
-    p = DATA / 'centros' / f'{com}.json'
-    if p.read_text() != texto: p.write_text(texto)
+guardar(archivos)
 pc = DATA / 'candidatos/owkle.json'
 previos = json.load(open(pc)) if pc.exists() else []
 nombres = {c['nombre'] for c in previos}

@@ -17,7 +17,7 @@ def norm(s): return re.sub(r'[^a-z0-9]+', ' ', ascii_(s.replace('’', "'")).low
 def slugify(s): return re.sub(r'[^a-z0-9]+', '-', ascii_(re.sub(r"['’´`]", '', s)).lower()).strip('-')
 
 
-SIGLAS = {'MMA', 'BJJ', 'BCN', 'DYM', 'TMC', 'SRK', 'JK', 'K1', 'K2', 'TKD', 'CE', 'AE', 'CN', 'UE', 'ITF', 'WTF', 'AMPA', 'CEM', 'SCD', 'UEC'}
+SIGLAS = {'MMA', 'BJJ', 'BCN', 'DYM', 'TMC', 'SRK', 'JK', 'K1', 'K2', 'TKD', 'AAMS', 'AAMV', 'CALG', 'DKSR', 'MT', 'XFIT', 'V20', 'CE', 'AE', 'CN', 'UE', 'ITF', 'WTF', 'AMPA', 'CEM', 'SCD', 'UEC'}
 MINUSCULAS = {'de', 'del', 'la', 'el', 'les', 'els', 'i', 'y', 'en', 'a', 'per'}
 
 
