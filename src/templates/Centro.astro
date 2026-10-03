@@ -14,6 +14,7 @@ import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { tienePaginaMunicipio, tienePaginaMunDisc, fichaIndexable } from '../lib/rutas';
 import { SITE, SCHEMA_IDS } from '../lib/site';
+import { getDisciplineBySlug, PERFIL_COMPARATIVO } from '../legacy/disciplines';
 
 interface Props { lang: Lang; slug: string }
 const { lang, slug } = Astro.props;
@@ -30,6 +31,15 @@ const parecidos = vecinos.length < 3
   ? cercanos(mun, x => x.slug !== c.slug && x.disciplinas.some(d => c.disciplinas.includes(d)), 6 - vecinos.length, 30)
   : [];
 
+// "Qué esperar" de la primera disciplina con guía: genérico, solo en castellano.
+const dGuia = lang === 'es' ? c.disciplinas.find(d => getDisciplineBySlug(d) && PERFIL_COMPARATIVO[d]) : undefined;
+const guia = dGuia ? getDisciplineBySlug(dGuia) : undefined;
+const perfil = dGuia ? PERFIL_COMPARATIVO[dGuia] : undefined;
+const verif = esVerificado(c);
+const iniciales = c.nombre.replace(/^(club|escola|escuela|associació|asociación|gimnàs|gimnasio|centre|centro|academia|acadèmia)\s+(d'|de\s+|del\s+)?/i, '')
+  .split(/[\s-]+/).filter(w => /^[\p{L}\d]/u.test(w) && !/^(de|del|la|el|i|y|d'.*)$/i.test(w)).slice(0, 2).map(w => w[0].toUpperCase()).join('') || c.nombre[0];
+const mapa = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([c.nombre, c.direccion, mun.nombre].filter(Boolean).join(', '))}`;
+const webCorta = c.web?.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
 const FUENTE: Record<string, [string, string]> = {
   'web-oficial': ['Web oficial del centro', 'Web oficial del centre'],
   'federacion': ['Registro de clubs de la federación', 'Registre de clubs de la federació'],
@@ -44,6 +54,19 @@ const fuenteLabel = L(lang, ...FUENTE[c.fuenteTipo]);
 // El registro se enlaza en su página pública de datos abiertos, no en la API (que devuelve JSON).
 const nRegistro = c.fuenteTipo === 'registro-oficial' ? new URL(c.fuente).searchParams.get('n_m_registre') : null;
 const fuenteHref = nRegistro ? 'https://analisi.transparenciacatalunya.cat/d/qrgc-u7pk' : c.fuente;
+const lead = c.fuenteTipo === 'registro-oficial'
+  ? L(lang,
+      `Consta en el registro oficial de entidades deportivas como ${TIPO_TXT()} en ${mun.nombre}. No hemos podido confirmar que siga dando clases: pregunta antes de ir.`,
+      `Consta al registre oficial d'entitats esportives com a ${TIPO_TXT()} a ${mun.nombre}. No hem pogut confirmar que continuï fent classes: pregunta abans d'anar-hi.`)
+  : L(lang,
+      `${TIPO_TXT(true)} en ${mun.nombre} (${com.nombre}).${c.infantil ? ' Su fuente anuncia clases para niños.' : ''}`,
+      `${TIPO_TXT(true)} a ${mun.nombre} (${com.nombre}).${c.infantil ? ' La seva font anuncia classes per a infants.' : ''}`);
+function TIPO_TXT(mayus = false) {
+  const t = L(lang, ...TIPO[c.tipo]);
+  const txt = `${mayus ? t : t.toLowerCase()} de ${actividad}`;
+  return txt;
+}
+
 
 const title = titulo(
   L(lang, `${c.nombre} · ${mun.nombre} | ${discs.length ? lista(lang, discs.slice(0, 2)) : L(lang, 'Artes marciales', 'Arts marcials')}`, `${c.nombre} · ${mun.nombre}`),
@@ -87,112 +110,128 @@ const schema = [
 
 <Layout ogImage={`${SITE.url}/og/c/${c.comarca}-${lang}.jpg`} title={title} description={description} canonical={url.centro(lang, c.slug)} schema={schema} lang={lang} alternates={alternates} noindex={!fichaIndexable(c)}>
   <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
-  <main id="contenido">
+  <main id="contenido" class="pb-24 lg:pb-0">
     <Migas lang={lang} items={[
       { nombre: com.nombre, href: url.comarca(lang, c.comarca) },
       ...(tienePaginaMunicipio(c.municipio) ? [{ nombre: mun.nombre, href: url.municipio(lang, c.comarca, c.municipio) }] : []),
       { nombre: c.nombre, href: url.centro(lang, c.slug) },
     ]} />
 
-    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
-      <p class="text-xs uppercase tracking-wide text-brand-red font-semibold mb-3">
-        {L(lang, ...TIPO[c.tipo])} · {mun.nombre} · {com.nombre}
-        {promo && <span class="ml-2 text-amber-400 border border-amber-500/40 rounded px-1.5 py-0.5">{L(lang, 'Promocionado', 'Promocionat')}</span>}
-      </p>
-      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{c.nombre}</h1>
-      <p class="text-lg text-brand-muted mt-4 leading-relaxed">
-        {L(lang,
-          `${TIPO[c.tipo][0]} de ${actividad} en ${mun.nombre}.`,
-          `${TIPO[c.tipo][1]} de ${actividad} a ${mun.nombre}.`)}
-        {c.infantil && L(lang, ' Su fuente anuncia clases para niños.', ' La seva font anuncia classes per a infants.')}
-      </p>
-    </section>
-
-    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-      <dl class="bg-brand-gray border border-brand-border rounded-xl divide-y divide-brand-border">
-        <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
-          <dt class="text-sm text-brand-muted">{L(lang, 'Disciplinas', 'Disciplines')}</dt>
-          <dd class="sm:col-span-2 flex flex-wrap gap-1.5">
-            {c.disciplinas.map(d => tienePaginaMunDisc(c.municipio, d)
-              ? <a href={url.munDisc(lang, c.comarca, c.municipio, d)} class="bg-brand-dark border border-brand-border rounded-full px-2.5 py-0.5 text-sm text-white hover:border-brand-red/40">{nombreDisciplina(d, lang)}</a>
-              : <a href={url.disciplina(lang, d)} class="bg-brand-dark border border-brand-border rounded-full px-2.5 py-0.5 text-sm text-white hover:border-brand-red/40">{nombreDisciplina(d, lang)}</a>)}
-          </dd>
-        </div>
-        {c.otras && c.otras.length > 0 && (
-          <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
-            <dt class="text-sm text-brand-muted">{L(lang, 'También anuncia', 'També anuncia')}</dt>
-            <dd class="sm:col-span-2 text-sm text-white">{c.otras.join(' · ')}</dd>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-10 grid lg:grid-cols-[minmax(0,1fr)_360px] gap-6 lg:gap-8 items-start">
+      <div class="space-y-6 min-w-0">
+        <header class="relative overflow-hidden bg-gradient-to-br from-brand-gray via-brand-gray to-brand-dark border border-brand-border rounded-2xl p-6 sm:p-8">
+          <div aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-red/10 blur-3xl"></div>
+          <div class="relative flex items-start gap-4">
+            <div aria-hidden="true" class="shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-brand-red/10 border border-brand-red/30 grid place-items-center text-brand-red text-lg sm:text-xl font-black tracking-tight">{iniciales}</div>
+            <div class="min-w-0">
+              <p class="text-xs uppercase tracking-wide text-brand-muted font-semibold">{L(lang, ...TIPO[c.tipo])} · {mun.nombre} · {com.nombre}</p>
+              <h1 class="text-2xl sm:text-4xl font-black text-white leading-tight mt-1 break-words">{c.nombre}</h1>
+            </div>
           </div>
+
+          <ul class="relative flex flex-wrap gap-2 mt-5 text-xs font-medium">
+            {verif
+              ? <li class="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 px-2.5 py-1"><svg class="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 111.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z" clip-rule="evenodd"/></svg>{L(lang, 'Actividad verificada', 'Activitat verificada')}</li>
+              : <li class="inline-flex items-center gap-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 px-2.5 py-1">{L(lang, 'Sin verificar', 'Sense verificar')}</li>}
+            {c.infantil && <li class="rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-300 px-2.5 py-1">{L(lang, 'Clases para niños', 'Classes per a infants')}</li>}
+            {c.web && <li class="rounded-full bg-white/5 border border-brand-border text-white/80 px-2.5 py-1">{L(lang, 'Web oficial', 'Web oficial')}</li>}
+            {promo && <li class="rounded-full bg-amber-500/10 border border-amber-500/40 text-amber-400 px-2.5 py-1" title={L(lang, 'Este centro paga por aparecer destacado', 'Aquest centre paga per aparèixer destacat')}>{L(lang, 'Promocionado', 'Promocionat')}</li>}
+          </ul>
+
+          <p class="relative text-base sm:text-lg text-brand-muted mt-4 leading-relaxed">{lead}</p>
+
+          <div class="relative flex flex-wrap gap-3 mt-6">
+            {c.web && (
+              <a href={c.web} target="_blank" rel={promo ? 'sponsored noopener' : 'noopener'} class="hidden lg:inline-flex items-center gap-2 bg-brand-red hover:bg-red-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors" data-evento="clic_web_centro" data-centro={c.slug}>
+                {L(lang, 'Visitar su web', 'Visitar el seu web')} <span aria-hidden="true">↗</span>
+              </a>
+            )}
+            <a href="#pedir-info" class:list={['hidden lg:inline-flex items-center gap-2 text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors', c.web ? 'bg-white/5 hover:bg-white/10 border border-brand-border text-white' : 'bg-brand-red hover:bg-red-700 text-white']} data-evento="abrir_pedir_info" data-centro={c.slug}>
+              {L(lang, 'Pedir información', 'Demanar informació')}
+            </a>
+            <a href={mapa} target="_blank" rel="noopener nofollow" class="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-brand-border text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors" data-evento="clic_mapa" data-centro={c.slug}>
+              <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18s6-5.3 6-10A6 6 0 004 8c0 4.7 6 10 6 10zm0-7.5A2.5 2.5 0 1010 5.5a2.5 2.5 0 000 5z" clip-rule="evenodd"/></svg>
+              {L(lang, 'Cómo llegar', 'Com arribar-hi')}
+            </a>
+          </div>
+        </header>
+
+        <section class="grid sm:grid-cols-2 gap-4">
+          <div class="bg-brand-gray border border-brand-border rounded-xl p-5">
+            <h2 class="text-xs uppercase tracking-wide text-brand-muted font-semibold mb-3">{L(lang, 'Qué se entrena', "Què s'hi entrena")}</h2>
+            {c.disciplinas.length > 0
+              ? <ul class="flex flex-wrap gap-2">
+                  {c.disciplinas.map(d => (
+                    <li><a href={tienePaginaMunDisc(c.municipio, d) ? url.munDisc(lang, c.comarca, c.municipio, d) : url.disciplina(lang, d)} class="inline-block bg-brand-dark border border-brand-border rounded-full px-3 py-1 text-sm text-white hover:border-brand-red/50 transition-colors">{nombreDisciplina(d, lang)}</a></li>
+                  ))}
+                </ul>
+              : <p class="text-sm text-white">{L(lang, 'Artes marciales (la fuente no detalla cuáles)', 'Arts marcials (la font no detalla quines)')}</p>}
+            {c.otras && c.otras.length > 0 && <p class="text-sm text-brand-muted mt-3">{L(lang, 'También anuncia', 'També anuncia')}: <span class="text-white/90">{c.otras.join(' · ')}</span></p>}
+          </div>
+          <div class="bg-brand-gray border border-brand-border rounded-xl p-5">
+            <h2 class="text-xs uppercase tracking-wide text-brand-muted font-semibold mb-3">{L(lang, 'Dónde', 'On')}</h2>
+            <p class="text-sm text-white leading-relaxed">{c.direccion ?? L(lang, 'Dirección no publicada en su fuente', 'Adreça no publicada a la seva font')}</p>
+            <p class="text-sm text-brand-muted mt-1">
+              {tienePaginaMunicipio(c.municipio) ? <a href={url.municipio(lang, c.comarca, c.municipio)} class="hover:text-white underline underline-offset-2">{mun.nombre}</a> : mun.nombre}
+              {' · '}<a href={url.comarca(lang, c.comarca)} class="hover:text-white underline underline-offset-2">{com.nombre}</a>
+            </p>
+            <a href={mapa} target="_blank" rel="noopener nofollow" class="inline-block text-sm text-brand-red hover:text-red-400 mt-3" data-evento="clic_mapa" data-centro={c.slug}>{L(lang, 'Ver en el mapa', 'Veure al mapa')} ↗</a>
+          </div>
+        </section>
+
+        {guia && perfil && dGuia && (
+          <section class="bg-brand-gray border border-brand-border rounded-xl p-5 sm:p-6">
+            <h2 class="text-lg font-bold text-white">Si es tu primera clase de {nombreDisciplina(dGuia, 'es').toLowerCase()}</h2>
+            <dl class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+              <div class="bg-brand-dark border border-brand-border rounded-lg p-3"><dt class="text-xs text-brand-muted">Contacto al empezar</dt><dd class="text-sm text-white font-semibold mt-0.5">{perfil.contacto}</dd></div>
+              <div class="bg-brand-dark border border-brand-border rounded-lg p-3"><dt class="text-xs text-brand-muted">Edad habitual de entrada</dt><dd class="text-sm text-white font-semibold mt-0.5">{perfil.edad}</dd></div>
+              <div class="bg-brand-dark border border-brand-border rounded-lg p-3"><dt class="text-xs text-brand-muted">Primera compra</dt><dd class="text-sm text-white font-semibold mt-0.5">{perfil.equipacion}</dd></div>
+            </dl>
+            <ol class="mt-4 space-y-2 text-sm text-brand-muted list-decimal pl-5">{guia.primeraClase.map(p => <li>{p}</li>)}</ol>
+            <p class="text-xs text-brand-muted/80 mt-4">Es lo habitual en la disciplina, no la descripción de este centro. <a href={url.disciplina('es', dGuia)} class="text-brand-red hover:text-red-400">Más sobre {nombreDisciplina(dGuia, 'es').toLowerCase()} en Cataluña →</a></p>
+          </section>
         )}
-        <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
-          <dt class="text-sm text-brand-muted">{L(lang, 'Ubicación', 'Ubicació')}</dt>
-          <dd class="sm:col-span-2 text-sm text-white">{c.direccion ? `${c.direccion}` : `${mun.nombre} (${com.nombre})`}</dd>
-        </div>
-        <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
-          <dt class="text-sm text-brand-muted">Web</dt>
-          <dd class="sm:col-span-2 text-sm">
-            {c.web
-              ? <a href={c.web} target="_blank" rel={promo ? 'sponsored noopener' : 'noopener'} class="text-brand-red hover:text-red-400 break-all" data-evento="clic_web_centro" data-centro={c.slug}>{c.web.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')} ↗</a>
-              : <span class="text-brand-muted">{L(lang, 'No hemos encontrado web propia.', 'No hem trobat web propi.')}</span>}
-          </dd>
-        </div>
-        <div class="grid sm:grid-cols-3 gap-2 px-5 py-4">
-          <dt class="text-sm text-brand-muted">{L(lang, 'Fuente', 'Font')}</dt>
-          <dd class="sm:col-span-2 text-sm text-white">
+
+        <section class="border border-brand-border rounded-xl p-5 text-sm">
+          <h2 class="text-xs uppercase tracking-wide text-brand-muted font-semibold mb-2">{L(lang, 'De dónde salen estos datos', "D'on surten aquestes dades")}</h2>
+          <p class="text-white/90">
             <a href={fuenteHref} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-brand-red" data-evento="clic_fuente">{fuenteLabel}</a>{nRegistro && <span class="text-brand-muted"> ({L(lang, 'n.º de inscripción', "núm. d'inscripció")} {nRegistro})</span>}
-            {c.fuenteTipo === 'registro-oficial'
-              ? <span class="text-brand-muted"> · {L(lang, 'consultado el', 'consultat el')} {fecha(lang, c.verificado)}. {L(lang, 'El registro confirma que la entidad está inscrita, no que siga dando clases: compruébalo con el club.', "El registre confirma que l'entitat hi és inscrita, no que continuï fent classes: comprova-ho amb el club.")}</span>
-              : <span class="text-brand-muted"> · {L(lang, 'verificado el', 'verificat el')} {fecha(lang, c.verificado)}</span>}
-          </dd>
-        </div>
-      </dl>
-      <p class="text-xs text-brand-muted mt-3">
-        {L(lang,
-          'No publicamos horarios, precios ni valoraciones: cambian y no podemos garantizarlos. Consulta siempre la web o la fuente del centro.',
-          'No publiquem horaris, preus ni valoracions: canvien i no els podem garantir. Consulta sempre el web o la font del centre.')}
-      </p>
-    </section>
-
-    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-      <details class="group bg-brand-gray border border-brand-border rounded-xl" data-evento-abrir="abrir_pedir_info">
-        <summary class="list-none cursor-pointer px-5 py-4 flex items-center justify-between gap-4">
-          <span>
-            <span class="block font-semibold text-white">{L(lang, `Pedir información a ${c.nombre}`, `Demanar informació a ${c.nombre}`)}</span>
-            <span class="block text-sm text-brand-muted mt-1">{c.web
-              ? L(lang, 'Puedes escribir directamente desde su web o dejarnos tu consulta y se la hacemos llegar.', 'Pots escriure directament des del seu web o deixar-nos la consulta i la hi fem arribar.')
-              : L(lang, 'No tiene web conocida: déjanos tu consulta y se la hacemos llegar.', 'No té web coneguda: deixa’ns la consulta i la hi fem arribar.')}</span>
-          </span>
-          <span class="shrink-0 bg-brand-red text-white text-sm font-semibold px-4 py-2 rounded-lg group-open:hidden">{L(lang, 'Escribir', 'Escriure')}</span>
-        </summary>
-        <div class="px-5 pb-5">
-          <Formulario lang={lang} modo="info" centro={{ nombre: c.nombre, municipio: mun.nombre }} />
-        </div>
-      </details>
-    </section>
-
-    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <div class="border border-brand-border rounded-xl p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        <div>
-          <p class="font-semibold text-white">{L(lang, '¿Es tu centro?', 'És el teu centre?')}</p>
-          <p class="text-sm text-brand-muted mt-1">
-            {c.web
-              ? L(lang, 'Corrige o completa la ficha gratis, o destácala en tu comarca.', 'Corregeix o completa la fitxa gratis, o destaca-la a la teva comarca.')
-              : L(lang, 'Corrige la ficha gratis. Y si aún no tienes web, te contamos cómo te podemos ayudar.', "Corregeix la fitxa gratis. I si encara no tens web, t'expliquem com et podem ajudar.")}
+            <span class="text-brand-muted"> · {c.fuenteTipo === 'registro-oficial' ? L(lang, 'consultado el', 'consultat el') : L(lang, 'verificado el', 'verificat el')} {fecha(lang, c.verificado)}</span>
           </p>
-        </div>
-        <a href={`${url.paraCentros(lang)}?centro=${c.slug}`} class="shrink-0 text-center bg-brand-red hover:bg-red-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg" rel="nofollow" data-evento="gestionar_ficha" data-centro={c.slug}>{L(lang, 'Gestionar ficha', 'Gestionar fitxa')}</a>
+          {c.fuenteTipo === 'registro-oficial' && <p class="text-brand-muted mt-2">{L(lang, 'El registro confirma que la entidad está inscrita, no que siga dando clases: compruébalo con el club.', "El registre confirma que l'entitat hi és inscrita, no que continuï fent classes: comprova-ho amb el club.")}</p>}
+          <p class="text-brand-muted mt-2">{L(lang, 'No publicamos horarios, precios ni valoraciones: cambian y no podemos garantizarlos. Consulta siempre la web o la fuente del centro.', 'No publiquem horaris, preus ni valoracions: canvien i no els podem garantir. Consulta sempre el web o la font del centre.')}</p>
+        </section>
       </div>
-    </section>
+
+      <aside class="space-y-4 lg:sticky lg:top-24">
+        <section id="pedir-info" class="scroll-mt-24 bg-brand-gray border border-brand-border rounded-2xl p-5 sm:p-6">
+          <h2 class="text-lg font-bold text-white">{L(lang, 'Pedir información', 'Demanar informació')}</h2>
+          <p class="text-sm text-brand-muted mt-1 mb-4">{c.web
+            ? L(lang, `Escribe aquí y se la hacemos llegar a ${c.nombre}, o contacta desde su web.`, `Escriu aquí i la hi fem arribar a ${c.nombre}, o contacta des del seu web.`)
+            : L(lang, `${c.nombre} no tiene web conocida: escribe aquí y se la hacemos llegar.`, `${c.nombre} no té web coneguda: escriu aquí i la hi fem arribar.`)}</p>
+          <Formulario lang={lang} modo="info" estrecho centro={{ nombre: c.nombre, municipio: mun.nombre }} />
+        </section>
+        <div class="border border-brand-border rounded-xl p-4 flex items-center justify-between gap-3">
+          <p class="text-sm text-brand-muted"><span class="block font-semibold text-white">{L(lang, '¿Es tu centro?', 'És el teu centre?')}</span>{L(lang, 'Corrige o completa la ficha gratis.', 'Corregeix o completa la fitxa gratis.')}</p>
+          <a href={`${url.paraCentros(lang)}?centro=${c.slug}`} class="shrink-0 text-sm font-semibold text-brand-red hover:text-red-400" rel="nofollow" data-evento="gestionar_ficha" data-centro={c.slug}>{L(lang, 'Gestionar', 'Gestionar')} →</a>
+        </div>
+      </aside>
+    </div>
 
     {(vecinos.length > 0 || parecidos.length > 0) && (
-      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h2 class="text-xl font-bold text-white mb-5">{L(lang, `Otros centros cerca`, `Altres centres a prop`)}</h2>
+      <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+        <h2 class="text-xl font-bold text-white mb-5">{vecinos.length ? L(lang, `Otros centros en ${mun.nombre}`, `Altres centres a ${mun.nombre}`) : L(lang, 'Otros centros cerca', 'Altres centres a prop')}</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {vecinos.map(v => <CentroCard centro={v} lang={lang} />)}
+          {vecinos.map(v => <CentroCard centro={v} lang={lang} conMunicipio={false} />)}
           {parecidos.map(({ centro, km }) => <CentroCard centro={centro} lang={lang} km={km} />)}
         </div>
       </section>
     )}
+
+    <div class="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-brand-dark/95 backdrop-blur border-t border-brand-border p-3 flex gap-2">
+      {c.web && <a href={c.web} target="_blank" rel={promo ? 'sponsored noopener' : 'noopener'} class="flex-1 text-center bg-white/5 border border-brand-border text-white text-sm font-semibold py-3 rounded-lg" data-evento="clic_web_centro" data-centro={c.slug}>{L(lang, 'Su web', 'El seu web')} ↗</a>}
+      <a href="#pedir-info" class="flex-1 text-center bg-brand-red text-white text-sm font-semibold py-3 rounded-lg" data-evento="abrir_pedir_info" data-centro={c.slug}>{L(lang, 'Pedir información', 'Demanar informació')}</a>
+    </div>
   </main>
   <Footer lang={lang} />
 </Layout>

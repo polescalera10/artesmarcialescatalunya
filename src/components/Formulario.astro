@@ -10,8 +10,10 @@ interface Props {
   modo: 'centro' | 'visitante' | 'info';
   /** Para modo 'info': centro sobre el que se pregunta */
   centro?: { nombre: string; municipio: string };
+  /** Columna estrecha (lateral de la ficha): campos uno debajo de otro */
+  estrecho?: boolean;
 }
-const { lang, modo, centro } = Astro.props;
+const { lang, modo, centro, estrecho = false } = Astro.props;
 const input = 'w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white text-sm placeholder-brand-muted focus:outline-none focus:border-brand-red';
 const tipos = modo === 'info'
   ? [['info', '']]
@@ -45,7 +47,7 @@ const tipos = modo === 'info'
       </select>
     </div>
   )}
-  <div class="grid sm:grid-cols-2 gap-4">
+  <div class:list={['grid gap-4', !estrecho && 'sm:grid-cols-2']}>
     <div>
       <label for="f-nombre" class="block text-sm text-white mb-1.5">{L(lang, 'Tu nombre', 'El teu nom')}</label>
       <input id="f-nombre" name="nombre" autocomplete="name" class={input} maxlength="120" />
@@ -97,7 +99,7 @@ const tipos = modo === 'info'
         ". Fem servir les teves dades només per respondre't; no se cedeixen a tercers ni s'utilitzen per a publicitat.")}
     </span>
   </label>
-  <button type="submit" class="w-full sm:w-auto bg-brand-red hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+  <button type="submit" class:list={['w-full bg-brand-red hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors', !estrecho && 'sm:w-auto']}>
     {L(lang, 'Enviar', 'Envia')}
   </button>
   <p class="text-sm hidden" data-estado role="status"></p>
