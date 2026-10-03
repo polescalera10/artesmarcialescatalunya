@@ -186,6 +186,166 @@
       "source": "/blog/fitboxing-o-boxeo-en-el-garraf",
       "destination": "/blog/fitboxing-o-boxeo/",
       "permanent": true
+    },
+    {
+      "source": "/blog/clases-mixtas-o-solo-mujeres/",
+      "destination": "/blog/empezar-artes-marciales-siendo-mujer/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-mixtas-o-solo-mujeres",
+      "destination": "/blog/empezar-artes-marciales-siendo-mujer/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/donde-aprender-boxeo-en-el-garraf/",
+      "destination": "/blog/como-empezar-en-boxeo/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/donde-aprender-boxeo-en-el-garraf",
+      "destination": "/blog/como-empezar-en-boxeo/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/karate-infantil-en-sitges/",
+      "destination": "/garraf/sitges/karate/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/karate-infantil-en-sitges",
+      "destination": "/garraf/sitges/karate/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/karate-infantil-en-vilanova/",
+      "destination": "/garraf/vilanova-i-la-geltru/karate/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/karate-infantil-en-vilanova",
+      "destination": "/garraf/vilanova-i-la-geltru/karate/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-infantiles-en-sitges/",
+      "destination": "/garraf/sitges/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-infantiles-en-sitges",
+      "destination": "/garraf/sitges/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-infantiles-en-vilanova/",
+      "destination": "/garraf/vilanova-i-la-geltru/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-infantiles-en-vilanova",
+      "destination": "/garraf/vilanova-i-la-geltru/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-adultos-en-sitges/",
+      "destination": "/garraf/sitges/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-adultos-en-sitges",
+      "destination": "/garraf/sitges/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-adultos-en-vilanova/",
+      "destination": "/garraf/vilanova-i-la-geltru/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-adultos-en-vilanova",
+      "destination": "/garraf/vilanova-i-la-geltru/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-mujeres-en-sitges/",
+      "destination": "/garraf/sitges/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-mujeres-en-sitges",
+      "destination": "/garraf/sitges/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-mujeres-en-vilanova/",
+      "destination": "/garraf/vilanova-i-la-geltru/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-mujeres-en-vilanova",
+      "destination": "/garraf/vilanova-i-la-geltru/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/defensa-personal-femenina-en-sitges/",
+      "destination": "/garraf/sitges/defensa-personal/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/defensa-personal-femenina-en-sitges",
+      "destination": "/garraf/sitges/defensa-personal/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/defensa-personal-femenina-en-vilanova/",
+      "destination": "/garraf/vilanova-i-la-geltru/defensa-personal/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/defensa-personal-femenina-en-vilanova",
+      "destination": "/garraf/vilanova-i-la-geltru/defensa-personal/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-ninos/",
+      "destination": "/blog/mejor-arte-marcial-para-ninos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-ninos",
+      "destination": "/blog/mejor-arte-marcial-para-ninos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-adultos/",
+      "destination": "/blog/artes-marciales-adultos-principiantes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-adultos",
+      "destination": "/blog/artes-marciales-adultos-principiantes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-mujeres/",
+      "destination": "/blog/empezar-artes-marciales-siendo-mujer/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clases-para-mujeres",
+      "destination": "/blog/empezar-artes-marciales-siendo-mujer/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/iniciacion/",
+      "destination": "/blog/artes-marciales-adultos-principiantes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/iniciacion",
+      "destination": "/blog/artes-marciales-adultos-principiantes/",
+      "permanent": true
     }
   ]
 }

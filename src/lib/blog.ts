@@ -1,6 +1,7 @@
 // Blog: artículos en Markdown (src/content/blog) más los heredados del sitio
 // del Garraf que aún no se han reescrito. Un Markdown sustituye al heredado
-// con su mismo slug o con su `slugAnterior`.
+// con su mismo slug o con su `slugAnterior`. Un heredado con un 301 en
+// vercel.json (`/blog/<slug>/`) se da por retirado: ni página ni sitemap.
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 import { POSTS as HEREDADOS, type Post } from './editorial';
@@ -22,6 +23,8 @@ export async function articulos(): Promise<Articulo[]> {
   const md = await getCollection('blog');
   const nuevos: Articulo[] = md.map(e => {
     const d = e.data;
+    if (redirigidos.has(`/blog/${e.slug}/`))
+      throw new Error(`Blog: ${e.slug} tiene un 301 en vercel.json que taparía el artículo`);
     if (d.slugAnterior && d.slugAnterior !== e.slug && !redirigidos.has(`/blog/${d.slugAnterior}/`))
       throw new Error(`Blog: ${e.slug} cambia de slug pero falta el 301 de /blog/${d.slugAnterior}/ en vercel.json`);
     return {
@@ -41,7 +44,7 @@ export async function articulos(): Promise<Articulo[]> {
     };
   });
   const sustituidos = new Set(nuevos.flatMap(n => [n.slug, n.slugAnterior ?? n.slug]));
-  const viejos: Articulo[] = HEREDADOS.filter(p => !sustituidos.has(p.slug)).map(p => ({ ...p, actualizado: p.fecha, reescrito: false }));
+  const viejos: Articulo[] = HEREDADOS.filter(p => !sustituidos.has(p.slug) && !redirigidos.has(`/blog/${p.slug}/`)).map(p => ({ ...p, actualizado: p.fecha, reescrito: false }));
   cache = [...nuevos, ...viejos].sort((a, b) => b.fecha.localeCompare(a.fecha) || a.slug.localeCompare(b.slug));
   return cache;
 }

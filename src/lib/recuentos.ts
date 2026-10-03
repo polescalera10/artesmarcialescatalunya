@@ -11,6 +11,8 @@
 //   {{dc:boxeo:barcelones}}   disciplina en una comarca
 //   {{dm:boxeo:sabadell}}     disciplina en un municipio
 //   {{infantil}}              centros cuya fuente anuncia clases para niños
+//   {{im:barcelona}}          ídem en un municipio
+//   {{ic:barcelones}}         ídem en una comarca
 //
 // Siempre en cifra. Un marcador o un slug desconocido rompe el build.
 import { CENTROS, centrosConDisciplina } from './centros';
@@ -26,6 +28,8 @@ function contar(clave: string, a?: string, b?: string): number {
     case 'centros': return CENTROS.length;
     case 'comarcas': return new Set(CENTROS.map(c => c.comarca)).size;
     case 'infantil': return CENTROS.filter(c => c.infantil).length;
+    case 'im': return CENTROS.filter(c => c.infantil && c.municipio === mun(a!)).length;
+    case 'ic': return CENTROS.filter(c => c.infantil && c.comarca === com(a!)).length;
     case 'd': return disc(a!).length;
     case 'dmun': return new Set(disc(a!).map(c => c.municipio)).size;
     case 'dcom': return new Set(disc(a!).map(c => c.comarca)).size;

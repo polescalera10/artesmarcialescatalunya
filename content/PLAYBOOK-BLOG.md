@@ -113,7 +113,7 @@ faq:
 Cuerpo en Markdown...
 ```
 
-**Slugs.** Sin topónimos salvo que el artículo trate de un sitio. Si un artículo heredado tenía el Garraf o un municipio en el slug, se le da uno nuevo, se pone el viejo en `slugAnterior` y se añaden a `vercel.json` (array `redirects`) **dos** reglas: `/blog/<viejo>/` → `/blog/<nuevo>/` con `"permanent": true`. Sin ese 301 el build falla. Si el slug no cambia, no se pone `slugAnterior` y el Markdown sustituye al heredado.
+**Slugs.** Sin topónimos salvo que el artículo trate de un sitio. Si un artículo heredado tenía el Garraf o un municipio en el slug, se le da uno nuevo, se pone el viejo en `slugAnterior` y se añaden a `vercel.json` (array `redirects`) **dos** reglas: `/blog/<viejo>/` → `/blog/<nuevo>/` con `"permanent": true`. Sin ese 301 el build falla. Si el slug no cambia, no se pone `slugAnterior` y el Markdown sustituye al heredado. Para **retirar** un heredado sin sustituto (fusión, guía obsoleta) basta con su 301 en `vercel.json`: el cargador lo quita del blog y del sitemap.
 
 **Recuentos (`src/lib/recuentos.ts`).** Ningún número del directorio se escribe a mano. Siempre en cifra:
 
@@ -126,6 +126,7 @@ Cuerpo en Markdown...
 | `{{c:barcelones}}` / `{{m:sabadell}}` | centros de una comarca / municipio |
 | `{{dc:boxeo:barcelones}}` / `{{dm:boxeo:sabadell}}` | disciplina en una comarca / municipio |
 | `{{infantil}}` | centros cuya fuente anuncia clases para niños |
+| `{{im:barcelona}}` / `{{ic:barcelones}}` | ídem en un municipio / una comarca |
 
 Slugs de disciplina en `data/disciplinas.json`; de comarca y municipio en `data/geo/comarcas.json` y `data/geo/municipios.json`. Un slug mal escrito rompe el build. Escribe la frase de modo que funcione con cualquier cifra ("constan {{d:judo}} centros con judo"), porque cambiará.
 

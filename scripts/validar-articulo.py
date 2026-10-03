@@ -39,7 +39,7 @@ if (ant := campo('slugAnterior')) and ant != slug and f'/blog/{ant}/' not in ver
 disc = {d['slug'] for d in json.load(open(os.path.join(RAIZ, 'data/disciplinas.json')))}
 com = {c['slug'] for c in json.load(open(os.path.join(RAIZ, 'data/geo/comarcas.json')))}
 mun = {x['slug'] for x in json.load(open(os.path.join(RAIZ, 'data/geo/municipios.json')))}
-TIPOS = {'centros': [], 'comarcas': [], 'infantil': [], 'd': [disc], 'dmun': [disc], 'dcom': [disc], 'c': [com], 'm': [mun], 'dc': [disc, com], 'dm': [disc, mun]}
+TIPOS = {'centros': [], 'comarcas': [], 'infantil': [], 'd': [disc], 'dmun': [disc], 'dcom': [disc], 'c': [com], 'm': [mun], 'dc': [disc, com], 'dm': [disc, mun], 'im': [mun], 'ic': [com]}
 for k, *args in re.findall(r'\{\{([a-z]+)(?::([a-z0-9-]+))?(?::([a-z0-9-]+))?\}\}', texto):
     args = [a for a in args if a]
     if k not in TIPOS: errores.append(f'marcador desconocido {{{{{k}}}}}'); continue
