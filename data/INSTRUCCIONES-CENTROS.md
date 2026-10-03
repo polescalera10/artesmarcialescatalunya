@@ -11,7 +11,7 @@ Solo entra un centro si **una fuente pública verificable dice que existe y qué
 | Tipo | Qué es | Ejemplo |
 |---|---|---|
 | `web-oficial` | Web propia del centro, que se ha abierto y leído | `https://dojocastaneda1976.com/` |
-| `federacion` | Listado de clubs de una federación deportiva | fckarate.cat/clubs, fedecatjudo.cat/judo/clubs, taekwondocatala.com, famc.cat |
+| `federacion` | Listado de clubs de una federación deportiva o de una organización nacional de la disciplina con ficha por club (OWKLE, aceptada por Pol el 03-10-2026) | fckarate.cat/clubs, fedecatjudo.cat/judo/clubs, taekwondocatala.com, famc.cat, owkle.es/clubs |
 | `directorio-municipal` | Ficha en el directorio de entidades o equipamientos de un ayuntamiento | `vilanova.cat/directori/detall?id=…` |
 | `perfil-publico` | Página pública de Facebook o Instagram **del propio centro**, solo si se ha podido leer y dice la disciplina | último recurso |
 
