@@ -156,6 +156,36 @@
       "source": "/blog/defensa-personal-para-mujeres-garraf",
       "destination": "/blog/defensa-personal-para-mujeres/",
       "permanent": true
+    },
+    {
+      "source": "/blog/artes-marciales-adultos-principiantes-garraf/",
+      "destination": "/blog/artes-marciales-adultos-principiantes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/artes-marciales-adultos-principiantes-garraf",
+      "destination": "/blog/artes-marciales-adultos-principiantes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/como-elegir-centro-artes-marciales-garraf/",
+      "destination": "/blog/como-elegir-centro-artes-marciales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/como-elegir-centro-artes-marciales-garraf",
+      "destination": "/blog/como-elegir-centro-artes-marciales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fitboxing-o-boxeo-en-el-garraf/",
+      "destination": "/blog/fitboxing-o-boxeo/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fitboxing-o-boxeo-en-el-garraf",
+      "destination": "/blog/fitboxing-o-boxeo/",
+      "permanent": true
     }
   ]
 }
