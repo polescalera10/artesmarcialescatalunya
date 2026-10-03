@@ -1,0 +1,104 @@
+[
+ {
+  "nombre": "Dojo Umiten",
+  "municipio": "lleida",
+  "pista": "Ya está en segria.json (federación de aikido). Su web dojoumiten.com devuelve HTTP 200 pero con el cuerpo vacío (probado con curl, WebFetch y navegador el 2026-10-03); los buscadores muestran aikido, defensa personal, karate, jiu-jitsu, kenjutsu e iaido",
+  "motivo": "No se pudo leer la web oficial; reintentar para añadir web y disciplinas"
+ },
+ {
+  "nombre": "SRK Fight Club",
+  "municipio": "sarroca-de-lleida",
+  "pista": "Reportaje de somesports.net (feb 2023): gimnasio de muay thai para niños, jóvenes y adultos; perfiles en Instagram/Facebook",
+  "motivo": "Sin web propia ni directorio municipal accesible; el reportaje y las redes no son fuente válida"
+ },
+ {
+  "nombre": "Fighters Team Lleida",
+  "municipio": "lleida",
+  "pista": "Aparece en listados de kickboxing/muay thai de Lleida (Carrer de Roca Labrador); sin web localizada",
+  "motivo": "Solo agregadores; sin web oficial ni directorio municipal"
+ },
+ {
+  "nombre": "Club Aikido Lleida",
+  "municipio": "lleida",
+  "pista": "facebook.com/clubaikidolleida y aikidotradicional.es: aikido infantil y adultos en Nacionalfitness Lleida (Av. Alcalde Rovira Roure, 87)",
+  "motivo": "Solo Facebook/federación estatal (AEAT) no válida; sin web propia. Probablemente comparte sede con Budokan y Nacionalfitness"
+ },
+ {
+  "nombre": "Club Aikido Tenshin Lleida",
+  "municipio": "lleida",
+  "pista": "facebook.com/aikidomikelfernandez (clases de aikido infantil y adultos)",
+  "motivo": "Solo perfil de Facebook, sin web ni directorio"
+ },
+ {
+  "nombre": "Club Esportiu Washi",
+  "municipio": "aitona",
+  "pista": "kodirecto.com/lleida y directorios de gimnasios: escuela de aikido en Carrer Fraga 46, Aitona",
+  "motivo": "Solo agregadores; sin web oficial ni ficha municipal localizada"
+ },
+ {
+  "nombre": "Club de Taekwondo Torres de Segre",
+  "municipio": "torres-de-segre",
+  "pista": "entitats.cat/club-de-taekwondo-torres-de-segre (Templarios, 20); la guía del Ajuntament (torressegre.cat/el-municipi/guia) carga por JavaScript y no se pudo leer",
+  "motivo": "Fuente solo en agregador de entidades; sin web ni directorio municipal legible"
+ },
+ {
+  "nombre": "Club Karate Torres de Segre",
+  "municipio": "torres-de-segre",
+  "pista": "alcarras.cat (Pla educatiu d'entorn d'Alcarràs i Torres de Segre) lo cita como entidad",
+  "motivo": "No anuncia sus clases en una fuente válida; sin web ni ficha municipal"
+ },
+ {
+  "nombre": "Nacionalfitness Alpicat",
+  "municipio": "alpicat",
+  "pista": "segriatv.cat (2017) y tusartesmarciales.es: gimnasio de kickboxing en Calle Doctor Fleming 29, Alpicat; la web nacionalfitness.com es la de la sede de Lleida",
+  "motivo": "No se puede confirmar que siga activo ni que tenga web/ficha propia en Alpicat; reportaje de 2017 y agregador"
+ },
+ {
+  "nombre": "Club Jove Alpicat",
+  "municipio": "alpicat",
+  "pista": "alpicat.cat/departaments/joventut/el-club-jove-alpicat-proposa-activitats-de-defensa-personal-funky-i-kickboxing",
+  "motivo": "Noticia de actividades de la regidoria de joventut, no un centro con clases propias estables"
+ },
+ {
+  "nombre": "La Cristaleria Espai Esportiu",
+  "municipio": "lleida",
+  "pista": "lacristaleria.cat: gimnasio social de boxa educativa sense contacte (Carrer Sant Pere Claver, 4); también en el directorio d'esports de la Paeria",
+  "motivo": "Boxeo educativo sin contacto con fin socioeducativo: encaje dudoso con la norma (se asemeja a fitboxing/cardio box)"
+ },
+ {
+  "nombre": "Temple Gym",
+  "municipio": "lleida",
+  "pista": "Aparece en listados de boxeo de Lleida (Carrer Arnald de Solsona, 12); solo Facebook",
+  "motivo": "Solo agregadores/Facebook; sin web oficial; gimnasio generalista con boxeo"
+ },
+ {
+  "nombre": "Argos Lleida",
+  "municipio": "lleida",
+  "pista": "argoslleida.com: la web habla de 'arts marcials' entre sus servicios y la URL /karate existe, pero su contenido es de alto rendimiento para futbolistas",
+  "motivo": "La web no anuncia ninguna disciplina concreta de la taxonomía"
+ },
+ {
+  "nombre": "Associació Escola Shiao Shen T'ai",
+  "municipio": "lleida",
+  "pista": "paeria.cat/ca/ciutat/directori/associacio-escola-shiao-shen-tai (C/ La Palma, 6-10)",
+  "motivo": "La ficha municipal no indica disciplina y no se encontró web"
+ },
+ {
+  "nombre": "Oficina da Capoeira",
+  "municipio": "lleida",
+  "pista": "paeria.cat/ca/ciutat/directori/asociacion-cultural-y-deportiva-oficina-da (C/ Pintor Xavier Gosé 7); también Capoeira Topázio Lleida en Facebook",
+  "motivo": "La ficha municipal solo trae el nombre de la entidad (no declara la clase) y no hay web; solo Facebook"
+ },
+ {
+  "nombre": "Club Kung Fu Lleida (Ving Tsun)",
+  "municipio": "lleida",
+  "pista": "kungfulleida.blogspot.com (única entrada de 2016) y Facebook Ving Tsun Kung Fu Lleida",
+  "motivo": "Blog abandonado desde 2016 y sin dirección; no se puede confirmar que siga activo"
+ },
+ {
+  "nombre": "Asociación Catalana WFA de Full-contact / Karate (FIDAM)",
+  "municipio": "lleida",
+  "pista": "paeria.cat directori (Av. de Madrid 15): son asociaciones federativas; fidamworld.com es una federación internacional de deportes de contacto",
+  "motivo": "Entidades federativas, no un centro con clases propias; coinciden en dirección con un gimnasio (GBF Gym) que no pudo verificarse"
+ }
+]

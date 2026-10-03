@@ -14,19 +14,6 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "alcarras",
-  "nombre": "Alcarras",
-  "tipo": "escuela",
-  "municipio": "alcarras",
-  "disciplinas": [
-   "taekwondo"
-  ],
-  "direccion": "Passeig del Riu, 16, 25180 Alcarras",
-  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
- },
- {
   "slug": "assoc-esportiva-ekke-lleida",
   "nombre": "Assoc Esportiva Ekke Lleida",
   "tipo": "escuela",
@@ -42,17 +29,20 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "bordeta",
-  "nombre": "Bordeta",
+  "slug": "brazilian-jiu-jitsu-lleida",
+  "nombre": "Brazilian Jiu-Jitsu Lleida",
   "tipo": "escuela",
   "municipio": "lleida",
   "disciplinas": [
-   "taekwondo"
+   "jiu-jitsu-brasileno",
+   "grappling",
+   "defensa-personal"
   ],
-  "direccion": "Juneda, 31, 25001 Lleida",
-  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "infantil": true,
+  "web": "https://brazilianjiujitsulleida.com/",
+  "fuente": "https://brazilianjiujitsulleida.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "budokan-lerida-gimnasio",
@@ -62,9 +52,14 @@
   "disciplinas": [
    "karate"
   ],
-  "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=3",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "otras": [
+   "Karate Sankukai"
+  ],
+  "direccion": "Av. Alcalde Rovira Roure, 87",
+  "web": "https://sites.google.com/view/clubkaratebudokanlleida/inicio",
+  "fuente": "https://sites.google.com/view/clubkaratebudokanlleida/inicio",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "c-e-dojo-lleida",
@@ -75,7 +70,6 @@
    "judo"
   ],
   "direccion": "Bergadà, 6, LLEIDA",
-  "web": "https://www.facebook.com/Dojo-Lleida-160442421058162/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
@@ -93,17 +87,24 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "club-boxa-uppercut",
-  "nombre": "Club Boxa Uppercut",
+  "slug": "club-esportiu-almenar",
+  "nombre": "Club Esportiu Almenar",
   "tipo": "club",
-  "municipio": "lleida",
+  "municipio": "almenar",
   "disciplinas": [
-   "boxeo",
-   "kickboxing"
+   "taekwondo",
+   "kickboxing",
+   "defensa-personal"
   ],
-  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "otras": [
+   "Defensa personal femenina"
+  ],
+  "infantil": true,
+  "direccion": "Plaça de la Llibertat 2, Almenar-Lleida",
+  "web": "https://www.cealmenar.com/",
+  "fuente": "https://www.cealmenar.com/activitats/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "club-esportiu-karate-alguaire",
@@ -121,7 +122,7 @@
   "slug": "club-judo-almacelles",
   "nombre": "Club Judo Almacelles",
   "tipo": "club",
-  "municipio": "lleida",
+  "municipio": "almacelles",
   "disciplinas": [
    "judo"
   ],
@@ -129,6 +130,40 @@
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "natacio-lleida",
+  "nombre": "Club Natació Lleida",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo",
+   "aikido"
+  ],
+  "infantil": true,
+  "direccion": "Partida de Balàfia, 132, 25196 Lleida",
+  "web": "https://www.clubnataciolleida.com/",
+  "fuente": "https://www.clubnataciolleida.com/ca/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-boxa-uppercut",
+  "nombre": "Club Uppercut Lleida",
+  "tipo": "club",
+  "municipio": "lleida",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "muay-thai",
+   "mma"
+  ],
+  "infantil": true,
+  "direccion": "Carrer Riu Llobregat, 3, 25001 Lleida",
+  "web": "https://www.clubuppercutlleida.com/",
+  "fuente": "https://www.clubuppercutlleida.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "do-san-lee",
@@ -139,10 +174,14 @@
    "taekwondo",
    "hapkido"
   ],
-  "direccion": "Avda. San Ruf, 16 Bjos, 25004 Lerida",
-  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "otras": [
+   "Entrenamiento funcional"
+  ],
+  "direccion": "C/ Sant Ruf, 16 baixos. 25004 Lleida",
+  "web": "https://dosanlee.com/",
+  "fuente": "https://dosanlee.com/activitats",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "dojo-umiten",
@@ -156,6 +195,46 @@
   "fuente": "https://www.fcaikido.cat/dojos.html",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "epic-sport-365",
+  "nombre": "Epic Sport 365",
+  "tipo": "gimnasio",
+  "municipio": "alcarras",
+  "disciplinas": [
+   "taekwondo",
+   "karate",
+   "boxeo",
+   "defensa-personal"
+  ],
+  "infantil": true,
+  "direccion": "Passeig del Riu, 16, 25180 Alcarràs",
+  "web": "https://www.epicsport365.com/",
+  "fuente": "https://www.epicsport365.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
+ },
+ {
+  "slug": "bordeta",
+  "nombre": "Gimnàs Bordeta",
+  "tipo": "gimnasio",
+  "municipio": "lleida",
+  "disciplinas": [
+   "taekwondo",
+   "aikido",
+   "kickboxing",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Bu-jutsu",
+   "Defensa personal policial"
+  ],
+  "infantil": true,
+  "direccion": "Juneda, 31, 25001 Lleida",
+  "web": "https://www.gimnasbordeta.cat/",
+  "fuente": "https://www.gimnasbordeta.cat/es/deportes/gimnasbordeta/artes-marciales/40541.html",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "gimnas-puente",
@@ -194,17 +273,25 @@
   "verificado": "2026-09-29"
  },
  {
-  "slug": "natacio-lleida",
-  "nombre": "Natacio Lleida",
-  "tipo": "escuela",
+  "slug": "nacionalfitness-lleida",
+  "nombre": "Nacionalfitness Lleida",
+  "tipo": "gimnasio",
   "municipio": "lleida",
   "disciplinas": [
-   "taekwondo"
+   "karate",
+   "aikido",
+   "kickboxing",
+   "muay-thai",
+   "boxeo",
+   "jiu-jitsu-brasileno",
+   "mma",
+   "grappling"
   ],
-  "direccion": "Pda. Balafia, 132, 25196 Lleida",
-  "fuente": "https://taekwondocatala.com/public/clubs.php?terr=lle",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "infantil": true,
+  "web": "https://www.nacionalfitness.com/",
+  "fuente": "https://www.nacionalfitness.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-03"
  },
  {
   "slug": "pac-dom",

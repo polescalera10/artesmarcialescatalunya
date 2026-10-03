@@ -346,6 +346,16 @@
       "source": "/blog/iniciacion",
       "destination": "/blog/artes-marciales-adultos-principiantes/",
       "permanent": true
+    },
+    {
+      "source": "/centros/alcarras/",
+      "destination": "/centros/epic-sport-365/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/alcarras/",
+      "destination": "/ca/centres/epic-sport-365/",
+      "permanent": true
     }
   ]
 }
