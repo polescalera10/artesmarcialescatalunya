@@ -1,6 +1,6 @@
 ---
 // Página comercial para centros: alta y correcciones gratis; promocionado,
-// web y SEO local de pago. Sin precios publicados hasta que Pol los fije.
+// web y SEO local de pago. Precios "desde", IVA aparte (Pol, 04-10-2026).
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -33,7 +33,7 @@ const bloques = [
   },
   {
     titulo: L(lang, 'Centro promocionado', 'Centre promocionat'),
-    precio: L(lang, 'Cuota mensual', 'Quota mensual'),
+    precio: L(lang, '19 €/mes por municipio · 39 €/mes por comarca', '19 €/mes per municipi · 39 €/mes per comarca'),
     texto: L(lang,
       'Tu ficha aparece también en un bloque destacado arriba de las páginas de tu comarca, tu municipio y tus disciplinas, con la etiqueta "Promocionado". El listado alfabético no cambia: nadie paga por estar más arriba en él.',
       "La teva fitxa apareix també en un bloc destacat a dalt de les pàgines de la teva comarca, el teu municipi i les teves disciplines, amb l'etiqueta \"Promocionat\". El llistat alfabètic no canvia: ningú paga per estar més amunt.")
@@ -42,7 +42,7 @@ const bloques = [
   },
   {
     titulo: L(lang, 'Web para tu centro', 'Web per al teu centre'),
-    precio: L(lang, 'Proyecto a medida', 'Projecte a mida'),
+    precio: L(lang, 'Desde 490 € + 15 €/mes', 'Des de 490 € + 15 €/mes'),
     texto: L(lang,
       `${sinWeb} centros del directorio no tienen web propia que hayamos podido encontrar. Si es tu caso, te hacemos una web rápida, pensada para aparecer en Google cuando alguien busca tu disciplina en tu municipio.`,
       `${sinWeb} centres del directori no tenen web pròpia que hàgim pogut trobar. Si és el teu cas, et fem un web ràpid, pensat per sortir a Google quan algú busca la teva disciplina al teu municipi.`),
@@ -50,7 +50,7 @@ const bloques = [
   },
   {
     titulo: L(lang, 'SEO local para gimnasios', 'SEO local per a gimnasos'),
-    precio: L(lang, 'Según objetivos', 'Segons objectius'),
+    precio: L(lang, 'Desde 150 €/mes', 'Des de 150 €/mes'),
     texto: L(lang,
       'Ficha de Google Business Profile, páginas por disciplina y municipio, contenido y medición. Lo mismo que hacemos con este directorio, aplicado a tu centro.',
       'Fitxa de Google Business Profile, pàgines per disciplina i municipi, contingut i mesura. El mateix que fem amb aquest directori, aplicat al teu centre.'),
@@ -59,6 +59,12 @@ const bloques = [
 ];
 
 const faq = [
+  {
+    q: L(lang, '¿Cuánto cuesta destacar mi centro?', 'Quant costa destacar el meu centre?'),
+    a: L(lang,
+      '19 € al mes (sin IVA) para aparecer destacado en la página de tu municipio y en las de tus disciplinas allí; 39 € al mes para toda tu comarca.',
+      "19 € al mes (sense IVA) per sortir destacat a la pàgina del teu municipi i a les de les teves disciplines; 39 € al mes per a tota la comarca."),
+  },
   {
     q: L(lang, '¿Tengo que pagar para aparecer?', 'He de pagar per aparèixer?'),
     a: L(lang,
@@ -119,6 +125,11 @@ const schema = {
         </div>
       ))}
     </section>
+    <p class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-brand-muted">
+      {L(lang,
+        'Precios sin IVA. El precio final de web y SEO depende de lo que necesites; te lo decimos por escrito antes de empezar.',
+        "Preus sense IVA. El preu final de web i SEO depèn del que necessitis; t'ho diem per escrit abans de començar.")}
+    </p>
 
     <section id="formulario" class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 scroll-mt-24">
       <h2 class="text-2xl font-bold text-white mb-2">{L(lang, 'Escríbenos', 'Escriu-nos')}</h2>
