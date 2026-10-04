@@ -39,6 +39,7 @@ const perfil = dGuia ? PERFIL_COMPARATIVO[dGuia] : undefined;
 const verif = esVerificado(c);
 const iniciales = c.nombre.replace(/^(club|escola|escuela|associació|asociación|gimnàs|gimnasio|centre|centro|academia|acadèmia)\s+(d'|de\s+|del\s+)?/i, '')
   .split(/[\s-]+/).filter(w => /^[\p{L}\d]/u.test(w) && !/^(de|del|la|el|i|y|d'.*)$/i.test(w)).slice(0, 2).map(w => w[0].toUpperCase()).join('') || c.nombre[0];
+const sello = `<a href="${SITE.url}${url.centro(lang, c.slug)}" title="${L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya')}"><img src="${SITE.url}/sello/ficha-verificada-${lang}.svg" alt="${L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya')}" width="220" height="56"></a>`;
 const mapa = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([c.nombre, c.direccion, mun.nombre].filter(Boolean).join(', '))}`;
 const webCorta = c.web?.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
 const FUENTE: Record<string, [string, string]> = {
@@ -212,6 +213,15 @@ const schema = [
             : L(lang, `${c.nombre} no tiene web conocida: escribe aquí y se la hacemos llegar.`, `${c.nombre} no té web coneguda: escriu aquí i la hi fem arribar.`)}</p>
           <Formulario lang={lang} modo="info" estrecho centro={{ nombre: c.nombre, municipio: mun.nombre }} />
         </section>
+        {verif && (
+          <details class="border border-brand-border rounded-xl p-4" data-evento-abrir="abrir_sello">
+            <summary class="cursor-pointer text-sm font-semibold text-white">{L(lang, 'Sello para la web del centro', 'Segell per al web del centre')}</summary>
+            <p class="text-xs text-brand-muted mt-2">{L(lang, 'Si es tu centro, puedes poner este sello en tu web: enlaza a esta ficha y muestra que tus datos están comprobados. Gratis.', 'Si és el teu centre, pots posar aquest segell al teu web: enllaça a aquesta fitxa i mostra que les dades estan comprovades. Gratis.')}</p>
+            <img src={`/sello/ficha-verificada-${lang}.svg`} alt="" width="220" height="56" class="mt-3" loading="lazy" />
+            <textarea readonly rows="4" class="mt-3 w-full bg-brand-dark border border-brand-border rounded-lg p-2 text-[11px] text-brand-muted font-mono" aria-label={L(lang, 'Código HTML del sello', 'Codi HTML del segell')} data-sello>{sello}</textarea>
+            <button type="button" class="mt-2 text-sm font-semibold text-brand-red hover:text-red-400" data-copiar-sello>{L(lang, 'Copiar código', 'Copiar codi')}</button>
+          </details>
+        )}
         <div class="border border-brand-border rounded-xl p-4 flex items-center justify-between gap-3">
           <p class="text-sm text-brand-muted"><span class="block font-semibold text-white">{L(lang, '¿Es tu centro?', 'És el teu centre?')}</span>{L(lang, 'Corrige o completa la ficha gratis.', 'Corregeix o completa la fitxa gratis.')}</p>
           <a href={`${url.paraCentros(lang)}?centro=${encodeURIComponent(c.nombre)}&municipio=${encodeURIComponent(mun.nombre)}&ficha=${c.slug}`} class="shrink-0 text-sm font-semibold text-brand-red hover:text-red-400" rel="nofollow" data-evento="gestionar_ficha" data-centro={c.slug}>{L(lang, 'Gestionar', 'Gestionar')} →</a>
@@ -231,6 +241,12 @@ const schema = [
 
     <GuiasRelacionadas lang={lang} disciplinas={c.disciplinas} comarca={c.comarca} infantil={c.infantil} />
 
+    <script>
+      document.querySelector('[data-copiar-sello]')?.addEventListener('click', async e => {
+        const t = document.querySelector<HTMLTextAreaElement>('[data-sello]')!;
+        try { await navigator.clipboard.writeText(t.value); (e.target as HTMLElement).textContent = '✓'; } catch { t.select(); }
+      });
+    </script>
     <div class="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-brand-dark/95 backdrop-blur border-t border-brand-border p-3 flex gap-2">
       {c.web && <a href={c.web} target="_blank" rel={promo ? 'sponsored noopener' : 'noopener'} class="flex-1 text-center bg-white/5 border border-brand-border text-white text-sm font-semibold py-3 rounded-lg" data-evento="clic_web_centro" data-centro={c.slug}>{L(lang, 'Su web', 'El seu web')} ↗</a>}
       <a href="#pedir-info" class="flex-1 text-center bg-brand-red text-white text-sm font-semibold py-3 rounded-lg" data-evento="abrir_pedir_info" data-centro={c.slug}>{L(lang, 'Pedir información', 'Demanar informació')}</a>
