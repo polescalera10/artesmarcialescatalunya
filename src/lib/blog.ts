@@ -23,18 +23,18 @@ export async function articulos(): Promise<Articulo[]> {
   const md = await getCollection('blog');
   const nuevos: Articulo[] = md.map(e => {
     const d = e.data;
-    if (redirigidos.has(`/blog/${e.slug}/`))
-      throw new Error(`Blog: ${e.slug} tiene un 301 en vercel.json que taparía el artículo`);
-    if (d.slugAnterior && d.slugAnterior !== e.slug && !redirigidos.has(`/blog/${d.slugAnterior}/`))
-      throw new Error(`Blog: ${e.slug} cambia de slug pero falta el 301 de /blog/${d.slugAnterior}/ en vercel.json`);
+    if (redirigidos.has(`/blog/${e.id}/`))
+      throw new Error(`Blog: ${e.id} tiene un 301 en vercel.json que taparía el artículo`);
+    if (d.slugAnterior && d.slugAnterior !== e.id && !redirigidos.has(`/blog/${d.slugAnterior}/`))
+      throw new Error(`Blog: ${e.id} cambia de slug pero falta el 301 de /blog/${d.slugAnterior}/ en vercel.json`);
     return {
-      slug: e.slug,
+      slug: e.id,
       tipo: d.tipo,
       titulo: d.titulo,
       descripcion: d.descripcion,
       h1: d.h1,
       intro: conRecuentos(d.intro),
-      body: marked.parse(conRecuentos(e.body), { async: false }) as string,
+      body: marked.parse(conRecuentos(e.body ?? ''), { async: false }) as string,
       faq: d.faq?.map(f => ({ q: conRecuentos(f.q), a: conRecuentos(f.a) })),
       fecha: d.fecha,
       actualizado: d.actualizado,
@@ -64,20 +64,20 @@ export async function articulosCa(): Promise<ArticuloCa[]> {
   if (cacheCa) return cacheCa;
   const es = new Set((await articulos()).map(a => a.slug));
   const md = await getCollection('blog-ca');
-  const aCa = new Map(md.map(e => [e.data.original, e.slug]));
+  const aCa = new Map(md.map(e => [e.data.original, e.id]));
   const html = (s: string) => aCatalan(s, aCa);
   cacheCa = md.map(e => {
     const d = e.data;
-    if (!es.has(d.original)) throw new Error(`Blog ca: ${e.slug} traduce ${d.original}, que no existe en castellano`);
+    if (!es.has(d.original)) throw new Error(`Blog ca: ${e.id} traduce ${d.original}, que no existe en castellano`);
     return {
-      slug: e.slug,
+      slug: e.id,
       original: d.original,
       tipo: d.tipo,
       titulo: d.titulo,
       descripcion: d.descripcion,
       h1: d.h1,
       intro: html(conRecuentos(d.intro)),
-      body: html(marked.parse(conRecuentos(e.body), { async: false }) as string),
+      body: html(marked.parse(conRecuentos(e.body ?? ''), { async: false }) as string),
       faq: d.faq?.map(f => ({ q: conRecuentos(f.q), a: html(conRecuentos(f.a)) })),
       fecha: d.fecha,
       actualizado: d.actualizado,

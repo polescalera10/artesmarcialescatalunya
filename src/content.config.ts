@@ -1,6 +1,8 @@
 // Colección del blog: un Markdown por artículo en src/content/blog/<slug>.md.
 // Norma de redacción en content/PLAYBOOK-BLOG.md.
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
 
 const fecha = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 
@@ -22,9 +24,9 @@ const esquema = z.object({
   faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
 });
 
-const blog = defineCollection({ type: 'content', schema: esquema });
+const blog = defineCollection({ loader: glob({ pattern: '*.md', base: './src/content/blog' }), schema: esquema });
 // Traducciones al catalán (src/content/blog-ca/<slug-catalán>.md). `original`
 // es el slug del artículo en castellano: da el hreflang y la ilustración.
-const blogCa = defineCollection({ type: 'content', schema: esquema.extend({ original: z.string() }) });
+const blogCa = defineCollection({ loader: glob({ pattern: '*.md', base: './src/content/blog-ca' }), schema: esquema.extend({ original: z.string() }) });
 
 export const collections = { blog, 'blog-ca': blogCa };

@@ -1,6 +1,7 @@
 ---
 import { SITE, ORGANIZATION_SCHEMA, WEBSITE_SCHEMA } from '../lib/site';
 import CookieConsent from '../components/CookieConsent.astro';
+import '../styles/global.css';
 // Inter self-hosted (@fontsource): sin peticiones a Google Fonts — mejor
 // rendimiento y sin cesión de IPs a terceros (RGPD post-Schrems II).
 //
@@ -161,8 +162,8 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
   .articulo li { margin-bottom: 0.6rem; }
   .articulo li::marker { color: #DC2626; }
   .articulo strong { color: #E5E7EB; }
-  .articulo a { color: #DC2626; text-decoration: underline; text-underline-offset: 3px; }
-  .articulo a:hover { color: #F87171; }
+  .articulo a { color: #F87171; text-decoration: underline; text-underline-offset: 3px; }
+  .articulo a:hover { color: #FCA5A5; }
   .articulo table {
     width: 100%; border-collapse: collapse; margin: 1.5rem 0;
     font-size: 0.875rem; display: block; overflow-x: auto;
