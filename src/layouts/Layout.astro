@@ -21,6 +21,11 @@ import '@fontsource/inter/latin-800.css';
 import '@fontsource/inter/latin-ext-800.css';
 import '@fontsource/inter/latin-900.css';
 import '@fontsource/inter/latin-ext-900.css';
+// Precarga de los pesos que se ven al cargar (texto, negrita y titulares): sin
+// ella el navegador descubre las fuentes tarde y el cambio desplaza el texto (CLS).
+import inter400 from '@fontsource/inter/files/inter-latin-400-normal.woff2?url';
+import inter700 from '@fontsource/inter/files/inter-latin-700-normal.woff2?url';
+import inter900 from '@fontsource/inter/files/inter-latin-900-normal.woff2?url';
 
 interface Props {
   title: string;
@@ -63,6 +68,7 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
 <html lang={lang}>
 <head>
   <meta charset="UTF-8" />
+  {[inter400, inter700, inter900].map(f => <link rel="preload" href={f} as="font" type="font/woff2" crossorigin />)}
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 

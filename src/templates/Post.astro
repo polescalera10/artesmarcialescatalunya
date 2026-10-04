@@ -50,7 +50,7 @@ const schema = {
     <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{post.h1}</h1>
       <p class="text-xs text-brand-muted mt-4">{L(lang, 'Publicado el', 'Publicat el')} <time datetime={post.fecha}>{fecha(lang, post.fecha)}</time>{post.actualizado !== post.fecha && <> · {L(lang, 'Actualizado el', 'Actualitzat el')} <time datetime={post.actualizado}>{fecha(lang, post.actualizado)}</time></>} · {SITE.name}</p>
-      {hero && <img src={hero} alt="" width="1600" height="400" decoding="async" class="mt-8 w-full object-cover rounded-2xl border border-brand-border" />}
+      {hero && <img src={hero} srcset={`${hero.replace('/img/', '/img/800/')} 800w, ${hero} 1600w`} sizes="(max-width: 800px) 100vw, 768px" alt="" width="1600" height="400" decoding="async" fetchpriority="high" class="mt-8 w-full object-cover rounded-2xl border border-brand-border" />}
       <div class="text-lg text-brand-muted mt-8 leading-relaxed" set:html={post.intro} />
       {post.body && <div class="articulo mt-8" set:html={post.body} />}
     </article>
