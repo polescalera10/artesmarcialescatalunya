@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales para el Estrés y la Ansiedad: Qué Esperar"
+titulo: "Artes marciales para el estrés y la ansiedad: qué esperar"
 descripcion: "Qué tiene una clase de artes marciales para quien llega con la cabeza saturada, qué no se puede prometer y qué disciplinas encajan mejor con ese motivo."
 h1: "Artes marciales para el estrés y la ansiedad: qué ofrece una clase y qué no se puede prometer"
 intro: "Mucha gente se apunta diciendo que quiere ponerse en forma, y dos frases después admite que lo que busca es llegar a casa con la cabeza más callada. Aquí va qué tiene el formato de una clase que encaja con ese motivo, qué no se puede prometer y qué disciplinas suelen ir mejor. En el directorio constan {{d:kickboxing}} centros con kickboxing y {{d:boxeo}} con boxeo, pero solo {{d:tai-chi}} con tai chi."

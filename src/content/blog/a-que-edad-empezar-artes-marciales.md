@@ -1,5 +1,5 @@
 ---
-titulo: "A Qué Edad Empezar Artes Marciales: Guía por Edades"
+titulo: "A qué edad empezar artes marciales: guía por edades"
 descripcion: "Desde qué edad se empieza en cada arte marcial y qué esperar en cada tramo, de los 4 años a los 60. Guía por edades con criterio para padres y adultos."
 h1: "A qué edad empezar artes marciales: guía por tramos de edad"
 intro: "Es la primera pregunta de casi todo el mundo y tiene dos versiones: la de quien no sabe si su hijo de cuatro años aprovechará algo, y la del adulto que teme haber llegado tarde. Recorremos los tramos de edad uno a uno, con lo que aporta cada uno, las disciplinas que suelen estar abiertas y qué mirar en el centro. En el directorio constan {{infantil}} centros cuya fuente pública anuncia clases para niños, y {{centros}} en total para elegir."

@@ -1,5 +1,5 @@
 ---
-titulo: "Extraescolar de Artes Marciales: Cómo Elegir en Septiembre"
+titulo: "Extraescolar de artes marciales: cómo elegir en septiembre"
 descripcion: "Apuntar al niño a artes marciales en septiembre: qué decidir antes de llamar, qué preguntar a los centros y qué mirar en la clase de prueba."
 h1: "Extraescolar de artes marciales: cómo apuntar al niño en septiembre sin precipitarse"
 intro: "Los grupos infantiles se organizan cuando arranca el curso, y lo que se decide en esas dos semanas condiciona el año: la franja horaria, los compañeros y el instructor. Esta guía ordena la decisión y trae las preguntas que conviene hacer por teléfono antes de pagar nada. En el directorio constan {{infantil}} centros cuya fuente anuncia grupo infantil, de {{centros}} en total."

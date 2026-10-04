@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales para Adultos en Barcelona: Cómo Empezar"
+titulo: "Artes marciales para adultos en Barcelona: cómo empezar"
 descripcion: "Artes marciales para adultos en Barcelona: cómo elegir según tu objetivo y tu horario, qué preguntar al centro y qué oferta hay en la ciudad y alrededores."
 h1: "Artes marciales para adultos en Barcelona: cómo empezar sin acertar a ciegas"
 intro: "Si vives en Barcelona y quieres empezar, tienes donde elegir: constan {{m:barcelona}} centros en la ciudad y {{c:barcelones}} en el Barcelonès. El problema es cómo decidir sin haber pisado nunca un tatami. Esta guía parte de lo que buscas y de cuánto tiempo tienes, y de ahí llega a la disciplina."

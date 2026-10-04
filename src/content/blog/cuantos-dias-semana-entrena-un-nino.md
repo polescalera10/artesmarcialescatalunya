@@ -1,5 +1,5 @@
 ---
-titulo: "Cuántos Días a la Semana Debe Entrenar un Niño"
+titulo: "Cuántos días a la semana debe entrenar un niño"
 descripcion: "Dos días es lo habitual en los clubs. Cuándo subir a tres, cuándo bajar y qué preguntar al centro antes de apuntar a un niño a artes marciales."
 h1: "Cuántos días a la semana debe entrenar un niño de artes marciales"
 intro: "Dos días a la semana es la respuesta que sirve para casi cualquier niño que empieza. Lo que casi nadie calcula es la otra cifra, la de trayectos: según dónde vivas, dos sesiones pueden ser cuatro viajes de ida y vuelta. En el directorio constan {{infantil}} centros cuya fuente anuncia grupo infantil, de {{centros}} en total, repartidos de forma muy desigual por el territorio."

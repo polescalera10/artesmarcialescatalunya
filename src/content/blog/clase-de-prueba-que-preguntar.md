@@ -1,5 +1,5 @@
 ---
-titulo: "Clase de Prueba de Artes Marciales: Qué Preguntar"
+titulo: "Clase de prueba de artes marciales: qué preguntar"
 descripcion: "Qué preguntar y qué mirar en una clase de prueba de artes marciales: la llamada previa, las señales durante la clase, cuándo irse y cómo cerrar la visita."
 h1: "Clase de prueba de artes marciales: qué mirar y qué preguntar antes de pagar"
 intro: "Vas convencido de que te examinan a ti, y es al revés. Este es el guion de la visita, desde las tres preguntas de la llamada previa hasta los cinco minutos de después, con la única señal que justifica levantarse e irse a mitad. Un dato antes de empezar: el directorio reúne {{centros}} centros, pero no recoge quién ofrece clase de prueba ni en qué condiciones. Eso se pregunta."

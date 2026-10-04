@@ -1,5 +1,5 @@
 ---
-titulo: "Defensa Personal para Mujeres en Barcelona: Guía"
+titulo: "Defensa personal para mujeres en Barcelona: guía"
 descripcion: "Defensa personal para mujeres en Barcelona: taller o clase continua, qué preguntar antes de pagar, señales de alarma y qué oferta recoge el directorio."
 h1: "Defensa personal para mujeres en Barcelona: cómo elegir curso antes de pagar"
 intro: "En el directorio constan {{dm:defensa-personal:barcelona}} centros de Barcelona que anuncian defensa personal, sin un método común. Detrás de la misma etiqueta hay talleres de un día, cursos de varias semanas y clases continuas. Esta guía te ayuda a distinguirlos y a preguntar lo que importa."

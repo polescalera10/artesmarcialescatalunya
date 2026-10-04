@@ -1,5 +1,5 @@
 ---
-titulo: "Empezar Artes Marciales a los 40: Guía Realista"
+titulo: "Empezar artes marciales a los 40: guía realista"
 descripcion: "A los 40 no empiezas tarde, empiezas distinto. Qué cambia, qué disciplinas dan más margen al cuerpo y qué decir el primer día a tu instructor."
 h1: "Empezar artes marciales a los 40: qué cambia y qué disciplina elegir"
 intro: "El miedo casi nunca es la edad. Es la rodilla vieja, el ridículo delante de gente de veinticinco y la duda de si dos días por semana sirven de algo. Aquí va qué cambia de verdad respecto a los veinte, qué disciplinas dan más margen al cuerpo y qué pasa con la oferta según dónde vivas: en el directorio constan {{d:jiu-jitsu-brasileno}} centros con jiu-jitsu brasileño y {{d:judo}} con judo, pero repartidos de forma muy desigual por Cataluña."

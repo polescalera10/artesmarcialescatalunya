@@ -1,5 +1,5 @@
 ---
-titulo: "Cursos de Defensa Personal de Fin de Semana: Qué Dan"
+titulo: "Cursos de defensa personal de fin de semana: qué dan"
 descripcion: "Qué da y qué no da un curso de defensa personal de un fin de semana, cuándo compensa, cómo distinguir uno serio y qué hacer después para no perderlo."
 h1: "Cursos de defensa personal de un fin de semana: qué dan y qué no"
 intro: "Dos tardes dan para más de lo que mucha gente supone y para bastante menos de lo que promete el cartel. La diferencia se explica en cinco minutos. En el directorio constan {{d:defensa-personal}} centros que anuncian defensa personal en {{dcom:defensa-personal}} comarcas, pero lo que recoge son sus clases, no los cursos puntuales: por eso conviene saber qué preguntar."

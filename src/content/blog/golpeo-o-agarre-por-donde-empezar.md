@@ -1,5 +1,5 @@
 ---
-titulo: "Golpeo o Agarre: Por Dónde Empezar en Artes Marciales"
+titulo: "Qué arte marcial practicar: golpeo o agarre para empezar"
 descripcion: "Golpeo o agarre: cómo elegir tu primera familia de artes marciales con cuatro preguntas, qué se siente en cada una y qué oferta hay en Cataluña."
 h1: "Golpeo o agarre: la primera decisión al empezar en artes marciales"
 intro: "Casi todo el mundo empieza comparando karate con boxeo con judo y acaba mareado a los diez minutos. Hay un corte anterior que ordena las disciplinas de golpe: resolver a distancia, golpeando, o resolver pegado, agarrando. Y un dato que condiciona la elección: en el directorio constan {{d:karate}} centros con karate, {{d:taekwondo}} con taekwondo y {{d:kickboxing}} con kickboxing, frente a {{d:judo}} con judo y {{d:jiu-jitsu-brasileno}} con jiu-jitsu brasileño."

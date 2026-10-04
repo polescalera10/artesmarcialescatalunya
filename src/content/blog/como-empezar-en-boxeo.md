@@ -1,5 +1,5 @@
 ---
-titulo: "Cómo Empezar en Boxeo: Primera Clase y Qué Preguntar"
+titulo: "Cómo empezar en boxeo: primera clase y qué preguntar"
 descripcion: "Cómo empezar en boxeo desde cero: qué pasa en la primera clase, qué material comprar, boxeo olímpico o fitness, cuándo llega el sparring y qué preguntar."
 h1: "Cómo empezar en boxeo: la primera clase, el material y qué preguntar antes de apuntarte"
 intro: "Quien busca clases de boxeo para principiantes suele tener tres dudas: si hay que estar en forma, cuánto va a doler y si le van a poner a pelear el primer día. Las respuestas son no, depende y nunca en un gimnasio serio. El directorio recoge {{d:boxeo}} centros que anuncian boxeo en {{dcom:boxeo}} comarcas de Cataluña, así que en muchas zonas puedes probar sin desplazarte demasiado."

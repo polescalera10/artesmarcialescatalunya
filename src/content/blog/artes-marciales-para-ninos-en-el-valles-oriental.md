@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales para Niños en el Vallès Oriental"
+titulo: "Artes marciales para niños en el Vallès Oriental"
 descripcion: "Artes marciales para niños en Granollers, Mollet y el Vallès Oriental: cómo se reparte la oferta, qué elegir por edad y qué hacer si tu pueblo no tiene."
 h1: "Artes marciales para niños en el Vallès Oriental: Granollers, Mollet y los pueblos de alrededor"
 intro: "En el Vallès Oriental constan {{c:valles-oriental}} centros, repartidos por muchos municipios, y {{ic:valles-oriental}} anuncian clases para niños. Es una comarca donde el karate y el judo pesan más que en otras y donde la oferta está esparcida, así que la pregunta no es solo qué elegir, sino qué hacer cuando el grupo infantil que buscas no está en tu pueblo."

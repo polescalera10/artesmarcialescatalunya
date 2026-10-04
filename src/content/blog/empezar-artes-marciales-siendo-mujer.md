@@ -1,5 +1,5 @@
 ---
-titulo: "Empezar Artes Marciales Siendo Mujer: Qué Esperar"
+titulo: "Artes marciales para mujeres: cómo empezar y qué elegir"
 descripcion: "Grupo mixto o solo de mujeres, cómo es el primer día, qué pasa en el trabajo por parejas y qué preguntar al centro antes de apuntarte en Cataluña."
 h1: "Empezar artes marciales siendo mujer: grupo mixto o solo de mujeres, y qué preguntar"
 intro: "La duda real casi nunca es si puedes. Es si vas a ser la única, si te van a tratar distinto y con quién entrenas el primer día. Los grupos solo de mujeres existen, pero en las fichas del directorio ({{centros}} centros en {{comarcas}} comarcas) se mencionan muy poco, así que conviene saber qué ofrece cada formato y cómo averiguarlo por teléfono."

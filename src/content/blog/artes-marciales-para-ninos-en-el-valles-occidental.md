@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales para Niños en el Vallès Occidental"
+titulo: "Artes marciales para niños en el Vallès Occidental"
 descripcion: "Artes marciales para niños en Sabadell, Terrassa y el Vallès Occidental: qué hay en cada ciudad, qué elegir por edad y qué preguntar al centro."
 h1: "Artes marciales para niños en el Vallès Occidental: Sabadell, Terrassa y alrededores"
 intro: "En el Vallès Occidental constan {{c:valles-occidental}} centros, y {{ic:valles-occidental}} anuncian clases para niños. Con tanta oferta, la decisión de una familia de Sabadell, Terrassa, Sant Cugat o Rubí no es qué disciplina existe, sino cuál cae a mano a la hora de la salida del colegio y con qué grupo infantil. Esta guía te ayuda a mirar la comarca con ese criterio."

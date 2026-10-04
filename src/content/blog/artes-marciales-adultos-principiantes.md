@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales para Adultos Principiantes: Guía"
+titulo: "Artes marciales para adultos: cómo empezar desde cero"
 descripcion: "Cómo empezar artes marciales siendo adulto y sin experiencia: qué disciplina encaja con tu objetivo, qué esperar el primer mes y cómo elegir centro."
 h1: "Artes marciales para adultos principiantes: cómo empezar y qué elegir"
 intro: "Si tienes 30, 40 o 50 años y nunca has pisado un tatami, la duda casi nunca es si puedes, sino por dónde empezar sin hacer el ridículo ni lesionarte. Esta guía ordena las disciplinas por lo que buscas conseguir, cuenta cómo suele ser el primer mes y termina con un dato práctico: en el directorio constan {{centros}} centros en {{comarcas}} comarcas, y la oferta de cada disciplina cambia mucho de una zona a otra."

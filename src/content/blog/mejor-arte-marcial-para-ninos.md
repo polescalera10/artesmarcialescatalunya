@@ -1,5 +1,5 @@
 ---
-titulo: "Mejor Arte Marcial para Niños: Cómo Elegir Bien"
+titulo: "Artes marciales para niños: cuál es la mejor y cómo elegir"
 descripcion: "Cuál es la mejor arte marcial para niños: comparativa de karate, judo y taekwondo, con criterios por edad y carácter y checklist para evaluar el centro."
 h1: "Cuál es la mejor arte marcial para niños: cómo elegir por edad y carácter"
 intro: "Elegir la arte marcial de tu hijo confunde porque hay muchas opciones y todas se anuncian como la mejor. Comparamos las tres entradas infantiles más habituales, karate, judo y taekwondo, y te damos criterios por edad, carácter y objetivo. En Cataluña constan {{infantil}} centros cuya fuente pública anuncia clases para niños, así que la oferta suele estar más cerca de lo que parece."

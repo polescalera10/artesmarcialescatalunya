@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales sin Competir: Cómo Entrenar sin Torneos"
+titulo: "Artes marciales sin competir: cómo entrenar sin torneos"
 descripcion: "Se puede entrenar artes marciales sin competir nunca. Qué disciplinas empujan más al circuito, dos preguntas para saberlo y cómo buscar grupo en tu zona."
 h1: "Artes marciales sin competir: se puede, y así detectas un grupo donde competir es opcional"
 intro: "Es el miedo silencioso de mucha gente que ya está convencida de apuntarse: acabar en un sitio donde todos compiten menos tú. Aquí va qué disciplinas empujan más hacia el torneo, qué preguntar en la primera llamada y qué se pierde de verdad si nunca subes a un tatami de competición. En el directorio constan {{d:defensa-personal}} centros con defensa personal, un formato sin circuito competitivo propio, repartidos en {{dcom:defensa-personal}} comarcas."

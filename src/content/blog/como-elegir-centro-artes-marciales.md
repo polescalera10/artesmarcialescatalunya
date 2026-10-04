@@ -1,5 +1,5 @@
 ---
-titulo: "Cómo Elegir un Centro de Artes Marciales"
+titulo: "Cómo elegir un centro de artes marciales"
 descripcion: "Cómo elegir un centro de artes marciales o gimnasio: instructor, grupos, contacto, condiciones, seguro, horario y señales de alarma."
 h1: "Cómo elegir un centro de artes marciales: ocho comprobaciones antes de apuntarte"
 intro: "Casi nadie abandona por haber elegido mal el estilo. Abandona por haber acabado en el grupo que no le tocaba o atado a unas condiciones que no entendió. Esta es la lista de ocho comprobaciones que se responden con una visita y una llamada, válida para cualquier disciplina y cualquier comarca. Y un paso previo para llegar a ella: en el directorio constan {{centros}} centros en {{comarcas}} comarcas, cada uno con su fuente pública."

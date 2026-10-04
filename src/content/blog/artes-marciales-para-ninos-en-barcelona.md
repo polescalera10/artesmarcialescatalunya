@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales para Niños en Barcelona: Guía"
+titulo: "Artes marciales para niños en Barcelona: guía"
 descripcion: "Artes marciales para niños en Barcelona: cómo elegir extraescolar entre tanta oferta, qué preguntar al centro y qué señales de alarma descartan un grupo."
 h1: "Artes marciales para niños en Barcelona: cómo elegir extraescolar entre tanta oferta"
 intro: "En Barcelona el problema no es encontrar una clase, es descartar bien. En el directorio constan {{m:barcelona}} centros de la ciudad y {{im:barcelona}} tienen una fuente pública que anuncia clases para niños. Esta guía sirve para quedarte con dos o tres grupos y elegir entre ellos con criterio."

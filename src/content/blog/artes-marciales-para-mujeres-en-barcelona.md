@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales para Mujeres en Barcelona: Guía"
+titulo: "Artes marciales para mujeres en Barcelona: guía"
 descripcion: "Artes marciales para mujeres en Barcelona: qué disciplina elegir, grupo mixto o femenino, qué preguntar al centro y qué señales de alarma vigilar."
 h1: "Artes marciales para mujeres en Barcelona: cómo elegir disciplina y grupo"
 intro: "No hay artes marciales de mujeres y artes marciales de hombres. Lo que cambia es el grupo, el instructor y el ambiente en el que entrenas. En Barcelona constan {{m:barcelona}} centros en el directorio, así que hay con qué comparar. Esta guía te ayuda a elegir y a descartar."

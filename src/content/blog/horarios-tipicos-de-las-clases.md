@@ -1,5 +1,5 @@
 ---
-titulo: "Horarios de las Clases de Artes Marciales: Qué Preguntar"
+titulo: "Horarios de las clases de artes marciales: qué preguntar"
 descripcion: "Cómo suelen repartirse las franjas infantil y de adultos, por qué no publicamos tablas de horarios y las seis preguntas que te resuelven el tuyo."
 h1: "Horarios de las clases de artes marciales: cómo suelen ser y qué preguntar antes de apuntarte"
 intro: "Los grupos infantiles suelen ocupar la tarde, tras el colegio, y los de adultos arrancan más tarde, cuando se sale del trabajo. Con eso no has resuelto nada, porque lo que decide si encuentras un horario que te sirva no es la disciplina: es cuántos centros constan en tu municipio. El directorio recoge {{centros}} centros, y ninguno con su horario, a propósito."

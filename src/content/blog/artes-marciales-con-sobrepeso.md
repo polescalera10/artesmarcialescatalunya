@@ -1,5 +1,5 @@
 ---
-titulo: "Empezar Artes Marciales con Sobrepeso: Cómo Plantearlo"
+titulo: "Empezar artes marciales con sobrepeso: cómo plantearlo"
 descripcion: "Empezar artes marciales con sobrepeso: qué formatos permiten regular el impacto, cómo encontrar un grupo donde estés cómodo y qué preguntar antes de ir."
 h1: "Empezar artes marciales con sobrepeso: qué formato elegir y cómo encontrar un grupo donde estés cómodo"
 intro: "La duda casi nunca es karate o boxeo. Es si vas a poder seguir el ritmo de la clase y si vas a sentirte observado. Aquí va el criterio que más ordena la elección, el impacto sobre las articulaciones, y qué preguntar al centro antes de presentarte. En el directorio constan {{d:boxeo}} centros con boxeo y {{d:jiu-jitsu-brasileno}} con jiu-jitsu brasileño, y la oferta no está repartida igual en todas las comarcas."

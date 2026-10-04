@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales para Perder Peso: Qué Esperar de Verdad"
+titulo: "Artes marciales para perder peso: qué esperar de verdad"
 descripcion: "Las artes marciales ayudan a moverse con constancia, no hacen milagros. Qué disciplinas dan más ritmo, por qué el trayecto pesa y qué promesas evitar."
 h1: "Artes marciales para perder peso: qué esperar de verdad y cómo elegir"
 intro: "La tabla de calorías por hora es el dato menos útil de esta decisión. Lo que la ordena de verdad es cuánto te cuesta llegar a la sala un martes de enero, y eso depende de la disciplina que elijas y de dónde vivas: en el directorio constan {{d:kickboxing}} centros con kickboxing y {{d:boxeo}} con boxeo, las dos opciones de ritmo más sostenido, pero no están en todas las comarcas."

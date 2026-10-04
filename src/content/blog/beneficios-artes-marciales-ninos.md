@@ -1,5 +1,5 @@
 ---
-titulo: "Beneficios de las Artes Marciales para Niños: Lo Real"
+titulo: "Beneficios de las artes marciales para niños: lo real"
 descripcion: "Qué aportan de verdad las artes marciales a un niño y qué es marketing de escuela: coordinación, turnos, frustración y lo que no hay que esperar."
 h1: "Beneficios de las artes marciales para niños: lo que se nota y lo que es marketing"
 intro: "Disciplina, valores, respeto, seguridad en uno mismo: la lista de siempre no ayuda a decidir nada. Aquí separamos lo que aporta el formato de una clase infantil, que es concreto y se ve en unos meses, de lo que se promete y depende del niño, de la familia y del grupo. En Cataluña constan {{infantil}} centros de {{centros}} cuya fuente pública anuncia clases para niños, así que la decisión es más práctica que teórica."

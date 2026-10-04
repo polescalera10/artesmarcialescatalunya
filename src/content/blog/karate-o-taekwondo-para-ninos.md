@@ -1,5 +1,5 @@
 ---
-titulo: "Karate o Taekwondo para Niños: Cuál Elegir"
+titulo: "Karate o taekwondo: diferencias y cuál elegir para niños"
 descripcion: "Karate o taekwondo para niños: qué cambia en la clase, por edades, cinturones y carácter del niño, y cómo decidir con datos del directorio de Cataluña."
 h1: "Karate o taekwondo para niños: cuál elegir según la edad y el carácter"
 intro: "Es la duda más repetida entre familias: ¿karate o taekwondo? Las dos son buenas opciones, con énfasis distintos, y no hay una respuesta única. La buena noticia es que las dos están muy extendidas: constan {{d:karate}} centros con karate y {{d:taekwondo}} con taekwondo en el directorio, así que casi seguro tienes ambas a tiro."

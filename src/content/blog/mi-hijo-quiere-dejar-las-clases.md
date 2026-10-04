@@ -1,5 +1,5 @@
 ---
-titulo: "Mi Hijo Quiere Dejar las Artes Marciales: Qué Hacer"
+titulo: "Mi hijo quiere dejar las artes marciales: qué hacer"
 descripcion: "Cómo distinguir el bajón normal del problema real, qué preguntar al niño y al instructor, y qué cambiar (grupo, disciplina o centro) antes de la baja."
 h1: "Mi hijo quiere dejar las artes marciales: qué hacer antes de darle de baja"
 intro: "Que lo diga una vez un martes de lluvia no significa nada. Que lo repita cada semana desde hace mes y medio sí, y entonces entre seguir y darle de baja hay tres movimientos intermedios que casi nadie se plantea: cambiar de grupo, de disciplina o de centro. Cuáles tienes a mano depende de dónde vivas: el directorio recoge {{centros}} centros en {{comarcas}} comarcas, y la oferta no es igual en todas."

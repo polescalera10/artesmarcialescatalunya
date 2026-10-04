@@ -1,5 +1,5 @@
 ---
-titulo: "Judo o Jiu-Jitsu Brasileño: Diferencias Reales"
+titulo: "Judo o jiu-jitsu brasileño: diferencias reales"
 descripcion: "Judo o jiu-jitsu brasileño: de pie o en el suelo, reglamento, cinturones, qué le exige cada uno al cuerpo y cuál encaja contigo según tu perfil y tu zona."
 h1: "Judo o jiu-jitsu brasileño: cuál elegir y en qué se diferencian de verdad"
 intro: "Las dos se entrenan con kimono y las dos salen de la misma raíz japonesa, así que se confunden constantemente. Pero una empieza de pie y busca la proyección, y la otra vive en el suelo y busca la sumisión. Aquí va lo que cambia en una clase cualquiera, y un dato práctico: en el directorio constan {{d:judo}} centros con judo y {{d:jiu-jitsu-brasileno}} con jiu-jitsu brasileño."

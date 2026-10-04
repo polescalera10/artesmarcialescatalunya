@@ -1,5 +1,5 @@
 ---
-titulo: "¿Se Hacen Daño los Niños en Artes Marciales?"
+titulo: "¿Se hacen daño los niños en artes marciales?"
 descripcion: "Qué se hace de verdad un niño en artes marciales, cómo se introduce el contacto en cada disciplina y qué comprobar en una clase de prueba."
 h1: "¿Se hacen daño los niños en artes marciales? Lo que pasa de verdad en una clase"
 intro: "Es la objeción que más repiten las familias, y casi siempre se contesta con marketing de escuela. Aquí va lo que ocurre en una clase infantil, cómo se introduce el contacto en cada disciplina y qué se comprueba en una visita de veinte minutos. En el directorio constan {{infantil}} centros cuya fuente anuncia grupo infantil, de {{centros}} en total."

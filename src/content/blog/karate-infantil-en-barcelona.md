@@ -1,5 +1,5 @@
 ---
-titulo: "Karate Infantil en Barcelona: Guía para Padres"
+titulo: "Karate infantil en Barcelona: guía para padres"
 descripcion: "Karate infantil en Barcelona: estilos, katas y combate, cinturones y exámenes, qué preguntar al centro y cómo encontrar clases de karate para niños."
 h1: "Karate infantil en Barcelona: estilos, cinturones y qué preguntar antes de apuntarte"
 intro: "En Barcelona constan {{dm:karate:barcelona}} centros con karate de los {{m:barcelona}} de la ciudad. Tanta oferta tiene trampa: bajo la misma palabra caben estilos y enfoques distintos. Esta guía te ayuda a distinguirlos y a elegir grupo."

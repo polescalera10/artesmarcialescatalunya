@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales o Fútbol: Qué Extraescolar Elegir"
+titulo: "Artes marciales o fútbol: qué extraescolar elegir"
 descripcion: "Artes marciales o fútbol como extraescolar: deporte de equipo o individual en grupo, calendario, perfil de niño y cómo decidirlo con una clase de prueba."
 h1: "Artes marciales o fútbol: cómo elegir extraescolar sin arrepentirse"
 intro: "La comparación útil no es fútbol contra artes marciales por sus virtudes, sino deporte de equipo contra deporte individual practicado en grupo. Cambia lo que el niño se lleva, cambia el compromiso de la familia y cambia qué pasa cuando no destaca. Y hay donde buscar: en el directorio constan {{infantil}} centros cuya fuente anuncia clases para niños."

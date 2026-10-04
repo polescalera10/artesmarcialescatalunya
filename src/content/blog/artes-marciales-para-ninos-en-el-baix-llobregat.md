@@ -1,5 +1,5 @@
 ---
-titulo: "Artes Marciales para Niños en el Baix Llobregat"
+titulo: "Artes marciales para niños en el Baix Llobregat"
 descripcion: "Artes marciales para niños en Cornellà, Castelldefels, Viladecans y el Baix Llobregat: dónde está la oferta, qué elegir por edad y cómo juzgar el contacto."
 h1: "Artes marciales para niños en el Baix Llobregat: de Cornellà a Castelldefels"
 intro: "El Baix Llobregat reúne {{c:baix-llobregat}} centros en el directorio y {{ic:baix-llobregat}} anuncian clases para niños. La particularidad de la comarca es que mucha de esa oferta viene en centros con varias disciplinas de contacto, así que el trabajo del padre no es descubrir qué existe, sino entender qué se enseña de verdad a un niño y con cuánto contacto."
