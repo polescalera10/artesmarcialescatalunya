@@ -1,4 +1,5 @@
 ---
+import Marca from './Marca.astro';
 import { L, url, type Lang } from '../lib/i18n';
 import { comarcasConCentros } from '../lib/centros';
 import { getComarca } from '../lib/geo';
@@ -34,7 +35,7 @@ const empieza = (p: string) => actual.startsWith(p);
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16 gap-3">
       <a href={url.home(lang)} class="flex items-center gap-2 shrink-0">
-        <span class="text-brand-redtext font-black text-xl tracking-tight" aria-hidden="true">AM</span>
+        <Marca size={32} />
         <span class="font-bold text-white text-sm leading-tight">
           {L(lang, 'Artes Marciales', 'Arts Marcials')} <span class="text-brand-redtext">Catalunya</span><br />
           <span class="text-brand-muted font-normal hidden sm:inline">{L(lang, 'El directorio verificado', 'El directori verificat')}</span>

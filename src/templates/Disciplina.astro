@@ -9,6 +9,7 @@ import Migas from '../components/Migas.astro';
 import ListaCentros from '../components/ListaCentros.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
+import IconoGrupo from '../components/IconoGrupo.astro';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang, minus } from '../lib/i18n';
 import { centrosConDisciplina, verificados } from '../lib/centros';
@@ -87,7 +88,7 @@ const schema = {
     <Migas lang={lang} items={[{ nombre: L(lang, 'Disciplinas', 'Disciplines'), href: url.disciplinas(lang) }, { nombre: nd, href: url.disciplina(lang, disciplina) }]} />
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
-      <p class="text-xs uppercase tracking-wide text-brand-redtext font-semibold mb-3">{GRUPOS[dis.grupo][lang]}</p>
+      <p class="flex items-center gap-2 text-xs uppercase tracking-wide text-brand-redtext font-semibold mb-3"><IconoGrupo grupo={dis.grupo} class="w-4 h-4" />{GRUPOS[dis.grupo][lang]}</p>
       <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">{L(lang, `${nd} en Cataluña`, `${nd} a Catalunya`)}</h1>
       <p class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed">{intro}</p>
     </section>

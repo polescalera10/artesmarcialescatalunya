@@ -1,0 +1,21 @@
+---
+// Icono de línea por familia de disciplinas (Disciplina['grupo']). Trazo con
+// currentColor: toma el color del texto que lo rodea.
+interface Props { grupo: string; class?: string }
+const { grupo, class: cls = 'w-5 h-5' } = Astro.props;
+const P: Record<string, string> = {
+  // guante de boxeo
+  golpeo: 'M7 11a5 5 0 0 1 10 0v3.5A3.5 3.5 0 0 1 13.5 18H9a2 2 0 0 1-2-2zM7 13.5h5.5M9 18v3h6.5v-3.2',
+  // octógono
+  mixto: 'M8.5 3h7L21 8.5v7L15.5 21h-7L3 15.5v-7z',
+  // dos manos agarradas: anillas enlazadas
+  agarre: 'M9 9a4 4 0 1 0 0 8M15 7a4 4 0 1 1 0 8M9 9h6M9 17h6',
+  // cinturón anudado
+  tradicional: 'M3 10h18v4H3zM10 8.5h4v7h-4zM11 15.5 9 21M13 15.5 15 21',
+  // círculo yin-yang
+  interno: 'M12 3a9 9 0 1 0 0 18 4.5 4.5 0 0 1 0-9 4.5 4.5 0 0 0 0-9zM12 3a9 9 0 0 1 0 18',
+  // escudo
+  autodefensa: 'M12 3l7 3v6c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6z',
+};
+---
+<svg viewBox="0 0 24 24" class={cls} fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d={P[grupo] ?? P.tradicional} /></svg>

@@ -1,0 +1,12 @@
+---
+// Símbolo de la marca: cinturón anudado sobre cuadrado rojo. Mismo dibujo que
+// public/favicon.svg y public/logo.png (512 px, para el schema Organization).
+interface Props { size?: number; class?: string }
+const { size = 32, class: cls } = Astro.props;
+---
+<svg width={size} height={size} viewBox="0 0 32 32" class={cls} aria-hidden="true" focusable="false">
+  <rect width="32" height="32" rx="8" fill="#DC2626" />
+  <rect x="4" y="12" width="24" height="5" rx="1.5" fill="#fff" />
+  <path d="M14.2 17.2 11 26.5M17.8 17.2 21 26.5" stroke="#fff" stroke-width="2.6" stroke-linecap="round" />
+  <rect x="12.5" y="10" width="7" height="9" rx="2" fill="#991B1B" stroke="#fff" stroke-width="1.6" />
+</svg>
