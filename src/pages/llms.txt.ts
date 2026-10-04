@@ -2,7 +2,7 @@
 import type { APIRoute } from 'astro';
 import { SITE } from '../lib/site';
 import { url } from '../lib/i18n';
-import { CENTROS, comarcasConCentros, centrosDeComarca, disciplinasPresentes } from '../lib/centros';
+import { CENTROS, comarcasConCentros, centrosDeComarca, disciplinasPresentes, verificados } from '../lib/centros';
 import { getComarca } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { rutasDisciplina } from '../lib/rutas';
@@ -14,7 +14,7 @@ export const GET: APIRoute = async () => {
   const conPagina = new Set(rutasDisciplina().map(r => r.disciplina));
   const txt = `# ${SITE.name}
 
-> Directorio independiente de ${CENTROS.length} centros de artes marciales en ${comarcasConCentros().length} comarcas de Cataluña. Cada ficha procede de una fuente pública (web oficial del centro, registro de clubs de una federación catalana o directorio municipal) y lleva su fecha de verificación. Orden alfabético, sin valoraciones, precios ni horarios. Castellano en la raíz y catalán en /ca/.
+> Directorio independiente de ${verificados(CENTROS).length} centros de artes marciales verificados en ${comarcasConCentros().length} comarcas de Cataluña (y ${CENTROS.length - verificados(CENTROS).length} clubs del Registre d'Entitats Esportives sin actividad confirmada, marcados como tales). Cada ficha procede de una fuente pública (web oficial del centro, registro de clubs de una federación catalana, directorio municipal o registro de la Generalitat) y lleva su fecha de verificación. Orden alfabético, sin valoraciones, precios ni horarios. Castellano en la raíz y catalán en /ca/.
 
 ## Directorio
 
@@ -25,7 +25,7 @@ export const GET: APIRoute = async () => {
 
 ## Comarcas
 
-${comarcasConCentros().map(c => `- [${getComarca(c)!.nombre}](${SITE.url}${url.comarca('es', c)}): ${centrosDeComarca(c).length} centros`).join('\n')}
+${comarcasConCentros().map(c => `- [${getComarca(c)!.nombre}](${SITE.url}${url.comarca('es', c)}): ${verificados(centrosDeComarca(c)).length} centros verificados`).join('\n')}
 
 ## Disciplinas
 
