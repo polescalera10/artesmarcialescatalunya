@@ -7,8 +7,8 @@
 import { L, url, type Lang } from '../lib/i18n';
 import { nombreDisciplina } from '../lib/disciplinas';
 
-interface Props { lang: Lang }
-const { lang } = Astro.props;
+interface Props { lang: Lang; destacado?: boolean }
+const { lang, destacado = false } = Astro.props;
 
 const DATOS = [
   // slug, edad mínima habitual, contacto al empezar (0 bajo, 1 medio), pesos: defensa, forma, tradición, competir
@@ -45,10 +45,14 @@ const preguntas = [
 const base = { disc: url.disciplina(lang, 'X'), centros: url.centros(lang) };
 ---
 
-<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" id="test">
-  <div class="bg-brand-gray border border-brand-border rounded-2xl p-5 sm:p-8">
-    <h2 class="text-2xl font-bold text-white">{L(lang, '¿Qué arte marcial te va?', 'Quin art marcial et va?')}</h2>
-    <p class="text-sm text-brand-muted mt-1">{L(lang, 'Tres preguntas y te proponemos por dónde empezar. Es una orientación general: la clase de prueba decide.', 'Tres preguntes i et proposem per on començar. És una orientació general: la classe de prova decideix.')}</p>
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 scroll-mt-20" id="test">
+  <div class:list={['rounded-2xl', destacado ? 'p-[1px] bg-linear-to-br from-brand-red via-brand-red/40 to-brand-border shadow-2xl shadow-brand-red/10' : '']}>
+  <div class:list={['rounded-2xl p-5 sm:p-8', destacado ? 'bg-linear-to-br from-[#1a0d0d] via-brand-gray to-brand-gray' : 'bg-brand-gray border border-brand-border']}>
+    {destacado && <p class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand-redtext bg-brand-red/10 border border-brand-red/30 rounded-full px-3 py-1 mb-3">{L(lang, 'Test · 3 preguntas · 30 segundos', 'Test · 3 preguntes · 30 segons')}</p>}
+    <h2 class:list={['font-black text-white', destacado ? 'text-3xl sm:text-4xl leading-tight' : 'text-2xl font-bold']}>{destacado ? L(lang, '¿No sabes qué arte marcial elegir?', 'No saps quin art marcial triar?') : L(lang, '¿Qué arte marcial te va?', 'Quin art marcial et va?')}</h2>
+    <p class:list={['text-brand-muted mt-2', destacado ? 'text-base sm:text-lg max-w-2xl' : 'text-sm']}>{destacado
+      ? L(lang, 'Dinos para quién es, cuánto contacto te apetece y qué buscas. Te decimos por qué disciplina empezar y qué centros la tienen cerca. Es una orientación: la clase de prueba decide.', 'Digues-nos per a qui és, quant contacte et ve de gust i què busques. Et diem per quina disciplina començar i quins centres la tenen a prop. És una orientació: la classe de prova decideix.')
+      : L(lang, 'Tres preguntas y te proponemos por dónde empezar. Es una orientación general: la clase de prueba decide.', 'Tres preguntes i et proposem per on començar. És una orientació general: la classe de prova decideix.')}</p>
     <form class="grid md:grid-cols-3 gap-5 mt-6" data-recomendador>
       {preguntas.map(p => (
         <fieldset>
@@ -65,6 +69,7 @@ const base = { disc: url.disciplina(lang, 'X'), centros: url.centros(lang) };
       ))}
     </form>
     <ol class="grid md:grid-cols-3 gap-4 mt-6" data-resultado aria-live="polite"></ol>
+  </div>
   </div>
 </section>
 

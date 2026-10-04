@@ -1,5 +1,6 @@
 ---
 import IconoGrupo from '../components/IconoGrupo.astro';
+import Recomendador from '../components/Recomendador.astro';
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -85,12 +86,19 @@ const schema = {
         <input id="q" name="q" type="search" placeholder={L(lang, 'Municipio, disciplina o nombre del centro', 'Municipi, disciplina o nom del centre')} class="flex-1 bg-brand-gray border border-brand-border rounded-lg px-4 py-3 text-white placeholder-brand-muted focus:outline-hidden focus:border-brand-red" />
         <button class="bg-brand-red hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg">{L(lang, 'Buscar', 'Cercar')}</button>
       </form>
+      <a href="#test" class="mt-5 inline-flex items-center gap-3 rounded-full border border-brand-red/40 bg-brand-red/10 hover:bg-brand-red/20 pl-2 pr-4 py-2 text-sm text-white transition-colors" data-evento="abrir_test">
+        <span class="grid place-items-center w-7 h-7 rounded-full bg-brand-red text-white text-xs font-bold" aria-hidden="true">?</span>
+        <span><strong class="font-semibold">{L(lang, '¿No sabes cuál elegir?', 'No saps quina triar?')}</strong> <span class="text-brand-muted">{L(lang, 'Haz el test en 30 segundos', 'Fes el test en 30 segons')}</span></span>
+        <span aria-hidden="true">↓</span>
+      </a>
     </section>
+
+    <Recomendador lang={lang} destacado />
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div class="flex flex-wrap items-baseline justify-between gap-3 mb-5">
         <h2 class="text-2xl font-bold text-white">{L(lang, 'Por disciplina', 'Per disciplina')}</h2>
-        <a href={`${url.disciplinas(lang)}#test`} class="text-sm text-brand-redtext hover:text-red-400">{L(lang, '¿No sabes cuál elegir? Haz el test', 'No saps quina triar? Fes el test')} →</a>
+        <a href="#test" class="text-sm text-brand-redtext hover:text-red-400">{L(lang, '¿No sabes cuál elegir? Haz el test', 'No saps quina triar? Fes el test')} →</a>
       </div>
       <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
         {disc.filter(d => conPagina.has(d.slug)).map(d => (
