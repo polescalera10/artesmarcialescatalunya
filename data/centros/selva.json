@@ -114,6 +114,7 @@
    "judo",
    "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Ciutat Esportiva de Blanes (Sala Gym-5) c/ Mas Cuní, 43., Blanes",
   "web": "http://www.judobasic.net",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -370,6 +371,7 @@
    "grappling",
    "mma"
   ],
+  "infantil": true,
   "direccion": "Travesera de les tres creus, 10",
   "web": "https://judonovaunio.blogspot.com/",
   "fuente": "https://judonovaunio.blogspot.com/p/informacion-general.html",

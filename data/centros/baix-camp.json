@@ -201,6 +201,7 @@
   "disciplinas": [
    "judo"
   ],
+  "infantil": true,
   "direccion": "Angel Guimerà, 3, Cambrils",
   "web": "http://dojocambrils.blogspot.com/",
   "fuente": "http://dojocambrils.blogspot.com/",
@@ -716,6 +717,7 @@
    "Karate goshin",
    "Autodefensa femenina"
   ],
+  "infantil": true,
   "direccion": "Av. dels Països Catalans, 22, 43206, Reus, Tarragona",
   "web": "https://gimnassiluets.com/",
   "fuente": "https://gimnassiluets.com/",

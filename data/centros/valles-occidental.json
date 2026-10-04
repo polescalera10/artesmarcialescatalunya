@@ -709,6 +709,7 @@
   "disciplinas": [
    "boxeo"
   ],
+  "infantil": true,
   "direccion": "C/ Industria 35 (entrada por calle Milá 6), 08291 Ripollet",
   "web": "https://zonadecombate.es/",
   "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
@@ -908,6 +909,7 @@
    "judo",
    "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Av. Via de la Plata, s/n (Complex Esportiu), Badia del Vallès",
   "web": "http://judobadia.blogspot.com.es/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -1233,6 +1235,7 @@
   "otras": [
    "Karate kyokushinkai"
   ],
+  "infantil": true,
   "direccion": "Carrer Gorina i Pujol 113",
   "web": "https://www.empaladorfighteam.es/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=EFT",
@@ -2771,6 +2774,7 @@
   "disciplinas": [
    "karate"
   ],
+  "infantil": true,
   "web": "https://senshi-dojo.es/",
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
   "fuenteTipo": "federacion",

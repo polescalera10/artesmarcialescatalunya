@@ -131,6 +131,7 @@
    "jiu-jitsu-brasileno",
    "kickboxing"
   ],
+  "infantil": true,
   "direccion": "Carrer de Robrenyo, 63 - 08014 - Barcelona",
   "web": "https://www.aranhabarcelona.com/",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ARANHA",
@@ -842,6 +843,7 @@
   "disciplinas": [
    "judo"
   ],
+  "infantil": true,
   "direccion": "C/ Entença, 102. BARCELONA",
   "web": "https://xfit.com.es/artes-marciales/judo/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -1786,6 +1788,7 @@
   "disciplinas": [
    "judo"
   ],
+  "infantil": true,
   "direccion": "C/ Eduard Maristany, 71 - 08912 - BADALONA",
   "web": "https://www.cembdn.es/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -3856,6 +3859,7 @@
    "mma",
    "grappling"
   ],
+  "infantil": true,
   "direccion": "Calle Entenza 218,",
   "web": "https://www.flexfighting.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=FFA",
@@ -3921,6 +3925,7 @@
   "disciplinas": [
    "boxeo"
   ],
+  "infantil": true,
   "direccion": "C/Taulat 93, 08005 Barcelona",
   "web": "https://www.gallegoprada.com/",
   "fuente": "https://www.gallegoprada.com/",
@@ -3935,6 +3940,7 @@
   "disciplinas": [
    "boxeo"
   ],
+  "infantil": true,
   "direccion": "C/Montseny 182, 08904 L’Hospitalet de Llobregat",
   "web": "https://www.gallegoprada.com/",
   "fuente": "https://www.gallegoprada.com/",
@@ -4158,6 +4164,7 @@
    "judo",
    "taekwondo"
   ],
+  "infantil": true,
   "direccion": "C/ General Prim, 48, baix 1 A. L'HOSPITALET DE LLOBREGAT",
   "web": "http://www.judoclubhospitalet.com/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -4347,6 +4354,7 @@
    "Kapap",
    "Clases en el CEM Espronceda"
   ],
+  "infantil": true,
   "direccion": "Carrer d'Espronceda, 326, 08027",
   "web": "https://krav360.com/",
   "fuente": "https://krav360.com/centro-krav360/sant-andreu-nou-barris/",
@@ -4969,6 +4977,7 @@
   "otras": [
    "Dentro de VivaGym Diagonal"
   ],
+  "infantil": true,
   "direccion": "Carrer de Mallorca 318, 08037, Barcelona",
   "web": "https://theboxerclub.es/clubs/boxer-club-diagonal/",
   "fuente": "https://theboxerclub.es/clubs/boxer-club-diagonal/",
@@ -5045,6 +5054,7 @@
    "grappling",
    "lucha"
   ],
+  "infantil": true,
   "direccion": "C/ Entença 218, local 2",
   "web": "https://www.unionfteam.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=UFT",

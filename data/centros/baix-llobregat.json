@@ -46,6 +46,7 @@
    "grappling",
    "mma"
   ],
+  "infantil": true,
   "direccion": "C/florida 10    08940",
   "web": "https://www.69monos.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=MONO",
@@ -120,6 +121,7 @@
   "disciplinas": [
    "judo"
   ],
+  "infantil": true,
   "direccion": "C/ Esport, 9, Esplugues de Llobregat",
   "web": "https://www.judodojotamashi.com/",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -511,6 +513,7 @@
    "defensa-personal",
    "jiu-jitsu-japones"
   ],
+  "infantil": true,
   "direccion": "C/ Pere Alvarez, 39,local 7, Sant Feliu de Llobregat",
   "web": "http://www.judostfeliu.com",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -989,6 +992,7 @@
    "judo",
    "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "C/ Felip Canalies, s/n, Molins de Rei",
   "web": "http://www.clubjudomolinsderei.cat",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -1596,6 +1600,7 @@
    "defensa-personal",
    "taekwondo"
   ],
+  "infantil": true,
   "direccion": "C. de l' Ave Maria, 7-9, Esplugues de Llobregat",
   "web": "https://www.judo-tao.com/",
   "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
@@ -1648,6 +1653,7 @@
   "disciplinas": [
    "judo"
   ],
+  "infantil": true,
   "direccion": "General Palafox, 25., Castelldefels",
   "web": "http://www.gimnasiodanes.es",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -2259,6 +2265,7 @@
    "boxeo",
    "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Carrer Miguel Hernández Nº22, Viladecans–barcelona",
   "web": "https://ryutaiteamcalderon.es/",
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
@@ -2602,6 +2609,7 @@
    "grappling",
    "mma"
   ],
+  "infantil": true,
   "direccion": "Av. Constitución 56, 08860 Castelldefels",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=NEBARI",
   "fuenteTipo": "federacion",

@@ -88,6 +88,7 @@
    "Jodo",
    "Nihon Tai-jitsu"
   ],
+  "infantil": true,
   "direccion": "C. del Mar 47-49, 43004 Tarragona",
   "web": "https://www.artsmarcialstarragona.org/",
   "fuente": "https://www.artsmarcialstarragona.org/",
@@ -486,6 +487,7 @@
    "defensa-personal",
    "kickboxing"
   ],
+  "infantil": true,
   "direccion": "C/ San Auguri, 5., TARAGONA",
   "web": "http://www.dojotarraco.es",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -514,6 +516,7 @@
   "disciplinas": [
    "judo"
   ],
+  "infantil": true,
   "direccion": "C/ Onze de setembre, 3 43830 TORREDEMBARRA",
   "web": "http://www.dojohachi.org",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",

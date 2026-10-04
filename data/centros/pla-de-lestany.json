@@ -74,6 +74,7 @@
    "lucha",
    "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Carrerera Medinyà 2",
   "web": "https://www.defensapersonalgirones.com",
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=CEGDP",
@@ -89,6 +90,7 @@
    "judo",
    "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "C/ Mossen Jacint Verdaguer, 4. CORNELLA DE TERRI",
   "web": "https://www.judovalldelterri.cat",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",

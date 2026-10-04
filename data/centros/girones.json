@@ -8,6 +8,7 @@
    "judo",
    "defensa-personal"
   ],
+  "infantil": true,
   "direccion": "Nord, 13, Girona",
   "web": "http://www.gironajudo.com",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
@@ -280,6 +281,7 @@
    "kickboxing",
    "muay-thai"
   ],
+  "infantil": true,
   "direccion": "Carrer de la Maçana, 44, 17006 Girona",
   "web": "https://oswaldgym.com/",
   "fuente": "https://oswaldgym.com/",
@@ -392,6 +394,7 @@
   "disciplinas": [
    "judo"
   ],
+  "infantil": true,
   "direccion": "Av Josep Marti, 2 - PAvello d'Esports Palau- 17003 - Girona",
   "web": "http://www.judopalau.com",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
