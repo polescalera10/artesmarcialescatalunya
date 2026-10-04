@@ -156,6 +156,7 @@ const tipos = modo === 'info'
           (window as any).gtag?.('event', 'generate_lead', { form_tipo: datos.tipo, centro: datos.centro || '' });
           return;
         }
+        if (r.status === 429) return mostrar(t('Has enviado varios mensajes seguidos. Espera unos minutos y vuelve a probar.', 'Has enviat diversos missatges seguits. Espera uns minuts i torna-ho a provar.'), false);
         if (r.status !== 503) throw new Error(String(r.status));
       } catch {
         // cae al plan B

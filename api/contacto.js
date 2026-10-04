@@ -11,6 +11,21 @@ const REMITENTE = 'Artes Marciales Catalunya <formulario@artesmarciales.cat>';
 const MAX = { nombre: 120, email: 160, centro: 160, municipio: 120, web: 300, tipo: 40, mensaje: 4000, pagina: 300, reenvio: 5 };
 const TIPOS = new Set(['alta', 'correccion', 'promocion', 'web', 'seo', 'otro', 'consulta', 'info']);
 
+// Límite por IP: 5 envíos cada 10 minutos. En memoria de la instancia (Vercel
+// reutiliza instancias), suficiente para frenar ráfagas de un bot sin añadir
+// una base de datos; la trampa empresa_web filtra el resto.
+const VENTANA = 10 * 60 * 1000;
+const MAX_ENVIOS = 5;
+const envios = new Map();
+function limitado(ip) {
+  const ahora = Date.now();
+  const lista = (envios.get(ip) || []).filter(t => ahora - t < VENTANA);
+  lista.push(ahora);
+  envios.set(ip, lista);
+  if (envios.size > 5000) for (const [k, v] of envios) if (ahora - v[v.length - 1] > VENTANA) envios.delete(k);
+  return lista.length > MAX_ENVIOS;
+}
+
 const limpiar = (v, max) => String(v ?? '').replace(/[\u0000-\u001f\u007f]/g, ' ').trim().slice(0, max);
 const esc = s => s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -21,8 +36,15 @@ export default async function handler(req, res) {
   }
 
   const origen = req.headers.origin || '';
-  if (origen && !/^https:\/\/(www\.)?artesmarciales\.cat$|^https:\/\/[a-z0-9-]+\.vercel\.app$|^http:\/\/localhost(:\d+)?$/.test(origen)) {
+  // Solo el propio dominio (y localhost en desarrollo): antes valía cualquier *.vercel.app.
+  if (origen && !/^https:\/\/(www\.)?artesmarciales\.cat$|^http:\/\/localhost(:\d+)?$/.test(origen)) {
     return res.status(403).json({ ok: false, error: 'origin' });
+  }
+
+  const ip = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim() || 'desconocida';
+  if (limitado(ip)) {
+    res.setHeader('Retry-After', '600');
+    return res.status(429).json({ ok: false, error: 'limite' });
   }
 
   const b = typeof req.body === 'string' ? safeJson(req.body) : req.body || {};
