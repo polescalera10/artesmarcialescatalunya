@@ -1,0 +1,19 @@
+[
+ {
+  "slug": "club-karate-sakura-ribagorca",
+  "nombre": "Club Karate Sakura Ribagorça",
+  "tipo": "club",
+  "municipio": "el-pont-de-suert",
+  "disciplinas": [
+   "karate"
+  ],
+  "otras": [
+   "Karate kyokushin"
+  ],
+  "infantil": true,
+  "web": "https://karatesakura.blogspot.com/",
+  "fuente": "https://karatesakura.blogspot.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-04"
+ }
+]

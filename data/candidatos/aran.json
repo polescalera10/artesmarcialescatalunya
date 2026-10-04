@@ -1,0 +1,20 @@
+[
+ {
+  "nombre": "Karate Arán",
+  "municipio": "vielha-e-mijaran",
+  "pista": "Conselh Generau d'Aran (notas de prensa de campeonatos kyokushin) y budofit.es lo citan como club de karate kyokushin de Vielha; una dirección antigua en C/ San Saturnino de Betrén coincide con la del registro de Club Karate Yama No Kokoro (ya en aran.json)",
+  "motivo": "Sin web propia ni directorio municipal; no se puede confirmar que sea el mismo club que Yama No Kokoro (registro-oficial), así que esa ficha no se actualiza"
+ },
+ {
+  "nombre": "Aïkido Val d'Aran (dojo de Les)",
+  "municipio": "les",
+  "pista": "blog.aikido-valdaran.eu (2016) y aikido-neste-65.fr hablan de un dojo de aikido en Les",
+  "motivo": "El blog no carga (cuerpo vacío) y las referencias son de 2016; hoy budofit.es presenta el aikido Val d'Aran dentro de Budo Fit (ya añadido)"
+ },
+ {
+  "nombre": "Escuela de karate del Palai de Gèu",
+  "municipio": "vielha-e-mijaran",
+  "pista": "Prensa (ara.cat) y la ficha municipal de vielha-mijaran.org mencionan cursos de karate y una sala de tatami en el Palai de Gèu",
+  "motivo": "La web oficial (palaidegeu.com) y la ficha municipal solo hablan de 'tatami', sin disciplina; la mención de karate viene solo de prensa"
+ }
+]

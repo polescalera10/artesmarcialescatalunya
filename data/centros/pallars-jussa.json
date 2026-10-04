@@ -1,0 +1,23 @@
+[
+ {
+  "slug": "escola-multidisciplina-tremp",
+  "nombre": "Escola Multidisciplina de Tremp",
+  "tipo": "escuela",
+  "municipio": "tremp",
+  "disciplinas": [
+   "karate",
+   "aikido",
+   "kobudo",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Karate nanbudo",
+   "Taiso"
+  ],
+  "infantil": true,
+  "direccion": "Pavelló del Juncar, Tremp",
+  "fuente": "https://www.ajuntamentdetremp.cat/actualitat/documents/activitats-esports-tardor-hivern-2025-2026-3.pdf",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-10-04"
+ }
+]

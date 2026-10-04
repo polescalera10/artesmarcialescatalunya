@@ -13,6 +13,33 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "budo-fit",
+  "nombre": "Budo Fit",
+  "tipo": "escuela",
+  "municipio": "vielha-e-mijaran",
+  "disciplinas": [
+   "karate",
+   "lucha",
+   "aikido",
+   "kickboxing",
+   "grappling",
+   "boxeo",
+   "mma",
+   "defensa-personal",
+   "judo"
+  ],
+  "otras": [
+   "Karate kyokushin",
+   "Combat sambo"
+  ],
+  "infantil": true,
+  "direccion": "Apartamentos Elurra Bajos, Betrén (Vielha e Mijaran)",
+  "web": "https://budofit.es/",
+  "fuente": "https://budofit.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-04"
+ },
+ {
   "slug": "club-boxa-sambo-valles",
   "nombre": "Club Boxa Sambo Vallès",
   "tipo": "club",
