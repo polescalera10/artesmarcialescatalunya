@@ -245,7 +245,8 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
     const otros = D.filas
       .filter(f => f.v && f.m !== mun.value && f.ds.includes(dis.value) && (!inf.checked || f.i))
       .map(f => [f, km(mun.value, f.m)]).filter(([, k]) => k <= 40).sort((a, b) => a[1] - b[1]).slice(0, 6);
-    const nd = dis.selectedOptions[0].dataset.nombre.toLowerCase();
+    const n0 = dis.selectedOptions[0].dataset.nombre;
+    const nd = n0 === n0.toUpperCase() ? n0 : n0.toLowerCase();
     const nm = D.municipios[mun.value];
     cerca.querySelector('[data-cerca-titulo]').textContent = otros.length
       ? (verif

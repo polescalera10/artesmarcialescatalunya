@@ -8,7 +8,7 @@ import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import FiltroDisciplinas from '../components/FiltroDisciplinas.astro';
-import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
+import { L, url, lista, titulo, descripcion, n, type Lang, minus } from '../lib/i18n';
 import { centrosDeComarca, disciplinasPresentes, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
@@ -27,8 +27,16 @@ const porMunicipio = [...new Set(centros.map(c => c.municipio))]
   .map(m => ({ m: getMunicipio(m)!, centros: centros.filter(c => c.municipio === m) }))
   .sort((a, b) => b.centros.length - a.centros.length || a.m.nombre.localeCompare(b.m.nombre, 'ca'));
 const discComarca = new Set(rutasDiscComarca().filter(r => r.comarca === comarca).map(r => r.disciplina));
-const top = disc.slice(0, 4).map(d => nombreDisciplina(d.slug, lang).toLowerCase());
+const top = disciplinasPresentes(verificados(centros)).slice(0, 4).map(d => minus(nombreDisciplina(d.slug, lang)));
 const nombreEn = enComarca(lang, comarca);
+// Dato propio de la comarca: centros verificados con clases para niños y dónde se concentran.
+const verInf = verificados(centros).filter(c => c.infantil);
+const munInf = [...new Set(verInf.map(c => c.municipio))].map(m => ({ m, k: verInf.filter(c => c.municipio === m).length })).sort((a, b) => b.k - a.k);
+const fraseInf = verInf.length
+  ? L(lang,
+      ` ${n(verInf.length, 'centro anuncia', 'centros anuncian')} clases para niños${munInf.length > 1 ? `, sobre todo en ${lista(lang, munInf.slice(0, 3).map(x => getMunicipio(x.m)!.nombre))}` : ''}.`,
+      ` ${n(verInf.length, 'centre anuncia', 'centres anuncien')} classes per a infants${munInf.length > 1 ? `, sobretot a ${lista(lang, munInf.slice(0, 3).map(x => getMunicipio(x.m)!.nombre))}` : ''}.`)
+  : '';
 
 const title = titulo(
   L(lang, `Artes Marciales en ${com.nombre}: ${n(nV, 'centro', 'centros')} | Directorio`, `Arts Marcials ${enComarca('ca', comarca).replace(/^a /, 'a ').replace(/^al /, 'al ')}: ${n(nV, 'centre', 'centres')}`),
@@ -51,8 +59,8 @@ const faq = [
   {
     q: L(lang, `¿Qué artes marciales se pueden practicar ${nombreEn}?`, `Quines arts marcials es poden practicar ${nombreEn}?`),
     a: L(lang,
-      `Las disciplinas con más centros son ${lista(lang, disc.slice(0, 5).map(d => `${nombreDisciplina(d.slug, lang).toLowerCase()} (${d.n})`))}. En total constan ${n(disc.length, 'disciplina', 'disciplinas')} distintas.`,
-      `Les disciplines amb més centres són ${lista(lang, disc.slice(0, 5).map(d => `${nombreDisciplina(d.slug, lang).toLowerCase()} (${d.n})`))}. En total hi consten ${n(disc.length, 'disciplina', 'disciplines')} diferents.`),
+      `Las disciplinas con más centros son ${lista(lang, disc.slice(0, 5).map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. En total constan ${n(disc.length, 'disciplina', 'disciplinas')} distintas.`,
+      `Les disciplines amb més centres són ${lista(lang, disc.slice(0, 5).map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. En total hi consten ${n(disc.length, 'disciplina', 'disciplines')} diferents.`),
   },
   {
     q: L(lang, '¿De dónde salen los datos?', "D'on surten les dades?"),
@@ -95,8 +103,8 @@ const schema = {
       </h1>
       <p class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed">
         {L(lang,
-          `${n(nV, 'centro', 'centros')} de artes marciales en ${n(porMunicipio.length, 'municipio', 'municipios')} ${deComarca(lang, comarca).replace(/^de /, 'de ')}. Lo que más hay: ${lista(lang, top)}. Todos con su fuente pública y la fecha de verificación, sin valoraciones ni rankings.`,
-          `${n(nV, 'centre', 'centres')} d'arts marcials en ${n(porMunicipio.length, 'municipi', 'municipis')} ${deComarca(lang, comarca)}. El que més hi ha: ${lista(lang, top)}. Tots amb la seva font pública i la data de verificació, sense valoracions ni rànquings.`)}
+          `${n(nV, 'centro', 'centros')} de artes marciales en ${n(porMunicipio.length, 'municipio', 'municipios')} ${deComarca(lang, comarca).replace(/^de /, 'de ')}. Lo que más hay: ${lista(lang, top)}.${fraseInf} Todos con su fuente pública y la fecha de verificación, sin valoraciones ni rankings.`,
+          `${n(nV, 'centre', 'centres')} d'arts marcials en ${n(porMunicipio.length, 'municipi', 'municipis')} ${deComarca(lang, comarca)}. El que més hi ha: ${lista(lang, top)}.${fraseInf} Tots amb la seva font pública i la data de verificació, sense valoracions ni rànquings.`)}
       </p>
       {nR > 0 && (
         <p class="text-sm text-brand-muted mt-3 max-w-3xl">

@@ -36,6 +36,9 @@ export const url = {
   privacidad: () => '/politica-privacidad/',
 };
 
+/** Nombre en minúscula dentro de una frase, salvo siglas (MMA). */
+export const minus = (t: string) => (t === t.toUpperCase() ? t : t.toLowerCase());
+
 /** Número con su sustantivo: n(3,'centro','centros') → "3 centros". */
 export const n = (k: number, uno: string, varios: string) => `${k} ${k === 1 ? uno : varios}`;
 

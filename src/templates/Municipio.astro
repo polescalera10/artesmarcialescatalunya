@@ -11,9 +11,9 @@ import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import FiltroDisciplinas from '../components/FiltroDisciplinas.astro';
-import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
-import { centrosDeMunicipio, disciplinasPresentes, cercanos, verificados } from '../lib/centros';
-import { getComarca, getMunicipio } from '../lib/geo';
+import { L, url, lista, titulo, descripcion, n, type Lang, minus } from '../lib/i18n';
+import { centrosDeMunicipio, centrosDeComarca, disciplinasPresentes, cercanos, verificados } from '../lib/centros';
+import { getComarca, getMunicipio, distanciaKm } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { tienePaginaMunDisc, rutasMunicipio, editorialMunicipio } from '../lib/rutas';
 import { reescribirEnlaces } from '../lib/editorial';
@@ -30,7 +30,7 @@ const centros = centrosDeMunicipio(municipio);
 const disc = disciplinasPresentes(centros);
 const nV = verificados(centros).length;
 const nR = centros.length - nV;
-const top = disc.slice(0, 4).map(d => nombreDisciplina(d.slug, lang).toLowerCase());
+const top = disciplinasPresentes(verificados(centros)).slice(0, 4).map(d => minus(nombreDisciplina(d.slug, lang)));
 const cerca = cercanos(mun, () => true, 6, 25);
 
 // Texto propio: castellano del sitio del Garraf; catalán del piloto /ca/.
@@ -41,10 +41,44 @@ const edCa = lang === 'ca' && comarca === 'garraf' && MUNICIPIS_CA[municipio]
 
 const vecinos = rutasMunicipio().filter(r => r.comarca === comarca && r.municipio !== municipio).map(r => getMunicipio(r.municipio)!);
 
-const generadoIntro = centros.length
+// Intro con datos propios del municipio (solo verificados), para que cada
+// página diga algo distinto: clases para niños, webs, la disciplina que más
+// pesa aquí frente a la comarca y el municipio cercano con más oferta.
+const ver = verificados(centros);
+const nInf = ver.filter(c => c.infantil).length;
+const nWeb = ver.filter(c => c.web).length;
+const verCom = verificados(centrosDeComarca(comarca));
+const destaca = disciplinasPresentes(ver)
+  .map(d => ({ ...d, total: verCom.filter(c => c.disciplinas.includes(d.slug)).length }))
+  .filter(d => d.n >= 2 && d.total > d.n)
+  .sort((a, b) => b.n / b.total - a.n / a.total || b.n - a.n)[0];
+const masOferta = rutasMunicipio()
+  .filter(r => r.municipio !== municipio)
+  .map(r => ({ m: getMunicipio(r.municipio)!, comarca: r.comarca, k: verificados(centrosDeMunicipio(r.municipio)).length }))
+  .map(x => ({ ...x, km: distanciaKm(mun, x.m) }))
+  .filter(x => x.km <= 25 && x.k > nV)
+  .sort((a, b) => a.km - b.km)[0];
+const frases = (lang === 'es'
+  ? [
+      `En ${mun.nombre} constan ${n(nV, 'centro verificado', 'centros verificados')} de artes marciales${top.length ? `; lo que más se ofrece es ${lista(lang, top)}` : ''}.`,
+      nInf ? `${nInf === nV ? (nV === 1 ? 'Anuncia' : 'Todos anuncian') : `${nInf} de ellos anuncia${nInf === 1 ? '' : 'n'}`} clases para niños.` : '',
+      nV > 1 && nWeb ? `${nWeb === nV ? 'Todos tienen' : `${nWeb} tiene${nWeb === 1 ? '' : 'n'}`} web propia para consultar horarios y precios.` : '',
+      destaca ? `Para ${minus(nombreDisciplina(destaca.slug, 'es'))}, ${mun.nombre} reúne ${destaca.n} de los ${destaca.total} centros que la ofrecen en ${com.nombre}.` : '',
+      masOferta ? `Si quieres más opciones, ${masOferta.m.nombre}, a unos ${Math.round(masOferta.km)} km, tiene ${masOferta.k}.` : '',
+    ]
+  : [
+      `A ${mun.nombre} hi consten ${n(nV, 'centre verificat', 'centres verificats')} d'arts marcials${top.length ? `; el que més s'ofereix és ${lista(lang, top)}` : ''}.`,
+      nInf ? `${nInf === nV ? (nV === 1 ? 'Anuncia' : 'Tots anuncien') : `${nInf} d'aquests ${nInf === 1 ? 'anuncia' : 'anuncien'}`} classes per a infants.` : '',
+      nV > 1 && nWeb ? `${nWeb === nV ? 'Tots tenen' : `${nWeb} té${nWeb === 1 ? '' : 'nen'}`.replace('ténen', 'tenen')} web pròpia per consultar horaris i preus.` : '',
+      destaca ? `Per a ${minus(nombreDisciplina(destaca.slug, 'ca'))}, ${mun.nombre} aplega ${destaca.n} dels ${destaca.total} centres que l'ofereixen a ${com.nombre}.` : '',
+      masOferta ? `Si vols més opcions, ${masOferta.m.nombre}, a uns ${Math.round(masOferta.km)} km, en té ${masOferta.k}.` : '',
+    ]).filter(Boolean);
+const generadoIntro = nV
+  ? frases.join(' ')
+  : centros.length
   ? L(lang,
-      `En ${mun.nombre} constan ${n(nV, 'centro', 'centros')} de artes marciales en nuestro directorio. ${top.length ? `Lo que más se ofrece: ${lista(lang, top)}.` : ''} Cada ficha lleva su fuente pública y la fecha en que la comprobamos.`,
-      `A ${mun.nombre} hi consten ${n(nV, 'centre', 'centres')} d'arts marcials al nostre directori. ${top.length ? `El que més s'ofereix: ${lista(lang, top)}.` : ''} Cada fitxa porta la seva font pública i la data en què la vam comprovar.`)
+      `En ${mun.nombre} solo constan clubs inscritos en el registro de la Generalitat, sin actividad confirmada. Abajo tienes también los centros verificados más cercanos.`,
+      `A ${mun.nombre} només hi consten clubs inscrits al registre de la Generalitat, sense activitat confirmada. A sota també tens els centres verificats més propers.`)
   : L(lang,
       `En nuestro directorio no consta todavía ningún centro de artes marciales en ${mun.nombre}. Abajo tienes los más cercanos.`,
       `Al nostre directori encara no hi consta cap centre d'arts marcials a ${mun.nombre}. A sota tens els més propers.`);
@@ -72,8 +106,8 @@ const faq = ed?.faq?.length ? ed.faq : [
   ...(disc.length ? [{
     q: L(lang, `¿Qué artes marciales se pueden practicar en ${mun.nombre}?`, `Quines arts marcials es poden practicar a ${mun.nombre}?`),
     a: L(lang,
-      `Según las fuentes de cada centro: ${lista(lang, disc.map(d => `${nombreDisciplina(d.slug, lang).toLowerCase()} (${d.n})`))}. El número indica cuántos centros la anuncian.`,
-      `Segons les fonts de cada centre: ${lista(lang, disc.map(d => `${nombreDisciplina(d.slug, lang).toLowerCase()} (${d.n})`))}. El número indica quants centres l'anuncien.`),
+      `Según las fuentes de cada centro: ${lista(lang, disc.map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. El número indica cuántos centros la anuncian.`,
+      `Segons les fonts de cada centre: ${lista(lang, disc.map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. El número indica quants centres l'anuncien.`),
   }] : []),
 ];
 

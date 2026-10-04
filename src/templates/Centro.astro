@@ -9,7 +9,7 @@ import Migas from '../components/Migas.astro';
 import CentroCard from '../components/CentroCard.astro';
 import Formulario from '../components/Formulario.astro';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
-import { L, url, lista, titulo, descripcion, fecha, type Lang } from '../lib/i18n';
+import { L, url, lista, titulo, descripcion, fecha, type Lang, minus } from '../lib/i18n';
 import { getCentro, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
@@ -25,7 +25,7 @@ const com = getComarca(c.comarca)!;
 const promo = esPromocionado(c.slug);
 const discs = c.disciplinas.map(d => nombreDisciplina(d, lang));
 // Algunas fuentes solo dicen "artes marciales": la ficha no inventa la disciplina.
-const actividad = discs.length ? lista(lang, discs.map(d => d.toLowerCase())) : L(lang, 'artes marciales', 'arts marcials');
+const actividad = discs.length ? lista(lang, discs.map(minus)) : L(lang, 'artes marciales', 'arts marcials');
 const vecinos = centrosDeMunicipio(c.municipio).filter(x => x.slug !== c.slug)
   .sort((a, b) => Number(esVerificado(b)) - Number(esVerificado(a))).slice(0, 6);
 const parecidos = vecinos.length < 3
@@ -182,14 +182,14 @@ const schema = [
 
         {guia && perfil && dGuia && (
           <section class="bg-brand-gray border border-brand-border rounded-xl p-5 sm:p-6">
-            <h2 class="text-lg font-bold text-white">Si es tu primera clase de {nombreDisciplina(dGuia, 'es').toLowerCase()}</h2>
+            <h2 class="text-lg font-bold text-white">Si es tu primera clase de {minus(nombreDisciplina(dGuia, 'es'))}</h2>
             <dl class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
               <div class="bg-brand-dark border border-brand-border rounded-lg p-3"><dt class="text-xs text-brand-muted">Contacto al empezar</dt><dd class="text-sm text-white font-semibold mt-0.5">{perfil.contacto}</dd></div>
               <div class="bg-brand-dark border border-brand-border rounded-lg p-3"><dt class="text-xs text-brand-muted">Edad habitual de entrada</dt><dd class="text-sm text-white font-semibold mt-0.5">{perfil.edad}</dd></div>
               <div class="bg-brand-dark border border-brand-border rounded-lg p-3"><dt class="text-xs text-brand-muted">Primera compra</dt><dd class="text-sm text-white font-semibold mt-0.5">{perfil.equipacion}</dd></div>
             </dl>
             <ol class="mt-4 space-y-2 text-sm text-brand-muted list-decimal pl-5">{guia.primeraClase.map(p => <li>{p}</li>)}</ol>
-            <p class="text-xs text-brand-muted/80 mt-4">Es lo habitual en la disciplina, no la descripción de este centro. <a href={url.disciplina('es', dGuia)} class="text-brand-red hover:text-red-400">Más sobre {nombreDisciplina(dGuia, 'es').toLowerCase()} en Cataluña →</a></p>
+            <p class="text-xs text-brand-muted/80 mt-4">Es lo habitual en la disciplina, no la descripción de este centro. <a href={url.disciplina('es', dGuia)} class="text-brand-red hover:text-red-400">Más sobre {minus(nombreDisciplina(dGuia, 'es'))} en Cataluña →</a></p>
           </section>
         )}
 

@@ -9,7 +9,7 @@ import ListaCentros from '../components/ListaCentros.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
-import { L, url, lista, titulo, descripcion, n, type Lang } from '../lib/i18n';
+import { L, url, lista, titulo, descripcion, n, type Lang, minus } from '../lib/i18n';
 import { centrosDeComarca, centrosConDisciplina, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { getDisciplina, nombreDisciplina } from '../lib/disciplinas';
@@ -22,7 +22,7 @@ const { lang, disciplina, comarca } = Astro.props;
 const com = getComarca(comarca)!;
 const dis = getDisciplina(disciplina)!;
 const nd = dis[lang];
-const ndl = nd.toLowerCase();
+const ndl = minus(nd);
 const centros = centrosConDisciplina(disciplina, centrosDeComarca(comarca));
 const nV = verificados(centros).length;
 const porMunicipio = [...new Set(centros.map(c => c.municipio))]
