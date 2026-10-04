@@ -1,0 +1,19 @@
+# Tras cada push a main, espera al despliegue de Vercel y avisa por IndexNow
+# (Bing, Yandex…) de las URLs con <lastmod> de los últimos 2 días.
+name: indexnow
+on:
+  push:
+    branches: [main]
+    paths: ['data/**', 'src/**']
+  workflow_dispatch:
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Esperar al despliegue
+        run: sleep 240
+      - run: node scripts/indexnow.mjs --recientes 2

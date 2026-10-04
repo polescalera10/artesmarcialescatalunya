@@ -8,7 +8,7 @@
 
 const DESTINO = 'contacto@artesmarciales.cat';
 const REMITENTE = 'Artes Marciales Catalunya <formulario@artesmarciales.cat>';
-const MAX = { nombre: 120, email: 160, centro: 160, municipio: 120, web: 300, tipo: 40, mensaje: 4000, pagina: 300, reenvio: 5 };
+const MAX = { nombre: 120, email: 160, centro: 160, municipio: 120, web: 300, tipo: 40, mensaje: 4000, pagina: 300, reenvio: 5, idioma: 2 };
 const TIPOS = new Set(['alta', 'correccion', 'promocion', 'web', 'seo', 'otro', 'consulta', 'info']);
 
 // Límite por IP: 5 envíos cada 10 minutos. En memoria de la instancia (Vercel
@@ -82,7 +82,23 @@ export default async function handler(req, res) {
       text,
     }),
   });
-  if (!r.ok) return res.status(502).json({ ok: false, error: 'envio' });
+  if (!r.ok) {
+    // Queda en los logs de Vercel; el navegador cae al plan B (mailto).
+    console.error('contacto: Resend respondió', r.status, (await r.text()).slice(0, 300));
+    return res.status(502).json({ ok: false, error: 'envio' });
+  }
+
+  // Acuse de recibo al usuario. Texto fijo, sin nada de lo que ha escrito, para
+  // que el formulario no sirva para mandar mensajes a terceros.
+  const ca = d.idioma === 'ca';
+  const acuse = ca
+    ? { subject: 'Hem rebut el teu missatge', text: "Hola,\n\nHem rebut el teu missatge a Arts Marcials Catalunya. Et respondrem per correu en un o dos dies feiners.\n\nSi no l'has enviat tu, ignora aquest correu.\n\nArts Marcials Catalunya\nhttps://artesmarciales.cat/ca/" }
+    : { subject: 'Hemos recibido tu mensaje', text: 'Hola:\n\nHemos recibido tu mensaje en Artes Marciales Catalunya. Te responderemos por correo en uno o dos días laborables.\n\nSi no lo has enviado tú, ignora este correo.\n\nArtes Marciales Catalunya\nhttps://artesmarciales.cat/' };
+  await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ from: REMITENTE, to: [d.email], reply_to: DESTINO, ...acuse }),
+  }).catch(e => console.error('contacto: acuse no enviado', e?.message));
   return res.status(200).json({ ok: true });
 }
 

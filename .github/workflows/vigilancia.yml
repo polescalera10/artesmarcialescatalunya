@@ -1,0 +1,21 @@
+# Cada 6 horas comprueba que la web y el formulario responden. Si falla, GitHub
+# avisa por email al dueño del repositorio.
+name: vigilancia
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Páginas clave
+        run: |
+          for u in / /ca/ /centros/ /barcelones/barcelona/ /blog/ /sitemap.xml /datos/centros.json; do
+            c=$(curl -s -o /dev/null -w '%{http_code}' "https://artesmarciales.cat$u")
+            echo "$u $c"; [ "$c" = 200 ] || exit 1
+          done
+      - name: API del formulario viva (GET devuelve 405)
+        run: |
+          c=$(curl -s -o /dev/null -w '%{http_code}' https://artesmarciales.cat/api/contacto)
+          echo "api $c"; [ "$c" = 405 ]

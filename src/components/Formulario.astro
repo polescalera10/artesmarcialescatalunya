@@ -144,6 +144,7 @@ const tipos = modo === 'info'
       datos.acepto = fd.get('acepto') === 'on';
       if (form.querySelector('[name=reenvio]') && fd.get('reenvio') !== 'on') return mostrar(t('Marca la casilla para que podamos hacer llegar tu consulta al centro.', 'Marca la casella perquè puguem fer arribar la consulta al centre.'), false);
       datos.pagina = location.pathname;
+      datos.idioma = ca ? 'ca' : 'es';
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(datos.email || ''))) return mostrar(t('Revisa el email.', "Revisa l'email."), false);
       if (!datos.acepto) return mostrar(t('Marca la casilla de privacidad para poder enviarlo.', 'Marca la casella de privadesa per poder enviar-lo.'), false);
       const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
