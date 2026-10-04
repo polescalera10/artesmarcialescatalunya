@@ -11,7 +11,7 @@ const NV = verificados(CENTROS).length;
 import { COMARCAS, getComarca, getMunicipio } from '../lib/geo';
 import { getDisciplina } from '../lib/disciplinas';
 import { rutasMunicipio, rutasDisciplina } from '../lib/rutas';
-import { articulos } from '../lib/blog';
+import { articulos, articulosCa } from '../lib/blog';
 import { SITE, SCHEMA_IDS } from '../lib/site';
 
 interface Props { lang: Lang }
@@ -24,7 +24,7 @@ const topMunis = rutasMunicipio()
   .map(r => ({ ...r, nombre: getMunicipio(r.municipio)!.nombre, k: verificados(CENTROS).filter(c => c.municipio === r.municipio).length }))
   .sort((a, b) => b.k - a.k)
   .slice(0, 12);
-const posts = lang === 'es' ? (await articulos()).filter(p => p.tipo === 'articulo').slice(0, 3) : [];
+const posts = (lang === 'es' ? (await articulos()).filter(p => p.tipo === 'articulo') : await articulosCa()).slice(0, 3);
 
 const title = L(lang, `Artes Marciales Catalunya: ${NV} centros verificados`, `Arts Marcials Catalunya: ${NV} centres verificats`);
 const description = L(lang,
@@ -143,13 +143,13 @@ const schema = {
     {posts.length > 0 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div class="flex items-baseline justify-between mb-5">
-          <h2 class="text-2xl font-bold text-white">Del blog</h2>
-          <a href={url.blog()} class="text-sm text-brand-red hover:text-red-400">Ver todo →</a>
+          <h2 class="text-2xl font-bold text-white">{L(lang, 'Del blog', 'Del blog')}</h2>
+          <a href={url.blog(lang)} class="text-sm text-brand-red hover:text-red-400">{L(lang, 'Ver todo', 'Veure-ho tot')} →</a>
         </div>
         <ul class="grid md:grid-cols-3 gap-5">
           {posts.map(p => (
             <li class="bg-brand-gray border border-brand-border rounded-xl p-5">
-              <a href={url.post(p.slug)} class="font-semibold text-white hover:text-brand-red">{p.h1}</a>
+              <a href={url.post(p.slug, lang)} class="font-semibold text-white hover:text-brand-red">{p.h1}</a>
               <p class="text-sm text-brand-muted mt-2 line-clamp-3">{p.descripcion}</p>
             </li>
           ))}

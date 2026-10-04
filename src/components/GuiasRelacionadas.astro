@@ -1,10 +1,10 @@
 ---
 // Hasta 3 guías del blog que ayudan a decidir en esa página: primero la de
 // niños de la comarca (si existe), luego las de la disciplina y, de relleno,
-// las generales. El blog solo existe en castellano: en catalán no se pinta.
+// las generales. En catalán solo salen las que están traducidas.
 // Un slug que no exista rompe el build (mejor que un enlace roto).
 import { url, type Lang } from '../lib/i18n';
-import { articulos } from '../lib/blog';
+import { articulos, articulosCa } from '../lib/blog';
 
 interface Props {
   lang: Lang;
@@ -14,7 +14,7 @@ interface Props {
   infantil?: boolean;
   titulo?: string;
 }
-const { lang, disciplinas = [], comarca, infantil = false, titulo = 'Guías para decidir' } = Astro.props;
+const { lang, disciplinas = [], comarca, infantil = false, titulo = lang === 'ca' ? 'Guies per decidir' : 'Guías para decidir' } = Astro.props;
 
 const POR_DISCIPLINA: Record<string, string[]> = {
   boxeo: ['como-empezar-en-boxeo', 'boxeo-o-kickboxing', 'fitboxing-o-boxeo'],
@@ -40,18 +40,16 @@ const GENERALES = infantil
   ? ['mejor-arte-marcial-para-ninos', 'a-que-edad-empezar-artes-marciales', 'clase-de-prueba-que-preguntar']
   : ['clase-de-prueba-que-preguntar', 'como-elegir-centro-artes-marciales', 'artes-marciales-adultos-principiantes'];
 
-const slugs = [...new Set([
+const candidatos = [...new Set([
   ...(comarca && NINOS_COMARCA[comarca] && (infantil || !disciplinas.length) ? [NINOS_COMARCA[comarca]] : []),
   ...disciplinas.flatMap(d => POR_DISCIPLINA[d] ?? []),
   ...GENERALES,
-])].slice(0, 3);
+])];
 
-const todos = lang === 'es' ? await articulos() : [];
-const guias = slugs.map(s => {
-  const a = todos.find(x => x.slug === s);
-  if (lang === 'es' && !a) throw new Error(`GuiasRelacionadas: no existe el artículo ${s}`);
-  return a!;
-}).filter(Boolean);
+const todos = await articulos();
+for (const s of candidatos) if (!todos.some(x => x.slug === s)) throw new Error(`GuiasRelacionadas: no existe el artículo ${s}`);
+const ca = lang === 'ca' ? new Map((await articulosCa()).map(a => [a.original, a])) : null;
+const guias = (ca ? candidatos.filter(s => ca.has(s)).map(s => ca.get(s)!) : candidatos.map(s => todos.find(x => x.slug === s)!)).slice(0, 3);
 ---
 
 {guias.length > 0 && (
@@ -60,7 +58,7 @@ const guias = slugs.map(s => {
     <ul class="grid md:grid-cols-3 gap-4">
       {guias.map(g => (
         <li>
-          <a href={url.post(g.slug)} class="block h-full bg-brand-gray border border-brand-border rounded-xl p-4 hover:border-brand-red/40 transition-colors">
+          <a href={url.post(g.slug, lang)} class="block h-full bg-brand-gray border border-brand-border rounded-xl p-4 hover:border-brand-red/40 transition-colors">
             <span class="block font-semibold text-white leading-snug">{g.titulo}</span>
             <span class="block text-sm text-brand-muted mt-1.5 line-clamp-2">{g.descripcion}</span>
           </a>

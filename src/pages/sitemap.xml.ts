@@ -5,12 +5,13 @@ import type { APIRoute } from 'astro';
 import { SITE } from '../lib/site';
 import { url, LANGS, type Lang } from '../lib/i18n';
 import { CENTROS } from '../lib/centros';
-import { articulos } from '../lib/blog';
+import { articulos, articulosCa } from '../lib/blog';
 import { rutasComarca, rutasMunicipio, rutasMunDisc, rutasDisciplina, rutasDiscComarca, fichaIndexable } from '../lib/rutas';
 
 type Entrada = { por: (l: Lang) => string; lastmod: string; bilingue: boolean };
 const R = SITE.ultimaRevision;
 const POSTS = await articulos();
+const CA = new Map((await articulosCa()).map(a => [a.original, a]));
 const entradas: Entrada[] = [
   { por: l => url.home(l), lastmod: R, bilingue: true },
   { por: l => url.centros(l), lastmod: R, bilingue: true },
@@ -24,8 +25,12 @@ const entradas: Entrada[] = [
   ...rutasDisciplina().map(r => ({ por: (l: Lang) => url.disciplina(l, r.disciplina), lastmod: R, bilingue: true })),
   ...rutasDiscComarca().map(r => ({ por: (l: Lang) => url.discComarca(l, r.disciplina, r.comarca), lastmod: R, bilingue: true })),
   ...CENTROS.filter(fichaIndexable).map(c => ({ por: (l: Lang) => url.centro(l, c.slug), lastmod: c.verificado, bilingue: true })),
-  { por: () => url.blog(), lastmod: POSTS[0]?.fecha ?? R, bilingue: false },
-  ...POSTS.map(p => ({ por: () => url.post(p.slug), lastmod: p.actualizado, bilingue: false })),
+  { por: l => url.blog(l), lastmod: POSTS[0]?.fecha ?? R, bilingue: CA.size > 0 },
+  // Artículos traducidos: pareja es/ca con hreflang; el resto solo en castellano.
+  ...POSTS.map(p => {
+    const ca = CA.get(p.slug);
+    return { por: (l: Lang) => (l === 'ca' && ca ? url.post(ca.slug, 'ca') : url.post(p.slug)), lastmod: ca && ca.actualizado > p.actualizado ? ca.actualizado : p.actualizado, bilingue: !!ca };
+  }),
 ];
 
 export const GET: APIRoute = () => {

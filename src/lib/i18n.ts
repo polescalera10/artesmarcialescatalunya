@@ -30,8 +30,8 @@ export const url = {
   paraCentros: (lang: Lang) => `${P(lang)}/${SEG.paraCentros[lang]}/`,
   sobre: (lang: Lang) => `${P(lang)}/${SEG.sobre[lang]}/`,
   contacto: (lang: Lang) => `${P(lang)}/${SEG.contacto[lang]}/`,
-  blog: () => '/blog/',
-  post: (slug: string) => `/blog/${slug}/`,
+  blog: (lang: Lang = 'es') => `${P(lang)}/blog/`,
+  post: (slug: string, lang: Lang = 'es') => `${P(lang)}/blog/${slug}/`,
   avisoLegal: () => '/aviso-legal/',
   privacidad: () => '/politica-privacidad/',
 };

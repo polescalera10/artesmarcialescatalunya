@@ -68,7 +68,7 @@ const empieza = (p: string) => actual.startsWith(p);
           </div>
         </div>
 
-        <a href={url.blog()} class:list={[link, empieza('/blog/') ? activo : idle]}>Blog</a>
+        <a href={url.blog(lang)} class:list={[link, empieza(url.blog(lang)) ? activo : idle]}>Blog</a>
         <a href={hrefOtro} hreflang={otro} lang={otro} class:list={[link, idle, 'uppercase text-xs tracking-wide']}>{otro}</a>
         <a href={url.paraCentros(lang)} class="ml-2 bg-brand-red hover:bg-red-700 text-white text-sm font-semibold px-4 py-2 rounded-md transition-colors">
           {L(lang, 'Para centros', 'Per a centres')}
@@ -88,7 +88,7 @@ const empieza = (p: string) => actual.startsWith(p);
               {comarcas.map(c => <a href={url.comarca(lang, c.slug)} class="text-sm text-brand-muted hover:text-white">{c.nombre}</a>)}
             </div>
           </div>
-          <a href={url.blog()} class="text-white font-semibold">Blog</a>
+          <a href={url.blog(lang)} class="text-white font-semibold">Blog</a>
           <a href={url.paraCentros(lang)} class="bg-brand-red text-white text-center font-semibold px-4 py-2 rounded-md">{L(lang, 'Para centros', 'Per a centres')}</a>
           <a href={hrefOtro} hreflang={otro} lang={otro} class="text-sm text-brand-muted">{otro === 'ca' ? 'Català' : 'Castellano'}</a>
         </nav>

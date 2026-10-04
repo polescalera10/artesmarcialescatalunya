@@ -1,24 +1,31 @@
 ---
-// Artículos y guías heredados del sitio del Garraf. Solo en castellano.
+// Artículo o guía del blog. En castellano todos; en catalán, los traducidos
+// (src/content/blog-ca), enlazados entre sí con hreflang.
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Migas from '../components/Migas.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
-import { url, fecha } from '../lib/i18n';
-import { articulos, type Articulo } from '../lib/blog';
+import { url, fecha, L, type Lang } from '../lib/i18n';
+import { articulos, articulosCa, traduccionCa, type Articulo, type ArticuloCa } from '../lib/blog';
 import { SITE, SCHEMA_IDS } from '../lib/site';
 import manifiesto from '../legacy/imagenes-generadas.json';
 
-interface Props { post: Articulo }
-const { post } = Astro.props;
-const base = post.slugAnterior ?? post.slug;
-const clave = post.imagen ?? (post.tipo === 'articulo' ? `blog-${base}` : base);
+interface Props { post: Articulo | ArticuloCa; lang?: Lang }
+const { post, lang = 'es' } = Astro.props;
+const todosEs = await articulos();
+// La ilustración es la del original en castellano.
+const orig = 'original' in post ? todosEs.find(a => a.slug === post.original)! : post;
+const base = orig.slugAnterior ?? orig.slug;
+const clave = post.imagen ?? orig.imagen ?? (post.tipo === 'articulo' ? `blog-${base}` : base);
 const hero = (manifiesto.img as string[]).includes(clave) ? `/img/${clave}.webp` : null;
 const og = (manifiesto.og as string[]).includes(clave) ? `${SITE.url}/og/${clave}.png` : undefined;
-const otros = (await articulos()).filter(p => p.slug !== post.slug && p.tipo === post.tipo).slice(0, 3);
-const pageUrl = `${SITE.url}${url.post(post.slug)}`;
+const mismos = lang === 'ca' ? await articulosCa() : todosEs;
+const otros = mismos.filter(p => p.slug !== post.slug && (lang === 'ca' || p.tipo === post.tipo)).slice(0, 3);
+const caSlug = lang === 'es' ? await traduccionCa(post.slug) : post.slug;
+const alternates = caSlug ? { es: url.post(orig.slug), ca: url.post(caSlug, 'ca') } : undefined;
+const pageUrl = `${SITE.url}${url.post(post.slug, lang)}`;
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -26,42 +33,42 @@ const schema = {
   headline: post.h1,
   description: post.descripcion,
   url: pageUrl,
-  inLanguage: 'es',
+  inLanguage: lang,
   datePublished: post.fecha,
   dateModified: post.actualizado,
-  image: og ?? `${SITE.url}/og/home-es.jpg`,
+  image: og ?? `${SITE.url}/og/home-${lang}.jpg`,
   author: { '@id': SCHEMA_IDS.organization },
   publisher: { '@id': SCHEMA_IDS.organization },
   isPartOf: { '@id': SCHEMA_IDS.website },
 };
 ---
 
-<Layout title={post.titulo} description={post.descripcion} canonical={url.post(post.slug)} schema={schema} lang="es" ogImage={og}>
-  <Header lang="es" />
+<Layout title={post.titulo} description={post.descripcion} canonical={url.post(post.slug, lang)} schema={schema} lang={lang} ogImage={og} alternates={alternates}>
+  <Header lang={lang} alt={alternates ? alternates[lang === 'es' ? 'ca' : 'es'] : url.blog(lang === 'es' ? 'ca' : 'es')} />
   <main id="contenido">
-    <Migas lang="es" items={[{ nombre: 'Blog', href: url.blog() }, { nombre: post.h1, href: url.post(post.slug) }]} />
+    <Migas lang={lang} items={[{ nombre: 'Blog', href: url.blog(lang) }, { nombre: post.h1, href: url.post(post.slug, lang) }]} />
     <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{post.h1}</h1>
-      <p class="text-xs text-brand-muted mt-4">Publicado el <time datetime={post.fecha}>{fecha('es', post.fecha)}</time>{post.actualizado !== post.fecha && <> · Actualizado el <time datetime={post.actualizado}>{fecha('es', post.actualizado)}</time></>} · {SITE.name}</p>
+      <p class="text-xs text-brand-muted mt-4">{L(lang, 'Publicado el', 'Publicat el')} <time datetime={post.fecha}>{fecha(lang, post.fecha)}</time>{post.actualizado !== post.fecha && <> · {L(lang, 'Actualizado el', 'Actualitzat el')} <time datetime={post.actualizado}>{fecha(lang, post.actualizado)}</time></>} · {SITE.name}</p>
       {hero && <img src={hero} alt="" width="1600" height="400" decoding="async" class="mt-8 w-full object-cover rounded-2xl border border-brand-border" />}
       <div class="text-lg text-brand-muted mt-8 leading-relaxed" set:html={post.intro} />
       {post.body && <div class="articulo mt-8" set:html={post.body} />}
     </article>
-    {post.faq && post.faq.length > 0 && <FAQ items={post.faq} />}
+    {post.faq && post.faq.length > 0 && <FAQ items={post.faq} title={L(lang, 'Preguntas frecuentes', 'Preguntes freqüents')} />}
     {otros.length > 0 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h2 class="text-lg font-bold text-white mb-4">Sigue leyendo</h2>
+        <h2 class="text-lg font-bold text-white mb-4">{L(lang, 'Sigue leyendo', 'Continua llegint')}</h2>
         <ul class="grid md:grid-cols-3 gap-5">
           {otros.map(p => (
             <li class="bg-brand-gray border border-brand-border rounded-xl p-5">
-              <a href={url.post(p.slug)} class="font-semibold text-white hover:text-brand-red">{p.h1}</a>
+              <a href={url.post(p.slug, lang)} class="font-semibold text-white hover:text-brand-red">{p.h1}</a>
               <p class="text-sm text-brand-muted mt-2 line-clamp-3">{p.descripcion}</p>
             </li>
           ))}
         </ul>
       </section>
     )}
-    <ParaCentrosCTA lang="es" />
+    <ParaCentrosCTA lang={lang} />
   </main>
-  <Footer lang="es" />
+  <Footer lang={lang} />
 </Layout>

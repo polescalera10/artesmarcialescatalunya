@@ -1,0 +1,6 @@
+---
+import T from '../../../templates/Post.astro';
+import { articulosCa } from '../../../lib/blog';
+export const getStaticPaths = async () => (await articulosCa()).map(post => ({ params: { slug: post.slug }, props: { post } }));
+---
+<T post={Astro.props.post} lang="ca" />
