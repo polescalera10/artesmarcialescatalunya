@@ -1,0 +1,20 @@
+[
+ {
+  "slug": "club-de-judo-priorat",
+  "nombre": "Club de Judo Priorat",
+  "tipo": "club",
+  "municipio": "falset",
+  "disciplinas": [
+   "judo"
+  ],
+  "otras": [
+   "Judo fitness"
+  ],
+  "infantil": true,
+  "direccion": "Plaça de la Quartera, 27, baixos, 43730 Falset",
+  "web": "https://www.judopte.com/",
+  "fuente": "https://www.judopte.com/falset",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-04"
+ }
+]

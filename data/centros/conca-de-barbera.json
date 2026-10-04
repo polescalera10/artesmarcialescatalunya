@@ -34,5 +34,18 @@
   "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02708",
   "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
+ },
+ {
+  "slug": "totalgym-lespluga",
+  "nombre": "Totalgym L'Espluga",
+  "tipo": "gimnasio",
+  "municipio": "lespluga-de-francoli",
+  "disciplinas": [
+   "grappling"
+  ],
+  "web": "https://totalgymlespluga.com/",
+  "fuente": "https://totalgymlespluga.com/nosotros-gimnasio-tarragona-gimnasio-con-clases-dirigidas-en-lespluga/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-04"
  }
 ]
