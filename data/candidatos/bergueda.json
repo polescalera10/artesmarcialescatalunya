@@ -1,0 +1,14 @@
+[
+ {
+  "nombre": "Club Boxa Panthers y Gimnàs el Parc (Berga)",
+  "municipio": "berga",
+  "pista": "Ya en el directorio solo con registro-oficial (boxa y taekwondo)",
+  "motivo": "Buscados en web y directorio municipal (ajberga.cat entitats): sin web propia ni ficha municipal, no se pudo subir a fuente válida"
+ },
+ {
+  "nombre": "Club Karate Berga (Registre d'Entitats Esportives, n. 19966)",
+  "municipio": "berga",
+  "pista": "Registre d'Entitats Esportives de la Generalitat: Club Karate Berga, karate, c/ Roser 57 (analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=19966)",
+  "motivo": "Probablemente es el mismo club que Club Karate Berga Kyokushin (ya añadido con web oficial), pero ninguna fuente lo confirma; el importador no lo dio de alta"
+ }
+]

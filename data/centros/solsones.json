@@ -1,5 +1,18 @@
 [
  {
+  "slug": "eaki-karate-maneki-neko-dojo",
+  "nombre": "EAKI Karate (Maneki Neko Dojo)",
+  "tipo": "club",
+  "municipio": "solsona",
+  "disciplinas": [
+   "karate"
+  ],
+  "direccion": "Carretera de Manresa, 41, 25280 Solsona",
+  "fuente": "https://www.ajsolsona.cat/la-ciutat/telefons-i-adreces-dinteres/entitats-i-associacions",
+  "fuenteTipo": "directorio-municipal",
+  "verificado": "2026-10-04"
+ },
+ {
   "slug": "kick-boxing-club-la-senia",
   "nombre": "Kick Boxing Club la Senia",
   "tipo": "club",

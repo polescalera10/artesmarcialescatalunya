@@ -24,6 +24,26 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "club-karate-berga-kyokushin",
+  "nombre": "Club Karate Berga Kyokushin",
+  "tipo": "club",
+  "municipio": "berga",
+  "disciplinas": [
+   "karate",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Karate kyokushin",
+   "Defensa personal estilo Goshin"
+  ],
+  "infantil": true,
+  "direccion": "Gimnàs CEEC, Carrer Altarriba i Godolà, 13, 08600 Berga",
+  "web": "https://esensei.org/",
+  "fuente": "https://esensei.org/escuela/berga/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-04"
+ },
+ {
   "slug": "club-karate-eix-de-navas",
   "nombre": "Club Karate Eix de Navas",
   "tipo": "club",
@@ -47,5 +67,26 @@
   "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02092",
   "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
+ },
+ {
+  "slug": "karate-cantero-berga",
+  "nombre": "Karate Cantero Berga",
+  "tipo": "club",
+  "municipio": "berga",
+  "disciplinas": [
+   "karate",
+   "defensa-personal",
+   "kobudo"
+  ],
+  "otras": [
+   "Karate shotokan",
+   "Preparación física"
+  ],
+  "infantil": true,
+  "direccion": "IES Guillem de Berguedà, 08600 Berga",
+  "web": "https://clubkaratecantero.com/",
+  "fuente": "https://clubkaratecantero.com/karate-berga",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-04"
  }
 ]
