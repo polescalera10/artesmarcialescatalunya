@@ -58,6 +58,22 @@ const bloques = [
   },
 ];
 
+const ventajas: [string, string][] = [
+  [L(lang, 'Arriba en las páginas donde te buscan', 'A dalt de les pàgines on et busquen'),
+   L(lang, 'Tu municipio, tu comarca (si eliges comarca) y las páginas de tus disciplinas allí.', 'El teu municipi, la teva comarca (si tries comarca) i les pàgines de les teves disciplines allà.')],
+  [L(lang, 'Consultas de alumnos', "Consultes d'alumnes"),
+   L(lang, 'Quien pulsa «Pedir información» en tu ficha nos deja su consulta y te la hacemos llegar, con su permiso.', "Qui prem «Demanar informació» a la teva fitxa ens deixa la consulta i te la fem arribar, amb el seu permís.")],
+  [L(lang, 'Ficha completa y corregida', 'Fitxa completa i corregida'),
+   L(lang, 'Revisamos contigo disciplinas, dirección, web y clases para niños, para que salgas en los filtros correctos.', 'Revisem amb tu disciplines, adreça, web i classes per a infants, perquè surtis als filtres correctes.')],
+  [L(lang, 'Transparente para el usuario', "Transparent per a l'usuari"),
+   L(lang, 'La etiqueta «Promocionado» está siempre visible. Así el directorio sigue siendo creíble, y tu destacado también.', "L'etiqueta «Promocionat» sempre és visible. Així el directori continua sent creïble, i el teu destacat també.")],
+];
+const pasos: [string, string][] = [
+  [L(lang, 'Escríbenos', 'Escriu-nos'), L(lang, 'Con el formulario de abajo: centro, municipio y qué te interesa.', 'Amb el formulari de sota: centre, municipi i què t\'interessa.')],
+  [L(lang, 'Te confirmamos por escrito', "T'ho confirmem per escrit"), L(lang, 'Revisamos tu ficha y te enviamos precio final y qué incluye antes de empezar.', 'Revisem la teva fitxa i et passem preu final i què inclou abans de començar.')],
+  [L(lang, 'Lo activamos', "L'activem"), L(lang, 'Publicamos el destacado y te enviamos los enlaces donde aparece.', 'Publiquem el destacat i et passem els enllaços on surt.')],
+];
+
 const faq = [
   {
     q: L(lang, '¿Cuánto cuesta destacar mi centro?', 'Quant costa destacar el meu centre?'),
@@ -130,6 +146,55 @@ const schema = {
         'Precios sin IVA. El precio final de web y SEO depende de lo que necesites; te lo decimos por escrito antes de empezar.',
         "Preus sense IVA. El preu final de web i SEO depèn del que necessitis; t'ho diem per escrit abans de començar.")}
     </p>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid lg:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-2xl font-bold text-white">{L(lang, 'Qué consigue un centro promocionado', 'Què aconsegueix un centre promocionat')}</h2>
+        <ul class="mt-5 space-y-4">
+          {ventajas.map(([t, d]) => (
+            <li class="flex gap-3">
+              <span aria-hidden="true" class="mt-1 shrink-0 w-5 h-5 rounded-full bg-emerald-500/15 text-emerald-300 grid place-items-center text-xs">✓</span>
+              <span><span class="block font-semibold text-white">{t}</span><span class="block text-sm text-brand-muted mt-0.5">{d}</span></span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <figure>
+        <figcaption class="text-xs uppercase tracking-wide text-brand-muted mb-3">{L(lang, 'Ejemplo de ficha destacada (centro ficticio)', 'Exemple de fitxa destacada (centre fictici)')}</figcaption>
+        <div class="bg-brand-gray border border-amber-500/50 rounded-xl p-5 flex flex-col gap-3" aria-hidden="true">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <p class="font-bold text-white leading-snug">{L(lang, 'Tu centro', 'El teu centre')}</p>
+              <p class="text-xs text-brand-muted mt-0.5">{L(lang, 'Tu municipio', 'El teu municipi')}</p>
+            </div>
+            <span class="shrink-0 text-[10px] uppercase tracking-wide font-semibold text-amber-400 border border-amber-500/40 rounded px-1.5 py-0.5">{L(lang, 'Promocionado', 'Promocionat')}</span>
+          </div>
+          <ul class="flex flex-wrap gap-1.5 text-xs text-brand-muted">
+            <li class="bg-brand-dark border border-brand-border rounded-full px-2.5 py-0.5">Judo</li>
+            <li class="bg-brand-dark border border-brand-border rounded-full px-2.5 py-0.5">{L(lang, 'Defensa personal', 'Defensa personal')}</li>
+          </ul>
+          <p class="text-xs text-sky-300">{L(lang, 'Anuncia clases para niños', 'Anuncia classes per a infants')}</p>
+          <div class="pt-2 border-t border-brand-border flex items-center justify-between text-xs">
+            <span class="font-semibold text-brand-red">{L(lang, 'Ver ficha', 'Veure fitxa')} →</span>
+            <span class="text-brand-muted">{L(lang, 'Web del centro', 'Web del centre')} ↗</span>
+          </div>
+        </div>
+        <p class="text-xs text-brand-muted mt-3">{L(lang, 'Aparece en un bloque aparte, encima del listado y con la etiqueta «Promocionado». El listado alfabético no cambia.', "Surt en un bloc a part, damunt del llistat i amb l'etiqueta «Promocionat». El llistat alfabètic no canvia.")}</p>
+      </figure>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <h2 class="text-2xl font-bold text-white mb-5">{L(lang, 'Cómo funciona', 'Com funciona')}</h2>
+      <ol class="grid md:grid-cols-3 gap-5">
+        {pasos.map(([t, d], i) => (
+          <li class="bg-brand-gray border border-brand-border rounded-xl p-5">
+            <span class="text-brand-red font-black text-2xl">{i + 1}</span>
+            <p class="font-semibold text-white mt-2">{t}</p>
+            <p class="text-sm text-brand-muted mt-1">{d}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
 
     <section id="formulario" class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 scroll-mt-24">
       <h2 class="text-2xl font-bold text-white mb-2">{L(lang, 'Escríbenos', 'Escriu-nos')}</h2>
