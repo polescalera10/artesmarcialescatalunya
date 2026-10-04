@@ -1,0 +1,90 @@
+---
+// «¿Qué arte marcial te va?»: tres preguntas y las tres disciplinas que mejor
+// encajan, con enlace a su página y a los centros. Orientación general, igual
+// para todos los centros: no recomienda a ninguno. Edad mínima y contacto
+// salen del comparador (legacy/disciplines PERFIL_COMPARATIVO); los pesos por
+// objetivo son criterio editorial, a la vista aquí.
+import { L, url, type Lang } from '../lib/i18n';
+import { nombreDisciplina } from '../lib/disciplinas';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
+const DATOS = [
+  // slug, edad mínima habitual, contacto al empezar (0 bajo, 1 medio), pesos: defensa, forma, tradición, competir
+  ['karate', 4, 0, [0, 1, 3, 1]],
+  ['judo', 4, 0, [1, 1, 3, 2]],
+  ['taekwondo', 4, 0, [0, 2, 3, 2]],
+  ['jiu-jitsu-brasileno', 4, 1, [2, 1, 1, 2]],
+  ['boxeo', 8, 0, [1, 3, 0, 2]],
+  ['kickboxing', 8, 0, [1, 3, 0, 1]],
+  ['muay-thai', 10, 1, [1, 3, 0, 1]],
+  ['defensa-personal', 12, 0, [3, 1, 0, 0]],
+  ['mma', 14, 1, [2, 2, 0, 2]],
+  ['krav-maga', 16, 1, [3, 1, 0, 0]],
+].map(([slug, edad, contacto, pesos]) => ({ slug, edad, contacto, pesos, nombre: nombreDisciplina(slug as string, lang) }));
+
+const preguntas = [
+  { id: 'edad', t: L(lang, '¿Para quién es?', 'Per a qui és?'), op: [
+    ['6', L(lang, 'Niño o niña de 4 a 9 años', 'Infant de 4 a 9 anys')],
+    ['12', L(lang, 'De 10 a 15 años', 'De 10 a 15 anys')],
+    ['99', L(lang, 'Adulto', 'Adult')],
+  ] },
+  { id: 'contacto', t: L(lang, '¿Cuánto contacto al empezar?', 'Quant contacte per començar?'), op: [
+    ['0', L(lang, 'Poco, mejor técnica', 'Poc, millor tècnica')],
+    ['1', L(lang, 'Algo, por parejas', 'Una mica, per parelles')],
+    ['2', L(lang, 'Me da igual', "M'és igual")],
+  ] },
+  { id: 'objetivo', t: L(lang, '¿Qué buscas sobre todo?', 'Què busques sobretot?'), op: [
+    ['0', L(lang, 'Saber defenderme', 'Saber defensar-me')],
+    ['1', L(lang, 'Ponerme en forma', 'Posar-me en forma')],
+    ['2', L(lang, 'Disciplina, técnica y cinturones', 'Disciplina, tècnica i cinturons')],
+    ['3', L(lang, 'Competir', 'Competir')],
+  ] },
+];
+const base = { disc: url.disciplina(lang, 'X'), centros: url.centros(lang) };
+---
+
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" id="test">
+  <div class="bg-brand-gray border border-brand-border rounded-2xl p-5 sm:p-8">
+    <h2 class="text-2xl font-bold text-white">{L(lang, '¿Qué arte marcial te va?', 'Quin art marcial et va?')}</h2>
+    <p class="text-sm text-brand-muted mt-1">{L(lang, 'Tres preguntas y te proponemos por dónde empezar. Es una orientación general: la clase de prueba decide.', 'Tres preguntes i et proposem per on començar. És una orientació general: la classe de prova decideix.')}</p>
+    <form class="grid md:grid-cols-3 gap-5 mt-6" data-recomendador>
+      {preguntas.map(p => (
+        <fieldset>
+          <legend class="text-sm font-semibold text-white mb-2">{p.t}</legend>
+          <div class="flex flex-col gap-2">
+            {p.op.map(([v, t], i) => (
+              <label class="flex items-center gap-2 text-sm text-brand-muted bg-brand-dark border border-brand-border rounded-lg px-3 py-2.5 cursor-pointer has-[:checked]:border-brand-red has-[:checked]:text-white">
+                <input type="radio" name={p.id} value={v} checked={i === (p.id === 'edad' ? 2 : p.id === 'contacto' ? 2 : 1)} class="accent-red-500" />
+                {t}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+      ))}
+    </form>
+    <ol class="grid md:grid-cols-3 gap-4 mt-6" data-resultado aria-live="polite"></ol>
+  </div>
+</section>
+
+<script define:vars={{ DATOS, base, ca: lang === 'ca' }}>
+  const form = document.querySelector('[data-recomendador]');
+  const out = document.querySelector('[data-resultado]');
+  const t = (es, c) => (ca ? c : es);
+  function calcular(medir) {
+    const f = new FormData(form);
+    const edad = Number(f.get('edad')), contacto = Number(f.get('contacto')), obj = Number(f.get('objetivo'));
+    const top = DATOS.filter(d => d.edad <= edad)
+      .map(d => ({ ...d, p: d.pesos[obj] * 2 + (contacto === 0 ? (d.contacto ? -2 : 1) : contacto === 1 ? (d.contacto ? 1 : 0) : 0) + (edad <= 6 && d.edad <= 4 ? 1 : 0) }))
+      .sort((a, b) => b.p - a.p).slice(0, 3);
+    out.innerHTML = top.map((d, i) => `<li class="bg-brand-dark border ${i ? 'border-brand-border' : 'border-brand-red/50'} rounded-xl p-4">
+      <p class="text-xs uppercase tracking-wide ${i ? 'text-brand-muted' : 'text-brand-red'} font-semibold">${i ? t('También encaja', 'També encaixa') : t('Empieza por aquí', 'Comença per aquí')}</p>
+      <p class="text-lg font-bold text-white mt-1">${d.nombre}</p>
+      <p class="text-sm mt-3 flex flex-wrap gap-x-4 gap-y-1"><a class="text-brand-red hover:text-red-400" href="${base.disc.replace('X', d.slug)}">${t('Qué es y dónde', 'Què és i on')} →</a>
+      <a class="text-brand-muted hover:text-white" href="${base.centros}?${edad <= 12 ? 'infantil=1&' : ''}disciplina=${d.slug}">${t('Ver centros', 'Veure centres')} →</a></p></li>`).join('');
+    if (medir) window.gtag?.('event', 'recomendador', { disciplina: top[0]?.slug ?? '' });
+  }
+  form.addEventListener('change', () => calcular(true));
+  calcular(false);
+</script>

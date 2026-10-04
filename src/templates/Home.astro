@@ -87,7 +87,10 @@ const schema = {
     </section>
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <h2 class="text-2xl font-bold text-white mb-5">{L(lang, 'Por disciplina', 'Per disciplina')}</h2>
+      <div class="flex flex-wrap items-baseline justify-between gap-3 mb-5">
+        <h2 class="text-2xl font-bold text-white">{L(lang, 'Por disciplina', 'Per disciplina')}</h2>
+        <a href={`${url.disciplinas(lang)}#test`} class="text-sm text-brand-red hover:text-red-400">{L(lang, '¿No sabes cuál elegir? Haz el test', 'No saps quina triar? Fes el test')} →</a>
+      </div>
       <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
         {disc.filter(d => conPagina.has(d.slug)).map(d => (
           <li>
