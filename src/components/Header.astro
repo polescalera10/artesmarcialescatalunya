@@ -50,9 +50,9 @@ const empieza = (p: string) => actual.startsWith(p);
             {L(lang, 'Comarcas', 'Comarques')}
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
-          <div class="hidden absolute left-0 top-full mt-1 w-[560px] max-h-[70vh] overflow-y-auto bg-brand-gray border border-brand-border rounded-xl shadow-xl shadow-black/40 p-2 grid grid-cols-3 gap-0.5" data-dropdown-panel>
+          <div class="hidden absolute left-0 top-full mt-1 w-[560px] max-h-[70vh] overflow-y-auto bg-brand-gray border border-brand-border rounded-xl shadow-xl shadow-black/40 p-2 grid grid-cols-3 gap-1" data-dropdown-panel>
             {comarcas.map(c => (
-              <a href={url.comarca(lang, c.slug)} class="px-3 py-1.5 rounded-lg text-sm text-brand-muted hover:text-white hover:bg-brand-border/60">{c.nombre}</a>
+              <a href={url.comarca(lang, c.slug)} class="px-3 py-2 rounded-lg text-sm text-brand-muted hover:text-white hover:bg-brand-border/60">{c.nombre}</a>
             ))}
           </div>
         </div>
@@ -62,9 +62,9 @@ const empieza = (p: string) => actual.startsWith(p);
             {L(lang, 'Disciplinas', 'Disciplines')}
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
           </button>
-          <div class="hidden absolute left-0 top-full mt-1 w-[440px] bg-brand-gray border border-brand-border rounded-xl shadow-xl shadow-black/40 p-2 grid grid-cols-2 gap-0.5" data-dropdown-panel>
+          <div class="hidden absolute left-0 top-full mt-1 w-[440px] bg-brand-gray border border-brand-border rounded-xl shadow-xl shadow-black/40 p-2 grid grid-cols-2 gap-1" data-dropdown-panel>
             {disciplinas.map(d => (
-              <a href={url.disciplina(lang, d.slug)} class="px-3 py-1.5 rounded-lg text-sm text-brand-muted hover:text-white hover:bg-brand-border/60">{d[lang]}</a>
+              <a href={url.disciplina(lang, d.slug)} class="px-3 py-2 rounded-lg text-sm text-brand-muted hover:text-white hover:bg-brand-border/60">{d[lang]}</a>
             ))}
           </div>
         </div>
@@ -86,7 +86,7 @@ const empieza = (p: string) => actual.startsWith(p);
           <div>
             <p class="text-xs uppercase tracking-wide text-brand-muted mb-2">{L(lang, 'Comarcas', 'Comarques')}</p>
             <div class="grid grid-cols-2 gap-1">
-              {comarcas.map(c => <a href={url.comarca(lang, c.slug)} class="text-sm text-brand-muted hover:text-white">{c.nombre}</a>)}
+              {comarcas.map(c => <a href={url.comarca(lang, c.slug)} class="block py-1.5 text-sm text-brand-muted hover:text-white">{c.nombre}</a>)}
             </div>
           </div>
           <a href={url.blog(lang)} class="text-white font-semibold">Blog</a>
