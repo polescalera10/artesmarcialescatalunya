@@ -153,6 +153,6 @@ Enlaces externos solo a fuentes de autoridad cuando aportan (federaciones catala
 ## 6. Contexto técnico mínimo
 
 - Astro estático; Vercel despliega al hacer push a `main`.
-- Los artículos heredados (sin Markdown todavía) viven en `src/legacy/` y se sirven igual; un Markdown con el mismo slug o con `slugAnterior` los sustituye. No se editan los heredados: se reescriben en Markdown.
+- Todos los artículos están en Markdown (`src/content/blog`, y `src/content/blog-ca` para el catalán). Los cuerpos del blog antiguo se eliminaron; `src/garraf/` solo guarda el editorial de municipios del Garraf y el mapa de URLs antiguas.
 - Plantilla del artículo: `src/templates/Post.astro`. Cargador: `src/lib/blog.ts`.
 - Los agentes que reescriben no ejecutan git: lo hace quien coordina, tras revisar.

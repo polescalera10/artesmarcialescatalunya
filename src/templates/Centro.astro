@@ -15,7 +15,7 @@ import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { tienePaginaMunicipio, tienePaginaMunDisc, fichaIndexable } from '../lib/rutas';
 import { SITE, SCHEMA_IDS } from '../lib/site';
-import { getDisciplineBySlug, PERFIL_COMPARATIVO } from '../legacy/disciplines';
+import { getDisciplineBySlug, PERFIL_COMPARATIVO } from '../lib/guias-disciplina';
 
 interface Props { lang: Lang; slug: string }
 const { lang, slug } = Astro.props;

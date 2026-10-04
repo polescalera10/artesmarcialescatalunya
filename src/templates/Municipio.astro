@@ -19,8 +19,8 @@ import { tienePaginaMunDisc, rutasMunicipio, editorialMunicipio } from '../lib/r
 import { reescribirEnlaces } from '../lib/editorial';
 import { deComarca } from '../lib/textos';
 import { SITE, SCHEMA_IDS } from '../lib/site';
-import { MUNICIPIS_CA } from '../legacy/ca';
-import { conDatos } from '../legacy/recuentos';
+import { MUNICIPIS_CA } from '../garraf/ca';
+import { conDatos } from '../garraf/recuentos';
 
 interface Props { lang: Lang; comarca: string; municipio: string }
 const { lang, comarca, municipio } = Astro.props;

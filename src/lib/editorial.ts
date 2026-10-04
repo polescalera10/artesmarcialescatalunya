@@ -1,4 +1,4 @@
-// Puente con el contenido heredado de artesmarcialesgarraf.es (src/legacy/).
+// Puente con el contenido heredado de artesmarcialesgarraf.es (src/garraf/).
 //
 // Aquel sitio tenía textos propios por municipio, por disciplina en cada
 // municipio, guías de perfil y 35 artículos. Aquí se reutilizan tal cual y se
@@ -8,7 +8,7 @@
 //   - guías de perfil y el resto de páginas editoriales → /blog/<slug>/
 // `rutaNueva()` hace la misma traducción para los 301 y para reescribir los
 // enlaces internos de esos textos.
-import { ALL_PAGES, type PageDef } from '../legacy/pages';
+import { ALL_PAGES, type PageDef } from '../garraf/pages';
 import { url } from './i18n';
 
 const COMARCA_LEGADO = 'garraf';

@@ -1,9 +1,8 @@
-import { DISCIPLINES, getDisciplineBySlug } from './disciplines';
+import { DISCIPLINES, getDisciplineBySlug } from '../lib/guias-disciplina';
 import { LOCATIONS, getLocationBySlug } from './locations';
 import { getCentros, getCentrosByDisciplina, getCentrosByMunicipio } from './centros';
 import { conDatos } from './recuentos';
 import { SITE } from './site-garraf';
-import { BLOG_BODIES } from './blog-posts';
 import {
   MUNICIPIO_BODIES,
   MUNICIPIO_FAQS,
@@ -679,7 +678,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Grappling en el Garraf: Qué Es y Dónde Consta',
     intro: 'Lucha de agarre sin kimono: ni golpes ni tela de la que tirar. La palabra aparece en el horario de {{d:grappling}} de los {{centros}} centros que constan en la comarca, casi siempre junto al MMA o al jiu-jitsu. Aquí va qué significa en cada caso y qué preguntar antes de apuntarte.',
-    body: BLOG_BODIES['blog/que-es-el-grappling-y-donde-se-practica'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-25',
     phase: 2,
   },
@@ -692,7 +691,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Fitboxing en el Garraf: Qué Vas a Encontrar de Verdad',
     intro: 'Golpeo sin oponente, música y ritmo marcado: eso promete la palabra. Lo que consta en la comarca es otra cosa, {{d:boxeo}} centros con boxeo y {{d:kickboxing}} con kickboxing, y ni una sola clase anunciada con ese nombre. La distancia entre ambas cosas es más corta de lo que parece.',
-    body: BLOG_BODIES['blog/fitboxing-o-boxeo-en-el-garraf'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-25',
     phase: 2,
   },
@@ -705,7 +704,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Horarios de las Clases en el Garraf: Qué Preguntar Antes de Apuntarte',
     intro: 'Los grupos infantiles ocupan la media tarde y los de adultos arrancan a partir de las ocho. Con eso no has resuelto nada, porque lo que decide si encuentras un horario que te sirva no es la disciplina: es el municipio del Garraf en el que vivas y cuántos centros constan allí.',
-    body: BLOG_BODIES['blog/horarios-tipicos-de-las-clases'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-21',
     phase: 2,
   },
@@ -718,7 +717,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Artes Marciales para Perder Peso: Qué Esperar de Verdad',
     intro: 'La tabla de calorías por hora es el dato menos útil de esta decisión. Lo que de verdad la ordena es cuánto te cuesta llegar a la sala un martes de enero, y eso en esta comarca depende de dónde vivas: las disciplinas de más cardio continuo se concentran en dos de los seis municipios.',
-    body: BLOG_BODIES['blog/artes-marciales-para-perder-peso'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-21',
     phase: 2,
   },
@@ -731,7 +730,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Cursos de Defensa Personal de un Fin de Semana: Qué Dan y Qué No',
     intro: 'Dos tardes dan para más de lo que mucha gente supone, y para bastante menos de lo que promete el cartel. La diferencia entre una cosa y otra se explica en cinco minutos, y explica también por qué en el Garraf este formato es la excepción y no la puerta de entrada habitual.',
-    body: BLOG_BODIES['blog/cursos-defensa-personal-fin-de-semana'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-17',
     phase: 2,
   },
@@ -744,7 +743,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Empezar con Sobrepeso: Qué Disciplina y Cómo Plantearlo',
     intro: 'La duda casi nunca es karate o boxeo. Es si vas a poder seguir el ritmo de la clase y si vas a sentirte observado. El criterio que más ordena la elección es el impacto articular, y con ese criterio en la mano los números del directorio dicen bastante sobre qué se puede entrenar en la comarca del Garraf.',
-    body: BLOG_BODIES['blog/artes-marciales-con-sobrepeso'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-17',
     phase: 2,
   },
@@ -757,7 +756,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Mi Hijo Quiere Dejar las Clases: Qué Hacer Antes de Darle de Baja',
     intro: 'Que lo diga una vez un martes de lluvia no significa nada. Que lo repita cada semana desde hace mes y medio sí, y entonces entre seguir y darle de baja hay tres movimientos intermedios que casi nadie se plantea. Cuáles tienes disponibles depende bastante del municipio del Garraf en el que viváis.',
-    body: BLOG_BODIES['blog/mi-hijo-quiere-dejar-las-clases'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-13',
     phase: 2,
   },
@@ -770,7 +769,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: '¿Grupo Mixto o Solo Mujeres? Ventajas de Cada Uno en el Garraf',
     intro: 'De los {{centros}} centros que constan en la comarca, uno solo anuncia un grupo femenino. Ese dato condiciona la decisión más de lo que nos gustaría, así que aquí va qué aporta cada formato, qué preguntar por teléfono y qué hacer si donde vives no hay ninguna de las dos cosas.',
-    body: BLOG_BODIES['blog/clases-mixtas-o-solo-mujeres'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-13',
     phase: 2,
   },
@@ -783,7 +782,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Artes Marciales y TDAH: Qué Esperar de un Centro del Garraf',
     intro: 'Ningún club sustituye a un profesional sanitario, y ninguna escuela seria vende su método como tratamiento. Dicho eso, el formato de una clase infantil tiene cosas que encajan bien con un niño que se dispersa. Aquí va cuáles son, qué no esperar y qué preguntar en los centros que constan en la comarca.',
-    body: BLOG_BODIES['blog/artes-marciales-ninos-tdah'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-09',
     phase: 2,
   },
@@ -796,7 +795,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Cuántos Días a la Semana Debería Entrenar un Niño en el Garraf',
     intro: 'Dos días a la semana es la respuesta, y sirve para casi cualquier niño que empieza. Lo que casi nadie calcula es la otra cifra: en una comarca donde {{m:vilanova-i-la-geltru}} de los {{centros}} centros verificados están en Vilanova, dos sesiones pueden significar cuatro trayectos en coche.',
-    body: BLOG_BODIES['blog/cuantos-dias-semana-entrena-un-nino'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-09',
     phase: 2,
   },
@@ -809,7 +808,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'La Clase de Prueba en el Garraf: Qué Mirar y Qué Preguntar',
     intro: 'Vas convencido de que te examinan a ti, y es al revés. Aquí tienes el guion de la visita, desde las tres preguntas de la llamada previa hasta los cinco minutos de después, con la señal que justifica levantarse e irse a mitad.',
-    body: BLOG_BODIES['blog/clase-de-prueba-que-preguntar'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-05',
     phase: 2,
   },
@@ -822,7 +821,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Artes Marciales y Estrés: por Qué Funciona, y Qué Hay en el Garraf',
     intro: 'Es el motivo que más gente mantiene entrenando pasado el primer trimestre, y casi nunca es el que se dice en voz alta. Qué tiene el formato que funciona tan bien, qué no se puede prometer y qué disciplinas de los {{centros}} centros de la comarca encajan mejor.',
-    body: BLOG_BODIES['blog/artes-marciales-y-estres'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-05',
     phase: 2,
   },
@@ -835,7 +834,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Empezar Artes Marciales a los 40 en el Garraf',
     intro: 'El miedo no suele ser la edad, sino la rodilla vieja y el ridículo. Aquí va qué cambia de verdad respecto a los veinticinco, qué disciplinas aguantan mejor un cuerpo de cuarenta y cuáles constan en los {{centros}} centros de la comarca.',
-    body: BLOG_BODIES['blog/empezar-artes-marciales-a-los-40'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-01',
     phase: 2,
   },
@@ -848,7 +847,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Entrenar sin Querer Competir Nunca: Es lo Normal',
     intro: 'Es el miedo silencioso que impide apuntarse a mucha gente que ya está convencida. Aquí va qué disciplinas de la comarca empujan más hacia el circuito, qué preguntar en la primera llamada y qué se pierde de verdad si nunca subes a un tatami de competición.',
-    body: BLOG_BODIES['blog/entrenar-sin-querer-competir'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-09-01',
     phase: 2,
   },
@@ -861,7 +860,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: '¿Se Hacen Daño los Niños en Artes Marciales?',
     intro: 'Es la objeción número uno de las familias y casi nunca se responde con datos, sino con marketing de escuela. Aquí va lo que se hace un niño de verdad en una clase, cómo se introduce el contacto en cada disciplina y qué se puede comprobar en una visita de veinte minutos.',
-    body: BLOG_BODIES['blog/se-hacen-dano-los-ninos-artes-marciales'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-29',
     phase: 2,
   },
@@ -874,7 +873,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Empezar Artes Marciales Siendo Mujer: Qué Esperar de Verdad',
     intro: 'La duda real no suele ser si puedes, sino si vas a ser la única, si te van a tratar distinto y con quién vas a entrenar el primer día. Con el dato de cuántos centros de la comarca declaran grupo femenino, que es menos alentador de lo que te gustaría.',
-    body: BLOG_BODIES['blog/empezar-artes-marciales-siendo-mujer'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-29',
     phase: 2,
   },
@@ -887,7 +886,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Krav Maga o Defensa Personal: No Son lo Mismo',
     intro: 'La confusión es constante y tiene consecuencias: hay gente que acaba apuntada a lo que no buscaba. Uno es un sistema concreto, con currículo, niveles y certificación propia; la otra es una categoría que puede contener cosas muy distintas entre sí. Aquí está dónde se nota la diferencia dentro de una sala.',
-    body: BLOG_BODIES['blog/krav-maga-o-defensa-personal'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-25',
     phase: 2,
   },
@@ -900,7 +899,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: '¿Golpeo o Agarre? La Primera Bifurcación de las Artes Marciales',
     intro: 'La mayoría empieza comparando karate contra boxeo contra judo y acaba mareada a los diez minutos. Hay un corte anterior que ordena las diez disciplinas de golpe: resolver a distancia o resolver pegado. Elegida la familia, el resto de la decisión se vuelve manejable.',
-    body: BLOG_BODIES['blog/golpeo-o-agarre-por-donde-empezar'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-25',
     phase: 2,
   },
@@ -913,7 +912,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Mi Hijo es Tímido: Qué Arte Marcial le Encaja',
     intro: 'La duda de fondo no suele ser qué disciplina, sino si lo va a pasar mal. Para un niño reservado pesan mucho más el tamaño del grupo, cómo se forman las parejas y cómo trata el instructor al que peor lo hace. Esto es lo que conviene mirar antes de apuntarle.',
-    body: BLOG_BODIES['blog/arte-marcial-para-nino-timido'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-25',
     phase: 2,
   },
@@ -926,7 +925,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Mi Hijo No Para Quieto: Qué Disciplina Canaliza Mejor',
     intro: 'Casi todos los padres llegan pidiendo algo donde queme energía, y esa es la premisa equivocada. Lo que hace el trabajo en un niño movido no es el gasto físico de la clase, sino su estructura: los turnos, las paradas y unas normas que no negocia él.',
-    body: BLOG_BODIES['blog/arte-marcial-para-nino-muy-nervioso'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-25',
     phase: 2,
   },
@@ -939,7 +938,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'El Primer Día de Clase: Qué Llevar y Qué Va a Pasar',
     intro: 'La primera clase pone nerviosos a los dos, y casi todo lo que la complica se evita con quince minutos de margen y una mochila bien hecha. Esto es lo que hay que llevar, lo que conviene no comprar todavía y lo que va a pasar dentro de la sala.',
-    body: BLOG_BODIES['blog/primer-dia-clase-artes-marciales-nino'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-23',
     phase: 2,
   },
@@ -952,7 +951,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Judo o Jiu-Jitsu Brasileño: en Qué se Diferencian de Verdad',
     intro: 'Las dos son disciplinas de agarre, las dos entrenan con kimono y las dos salen de la misma raíz japonesa, así que se confunden constantemente. Pero una empieza de pie y busca la proyección, y la otra vive en el suelo y busca la sumisión. Comparamos lo que de verdad cambia en una clase de martes.',
-    body: BLOG_BODIES['blog/judo-o-jiu-jitsu-brasileno'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-23',
     phase: 2,
   },
@@ -965,7 +964,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Boxeo o Kickboxing: Cuál Elegir si Empiezas de Cero',
     intro: 'Solo puños contra puños y piernas. Suena a matiz y condiciona los tres primeros meses: lo que aprendes antes, lo que te duele, lo que acabas comprando y lo que puedes hacer un martes cansado. Aquí está la comparativa, con una recomendación clara de por dónde empezar si estás empatado.',
-    body: BLOG_BODIES['blog/boxeo-o-kickboxing'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-23',
     phase: 2,
   },
@@ -978,7 +977,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Muay Thai o Kickboxing: Qué Cambia Realmente',
     intro: 'Ocho extremidades contra cuatro es la respuesta rápida, y se queda corta: un principiante tardará meses en tocar un codo. Lo que separa las dos disciplinas en una clase cualquiera son el clinch, el ritmo del combate y lo que cada una le hace a tus tibias el primer mes.',
-    body: BLOG_BODIES['blog/muay-thai-o-kickboxing'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-23',
     phase: 2,
   },
@@ -991,7 +990,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Karate o Judo para Niños: la Comparativa que Falta',
     intro: 'Golpeo controlado a distancia contra agarre y contacto continuo. La diferencia técnica se cuenta en diez segundos, pero lo que decide a los seis o siete años es cómo está montada la clase y qué tipo de niño sale contento de ella. Comparamos las dos entradas infantiles más habituales sin quedarnos en el folleto.',
-    body: BLOG_BODIES['blog/karate-o-judo-para-ninos'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-17',
     phase: 2,
   },
@@ -1004,7 +1003,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Beneficios Reales de las Artes Marciales para Niños',
     intro: 'Disciplina, valores, respeto, seguridad en uno mismo: la lista de siempre no ayuda a decidir nada. Aquí separamos lo que aporta el formato de una clase infantil, que es concreto y se ve en unos meses, de lo que se promete y depende del niño, de la familia y del grupo que le toque.',
-    body: BLOG_BODIES['blog/beneficios-artes-marciales-ninos'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-17',
     phase: 2,
   },
@@ -1017,7 +1016,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Artes Marciales o Fútbol: Elegir Extraescolar sin Arrepentirse',
     intro: 'La comparación útil no es fútbol contra artes marciales por sus virtudes, sino deporte de equipo contra deporte individual practicado en grupo. Cambia lo que el niño se lleva, cambia el compromiso de la familia y cambia qué pasa cuando no destaca. Aquí está la diferencia, con el contexto de la comarca.',
-    body: BLOG_BODIES['blog/artes-marciales-o-futbol-extraescolar'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-17',
     phase: 2,
   },
@@ -1030,7 +1029,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Vuelta al Cole: Cómo Elegir Extraescolar de Artes Marciales',
     intro: 'Los grupos infantiles se organizan a la vez que arranca el curso, y lo que se decide en esas dos semanas condiciona el año entero: la franja horaria, los compañeros y el instructor. Esta guía ordena la decisión, con las preguntas que conviene hacer por teléfono antes de pagar nada.',
-    body: BLOG_BODIES['blog/extraescolar-artes-marciales-vuelta-al-cole'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-17',
     phase: 2,
   },
@@ -1043,7 +1042,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'A Qué Edad Empezar Artes Marciales: Guía por Tramos',
     intro: 'Es la primera pregunta de casi todo el mundo, y tiene dos versiones: la del padre que no sabe si su hijo de cuatro años aprovechará algo, y la del adulto que teme haber llegado tarde. Esta guía recorre los tramos de edad uno a uno (qué aporta cada uno, qué disciplinas están abiertas y qué hay que mirar en el centro) con el contexto de la oferta del Garraf.',
-    body: BLOG_BODIES['blog/a-que-edad-empezar-artes-marciales'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-15',
     phase: 2,
   },
@@ -1056,7 +1055,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Cómo Elegir un Centro de Artes Marciales en el Garraf',
     intro: 'Elegir bien el centro pesa más que elegir bien la disciplina: casi nadie abandona porque se equivocara de estilo, sino porque acabó en el grupo que no le tocaba o atado a unas condiciones que no entendió. Esta es la lista de ocho comprobaciones que se responden en una visita y una llamada, válida para cualquier disciplina y cualquier municipio de la comarca.',
-    body: BLOG_BODIES['blog/como-elegir-centro-artes-marciales-garraf'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-08-15',
     phase: 2,
   },
@@ -1069,7 +1068,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Dónde Aprender Boxeo en el Garraf',
     intro: 'El interés por el boxeo no deja de crecer, también en la comarca del Garraf. Si estás buscando dónde aprender boxeo en Sitges, Vilanova o cualquier municipio de la comarca, esta guía te explica qué opciones tienes, cómo evaluar un gimnasio y qué esperar de tus primeras clases.',
-    body: BLOG_BODIES['blog/donde-aprender-boxeo-en-el-garraf'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-07-07',
     phase: 2,
   },
@@ -1082,7 +1081,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Cuál es la Mejor Arte Marcial para Niños en el Garraf',
     intro: 'Como padre o madre, elegir la arte marcial adecuada para tu hijo puede ser confuso: hay muchas opciones y cada una tiene sus ventajas. En esta guía comparamos las disciplinas más habituales para niños (karate, judo y taekwondo) y te damos criterios claros por edad, carácter y objetivo para decidir con fundamento.',
-    body: BLOG_BODIES['blog/mejor-arte-marcial-para-ninos-garraf'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-07-07',
     phase: 2,
   },
@@ -1095,7 +1094,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Defensa Personal para Mujeres en el Garraf: Guía Completa',
     intro: 'La defensa personal para mujeres es uno de los temas más importantes y peor abordados del mundo de las artes marciales: mucho mito, mucho marketing y poca sustancia. En esta guía te contamos qué técnicas funcionan realmente, cómo elegir un centro serio en la comarca del Garraf y qué esperar de las primeras semanas de entrenamiento.',
-    body: BLOG_BODIES['blog/defensa-personal-para-mujeres-garraf'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-07-07',
     phase: 2,
   },
@@ -1108,7 +1107,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Cómo Empezar las Artes Marciales en el Garraf Siendo Adulto',
     intro: '¿Tienes 30, 40 o 50 años y quieres empezar artes marciales pero no sabes por dónde? Eres exactamente la persona para quien está escrita esta guía. Vamos a desmontar los miedos más comunes y a darte un plan claro para empezar, con las opciones reales que tienes en la comarca del Garraf.',
-    body: BLOG_BODIES['blog/artes-marciales-adultos-principiantes-garraf'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-07-07',
     phase: 2,
   },
@@ -1121,7 +1120,7 @@ const BLOG_PAGES: PageDef[] = [
     },
     h1: 'Karate o Taekwondo para Niños en el Garraf: Cuál Elegir',
     intro: 'Es una de las dudas más frecuentes entre padres: ¿karate o taekwondo para mi hijo? Ambas son disciplinas excelentes, pero tienen diferencias importantes. Te explicamos cuáles son y cómo decidir en función de la edad, el carácter y los objetivos de tu hijo, con el contexto de la oferta disponible en el Garraf.',
-    body: BLOG_BODIES['blog/karate-vs-taekwondo-ninos-garraf'],
+    body: '', // artículo retirado: lo sustituye src/content/blog
     fecha: '2026-07-07',
     phase: 3,
   },

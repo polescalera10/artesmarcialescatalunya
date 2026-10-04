@@ -10,7 +10,7 @@ import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { url, fecha, L, type Lang } from '../lib/i18n';
 import { articulos, articulosCa, traduccionCa, type Articulo, type ArticuloCa } from '../lib/blog';
 import { SITE, SCHEMA_IDS } from '../lib/site';
-import manifiesto from '../legacy/imagenes-generadas.json';
+import manifiesto from '../../data/imagenes-generadas.json';
 
 interface Props { post: Articulo | ArticuloCa; lang?: Lang }
 const { post, lang = 'es' } = Astro.props;
