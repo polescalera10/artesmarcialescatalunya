@@ -33,8 +33,8 @@ const empieza = (p: string) => actual.startsWith(p);
 <header class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur border-b border-brand-border">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16 gap-3">
-      <a href={url.home(lang)} class="flex items-center gap-2 shrink-0" aria-label={L(lang, 'Artes Marciales Catalunya, inicio', 'Arts Marcials Catalunya, inici')}>
-        <span class="text-brand-red font-black text-xl tracking-tight">AM</span>
+      <a href={url.home(lang)} class="flex items-center gap-2 shrink-0">
+        <span class="text-brand-red font-black text-xl tracking-tight" aria-hidden="true">AM</span>
         <span class="font-bold text-white text-sm leading-tight">
           {L(lang, 'Artes Marciales', 'Arts Marcials')} <span class="text-brand-red">Catalunya</span><br />
           <span class="text-brand-muted font-normal hidden sm:inline">{L(lang, 'El directorio verificado', 'El directori verificat')}</span>

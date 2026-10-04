@@ -17,6 +17,10 @@ const { lang } = Astro.props;
 const comarcas = comarcasConCentros().map(slug => ({ slug, nombre: getComarca(slug)!.nombre }));
 const disc = disciplinasPresentes(CENTROS);
 const NV = verificados(CENTROS).length;
+// Primeras 60 filas ya en el HTML (mismo orden y marcado que el script): sin
+// salto de diseño al cargar y visibles sin JavaScript.
+const primeras = [...CENTROS].sort((a, b) => Number(b.fuenteTipo !== 'registro-oficial') - Number(a.fuenteTipo !== 'registro-oficial') || a.nombre.localeCompare(b.nombre, 'es')).slice(0, 60);
+const etq = 'ml-1 text-[10px] uppercase rounded px-1 border';
 const NR = CENTROS.length - NV;
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
@@ -89,8 +93,16 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
         <p class="text-xs text-brand-muted mt-1">{L(lang, 'Distancia orientativa en línea recta entre municipios.', 'Distància orientativa en línia recta entre municipis.')}</p>
         <ul class="mt-3 divide-y divide-brand-border" data-cerca-lista></ul>
       </div>
-      <ul class="divide-y divide-brand-border border border-brand-border rounded-xl overflow-hidden" data-lista aria-live="polite"></ul>
-      <button type="button" class="hidden mt-4 w-full sm:w-auto bg-brand-gray border border-brand-border hover:border-brand-red/40 text-white text-sm font-semibold px-5 py-2.5 rounded-lg" data-mas>
+      <ul class="divide-y divide-brand-border border border-brand-border rounded-xl overflow-hidden" data-lista aria-live="polite">
+        {primeras.map(f => (
+          <li class="grid sm:grid-cols-[2fr_1fr_2fr] gap-1 sm:gap-4 px-4 py-3 bg-brand-gray/40 hover:bg-brand-gray">
+            <a href={url.centro(lang, f.slug)} class="font-medium text-white hover:text-brand-red">{f.nombre}{f.fuenteTipo === 'registro-oficial' && <span class:list={[etq, 'text-brand-muted border-brand-border']}>{L(lang, 'Sin verificar', 'Sense verificar')}</span>}{f.infantil && <span class:list={[etq, 'text-sky-300 border-sky-500/40']}>{L(lang, 'Niños', 'Infants')}</span>}</a>
+            <span class="text-sm text-brand-muted">{getMunicipio(f.municipio)!.nombre}</span>
+            <span class="text-xs text-brand-muted">{f.disciplinas.map(d => nombreDisciplina(d, lang)).join(' · ')}</span>
+          </li>
+        ))}
+      </ul>
+      <button type="button" class="mt-4 w-full sm:w-auto bg-brand-gray border border-brand-border hover:border-brand-red/40 text-white text-sm font-semibold px-5 py-2.5 rounded-lg" data-mas>
         {L(lang, 'Mostrar más', 'Mostra’n més')}
       </button>
       <p class="hidden text-brand-muted py-8 text-center" data-vacio>
