@@ -139,6 +139,9 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
   <style is:global>
     /* Los filtros ocultan con [hidden]; sin esto, clases como flex o grid lo anulan. */
     [hidden] { display: none !important; }
+    /* Listados largos plegados (ListaCentros): «Mostrar más» los despliega. */
+    .colapsado .extra { display: none !important; }
+    [data-colapsable]:not(.colapsado) > [data-ver-mas] { display: none; }
     /* Enlaces dentro de un párrafo: subrayados, no solo por color (WCAG 1.4.1). */
     main p a:not([class*="bg-"]) { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
     @media (prefers-reduced-motion: no-preference) {

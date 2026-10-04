@@ -72,6 +72,8 @@ const buscador = cerca ? `${url.centros(lang)}?comarca=${cerca.comarca}&municipi
         inf.classList.toggle('ring-2', soloInf);
         inf.classList.toggle('ring-sky-400/60', soloInf);
       }
+      // Al filtrar se despliegan los listados plegados para ver todas las coincidencias.
+      if (disc || soloInf) ambito!.querySelectorAll('[data-colapsable].colapsado').forEach(c => c.classList.remove('colapsado'));
       // Una ficha puede aparecer dos veces (bloque promocionado y listado): se cuenta una.
       const vistos = new Set<string>();
       const verif = new Set<string>();
