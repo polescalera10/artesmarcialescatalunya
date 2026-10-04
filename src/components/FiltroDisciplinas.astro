@@ -25,7 +25,7 @@ const buscador = cerca ? `${url.centros(lang)}?comarca=${cerca.comarca}&municipi
 ---
 
 {(disciplinas.length > 1 || infantil > 0) && (
-  <div class="lg:sticky lg:top-16 z-30 bg-brand-dark/95 backdrop-blur py-3 mb-6" data-filtro-disc={ambito} data-buscador={buscador}>
+  <div class="lg:sticky lg:top-16 z-30 bg-brand-dark/95 backdrop-blur-sm py-3 mb-6" data-filtro-disc={ambito} data-buscador={buscador}>
     <p class="text-xs uppercase tracking-wide text-brand-muted mb-2">{L(lang, 'Filtrar por disciplina', 'Filtra per disciplina')}</p>
     <div class="flex flex-wrap gap-2" role="group" aria-label={L(lang, 'Filtrar por disciplina', 'Filtra per disciplina')}>
       {infantil > 0 && (
@@ -96,7 +96,7 @@ const buscador = cerca ? `${url.centros(lang)}?comarca=${cerca.comarca}&municipi
         if (disc && buscador && verif.size < 2) {
           const a = document.createElement('a');
           a.href = `${buscador}&disciplina=${disc}`;
-          a.className = 'ml-2 text-brand-red hover:text-red-400 font-semibold';
+          a.className = 'ml-2 text-brand-redtext hover:text-red-400 font-semibold';
           a.textContent = ca ? 'Pocs verificats aquí: veure els més propers →' : 'Pocos verificados aquí: ver los más cercanos →';
           resumen.append(a);
         }

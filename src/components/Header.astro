@@ -27,16 +27,16 @@ const empieza = (p: string) => actual.startsWith(p);
 
 <a
   href="#contenido"
-  class="sr-only focus:not-sr-only focus:absolute focus:z-[60] focus:top-2 focus:left-2 focus:bg-brand-red focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:text-sm focus:font-semibold"
+  class="sr-only focus:not-sr-only focus:absolute focus:z-60 focus:top-2 focus:left-2 focus:bg-brand-red focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:text-sm focus:font-semibold"
 >{L(lang, 'Saltar al contenido', 'Salta al contingut')}</a>
 
-<header class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur border-b border-brand-border">
+<header class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-sm border-b border-brand-border">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16 gap-3">
       <a href={url.home(lang)} class="flex items-center gap-2 shrink-0">
-        <span class="text-brand-red font-black text-xl tracking-tight" aria-hidden="true">AM</span>
+        <span class="text-brand-redtext font-black text-xl tracking-tight" aria-hidden="true">AM</span>
         <span class="font-bold text-white text-sm leading-tight">
-          {L(lang, 'Artes Marciales', 'Arts Marcials')} <span class="text-brand-red">Catalunya</span><br />
+          {L(lang, 'Artes Marciales', 'Arts Marcials')} <span class="text-brand-redtext">Catalunya</span><br />
           <span class="text-brand-muted font-normal hidden sm:inline">{L(lang, 'El directorio verificado', 'El directori verificat')}</span>
         </span>
       </a>

@@ -37,13 +37,13 @@ const gaId = SITE.analytics?.gaId;
       <h2 class="hidden sm:block text-white font-bold mb-2">{L(lang, "Cookies de medición", "Galetes de mesura")}</h2>
       <p class="sm:hidden text-xs text-brand-muted leading-snug mb-2">
         {L(lang, '¿Nos dejas medir visitas con Google Analytics? Sin tu permiso no se activa.', 'Ens deixes mesurar visites amb Google Analytics? Sense el teu permís no s’activa.')}{' '}
-        <a href={url.privacidad()} class="text-brand-red underline">{L(lang, 'Detalles', 'Detalls')}</a>
+        <a href={url.privacidad()} class="text-brand-redtext underline">{L(lang, 'Detalles', 'Detalls')}</a>
       </p>
       <p class="hidden sm:block text-sm text-brand-muted leading-relaxed mb-5">
         {L(lang,
           'Usamos Google Analytics para saber qué páginas se consultan y mejorar el directorio. Instala cookies y envía datos a Google, así que solo lo activamos si nos das permiso. Si prefieres que no, la web funciona exactamente igual.',
           "Fem servir Google Analytics per saber quines pàgines es consulten i millorar el directori. Instal·la galetes i envia dades a Google, així que només l'activem si ens dones permís. Si prefereixes que no, el web funciona exactament igual.")}{' '}
-        <a href={url.privacidad()} class="text-brand-red hover:text-red-400 underline underline-offset-2">{L(lang, 'Más detalle en la política de privacidad', 'Més detall a la política de privadesa')}</a>.
+        <a href={url.privacidad()} class="text-brand-redtext hover:text-red-400 underline underline-offset-2">{L(lang, 'Más detalle en la política de privacidad', 'Més detall a la política de privadesa')}</a>.
       </p>
       <div class="flex flex-row gap-2 sm:gap-3">
         <button

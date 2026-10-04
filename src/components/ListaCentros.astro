@@ -56,13 +56,13 @@ const mas = (k: number) => L(lang, `Mostrar ${k} más`, `Mostra'n ${k} més`);
     <ul class="divide-y divide-brand-border border border-brand-border rounded-xl">
       {reg.map((c, i) => (
         <li class:list={['px-4 py-2.5 flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm', i >= LIM_R && 'extra']} data-d={c.disciplinas.join(' ')} data-slug={c.slug} data-v="0" data-inf={c.infantil ? '1' : undefined}>
-          <a href={url.centro(lang, c.slug)} class="text-white hover:text-brand-red">{c.nombre}</a>
+          <a href={url.centro(lang, c.slug)} class="text-white hover:text-brand-redtext">{c.nombre}</a>
           {conMunicipio && <span class="text-xs text-brand-muted">{getMunicipio(c.municipio)!.nombre}</span>}
           <span class="text-xs text-brand-muted">{c.disciplinas.map(d => nombreDisciplina(d, lang)).join(' · ')}</span>
         </li>
       ))}
     </ul>
-    {reg.length > LIM_R && <button type="button" data-ver-mas class="mt-3 text-sm font-semibold text-brand-red hover:text-red-400">{mas(reg.length - LIM_R)}</button>}
+    {reg.length > LIM_R && <button type="button" data-ver-mas class="mt-3 text-sm font-semibold text-brand-redtext hover:text-red-400">{mas(reg.length - LIM_R)}</button>}
     </div>
   </div>
 )}

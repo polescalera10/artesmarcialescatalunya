@@ -61,7 +61,7 @@ const schema = {
         <ul class="grid md:grid-cols-3 gap-5">
           {otros.map(p => (
             <li class="bg-brand-gray border border-brand-border rounded-xl p-5">
-              <a href={url.post(p.slug, lang)} class="font-semibold text-white hover:text-brand-red">{p.h1}</a>
+              <a href={url.post(p.slug, lang)} class="font-semibold text-white hover:text-brand-redtext">{p.h1}</a>
               <p class="text-sm text-brand-muted mt-2 line-clamp-3">{p.descripcion}</p>
             </li>
           ))}

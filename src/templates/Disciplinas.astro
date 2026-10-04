@@ -50,7 +50,7 @@ const schema = {
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{title}</h1>
       <p class="text-lg text-brand-muted mt-4 max-w-3xl">
         {L(lang, 'Elige una disciplina para ver en qué comarcas y municipios hay centros que la anuncian.', 'Tria una disciplina per veure a quines comarques i municipis hi ha centres que l’anuncien.')}
-        <a href="#test" class="text-brand-red hover:text-red-400 whitespace-nowrap"> {L(lang, '¿No sabes cuál? Haz el test ↓', 'No saps quina? Fes el test ↓')}</a>
+        <a href="#test" class="text-brand-redtext hover:text-red-400 whitespace-nowrap"> {L(lang, '¿No sabes cuál? Haz el test ↓', 'No saps quina? Fes el test ↓')}</a>
       </p>
     </section>
     <Recomendador lang={lang} />
@@ -82,7 +82,7 @@ const schema = {
             <tbody class="divide-y divide-brand-border">
               {comparables.map(d => { const p = PERFIL_COMPARATIVO[d.slug]; return (
                 <tr class="align-top hover:bg-brand-gray/60">
-                  <td class="px-4 py-3"><a href={url.disciplina('es', d.slug)} class="font-semibold text-white hover:text-brand-red">{d.es}</a></td>
+                  <td class="px-4 py-3"><a href={url.disciplina('es', d.slug)} class="font-semibold text-white hover:text-brand-redtext">{d.es}</a></td>
                   <td class="px-4 py-3 text-brand-muted">{p.enfoque}</td>
                   <td class:list={['px-4 py-3 font-semibold', COLOR[p.contacto]]}>{p.contacto}</td>
                   <td class="px-4 py-3 text-brand-muted">{p.edad}</td>

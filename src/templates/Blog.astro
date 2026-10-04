@@ -38,7 +38,7 @@ const schema = {
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">Blog</h1>
       <p class="text-lg text-brand-muted mt-3 max-w-3xl">{description}</p>
-      {lang === 'ca' && <p class="text-sm text-brand-muted mt-3 max-w-3xl">Hem traduït els articles més consultats. La resta, de moment, és <a href={url.blog('es')} class="text-brand-red hover:text-red-400 underline">en castellà</a>.</p>}
+      {lang === 'ca' && <p class="text-sm text-brand-muted mt-3 max-w-3xl">Hem traduït els articles més consultats. La resta, de moment, és <a href={url.blog('es')} class="text-brand-redtext hover:text-red-400 underline">en castellà</a>.</p>}
     </section>
     {[[L(lang, 'Artículos', 'Articles'), articulosBlog], [L(lang, 'Guías por perfil y objetivo', 'Guies per perfil i objectiu'), guias]].filter(([, ps]) => (ps as typeof POSTS).length).map(([t, ps]) => (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -46,7 +46,7 @@ const schema = {
         <ul class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {(ps as typeof POSTS).map(p => (
             <li class="bg-brand-gray border border-brand-border rounded-xl p-5 flex flex-col gap-2">
-              <a href={url.post(p.slug, lang)} class="font-semibold text-white hover:text-brand-red">{p.h1}</a>
+              <a href={url.post(p.slug, lang)} class="font-semibold text-white hover:text-brand-redtext">{p.h1}</a>
               <p class="text-sm text-brand-muted line-clamp-3">{p.descripcion}</p>
               {p.tipo === 'articulo' && <time datetime={p.fecha} class="text-xs text-brand-muted/80 mt-auto">{fecha(lang, p.fecha)}</time>}
             </li>

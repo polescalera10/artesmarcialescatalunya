@@ -140,10 +140,10 @@ const schema = {
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
       {bloques.map(b => (
         <div class="bg-brand-gray border border-brand-border rounded-xl p-6 flex flex-col gap-3">
-          <p class="text-xs uppercase tracking-wide text-brand-red font-semibold">{b.precio}</p>
+          <p class="text-xs uppercase tracking-wide text-brand-redtext font-semibold">{b.precio}</p>
           <h2 class="text-lg font-bold text-white">{b.titulo}</h2>
           <p class="text-sm text-brand-muted leading-relaxed">{b.texto}</p>
-          <a href={`?tipo=${b.cta}#formulario`} class="mt-auto text-sm font-semibold text-brand-red hover:text-red-400" data-tipo={b.cta}>{L(lang, 'Me interesa', "M'interessa")} →</a>
+          <a href={`?tipo=${b.cta}#formulario`} class="mt-auto text-sm font-semibold text-brand-redtext hover:text-red-400" data-tipo={b.cta}>{L(lang, 'Me interesa', "M'interessa")} →</a>
         </div>
       ))}
     </section>
@@ -173,7 +173,7 @@ const schema = {
               <p class="font-bold text-white leading-snug">{L(lang, 'Tu centro', 'El teu centre')}</p>
               <p class="text-xs text-brand-muted mt-0.5">{L(lang, 'Tu municipio', 'El teu municipi')}</p>
             </div>
-            <span class="shrink-0 text-[10px] uppercase tracking-wide font-semibold text-amber-400 border border-amber-500/40 rounded px-1.5 py-0.5">{L(lang, 'Promocionado', 'Promocionat')}</span>
+            <span class="shrink-0 text-[10px] uppercase tracking-wide font-semibold text-amber-400 border border-amber-500/40 rounded-sm px-1.5 py-0.5">{L(lang, 'Promocionado', 'Promocionat')}</span>
           </div>
           <ul class="flex flex-wrap gap-1.5 text-xs text-brand-muted">
             <li class="bg-brand-dark border border-brand-border rounded-full px-2.5 py-0.5">Judo</li>
@@ -181,7 +181,7 @@ const schema = {
           </ul>
           <p class="text-xs text-sky-300">{L(lang, 'Anuncia clases para niños', 'Anuncia classes per a infants')}</p>
           <div class="pt-2 border-t border-brand-border flex items-center justify-between text-xs">
-            <span class="font-semibold text-brand-red">{L(lang, 'Ver ficha', 'Veure fitxa')} →</span>
+            <span class="font-semibold text-brand-redtext">{L(lang, 'Ver ficha', 'Veure fitxa')} →</span>
             <span class="text-brand-muted">{L(lang, 'Web del centro', 'Web del centre')} ↗</span>
           </div>
         </div>
@@ -194,7 +194,7 @@ const schema = {
       <ol class="grid md:grid-cols-3 gap-5">
         {pasos.map(([t, d], i) => (
           <li class="bg-brand-gray border border-brand-border rounded-xl p-5">
-            <span class="text-brand-red font-black text-2xl">{i + 1}</span>
+            <span class="text-brand-redtext font-black text-2xl">{i + 1}</span>
             <p class="font-semibold text-white mt-2">{t}</p>
             <p class="text-sm text-brand-muted mt-1">{d}</p>
           </li>

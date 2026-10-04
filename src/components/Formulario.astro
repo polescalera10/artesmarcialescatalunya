@@ -14,7 +14,7 @@ interface Props {
   estrecho?: boolean;
 }
 const { lang, modo, centro, estrecho = false } = Astro.props;
-const input = 'w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white text-sm placeholder-brand-muted focus:outline-none focus:border-brand-red';
+const input = 'w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white text-sm placeholder-brand-muted focus:outline-hidden focus:border-brand-red';
 const tipos = modo === 'info'
   ? [['info', '']]
   : modo === 'centro'
@@ -53,7 +53,7 @@ const tipos = modo === 'info'
       <input id="f-nombre" name="nombre" autocomplete="name" class={input} maxlength="120" />
     </div>
     <div>
-      <label for="f-email" class="block text-sm text-white mb-1.5">Email <span class="text-brand-red">*</span></label>
+      <label for="f-email" class="block text-sm text-white mb-1.5">Email <span class="text-brand-redtext">*</span></label>
       <input id="f-email" name="email" type="email" autocomplete="email" required class={input} maxlength="160" />
     </div>
   </div>
