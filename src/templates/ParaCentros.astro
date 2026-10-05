@@ -1,6 +1,6 @@
 ---
 // Página comercial para centros: alta y correcciones gratis; promocionado,
-// web y SEO local de pago. Precios "desde", IVA aparte (Pol, 04-10-2026).
+// web y SEO local de pago. Precios cerrados, IVA aparte (Pol, 05-10-2026).
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -42,7 +42,7 @@ const bloques = [
   },
   {
     titulo: L(lang, 'Web para tu centro', 'Web per al teu centre'),
-    precio: L(lang, 'Desde 490 € + 15 €/mes', 'Des de 490 € + 15 €/mes'),
+    precio: L(lang, '250 € único + 50 €/mes', '250 € únic + 50 €/mes'),
     texto: L(lang,
       `${sinWeb} centros del directorio no tienen web propia que hayamos podido encontrar. Si es tu caso, te hacemos una web rápida, pensada para aparecer en Google cuando alguien busca tu disciplina en tu municipio.`,
       `${sinWeb} centres del directori no tenen web pròpia que hàgim pogut trobar. Si és el teu cas, et fem un web ràpid, pensat per sortir a Google quan algú busca la teva disciplina al teu municipi.`),
@@ -50,7 +50,7 @@ const bloques = [
   },
   {
     titulo: L(lang, 'SEO local para gimnasios', 'SEO local per a gimnasos'),
-    precio: L(lang, 'Desde 150 €/mes', 'Des de 150 €/mes'),
+    precio: L(lang, '100 €/mes', '100 €/mes'),
     texto: L(lang,
       'Ficha de Google Business Profile, páginas por disciplina y municipio, contenido y medición. Lo mismo que hacemos con este directorio, aplicado a tu centro.',
       'Fitxa de Google Business Profile, pàgines per disciplina i municipi, contingut i mesura. El mateix que fem amb aquest directori, aplicat al teu centre.'),
@@ -149,8 +149,8 @@ const schema = {
     </section>
     <p class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-xs text-brand-muted">
       {L(lang,
-        'Precios sin IVA. El precio final de web y SEO depende de lo que necesites; te lo decimos por escrito antes de empezar.',
-        "Preus sense IVA. El preu final de web i SEO depèn del que necessitis; t'ho diem per escrit abans de començar.")}
+        'Precios sin IVA. Antes de empezar te confirmamos por escrito el precio y qué incluye cada servicio.',
+        "Preus sense IVA. Abans de començar et confirmem per escrit el preu i què inclou cada servei.")}
     </p>
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid lg:grid-cols-2 gap-10 items-start">
