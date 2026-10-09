@@ -432,12 +432,15 @@
   "tipo": "club",
   "municipio": "llagostera",
   "disciplinas": [
-   "kickboxing"
+   "kickboxing",
+   "defensa-personal"
   ],
-  "direccion": "Av. de l'Esport, 39, 17240 Llagostera, Girona",
-  "fuente": "https://www.owkle.es/clubs/club-llagostera/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-10-03"
+  "infantil": true,
+  "direccion": "Plaça Barceloneta, 7, 17240 Llagostera, Girona",
+  "web": "https://www.yogainicillagostera.com/",
+  "fuente": "https://www.yogainicillagostera.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-09"
  },
  {
   "slug": "club-malayo-boxing",
