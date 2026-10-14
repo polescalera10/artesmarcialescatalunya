@@ -10,7 +10,7 @@ import CentroCard from '../components/CentroCard.astro';
 import Formulario from '../components/Formulario.astro';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import { L, url, lista, titulo, descripcion, fecha, type Lang, minus } from '../lib/i18n';
-import { getCentro, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
+import { getCentro, consultaMapa, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { tienePaginaMunicipio, tienePaginaMunDisc, fichaIndexable } from '../lib/rutas';
@@ -41,10 +41,11 @@ const iniciales = c.nombre.replace(/^(club|escola|escuela|associació|asociació
   .split(/[\s-]+/).filter(w => /^[\p{L}\d]/u.test(w) && !/^(de|del|la|el|i|y|d'.*)$/i.test(w)).slice(0, 2).map(w => w[0].toUpperCase()).join('') || c.nombre[0];
 const sello = `<a href="${SITE.url}${url.centro(lang, c.slug)}" title="${L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya')}"><img src="${SITE.url}/sello/ficha-verificada-${lang}.svg" alt="${L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya')}" width="220" height="56"></a>`;
 const mapa = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([c.nombre, c.direccion, mun.nombre].filter(Boolean).join(', '))}`;
-// Mapa incrustado solo si la fuente publica la dirección: con nombre y municipio
+// Mapa incrustado solo si la fuente publica la dirección: con solo nombre y municipio
 // Google podría situar el pin en otro sitio y la ficha no puede afirmar una ubicación dudosa.
-const mapaEmbed = c.direccion
-  ? `https://www.google.com/maps?q=${encodeURIComponent([c.nombre, c.direccion, c.direccion.toLowerCase().includes(mun.nombre.toLowerCase()) ? '' : mun.nombre].filter(Boolean).join(', '))}&output=embed`
+const consultaMapaCentro = consultaMapa(c, mun.nombre);
+const mapaEmbed = consultaMapaCentro
+  ? `https://www.google.com/maps?q=${encodeURIComponent(consultaMapaCentro)}&output=embed`
   : null;
 const webCorta = c.web?.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
 const FUENTE: Record<string, [string, string]> = {

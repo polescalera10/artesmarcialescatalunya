@@ -108,3 +108,29 @@ export const PROMOCIONES: Promocion[] = (promocionadosRaw as Promocion[]).filter
 );
 export const esPromocionado = (slug: string) => PROMOCIONES.some(p => p.slug === slug);
 export const promocionadosEn = (lista: Centro[]) => lista.filter(c => esPromocionado(c.slug));
+
+const sinTildes = (t: string) => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+/**
+ * Consulta para geocodificar la dirección en Google Maps. Las direcciones de las
+ * fuentes llegan con ruido que despista al geocodificador y acaba mostrando el
+ * mapa del mundo: paréntesis ("(Complex Esportiu)"), "s/n", "Nº", separadores
+ * "–provincia". Se limpia eso y se usa solo la dirección + municipio, sin el
+ * nombre del centro (un nombre que Google no conoce rompe la búsqueda entera).
+ */
+export function consultaMapa(c: Centro, municipio: string): string | null {
+  if (!c.direccion) return null;
+  let d = c.direccion
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/\bs\/n\b\.?/gi, ' ')
+    .replace(/\bn[ºo°]\.?\s*(?=\d)/gi, ' ')
+    .replace(/\s*[–—]\s*[\p{L} ]+$/u, '')
+    .replace(/\s+/g, ' ')
+    .replace(/\s+,/g, ',')
+    .replace(/(\s*,)+\s*$/g, '')
+    .replace(/^[\s,]+/, '')
+    .trim();
+  if (!d) return null;
+  if (!sinTildes(d).includes(sinTildes(municipio))) d += `, ${municipio}`;
+  return `${d}, Catalunya`;
+}
