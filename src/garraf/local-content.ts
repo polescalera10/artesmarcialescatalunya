@@ -242,7 +242,7 @@ export const PERFIL_BODIES: Record<string, string> = {
 <p>Cuando veas la clase, fíjate sobre todo en cómo corrigen a un niño que lo hace mal. Es el mejor indicador de calidad y no necesitas saber nada de artes marciales para juzgarlo.</p>
 
 <h2>Septiembre manda</h2>
-<p>Los grupos por edad se forman con el curso escolar. Si estás decidiendo en verano, es el momento de visitar y reservar; a mitad de curso es posible entrar pero tu hijo se incorpora a un grupo ya cohesionado. Para profundizar: <a href="/blog/mejor-arte-marcial-para-ninos-garraf/">cuál es la mejor arte marcial para niños</a> y <a href="/blog/karate-vs-taekwondo-ninos-garraf/">karate o taekwondo</a>.</p>
+<p>Los grupos por edad se forman con el curso escolar. Si estás decidiendo en verano, es el momento de visitar y reservar; a mitad de curso es posible entrar pero tu hijo se incorpora a un grupo ya cohesionado. Para profundizar: <a href="/blog/mejor-arte-marcial-para-ninos-garraf/">cuál es el mejor arte marcial para niños</a> y <a href="/blog/karate-vs-taekwondo-ninos-garraf/">karate o taekwondo</a>.</p>
 `,
 
   'clases-para-mujeres': `
@@ -339,7 +339,7 @@ export const PERFIL_BODIES: Record<string, string> = {
 
 <h2>El calendario en Sitges</h2>
 <p>Los grupos infantiles se forman en septiembre, con el curso escolar, y esa es la ventana natural para empezar. Incorporarse en noviembre o enero es posible, pero tu hijo entra en un grupo ya cohesionado y con contenidos avanzados. Si estás leyendo esto en verano, es el momento de mirar y reservar; si es diciembre, pregunta igualmente si hay grupo con plazas o si conviene esperar a septiembre.</p>
-<p>Para comparar disciplinas en detalle, tienes la <a href="/clases-para-ninos/">guía de artes marciales para niños del Garraf</a> y el artículo <a href="/blog/mejor-arte-marcial-para-ninos-garraf/">cuál es la mejor arte marcial para niños</a>. Si prefieres que te orientemos según la edad y el carácter de tu hijo, <a href="/contacto/">escríbenos</a>.</p>
+<p>Para comparar disciplinas en detalle, tienes la <a href="/clases-para-ninos/">guía de artes marciales para niños del Garraf</a> y el artículo <a href="/blog/mejor-arte-marcial-para-ninos-garraf/">cuál es el mejor arte marcial para niños</a>. Si prefieres que te orientemos según la edad y el carácter de tu hijo, <a href="/contacto/">escríbenos</a>.</p>
 `,
 
   'clases-infantiles-en-vilanova': `
@@ -517,7 +517,7 @@ export const PERFIL_BODIES: Record<string, string> = {
 <p>Y una recomendación por encima de las cinco: ve a ver la clase y fíjate en cómo corrigen a un niño que lo hace mal. Es el mejor indicador de la calidad de un grupo infantil, y no necesitas saber nada de karate para juzgarlo.</p>
 
 <h2>Septiembre es la ventana</h2>
-<p>Los grupos por edad se forman con el curso escolar. Si decides en verano, visitas con calma y reservas; si decides en enero, tu hijo se incorpora a un grupo ya cohesionado, lo cual es posible pero más cuesta arriba. Para ampliar, tienes la <a href="/clases-para-ninos/">guía para padres del Garraf</a> y <a href="/blog/mejor-arte-marcial-para-ninos-garraf/">cuál es la mejor arte marcial para niños</a>. Si prefieres que te ayudemos a decidir, <a href="/contacto/">escríbenos</a>.</p>
+<p>Los grupos por edad se forman con el curso escolar. Si decides en verano, visitas con calma y reservas; si decides en enero, tu hijo se incorpora a un grupo ya cohesionado, lo cual es posible pero más cuesta arriba. Para ampliar, tienes la <a href="/clases-para-ninos/">guía para padres del Garraf</a> y <a href="/blog/mejor-arte-marcial-para-ninos-garraf/">cuál es el mejor arte marcial para niños</a>. Si prefieres que te ayudemos a decidir, <a href="/contacto/">escríbenos</a>.</p>
 `,
 };
 

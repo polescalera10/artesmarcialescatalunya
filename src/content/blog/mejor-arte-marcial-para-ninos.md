@@ -1,14 +1,14 @@
 ---
 titulo: "Artes marciales para niños: cuál es la mejor y cómo elegir"
-descripcion: "Cuál es la mejor arte marcial para niños: comparativa de karate, judo y taekwondo, con criterios por edad y carácter y checklist para evaluar el centro."
-h1: "Cuál es la mejor arte marcial para niños: cómo elegir por edad y carácter"
-intro: "Elegir la arte marcial de tu hijo confunde porque hay muchas opciones y todas se anuncian como la mejor. Comparamos las tres entradas infantiles más habituales, karate, judo y taekwondo, y te damos criterios por edad, carácter y objetivo. En Cataluña constan {{infantil}} centros cuya fuente pública anuncia clases para niños, así que la oferta suele estar más cerca de lo que parece."
+descripcion: "Cuál es el mejor arte marcial para niños: comparativa de karate, judo y taekwondo, con criterios por edad y carácter y checklist para evaluar el centro."
+h1: "Cuál es el mejor arte marcial para niños: cómo elegir por edad y carácter"
+intro: "Elegir el arte marcial de tu hijo confunde porque hay muchas opciones y todas se anuncian como la mejor. Comparamos las tres entradas infantiles más habituales, karate, judo y taekwondo, y te damos criterios por edad, carácter y objetivo. En Cataluña constan {{infantil}} centros cuya fuente pública anuncia clases para niños, así que la oferta suele estar más cerca de lo que parece."
 tipo: articulo
 fecha: "2026-07-07"
-actualizado: "2026-10-03"
+actualizado: "2026-10-16"
 slugAnterior: "mejor-arte-marcial-para-ninos-garraf"
 faq:
-  - q: "¿Cuál es la mejor arte marcial para un niño?"
+  - q: "¿Cuál es el mejor arte marcial para un niño?"
     a: "Ninguna es la mejor en abstracto. Karate, judo y taekwondo tienen metodología infantil rodada y la diferencia real la marcan el instructor, el grupo y que el niño quiera volver. Elige por carácter, por cercanía y por la calidad del grupo infantil."
   - q: "¿Qué arte marcial es mejor para un niño tímido o inseguro?"
     a: "Suele funcionar bien el judo, por el contacto constante y cooperativo, y el karate, por su marco predecible. Son tendencias, no diagnósticos: lo decisivo es que el grupo y el instructor generen confianza."

@@ -13,7 +13,7 @@ faq:
   - q: "¿A qué edad puede empezar?"
     a: "Muchos centros aceptan niños desde los 4 o 5 años en grupos propios de iniciación, con juego reglado. La edad exacta la fija cada centro, así que pregúntala antes de ir. Si dudas de si tu hijo está listo, una clase de prueba lo aclara mejor que cualquier regla."
   - q: "¿Se puede cambiar de karate a taekwondo más adelante?"
-    a: "Sí, y pasa a menudo. La coordinación, la costumbre de entrenar y la cultura de tatami se trasladan bien. Empezar por una no cierra la puerta a la otra ni a ninguna arte marcial que el niño pruebe de adolescente."
+    a: "Sí, y pasa a menudo. La coordinación, la costumbre de entrenar y la cultura de tatami se trasladan bien. Empezar por una no cierra la puerta a la otra ni a ningún arte marcial que el niño pruebe de adolescente."
   - q: "¿Cuál es más seguro para los niños?"
     a: "Las dos se enseñan a los niños con contacto controlado y protecciones, y el riesgo depende sobre todo de cómo se dirija la clase. Para dudas sobre lesiones o condiciones concretas de tu hijo, consulta con su pediatra y con el instructor."
   - q: "¿Hay clases de las dos en toda Cataluña?"
@@ -73,7 +73,7 @@ La compra inicial es una: el uniforme (karategi o dobok), que el propio centro s
 
 Sí, y pasa constantemente. La base de cualquiera de las dos se transfiere bien a la otra y a lo que el niño pruebe de mayor, del [judo](/disciplinas/judo/) al boxeo. Elegir mal a los 6 años no existe: ninguna puerta se cierra. Baja la presión. El objetivo a esta edad es que se mueva, disfrute y aprenda, no acertar la disciplina definitiva.
 
-Si dudas también con el judo, compara en [karate o judo para niños](/blog/karate-o-judo-para-ninos/) y en la guía de [la mejor arte marcial para niños](/blog/mejor-arte-marcial-para-ninos/).
+Si dudas también con el judo, compara en [karate o judo para niños](/blog/karate-o-judo-para-ninos/) y en la guía sobre [el mejor arte marcial para niños](/blog/mejor-arte-marcial-para-ninos/).
 
 ## Qué hay cerca de ti, con datos del directorio
 

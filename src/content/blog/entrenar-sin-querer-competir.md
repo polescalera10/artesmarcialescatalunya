@@ -2,53 +2,55 @@
 titulo: "Artes marciales sin competir: cómo entrenar sin torneos"
 descripcion: "Se puede entrenar artes marciales sin competir nunca. Qué disciplinas empujan más al circuito, dos preguntas para saberlo y cómo buscar grupo en tu zona."
 h1: "Artes marciales sin competir: se puede, y así detectas un grupo donde competir es opcional"
-intro: "Es el miedo silencioso de mucha gente que ya está convencida de apuntarse: acabar en un sitio donde todos compiten menos tú. Aquí va qué disciplinas empujan más hacia el torneo, qué preguntar en la primera llamada y qué se pierde de verdad si nunca subes a un tatami de competición. En el directorio constan {{d:defensa-personal}} centros con defensa personal, un formato sin circuito competitivo propio, repartidos en {{dcom:defensa-personal}} comarcas."
+intro: "Es el miedo silencioso de mucha gente que ya está convencida de apuntarse: acabar en un sitio donde todos compiten menos tú. Qué disciplinas empujan más hacia el torneo, qué preguntar en la primera llamada y qué se pierde de verdad si nunca subes a un tatami de competición. En el directorio constan {{d:defensa-personal}} centros con defensa personal, un formato que se entrena sin torneos, repartidos en {{dcom:defensa-personal}} comarcas."
 tipo: articulo
 fecha: "2026-09-01"
-actualizado: "2026-10-03"
+actualizado: "2026-10-16"
 faq:
   - q: "¿Hace falta competir para entrenar artes marciales?"
-    a: "No. En casi todas las disciplinas la competición es una rama voluntaria y minoritaria. Se puede entrenar años, y en muchos sistemas graduarse por examen, sin subir nunca a un torneo. Lo que sí varía mucho es la cultura de cada club, y eso se pregunta antes de apuntarse."
+    a: "No. En casi todas las disciplinas la competición es una rama voluntaria. Se puede entrenar años, y en muchos sistemas graduarse por examen, sin subir nunca a un torneo. Lo que sí varía mucho es la cultura de cada club, y eso se pregunta antes de apuntarse."
   - q: "¿Qué artes marciales no tienen competición?"
-    a: "La defensa personal no tiene un circuito de torneos propio, y el aikido suele plantearse sin competición. Judo, karate, taekwondo, boxeo o jiu-jitsu brasileño sí la tienen, pero dentro de un club casi siempre hay grupos que no compiten. Cada centro lo plantea a su manera."
+    a: "La defensa personal y el krav maga se entrenan, por lo general, sin torneos. El aikido tampoco compite en la mayoría de escuelas, con la excepción del estilo Tomiki o Shodokan. Judo, karate, taekwondo, boxeo o jiu-jitsu brasileño sí tienen competición, pero dentro de un club suele haber gente que no compite. Cada centro lo plantea a su manera."
   - q: "¿Puedo subir de grado sin competir?"
     a: "En la mayoría de sistemas el grado se examina, no se gana en un podio. Si un club te dice que sin competir no subes, pregunta con qué programa trabaja y qué exige cada grado."
-  - q: "¿Qué pasa si me sacan la licencia federativa?"
-    a: "Sacarse la licencia no obliga a competir. En muchos clubs la tramitan a todo el mundo porque suele ir ligada al seguro deportivo. Pregunta si es obligatoria, qué cubre y quién la gestiona, y pide las condiciones por escrito."
+  - q: "¿Tener licencia federativa me obliga a competir?"
+    a: "No. Tener la licencia no obliga a competir. En muchos clubs la tramitan a todo el mundo porque suele ir ligada al seguro deportivo. Pregunta si es obligatoria, qué cubre y quién la gestiona, y pide las condiciones por escrito."
   - q: "¿Cómo sé si un club me va a presionar para competir?"
     a: "Mira si el calendario de torneos cambia la clase de todos los grupos. Desconfía si en tu primera semana te dicen que tienes condiciones para competir, o si las paredes solo muestran medallas. Si lo notas, es mejor mirar otro centro."
 ---
 
 ## La respuesta corta: no hace falta competir nunca
 
-No hace falta competir. Ni para entrenar, ni para graduarse en la mayoría de disciplinas, ni para que el instructor te tome en serio. Es la duda que más gente se traga sin preguntar, y por eso mucha no llega a apuntarse.
+No hace falta competir. Ni para entrenar, ni para graduarse en la mayoría de disciplinas, ni para que el instructor te tome en serio. Es una duda que mucha gente se traga sin preguntar, y a alguno le basta para no apuntarse.
 
-En un martes cualquiera por la tarde, en las salas de los {{centros}} centros del directorio, entrena mucha gente que no ha competido jamás y no piensa hacerlo. Va a moverse, a desconectar del trabajo, a aprender algo con las manos. El directorio no registra quién compite en cada sala, así que no hay porcentaje que dar. Lo habitual es que competir sea una rama aparte, no el centro de la clase.
+En un martes cualquiera por la tarde, en las salas de los {{centros}} centros del directorio, entrena gente que no ha competido nunca y no piensa hacerlo. Va a moverse, a desconectar del trabajo, a aprender algo con las manos. El directorio no registra quién compite en cada sala, así que no hay porcentaje que dar. Lo habitual es que competir sea una rama aparte, no el centro de la clase.
 
 Dicho eso, el miedo no es absurdo. Hay clubs donde el torneo marca el ritmo de todo, y ahí un adulto que solo quiere entrenar acaba sobrando. Se distinguen con dos preguntas que están más abajo.
 
 ## De dónde viene el miedo, y por qué es razonable
 
-Viene de lo que se ve. Lo que llega al móvil de un arte marcial es un combate, un podio o un vídeo de gimnasio con música épica. La clase real no se graba nunca: es una hora repitiendo un movimiento hasta que sale.
+Viene de lo que se ve. Lo que llega al móvil de un arte marcial es un combate, un podio o un vídeo de gimnasio con música épica. La clase real casi nunca se graba: es una hora repitiendo un movimiento hasta que sale.
 
 Viene también de la palabra. "Artes marciales" suena a pelear, y lo que se hace en la sala se parece más a un idioma que se aprende despacio.
 
-Y viene de una experiencia previa. Quien llega a los treinta o a los cuarenta suele arrastrar un mal recuerdo del deporte de club de su infancia. El entrenador que solo miraba a los cinco buenos, el banquillo, la sensación de estorbar. Ese recuerdo no se desmonta con un eslogan, sino viendo cómo funciona el grupo.
+Y a veces viene de una experiencia previa. Hay quien llega a los treinta o a los cuarenta con un mal recuerdo del deporte de club de su infancia. El entrenador que solo miraba a los cinco buenos, el banquillo, la sensación de estorbar. Ese recuerdo no se desmonta con un eslogan, sino viendo cómo funciona el grupo.
 
 Ayuda también cambiar de vara de medir. La [Organización Mundial de la Salud](https://www.who.int/es/news-room/fact-sheets/detail/physical-activity) recomienda a los adultos al menos 150 minutos semanales de actividad física moderada y recuerda que toda actividad cuenta (consultada en octubre de 2026). Cuenta el tiempo que te mueves, no los trofeos.
 
 ## Qué disciplinas empujan más hacia la competición
 
-No todas tiran igual. Algunas tienen un circuito de torneos muy desarrollado y otras ni siquiera lo tienen, y el mapa del directorio permite verlo con números.
+No todas tiran igual. Algunas tienen un circuito de torneos muy desarrollado y otras apenas compiten, y el mapa del directorio permite verlo con números.
 
-La [defensa personal](/disciplinas/defensa-personal/) es el formato sin circuito competitivo propio: no hay campeonatos de defensa personal como los hay de judo o de boxeo. Consta en {{d:defensa-personal}} centros, en {{dcom:defensa-personal}} comarcas, y en el Barcelonès y el Baix Llobregat suman {{dc:defensa-personal:barcelones}} y {{dc:defensa-personal:baix-llobregat}} centros respectivamente. El [aikido](/disciplinas/aikido/) suele plantearse también sin competición, aunque es mucho más escaso: {{d:aikido}} centros en {{dcom:aikido}} comarcas.
+La [defensa personal](/disciplinas/defensa-personal/) se entrena, por lo general, sin torneos: su objetivo es salir de una agresión, no ganar a nadie por puntos. Lo mismo vale para el [krav maga](/disciplinas/krav-maga/), mucho menos extendido ({{d:krav-maga}} centros). La defensa personal consta en {{d:defensa-personal}} centros, en {{dcom:defensa-personal}} comarcas, y en el Barcelonès y el Baix Llobregat suman {{dc:defensa-personal:barcelones}} y {{dc:defensa-personal:baix-llobregat}} centros respectivamente.
+
+El [aikido](/disciplinas/aikido/) tampoco compite en la mayoría de escuelas (la excepción es el estilo Tomiki o Shodokan, que sí tiene torneos) y consta en {{d:aikido}} centros de {{dcom:aikido}} comarcas. Si es el tuyo, pregunta qué estilo se enseña.
 
 En el otro extremo están las disciplinas con estructura federativa fuerte: karate ({{d:karate}} centros), taekwondo ({{d:taekwondo}}) y judo ({{d:judo}}). Eso no las hace peores. Sí explica por qué su cultura de club suele estar más cerca del calendario de torneos.
 
 | Disciplina | Peso de la competición | Dónde consta |
 |---|---|---|
-| Defensa personal | Sin circuito propio | {{d:defensa-personal}} centros, {{dcom:defensa-personal}} comarcas |
-| [Jiu-jitsu brasileño](/disciplinas/jiu-jitsu-brasileno/) | Alto si lo buscas, casi invisible si no: el grado se examina, no se gana en el torneo | {{d:jiu-jitsu-brasileno}} centros, {{dcom:jiu-jitsu-brasileno}} comarcas |
+| Defensa personal | Se entrena sin torneos | {{d:defensa-personal}} centros, {{dcom:defensa-personal}} comarcas |
+| [Jiu-jitsu brasileño](/disciplinas/jiu-jitsu-brasileno/) | Alto si lo buscas, casi invisible si no: el cinturón lo da el profesor, no un podio | {{d:jiu-jitsu-brasileno}} centros, {{dcom:jiu-jitsu-brasileno}} comarcas |
 | Boxeo y kickboxing | Suele haber grupo de competición y grupo que no compite | {{d:boxeo}} y {{d:kickboxing}} centros |
 | Taekwondo, karate y judo | Estructura federativa fuerte: el calendario pesa más | {{d:taekwondo}}, {{d:karate}} y {{d:judo}} centros |
 
@@ -74,9 +76,9 @@ Nuestra recomendación es simple: si en la primera conversación notas que la re
 
 ## Qué pierdes si no compites, y qué no
 
-Primero lo que sí pierdes, porque casi nadie lo dice. La competición acelera. Te obliga a resolver bajo presión y con alguien que de verdad quiere ganarte, y eso enseña cosas que el entrenamiento cooperativo tarda mucho más en dar. Quien compite dos años suele progresar más rápido que quien no.
+Primero lo que sí pierdes, porque casi nadie lo dice. La competición te obliga a resolver bajo presión, con alguien que de verdad quiere ganarte y con un reglamento que no perdona. Esa experiencia el entrenamiento cooperativo no la reproduce del todo, y hay quien compite una o dos veces solo para saber cómo se siente.
 
-Ahora lo que no pierdes, que es casi todo lo demás. La técnica se aprende igual de bien. La forma física se gana igual. El grupo no distingue entre quien compite y quien no, y ese grupo suele ser la razón por la que alguien sigue yendo tres años después.
+Ahora lo que no pierdes, que es casi todo lo demás. La técnica se aprende en clase, compitas o no. La forma física depende de cuánto y cómo entrenes, no de los torneos. Y el grupo no distingue entre quien compite y quien no: muchas veces es lo que hace que alguien siga yendo años después.
 
 ## La licencia federativa no es un contrato para competir
 

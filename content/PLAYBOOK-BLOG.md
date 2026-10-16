@@ -85,8 +85,6 @@ Invoca la skill `blog` y aplica `references/ai-slop-detection.md` (dos niveles: 
 
 **No te pases.** Humanizar no es meter coloquialismos ni chistes. El objetivo es que suene a la persona que escribió los artículos de referencia: alguien con criterio, con prisa y sin ganas de vender nada.
 
-**No te pases.** Humanizar no es meter coloquialismos ni chistes: tiene que sonar a alguien con criterio, con prisa y sin ganas de vender.
-
 ---
 
 ## 4. Formato: un Markdown por artículo
