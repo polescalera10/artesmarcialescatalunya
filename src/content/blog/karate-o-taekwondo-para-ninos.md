@@ -2,10 +2,10 @@
 titulo: "Karate o taekwondo: diferencias y cuál elegir para niños"
 descripcion: "Karate o taekwondo para niños: qué cambia en la clase, por edades, cinturones y carácter del niño, y cómo decidir con datos del directorio de Cataluña."
 h1: "Karate o taekwondo para niños: cuál elegir según la edad y el carácter"
-intro: "Es la duda más repetida entre familias: ¿karate o taekwondo? Las dos son buenas opciones, con énfasis distintos, y no hay una respuesta única. La buena noticia es que las dos están muy extendidas: constan {{d:karate}} centros con karate y {{d:taekwondo}} con taekwondo en el directorio, así que casi seguro tienes ambas a tiro."
+intro: "Es la duda más repetida entre familias: ¿karate o taekwondo? Las dos son buenas opciones, con énfasis distintos, y no hay una respuesta única. La buena noticia es que las dos están muy extendidas: constan {{d:karate}} centros con karate y {{d:taekwondo}} con taekwondo en el directorio, así que lo normal es que tengas al menos una a tiro."
 tipo: articulo
 fecha: "2026-07-07"
-actualizado: "2026-10-03"
+actualizado: "2026-10-16"
 slugAnterior: "karate-vs-taekwondo-ninos-garraf"
 faq:
   - q: "¿Qué es mejor para un niño, karate o taekwondo?"
@@ -22,7 +22,7 @@ faq:
 
 ## La respuesta corta, y por qué la larga importa más
 
-**En corto:** si tu hijo necesita estructura y concentración, karate. Si es puro nervio y le encanta patear, taekwondo. Si tiene entre 4 y 6 años, elige el centro con mejor grupo infantil que te quede cómodo.
+Si tu hijo necesita estructura y concentración, karate. Si es puro nervio y le encanta patear, taekwondo. Si tiene entre 4 y 6 años, elige el centro con mejor grupo infantil que te quede cómodo.
 
 Esa es la versión corta. La larga es que la disciplina pesa menos que el instructor, el grupo por edades y el horario. Un buen profesor de taekwondo aporta más que uno malo de karate, y al revés.
 
@@ -30,7 +30,7 @@ Esa es la versión corta. La larga es que la disciplina pesa menos que el instru
 
 Las dos son disciplinas de golpeo de origen asiático, con progresión por cinturones y un fuerte componente de respeto. En las dos el contacto es controlado en las edades infantiles, y la metodología para niños está muy rodada.
 
-Tu hijo va a ganar coordinación, autocontrol y forma física con cualquiera de las dos. Por eso no estás eligiendo entre una opción buena y otra mala. Estás eligiendo entre dos buenas con acentos diferentes.
+Las dos trabajan coordinación, control del cuerpo y condición física, cada una con su acento. Por eso la elección es entre dos opciones razonables, y lo que decide es el grupo concreto.
 
 ## Las diferencias que importan
 
@@ -38,9 +38,9 @@ Tu hijo va a ganar coordinación, autocontrol y forma física con cualquiera de 
 |---|---|---|
 | Origen | Japón (Okinawa) | Corea |
 | Reparto | Puños y piernas equilibrados | Piernas: patadas altas y giradas |
-| Qué desarrolla | Estabilidad, control postural, precisión | Flexibilidad, agilidad, equilibrio dinámico |
+| Qué se trabaja más | Estabilidad, control postural, precisión | Flexibilidad, agilidad, equilibrio dinámico |
 | Estilo de clase | Más formal y pautada, con katas | Más dinámica y aeróbica, con poomsae y mucho pateo |
-| Competición | Kata y kumite | Deporte olímpico, con combate y poomsae |
+| Competición | Kata y kumite | Combate (deporte olímpico) y poomsae |
 | Suele encajar a | Niños que necesitan estructura y foco | Niños muy activos a los que engancha lo dinámico |
 
 Un matiz que casi nadie cuenta. Dentro del karate hay enfoques más deportivos y otros más tradicionales. En el taekwondo convive la vertiente de combate con la técnica de poomsae. El enfoque concreto del centro puede pesar tanto como la disciplina. Pregúntalo.
@@ -49,7 +49,7 @@ Un matiz que casi nadie cuenta. Dentro del karate hay enfoques más deportivos y
 
 - **4 a 6 años:** casi da igual. A esta edad las dos trabajan psicomotricidad y atención con juego reglado. Pesa más la logística semanal: el centro que no te obligue a cruzar la ciudad.
 - **7 a 10 años:** aquí ya se nota el énfasis. Un niño que necesita calma y foco suele encajar mejor en karate. Uno muy activo, flexible y al que le encanta patear, en taekwondo.
-- **11 años en adelante:** que decida él o ella. La motivación propia es lo que más ayuda a que siga, y una clase de prueba de cada una zanja el debate.
+- **11 años en adelante:** que decida él o ella. La motivación propia pesa mucho en que siga, y una clase de prueba de cada una zanja el debate.
 
 Si lo que te preocupa es empezar demasiado pronto o tarde, tienes más contexto en [a qué edad empezar con las artes marciales](/blog/a-que-edad-empezar-artes-marciales/).
 
@@ -61,7 +61,7 @@ En taekwondo la progresión suele estar bastante estandarizada por la estructura
 
 ## Competición: opcional, y conviene preguntarlo
 
-Las dos tienen circuito de competición por edades, y el taekwondo lo tiene especialmente organizado. Eso no significa que tu hijo tenga que competir. Muchos niños practican años sin hacerlo, y está bien.
+Las dos tienen circuito de competición por edades. Eso no significa que tu hijo tenga que competir. Muchos niños practican años sin hacerlo, y está bien.
 
 Lo que sí conviene saber es cómo lo plantea el centro. Hay clubes que lo ofrecen como opción y otros que lo empujan desde pequeños porque los resultados dan prestigio. Pregunta qué porcentaje de las clases se dedica a preparar torneos y si se puede entrenar sin apuntarse a ellos. Si la respuesta se alarga o se pone incómoda, ya sabes algo del centro.
 
@@ -71,7 +71,7 @@ La compra inicial es una: el uniforme (karategi o dobok), que el propio centro s
 
 ## ¿Se puede cambiar más adelante?
 
-Sí, y pasa constantemente. La base de cualquiera de las dos se transfiere bien a la otra y a lo que el niño pruebe de mayor, del [judo](/disciplinas/judo/) al boxeo. Elegir mal a los 6 años no existe: ninguna puerta se cierra. Baja la presión. El objetivo a esta edad es que se mueva, disfrute y aprenda, no acertar la disciplina definitiva.
+Sí, y pasa a menudo. La base de cualquiera de las dos se transfiere bien a la otra y a lo que el niño pruebe de mayor, del [judo](/disciplinas/judo/) al boxeo. Elegir mal a los 6 años no existe: ninguna puerta se cierra. Baja la presión. El objetivo a esta edad es que se mueva, disfrute y aprenda, no acertar la disciplina definitiva.
 
 Si dudas también con el judo, compara en [karate o judo para niños](/blog/karate-o-judo-para-ninos/) y en la guía sobre [el mejor arte marcial para niños](/blog/mejor-arte-marcial-para-ninos/).
 
@@ -79,7 +79,7 @@ Si dudas también con el judo, compara en [karate o judo para niños](/blog/kara
 
 Las dos disciplinas están muy repartidas. El [karate](/disciplinas/karate/) consta en {{dcom:karate}} comarcas y el [taekwondo](/disciplinas/taekwondo/) en {{dcom:taekwondo}}. Solo en el Barcelonès constan {{dc:karate:barcelones}} centros con karate y {{dc:taekwondo:barcelones}} con taekwondo, y fuera de las grandes áreas es habitual que haya al menos una de las dos.
 
-Además, {{infantil}} centros del directorio anuncian clases para niños en su fuente pública. Ese dato no distingue por disciplina, así que antes de ir conviene confirmar que existe grupo de la edad de tu hijo.
+Además, {{infantil}} centros del directorio anuncian clases para niños en su fuente pública. Es una marca parcial: muchos centros con grupo infantil no la llevan porque su fuente no lo detalla, y el dato tampoco distingue por disciplina. Antes de ir, confirma con el centro que hay grupo de la edad de tu hijo.
 
 ## Cómo encontrarlo en tu zona y decidir en dos semanas
 

@@ -21,7 +21,7 @@ faq:
 
 Un curso así puede ser un sábado por la mañana o tres meses de martes y jueves. Los dos son legítimos, pero no hacen lo mismo. El taller te da información, te deja probar y te quita el miedo a empezar. Lo que no da es tiempo para repetir, y eso solo lo pone la práctica regular.
 
-Nuestra recomendación: **si es tu primer contacto, un taller es buena puerta de entrada. Si quieres que algo te salga sin pensarlo, planea práctica regular.** Lo que funciona y lo que es marketing está en [defensa personal para mujeres: qué funciona y cómo elegir](/blog/defensa-personal-para-mujeres/). Aquí vamos a Barcelona y a cómo leer lo que te ofrecen.
+Nuestra recomendación: **si es tu primer contacto, un taller es buena puerta de entrada. Si quieres que algo te salga sin pensarlo, planea práctica regular.** Qué enseña un programa serio y qué es marketing está en [defensa personal para mujeres: cómo elegir un programa](/blog/defensa-personal-para-mujeres/). Esta guía se queda en Barcelona y en cómo leer lo que te ofrecen.
 
 ## Qué recoge el directorio con la etiqueta "defensa personal"
 

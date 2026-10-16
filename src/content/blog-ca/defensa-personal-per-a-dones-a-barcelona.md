@@ -22,7 +22,7 @@ faq:
 
 Un curs així pot ser un dissabte al matí o tres mesos de dimarts i dijous. Tots dos són legítims, però no fan el mateix. El taller et dona informació, et deixa provar i et treu la por de començar. El que no dona és temps per repetir, i això només ho posa la pràctica regular.
 
-La nostra recomanació: **si és el teu primer contacte, un taller és una bona porta d'entrada. Si vols que alguna cosa et surti sense pensar-hi, planifica pràctica regular.** El que funciona i el que és màrqueting és a [defensa personal per a dones: què funciona i com triar](/blog/defensa-personal-para-mujeres/). Aquí ens centrem en Barcelona i en com llegir el que t'ofereixen.
+La nostra recomanació: **si és el teu primer contacte, un taller és una bona porta d'entrada. Si vols que alguna cosa et surti sense pensar-hi, planifica pràctica regular.** Què ensenya un programa seriós i què és màrqueting és a [defensa personal per a dones: com triar un programa](/blog/defensa-personal-para-mujeres/). Aquesta guia es queda a Barcelona i en com llegir el que t'ofereixen.
 
 ## Què recull el directori amb l'etiqueta "defensa personal"
 
