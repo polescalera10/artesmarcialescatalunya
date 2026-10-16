@@ -21,6 +21,8 @@ const { lang, comarca } = Astro.props;
 const com = getComarca(comarca)!;
 const centros = centrosDeComarca(comarca);
 const disc = disciplinasPresentes(centros);
+// Recuentos que se afirman en texto, FAQ y chips: solo centros verificados (disc, con registro, queda para el filtro del listado).
+const discV = disciplinasPresentes(verificados(centros));
 const nV = verificados(centros).length;
 const nR = centros.length - nV;
 const porMunicipio = [...new Set(centros.map(c => c.municipio))]
@@ -59,8 +61,8 @@ const faq = [
   {
     q: L(lang, `¿Qué artes marciales se pueden practicar ${nombreEn}?`, `Quines arts marcials es poden practicar ${nombreEn}?`),
     a: L(lang,
-      `Las disciplinas con más centros son ${lista(lang, disc.slice(0, 5).map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. En total constan ${n(disc.length, 'disciplina', 'disciplinas')} distintas.`,
-      `Les disciplines amb més centres són ${lista(lang, disc.slice(0, 5).map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. En total hi consten ${n(disc.length, 'disciplina', 'disciplines')} diferents.`),
+      `Las disciplinas con más centros son ${lista(lang, discV.slice(0, 5).map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. En total constan ${n(discV.length, 'disciplina', 'disciplinas')} distintas.`,
+      `Les disciplines amb més centres són ${lista(lang, discV.slice(0, 5).map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. En total hi consten ${n(discV.length, 'disciplina', 'disciplines')} diferents.`),
   },
   {
     q: L(lang, '¿De dónde salen los datos?', "D'on surten les dades?"),
@@ -131,7 +133,7 @@ const schema = {
       <div>
         <h2 class="text-lg font-bold text-white mb-3">{L(lang, 'Por disciplina', 'Per disciplina')}</h2>
         <ul class="flex flex-wrap gap-2">
-          {disc.map(d => (
+          {discV.map(d => (
             <li>
               <a href={discComarca.has(d.slug) ? url.discComarca(lang, d.slug, comarca) : url.disciplina(lang, d.slug)} class="inline-flex items-center gap-2 bg-brand-gray border border-brand-border rounded-full px-3 py-1.5 text-sm text-brand-muted hover:text-white hover:border-brand-red/40">
                 {nombreDisciplina(d.slug, lang)} <span class="text-white font-semibold">{d.n}</span>

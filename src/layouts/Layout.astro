@@ -130,6 +130,14 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
 <body class="bg-brand-dark text-white font-sans antialiased">
   <slot />
   <CookieConsent lang={lang} />
+  {import.meta.env.PROD && (
+    <>
+      <!-- Medición de visitas agregada y sin cookies (Vercel Web Analytics). Complementa a GA4,
+           que solo ve a quien acepta cookies. Requiere activar Analytics en el proyecto de Vercel. -->
+      <script is:inline>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+      <script is:inline defer src="/_vercel/insights/script.js"></script>
+    </>
+  )}
   <script>
     // Eventos de GA4 para las acciones clave. gtag solo existe si hay consentimiento.
     const enviar = (nombre: string, params: Record<string, string> = {}) => (window as any).gtag?.('event', nombre, params);

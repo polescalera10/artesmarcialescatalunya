@@ -28,6 +28,8 @@ const com = getComarca(comarca)!;
 const mun = getMunicipio(municipio)!;
 const centros = centrosDeMunicipio(municipio);
 const disc = disciplinasPresentes(centros);
+// Recuentos que se afirman en texto, FAQ y chips: solo centros verificados (disc, con registro, queda para el filtro del listado).
+const discV = disciplinasPresentes(verificados(centros));
 const nV = verificados(centros).length;
 const nR = centros.length - nV;
 const top = disciplinasPresentes(verificados(centros)).slice(0, 4).map(d => minus(nombreDisciplina(d.slug, lang)));
@@ -103,11 +105,11 @@ const faq = ed?.faq?.length ? ed.faq : [
       `En nuestro directorio constan ${n(nV, 'centro', 'centros')} en ${mun.nombre}. Solo publicamos centros con una fuente pública verificable, así que puede haber alguno más que aún no hemos podido comprobar.`,
       `Al nostre directori hi consten ${n(nV, 'centre', 'centres')} a ${mun.nombre}. Només publiquem centres amb una font pública verificable, així que en pot haver algun més que encara no hem pogut comprovar.`),
   },
-  ...(disc.length ? [{
+  ...(discV.length ? [{
     q: L(lang, `¿Qué artes marciales se pueden practicar en ${mun.nombre}?`, `Quines arts marcials es poden practicar a ${mun.nombre}?`),
     a: L(lang,
-      `Según las fuentes de cada centro: ${lista(lang, disc.map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. El número indica cuántos centros la anuncian.`,
-      `Segons les fonts de cada centre: ${lista(lang, disc.map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. El número indica quants centres l'anuncien.`),
+      `Según las fuentes de cada centro: ${lista(lang, discV.map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. El número indica cuántos centros la anuncian.`,
+      `Segons les fonts de cada centre: ${lista(lang, discV.map(d => `${minus(nombreDisciplina(d.slug, lang))} (${d.n})`))}. El número indica quants centres l'anuncien.`),
   }] : []),
 ];
 
@@ -150,11 +152,11 @@ const schema = {
       )}
     </section>
 
-    {disc.length > 0 && (
+    {discV.length > 0 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <h2 class="text-lg font-bold text-white mb-3">{L(lang, `Disciplinas en ${mun.nombre}`, `Disciplines a ${mun.nombre}`)}</h2>
         <ul class="flex flex-wrap gap-2">
-          {disc.map(d => (
+          {discV.map(d => (
             <li>
               {tienePaginaMunDisc(municipio, d.slug) ? (
                 <a href={url.munDisc(lang, comarca, municipio, d.slug)} class="inline-flex items-center gap-2 bg-brand-gray border border-brand-border rounded-full px-3 py-1.5 text-sm text-brand-muted hover:text-white hover:border-brand-red/40">
