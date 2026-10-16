@@ -17,6 +17,7 @@ const entradas: Entrada[] = [
   { por: l => url.centros(l), lastmod: R, bilingue: true },
   { por: l => url.disciplinas(l), lastmod: R, bilingue: true },
   { por: l => url.paraCentros(l), lastmod: R, bilingue: true },
+  { por: l => url.paraCentrosSello(l), lastmod: R, bilingue: true },
   { por: l => url.sobre(l), lastmod: R, bilingue: true },
   { por: l => url.contacto(l), lastmod: R, bilingue: true },
   ...rutasComarca().map(r => ({ por: (l: Lang) => url.comarca(l, r.comarca), lastmod: R, bilingue: true })),

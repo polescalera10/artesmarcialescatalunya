@@ -1,0 +1,156 @@
+---
+// Guía para centros: cómo poner el sello «Ficha verificada» en su web (WordPress,
+// Wix, Squarespace y otros). Es la página a la que lleva el sello de cada ficha.
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import FAQ from '../components/FAQ.astro';
+import { L, url, type Lang } from '../lib/i18n';
+import { SITE, SCHEMA_IDS } from '../lib/site';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
+const title = L(lang, 'Sello «Ficha verificada» para la web de tu centro', 'Segell «Fitxa verificada» per al web del teu centre');
+const description = L(lang,
+  'Cómo poner en tu web el sello «Ficha verificada»: descarga la imagen y enlázala a tu ficha. Pasos para WordPress, Wix, Squarespace y otros. Gratis.',
+  'Com posar al teu web el segell «Fitxa verificada»: descarrega la imatge i enllaça-la a la teva fitxa. Passos per a WordPress, Wix, Squarespace i altres. Gratis.');
+
+const png = `/sello/ficha-verificada-${lang}.png`;
+const svg = `/sello/ficha-verificada-${lang}.svg`;
+const altSello = L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya');
+
+const plataformas: { nombre: string; pasos: string }[] = [
+  {
+    nombre: 'WordPress',
+    pasos: L(lang,
+      'Abre la página o el pie de tu web en el editor, añade un bloque «Imagen», sube el archivo y, en la barra del bloque, pulsa el icono de la cadena para pegar la dirección de tu ficha. Si tu tema es clásico, usa Apariencia > Widgets y el widget «Imagen» de la zona del pie. Si prefieres copiar y pegar el código, usa un bloque «HTML personalizado».',
+      "Obre la pàgina o el peu del teu web a l'editor, afegeix un bloc «Imatge», puja el fitxer i, a la barra del bloc, prem la icona de la cadena per enganxar l'adreça de la teva fitxa. Si el teu tema és clàssic, fes servir Aparença > Ginys i el giny «Imatge» de la zona del peu. Si prefereixes copiar i enganxar el codi, fes servir un bloc «HTML personalitzat»."),
+  },
+  {
+    nombre: 'Wix',
+    pasos: L(lang,
+      'En el editor, pulsa Añadir (+) > Imagen y sube el archivo. Selecciónala, pulsa el icono de enlace (la cadena), elige un enlace a una dirección web y pega la de tu ficha. Colócala en el pie de página y publica.',
+      "A l'editor, prem Afegeix (+) > Imatge i puja el fitxer. Selecciona-la, prem la icona d'enllaç (la cadena), tria un enllaç a una adreça web i enganxa la de la teva fitxa. Col·loca-la al peu de pàgina i publica."),
+  },
+  {
+    nombre: 'Squarespace',
+    pasos: L(lang,
+      'Edita el pie de página, añade un bloque «Imagen» y sube el archivo. En los ajustes del bloque hay un campo de enlace: pega ahí la dirección de tu ficha, guarda y publica.',
+      "Edita el peu de pàgina, afegeix un bloc «Imatge» i puja el fitxer. Als ajustos del bloc hi ha un camp d'enllaç: enganxa-hi l'adreça de la teva fitxa, desa i publica."),
+  },
+  {
+    nombre: L(lang, 'Shopify, Webnode, Jimdo y otros', 'Shopify, Webnode, Jimdo i altres'),
+    pasos: L(lang,
+      'Busca en el pie de página un bloque de imagen o de HTML. Sube el archivo y enlázalo a la dirección de tu ficha; si prefieres código, pega el que aparece en tu ficha. Guarda y publica.',
+      "Busca al peu de pàgina un bloc d'imatge o d'HTML. Puja el fitxer i enllaça'l a l'adreça de la teva fitxa; si prefereixes codi, enganxa el que apareix a la teva fitxa. Desa i publica."),
+  },
+];
+
+const aviso = L(lang,
+  'Hola, ¿puedes añadir en el pie de la web esta imagen enlazada a la ficha de nuestro centro en artesmarciales.cat? El enlace tiene que ser normal, sin rel="nofollow". Gracias.',
+  "Hola, pots afegir al peu del web aquesta imatge enllaçada a la fitxa del nostre centre a artesmarciales.cat? L'enllaç ha de ser normal, sense rel=\"nofollow\". Gràcies.");
+
+const faq = [
+  {
+    q: L(lang, '¿Cuesta algo poner el sello?', 'Costa res posar el segell?'),
+    a: L(lang, 'No. Es gratis y no está ligado a ningún servicio de pago.', 'No. És gratuït i no està lligat a cap servei de pagament.'),
+  },
+  {
+    q: L(lang, '¿Cambia mi posición en el directorio?', 'Canvia la meva posició al directori?'),
+    a: L(lang, 'No. El listado es alfabético y poner el sello no altera cómo aparece tu centro.', 'No. El llistat és alfabètic i posar el segell no altera com apareix el teu centre.'),
+  },
+  {
+    q: L(lang, '¿Puedo quitarlo cuando quiera?', 'El puc treure quan vulgui?'),
+    a: L(lang, 'Sí, en cualquier momento y sin avisar. Tu ficha seguirá en el directorio igual.', 'Sí, en qualsevol moment i sense avisar. La teva fitxa seguirà al directori igual.'),
+  },
+  {
+    q: L(lang, '¿Dónde está el código con mi dirección?', 'On és el codi amb la meva adreça?'),
+    a: L(lang, 'En la ficha de tu centro, en el bloque «Sello para la web del centro». El código ya lleva la dirección de tu ficha y se copia con un botón.', 'A la fitxa del teu centre, al bloc «Segell per al web del centre». El codi ja porta l\'adreça de la teva fitxa i es copia amb un botó.'),
+  },
+  {
+    q: L(lang, 'Un dato de mi ficha está mal. ¿Qué hago?', 'Una dada de la meva fitxa és incorrecta. Què faig?'),
+    a: L(lang, `Escríbenos a ${SITE.email} diciéndonos qué hay que cambiar y lo corregimos. Si quieres que la ficha no aparezca, también lo hacemos.`, `Escriu-nos a ${SITE.email} dient-nos què cal canviar i ho corregim. Si vols que la fitxa no aparegui, també ho fem.`),
+  },
+];
+
+const alternates = { es: url.paraCentrosSello('es'), ca: url.paraCentrosSello('ca') };
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${SITE.url}${url.paraCentrosSello(lang)}`,
+  name: title,
+  description,
+  url: `${SITE.url}${url.paraCentrosSello(lang)}`,
+  inLanguage: lang,
+  isPartOf: { '@id': SCHEMA_IDS.website },
+  publisher: { '@id': SCHEMA_IDS.organization },
+};
+---
+
+<Layout title={title} description={description} canonical={url.paraCentrosSello(lang)} schema={schema} lang={lang} alternates={alternates}>
+  <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
+  <main id="contenido">
+    <Migas lang={lang} items={[
+      { nombre: L(lang, 'Para centros', 'Per a centres'), href: url.paraCentros(lang) },
+      { nombre: L(lang, 'Sello', 'Segell'), href: url.paraCentrosSello(lang) },
+    ]} />
+
+    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{L(lang, 'Pon el sello «Ficha verificada» en tu web', 'Posa el segell «Fitxa verificada» al teu web')}</h1>
+      <p class="text-lg text-brand-muted mt-4 leading-relaxed">
+        {L(lang,
+          'Es una imagen que enlaza a la ficha de tu centro. A quien visita tu web le dice, de un vistazo, que tus datos están comprobados, y le lleva directo a tu ficha, con su fuente y su fecha de verificación. Es gratis, no cambia el orden del directorio y lo puedes quitar cuando quieras.',
+          "És una imatge que enllaça a la fitxa del teu centre. A qui visita el teu web li diu, d'un cop d'ull, que les teves dades estan comprovades, i el porta directe a la teva fitxa, amb la seva font i la seva data de verificació. És gratuït, no canvia l'ordre del directori i el pots treure quan vulguis.")}
+      </p>
+    </section>
+
+    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <h2 class="text-2xl font-bold text-white mb-4">{L(lang, '1. Descarga el sello', '1. Descarrega el segell')}</h2>
+      <div class="bg-brand-gray border border-brand-border rounded-2xl p-5 sm:p-6">
+        <img src={svg} alt={altSello} width="220" height="56" />
+        <div class="flex flex-wrap gap-3 mt-5">
+          <a href={png} download class="inline-block bg-brand-red text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:opacity-90" data-evento="descargar_sello">{L(lang, 'Descargar PNG', 'Descarregar PNG')}</a>
+          <a href={svg} download class="inline-block bg-white/5 border border-brand-border text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-white/10" data-evento="descargar_sello">{L(lang, 'Descargar SVG', 'Descarregar SVG')}</a>
+        </div>
+        <p class="text-sm text-brand-muted mt-4">{L(lang, 'El PNG vale en cualquier web. El SVG queda más nítido, pero no todos los constructores lo aceptan.', "El PNG val a qualsevol web. L'SVG queda més nítid, però no tots els constructors l'accepten.")}</p>
+      </div>
+    </section>
+
+    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <h2 class="text-2xl font-bold text-white mb-3">{L(lang, '2. Ponlo en el pie de tu web, enlazado a tu ficha', '2. Posa-ho al peu del teu web, enllaçat a la teva fitxa')}</h2>
+      <p class="text-brand-muted leading-relaxed mb-5">
+        {L(lang,
+          'Cada centro tiene su dirección. Búscalo en el directorio, abre su ficha y despliega «Sello para la web del centro»: ahí tienes la dirección de tu ficha y el código listo para copiar.',
+          "Cada centre té la seva adreça. Cerca'l al directori, obre la seva fitxa i desplega «Segell per al web del centre»: allà tens l'adreça de la teva fitxa i el codi a punt per copiar.")}
+      </p>
+      <a href={url.centros(lang)} class="inline-block bg-white/5 border border-brand-border text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-white/10 mb-6">{L(lang, 'Buscar mi centro', 'Cercar el meu centre')} →</a>
+      <div class="space-y-3">
+        {plataformas.map(p => (
+          <details class="group bg-brand-gray border border-brand-border rounded-lg overflow-hidden">
+            <summary class="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none text-white font-medium hover:bg-brand-border/50">
+              <span>{p.nombre}</span>
+              <svg class="w-5 h-5 text-brand-muted shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <p class="px-5 pb-5 text-sm text-brand-muted leading-relaxed">{p.pasos}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <h2 class="text-2xl font-bold text-white mb-3">{L(lang, '3. Si te lo gestiona otra persona', '3. Si te el gestiona una altra persona')}</h2>
+      <p class="text-brand-muted leading-relaxed mb-3">{L(lang, 'Reenvíale el correo o este texto, con la imagen descargada y la dirección de tu ficha:', "Reenvia-li el correu o aquest text, amb la imatge descarregada i l'adreça de la teva fitxa:")}</p>
+      <blockquote class="border border-brand-border rounded-xl p-4 text-sm text-brand-muted leading-relaxed bg-brand-gray">{aviso}</blockquote>
+    </section>
+
+    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <h2 class="text-2xl font-bold text-white mb-3">{L(lang, '4. Comprueba que funciona', '4. Comprova que funciona')}</h2>
+      <p class="text-brand-muted leading-relaxed">{L(lang, 'Recarga tu web, mira que se vea el sello y pulsa sobre él: tiene que abrir tu ficha. Si algo no sale, escríbenos y lo miramos contigo.', "Recarrega el teu web, mira que es vegi el segell i prem-hi: ha d'obrir la teva fitxa. Si alguna cosa no surt, escriu-nos i ho mirem amb tu.")}</p>
+    </section>
+
+    <FAQ items={faq} title={L(lang, 'Preguntas frecuentes', 'Preguntes freqüents')} />
+  </main>
+  <Footer lang={lang} />
+</Layout>

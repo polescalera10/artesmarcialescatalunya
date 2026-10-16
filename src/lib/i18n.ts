@@ -13,6 +13,7 @@ const SEG = {
   centros: { es: 'centros', ca: 'centres' },
   disciplinas: { es: 'disciplinas', ca: 'disciplines' },
   paraCentros: { es: 'para-centros', ca: 'per-a-centres' },
+  sello: { es: 'sello', ca: 'segell' },
   sobre: { es: 'sobre-nosotros', ca: 'qui-som' },
   contacto: { es: 'contacto', ca: 'contacte' },
 } as const;
@@ -28,6 +29,7 @@ export const url = {
   centros: (lang: Lang) => `${P(lang)}/${SEG.centros[lang]}/`,
   centro: (lang: Lang, slug: string) => `${P(lang)}/${SEG.centros[lang]}/${slug}/`,
   paraCentros: (lang: Lang) => `${P(lang)}/${SEG.paraCentros[lang]}/`,
+  paraCentrosSello: (lang: Lang) => `${P(lang)}/${SEG.paraCentros[lang]}/${SEG.sello[lang]}/`,
   sobre: (lang: Lang) => `${P(lang)}/${SEG.sobre[lang]}/`,
   contacto: (lang: Lang) => `${P(lang)}/${SEG.contacto[lang]}/`,
   blog: (lang: Lang = 'es') => `${P(lang)}/blog/`,
