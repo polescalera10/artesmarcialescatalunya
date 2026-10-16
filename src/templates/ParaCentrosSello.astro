@@ -1,6 +1,7 @@
 ---
-// Guía para centros: cómo poner el sello «Ficha verificada» en su web (WordPress,
-// Wix, Squarespace y otros). Es la página a la que lleva el sello de cada ficha.
+// Landing del sello «Ficha verificada» para centros: propuesta de valor, qué es y
+// qué no es, y cómo ponerlo (WordPress, Wix, Squarespace y otros). Con
+// ?ficha=slug se rellena con el código y los datos del centro (viene del correo).
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -12,14 +13,30 @@ import { SITE, SCHEMA_IDS } from '../lib/site';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 
-const title = L(lang, 'Sello «Ficha verificada» para la web de tu centro', 'Segell «Fitxa verificada» per al web del teu centre');
+const title = L(lang, 'Sello «Ficha verificada»: muestra que tus datos están comprobados', 'Segell «Fitxa verificada»: mostra que les teves dades estan comprovades');
 const description = L(lang,
-  'Cómo poner en tu web el sello «Ficha verificada»: descarga la imagen y enlázala a tu ficha. Pasos para WordPress, Wix, Squarespace y otros. Gratis.',
-  'Com posar al teu web el segell «Fitxa verificada»: descarrega la imatge i enllaça-la a la teva fitxa. Passos per a WordPress, Wix, Squarespace i altres. Gratis.');
+  'Un sello gratuito para la web de tu centro: dice a quien te visita que tus datos constan en una fuente pública y están comprobados. Descárgalo y ponlo en dos minutos.',
+  'Un segell gratuït per al web del teu centre: diu a qui et visita que les teves dades consten en una font pública i estan comprovades. Descarrega-ho i posa-ho en dos minuts.');
 
 const png = `/sello/ficha-verificada-${lang}.png`;
 const svg = `/sello/ficha-verificada-${lang}.svg`;
 const altSello = L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya');
+const base = lang === 'es' ? '/centros/' : '/ca/centres/';
+
+const beneficios: [string, string][] = [
+  [L(lang, 'Confianza para quien aún no te conoce', 'Confiança per a qui encara no et coneix'),
+   L(lang, 'Cuando alguien compara centros, un dato comprobado pesa más que uno que solo dices tú. El sello lo muestra sin que tengas que explicarlo.',
+           'Quan algú compara centres, una dada comprovada pesa més que una que només dius tu. El segell ho mostra sense que ho hagis d\'explicar.')],
+  [L(lang, 'Transparencia que se puede comprobar', 'Transparència que es pot comprovar'),
+   L(lang, 'Al pulsarlo se abre tu ficha, con la fuente pública de tus datos y la fecha en que los comprobamos. No hay nada que defender: se ve.',
+           'En prémer-lo s\'obre la teva fitxa, amb la font pública de les teves dades i la data en què les vam comprovar. No hi ha res a defensar: es veu.')],
+  [L(lang, 'Te distingue', 'Et distingeix'),
+   L(lang, 'Separa a tu centro de los que no muestran datos comprobables, con un diseño sobrio que encaja en cualquier web.',
+           'Separa el teu centre dels que no mostren dades comprovables, amb un disseny sobri que encaixa a qualsevol web.')],
+  [L(lang, 'Sin riesgo', 'Sense risc'),
+   L(lang, 'Es gratis, no te obliga a nada y lo quitas cuando quieras. Es una imagen con un enlace: sin scripts ni cookies.',
+           'És gratuït, no t\'obliga a res i el treus quan vulguis. És una imatge amb un enllaç: sense scripts ni galetes.')],
+];
 
 const plataformas: { nombre: string; pasos: string }[] = [
   {
@@ -43,8 +60,8 @@ const plataformas: { nombre: string; pasos: string }[] = [
   {
     nombre: L(lang, 'Shopify, Webnode, Jimdo y otros', 'Shopify, Webnode, Jimdo i altres'),
     pasos: L(lang,
-      'Busca en el pie de página un bloque de imagen o de HTML. Sube el archivo y enlázalo a la dirección de tu ficha; si prefieres código, pega el que aparece en tu ficha. Guarda y publica.',
-      "Busca al peu de pàgina un bloc d'imatge o d'HTML. Puja el fitxer i enllaça'l a l'adreça de la teva fitxa; si prefereixes codi, enganxa el que apareix a la teva fitxa. Desa i publica."),
+      'Busca en el pie de página un bloque de imagen o de HTML. Sube el archivo y enlázalo a la dirección de tu ficha; si prefieres código, pega el que aparece arriba. Guarda y publica.',
+      "Busca al peu de pàgina un bloc d'imatge o d'HTML. Puja el fitxer i enllaça'l a l'adreça de la teva fitxa; si prefereixes codi, enganxa el que apareix a dalt. Desa i publica."),
   },
 ];
 
@@ -54,7 +71,22 @@ const aviso = L(lang,
 
 const faq = [
   {
-    q: L(lang, '¿Cuesta algo poner el sello?', 'Costa res posar el segell?'),
+    q: L(lang, '¿Es una certificación de calidad?', 'És una certificació de qualitat?'),
+    a: L(lang, 'No. No valoramos cómo enseñas ni te comparamos con otros centros. El sello confirma que los datos básicos de tu centro (nombre, ubicación, disciplinas y web) constan en una fuente pública y que los hemos comprobado en una fecha. Por eso es neutral y vale para todos.',
+               'No. No valorem com ensenyes ni et comparem amb altres centres. El segell confirma que les dades bàsiques del teu centre (nom, ubicació, disciplines i web) consten en una font pública i que les hem comprovat en una data. Per això és neutral i val per a tots.'),
+  },
+  {
+    q: L(lang, '¿Qué comprobáis exactamente?', 'Què comproveu exactament?'),
+    a: L(lang, 'Que tu centro consta en una fuente pública (tu web oficial, tu federación, un directorio municipal o un perfil público) y que los datos de tu ficha coinciden con ella. La ficha enseña la fuente y la fecha de la comprobación.',
+               'Que el teu centre consta en una font pública (el teu web oficial, la teva federació, un directori municipal o un perfil públic) i que les dades de la teva fitxa coincideixen amb ella. La fitxa ensenya la font i la data de la comprovació.'),
+  },
+  {
+    q: L(lang, '¿Es seguro ponerlo en mi web?', 'És segur posar-ho al meu web?'),
+    a: L(lang, 'Sí. El código es un enlace con una imagen: no ejecuta nada ni instala nada en tu web. Si prefieres que tu web no cargue nada nuestro, descarga el PNG y súbelo tú: así la imagen se sirve desde tu propia web.',
+               'Sí. El codi és un enllaç amb una imatge: no executa res ni instal·la res al teu web. Si prefereixes que el teu web no carregui res nostre, descarrega el PNG i puja\'l tu: així la imatge se serveix des del teu propi web.'),
+  },
+  {
+    q: L(lang, '¿Cuesta algo?', 'Costa res?'),
     a: L(lang, 'No. Es gratis y no está ligado a ningún servicio de pago.', 'No. És gratuït i no està lligat a cap servei de pagament.'),
   },
   {
@@ -64,10 +96,6 @@ const faq = [
   {
     q: L(lang, '¿Puedo quitarlo cuando quiera?', 'El puc treure quan vulgui?'),
     a: L(lang, 'Sí, en cualquier momento y sin avisar. Tu ficha seguirá en el directorio igual.', 'Sí, en qualsevol moment i sense avisar. La teva fitxa seguirà al directori igual.'),
-  },
-  {
-    q: L(lang, '¿Dónde está el código con mi dirección?', 'On és el codi amb la meva adreça?'),
-    a: L(lang, 'En la ficha de tu centro, en el bloque «Sello para la web del centro». El código ya lleva la dirección de tu ficha y se copia con un botón.', 'A la fitxa del teu centre, al bloc «Segell per al web del centre». El codi ja porta l\'adreça de la teva fitxa i es copia amb un botó.'),
   },
   {
     q: L(lang, 'Un dato de mi ficha está mal. ¿Qué hago?', 'Una dada de la meva fitxa és incorrecta. Què faig?'),
@@ -98,35 +126,83 @@ const schema = {
     ]} />
 
     <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
-      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{L(lang, 'Pon el sello «Ficha verificada» en tu web', 'Posa el segell «Fitxa verificada» al teu web')}</h1>
+      <p class="text-xs uppercase tracking-wide text-brand-redtext font-semibold mb-3">{L(lang, 'Gratis · dos minutos', 'Gratis · dos minuts')}</p>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">{L(lang, 'Muestra que los datos de tu centro están comprobados', 'Mostra que les dades del teu centre estan comprovades')}</h1>
       <p class="text-lg text-brand-muted mt-4 leading-relaxed">
         {L(lang,
-          'Es una imagen que enlaza a la ficha de tu centro. A quien visita tu web le dice, de un vistazo, que tus datos están comprobados, y le lleva directo a tu ficha, con su fuente y su fecha de verificación. Es gratis, no cambia el orden del directorio y lo puedes quitar cuando quieras.',
-          "És una imatge que enllaça a la fitxa del teu centre. A qui visita el teu web li diu, d'un cop d'ull, que les teves dades estan comprovades, i el porta directe a la teva fitxa, amb la seva font i la seva data de verificació. És gratuït, no canvia l'ordre del directori i el pots treure quan vulguis.")}
+          'El sello «Ficha verificada» es una insignia gratuita para el pie de tu web. A quien te visita le dice, de un vistazo, que tu centro consta en una fuente pública y que lo hemos comprobado en una fecha concreta, y le lleva a tu ficha para que lo vea por sí mismo.',
+          "El segell «Fitxa verificada» és una insígnia gratuïta per al peu del teu web. A qui et visita li diu, d'un cop d'ull, que el teu centre consta en una font pública i que l'hem comprovat en una data concreta, i el porta a la teva fitxa perquè ho vegi per ell mateix.")}
       </p>
+      <div class="mt-6 flex flex-wrap items-center gap-4">
+        <img src={svg} alt={altSello} width="220" height="56" />
+        <a href="#como" class="inline-block bg-brand-red text-white text-sm font-semibold px-5 py-3 rounded-lg hover:opacity-90" data-evento="sello_como">{L(lang, 'Ponerlo en mi web', 'Posar-ho al meu web')} ↓</a>
+      </div>
+    </section>
+
+    <section id="tu-sello" hidden class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-4"
+      data-lang={lang} data-site={SITE.url} data-base={base}
+      data-alt={altSello}
+      data-txt-verif={L(lang, 'verificada el', 'verificada el')}>
+      <div class="bg-brand-gray border border-brand-red/40 rounded-2xl p-5 sm:p-6">
+        <p class="text-xs uppercase tracking-wide text-brand-redtext font-semibold">{L(lang, 'Preparado para tu centro', 'Preparat per al teu centre')}</p>
+        <h2 class="text-xl font-bold text-white mt-1" data-nombre></h2>
+        <p class="text-sm text-brand-muted mt-1"><span data-muni></span> · <span data-txt-fecha></span> <span data-fecha></span> · <a data-ficha class="underline" href="#">{L(lang, 'Ver mi ficha', 'Veure la meva fitxa')}</a></p>
+        <p class="text-sm text-brand-muted mt-4">{L(lang, 'Este es tu código. Pégalo en el pie de tu web (o sigue los pasos de abajo si prefieres subir la imagen).', 'Aquest és el teu codi. Enganxa\'l al peu del teu web (o segueix els passos de sota si prefereixes pujar la imatge).')}</p>
+        <textarea readonly rows="4" class="mt-3 w-full bg-brand-dark border border-brand-border rounded-lg p-3 text-xs text-brand-muted font-mono" aria-label={L(lang, 'Código HTML del sello', 'Codi HTML del segell')} data-codigo></textarea>
+        <div class="mt-3 flex flex-wrap items-center gap-3">
+          <button type="button" class="bg-brand-red text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:opacity-90" data-copiar data-evento="copiar_sello">{L(lang, 'Copiar código', 'Copiar codi')}</button>
+          <a href={png} download class="bg-white/5 border border-brand-border text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-white/10" data-evento="descargar_sello">{L(lang, 'Descargar PNG', 'Descarregar PNG')}</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h2 class="text-2xl font-bold text-white mb-5">{L(lang, 'Qué aporta a tu centro', 'Què aporta al teu centre')}</h2>
+      <div class="grid sm:grid-cols-2 gap-4">
+        {beneficios.map(([t, d]) => (
+          <div class="bg-brand-gray border border-brand-border rounded-xl p-5">
+            <h3 class="text-base font-bold text-white">{t}</h3>
+            <p class="text-sm text-brand-muted mt-2 leading-relaxed">{d}</p>
+          </div>
+        ))}
+      </div>
     </section>
 
     <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <h2 class="text-2xl font-bold text-white mb-4">{L(lang, '1. Descarga el sello', '1. Descarrega el segell')}</h2>
-      <div class="bg-brand-gray border border-brand-border rounded-2xl p-5 sm:p-6">
+      <h2 class="text-2xl font-bold text-white mb-4">{L(lang, 'Qué es y qué no es', 'Què és i què no és')}</h2>
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div class="border border-brand-border rounded-xl p-5">
+          <h3 class="text-base font-bold text-white">{L(lang, 'Qué comprobamos', 'Què comprovem')}</h3>
+          <p class="text-sm text-brand-muted mt-2 leading-relaxed">{L(lang,
+            'Que tu centro consta en una fuente pública (tu web oficial, tu federación, un directorio municipal o un perfil público) y que su nombre, ubicación, disciplinas y web coinciden con ella. Ponemos la fuente y la fecha a la vista.',
+            "Que el teu centre consta en una font pública (el teu web oficial, la teva federació, un directori municipal o un perfil públic) i que el seu nom, ubicació, disciplines i web hi coincideixen. Posem la font i la data a la vista.")}</p>
+        </div>
+        <div class="border border-brand-border rounded-xl p-5">
+          <h3 class="text-base font-bold text-white">{L(lang, 'Qué no es', 'Què no és')}</h3>
+          <p class="text-sm text-brand-muted mt-2 leading-relaxed">{L(lang,
+            'No es una certificación de calidad deportiva, ni una valoración, ni una recomendación. No juzgamos cómo enseñas. Por eso el sello es neutral, vale para cualquier centro y su valor está en que se puede comprobar.',
+            "No és una certificació de qualitat esportiva, ni una valoració, ni una recomanació. No jutgem com ensenyes. Per això el segell és neutral, val per a qualsevol centre i el seu valor és que es pot comprovar.")}</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="como" class="scroll-mt-24 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h2 class="text-2xl font-bold text-white mb-2">{L(lang, 'Cómo ponerlo en tu web', 'Com posar-ho al teu web')}</h2>
+      <p class="text-brand-muted mb-6">{L(lang, 'Son dos minutos. Elige tu plataforma, o reenvía esta página a quien te lleva la web.', 'Són dos minuts. Tria la teva plataforma, o reenvia aquesta pàgina a qui et porta el web.')}</p>
+
+      <h3 class="text-lg font-bold text-white mb-3">{L(lang, '1. Coge tu sello', '1. Agafa el teu segell')}</h3>
+      <div class="bg-brand-gray border border-brand-border rounded-2xl p-5 sm:p-6 mb-8">
         <img src={svg} alt={altSello} width="220" height="56" />
         <div class="flex flex-wrap gap-3 mt-5">
           <a href={png} download class="inline-block bg-brand-red text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:opacity-90" data-evento="descargar_sello">{L(lang, 'Descargar PNG', 'Descarregar PNG')}</a>
           <a href={svg} download class="inline-block bg-white/5 border border-brand-border text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-white/10" data-evento="descargar_sello">{L(lang, 'Descargar SVG', 'Descarregar SVG')}</a>
         </div>
         <p class="text-sm text-brand-muted mt-4">{L(lang, 'El PNG vale en cualquier web. El SVG queda más nítido, pero no todos los constructores lo aceptan.', "El PNG val a qualsevol web. L'SVG queda més nítid, però no tots els constructors l'accepten.")}</p>
+        <p class="text-sm text-brand-muted mt-3">{L(lang, 'Si no has llegado desde nuestro correo, busca tu centro para obtener su dirección y su código:', 'Si no has arribat des del nostre correu, cerca el teu centre per obtenir-ne l\'adreça i el codi:')} <a href={url.centros(lang)} class="underline">{L(lang, 'buscar mi centro', 'cercar el meu centre')}</a>.</p>
       </div>
-    </section>
 
-    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <h2 class="text-2xl font-bold text-white mb-3">{L(lang, '2. Ponlo en el pie de tu web, enlazado a tu ficha', '2. Posa-ho al peu del teu web, enllaçat a la teva fitxa')}</h2>
-      <p class="text-brand-muted leading-relaxed mb-5">
-        {L(lang,
-          'Cada centro tiene su dirección. Búscalo en el directorio, abre su ficha y despliega «Sello para la web del centro»: ahí tienes la dirección de tu ficha y el código listo para copiar.',
-          "Cada centre té la seva adreça. Cerca'l al directori, obre la seva fitxa i desplega «Segell per al web del centre»: allà tens l'adreça de la teva fitxa i el codi a punt per copiar.")}
-      </p>
-      <a href={url.centros(lang)} class="inline-block bg-white/5 border border-brand-border text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-white/10 mb-6">{L(lang, 'Buscar mi centro', 'Cercar el meu centre')} →</a>
-      <div class="space-y-3">
+      <h3 class="text-lg font-bold text-white mb-3">{L(lang, '2. Ponlo en el pie de tu web, enlazado a tu ficha', '2. Posa-ho al peu del teu web, enllaçat a la teva fitxa')}</h3>
+      <div class="space-y-3 mb-8">
         {plataformas.map(p => (
           <details class="group bg-brand-gray border border-brand-border rounded-lg overflow-hidden">
             <summary class="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none text-white font-medium hover:bg-brand-border/50">
@@ -137,20 +213,44 @@ const schema = {
           </details>
         ))}
       </div>
-    </section>
 
-    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <h2 class="text-2xl font-bold text-white mb-3">{L(lang, '3. Si te lo gestiona otra persona', '3. Si te el gestiona una altra persona')}</h2>
-      <p class="text-brand-muted leading-relaxed mb-3">{L(lang, 'Reenvíale el correo o este texto, con la imagen descargada y la dirección de tu ficha:', "Reenvia-li el correu o aquest text, amb la imatge descarregada i l'adreça de la teva fitxa:")}</p>
-      <blockquote class="border border-brand-border rounded-xl p-4 text-sm text-brand-muted leading-relaxed bg-brand-gray">{aviso}</blockquote>
-    </section>
+      <h3 class="text-lg font-bold text-white mb-3">{L(lang, '3. Si te lo gestiona otra persona', '3. Si te el gestiona una altra persona')}</h3>
+      <p class="text-brand-muted leading-relaxed mb-3">{L(lang, 'Reenvíale esta página o este texto, con la imagen descargada y la dirección de tu ficha:', "Reenvia-li aquesta pàgina o aquest text, amb la imatge descarregada i l'adreça de la teva fitxa:")}</p>
+      <blockquote class="border border-brand-border rounded-xl p-4 text-sm text-brand-muted leading-relaxed bg-brand-gray mb-8">{aviso}</blockquote>
 
-    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <h2 class="text-2xl font-bold text-white mb-3">{L(lang, '4. Comprueba que funciona', '4. Comprova que funciona')}</h2>
+      <h3 class="text-lg font-bold text-white mb-3">{L(lang, '4. Comprueba que funciona', '4. Comprova que funciona')}</h3>
       <p class="text-brand-muted leading-relaxed">{L(lang, 'Recarga tu web, mira que se vea el sello y pulsa sobre él: tiene que abrir tu ficha. Si algo no sale, escríbenos y lo miramos contigo.', "Recarrega el teu web, mira que es vegi el segell i prem-hi: ha d'obrir la teva fitxa. Si alguna cosa no surt, escriu-nos i ho mirem amb tu.")}</p>
     </section>
 
     <FAQ items={faq} title={L(lang, 'Preguntas frecuentes', 'Preguntes freqüents')} />
+
+    <script>
+      // Con ?ficha=slug (viene del correo) se rellena el bloque con los datos y el código del centro.
+      const sec = document.getElementById('tu-sello');
+      const slug = new URLSearchParams(location.search).get('ficha');
+      if (sec && slug && /^[a-z0-9-]+$/.test(slug)) {
+        fetch('/datos/sellos.json').then(r => r.json()).then((d: Record<string, [string, string, string]>) => {
+          const f = d[slug];
+          if (!f) return;
+          const { lang, site, base, alt } = sec.dataset as Record<string, string>;
+          const ficha = `${site}${base}${slug}/`;
+          const q = (s: string) => sec.querySelector<HTMLElement>(s)!;
+          q('[data-nombre]').textContent = f[0];
+          q('[data-muni]').textContent = f[1];
+          q('[data-txt-fecha]').textContent = lang === 'ca' ? 'verificada el' : 'verificada el';
+          q('[data-fecha]').textContent = f[2].split('-').reverse().join('-');
+          const a = q('[data-ficha]') as HTMLAnchorElement;
+          a.href = ficha;
+          const code = `<a href="${ficha}" title="${alt}"><img src="${site}/sello/ficha-verificada-${lang}.svg" alt="${alt}" width="220" height="56"></a>`;
+          (q('[data-codigo]') as HTMLTextAreaElement).value = code;
+          sec.hidden = false;
+          q('[data-copiar]').addEventListener('click', async e => {
+            try { await navigator.clipboard.writeText(code); (e.currentTarget as HTMLElement).textContent = lang === 'ca' ? 'Copiat ✓' : 'Copiado ✓'; }
+            catch { (q('[data-codigo]') as HTMLTextAreaElement).select(); }
+          });
+        }).catch(() => {});
+      }
+    </script>
   </main>
   <Footer lang={lang} />
 </Layout>
