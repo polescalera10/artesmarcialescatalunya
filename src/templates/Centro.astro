@@ -280,7 +280,11 @@ const schema = [
     </script>
     <script>
       // El enlace del correo a los centros acaba en #sello: se abre el bloque del sello.
-      if (location.hash === '#sello') document.getElementById('sello')?.setAttribute('open', '');
+      if (location.hash === '#sello') {
+        const d = document.getElementById('sello');
+        d?.setAttribute('open', '');
+        d?.scrollIntoView({ block: 'center' });
+      }
     </script>
     <script>
       document.querySelector('[data-copiar-sello]')?.addEventListener('click', async e => {
