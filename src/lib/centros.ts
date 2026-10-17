@@ -4,6 +4,7 @@
 import { getMunicipio, getComarca, distanciaKm, type Municipio } from './geo';
 import { getDisciplina } from './disciplinas';
 import promocionadosRaw from '../../data/promocionados.json';
+import coordenadasRaw from '../../data/geo/coordenadas-centros.json';
 
 export type FuenteTipo = 'web-oficial' | 'federacion' | 'directorio-municipal' | 'registro-oficial' | 'perfil-publico';
 
@@ -111,8 +112,27 @@ export const promocionadosEn = (lista: Centro[]) => lista.filter(c => esPromocio
 
 const sinTildes = (t: string) => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
+const COORDENADAS = coordenadasRaw as Record<string, [number, number]>;
+
 /**
- * Consulta para geocodificar la dirección en Google Maps. Las direcciones de las
+ * URL del mapa incrustado de OpenStreetMap, o null si no hay coordenadas.
+ * Las coordenadas (data/geo/coordenadas-centros.json) las genera
+ * scripts/geocodificar-centros.py solo para direcciones con número de portal
+ * dentro de su municipio; sin ellas la ficha no incrusta mapa (no se afirma una
+ * ubicación dudosa). El visor de OSM no usa cookies ni requiere clave.
+ */
+export function mapaOsm(slug: string): string | null {
+  const p = COORDENADAS[slug];
+  if (!p) return null;
+  const [lat, lon] = p;
+  const dLat = 0.0016;
+  const dLon = dLat / Math.cos((lat * Math.PI) / 180);
+  const bbox = [lon - dLon, lat - dLat, lon + dLon, lat + dLat].map(n => n.toFixed(5)).join(',');
+  return `https://www.openstreetmap.org/export/embed.html?bbox=${encodeURIComponent(bbox)}&layer=mapnik&marker=${lat},${lon}`;
+}
+
+/**
+ * Consulta de dirección para el enlace «Ver en el mapa» (Google Maps). Las direcciones de las
  * fuentes llegan con ruido que despista al geocodificador y acaba mostrando el
  * mapa del mundo: paréntesis ("(Complex Esportiu)"), "s/n", "Nº", separadores
  * "–provincia". Se limpia eso y se usa solo la dirección + municipio, sin el

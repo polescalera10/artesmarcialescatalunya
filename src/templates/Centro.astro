@@ -12,7 +12,7 @@ import Foto from '../components/Foto.astro';
 import { claveDisciplina } from '../lib/fotos';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import { L, url, lista, titulo, descripcion, fecha, type Lang, minus } from '../lib/i18n';
-import { getCentro, consultaMapa, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
+import { getCentro, mapaOsm, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { tienePaginaMunicipio, tienePaginaMunDisc, fichaIndexable } from '../lib/rutas';
@@ -43,12 +43,9 @@ const iniciales = c.nombre.replace(/^(club|escola|escuela|associació|asociació
   .split(/[\s-]+/).filter(w => /^[\p{L}\d]/u.test(w) && !/^(de|del|la|el|i|y|d'.*)$/i.test(w)).slice(0, 2).map(w => w[0].toUpperCase()).join('') || c.nombre[0];
 const sello = `<a href="${SITE.url}${url.centro(lang, c.slug)}" title="${L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya')}"><img src="${SITE.url}/sello/ficha-verificada-${lang}.svg" alt="${L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya')}" width="220" height="56"></a>`;
 const mapa = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([c.nombre, c.direccion, mun.nombre].filter(Boolean).join(', '))}`;
-// Mapa incrustado solo si la fuente publica la dirección: con solo nombre y municipio
-// Google podría situar el pin en otro sitio y la ficha no puede afirmar una ubicación dudosa.
-const consultaMapaCentro = consultaMapa(c, mun.nombre);
-const mapaEmbed = consultaMapaCentro
-  ? `https://www.google.com/maps?q=${encodeURIComponent(consultaMapaCentro)}&output=embed`
-  : null;
+// Mapa incrustado (OpenStreetMap, visible sin pulsar nada) solo si hay coordenadas de portal:
+// con solo nombre y municipio la ficha no puede afirmar una ubicación dudosa.
+const mapaEmbed = mapaOsm(c.slug);
 const webCorta = c.web?.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
 const FUENTE: Record<string, [string, string]> = {
   'web-oficial': ['Web oficial del centro', 'Web oficial del centre'],
@@ -196,14 +193,8 @@ const schema = [
         {mapaEmbed && (
           <section class="bg-brand-gray border border-brand-border rounded-xl p-5" aria-labelledby="mapa-titulo">
             <h2 id="mapa-titulo" class="text-xs uppercase tracking-wide text-brand-muted font-semibold mb-3">{L(lang, 'Ubicación', 'Ubicació')}</h2>
-            <div data-mapa data-src={mapaEmbed} data-title={L(lang, `Mapa de ${c.nombre}`, `Mapa de ${c.nombre}`)}>
-              <button type="button" data-mapa-btn class="w-full h-64 sm:h-80 rounded-lg border border-brand-border bg-brand-dark hover:border-brand-red/50 transition-colors flex flex-col items-center justify-center gap-2 text-white">
-                <svg class="w-8 h-8 text-brand-redtext" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18s6-5.3 6-10A6 6 0 004 8c0 4.7 6 10 6 10zm0-7.5A2.5 2.5 0 1010 5.5a2.5 2.5 0 000 5z" clip-rule="evenodd"/></svg>
-                <span class="text-sm font-semibold">{L(lang, 'Ver mapa de la ubicación', 'Veure el mapa de la ubicació')}</span>
-                <span class="text-xs text-brand-muted px-4 text-center">{c.direccion}</span>
-              </button>
-              <p class="text-xs text-brand-muted mt-2">{L(lang, 'Al abrir el mapa se carga contenido de Google Maps, que puede instalar cookies.', 'En obrir el mapa es carrega contingut de Google Maps, que pot instal·lar cookies.')} <a href={mapa} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-white" data-evento="clic_mapa" data-centro={c.slug}>{L(lang, 'Abrir en Google Maps', 'Obrir a Google Maps')} ↗</a></p>
-            </div>
+            <iframe src={mapaEmbed} title={L(lang, `Mapa de ${c.nombre}`, `Mapa de ${c.nombre}`)} loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-64 sm:h-80 rounded-lg border border-brand-border bg-brand-dark"></iframe>
+            <p class="text-xs text-brand-muted mt-2">{c.direccion} · © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" class="underline underline-offset-2 hover:text-white">OpenStreetMap</a> · <a href={mapa} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-white" data-evento="clic_mapa" data-centro={c.slug}>{L(lang, 'Abrir en Google Maps', 'Obrir a Google Maps')} ↗</a></p>
           </section>
         )}
 
@@ -271,19 +262,6 @@ const schema = [
 
     <GuiasRelacionadas lang={lang} disciplinas={c.disciplinas} comarca={c.comarca} infantil={c.infantil} />
 
-    <script>
-      // Mapa en dos pasos: el iframe de Google solo se crea tras el clic, para no
-      // cargar terceros sin acción del usuario (ver CookieConsent.astro).
-      document.querySelector<HTMLElement>('[data-mapa]')?.querySelector('[data-mapa-btn]')?.addEventListener('click', e => {
-        const box = (e.currentTarget as HTMLElement).closest<HTMLElement>('[data-mapa]')!;
-        const f = document.createElement('iframe');
-        f.src = box.dataset.src ?? '';
-        f.title = box.dataset.title ?? 'Mapa';
-        f.referrerPolicy = 'no-referrer-when-downgrade';
-        f.className = 'w-full h-64 sm:h-80 rounded-lg border border-brand-border';
-        (e.currentTarget as HTMLElement).replaceWith(f);
-      }, { once: true });
-    </script>
     <script>
       // El enlace del correo a los centros acaba en #sello: se abre el bloque del sello.
       if (location.hash === '#sello') {
