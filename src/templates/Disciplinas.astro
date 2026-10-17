@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Foto from '../components/Foto.astro';
+import { claveDisciplina } from '../lib/fotos';
 import Migas from '../components/Migas.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { L, url, type Lang } from '../lib/i18n';
@@ -61,9 +63,13 @@ const schema = {
         <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
           {ds.map(d => (
             <li>
-              <a href={url.disciplina(lang, d.slug)} class="flex justify-between items-center gap-2 bg-brand-gray border border-brand-border rounded-lg px-4 py-3 hover:border-brand-red/40">
-                <span class="text-white font-medium">{d[lang]}</span>
-                <span class="text-brand-muted text-sm">{verificados(centrosConDisciplina(d.slug)).length}</span>
+              <a href={url.disciplina(lang, d.slug)} class="group block rounded-xl overflow-hidden border border-brand-border hover:border-brand-red/50 transition-colors">
+                <Foto clave={claveDisciplina(d.slug)} lang={lang} deco velo ratio="aspect-4/3" sizes="(min-width: 1024px) 300px, (min-width: 640px) 33vw, 50vw" class="[&_img]:transition-transform [&_img]:duration-300 group-hover:[&_img]:scale-105">
+                  <span class="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 p-3">
+                    <span class="text-white font-semibold leading-tight">{d[lang]}</span>
+                    <span class="text-white/80 text-sm shrink-0">{verificados(centrosConDisciplina(d.slug)).length}</span>
+                  </span>
+                </Foto>
               </a>
             </li>
           ))}

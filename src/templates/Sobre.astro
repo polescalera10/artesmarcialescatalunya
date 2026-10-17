@@ -6,6 +6,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Migas from '../components/Migas.astro';
+import Foto from '../components/Foto.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { L, url, type Lang } from '../lib/i18n';
 import { CENTROS, comarcasConCentros } from '../lib/centros';
@@ -56,6 +57,7 @@ const reglas = lang === 'es' ? [
     <Migas lang={lang} items={[{ nombre: L(lang, 'Sobre nosotros', 'Qui som'), href: url.sobre(lang) }]} />
     <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{L(lang, 'Un directorio que puedes comprobar', 'Un directori que pots comprovar')}</h1>
+      <Foto clave="sobre" lang={lang} eager ratio="aspect-21/9" sizes="(min-width: 768px) 768px, 100vw" class="mt-6 rounded-2xl border border-brand-border" />
       <div class="articulo mt-6">
         {lang === 'es' ? (
           <>
@@ -75,6 +77,12 @@ const reglas = lang === 'es' ? [
           {L(lang, 'Si tu centro no aparece o algún dato está mal, ', 'Si el teu centre no hi surt o alguna dada està malament, ')}
           <a href={url.paraCentros(lang)}>{L(lang, 'escríbenos', 'escriu-nos')}</a>
           {L(lang, ' y lo revisamos. También retiramos cualquier ficha a petición del propio centro.', ' i ho revisem. També retirem qualsevol fitxa a petició del mateix centre.')}
+        </p>
+        <h2>{L(lang, 'Sobre las fotos', 'Sobre les fotos')}</h2>
+        <p>
+          {L(lang,
+            'Las fotos de la web son de archivo, de Pexels (licencia Pexels, de uso libre). Ilustran la disciplina o el tema de cada página; no muestran ningún centro del directorio ni a sus alumnos. Si un centro quiere que su ficha lleve fotos propias, que nos las envíe.',
+            "Les fotos del web són d'arxiu, de Pexels (llicència Pexels, d'ús lliure). Il·lustren la disciplina o el tema de cada pàgina; no mostren cap centre del directori ni els seus alumnes. Si un centre vol que la seva fitxa tingui fotos pròpies, que ens les enviï.")}
         </p>
       </div>
     </section>

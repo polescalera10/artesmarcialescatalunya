@@ -1,5 +1,6 @@
 ---
 import IconoGrupo from '../components/IconoGrupo.astro';
+import Foto from '../components/Foto.astro';
 import Recomendador from '../components/Recomendador.astro';
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
@@ -15,6 +16,7 @@ import { getDisciplina } from '../lib/disciplinas';
 import { rutasMunicipio, rutasDisciplina } from '../lib/rutas';
 import { articulos, articulosCa } from '../lib/blog';
 import { SITE, SCHEMA_IDS } from '../lib/site';
+import { claveDisciplina, clavePostDe } from '../lib/fotos';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -71,7 +73,8 @@ const schema = {
 <Layout title={title} description={description} canonical={url.home(lang)} schema={schema} lang={lang} alternates={alternates}>
   <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
   <main id="contenido">
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-10">
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-10 grid lg:grid-cols-[minmax(0,1fr)_minmax(0,440px)] gap-10 items-center">
+      <div>
       <p class="text-xs uppercase tracking-wide text-brand-redtext font-semibold mb-4">{L(lang, 'Directorio independiente · Cataluña', 'Directori independent · Catalunya')}</p>
       <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.05] max-w-4xl">
         {L(lang, 'Encuentra artes marciales cerca de ti, en toda Cataluña', 'Troba arts marcials a prop teu, a tot Catalunya')}
@@ -91,6 +94,8 @@ const schema = {
         <span><strong class="font-semibold">{L(lang, '¿No sabes cuál elegir?', 'No saps quina triar?')}</strong> <span class="text-brand-muted">{L(lang, 'Haz el test en 30 segundos', 'Fes el test en 30 segons')}</span></span>
         <span aria-hidden="true">↓</span>
       </a>
+      </div>
+      <Foto clave="home" lang={lang} ratio="aspect-16/10 lg:aspect-4/3" sizes="(min-width: 1024px) 440px, 100vw" eager class="rounded-2xl border border-brand-border" />
     </section>
 
     <Recomendador lang={lang} destacado />
@@ -103,9 +108,13 @@ const schema = {
       <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
         {disc.filter(d => conPagina.has(d.slug)).map(d => (
           <li>
-            <a href={url.disciplina(lang, d.slug)} class="group flex justify-between items-center gap-2 bg-brand-gray border border-brand-border rounded-lg px-4 py-3 hover:border-brand-red/40">
-              <span class="flex items-center gap-2 text-white font-medium text-sm"><IconoGrupo grupo={getDisciplina(d.slug)!.grupo} class="w-4 h-4 shrink-0 text-brand-redtext" />{getDisciplina(d.slug)![lang]}</span>
-              <span class="text-brand-muted text-xs">{d.n}</span>
+            <a href={url.disciplina(lang, d.slug)} class="group block rounded-xl overflow-hidden border border-brand-border hover:border-brand-red/50 transition-colors">
+              <Foto clave={claveDisciplina(d.slug)} lang={lang} deco velo ratio="aspect-4/3" sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" class="[&_img]:transition-transform [&_img]:duration-300 group-hover:[&_img]:scale-105">
+                <span class="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 p-3">
+                  <span class="flex items-center gap-1.5 text-white font-semibold text-sm leading-tight"><IconoGrupo grupo={getDisciplina(d.slug)!.grupo} class="w-4 h-4 shrink-0 text-brand-redtext" />{getDisciplina(d.slug)![lang]}</span>
+                  <span class="text-white/80 text-xs shrink-0">{d.n}</span>
+                </span>
+              </Foto>
             </a>
           </li>
         ))}
@@ -160,9 +169,12 @@ const schema = {
         </div>
         <ul class="grid md:grid-cols-3 gap-5">
           {posts.map(p => (
-            <li class="bg-brand-gray border border-brand-border rounded-xl p-5">
-              <a href={url.post(p.slug, lang)} class="font-semibold text-white hover:text-brand-redtext">{p.h1}</a>
-              <p class="text-sm text-brand-muted mt-2 line-clamp-3">{p.descripcion}</p>
+            <li class="bg-brand-gray border border-brand-border rounded-xl overflow-hidden">
+              <Foto clave={clavePostDe(p)} lang={lang} deco ratio="aspect-video" sizes="(min-width: 768px) 380px, 100vw" />
+              <div class="p-5">
+                <a href={url.post(p.slug, lang)} class="font-semibold text-white hover:text-brand-redtext">{p.h1}</a>
+                <p class="text-sm text-brand-muted mt-2 line-clamp-3">{p.descripcion}</p>
+              </div>
             </li>
           ))}
         </ul>

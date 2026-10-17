@@ -1,0 +1,432 @@
+{
+  "_nota": "Fotos de archivo de Pexels (licencia Pexels: uso comercial libre, sin atribución obligatoria). Son ilustrativas: no muestran centros del directorio. Se procesan con scripts/gen-fotos.mjs. 'pos' es el object-position del recorte (por defecto 50% 35%).",
+  "fotos": {
+    "boxeo": {
+      "id": 6740342,
+      "es": "Entrenador y alumna practicando boxeo con un saco pesado en un gimnasio",
+      "ca": "Entrenador i alumna practicant boxa amb un sac pesat en un gimnàs"
+    },
+    "kickboxing": {
+      "id": 7992151,
+      "es": "Dos practicantes de kickboxing entrenando patadas con manoplas sobre un ring",
+      "ca": "Dos practicants de kickboxing entrenant puntades amb manoples sobre un ring",
+      "pos": "50% 45%"
+    },
+    "muay-thai": {
+      "id": 8612586,
+      "es": "Entrenamiento de muay thai entre un hombre y una mujer en un ring de gimnasio",
+      "ca": "Entrenament de muay thai entre un home i una dona en un ring de gimnàs",
+      "pos": "50% 50%"
+    },
+    "muay-thai-2": {
+      "id": 5750947,
+      "es": "Dos practicantes de muay thai entrenando una patada en un ring",
+      "ca": "Dos practicants de muay thai entrenant una puntada en un ring",
+      "pos": "50% 50%"
+    },
+    "mma": {
+      "id": 5485439,
+      "es": "Dos luchadores entrenando MMA dentro de una jaula en un gimnasio",
+      "ca": "Dos lluitadors entrenant MMA dins d'una gàbia en un gimnàs",
+      "pos": "50% 40%"
+    },
+    "jiu-jitsu-brasileno": {
+      "id": 38732386,
+      "es": "Dos practicantes de jiu-jitsu brasileño se dan la mano antes de entrenar en el tatami",
+      "ca": "Dos practicants de jiu-jitsu brasiler es donen la mà abans d'entrenar al tatami",
+      "pos": "50% 30%"
+    },
+    "grappling": {
+      "id": 8611251,
+      "es": "Dos practicantes de grappling entrenando una técnica en el suelo, sobre una colchoneta",
+      "ca": "Dos practicants de grappling entrenant una tècnica a terra, sobre una màrfega",
+      "pos": "50% 55%"
+    },
+    "judo": {
+      "id": 6765024,
+      "es": "Dos judokas practicando una proyección en un tatami",
+      "ca": "Dos judokes practicant una projecció en un tatami",
+      "pos": "50% 40%"
+    },
+    "lucha": {
+      "id": 15153691,
+      "es": "Dos luchadores en pleno combate sobre una colchoneta azul, vistos desde arriba",
+      "ca": "Dos lluitadors en ple combat sobre una màrfega blava, vistos des de dalt",
+      "pos": "50% 50%"
+    },
+    "karate": {
+      "id": 7045731,
+      "es": "Grupo de practicantes de karate de distintas edades posando en un dojo con paredes de ladrillo",
+      "ca": "Grup de practicants de karate de diferents edats posant en un dojo amb parets de maó",
+      "pos": "50% 45%"
+    },
+    "taekwondo": {
+      "id": 7045376,
+      "es": "Niña practicando una patada de taekwondo con dobok y cinturón rojo",
+      "ca": "Nena practicant una puntada de taekwondo amb dobok i cinturó vermell",
+      "pos": "50% 40%"
+    },
+    "aikido": {
+      "id": 38754336,
+      "es": "Dos aikidokas con hakama practicando una proyección sobre un fondo azul con humo",
+      "ca": "Dos aikidokes amb hakama practicant una projecció sobre un fons blau amb fum",
+      "pos": "50% 50%"
+    },
+    "kung-fu": {
+      "id": 6724208,
+      "es": "Grupo de practicantes de kung fu en posturas sincronizadas, en blanco y negro",
+      "ca": "Grup de practicants de kung-fu en postures sincronitzades, en blanc i negre",
+      "pos": "50% 45%"
+    },
+    "wing-chun": {
+      "id": 38383538,
+      "es": "Practicante de artes marciales chinas en guardia con un traje tradicional negro bordado",
+      "ca": "Practicant d'arts marcials xineses en guàrdia amb un vestit tradicional negre brodat",
+      "pos": "50% 25%"
+    },
+    "hapkido": {
+      "id": 7045483,
+      "es": "Dos practicantes de artes marciales coreanas entrenando una patada y su defensa en una sala luminosa",
+      "ca": "Dos practicants d'arts marcials coreanes entrenant una puntada i la seva defensa en una sala lluminosa",
+      "pos": "50% 50%"
+    },
+    "jiu-jitsu-japones": {
+      "id": 7045744,
+      "es": "Dos practicantes de jiu-jitsu entrenando una proyección sobre un fondo blanco",
+      "ca": "Dos practicants de jiu-jitsu entrenant una projecció sobre un fons blanc",
+      "pos": "50% 35%"
+    },
+    "kobudo": {
+      "id": 7045460,
+      "es": "Practicante de kobudo con un bastón largo en una sala diáfana",
+      "ca": "Practicant de kobudo amb un bastó llarg en una sala diàfana",
+      "pos": "50% 45%"
+    },
+    "kali": {
+      "id": 7045460,
+      "es": "Practicante con un bastón largo entrenando en una sala diáfana",
+      "ca": "Practicant amb un bastó llarg entrenant en una sala diàfana",
+      "pos": "50% 45%"
+    },
+    "kendo": {
+      "id": 16074111,
+      "es": "Practicante de kendo con armadura y shinai al aire libre",
+      "ca": "Practicant de kendo amb armadura i shinai a l'aire lliure",
+      "pos": "50% 40%"
+    },
+    "ninjutsu": {
+      "id": 7045454,
+      "es": "Practicante con ropa negra y cinta en la frente en postura de guardia",
+      "ca": "Practicant amb roba negra i cinta al front en postura de guàrdia",
+      "pos": "50% 45%"
+    },
+    "capoeira": {
+      "id": 28975498,
+      "es": "Dos capoeiristas en pleno movimiento acrobático en una plaza soleada",
+      "ca": "Dos capoeiristes en ple moviment acrobàtic en una plaça assolellada",
+      "pos": "50% 45%"
+    },
+    "tai-chi": {
+      "id": 8940504,
+      "es": "Mujer mayor practicando tai chi en un parque",
+      "ca": "Dona gran practicant tai-txi en un parc",
+      "pos": "50% 30%"
+    },
+    "defensa-personal": {
+      "id": 6455245,
+      "es": "Mujer practicando una técnica de defensa personal con un compañero de entrenamiento",
+      "ca": "Dona practicant una tècnica de defensa personal amb un company d'entrenament",
+      "pos": "50% 30%"
+    },
+    "krav-maga": {
+      "id": 10752027,
+      "es": "Alumna de artes marciales practicando una defensa ante un agarre en una demostración",
+      "ca": "Alumna d'arts marcials practicant una defensa davant d'un agafament en una demostració",
+      "pos": "50% 35%"
+    },
+    "jeet-kune-do": {
+      "id": 7045477,
+      "es": "Practicante con diadema entrenando con un compañero en una sala luminosa",
+      "ca": "Practicant amb diadema entrenant amb un company en una sala lluminosa",
+      "pos": "50% 30%"
+    },
+    "home": {
+      "id": 7045577,
+      "es": "Clase de artes marciales en un dojo luminoso: el instructor frente al grupo, sentado en el suelo",
+      "ca": "Classe d'arts marcials en un dojo lluminós: l'instructor davant del grup, assegut a terra",
+      "pos": "50% 40%"
+    },
+    "dojo-clase": {
+      "id": 7045577,
+      "es": "Instructor frente a un grupo de alumnos sentados en un dojo con paredes de ladrillo",
+      "ca": "Instructor davant d'un grup d'alumnes asseguts en un dojo amb parets de maó",
+      "pos": "50% 40%"
+    },
+    "dojo-reverencia": {
+      "id": 7045578,
+      "es": "Instructor y alumno haciendo la reverencia al inicio de una clase en un dojo luminoso",
+      "ca": "Instructor i alumne fent la reverència a l'inici d'una classe en un dojo lluminós",
+      "pos": "50% 50%"
+    },
+    "dojo-ladrillo": {
+      "id": 7045604,
+      "es": "Dojo con paredes de ladrillo y dos practicantes haciendo la reverencia",
+      "ca": "Dojo amb parets de maó i dos practicants fent la reverència",
+      "pos": "50% 60%"
+    },
+    "judo-adultos": {
+      "id": 6765051,
+      "es": "Alumnos de judo de varias edades hablando con el instructor sentados sobre el tatami",
+      "ca": "Alumnes de judo de diverses edats parlant amb l'instructor asseguts sobre el tatami",
+      "pos": "50% 45%"
+    },
+    "ninos": {
+      "id": 7045594,
+      "es": "Grupo de niños aprendiendo artes marciales en una sala con mucha luz",
+      "ca": "Grup de nens aprenent arts marcials en una sala amb molta llum",
+      "pos": "50% 40%"
+    },
+    "ninos-reverencia": {
+      "id": 7991209,
+      "es": "Instructor haciendo una reverencia a una niña con uniforme de artes marciales",
+      "ca": "Instructor fent una reverència a una nena amb uniforme d'arts marcials",
+      "pos": "50% 50%"
+    },
+    "ninos-timido": {
+      "id": 7990085,
+      "es": "Niña con dobok concentrada en su práctica junto a unas cortinas",
+      "ca": "Nena amb dobok concentrada en la seva pràctica al costat d'unes cortines",
+      "pos": "50% 30%"
+    },
+    "ninos-concentracion": {
+      "id": 5999191,
+      "es": "Niña con kimono atándose el cinturón blanco con gesto concentrado",
+      "ca": "Nena amb quimono lligant-se el cinturó blanc amb gest concentrat",
+      "pos": "50% 45%"
+    },
+    "ninos-grupo": {
+      "id": 10404785,
+      "es": "Cuatro niños con kimono sentados en fila sobre un tatami amarillo",
+      "ca": "Quatre nens amb quimono asseguts en fila sobre un tatami groc",
+      "pos": "50% 40%"
+    },
+    "ninos-clase": {
+      "id": 7045561,
+      "es": "Instructor y un niño practicando una postura de karate delante de otros alumnos",
+      "ca": "Instructor i un nen practicant una postura de karate davant d'altres alumnes",
+      "pos": "50% 50%"
+    },
+    "ninos-sentados": {
+      "id": 7045553,
+      "es": "Dos niñas con kimono sentadas en el suelo de un dojo, atentas a la clase",
+      "ca": "Dues nenes amb quimono assegudes a terra d'un dojo, ateses a la classe",
+      "pos": "50% 45%"
+    },
+    "ninos-seguridad": {
+      "id": 19437725,
+      "es": "Niños con protecciones y casco sentados en un tatami antes de empezar la clase",
+      "ca": "Nens amb proteccions i casc asseguts en un tatami abans de començar la classe",
+      "pos": "50% 45%"
+    },
+    "ninos-mirada": {
+      "id": 7988371,
+      "es": "Niño con uniforme oscuro de artes marciales mirando serio a un lado",
+      "ca": "Nen amb uniforme fosc d'arts marcials mirant seriós cap a un costat",
+      "pos": "50% 40%"
+    },
+    "ninos-aula": {
+      "id": 7045568,
+      "es": "Niños sentados observando a una niña y a su instructor practicar una patada en un dojo",
+      "ca": "Nens asseguts observant una nena i el seu instructor practicar una puntada en un dojo",
+      "pos": "50% 50%"
+    },
+    "ninos-demo": {
+      "id": 7045565,
+      "es": "Instructor haciendo una demostración a un grupo de niños delante de una pared de ladrillo",
+      "ca": "Instructor fent una demostració a un grup de nens davant d'una paret de maó",
+      "pos": "50% 50%"
+    },
+    "judo-ninos": {
+      "id": 6765015,
+      "es": "Dos niños practicando judo con kimono azul y blanco sobre un tatami amarillo",
+      "ca": "Dos nens practicant judo amb quimono blau i blanc sobre un tatami groc",
+      "pos": "50% 50%"
+    },
+    "mujeres": {
+      "id": 6005459,
+      "es": "Dos mujeres practicando una patada de karate con kimono blanco",
+      "ca": "Dues dones practicant una puntada de karate amb quimono blanc",
+      "pos": "50% 45%"
+    },
+    "mujeres-jiujitsu": {
+      "id": 38732380,
+      "es": "Dos mujeres se dan la mano sentadas en el tatami antes de entrenar jiu-jitsu",
+      "ca": "Dues dones es donen la mà assegudes al tatami abans d'entrenar jiu-jitsu",
+      "pos": "50% 30%"
+    },
+    "mujer-boxeo": {
+      "id": 39134630,
+      "es": "Mujer con las manos vendadas en posición de boxeo antes de entrenar",
+      "ca": "Dona amb les mans embenades en posició de boxa abans d'entrenar",
+      "pos": "50% 50%"
+    },
+    "adultos": {
+      "id": 35029375,
+      "es": "Adultos estirando sobre la colchoneta antes de una clase de artes marciales",
+      "ca": "Adults estirant sobre la màrfega abans d'una classe d'arts marcials",
+      "pos": "50% 50%"
+    },
+    "adultos-saco": {
+      "id": 32321639,
+      "es": "Adultos entrenando con sacos de boxeo en un gimnasio de artes marciales",
+      "ca": "Adults entrenant amb sacs de boxa en un gimnàs d'arts marcials",
+      "pos": "50% 45%"
+    },
+    "peso": {
+      "id": 7991616,
+      "es": "Entrenador guiando a una mujer en un ejercicio de boxeo con saco",
+      "ca": "Entrenador guiant una dona en un exercici de boxa amb sac",
+      "pos": "50% 35%"
+    },
+    "mayores": {
+      "id": 8940488,
+      "es": "Una pareja de personas mayores practicando tai chi al aire libre",
+      "ca": "Una parella de persones grans practicant tai-txi a l'aire lliure",
+      "pos": "50% 40%"
+    },
+    "calma": {
+      "id": 8038490,
+      "es": "Practicante arrodillado en silencio en un dojo, con caligrafía japonesa al fondo",
+      "ca": "Practicant agenollat en silenci en un dojo, amb cal·ligrafia japonesa al fons",
+      "pos": "50% 55%"
+    },
+    "competicion": {
+      "id": 12860531,
+      "es": "Dos mujeres compitiendo en un combate de kickboxing sobre un ring",
+      "ca": "Dues dones competint en un combat de kickboxing sobre un ring",
+      "pos": "50% 50%"
+    },
+    "cinturon": {
+      "id": 6253308,
+      "es": "Practicante ajustándose el cinturón negro sobre un kimono blanco",
+      "ca": "Practicant ajustant-se el cinturó negre sobre un quimono blanc",
+      "pos": "50% 55%"
+    },
+    "cinturon-judo": {
+      "id": 6253307,
+      "es": "Dos judokas ajustándose el cinturón negro sobre el judogi",
+      "ca": "Dos judokes ajustant-se el cinturó negre sobre el judogi",
+      "pos": "50% 55%"
+    },
+    "cinturon-jjb": {
+      "id": 7988370,
+      "es": "Cinturón gris atado sobre un kimono negro de jiu-jitsu",
+      "ca": "Cinturó gris lligat sobre un quimono negre de jiu-jitsu",
+      "pos": "50% 55%"
+    },
+    "cinturon-taekwondo": {
+      "id": 30777334,
+      "es": "Cinturón de taekwondo azul y rojo con caracteres coreanos sobre un dobok blanco",
+      "ca": "Cinturó de taekwondo blau i vermell amb caràcters coreans sobre un dobok blanc",
+      "pos": "50% 50%"
+    },
+    "taekwondo-cinturon": {
+      "id": 7990068,
+      "es": "Alumno de taekwondo sujetando su cinturón blanco con las dos manos",
+      "ca": "Alumne de taekwondo subjectant el seu cinturó blanc amb les dues mans",
+      "pos": "50% 50%"
+    },
+    "material": {
+      "id": 6296120,
+      "es": "Manoplas de entrenamiento apiladas en una estantería de gimnasio",
+      "ca": "Manoples d'entrenament apilades en un prestatge de gimnàs",
+      "pos": "50% 50%"
+    },
+    "guantes": {
+      "id": 7991937,
+      "es": "Guantes de boxeo colgados de una barandilla en un gimnasio",
+      "ca": "Guants de boxa penjats d'una barana en un gimnàs",
+      "pos": "50% 50%"
+    },
+    "sobre": {
+      "id": 6253308,
+      "es": "Practicante ajustándose el cinturón negro sobre un kimono blanco",
+      "ca": "Practicant ajustant-se el cinturó negre sobre un quimono blanc",
+      "pos": "50% 55%"
+    },
+    "para-centros": {
+      "id": 7045604,
+      "es": "Dojo con paredes de ladrillo y dos practicantes haciendo la reverencia",
+      "ca": "Dojo amb parets de maó i dos practicants fent la reverència",
+      "pos": "50% 60%"
+    }
+  },
+  "posts": {
+    "artes-marciales-ninos-tdah": "ninos-concentracion",
+    "karate-infantil-en-barcelona": "karate",
+    "artes-marciales-con-sobrepeso": "adultos-saco",
+    "a-que-edad-empezar-artes-marciales": "ninos-sentados",
+    "artes-marciales-y-bullying": "ninos-mirada",
+    "artes-marciales-para-ninos-en-el-valles-oriental": "ninos",
+    "mma-para-ninos": "ninos-grupo",
+    "que-es-el-grappling-y-donde-se-practica": "grappling",
+    "karate-o-judo-para-ninos": "judo-ninos",
+    "que-es-aikido": "aikido",
+    "artes-marciales-para-perder-peso": "peso",
+    "muay-thai-o-mma": "muay-thai-2",
+    "que-es-mma": "mma",
+    "artes-marciales-para-adultos-en-barcelona": "adultos",
+    "artes-marciales-o-futbol-extraescolar": "ninos-grupo",
+    "judo-para-ninos": "judo-ninos",
+    "golpeo-o-agarre-por-donde-empezar": "mma",
+    "artes-marciales-para-ninos-en-el-valles-occidental": "ninos",
+    "muay-thai-o-kickboxing": "muay-thai",
+    "cursos-defensa-personal-fin-de-semana": "defensa-personal",
+    "como-elegir-centro-artes-marciales": "dojo-clase",
+    "cinturones-de-karate": "cinturon",
+    "judo-o-jiu-jitsu-brasileno": "judo",
+    "artes-marciales-para-ninos-en-el-baix-llobregat": "ninos",
+    "horarios-tipicos-de-las-clases": "dojo-reverencia",
+    "se-hacen-dano-los-ninos-artes-marciales": "ninos-seguridad",
+    "ropa-y-material-grappling": "material",
+    "boxeo-para-mujeres": "mujer-boxeo",
+    "krav-maga-o-defensa-personal": "krav-maga",
+    "empezar-artes-marciales-a-los-40": "adultos-saco",
+    "que-arte-marcial-es-mejor": "dojo-ladrillo",
+    "karate-o-taekwondo-para-ninos": "taekwondo",
+    "jiu-jitsu-japones-o-brasileno": "jiu-jitsu-japones",
+    "clase-de-prueba-que-preguntar": "judo-adultos",
+    "grappling-o-jiu-jitsu-brasileno": "jiu-jitsu-brasileno",
+    "mi-hijo-quiere-dejar-las-clases": "ninos-aula",
+    "cuantos-dias-semana-entrena-un-nino": "ninos-clase",
+    "artes-marciales-para-ninos-en-barcelona": "ninos",
+    "taekwondo-para-ninos": "taekwondo",
+    "como-empezar-taekwondo": "taekwondo-cinturon",
+    "artes-marciales-o-deportes-de-combate": "kickboxing",
+    "defensa-personal-para-mujeres": "defensa-personal",
+    "artes-marciales-adultos-principiantes": "adultos",
+    "ropa-y-material-taekwondo": "cinturon-taekwondo",
+    "defensa-personal-para-ninos": "ninos-demo",
+    "son-peligrosas-las-artes-marciales": "competicion",
+    "como-empezar-en-boxeo": "boxeo",
+    "fitboxing-o-boxeo": "guantes",
+    "artes-marciales-para-mayores": "mayores",
+    "que-es-artes-marciales": "dojo-reverencia",
+    "artes-marciales-para-mujeres-en-barcelona": "mujeres",
+    "beneficios-artes-marciales-ninos": "ninos",
+    "artes-marciales-y-estres": "calma",
+    "boxeo-o-kickboxing": "kickboxing",
+    "arte-marcial-para-nino-timido": "ninos-timido",
+    "primer-dia-clase-artes-marciales-nino": "ninos-reverencia",
+    "arte-marcial-para-nino-muy-nervioso": "ninos-concentracion",
+    "entrenar-sin-querer-competir": "dojo-ladrillo",
+    "empezar-artes-marciales-siendo-mujer": "mujeres-jiujitsu",
+    "extraescolar-artes-marciales-vuelta-al-cole": "ninos-grupo",
+    "karate-o-kung-fu": "kung-fu",
+    "mejor-arte-marcial-para-ninos": "ninos",
+    "defensa-personal-para-mujeres-en-barcelona": "defensa-personal",
+    "cinturones-de-jiu-jitsu-brasileno": "cinturon-jjb",
+    "cinturones-de-judo": "cinturon-judo",
+    "como-empezar-karate": "karate"
+  }
+}

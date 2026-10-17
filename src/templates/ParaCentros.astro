@@ -5,6 +5,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Migas from '../components/Migas.astro';
+import Foto from '../components/Foto.astro';
 import FAQ from '../components/FAQ.astro';
 import Formulario from '../components/Formulario.astro';
 import { L, url, type Lang } from '../lib/i18n';
@@ -126,15 +127,18 @@ const schema = {
   <main id="contenido">
     <Migas lang={lang} items={[{ nombre: L(lang, 'Para centros', 'Per a centres'), href: url.paraCentros(lang) }]} />
 
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
-      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight max-w-3xl">
-        {L(lang, 'Tu centro, donde te buscan', 'El teu centre, on et busquen')}
-      </h1>
-      <p class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed">
-        {L(lang,
-          `Artes Marciales Catalunya reúne ${NV} centros de ${comarcasConCentros().length} comarcas, cada uno con su fuente pública. Aparecer es gratis. Si además quieres destacar o necesitas web, te lo contamos aquí.`,
-          `Arts Marcials Catalunya reuneix ${NV} centres de ${comarcasConCentros().length} comarques, cadascun amb la seva font pública. Sortir-hi és gratis. Si a més vols destacar o necessites web, t'ho expliquem aquí.`)}
-      </p>
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6 grid lg:grid-cols-[minmax(0,1fr)_minmax(0,420px)] gap-8 items-center">
+      <div>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight max-w-3xl">
+          {L(lang, 'Tu centro, donde te buscan', 'El teu centre, on et busquen')}
+        </h1>
+        <p class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed">
+          {L(lang,
+            `Artes Marciales Catalunya reúne ${NV} centros de ${comarcasConCentros().length} comarcas, cada uno con su fuente pública. Aparecer es gratis. Si además quieres destacar o necesitas web, te lo contamos aquí.`,
+            `Arts Marcials Catalunya reuneix ${NV} centres de ${comarcasConCentros().length} comarques, cadascun amb la seva font pública. Sortir-hi és gratis. Si a més vols destacar o necessites web, t'ho expliquem aquí.`)}
+        </p>
+      </div>
+      <Foto clave="para-centros" lang={lang} eager ratio="aspect-21/9 lg:aspect-4/3" sizes="(min-width: 1024px) 420px, 100vw" class="rounded-2xl border border-brand-border" />
     </section>
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">

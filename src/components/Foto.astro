@@ -1,0 +1,41 @@
+---
+// Foto de archivo del catálogo data/fotos.json. El contenedor fija la
+// proporción (sin saltos de maquetación) y la imagen lo rellena recortada.
+// `deco`: la foto no aporta nada que el texto de al lado no diga, alt vacío.
+import { foto } from '../lib/fotos';
+import type { Lang } from '../lib/i18n';
+
+interface Props {
+  clave: string;
+  lang: Lang;
+  /** Clase de proporción, p. ej. aspect-video o aspect-4/3. */
+  ratio?: string;
+  sizes: string;
+  eager?: boolean;
+  deco?: boolean;
+  /** Degradado oscuro para que se lea el texto superpuesto. */
+  velo?: boolean;
+  class?: string;
+  /** Texto propio cuando el alt del catálogo no encaja en el contexto. */
+  alt?: string;
+}
+const { clave, lang, ratio = 'aspect-video', sizes, eager = false, deco = false, velo = false, alt, class: clase = '' } = Astro.props;
+const f = foto(clave);
+---
+<div class:list={['relative overflow-hidden bg-brand-gray', ratio, clase]}>
+  <img
+    src={f.src640}
+    srcset={`${f.src640} 640w, ${f.src1280} 1280w`}
+    sizes={sizes}
+    width={f.w}
+    height={f.h}
+    alt={deco ? '' : (alt ?? f.alt[lang])}
+    loading={eager ? 'eager' : 'lazy'}
+    decoding="async"
+    fetchpriority={eager ? 'high' : 'auto'}
+    style={`object-position:${f.pos}`}
+    class="absolute inset-0 w-full h-full object-cover"
+  />
+  {velo && <div aria-hidden="true" class="absolute inset-0 bg-linear-to-t from-black/85 via-black/25 to-transparent"></div>}
+  <slot />
+</div>

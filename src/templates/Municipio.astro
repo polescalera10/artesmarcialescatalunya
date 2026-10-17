@@ -4,6 +4,8 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Foto from '../components/Foto.astro';
+import { claveTop } from '../lib/fotos';
 import Migas from '../components/Migas.astro';
 import ListaCentros from '../components/ListaCentros.astro';
 import CentroCard from '../components/CentroCard.astro';
@@ -139,17 +141,20 @@ const schema = {
   <main id="contenido">
     <Migas lang={lang} items={[{ nombre: com.nombre, href: url.comarca(lang, comarca) }, { nombre: mun.nombre, href: url.municipio(lang, comarca, municipio) }]} />
 
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
-      <p class="text-xs uppercase tracking-wide text-brand-redtext font-semibold mb-3">{mun.nombre} · {com.nombre}</p>
-      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">{h1}</h1>
-      <div class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed" set:html={ed?.intro ?? edCa?.intro ?? generadoIntro} />
-      {nR > 0 && (
-        <p class="text-sm text-brand-muted mt-3 max-w-3xl">
-          {L(lang,
-            `Además constan ${n(nR, 'club inscrito', 'clubs inscritos')} en el registro de la Generalitat cuya actividad no hemos podido confirmar: los verás al final del listado.`,
-            `A més hi consten ${n(nR, 'club inscrit', 'clubs inscrits')} al registre de la Generalitat l'activitat dels quals no hem pogut confirmar: els veuràs al final del llistat.`)}
-        </p>
-      )}
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6 grid lg:grid-cols-[minmax(0,1fr)_minmax(0,380px)] gap-8 items-center">
+      <div>
+        <p class="text-xs uppercase tracking-wide text-brand-redtext font-semibold mb-3">{mun.nombre} · {com.nombre}</p>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">{h1}</h1>
+        <div class="text-lg text-brand-muted mt-4 max-w-3xl leading-relaxed" set:html={ed?.intro ?? edCa?.intro ?? generadoIntro} />
+        {nR > 0 && (
+          <p class="text-sm text-brand-muted mt-3 max-w-3xl">
+            {L(lang,
+              `Además constan ${n(nR, 'club inscrito', 'clubs inscritos')} en el registro de la Generalitat cuya actividad no hemos podido confirmar: los verás al final del listado.`,
+              `A més hi consten ${n(nR, 'club inscrit', 'clubs inscrits')} al registre de la Generalitat l'activitat dels quals no hem pogut confirmar: els veuràs al final del llistat.`)}
+          </p>
+        )}
+      </div>
+      <Foto clave={claveTop(discV)} lang={lang} eager ratio="aspect-21/9 lg:aspect-4/3" sizes="(min-width: 1024px) 380px, 100vw" class="rounded-2xl border border-brand-border" />
     </section>
 
     {discV.length > 0 && (
