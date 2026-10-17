@@ -14,7 +14,7 @@ def apoyo(discs, intent, aud=None):
     s = 0
     for c in cl:
         d = set(c['disciplinas'].split('+'))
-        if c['intencion'] != intent: continue
+        if aud is None and c['intencion'] != intent: continue
         if aud is not None and aud not in c['publico']: continue
         if aud is None and c['publico'] != '-' and intent != 'comparar': pass
         if set(discs) <= d and (len(discs) > 1 or len(d) == 1): s += int(c['apoyo'])
@@ -75,6 +75,10 @@ for d in ['mma', 'karate', 'taekwondo', 'tai chi', 'defensa personal', 'muay tha
 add('dudas', 'son-peligrosas-las-artes-marciales', '¿son peligrosas las artes marciales?', ['artes marciales'], 'salud', nota='formato de la práctica por disciplina; lesiones habituales sin cifras; remitir al profesional')
 add('dudas', 'artes-marciales-y-bullying', 'artes marciales y bullying', ['artes marciales'], 'salud', nota='qué pueden y qué no aportar; recursos oficiales verificados')
 
+# 9. Competir (reglamento, campeonatos, licencia): solo con fuente federativa verificable
+for d in ['boxeo', 'kickboxing', 'muay thai', 'judo', 'karate', 'taekwondo', 'jiu-jitsu brasileno', 'mma', 'grappling', 'lucha']:
+    add('competir', f'competir-en-{sl(d)}', f'{n(d)} competición', [d], 'competir', None, 'cómo se compite, categorías y licencia según la federación; sin promesas ni resultados')
+
 # deduplicar por slug y repartir en oleadas
 vistos, util = set(), []
 for f in filas:
@@ -82,18 +86,19 @@ for f in filas:
     vistos.add(f['slug']); util.append(f)
 tipos = {}
 for f in sorted(util, key=lambda f: -f['apoyo']): tipos.setdefault(f['tipo'], []).append(f)
-# Oleada 1 con cupo por tipo, para medir qué plantilla se indexa y recibe impresiones; el resto por apoyo
-CUPO1 = {'comparativa': 6, 'ninos': 4, 'cinturones': 3, 'que-es': 3, 'equipo': 2, 'publico': 2, 'empezar': 2, 'dudas': 2}
+# Las olas ya publicadas se excluyen (existe=SI). La primera ola nueva (2) se reparte con cupo por tipo, para medir
+# qué plantilla se indexa; el resto por apoyo: ola 3 (28 URLs) y ola 4 (lo demás).
+CUPO = {'comparativa': 7, 'que-es': 5, 'ninos': 4, 'cinturones': 3, 'equipo': 4, 'empezar': 3, 'publico': 2, 'competir': 3}
 orden = []
-for t, c in CUPO1.items():
+for t_, c in CUPO.items():
     for _ in range(c):
-        if tipos.get(t): orden.append(tipos[t].pop(0))
+        if tipos.get(t_): orden.append(tipos[t_].pop(0))
 n1 = len(orden)
 resto = sorted([f for lista in tipos.values() for f in lista], key=lambda f: -f['apoyo'])
 orden += resto
-for i, f in enumerate(orden): f['ola'] = 1 if i < n1 else 2 if i < n1 + 28 else 3
+for i, f in enumerate(orden): f['ola'] = 2 if i < n1 else 3 if i < n1 + 28 else 4
 cols = ['ola', 'tipo', 'slug', 'consulta_principal', 'disciplinas', 'intencion', 'apoyo', 'nota']
 with open(sys.argv[2], 'w', newline='', encoding='utf-8') as fh:
     w = csv.DictWriter(fh, fieldnames=cols, extrasaction='ignore'); w.writeheader()
     for f in sorted(orden, key=lambda f: (f['ola'], -f['apoyo'])): w.writerow(f)
-print(len(orden), 'URLs;', {o: sum(1 for f in orden if f['ola'] == o) for o in (1, 2, 3)})
+print(len(orden), 'URLs;', {o: sum(1 for f in orden if f['ola'] == o) for o in (2, 3, 4)})
