@@ -6,6 +6,8 @@ distintas que lo sugieren) e idioma. El apoyo es una señal de demanda, no un vo
 import csv, json, re, sys, collections, unicodedata
 
 raw = json.load(open(sys.argv[1]))
+import os
+_RAIZ = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 
 def norm(s):
     return ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn')
@@ -41,6 +43,18 @@ CAT_PROV = re.compile(r'\b(barcelona|girona|tarragona|lleida|sabadell|terrassa|b
 
 CA_MARK = re.compile(r'\b(per a|què|com|quant|quan|arts marcials|art marcial|nens|nenes|dones|és|començar|diferències|classes|d\'|l\')\b|[àèòçíúï·]')
 
+def _n(s):
+    return ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn')
+_lugares = set()
+for _m in json.load(open(os.path.join(_RAIZ, 'data/geo/municipios.json'))):
+    _x = _n(_m['nombre'])
+    if len(_x) >= 4 and _x not in ('sort', 'pals', 'vila', 'mont', 'ager', 'lles', 'riba', 'bot', 'font'): _lugares.add(_x)
+for _c in json.load(open(os.path.join(_RAIZ, 'data/geo/comarcas.json'))): _lugares.add(_n(_c['nombre']))
+_lugares |= {'vic', 'olot', 'reus', 'gava', 'rubi', 'salt', 'sitges', 'cardona', 'catalunya', 'cataluna'}
+LUGAR = re.compile(r'(?:^|\s)(?:' + '|'.join(sorted((re.escape(x) for x in _lugares), key=len, reverse=True)) + r')(?=\s|$)')
+CONECTOR = re.compile(r'\b(y|o|e|vs|versus|and|or|x|u|contra|i)\b')
+BUSCAR = re.compile(r'\b(clases?|classes?|escuela|escola|academia|academies|gimnasio|gimnas|club|dojo|centros?|centres?|cerca de mi|a prop meu|near me|cerca)\b')
+
 def clasifica(q):
     n = norm(q)
     if RUIDO.search(n): return None
@@ -52,7 +66,11 @@ def clasifica(q):
     ints = [k for k, p in INT if re.search(p, n)]
     # «o» suelta es ruido si solo hay una disciplina y no hay otra a ambos lados
     if ints == ['comparar'] and len(disc) < 2 and not re.search(r'\b(vs|versus|diferenc\w+|mejor|millor)\b', n): ints = []
-    loc = bool(CAT_PROV.search(n))
+    loc = bool(CAT_PROV.search(n)) or bool(LUGAR.search(n))
+    # dos disciplinas unidas por un conector, o «son lo mismo»: comparativa
+    if len(disc) >= 2 and (CONECTOR.search(n) or re.search(r'\bson lo mismo\b|\bes lo mismo\b|\bdiferenc|\bmejor\b', n)) and not loc:
+        ints = ['comparar'] + [i for i in ints if i != 'comparar']
+    if not ints and BUSCAR.search(n) and not loc: ints = ['buscar-centro']
     return disc, aud, ints, loc
 
 filas = collections.defaultdict(lambda: {'consultas': [], 'apoyo': 0, 'ca': 0, 'es': 0})
