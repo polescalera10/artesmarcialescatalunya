@@ -56,6 +56,23 @@ def consulta(direccion, municipio):
     return variantes
 
 
+GENERICAS = {'carrer', 'calle', 'c', 'avinguda', 'avenida', 'av', 'avda', 'plaça', 'plaza', 'pl', 'rambla',
+             'passeig', 'passatge', 'pg', 'camí', 'camino', 'carretera', 'ctra', 'de', 'del', 'la', 'les', 'els',
+             'el', 'l', 'd', 'i', 'y', 'en', 'sant', 'santa', 'sta', 'nº', 'n', 'pavello', 'poliesportiu', 'municipal',
+             'centre', 'esportiu', 'zona', 'esportiva', 'carrer', 'urbanitzacio', 'polígono', 'pol', 'ind', 'industrial'}
+
+
+def palabras(t):
+    return {w for w in re.findall(r'[^\W\d_]+', sin_tildes(t)) if len(w) > 2 and w not in GENERICAS}
+
+
+def calle_coincide(direccion, municipio, via_geocoder):
+    """La vía devuelta debe compartir alguna palabra significativa con la de la ficha.
+    Evita el fallo de «Rambla del Garraf» → «D'Arnau de Vilanova» (mismo municipio, otra calle)."""
+    base = re.sub(re.escape(municipio), ' ', direccion, flags=re.I)
+    return bool(palabras(base) & palabras(via_geocoder or ''))
+
+
 def km(a, b):
     r = math.radians
     dlat, dlon = r(b[0] - a[0]), r(b[1] - a[1])
@@ -100,6 +117,9 @@ for i, c in enumerate(centros, 1):
         continue
     if r.get('muniCode') != mun['ine'][:5]:
         descartados.append((c['slug'], f"otro municipio ({r.get('muni')}): {q}"))
+        continue
+    if not calle_coincide(c['direccion'], mun['nombre'], r.get('address')):
+        descartados.append((c['slug'], f"vía distinta ({r.get('address')}): {q}"))
         continue
     cp = re.search(r'\b(\d{5})\b', c['direccion'])
     if cp and r.get('postalCode') and cp.group(1) != r['postalCode']:
