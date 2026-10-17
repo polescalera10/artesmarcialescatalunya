@@ -102,6 +102,7 @@ const schema = [
     ...(c.direccion
       ? { address: { '@type': 'PostalAddress', streetAddress: c.direccion, addressLocality: mun.nombre, addressRegion: 'Catalunya', addressCountry: 'ES' } }
       : { address: { '@type': 'PostalAddress', addressLocality: mun.nombre, addressRegion: 'Catalunya', addressCountry: 'ES' } }),
+    ...(coordCentro ? { geo: { '@type': 'GeoCoordinates', latitude: coordCentro[0], longitude: coordCentro[1] } } : {}),
     knowsAbout: c.disciplinas.map(d => nombreDisciplina(d, 'es')),
   },
   {

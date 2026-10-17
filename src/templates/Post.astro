@@ -34,6 +34,7 @@ const schema = {
   headline: post.h1,
   description: post.descripcion,
   url: pageUrl,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
   inLanguage: lang,
   datePublished: post.fecha,
   dateModified: post.actualizado,
@@ -44,7 +45,7 @@ const schema = {
 };
 ---
 
-<Layout title={post.titulo} description={post.descripcion} canonical={url.post(post.slug, lang)} schema={schema} lang={lang} ogImage={og} alternates={alternates}>
+<Layout title={post.titulo} description={post.descripcion} canonical={url.post(post.slug, lang)} schema={schema} lang={lang} ogImage={og} alternates={alternates} articulo={{ publicado: post.fecha, actualizado: post.actualizado }}>
   <Header lang={lang} alt={alternates ? alternates[lang === 'es' ? 'ca' : 'es'] : url.blog(lang === 'es' ? 'ca' : 'es')} />
   <main id="contenido">
     <Migas lang={lang} items={[{ nombre: 'Blog', href: url.blog(lang) }, { nombre: post.h1, href: url.post(post.slug, lang) }]} />
