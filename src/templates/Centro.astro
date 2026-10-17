@@ -8,6 +8,8 @@ import Footer from '../components/Footer.astro';
 import Migas from '../components/Migas.astro';
 import CentroCard from '../components/CentroCard.astro';
 import Formulario from '../components/Formulario.astro';
+import Foto from '../components/Foto.astro';
+import { claveDisciplina } from '../lib/fotos';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import { L, url, lista, titulo, descripcion, fecha, type Lang, minus } from '../lib/i18n';
 import { getCentro, consultaMapa, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
@@ -129,6 +131,10 @@ const schema = [
       <div class="space-y-6 min-w-0">
         <header class="relative overflow-hidden bg-linear-to-br from-brand-gray via-brand-gray to-brand-dark border border-brand-border rounded-2xl p-6 sm:p-8">
           <div aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-red/10 blur-3xl"></div>
+          {/* Foto de archivo de la disciplina: ilustra, no es del centro, y la ficha lo dice. */}
+          <Foto clave={claveDisciplina(c.disciplinas[0] ?? '')} lang={lang} eager ratio="aspect-2/1 sm:aspect-5/2" sizes="(min-width: 1024px) 760px, 100vw" class="-mx-6 -mt-6 sm:-mx-8 sm:-mt-8 mb-6">
+            <span class="absolute bottom-2 right-3 rounded bg-black/65 px-2 py-0.5 text-[11px] text-white/85">{L(lang, 'Foto de archivo, ilustrativa', "Foto d'arxiu, il·lustrativa")}</span>
+          </Foto>
           <div class="relative flex items-start gap-4">
             <div aria-hidden="true" class="shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-brand-red/10 border border-brand-red/30 grid place-items-center text-brand-redtext text-lg sm:text-xl font-black tracking-tight">{iniciales}</div>
             <div class="min-w-0">
