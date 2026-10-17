@@ -61,7 +61,7 @@ La Federació Catalana de Lluita i Disciplines Associades recoge el MMA entre su
 |---|---|---|
 | Qué trabajas | Golpeo con puños, patadas, rodillas y codos, y clinch | Golpeo, lucha de pie, derribos y suelo |
 | Curva de aprendizaje | Más corta al principio | Más larga: varias áreas a la vez |
-| Combate amateur | Cinco asaltos de dos minutos (FCKBMT) | Sin codos en las reglas de IMMAF |
+| Reglas del combate amateur | Codos y rodillas permitidos; cinco asaltos de dos minutos (FCKBMT) | Sin codos en las reglas de IMMAF; los asaltos dependen de su reglamento vigente |
 | Oferta en el directorio | {{d:muay-thai}} centros | {{d:mma}} centros |
 
 - Quieres descargar tensión con una clase que se parece a lo que ves en vídeos de golpeo: muay thai.

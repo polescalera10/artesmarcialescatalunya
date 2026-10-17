@@ -46,7 +46,7 @@ Las diferencias que recogen las fuentes son estas:
 - Golpes en el suelo: permitidos en ambos casos, con restricciones de seguridad en las reglas amateur.
 - Codos: no se permiten en las reglas amateur de IMMAF.
 - Árbitro: en amateur puede parar el combate en cualquier momento si alguien no se defiende bien.
-- Asaltos: cinco minutos con uno de descanso en las reglas unificadas profesionales. Para el formato amateur actual, la edición vigente de IMMAF.
+- Asaltos: cinco minutos con uno de descanso en las reglas unificadas profesionales. El formato amateur lo fija cada reglamento y cada organizador (IMMAF publica el suyo).
 
 Esto importa porque lo que ves en el MMA profesional no es lo que se entrena en una clase de iniciación. Un grupo de iniciación suele ir a un ritmo mucho más bajo, con compañeros de nivel parecido y un entrenador encima.
 

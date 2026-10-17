@@ -2,7 +2,7 @@
 titulo: "Ropa de grappling: con gi, sin gi y qué comprar primero"
 descripcion: "Qué ropa llevar a grappling con kimono y sin él: camiseta ajustada, pantalón sin bolsillos, higiene y qué comprar primero. Sin marcas ni precios."
 h1: "Ropa de grappling: qué llevar con kimono y sin kimono (no gi), y qué comprar primero"
-intro: "En grappling casi siempre se entrena sin kimono, y la ropa que pide es la más barata de todas las artes marciales: una camiseta ajustada y un pantalón corto o unas mallas, sin bolsillos ni cremalleras. El kimono (gi) aparece en los grupos que lo combinan con jiu-jitsu brasileño. En el directorio constan {{d:grappling}} centros que anuncian grappling, y lo primero que conviene preguntar a cualquiera de ellos es qué ropa se lleva en su grupo."
+intro: "En grappling casi siempre se entrena sin kimono, y la ropa que pide es sencilla: una camiseta ajustada y un pantalón corto o unas mallas, sin bolsillos ni cremalleras. El kimono (gi) aparece en los grupos que lo combinan con jiu-jitsu brasileño. En el directorio constan {{d:grappling}} centros que anuncian grappling, y lo primero que conviene preguntar a cualquiera de ellos es qué ropa se lleva en su grupo."
 tipo: articulo
 fecha: "2026-10-17"
 actualizado: "2026-10-17"

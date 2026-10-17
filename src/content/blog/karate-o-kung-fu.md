@@ -35,7 +35,7 @@ Del lado chino, la historia es más difusa. Shaolin es el nombre que más suena 
 
 Una clase típica de karate trabaja tres cosas: técnica básica (*kihon*), formas (*kata*, secuencias fijas de movimientos que representan ataque y defensa) y combate (*kumite*, que significa literalmente "encuentro de manos"). Cuánto pesa cada una cambia de un club a otro. La web de la [Federació Catalana de Karate](https://www.fckarate.cat) (consultada en octubre de 2026) distingue estilos como kyokushin o shotokan, y el estilo condiciona cómo se combate y cuánto contacto hay, así que conviene preguntarlo por teléfono.
 
-El karate se enseña con grados de cinturón, y los previos al negro suelen llamarse kyus. En el calendario de la federación aparecen campeonatos por kyus, lo que da idea de que la estructura es bastante uniforme de un club a otro. Karate deportivo fue aprobado para los Juegos Olímpicos de 2020 y no figura en el programa de 2024, así que su proyección olímpica es incierta.
+El karate se enseña con grados de cinturón, y los previos al negro suelen llamarse kyus. En el calendario de la federación aparecen campeonatos por kyus, aunque cada club decide cómo organiza sus grados. El karate estuvo en el programa de Tokio 2020 y no figura en el de París 2024.
 
 ## Qué se hace en una clase de kung fu
 
@@ -59,7 +59,7 @@ Constan {{d:wing-chun}} centros de wing chun en {{dcom:wing-chun}} comarcas, y a
 | Grados | Cinturones, con kyus hasta el negro | Varían según la escuela |
 | Oferta en el directorio | {{d:karate}} centros | {{d:kung-fu}} centros |
 
-¿Qué tabla de estas te sirve más para decidir? Ninguna sustituye a una clase de prueba, pero ordena las preguntas que hacer.
+Ninguna tabla sustituye a una clase de prueba, pero sirven para ordenar las preguntas que hacer.
 
 ## Lo que no te dirá un folleto
 
@@ -77,4 +77,4 @@ Para un adulto que empieza, la pregunta práctica es otra: ¿qué grupo de inici
 
 El karate consta en {{d:karate}} centros y en {{dcom:karate}} comarcas, y el kung fu en {{d:kung-fu}} centros y {{dcom:kung-fu}} comarcas. Esa asimetría resume la decisión práctica: el karate está casi en cualquier sitio, el kung fu hay que buscarlo. En el [Vallès Occidental](/disciplinas/karate/valles-occidental/) constan {{dc:karate:valles-occidental}} centros de karate, un ejemplo de zona donde la elección de grupo es amplia.
 
-Abre el [directorio filtrado por karate](/centros/?disciplina=karate) o el [filtrado por kung fu](/centros/?disciplina=kung-fu) y acota por comarca y municipio. Cada ficha enseña la fuente pública que confirma la disciplina y la fecha de verificación. Si en tu comarca no hay kung fu, la ficha de cada centro te dice a qué distancia queda el más cercano. Y antes de apuntarte, usa el guion de [qué preguntar en una clase de prueba](/blog/clase-de-prueba-que-preguntar/): el estilo, el contacto y el grupo pesan más que el nombre del cartel. Por criterio editorial no recomendamos centros concretos: el directorio dice qué consta y dónde, y la elección es tuya.
+Abre el [directorio filtrado por karate](/centros/?disciplina=karate) o el [filtrado por kung fu](/centros/?disciplina=kung-fu) y acota por comarca y municipio. Cada ficha enseña la fuente pública que confirma la disciplina y la fecha de verificación. Si en tu comarca no hay kung fu, amplía la búsqueda a las comarcas vecinas. Y antes de apuntarte, usa el guion de [qué preguntar en una clase de prueba](/blog/clase-de-prueba-que-preguntar/): el estilo, el contacto y el grupo pesan más que el nombre del cartel. Por criterio editorial no recomendamos centros concretos: el directorio dice qué consta y dónde, y la elección es tuya.

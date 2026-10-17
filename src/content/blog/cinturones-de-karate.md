@@ -34,7 +34,7 @@ La normativa pone dos condiciones al aspirante: edad mínima y tiempo de permane
 | Grado | Edad mínima | Permanencia en el grado anterior |
 |---|---|---|
 | Cinturón negro | Entre 12 y 15 años | Un año de cinturón marrón. |
-| Primer dan | 16 años | Un año de marrón, o ser cinturón negro. |
+| Primer dan | 16 años | Según la normativa de la RFEK. |
 | Segundo dan | 18 años | Dos años de primer dan. |
 | Tercer dan | 21 años | Tres años de segundo dan. |
 
@@ -52,7 +52,7 @@ Si estás decidiendo estilo, [cómo empezar karate](/blog/como-empezar-karate/) 
 
 ## Niños: cada club tiene su escala
 
-Según la [Wikipedia](https://es.wikipedia.org/wiki/Kárate), los cinturones intermedios (de dos colores) se usan sobre todo con los más jóvenes, hasta los 13 o 14 años. En la normativa federativa, la tabla del cinturón negro empieza en los 12 años y no recoge colores infantiles.
+Según la [Wikipedia](https://es.wikipedia.org/wiki/Kárate), los cinturones intermedios (de dos colores) se usan sobre todo con los más jóvenes. En la normativa federativa, la tabla del cinturón negro empieza en los 12 años y no recoge colores infantiles.
 
 Con niños, el sistema de cada club manda del todo. Para ordenar la elección, el artículo sobre [karate o taekwondo para niños](/blog/karate-o-taekwondo-para-ninos/) compara cómo se plantea la progresión, y [karate infantil en Barcelona](/blog/karate-infantil-en-barcelona/) ayuda a preguntar por exámenes. Una regla que sirve para casi todo: un centro que cambia de color a un niño cada pocos meses para retenerlo está usando el cinturón como señuelo.
 
