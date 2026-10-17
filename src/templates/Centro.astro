@@ -11,8 +11,9 @@ import Formulario from '../components/Formulario.astro';
 import Foto from '../components/Foto.astro';
 import { claveDisciplina } from '../lib/fotos';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
+import MapaCentro from '../components/MapaCentro.astro';
 import { L, url, lista, titulo, descripcion, fecha, type Lang, minus } from '../lib/i18n';
-import { getCentro, mapaOsm, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
+import { getCentro, mapaOsm, coordenadas, centrosDeMunicipio, cercanos, esPromocionado, esVerificado } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { tienePaginaMunicipio, tienePaginaMunDisc, fichaIndexable } from '../lib/rutas';
@@ -43,9 +44,12 @@ const iniciales = c.nombre.replace(/^(club|escola|escuela|associació|asociació
   .split(/[\s-]+/).filter(w => /^[\p{L}\d]/u.test(w) && !/^(de|del|la|el|i|y|d'.*)$/i.test(w)).slice(0, 2).map(w => w[0].toUpperCase()).join('') || c.nombre[0];
 const sello = `<a href="${SITE.url}${url.centro(lang, c.slug)}" title="${L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya')}"><img src="${SITE.url}/sello/ficha-verificada-${lang}.svg" alt="${L(lang, 'Ficha verificada en Artes Marciales Catalunya', 'Fitxa verificada a Arts Marcials Catalunya')}" width="220" height="56"></a>`;
 const mapa = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([c.nombre, c.direccion, mun.nombre].filter(Boolean).join(', '))}`;
-// Mapa incrustado (OpenStreetMap, visible sin pulsar nada) solo si hay coordenadas de portal:
-// con solo nombre y municipio la ficha no puede afirmar una ubicación dudosa.
-const mapaEmbed = mapaOsm(c.slug);
+// Mapa visible sin pulsar nada, solo si hay coordenadas de portal: con solo nombre y
+// municipio la ficha no puede afirmar una ubicación dudosa. Con clave de MapTiler
+// (PUBLIC_MAPTILER_KEY) se usa el visor propio; sin ella, el iframe de OpenStreetMap.
+const claveMapa = import.meta.env.PUBLIC_MAPTILER_KEY ?? '';
+const coordCentro = coordenadas(c.slug);
+const mapaEmbed = coordCentro ? mapaOsm(c.slug) : null;
 const webCorta = c.web?.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
 const FUENTE: Record<string, [string, string]> = {
   'web-oficial': ['Web oficial del centro', 'Web oficial del centre'],
@@ -193,8 +197,8 @@ const schema = [
         {mapaEmbed && (
           <section class="bg-brand-gray border border-brand-border rounded-xl p-5" aria-labelledby="mapa-titulo">
             <h2 id="mapa-titulo" class="text-xs uppercase tracking-wide text-brand-muted font-semibold mb-3">{L(lang, 'Ubicación', 'Ubicació')}</h2>
-            <iframe src={mapaEmbed} title={L(lang, `Mapa de ${c.nombre}`, `Mapa de ${c.nombre}`)} loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-64 sm:h-80 rounded-lg border border-brand-border bg-brand-dark"></iframe>
-            <p class="text-xs text-brand-muted mt-2">{c.direccion} · © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" class="underline underline-offset-2 hover:text-white">OpenStreetMap</a> · <a href={mapa} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-white" data-evento="clic_mapa" data-centro={c.slug}>{L(lang, 'Abrir en Google Maps', 'Obrir a Google Maps')} ↗</a></p>
+            {claveMapa && coordCentro ? <MapaCentro lat={coordCentro[0]} lon={coordCentro[1]} nombre={c.nombre} clave={claveMapa} lang={lang} /> : <iframe src={mapaEmbed} title={L(lang, `Mapa de ${c.nombre}`, `Mapa de ${c.nombre}`)} loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-64 sm:h-80 rounded-lg border border-brand-border bg-brand-dark"></iframe>}
+            <p class="text-xs text-brand-muted mt-2">{c.direccion} · <a href={mapa} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-white" data-evento="clic_mapa" data-centro={c.slug}>{L(lang, 'Abrir en Google Maps', 'Obrir a Google Maps')} ↗</a></p>
           </section>
         )}
 

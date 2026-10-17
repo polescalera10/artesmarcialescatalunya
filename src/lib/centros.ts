@@ -121,6 +121,9 @@ const COORDENADAS = coordenadasRaw as Record<string, [number, number]>;
  * dentro de su municipio; sin ellas la ficha no incrusta mapa (no se afirma una
  * ubicación dudosa). El visor de OSM no usa cookies ni requiere clave.
  */
+/** Coordenadas del portal del centro, o null si no se pudo verificar. */
+export const coordenadas = (slug: string): [number, number] | null => COORDENADAS[slug] ?? null;
+
 export function mapaOsm(slug: string): string | null {
   const p = COORDENADAS[slug];
   if (!p) return null;

@@ -1,0 +1,124 @@
+---
+// Mapa de la ficha, visible sin pulsar nada. Visor propio sobre teselas de
+// MapTiler, sin librería (mismo diseño que MapaSala de nexus-vng): solo hace
+// falta colocar imágenes, arrastrar y hacer zoom.
+//
+// Privacidad: las teselas las pide el navegador, así que MapTiler recibe la IP
+// del visitante. Para que solo ocurra con quien llega al mapa, no se piden
+// hasta 300 px antes de que entre en pantalla. En móvil, el gesto vertical
+// sigue moviendo la página y solo el horizontal arrastra el mapa.
+import { L, type Lang } from '../lib/i18n';
+interface Props { lat: number; lon: number; nombre: string; clave: string; lang: Lang }
+const { lat, lon, nombre, clave, lang } = Astro.props;
+---
+<div
+  data-mapa-vivo data-lat={lat} data-lon={lon} data-clave={clave}
+  role="application" aria-roledescription={L(lang, 'mapa', 'mapa')} aria-label={L(lang, `Mapa de ${nombre}`, `Mapa de ${nombre}`)} tabindex="0"
+  class="relative h-64 sm:h-80 overflow-hidden rounded-lg border border-brand-border bg-brand-dark cursor-grab active:cursor-grabbing select-none outline-none focus-visible:ring-2 focus-visible:ring-brand-red"
+  style="touch-action: pan-y"
+>
+  <div data-mapa-teselas class="absolute inset-0"></div>
+
+  <div data-mapa-pin class="pointer-events-none absolute">
+    <svg viewBox="0 0 24 32" class="absolute bottom-0 left-0 h-8 w-6 -translate-x-1/2 text-brand-red drop-shadow" aria-hidden="true">
+      <path fill="currentColor" d="M12 0C5.4 0 0 5.2 0 11.7 0 20.4 12 32 12 32s12-11.6 12-20.3C24 5.2 18.6 0 12 0Zm0 16.5a4.8 4.8 0 1 1 0-9.6 4.8 4.8 0 0 1 0 9.6Z"/>
+    </svg>
+  </div>
+
+  <div class="absolute right-2 top-2 flex flex-col gap-1">
+    <button type="button" data-mapa-zoom="1" aria-label={L(lang, 'Acercar', 'Apropar')} title={L(lang, 'Acercar', 'Apropar')} class="flex size-9 items-center justify-center rounded-md border border-white/15 bg-brand-dark/85 text-xl leading-none text-white transition-colors hover:border-brand-red/60 disabled:opacity-40">+</button>
+    <button type="button" data-mapa-zoom="-1" aria-label={L(lang, 'Alejar', 'Allunyar')} title={L(lang, 'Alejar', 'Allunyar')} class="flex size-9 items-center justify-center rounded-md border border-white/15 bg-brand-dark/85 text-xl leading-none text-white transition-colors hover:border-brand-red/60 disabled:opacity-40">−</button>
+  </div>
+
+  <!-- Atribución obligatoria de MapTiler y OpenStreetMap. -->
+  <p class="absolute bottom-0 right-0 rounded-tl bg-brand-dark/80 px-1.5 py-0.5 text-[10px] leading-tight text-white/75">
+    <a href="https://www.maptiler.com/copyright/" target="_blank" rel="noopener noreferrer" class="text-inherit no-underline hover:underline">© MapTiler</a>
+    <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer" class="text-inherit no-underline hover:underline">© OpenStreetMap</a>
+  </p>
+</div>
+
+<script>
+  import { aPixel, limitarZoom, teselasVisibles, urlTesela, ZOOM_INICIAL, ZOOM_MAX, ZOOM_MIN } from '../lib/mapa';
+
+  document.querySelectorAll<HTMLElement>('[data-mapa-vivo]').forEach(caja => {
+    const lat = Number(caja.dataset.lat), lon = Number(caja.dataset.lon), clave = caja.dataset.clave ?? '';
+    const capa = caja.querySelector<HTMLElement>('[data-mapa-teselas]')!;
+    const pin = caja.querySelector<HTMLElement>('[data-mapa-pin]')!;
+    const botones = caja.querySelectorAll<HTMLButtonElement>('[data-mapa-zoom]');
+    let activo = false, zoom = ZOOM_INICIAL, ancho = 0, alto = 0, dx = 0, dy = 0;
+    // Teselas ya colocadas, por clave: al arrastrar solo se mueven, no se recrean.
+    const colocadas = new Map<string, HTMLImageElement>();
+
+    const pintar = () => {
+      if (!activo || !ancho) return;
+      const sala = aPixel(lat, lon, zoom);
+      const cx = sala.x + dx, cy = sala.y + dy;
+      const nuevas = teselasVisibles(cx, cy, ancho, alto, zoom);
+      const vivas = new Set<string>();
+      for (const t of nuevas) {
+        const id = `${t.z}/${t.x}/${t.y}`;
+        vivas.add(id);
+        let img = colocadas.get(id);
+        if (!img) {
+          img = new Image(256, 256);
+          img.src = urlTesela(t, clave);
+          img.alt = ''; img.draggable = false;
+          img.className = 'pointer-events-none absolute max-w-none';
+          img.style.width = img.style.height = '256px';
+          colocadas.set(id, img);
+          capa.appendChild(img);
+        }
+        img.style.left = `${t.left}px`; img.style.top = `${t.top}px`;
+      }
+      for (const [id, img] of colocadas) if (!vivas.has(id)) { img.remove(); colocadas.delete(id); }
+      pin.style.left = `${ancho / 2 - dx}px`; pin.style.top = `${alto / 2 - dy}px`;
+      botones.forEach(b => { b.disabled = (b.dataset.mapaZoom === '1' && zoom >= ZOOM_MAX) || (b.dataset.mapaZoom === '-1' && zoom <= ZOOM_MIN); });
+    };
+
+    const cambiarZoom = (delta: number) => {
+      const nuevo = limitarZoom(zoom + delta);
+      if (nuevo === zoom) return;
+      const f = 2 ** (nuevo - zoom);
+      dx *= f; dy *= f; zoom = nuevo;
+      capa.replaceChildren(); colocadas.clear();
+      pintar();
+    };
+
+    new ResizeObserver(([e]) => { ancho = e.contentRect.width; alto = e.contentRect.height; pintar(); }).observe(caja);
+    const io = new IntersectionObserver(es => {
+      if (es.some(e => e.isIntersecting)) { activo = true; io.disconnect(); pintar(); }
+    }, { rootMargin: '300px 0px' });
+    io.observe(caja);
+
+    botones.forEach(b => {
+      b.addEventListener('pointerdown', e => e.stopPropagation());
+      b.addEventListener('click', () => cambiarZoom(Number(b.dataset.mapaZoom)));
+    });
+
+    let arrastre: { id: number; x: number; y: number } | null = null;
+    caja.addEventListener('pointerdown', e => {
+      if (e.button !== 0) return;
+      arrastre = { id: e.pointerId, x: e.clientX, y: e.clientY };
+      caja.setPointerCapture(e.pointerId);
+    });
+    caja.addEventListener('pointermove', e => {
+      if (!arrastre || arrastre.id !== e.pointerId) return;
+      const mx = e.clientX - arrastre.x;
+      const my = e.pointerType === 'touch' ? 0 : e.clientY - arrastre.y;
+      arrastre = { id: arrastre.id, x: e.clientX, y: e.clientY };
+      dx -= mx; dy -= my;
+      pintar();
+    });
+    const soltar = () => { arrastre = null; };
+    caja.addEventListener('pointerup', soltar);
+    caja.addEventListener('pointercancel', soltar);
+
+    caja.addEventListener('keydown', e => {
+      const paso = 64;
+      const mov: Record<string, [number, number]> = { ArrowLeft: [-paso, 0], ArrowRight: [paso, 0], ArrowUp: [0, -paso], ArrowDown: [0, paso] };
+      if (mov[e.key]) { e.preventDefault(); dx += mov[e.key][0]; dy += mov[e.key][1]; pintar(); }
+      else if (e.key === '+' || e.key === '=') { e.preventDefault(); cambiarZoom(1); }
+      else if (e.key === '-') { e.preventDefault(); cambiarZoom(-1); }
+    });
+  });
+</script>
