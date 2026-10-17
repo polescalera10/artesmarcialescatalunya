@@ -65,7 +65,7 @@
   "slug": "aranha-vng",
   "nombre": "Aranha VNG",
   "tipo": "escuela",
-  "municipio": "vilanova-i-la-geltru",
+  "municipio": "sant-pere-de-ribes",
   "disciplinas": [
    "jiu-jitsu-brasileno",
    "kickboxing",
@@ -77,7 +77,7 @@
    "Grupo femenino de jiu-jitsu"
   ],
   "infantil": true,
-  "direccion": "Rambla del Garraf, 32, 08800 Vilanova i la Geltrú",
+  "direccion": "Rambla del Garraf, 32, 08812 Sant Pere de Ribes, Barcelona",
   "web": "https://www.aranhavng.es",
   "fuente": "https://www.aranhavng.es",
   "fuenteTipo": "web-oficial",
