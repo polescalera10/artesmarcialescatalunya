@@ -6,7 +6,7 @@
 //    etiquetados: el registro no confirma que sigan activos.
 import CentroCard from './CentroCard.astro';
 import { L, url, type Lang } from '../lib/i18n';
-import { promocionadosEn, verificados, sinVerificar, type Centro } from '../lib/centros';
+import { promocionadosEn, esPromocionado, verificados, sinVerificar, type Centro } from '../lib/centros';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { getMunicipio } from '../lib/geo';
 
@@ -17,8 +17,9 @@ interface Props {
 }
 const { centros, lang, conMunicipio = true } = Astro.props;
 const promos = promocionadosEn(centros);
-const ver = verificados(centros);
-const reg = sinVerificar(centros);
+// Un promocionado sale solo en su bloque, no se repite en el listado.
+const ver = verificados(centros).filter(c => !esPromocionado(c.slug));
+const reg = sinVerificar(centros).filter(c => !esPromocionado(c.slug));
 // Listados largos: se ven los primeros y el resto tras «Mostrar más». Siguen en
 // el HTML (indexables y filtrables); al filtrar por disciplina se despliegan.
 const LIM_V = 24;
