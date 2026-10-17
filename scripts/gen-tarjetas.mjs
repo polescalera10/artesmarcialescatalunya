@@ -1,17 +1,18 @@
 // Tarjetas sociales (Open Graph, 1200x630) de Artes Marciales Catalunya:
-//   public/og/c/<comarca>-<lang>.jpg     una por comarca con centros
+//   public/og/c/<comarca>-<lang>.jpg     una por comarca (las 43)
 //   public/og/d/<disciplina>-<lang>.jpg  una por disciplina
 //   public/og/home-<lang>.jpg            portada y páginas generales
 // Sin cifras (caducarían) ni fotos (sugerirían instalaciones propias).
 // Se generan en local y se suben al repo. Uso: node scripts/gen-tarjetas.mjs
 import sharp from 'sharp';
-import { readFileSync, mkdirSync, readdirSync } from 'node:fs';
+import { readFileSync, mkdirSync } from 'node:fs';
 
 const raiz = new URL('../', import.meta.url);
 const leer = p => JSON.parse(readFileSync(new URL(p, raiz), 'utf8'));
 const comarcas = Object.fromEntries(leer('data/geo/comarcas.json').map(c => [c.slug, c.nombre]));
 const disciplinas = leer('data/disciplinas.json');
-const conCentros = readdirSync(new URL('data/centros/', raiz)).map(f => f.replace('.json', ''));
+// Todas las comarcas, tengan o no centros: sus páginas existen y referencian su tarjeta.
+const todasComarcas = Object.keys(comarcas);
 const FONT = 'Inter, Helvetica Neue, Helvetica, Arial, sans-serif';
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
@@ -53,7 +54,7 @@ let n = 0;
 for (const lang of ['es', 'ca']) {
   const t = T[lang];
   await png(tarjeta({ antetitulo: t.ante, titulo: t.home, subtitulo: t.sub, marca: t.marca }), `public/og/home-${lang}.jpg`); n++;
-  for (const c of conCentros) { await png(tarjeta({ antetitulo: t.com, titulo: t.tc(comarcas[c]), subtitulo: t.sub, marca: t.marca }), `public/og/c/${c}-${lang}.jpg`); n++; }
+  for (const c of todasComarcas) { await png(tarjeta({ antetitulo: t.com, titulo: t.tc(comarcas[c]), subtitulo: t.sub, marca: t.marca }), `public/og/c/${c}-${lang}.jpg`); n++; }
   for (const d of disciplinas) { await png(tarjeta({ antetitulo: t.dis, titulo: t.td(d[lang]), subtitulo: t.sub, marca: t.marca }), `public/og/d/${d.slug}-${lang}.jpg`); n++; }
 }
 console.log(`${n} tarjetas generadas`);

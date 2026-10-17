@@ -8,7 +8,7 @@ import type { Lang } from './i18n';
 interface Entrada { id: number; es: string; ca: string; pos?: string }
 const FOTOS = manifiesto.fotos as Record<string, Entrada>;
 const POSTS = manifiesto.posts as Record<string, string>;
-const dimensiones = dims as Record<string, { w: number; h: number; w640: number; h640: number }>;
+const dimensiones = dims as Record<string, { nombre: string; w: number; h: number; w640: number; h640: number }>;
 
 export interface Foto {
   clave: string;
@@ -25,8 +25,8 @@ export function foto(clave: string): Foto {
   const d = dimensiones[f.id];
   return {
     clave,
-    src640: `/fotos/${f.id}-640.webp`,
-    src1280: `/fotos/${f.id}-1280.webp`,
+    src640: `/fotos/${d.nombre}-640.webp`,
+    src1280: `/fotos/${d.nombre}-1280.webp`,
     w: d.w,
     h: d.h,
     alt: { es: f.es, ca: f.ca },
