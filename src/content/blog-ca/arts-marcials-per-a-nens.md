@@ -1,6 +1,6 @@
 ---
 titulo: "Arts marcials per a nens: quin és el millor i com triar"
-descripcion: "Quin és el millor art marcial per a nens: comparativa de karate, judo i taekwondo, amb criteris per edat i caràcter i llista per avaluar el centre."
+descripcion: "Quin és el millor art marcial per a nens i com triar dojo: karate, judo i taekwondo per edat i caràcter, amb llista per avaluar el centre."
 h1: "Quin és el millor art marcial per a nens: com triar segons l'edat i el caràcter"
 intro: "Triar l'art marcial del teu fill confon perquè hi ha moltes opcions i totes s'anuncien com la millor. Comparem les tres portes d'entrada infantils més habituals, karate, judo i taekwondo, i et donem criteris per edat, caràcter i objectiu. A Catalunya consten {{infantil}} centres la font pública dels quals anuncia classes per a infants, així que l'oferta sol ser més a prop del que sembla."
 tipo: articulo

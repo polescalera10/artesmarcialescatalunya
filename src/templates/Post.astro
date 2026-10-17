@@ -8,7 +8,7 @@ import Migas from '../components/Migas.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { url, fecha, L, type Lang } from '../lib/i18n';
-import { articulos, articulosCa, traduccionCa, type Articulo, type ArticuloCa } from '../lib/blog';
+import { articulos, articulosCa, traduccionCa, relacionados, type Articulo, type ArticuloCa } from '../lib/blog';
 import { SITE, SCHEMA_IDS } from '../lib/site';
 import manifiesto from '../../data/imagenes-generadas.json';
 
@@ -21,8 +21,7 @@ const base = orig.slugAnterior ?? orig.slug;
 const clave = post.imagen ?? orig.imagen ?? (post.tipo === 'articulo' ? `blog-${base}` : base);
 const hero = (manifiesto.img as string[]).includes(clave) ? `/img/${clave}.webp` : null;
 const og = (manifiesto.og as string[]).includes(clave) ? `${SITE.url}/og/${clave}.png` : undefined;
-const mismos = lang === 'ca' ? await articulosCa() : todosEs;
-const otros = mismos.filter(p => p.slug !== post.slug && (lang === 'ca' || p.tipo === post.tipo)).slice(0, 3);
+const otros = await relacionados(post, lang, 6);
 const caSlug = lang === 'es' ? await traduccionCa(post.slug) : post.slug;
 const alternates = caSlug ? { es: url.post(orig.slug), ca: url.post(caSlug, 'ca') } : undefined;
 const pageUrl = `${SITE.url}${url.post(post.slug, lang)}`;
@@ -58,7 +57,7 @@ const schema = {
     {otros.length > 0 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h2 class="text-lg font-bold text-white mb-4">{L(lang, 'Sigue leyendo', 'Continua llegint')}</h2>
-        <ul class="grid md:grid-cols-3 gap-5">
+        <ul class="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
           {otros.map(p => (
             <li class="bg-brand-gray border border-brand-border rounded-xl p-5">
               <a href={url.post(p.slug, lang)} class="font-semibold text-white hover:text-brand-redtext">{p.h1}</a>

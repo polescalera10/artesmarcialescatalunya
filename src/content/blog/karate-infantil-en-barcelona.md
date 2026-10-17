@@ -1,11 +1,11 @@
 ---
-titulo: "Karate infantil en Barcelona: guía para padres"
-descripcion: "Karate infantil en Barcelona: estilos, katas y combate, cinturones y exámenes, qué preguntar al centro y cómo encontrar clases de karate para niños."
-h1: "Karate infantil en Barcelona: estilos, cinturones y qué preguntar antes de apuntarte"
+titulo: "Clases de karate para niños en Barcelona: guía"
+descripcion: "Clases de karate para niños en Barcelona: escuelas y academias, estilos, cinturones y exámenes, y qué preguntar al centro sobre horarios y cuota."
+h1: "Clases de karate para niños en Barcelona: estilos, cinturones y qué preguntar antes de apuntarte"
 intro: "En Barcelona constan {{dm:karate:barcelona}} centros con karate de los {{m:barcelona}} de la ciudad. Tanta oferta tiene trampa: bajo la misma palabra caben estilos y enfoques distintos. Esta guía te ayuda a distinguirlos y a elegir grupo."
 tipo: guia
 fecha: "2026-10-03"
-actualizado: "2026-10-16"
+actualizado: "2026-10-17"
 faq:
   - q: "¿Qué estilo de karate es mejor para un niño?"
     a: "Ninguno es mejor en abstracto. Shotokan, goju-ryu, kyokushin y otros comparten base, pero cambian el ritmo, el tipo de contacto y el peso de la competición. Pregunta qué estilo enseña el centro y cómo se plantea el contacto en el grupo infantil."

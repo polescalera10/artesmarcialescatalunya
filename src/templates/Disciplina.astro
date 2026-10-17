@@ -155,7 +155,7 @@ const schema = {
       </section>
     )}
 
-    <GuiasRelacionadas lang={lang} disciplinas={[disciplina]} />
+    <GuiasRelacionadas lang={lang} disciplinas={[disciplina]} max={6} />
     <ParaCentrosCTA lang={lang} />
     {faq.length > 0 && <FAQ items={faq} title={L(lang, `Preguntas frecuentes sobre ${ndl}`, `Preguntes freqüents sobre ${ndl}`)} />}
   </main>

@@ -109,3 +109,53 @@ function aCatalan(html: string, aCa: Map<string, string>) {
     return `href="/ca/${SEG_CA[primero] ?? primero}${resto2}${resto}"`.replace('/ca/"', '/ca/"');
   });
 }
+
+// --- Relevancia entre artículos y disciplinas ---------------------------------
+// Se deduce del contenido (enlaces a /disciplinas/<d>/ y filtros ?disciplina=<d>) y del slug,
+// para que cada artículo nuevo entre solo en las guías y en «Sigue leyendo».
+
+const RE_DISC = /(?:\/disciplin(?:as|es)\/|[?&]disciplina=)([a-z0-9-]+)/g;
+const ALIAS_DISC: Record<string, string[]> = {
+  'jiu-jitsu-brasileno': ['jiu-jitsu', 'bjj'], 'jiu-jitsu-japones': ['jiu-jitsu'], 'kung-fu': ['kung-fu', 'wing-chun'],
+};
+const PARADA = new Set('para como cual cuales entre sobre ninos nino artes marciales arte marcial mejor empezar'.split(' '));
+
+function disciplinasDe(a: { body?: string; intro: string }): Map<string, number> {
+  const m = new Map<string, number>();
+  for (const x of ((a.body ?? '') + a.intro).matchAll(RE_DISC)) m.set(x[1], (m.get(x[1]) ?? 0) + 1);
+  return m;
+}
+const eslug = (a: Articulo | ArticuloCa) => ('original' in a ? (a as ArticuloCa).original : a.slug);
+
+/** Qué tanto trata un artículo de una disciplina: enlaces a ella y, sobre todo, que esté en el slug. */
+export function relevanciaDisciplina(a: Articulo | ArticuloCa, d: string): number {
+  const tokens = ALIAS_DISC[d] ?? [d];
+  return (disciplinasDe(a).get(d) ?? 0) + (tokens.some(t => eslug(a).includes(t)) ? 10 : 0);
+}
+
+/** Slugs en castellano de los artículos que más tratan de una disciplina (solo los traducidos si lang es ca). */
+export async function guiasDeDisciplina(d: string, lang: 'es' | 'ca', max: number): Promise<string[]> {
+  const pool: (Articulo | ArticuloCa)[] = lang === 'ca' ? await articulosCa() : await articulos();
+  return pool
+    .map(a => ({ a, s: relevanciaDisciplina(a, d) }))
+    .filter(x => x.s >= 3)
+    .sort((x, y) => y.s - x.s || y.a.fecha.localeCompare(x.a.fecha) || x.a.slug.localeCompare(y.a.slug))
+    .slice(0, max)
+    .map(x => eslug(x.a));
+}
+
+const palabras = (s: string) => new Set(s.split('-').filter(w => w.length > 3 && !PARADA.has(w)));
+
+/** Artículos más próximos a uno dado (disciplinas compartidas y palabras del slug); rellena con los más recientes. */
+export async function relacionados(post: Articulo | ArticuloCa, lang: 'es' | 'ca', n: number): Promise<(Articulo | ArticuloCa)[]> {
+  const pool: (Articulo | ArticuloCa)[] = (lang === 'ca' ? await articulosCa() : await articulos()).filter(p => p.slug !== post.slug);
+  const dp = disciplinasDe(post);
+  const wp = palabras(eslug(post));
+  const puntuados = pool.map(p => {
+    let s = 0;
+    for (const [d, c] of disciplinasDe(p)) if (dp.has(d)) s += Math.min(c, dp.get(d)!);
+    for (const w of palabras(eslug(p))) if (wp.has(w)) s += 3;
+    return { p, s };
+  }).sort((x, y) => y.s - x.s || y.p.fecha.localeCompare(x.p.fecha) || x.p.slug.localeCompare(y.p.slug));
+  return puntuados.slice(0, n).map(x => x.p);
+}
