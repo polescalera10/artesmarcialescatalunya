@@ -14,6 +14,7 @@ import glob, json, math, os, re, sys, time, unicodedata, urllib.parse, urllib.re
 
 RAIZ = os.path.join(os.path.dirname(__file__), '..')
 SALIDA = os.path.join(RAIZ, 'data/geo/coordenadas-centros.json')
+MANUALES = os.path.join(RAIZ, 'data/geo/coordenadas-manuales.json')  # correcciones confirmadas a mano; mandan sobre el geocodificador
 URL = 'https://www.cartociudad.es/geocoder/api/geocoder/findJsonp?'
 MAX_KM = 20  # un portal a más de esto del centro del municipio es un error de geocodificación
 
@@ -132,6 +133,10 @@ for i, c in enumerate(centros, 1):
     coords[c['slug']] = [round(p[0], 5), round(p[1], 5)]
     if nuevos % 50 == 0:
         print(f'{i}/{len(centros)}…', flush=True)
+
+if os.path.exists(MANUALES):
+    for slug, m in json.load(open(MANUALES)).items():
+        coords[slug] = [m['lat'], m['lon']]
 
 json.dump(dict(sorted(coords.items())), open(SALIDA, 'w'), ensure_ascii=False, indent=0)
 print(f'{len(coords)} con portal de {len(centros)} con dirección; {len(descartados)} descartados; {len(errores)} errores de red')
