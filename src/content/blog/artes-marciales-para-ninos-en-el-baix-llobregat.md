@@ -1,74 +1,74 @@
 ---
 titulo: "Artes marciales para niños en el Baix Llobregat"
-descripcion: "Artes marciales para niños en Cornellà, Castelldefels, Viladecans y el Baix Llobregat: dónde está la oferta, qué elegir por edad y cómo juzgar el contacto."
+descripcion: "Artes marciales para niños en Cornellà, Castelldefels, Viladecans y el Baix Llobregat: taekwondo, hapkido, centros con varias disciplinas y el contacto."
 h1: "Artes marciales para niños en el Baix Llobregat: de Cornellà a Castelldefels"
-intro: "El Baix Llobregat reúne {{c:baix-llobregat}} centros en el directorio y {{ic:baix-llobregat}} anuncian clases para niños. La particularidad de la comarca es que mucha de esa oferta viene en centros con varias disciplinas de contacto, así que el trabajo del padre no es descubrir qué existe, sino entender qué se enseña de verdad a un niño y con cuánto contacto."
+intro: "El Baix Llobregat reúne {{c:baix-llobregat}} centros en el directorio, y {{ic:baix-llobregat}} llevan la marca de clases para niños, una cifra que se queda corta. Lo que distingue a la comarca es el peso del taekwondo y de su pariente coreano, el hapkido, y la cantidad de centros que dan varias disciplinas a la vez. Para una familia, la pregunta no es qué existe, sino qué se le enseña de verdad a su hijo y con cuánto contacto."
 tipo: guia
 fecha: "2026-10-03"
-actualizado: "2026-10-03"
+actualizado: "2026-10-17"
 faq:
   - q: "¿Hay karate, judo y taekwondo para niños en el Baix Llobregat?"
-    a: "Sí, y el taekwondo es la más extendida de las tres. El judo y el karate constan en menos centros, así que conviene filtrar por disciplina y mirar también los municipios vecinos al tuyo."
-  - q: "¿A qué edad puede un niño empezar kickboxing o jiu-jitsu brasileño?"
-    a: "Depende del club. Lo habitual es que las disciplinas de contacto abran grupo infantil con formato adaptado y que las edades mínimas las fije cada centro. Pregunta la edad, cómo se separan los niveles y qué parte es juego y qué parte técnica."
-  - q: "¿Compensa un centro con muchas disciplinas o uno especializado?"
-    a: "No hay una respuesta única. Un centro multidisciplina da margen para cambiar si el niño no conecta, y uno especializado suele tener un grupo infantil más cuidado. Lo decisivo es el instructor del grupo infantil y cómo gestiona el contacto."
+    a: "Sí. En la comarca constan {{dc:taekwondo:baix-llobregat}} centros con taekwondo, {{dc:karate:baix-llobregat}} con karate y {{dc:judo:baix-llobregat}} con judo. El directorio no dice qué grupo infantil tiene cada uno, así que filtra por disciplina, mira también los municipios vecinos y confírmalo con el centro."
+  - q: "¿Qué es el hapkido y a qué edad se puede empezar?"
+    a: "Es un arte marcial coreano que combina golpes, luxaciones y proyecciones. En la comarca constan {{dc:hapkido:baix-llobregat}} centros con hapkido, muchos de ellos con taekwondo en la misma ficha. La edad mínima la fija cada centro, y no todos tienen grupo infantil de hapkido: pregúntalo antes de ir."
+  - q: "¿Cómo sé qué se enseña en el grupo infantil de un centro con varias disciplinas?"
+    a: "Preguntando. El directorio recoge las disciplinas que anuncia el centro, pero no de cuál es cada grupo. Pide que te digan qué disciplina se da a los niños, de qué edades es el grupo y quién lo lleva."
+  - q: "¿La marca de clases para niños sirve para descartar centros?"
+    a: "No. Solo aparece cuando la fuente pública del centro anuncia clases infantiles, y muchas fichas salen de listados de federaciones o del registro oficial de entidades deportivas, que no lo indican. Úsala como pista a favor y pregunta también a los centros que no la llevan."
   - q: "¿Cómo reconozco un grupo infantil con demasiado contacto?"
-    a: "Si hay combate libre sin control, si no se separan grupos por edad y peso, o si el instructor celebra los golpes fuertes entre niños. En un buen grupo infantil el contacto es controlado, progresivo y con protecciones."
+    a: "Si hay combate libre sin control, si no se separan los grupos por edad, o si el instructor celebra los golpes fuertes entre niños. En un grupo infantil bien llevado el contacto es controlado, progresivo y con protecciones."
 ---
 
-## Una comarca de centros que hacen un poco de todo
+## El taekwondo es la puerta más ancha de la comarca
 
-El Baix Llobregat no es la comarca del karate clásico: consta {{dc:taekwondo:baix-llobregat}} centros con taekwondo, {{dc:kickboxing:baix-llobregat}} con kickboxing y {{dc:defensa-personal:baix-llobregat}} con defensa personal, frente a {{dc:karate:baix-llobregat}} de karate y {{dc:judo:baix-llobregat}} de judo. Muchos de esos centros ofrecen varias disciplinas a la vez, y eso cambia cómo hay que mirarlos.
+En el Baix Llobregat constan {{dc:taekwondo:baix-llobregat}} centros con taekwondo, {{dc:karate:baix-llobregat}} con karate y {{dc:judo:baix-llobregat}} con judo. Pon esas tres cifras al lado de las de toda Cataluña ({{d:taekwondo}}, {{d:karate}} y {{d:judo}}) y compara las proporciones. Para una familia, lo práctico es mirar cuál de las tres tiene más centros cerca de casa, y en bastantes municipios de la comarca será el taekwondo. Para ver todos los centros de una población, mira por ejemplo la [página de taekwondo en Viladecans](/baix-llobregat/viladecans/taekwondo/).
 
-Un ejemplo con números: en Castelldefels constan {{m:castelldefels}} centros y {{im:castelldefels}} anuncian niños; en Viladecans, {{m:viladecans}} y {{im:viladecans}}. La tabla recoge las principales poblaciones.
+Un matiz: el taekwondo tiene circuito de competición por edades, y la [Federació Catalana de Taekwondo](http://www.taekwondocatala.com/) organiza un Campionat de Catalunya Infantil (web consultada en octubre de 2026). Competir es opcional. Si el centro presiona a un niño de seis años para que compita, no es lo que necesita un principiante. Más sobre cómo se organiza la disciplina con niños en [taekwondo para niños](/blog/taekwondo-para-ninos/).
 
-| Municipio | Centros | Anuncian niños | Taekwondo | Kickboxing | Judo |
+## El hapkido, una rareza que aquí se repite
+
+En toda Cataluña constan {{d:hapkido}} centros con hapkido. En el Baix Llobregat, {{dc:hapkido:baix-llobregat}}. Es un arte marcial coreano que mezcla golpes, luxaciones y proyecciones, y la misma Federació Catalana de Taekwondo le dedica un apartado en su web. En el directorio, muchas de las fichas de la comarca con hapkido llevan también taekwondo.
+
+Está repartido por muchos municipios, también pequeños. Pallejà consta con {{m:palleja}} centros y {{dm:hapkido:palleja}} con hapkido; Sant Vicenç dels Horts, con {{dm:hapkido:sant-vicenc-dels-horts}}; Cervelló, con {{dm:hapkido:cervello}}. La [página de hapkido en el Baix Llobregat](/disciplinas/hapkido/baix-llobregat/) los reúne todos.
+
+Para un niño, la pregunta útil no es si el hapkido le conviene más que el taekwondo. Es qué grupo infantil hay en ese centro. Que una ficha anuncie las dos disciplinas no quiere decir que haya grupo de niños de las dos, y la edad mínima para las luxaciones la decide cada club. Pregunta qué se hace con los pequeños y desde qué edad entran en el grupo de hapkido, si es que lo hay.
+
+## Centros que lo dan todo: pregunta qué se enseña al niño
+
+La otra particularidad de la comarca son los centros que anuncian varias disciplinas a la vez: kickboxing, boxeo, defensa personal y jiu-jitsu en la misma ficha. Constan {{dc:kickboxing:baix-llobregat}} centros con kickboxing, {{dc:boxeo:baix-llobregat}} con boxeo y {{dc:defensa-personal:baix-llobregat}} con defensa personal, y un mismo centro puede salir en las tres cifras.
+
+El directorio marca que la fuente pública del centro habla de clases para niños, pero no dice de qué disciplina es el grupo infantil. Un gimnasio que da kickboxing, boxeo y jiu-jitsu y anuncia niños puede tener un grupo de una sola de ellas, o uno de iniciación que las mezcle. Por eso el primer mensaje debe ser concreto: qué disciplina se da exactamente a mi hijo, de qué edades es el grupo y quién lo lleva. Si la respuesta es "hacemos de todo un poco", sigue preguntando antes de decidir. Hay una lista más larga en [cómo elegir centro](/blog/como-elegir-centro-artes-marciales/).
+
+## La marca infantil, ciudad por ciudad
+
+| Municipio | Centros | Marca infantil | Taekwondo | Karate | Judo |
 |---|---|---|---|---|---|
-| Castelldefels | {{m:castelldefels}} | {{im:castelldefels}} | {{dm:taekwondo:castelldefels}} | {{dm:kickboxing:castelldefels}} | {{dm:judo:castelldefels}} |
-| Viladecans | {{m:viladecans}} | {{im:viladecans}} | {{dm:taekwondo:viladecans}} | {{dm:kickboxing:viladecans}} | {{dm:judo:viladecans}} |
-| Cornellà de Llobregat | {{m:cornella-de-llobregat}} | {{im:cornella-de-llobregat}} | {{dm:taekwondo:cornella-de-llobregat}} | {{dm:kickboxing:cornella-de-llobregat}} | {{dm:judo:cornella-de-llobregat}} |
-| Esplugues de Llobregat | {{m:esplugues-de-llobregat}} | {{im:esplugues-de-llobregat}} | {{dm:taekwondo:esplugues-de-llobregat}} | {{dm:kickboxing:esplugues-de-llobregat}} | {{dm:judo:esplugues-de-llobregat}} |
-| Sant Feliu de Llobregat | {{m:sant-feliu-de-llobregat}} | {{im:sant-feliu-de-llobregat}} | {{dm:taekwondo:sant-feliu-de-llobregat}} | {{dm:kickboxing:sant-feliu-de-llobregat}} | {{dm:judo:sant-feliu-de-llobregat}} |
+| Castelldefels | {{m:castelldefels}} | {{im:castelldefels}} | {{dm:taekwondo:castelldefels}} | {{dm:karate:castelldefels}} | {{dm:judo:castelldefels}} |
+| Esplugues de Llobregat | {{m:esplugues-de-llobregat}} | {{im:esplugues-de-llobregat}} | {{dm:taekwondo:esplugues-de-llobregat}} | {{dm:karate:esplugues-de-llobregat}} | {{dm:judo:esplugues-de-llobregat}} |
+| Viladecans | {{m:viladecans}} | {{im:viladecans}} | {{dm:taekwondo:viladecans}} | {{dm:karate:viladecans}} | {{dm:judo:viladecans}} |
+| Cornellà de Llobregat | {{m:cornella-de-llobregat}} | {{im:cornella-de-llobregat}} | {{dm:taekwondo:cornella-de-llobregat}} | {{dm:karate:cornella-de-llobregat}} | {{dm:judo:cornella-de-llobregat}} |
+| Sant Boi de Llobregat | {{m:sant-boi-de-llobregat}} | {{im:sant-boi-de-llobregat}} | {{dm:taekwondo:sant-boi-de-llobregat}} | {{dm:karate:sant-boi-de-llobregat}} | {{dm:judo:sant-boi-de-llobregat}} |
+| El Prat de Llobregat | {{m:el-prat-de-llobregat}} | {{im:el-prat-de-llobregat}} | {{dm:taekwondo:el-prat-de-llobregat}} | {{dm:karate:el-prat-de-llobregat}} | {{dm:judo:el-prat-de-llobregat}} |
+| Gavà | {{m:gava}} | {{im:gava}} | {{dm:taekwondo:gava}} | {{dm:karate:gava}} | {{dm:judo:gava}} |
 
-## Qué significa que un centro "anuncie niños" aquí
+Compara la columna de la marca entre Esplugues y Sant Boi, y no la leas como la cantidad de grupos infantiles que hay. Depende sobre todo de dónde sale cada ficha. Muchas de la comarca proceden del [Registre d'Entitats Esportives](https://analisi.transparenciacatalunya.cat/d/qrgc-u7pk) de la Generalitat, que da el nombre del club, el municipio y sus modalidades, pero ningún campo sobre edades (consultado en octubre de 2026). Esas fichas salen en el directorio con la etiqueta "Sin verificar" y nunca llevan la marca, tengan o no grupo de niños.
 
-El directorio marca que la fuente pública del centro habla de clases para niños, pero no dice de qué disciplina es el grupo infantil. En una comarca con tanto centro multidisciplina, esa diferencia importa. Un gimnasio que da kickboxing, boxeo y jiu-jitsu y anuncia niños puede tener un grupo infantil de una sola de ellas, o uno de iniciación que las mezcle.
+En toda Cataluña llevan la marca {{infantil}} de los {{centros}} centros. **Es una pista a favor, nunca un motivo para descartar**: muchos centros con grupo infantil no la llevan, y hay que confirmarlo con cada uno.
 
-Por eso la primera llamada o mensaje debe ser concreta: qué disciplina se da exactamente a mi hijo, de qué edades es el grupo y quién lo lleva. Si la respuesta es vaga ("hacemos de todo un poco"), es una señal para seguir mirando, no para descartar sin más. En el [artículo sobre cómo elegir centro](/blog/como-elegir-centro-artes-marciales/) tienes una lista más larga.
+## Golpeo y agarre con niños: el contacto es la pregunta
 
-## Taekwondo como entrada, con un matiz de competición
+Para un niño pequeño, el kickboxing o el jiu-jitsu brasileño ({{dc:jiu-jitsu-brasileno:baix-llobregat}} centros en la comarca) no tienen por qué ser mala idea, pero hay que preguntar por el formato. Un grupo infantil de golpeo bien llevado trabaja con material, técnica y juego, y el combate llega tarde y con control. Cuánto contacto hay, y con qué protecciones, es lo que decide. Si te preocupa la seguridad, lee [si los niños se hacen daño en artes marciales](/blog/se-hacen-dano-los-ninos-artes-marciales/).
 
-El taekwondo es la disciplina con más centros de la comarca y la entrada infantil más fácil de encontrar cerca de casa. Para ver todos los centros de una población concreta, mira por ejemplo la [página de taekwondo en Viladecans](/baix-llobregat/viladecans/taekwondo/).
+El grappling, las MMA y el krav maga tienen su propia federación en Cataluña: la [Federació Catalana de Lluita i Disciplines Associades](https://www.wrestlingcatalunya.cat/), que también agrupa el sambo y el kali (consultada en octubre de 2026). Que un club esté federado no garantiza la calidad del grupo infantil, pero da un marco de formación y competición reconocido, y es fácil de comprobar.
 
-Un matiz: el taekwondo tiene circuito de competición por edades, y la Federació Catalana organiza un [Campionat de Catalunya Infantil](http://www.taekwondocatala.com/) (web consultada en octubre de 2026). Competir es siempre opcional. Si el centro presiona a un niño de seis años para que compita, no es lo que necesita un principiante.
+## Qué preguntar antes de apuntarle
 
-## Kickboxing, boxeo y jiu-jitsu brasileño: el contacto es el tema
+Pide ver una clase real del grupo de tu hijo, no una demostración. Pregunta cuántos niños hay por instructor, si separan por edad y qué contacto se permite, y qué se paga aparte (licencia, exámenes, equipación). Si te piden matrícula y cuota antes de dejar probar, desconfía.
 
-Aquí el volumen de oferta es alto: {{dc:kickboxing:baix-llobregat}} centros de kickboxing, {{dc:boxeo:baix-llobregat}} de boxeo y {{dc:jiu-jitsu-brasileno:baix-llobregat}} de jiu-jitsu brasileño. Para un niño pequeño no tiene por qué ser una mala idea, pero hay que preguntar por el formato: grupos infantiles de golpeo suelen trabajar con material, técnica y juego, no con combate. Cuánto contacto hay, y con qué protecciones, es la pregunta que decide. Si te preocupa la seguridad, lee [si los niños se hacen daño en artes marciales](/blog/se-hacen-dano-los-ninos-artes-marciales/).
-
-Los centros de grappling y MMA suelen estar afiliados a la [Federació Catalana de Lluita i Disciplines Associades](https://www.wrestlingcatalunya.cat/), que agrupa también jiu-jitsu, krav maga y kali (consultada en octubre de 2026). Pertenecer a una federación no garantiza la calidad del grupo infantil, pero sí da un marco de formación y competición reconocido.
-
-## Fuera de las cabeceras: Gavà, el Prat y las poblaciones de un solo centro
-
-La comarca tiene muchos municipios con pocos centros. Gavà consta con {{m:gava}} centros y {{im:gava}} con niños, El Prat de Llobregat con {{m:el-prat-de-llobregat}} y {{im:el-prat-de-llobregat}}, Sant Andreu de la Barca con {{m:sant-andreu-de-la-barca}} y {{im:sant-andreu-de-la-barca}}. En poblaciones así no hay mucho que comparar dentro del municipio, y lo sensato es mirar los dos vecinos más a mano antes de apuntarse al primero.
-
-Aquí es donde el directorio filtrado ahorra más tiempo. Una familia de Gavà que quiera taekwondo y de Castelldefels que quiera judo no necesita recorrer la comarca entera: con comarca y disciplina marcadas, la lista cabe en una pantalla.
-
-## Qué elegir según la edad
-
-**De 4 a 6 años.** Elige el grupo más cercano y la clase más tranquila, y no te dejes impresionar por la etiqueta de contacto. A esta edad lo que se trabaja es coordinación y turnos, venga de donde venga. La comparativa general está en [qué arte marcial es mejor para un niño](/blog/mejor-arte-marcial-para-ninos/).
-
-**De 7 a 10 años.** El taekwondo, el karate o el judo dan una progresión por cinturones fácil de entender para el niño. Si tu hijo pide golpear a un saco, aprovecha: un buen grupo de kickboxing infantil le dará eso con control.
-
-**A partir de 11 años.** Aquí se abre de verdad la oferta de la comarca: kickboxing, boxeo, jiu-jitsu brasileño, MMA, según lo que acepte cada club. Que decida él, y que pruebe antes de pagar. Las edades mínimas las fija cada centro y varían mucho.
-
-## Señales de alarma, adaptadas a esta comarca
-
-Si ves niños de edades muy distintas entrenando juntos, si el instructor anima el combate libre con críos, o si la única prueba que te ofrecen es una demostración en lugar de una clase real, vete. Desconfía también del centro que te pide matrícula, equipación y cuota anual antes de dejar probar. La titulación importa: la Escola Catalana de l'Esport certifica la [formación oficial de técnicos deportivos](https://esport.gencat.cat/ca/arees_dactuacio/formacio/) y tiene una de sus sedes en Esplugues de Llobregat (consultada en octubre de 2026).
+Sobre quien da la clase, la titulación importa. La Escola Catalana de l'Esport certifica la [formación oficial de técnicos deportivos](https://esport.gencat.cat/ca/arees_dactuacio/formacio/) y tiene un centro de formación en la propia comarca, en Esplugues de Llobregat (consultada en octubre de 2026). Preguntar por la formación del instructor del grupo infantil es razonable. El resto del guion está en [qué preguntar en la clase de prueba](/blog/clase-de-prueba-que-preguntar/).
 
 ## Cómo encontrar tu grupo en el directorio
 
-Entra en la [página del Baix Llobregat](/baix-llobregat/) y baja a tu municipio: [Castelldefels](/baix-llobregat/castelldefels/) tiene su propia página, y dentro de ella la de [judo en Castelldefels](/baix-llobregat/castelldefels/judo/), la menos extendida de las tres entradas clásicas, por detrás de karate y taekwondo. Si prefieres empezar por la disciplina, usa [kickboxing en el Baix Llobregat](/disciplinas/kickboxing/baix-llobregat/) o el [directorio filtrado por comarca y taekwondo](/centros/?comarca=baix-llobregat&disciplina=taekwondo).
+Entra en la [página del Baix Llobregat](/baix-llobregat/) y baja a tu municipio: Castelldefels, Cornellà, Sant Boi y el resto de municipios con centros tienen su página. Si prefieres empezar por la disciplina, usa [kickboxing en el Baix Llobregat](/disciplinas/kickboxing/baix-llobregat/) o el [directorio filtrado por comarca y taekwondo](/centros/?comarca=baix-llobregat&disciplina=taekwondo), y cambia taekwondo por la que busques.
 
-Pide clase de prueba en dos o tres centros, y compara no solo la disciplina sino cómo trata el instructor al niño que no sale bien. No recomendamos centros concretos: la oferta con su fuente pública está en el directorio, y la decisión es tuya y de tu hijo.
+En la primera pasada, deja apagado el interruptor "Clases para niños", porque filtra por una marca parcial. Revisa también las fichas sin verificar del final de la lista. Pide clase de prueba en dos o tres centros y compara cómo trata el instructor al niño al que no le sale. Por criterio editorial no recomendamos centros concretos: la oferta con su fuente pública está en el directorio, y la decisión es tuya y de tu hijo.

@@ -1,75 +1,79 @@
 ---
 titulo: "Artes marciales para niños en el Vallès Occidental"
-descripcion: "Artes marciales para niños en Sabadell, Terrassa y el Vallès Occidental: qué hay en cada ciudad, qué elegir por edad y qué preguntar al centro."
+descripcion: "Artes marciales para niños en Sabadell, Terrassa y el Vallès Occidental: qué consta en cada ciudad, cómo leer las fichas y qué preguntar al centro."
 h1: "Artes marciales para niños en el Vallès Occidental: Sabadell, Terrassa y alrededores"
-intro: "En el Vallès Occidental constan {{c:valles-occidental}} centros, y {{ic:valles-occidental}} anuncian clases para niños. Con tanta oferta, la decisión de una familia de Sabadell, Terrassa, Sant Cugat o Rubí no es qué disciplina existe, sino cuál cae a mano a la hora de la salida del colegio y con qué grupo infantil. Esta guía te ayuda a mirar la comarca con ese criterio."
+intro: "En el Vallès Occidental constan {{c:valles-occidental}} centros, y {{ic:valles-occidental}} llevan la marca de clases para niños. Esa segunda cifra se queda muy corta, y en esta comarca hay un motivo concreto: muchas fichas salen de un registro que no dice nada de edades. El problema de una familia de Sabadell o Terrassa no es encontrar centros, sino saber cuáles tienen un grupo para su hijo."
 tipo: guia
 fecha: "2026-10-03"
-actualizado: "2026-10-03"
+actualizado: "2026-10-17"
 faq:
   - q: "¿Qué artes marciales hay para niños en Sabadell y Terrassa?"
-    a: "Las dos ciudades tienen karate, taekwondo y kickboxing, además de boxeo, MMA y defensa personal. El judo es más escaso en la comarca, así que si lo buscas conviene filtrar por disciplina y mirar también los municipios vecinos."
-  - q: "¿Compensa cruzar de ciudad para encontrar un grupo infantil mejor?"
-    a: "Solo si el trayecto es asumible cada semana, porque el abandono infantil suele venir de la logística y no de la disciplina. Compara primero lo que tienes en tu municipio y en los dos o tres siguientes por el mismo recorrido de casa o del colegio."
-  - q: "¿Cómo sé si un centro que anuncia niños tiene un grupo infantil de la disciplina que busco?"
-    a: "El directorio marca que el centro anuncia clases para niños, pero no dice de qué disciplina es cada grupo. Pregúntalo directamente: qué disciplina se da a los niños, por edades y con qué instructor."
-  - q: "¿Qué edad mínima piden los grupos infantiles?"
-    a: "Depende de cada centro y de la disciplina. Lo habitual en karate, judo y taekwondo es empezar hacia los 4 o 5 años; en las de contacto suele ser más tarde. Pregunta la edad mínima y cómo separan los grupos."
+    a: "En Sabadell constan {{dm:taekwondo:sabadell}} centros con taekwondo, {{dm:karate:sabadell}} con karate y {{dm:judo:sabadell}} con judo; en Terrassa, {{dm:taekwondo:terrassa}}, {{dm:karate:terrassa}} y {{dm:judo:terrassa}}. Hay más disciplinas en las páginas de cada municipio. El directorio no dice qué grupo infantil tiene cada centro, así que eso se pregunta."
+  - q: "¿Qué significa que una ficha diga Sin verificar?"
+    a: "Que el club consta en el Registre d'Entitats Esportives de la Generalitat con esas modalidades, pero no hemos podido confirmar con otra fuente que siga dando clases. Ese registro no recoge edades, así que esas fichas nunca llevan la marca de clases para niños. Pregunta antes de ir."
+  - q: "¿La marca de clases para niños sirve para descartar centros?"
+    a: "No. Solo aparece cuando la fuente pública del centro anuncia clases infantiles, y muchas fichas proceden de listados de federaciones o del registro oficial, que no lo indican. Es una pista a favor, y conviene preguntar también a los centros que no la llevan."
+  - q: "¿Compensa cruzar de municipio para encontrar un grupo infantil mejor?"
+    a: "Solo si el trayecto es asumible cada semana durante todo el curso. En el tramo entre Sabadell y Barcelona los municipios están muy pegados, y mirar el de al lado suele costar poco. Compara antes lo que tienes en tu municipio y en los vecinos por el mismo recorrido de casa o del colegio."
 ---
 
-## Una comarca con dos ciudades grandes y un anillo que cuenta
+## Sabadell y Terrassa pesan lo mismo, pero no ofrecen lo mismo
 
-Terrassa suma {{m:terrassa}} centros, de los que {{im:terrassa}} anuncian clases para niños. Sabadell llega a {{m:sabadell}}, con {{im:sabadell}} que lo anuncian. Compara los dos números dentro de cada ciudad: tener muchos centros no significa tener muchos grupos infantiles, y la proporción es lo que decide cuánto puedes comparar de verdad.
+La comarca tiene dos capitales, y las dos tienen un peso parecido en el directorio. Terrassa suma {{m:terrassa}} centros y Sabadell {{m:sabadell}}. Con tanto donde elegir, la tentación es pensar que da igual en cuál vivas. No da igual, porque el reparto por disciplinas cambia.
 
-Alrededor hay un anillo útil. Para una familia de Barberà, Ripollet o Castellar, estas poblaciones suelen ser la alternativa cuando en casa no hay grupo infantil de lo que buscan:
+En Sabadell constan {{dm:taekwondo:sabadell}} centros con taekwondo y {{dm:karate:sabadell}} con karate. En Terrassa, {{dm:taekwondo:terrassa}} con taekwondo, {{dm:karate:terrassa}} con karate y {{dm:judo:terrassa}} con judo, frente a {{dm:judo:sabadell}} en Sabadell. Pon las filas de las dos ciudades una al lado de la otra antes de decidir, sobre todo si tu hijo ya tiene claro qué quiere: la [página de taekwondo en Sabadell](/valles-occidental/sabadell/taekwondo/) y la de [judo en Terrassa](/valles-occidental/terrassa/judo/) los listan todos.
 
-| Municipio | Centros | Anuncian niños | Karate | Taekwondo |
-|---|---|---|---|---|
-| Sant Cugat del Vallès | {{m:sant-cugat-del-valles}} | {{im:sant-cugat-del-valles}} | {{dm:karate:sant-cugat-del-valles}} | {{dm:taekwondo:sant-cugat-del-valles}} |
-| Rubí | {{m:rubi}} | {{im:rubi}} | {{dm:karate:rubi}} | {{dm:taekwondo:rubi}} |
-| Cerdanyola del Vallès | {{m:cerdanyola-del-valles}} | {{im:cerdanyola-del-valles}} | {{dm:karate:cerdanyola-del-valles}} | {{dm:taekwondo:cerdanyola-del-valles}} |
-| Ripollet | {{m:ripollet}} | {{im:ripollet}} | {{dm:karate:ripollet}} | {{dm:taekwondo:ripollet}} |
+En el conjunto de la comarca constan {{dc:karate:valles-occidental}} centros con karate, {{dc:taekwondo:valles-occidental}} con taekwondo y {{dc:judo:valles-occidental}} con judo. Un mismo centro puede salir en varias cifras. Con un niño pequeño, cualquiera de las tres es una entrada habitual, y la que esté a mano a la salida del colegio suele ganar. Y conviene ponerla en su sitio: la OMS publica [recomendaciones de actividad física](https://www.who.int/news-room/fact-sheets/detail/physical-activity) para niños a partir de los 5 años (consultadas en octubre de 2026), y una o dos clases por semana son una parte de esa actividad, no el total.
 
-Mira la tabla con ojo crítico: un municipio con muchos centros y una sola fila de niños te deja sin margen para comparar, y entonces pesa más mirar al vecino que quedarte con la única opción.
+## Muchas fichas salen del registro, y eso cambia cómo leerlas
 
-## Karate y taekwondo como puerta de entrada, y el judo que cuesta más
+En el Vallès Occidental, una parte grande de las fichas procede del [Registre d'Entitats Esportives](https://analisi.transparenciacatalunya.cat/d/qrgc-u7pk), el registro de la Generalitat en su portal de datos abiertos. Da el nombre del club, el municipio y las modalidades que declara, pero ningún campo sobre edades (consultado en octubre de 2026). En el directorio, esas fichas salen después de las demás y con la etiqueta "Sin verificar": el club consta, pero no hemos podido confirmar con otra fuente que siga dando clases.
 
-En el Vallès Occidental constan {{dc:karate:valles-occidental}} centros de karate y {{dc:taekwondo:valles-occidental}} de taekwondo, las dos entradas infantiles más rodadas. El judo baja a {{dc:judo:valles-occidental}}. Si tu hijo encaja con el judo (contacto, caídas, lucha con reglas), cuenta con que habrá menos donde elegir y que probablemente tendrás que mirar más allá de tu barrio. Merece la pena el esfuerzo: la Federació Catalana de Judo recoge que la UNESCO lo considera un deporte formativo inicial para [niños y jóvenes de 4 a 21 años](https://fedecatjudo.cat/judo/?locale=es) (página consultada en octubre de 2026).
+La consecuencia práctica es doble. Una ficha del registro nunca va a llevar la marca de clases para niños, tenga o no grupo infantil. Y antes de preguntar por el grupo, hay que preguntar si el club sigue activo. En toda Cataluña llevan la marca {{infantil}} de los {{centros}} centros, y **es una pista a favor, nunca un motivo para descartar**: muchos centros con grupo infantil no la llevan, y hay que confirmarlo con cada uno.
 
-En Sabadell hay {{dm:taekwondo:sabadell}} centros con taekwondo y {{dm:karate:sabadell}} con karate, así que ahí sí puedes comparar. En Terrassa el karate cuenta {{dm:karate:terrassa}}, el taekwondo {{dm:taekwondo:terrassa}} y el judo {{dm:judo:terrassa}}: es de las pocas ciudades de la comarca donde las tres constan a la vez con más de un centro.
+## El judo tiene aquí sus propios focos
 
-## Lo que distingue a Terrassa: kickboxing y defensa personal
+El judo no se reparte igual que el karate o el taekwondo, y en esta comarca se nota en sitios que no son las capitales. En Sant Cugat del Vallès constan {{m:sant-cugat-del-valles}} centros, {{dm:judo:sant-cugat-del-valles}} de ellos con judo, frente a {{dm:karate:sant-cugat-del-valles}} con karate y {{dm:taekwondo:sant-cugat-del-valles}} con taekwondo. Badia del Vallès, un municipio pequeño, consta con {{m:badia-del-valles}} centros: {{dm:judo:badia-del-valles}} con judo y {{dm:karate:badia-del-valles}} con karate.
 
-Terrassa tiene {{dm:kickboxing:terrassa}} centros con kickboxing y {{dm:defensa-personal:terrassa}} con defensa personal, y esta última aparece en muchos de los que anuncian niños. Ojo con la lectura: que un centro anuncie niños y ofrezca kickboxing no demuestra que el grupo infantil sea de kickboxing. Puede ser un grupo de iniciación genérico, uno de karate o uno que mezcle edades.
+Si tu hijo encaja con lo que propone el judo (caídas, agarre, lucha con reglas), la [página de judo en el Vallès Occidental](/disciplinas/judo/valles-occidental/) te da la lista entera de la comarca, y la Federació Catalana de Judo publica sus [listados de clubes por disciplina](https://fedecatjudo.cat/altres/on-practicar/) para contrastar (consultados en octubre de 2026). Si dudas entre judo y karate, la comparativa está en [karate o judo para niños](/blog/karate-o-judo-para-ninos/).
 
-Por eso la pregunta que debes hacer siempre es qué se le enseña exactamente a un niño de tu edad y en qué grupo. Para un niño de seis o siete años, un grupo de "defensa personal" sin más descripción es una etiqueta, no un programa.
+## El tramo entre Sabadell y Barcelona: municipios pegados
 
-## Los municipios pequeños: centros sí, grupo infantil no siempre
+Entre Sabadell y el límite con Barcelona hay una cadena de municipios casi sin espacio entre ellos. Para una familia de esa franja, el centro del pueblo de al lado puede quedar más cerca que uno del propio municipio:
 
-La comarca reparte sus centros en muchos municipios, y en varios de los pequeños el directorio recoge uno o dos centros que quizá no anuncian niños. Fíjate en poblaciones como Castellbisbal, Sentmenat o Palau-solità i Plegamans, donde conviene mirar el número antes de hacerse ilusiones: en Castellbisbal constan {{m:castellbisbal}} centros y {{im:castellbisbal}} con niños, y en Sentmenat {{m:sentmenat}} y {{im:sentmenat}}.
+| Municipio | Centros | Marca infantil | Karate | Taekwondo | Judo |
+|---|---|---|---|---|---|
+| Cerdanyola del Vallès | {{m:cerdanyola-del-valles}} | {{im:cerdanyola-del-valles}} | {{dm:karate:cerdanyola-del-valles}} | {{dm:taekwondo:cerdanyola-del-valles}} | {{dm:judo:cerdanyola-del-valles}} |
+| Ripollet | {{m:ripollet}} | {{im:ripollet}} | {{dm:karate:ripollet}} | {{dm:taekwondo:ripollet}} | {{dm:judo:ripollet}} |
+| Barberà del Vallès | {{m:barbera-del-valles}} | {{im:barbera-del-valles}} | {{dm:karate:barbera-del-valles}} | {{dm:taekwondo:barbera-del-valles}} | {{dm:judo:barbera-del-valles}} |
+| Badia del Vallès | {{m:badia-del-valles}} | {{im:badia-del-valles}} | {{dm:karate:badia-del-valles}} | {{dm:taekwondo:badia-del-valles}} | {{dm:judo:badia-del-valles}} |
+| Montcada i Reixac | {{m:montcada-i-reixac}} | {{im:montcada-i-reixac}} | {{dm:karate:montcada-i-reixac}} | {{dm:taekwondo:montcada-i-reixac}} | {{dm:judo:montcada-i-reixac}} |
+| Santa Perpètua de Mogoda | {{m:santa-perpetua-de-mogoda}} | {{im:santa-perpetua-de-mogoda}} | {{dm:karate:santa-perpetua-de-mogoda}} | {{dm:taekwondo:santa-perpetua-de-mogoda}} | {{dm:judo:santa-perpetua-de-mogoda}} |
 
-Que la fuente no anuncie niños tampoco significa que el centro los rechace. Puede que el dato no esté publicado. Escribe o llama y pregunta, sin dar por hecho ni el sí ni el no. Si la respuesta es que no, el siguiente municipio de la tabla de arriba suele estar a un trayecto razonable de coche o tren, aunque la distancia concreta depende de dónde vivas.
+Mira la columna de la marca infantil sabiendo lo que significa: muchas casillas bajas no quieren decir que no haya grupos, sino que la fuente no lo publica. Lo que sí enseña la tabla es qué disciplina tienes a un trayecto corto. No des por hecho distancias ni horarios; el niño que a la salida del colegio tiene que cruzar de municipio en coche no llega a la misma hora que el que va andando.
 
-## Qué elegir según la edad en esta comarca
+## Defensa personal para niños: una etiqueta que hay que abrir
 
-**De 4 a 6 años.** Elige por cercanía y por el grupo, no por la disciplina. A esta edad todos hacen más o menos lo mismo: psicomotricidad, turnos, normas. La [Organización Mundial de la Salud](https://www.who.int/news-room/fact-sheets/detail/physical-activity) publica recomendaciones de actividad física para niños desde los 5 años (página consultada en octubre de 2026). Nuestro criterio: a esta edad, una clase semanal es un buen punto de partida, no un sustituto del juego en la calle. Las dos ciudades y el anillo dan margen para escoger el que menos tiempo de trayecto te cueste, y un trayecto largo cada semana suele pesar más de lo que parece en septiembre.
+Terrassa consta con {{dm:defensa-personal:terrassa}} centros con defensa personal y {{dm:kickboxing:terrassa}} con kickboxing, y la defensa personal aparece también en algunas fichas que anuncian niños. Ojo con la lectura. Que un centro anuncie niños y ofrezca defensa personal o kickboxing no demuestra que el grupo infantil sea de eso. Puede ser un grupo de iniciación genérico, uno de karate o uno que mezcle edades.
 
-**De 7 a 10 años.** Ya compensa elegir por carácter. Si dudas entre las tres grandes, tienes la comparativa de [karate o judo](/blog/karate-o-judo-para-ninos/). En Sabadell, la [página de taekwondo](/valles-occidental/sabadell/taekwondo/) te deja ver todos los centros con esa disciplina de un vistazo.
+Para un niño de seis o siete años, "defensa personal" sin más descripción es una etiqueta, no un programa. Pregunta qué se hace en una sesión normal, con qué contacto y para qué edades. Hay más sobre qué esperar en la guía de [defensa personal para niños](/blog/defensa-personal-para-ninos/).
 
-**A partir de 11 años.** Se abre el kickboxing, el boxeo y el jiu-jitsu brasileño en los centros que aceptan menores. Que el chico elija pesa mucho, y la edad mínima la pone cada club. Más detalle en [a qué edad empezar artes marciales](/blog/a-que-edad-empezar-artes-marciales/).
+## Hapkido y capoeira, lo que no esperas encontrar
 
-## Qué preguntar antes de apuntar a tu hijo
+La comarca tiene también disciplinas que en muchas otras no aparecen. Constan {{dc:hapkido:valles-occidental}} centros con hapkido, un arte marcial coreano que mezcla golpes, luxaciones y proyecciones (la [Federació Catalana de Taekwondo](http://www.taekwondocatala.com/) le dedica un apartado de su web), y {{dc:capoeira:valles-occidental}} con capoeira, de origen brasileño. En Rubí, por ejemplo, hay {{dm:hapkido:rubi}} con hapkido entre sus {{m:rubi}} centros. Badia del Vallès, otra vez, suma {{dm:capoeira:badia-del-valles}} con capoeira.
 
-Cuatro preguntas que no cuestan nada y filtran mucho. Primera: ¿puedo ver o probar una clase del grupo de mi hijo, no una demostración? Segunda: ¿los grupos se separan por edad de verdad, o los de 6 y 11 entrenan juntos? Tercera: ¿cuánto contacto hay y con qué protecciones? Cuarta: ¿qué cuesta todo, matrícula y equipación incluidas, y qué pasa si se da de baja a mitad de trimestre?
+Son opciones para el niño que ya probó lo clásico y quiere otra cosa. Con ellas, la edad mínima va antes que cualquier otra pregunta: unos centros tienen grupo infantil y otros solo adultos, y la ficha no siempre lo dice.
 
-Sobre quien da la clase: la Generalitat mantiene [formación oficial de técnico deportivo](https://esport.gencat.cat/ca/arees_dactuacio/formacio/karate) en karate, con tres niveles, así que preguntar por la titulación y la experiencia con niños es razonable (información consultada en octubre de 2026). Hay más preguntas útiles en [qué preguntar en la clase de prueba](/blog/clase-de-prueba-que-preguntar/). Las respuestas deben darse sin evasivas y por escrito si hay dinero de por medio.
+## Qué preguntar cuando hay tanto donde elegir
 
-## Señales para irse
+Con esta oferta, la tentación es apuntarse al primero que contesta. Antes, cuatro preguntas. ¿Puedo ver o probar una clase del grupo de mi hijo, no una demostración? ¿Los grupos se separan por edad, o los de 6 y los de 11 entrenan juntos? ¿Cuánto contacto hay y con qué protecciones? ¿Qué se paga aparte (licencia, exámenes, equipación) y qué pasa si se da de baja a mitad de curso? Lo que tenga que ver con dinero, por escrito.
 
-Si en la clase de prueba el instructor jalea que los niños se peguen fuerte, si no hay nadie que corrija con calma cuando algo sale mal, o si te presionan para pagar el trimestre ese mismo día, ese no es tu centro. Tampoco lo es uno donde el niño espera media clase sin hacer nada porque el grupo es enorme. En la comarca hay donde comparar y no hace falta aguantar un mal grupo.
+Sobre quien da la clase: la Generalitat describe la [formación oficial de técnico deportivo en karate](https://esport.gencat.cat/ca/arees_dactuacio/formacio/karate), por niveles, y para acceder pide además el primer dan acreditado por la federación española (consultada en octubre de 2026). Preguntar por la titulación y por la experiencia con niños es razonable. Para contrastar si un club está federado, la Federació Catalana de Karate tiene un [buscador de clubes por población](https://fckarate.cat/clubs/) (consultado en octubre de 2026). El resto del guion de la visita está en [qué preguntar en la clase de prueba](/blog/clase-de-prueba-que-preguntar/).
 
-## Cómo usar el directorio para decidir
+Si en la prueba el instructor jalea que los niños se peguen fuerte, o te presionan para pagar el trimestre ese mismo día, descarta. En esta comarca hay donde comparar.
 
-Empieza en la [página del Vallès Occidental](/valles-occidental/), que lista todos los centros, y baja a la de tu ciudad: [Terrassa](/valles-occidental/terrassa/) y Sabadell tienen su página, igual que el resto de municipios con centros. Si buscas judo, que es el más escaso, entra en [judo en el Vallès Occidental](/disciplinas/judo/valles-occidental/) o en [judo en Terrassa](/valles-occidental/terrassa/judo/).
+## Cómo moverte por el directorio en esta comarca
 
-Para cruzar disciplina y comarca a tu medida, usa el [directorio filtrado por comarca y disciplina](/centros/?comarca=valles-occidental&disciplina=karate) y cambia la disciplina o añade municipio. Como contraste, las federaciones publican su propio listado de clubes, por ejemplo la [Federació Catalana de Karate](https://fckarate.cat/) (web consultada en octubre de 2026). Después pide clase de prueba en dos o tres y deja que decida tu hijo. Por criterio editorial no recomendamos centros concretos: la oferta real, con su fuente pública, está en el directorio.
+Empieza en la [página del Vallès Occidental](/valles-occidental/) y baja a tu municipio: [Terrassa](/valles-occidental/terrassa/), Sabadell y el resto de municipios con centros tienen su página. Para cruzar disciplina y comarca, usa el [directorio filtrado por comarca y karate](/centros/?comarca=valles-occidental&disciplina=karate) y cambia karate por la disciplina que busques.
+
+En la primera pasada, deja apagado el interruptor "Clases para niños": filtra por la marca parcial y te esconde centros que quizá sí tienen grupo. Revisa también las fichas sin verificar del final de la lista, que pueden ser clubs activos. Después pide clase de prueba en dos o tres y deja que decida tu hijo. Por criterio editorial no recomendamos centros concretos: cada ficha lleva su fuente pública y su fecha de verificación.
