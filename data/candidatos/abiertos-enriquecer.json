@@ -1,0 +1,2030 @@
+[
+ {
+  "slug": "club-taekwondo-aines",
+  "nombre": "Club Taekwondo Aines",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "la-senia",
+  "web": null,
+  "direccion": "Plaça Montsia, 1 La Sénia",
+  "redes": [
+   "https://www.facebook.com/486466691371669"
+  ]
+ },
+ {
+  "slug": "club-de-defensa-personal-dertosa",
+  "nombre": "Club de Defensa Personal Dertosa",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "tortosa",
+  "web": "https://pagina-de-venta-sala-vip.grwebsite.eu/",
+  "direccion": "Av. de l'Estadi, s/n",
+  "redes": [
+   "https://www.facebook.com/1492137517772092"
+  ]
+ },
+ {
+  "slug": "brazilian-jiu-jitsu-lleida",
+  "nombre": "Brazilian Jiu-Jitsu Lleida",
+  "fuenteTipo": "web-oficial",
+  "municipio": "lleida",
+  "web": null,
+  "direccion": "Carrer Palauet, 58",
+  "redes": [
+   "https://www.facebook.com/238882456318063"
+  ]
+ },
+ {
+  "slug": "dojo-umiten",
+  "nombre": "Dojo Umiten",
+  "fuenteTipo": "federacion",
+  "municipio": "lleida",
+  "web": "https://dojoumiten.cat/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/890396020996920"
+  ]
+ },
+ {
+  "slug": "club-aikido-lleida",
+  "nombre": "Club Aikido Lleida",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "lleida",
+  "web": null,
+  "direccion": "Avinguda de l'Alcalde Rovira Roure, 87",
+  "redes": [
+   "https://www.facebook.com/253354054700827"
+  ]
+ },
+ {
+  "slug": "club-boxa-la-roca",
+  "nombre": "Club Boxa la Roca",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "mont-roig-del-camp",
+  "web": null,
+  "direccion": "Carrer d'Aureli Escarré, 3",
+  "redes": [
+   "https://www.facebook.com/646362202233035"
+  ]
+ },
+ {
+  "slug": "taekwondo-sundo-cambrils",
+  "nombre": "Taekwondo Sundo Cambrils",
+  "fuenteTipo": "federacion",
+  "municipio": "cambrils",
+  "web": "http://www.taekwondocambrils.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/130833734262323"
+  ]
+ },
+ {
+  "slug": "club-boxa-la-rapita",
+  "nombre": "Club Boxa la Ràpita",
+  "fuenteTipo": "federacion",
+  "municipio": "la-rapita",
+  "web": null,
+  "direccion": "Carrer de la Vista Alegre, n° 30, Bajo",
+  "redes": [
+   "https://www.facebook.com/226931204390140"
+  ]
+ },
+ {
+  "slug": "damian",
+  "nombre": "Damian",
+  "fuenteTipo": "federacion",
+  "municipio": "reus",
+  "web": "http://www.taekwondodamian.es/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/64814017683"
+  ]
+ },
+ {
+  "slug": "club-chois-cha",
+  "nombre": "Club Chois Cha",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "reus",
+  "web": "http://www.choissport.com/",
+  "direccion": "Carrer de Tetuan, 9",
+  "redes": [
+   "https://www.facebook.com/776405475768475"
+  ]
+ },
+ {
+  "slug": "esportiva-taekwondo-vilaseca",
+  "nombre": "Esportiva Taekwondo Vilaseca",
+  "fuenteTipo": "web-oficial",
+  "municipio": "vila-seca",
+  "web": null,
+  "direccion": "Carrer de les Eres Altes, 4, 6",
+  "redes": [
+   "https://www.facebook.com/654438121402990"
+  ]
+ },
+ {
+  "slug": "karate-club-shuto",
+  "nombre": "Karate Club Shuto",
+  "fuenteTipo": "federacion",
+  "municipio": "tarragona",
+  "web": null,
+  "direccion": "Carrer de Sant Benilde, 6",
+  "redes": [
+   "https://www.facebook.com/219111238146973"
+  ]
+ },
+ {
+  "slug": "esports-clemente",
+  "nombre": "Esports Clemente",
+  "fuenteTipo": "federacion",
+  "municipio": "tarragona",
+  "web": "http://twitter.com/ClubClementeTH",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/540548092730156"
+  ]
+ },
+ {
+  "slug": "cha-tarragona",
+  "nombre": "Cha Tarragona",
+  "fuenteTipo": "federacion",
+  "municipio": "tarragona",
+  "web": "http://www.taekwondocha.es",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/127263980758628"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-wushu-junzimen-tarragona",
+  "nombre": "Associació Esportiva Wushu Junzimen Tarragona",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "tarragona",
+  "web": "http://wushujunzimen.blogspot.com/",
+  "direccion": "Tarragona ESPAÑA.",
+  "redes": [
+   "https://www.facebook.com/587404911301624"
+  ]
+ },
+ {
+  "slug": "tai-hodoki-club-tai-jitsu",
+  "nombre": "Tai Hodoki, Club Tai Jitsu",
+  "fuenteTipo": "federacion",
+  "municipio": "tarragona",
+  "web": "http://m.me/taijitsutarragonabugeikyokai",
+  "direccion": "Carrer Doctor Zamenhoff, 7",
+  "redes": [
+   "https://www.facebook.com/103529974562109",
+   "https://www.facebook.com/1750570631855021"
+  ]
+ },
+ {
+  "slug": "mushin-team",
+  "nombre": "Mushin Team",
+  "fuenteTipo": "federacion",
+  "municipio": "tarragona",
+  "web": null,
+  "direccion": "Avinguda dels Països Catalans, 39-41",
+  "redes": [
+   "https://www.facebook.com/1721019614791914"
+  ]
+ },
+ {
+  "slug": "club-esportiu-vital-sports-valls",
+  "nombre": "Club Esportiu Vital Sports Valls",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "valls",
+  "web": "http://www.vitalsportsvalls.com/",
+  "direccion": "Carrer Artesans, 58",
+  "redes": [
+   "https://www.facebook.com/227916880630447"
+  ]
+ },
+ {
+  "slug": "club-karate-asna",
+  "nombre": "Club Karate Asnà",
+  "fuenteTipo": "federacion",
+  "municipio": "valls",
+  "web": "http://www.karateasna.com/",
+  "direccion": "Passeig de l'Estació, 14",
+  "redes": [
+   "https://www.facebook.com/113352186716580"
+  ]
+ },
+ {
+  "slug": "club-esportiu-gous-valls",
+  "nombre": "Club Esportiu Gous Valls",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "valls",
+  "web": "http://Clubesportiugousvalls.com/",
+  "direccion": "Carrer del Tren, 25",
+  "redes": [
+   "https://www.facebook.com/914469562022828"
+  ]
+ },
+ {
+  "slug": "c-e-karate-yondan-tarraco",
+  "nombre": "C.E. Karate Yondan Tarraco",
+  "fuenteTipo": "federacion",
+  "municipio": "els-pallaresos",
+  "web": null,
+  "direccion": "Carrer Major, 13, Local 2",
+  "redes": [
+   "https://www.facebook.com/1989467481321358"
+  ]
+ },
+ {
+  "slug": "dojo-zanshin",
+  "nombre": "Dojo Zanshin",
+  "fuenteTipo": "federacion",
+  "municipio": "torredembarra",
+  "web": null,
+  "direccion": "Carrer de San Clemente, 2, 6",
+  "redes": [
+   "https://www.facebook.com/396662174060364"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-grulla-i-serp-de-wushu",
+  "nombre": "Associació Esportiva Grulla i Serp de Wushu",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "el-vendrell",
+  "web": "https://webfacil.tinet.cat/wingchunkungfumontblanc",
+  "direccion": "Avinguda del Sanatori, 22",
+  "redes": [
+   "https://www.facebook.com/1054140084721355"
+  ]
+ },
+ {
+  "slug": "dojo-arazola",
+  "nombre": "Dojo Arazola",
+  "fuenteTipo": "federacion",
+  "municipio": "calafell",
+  "web": "http://www.arazolakarate.es/",
+  "direccion": "DOJO ARAZOLA, El Carrer de Manuel Soler, 27",
+  "redes": [
+   "https://www.facebook.com/213531299595"
+  ]
+ },
+ {
+  "slug": "club-arts-marcials-kodojo",
+  "nombre": "Club Arts Marcials Kodojo",
+  "fuenteTipo": "federacion",
+  "municipio": "calafell",
+  "web": "https://kodojoclub.wixsite.com/inicio",
+  "direccion": "Carrer Joan Nin, 5",
+  "redes": [
+   "https://www.facebook.com/577089302397724"
+  ]
+ },
+ {
+  "slug": "club-boxa-swing-segur-2018",
+  "nombre": "Club Boxa Swing Segur 2018",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "calafell",
+  "web": "http://www.swing-Boxing.com/",
+  "direccion": "sótano, Plaça Mediterrani, 6",
+  "redes": [
+   "https://www.facebook.com/329372153934921"
+  ]
+ },
+ {
+  "slug": "taekwondo-my-ju-cunit",
+  "nombre": "Taekwondo My Ju Cunit",
+  "fuenteTipo": "federacion",
+  "municipio": "cunit",
+  "web": "http://taekwondomyjucunit.es/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/157634894325179"
+  ]
+ },
+ {
+  "slug": "club-taekwondo-cubelles",
+  "nombre": "Club Taekwondo Cubelles",
+  "fuenteTipo": "perfil-publico",
+  "municipio": "cubelles",
+  "web": null,
+  "direccion": "Carrer Salvador Espriu, 7",
+  "redes": [
+   "https://www.facebook.com/506835893118922"
+  ]
+ },
+ {
+  "slug": "mugendo-vilanova",
+  "nombre": "Mugendo Vilanova",
+  "fuenteTipo": "web-oficial",
+  "municipio": "vilanova-i-la-geltru",
+  "web": null,
+  "direccion": "Avinguda del Garraf, 28",
+  "redes": [
+   "https://www.facebook.com/259901781125971"
+  ]
+ },
+ {
+  "slug": "zen-garraf",
+  "nombre": "Zen Garraf",
+  "fuenteTipo": "web-oficial",
+  "municipio": "vilanova-i-la-geltru",
+  "web": null,
+  "direccion": "Ronda d'Europa, 74, nave 18",
+  "redes": [
+   "https://www.facebook.com/483594179136669"
+  ]
+ },
+ {
+  "slug": "club-de-lucha-garra",
+  "nombre": "Club de Lucha Garra",
+  "fuenteTipo": "federacion",
+  "municipio": "bellvei",
+  "web": "http://garraescueladelucha.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/698013363559657"
+  ]
+ },
+ {
+  "slug": "la-lira-vendrellenca",
+  "nombre": "La Lira Vendrellenca",
+  "fuenteTipo": "federacion",
+  "municipio": "el-vendrell",
+  "web": "https://www.laguardiaguerreros.com/es/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/215043051692855"
+  ]
+ },
+ {
+  "slug": "la-lira-vendrellenca",
+  "nombre": "La Lira Vendrellenca",
+  "fuenteTipo": "federacion",
+  "municipio": "el-vendrell",
+  "web": "http://www.mugendo.es/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/101654787919635"
+  ]
+ },
+ {
+  "slug": "club-esportiu-muaythai-el-vendrell",
+  "nombre": "Club Esportiu Muaythai el Vendrell",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "el-vendrell",
+  "web": null,
+  "direccion": "local 2, Carrer de la Indústria, 19",
+  "redes": [
+   "https://www.facebook.com/602264886578252"
+  ]
+ },
+ {
+  "slug": "club-esportiu-muaythai-el-vendrell",
+  "nombre": "Club Esportiu Muaythai el Vendrell",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "el-vendrell",
+  "web": null,
+  "direccion": "PL PP-2 LES PEDRERES SUD POLIGONO 5 PARCELA 83",
+  "redes": [
+   "https://www.facebook.com/101589062698839"
+  ]
+ },
+ {
+  "slug": "budokan-penedes",
+  "nombre": "Budokan Penedès",
+  "fuenteTipo": "federacion",
+  "municipio": "vilafranca-del-penedes",
+  "web": "http://www.budokanpenedes.com/",
+  "direccion": "Carrer de Sant Julià, 24",
+  "redes": [
+   "https://www.facebook.com/928833660501656"
+  ]
+ },
+ {
+  "slug": "hiraken-karate-do-gimnas",
+  "nombre": "Hiraken Karate Do, Gimnàs",
+  "fuenteTipo": "federacion",
+  "municipio": "vilafranca-del-penedes",
+  "web": "http://www.shindokai.es/",
+  "direccion": "Carrer de Gelida, 14",
+  "redes": [
+   "https://www.facebook.com/527982390591642"
+  ]
+ },
+ {
+  "slug": "club-esportiu-de-lluita-vilafranca",
+  "nombre": "Club Esportiu de Lluita Vilafranca",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "vilafranca-del-penedes",
+  "web": "http://www.clubdelluitavilafranca.com/",
+  "direccion": "Carrer La Múnia, 30",
+  "redes": [
+   "https://www.facebook.com/296960577413450"
+  ]
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-begues",
+  "nombre": "Club Esportiu Arts Marcials Begues",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "begues",
+  "web": "http://www.systemasvspain.com/",
+  "direccion": "Camí Ral, 16",
+  "redes": [
+   "https://www.facebook.com/1854405311549238"
+  ]
+ },
+ {
+  "slug": "dojo-kintsukuroi",
+  "nombre": "Dojo Kintsukuroi",
+  "fuenteTipo": "federacion",
+  "municipio": "sant-joan-despi",
+  "web": "https://dojokintsukuroi.es/",
+  "direccion": "Riera d'en Nofre, 2A",
+  "redes": []
+ },
+ {
+  "slug": "antarai-training-camp",
+  "nombre": "Antarai Training Camp",
+  "fuenteTipo": "federacion",
+  "municipio": "sant-joan-despi",
+  "web": "http://antarai.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/647197152047640"
+  ]
+ },
+ {
+  "slug": "black-belt-academy-sant-joan-despi",
+  "nombre": "Black Belt Academy Sant Joan Despí",
+  "fuenteTipo": "web-oficial",
+  "municipio": "sant-joan-despi",
+  "web": null,
+  "direccion": "Carrer de Montjuïc, 40, local",
+  "redes": [
+   "https://www.facebook.com/145334732508964"
+  ]
+ },
+ {
+  "slug": "club-boxa-gladius-boxing-health",
+  "nombre": "Club Boxa Gladius Boxing@health",
+  "fuenteTipo": "federacion",
+  "municipio": "esplugues-de-llobregat",
+  "web": "http://www.boxingandhealth.com/",
+  "direccion": "Av. de Cornellà, 135",
+  "redes": [
+   "https://www.facebook.com/1127163804092716"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-hayashi-ha-shito-ryu-kai-catalunya",
+  "nombre": "Associació Esportiva Hayashi Ha Shito Ryu Kai Catalunya",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "cornella-de-llobregat",
+  "web": "https://www.karatehayashiha.com/",
+  "direccion": "Carrer de la Rosa, 12",
+  "redes": [
+   "https://www.facebook.com/1180563758784580"
+  ]
+ },
+ {
+  "slug": "mugendo-cornella",
+  "nombre": "Mugendo Cornellà",
+  "fuenteTipo": "web-oficial",
+  "municipio": "cornella-de-llobregat",
+  "web": null,
+  "direccion": "Carrer de la Costa Brava, 6",
+  "redes": [
+   "https://www.facebook.com/105347014703565"
+  ]
+ },
+ {
+  "slug": "mugendo-sant-boi",
+  "nombre": "Mugendo Sant Boi",
+  "fuenteTipo": "web-oficial",
+  "municipio": "sant-boi-de-llobregat",
+  "web": null,
+  "direccion": "Carrer de Sant Joan Bosco, 33",
+  "redes": [
+   "https://www.facebook.com/133182740037875"
+  ]
+ },
+ {
+  "slug": "club-esportiu-hapkido-musul",
+  "nombre": "Club Esportiu Hapkido Musul",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "sant-boi-de-llobregat",
+  "web": "https://hangukmusool.co.uk/?fbclid=PAZXh0bgNhZW0CMTEAAaZafAIB4Ks2rrZQgeKzH4iYRKBfveZcYJSsnGkdtif14gCAg92q1qV-dDg_aem_AalKnYCMkklwZBMbR3_bSf_yGpBzydNJudgKVxUpdojz-gOmvxprq-2V94Mea9NX8_OMV4FSKvK3awFeOZ_o3EuG",
+  "direccion": "Ronda San Ramon, Avinguda de la Torre de la Vila, 1",
+  "redes": [
+   "https://www.facebook.com/919998074678451"
+  ]
+ },
+ {
+  "slug": "dojo-semper-fidelis",
+  "nombre": "Dojo Semper Fidelis",
+  "fuenteTipo": "federacion",
+  "municipio": "viladecans",
+  "web": null,
+  "direccion": "Pl. de la Constitució, 5",
+  "redes": [
+   "https://www.facebook.com/108338740539160"
+  ]
+ },
+ {
+  "slug": "club-karate-sakura-viladecans",
+  "nombre": "Club Karate Sakura Viladecans",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "viladecans",
+  "web": "http://www.karatesakura.com/",
+  "direccion": "Carrer de Sant Marià, 79",
+  "redes": [
+   "https://www.facebook.com/944921418891116"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-coliseum-boxing-viladecans",
+  "nombre": "Associació Esportiva Coliseum Boxing Viladecans",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "viladecans",
+  "web": "http://coliseumboxing.com/",
+  "direccion": "Pol. Ind. La Post, Carrer de l'Enginy, 1",
+  "redes": [
+   "https://www.facebook.com/816412958524150"
+  ]
+ },
+ {
+  "slug": "mugendo-gava",
+  "nombre": "Mugendo Gavà",
+  "fuenteTipo": "web-oficial",
+  "municipio": "gava",
+  "web": null,
+  "direccion": "Carrer del General Josep Moragues, 8",
+  "redes": [
+   "https://www.facebook.com/481652151992457"
+  ]
+ },
+ {
+  "slug": "martial-arts-castelldefels",
+  "nombre": "Martial Arts Castelldefels",
+  "fuenteTipo": "web-oficial",
+  "municipio": "castelldefels",
+  "web": null,
+  "direccion": "Carrer de Santiago Rusiñol, 11",
+  "redes": [
+   "https://www.facebook.com/113605437055146",
+   "https://www.facebook.com/155234034527809"
+  ]
+ },
+ {
+  "slug": "club-esportiu-joanyinyang-taiji-quan",
+  "nombre": "Club Esportiu Joanyinyang Taiji Quan",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "castelldefels",
+  "web": "http://www.joanyinyang.com/",
+  "direccion": "Passeig Marítim, 5",
+  "redes": [
+   "https://www.facebook.com/211568719005151"
+  ]
+ },
+ {
+  "slug": "boxa-club-terrassa",
+  "nombre": "Boxa Club Terrassa",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "terrassa",
+  "web": "https://www.boxingclubterrassa.es/",
+  "direccion": "Avinguda de Joaquim de Sagrera, 15",
+  "redes": [
+   "https://www.facebook.com/834082713366547"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-makoto-sabadell",
+  "nombre": "Associació Esportiva Makoto Sabadell",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "sabadell",
+  "web": null,
+  "direccion": "Carrer de Gustavo Adolfo Bécquer, 2",
+  "redes": [
+   "https://www.facebook.com/108135967676944"
+  ]
+ },
+ {
+  "slug": "balmes-rubi",
+  "nombre": "Balmes Rubi",
+  "fuenteTipo": "federacion",
+  "municipio": "rubi",
+  "web": "https://twitter.com/TaekwondoBalmes",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/1423386044547407"
+  ]
+ },
+ {
+  "slug": "judo-castellbisbal",
+  "nombre": "Judo Castellbisbal",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "castellbisbal",
+  "web": "http://www.kaseha.es/",
+  "direccion": "Carrer del Migdia, 2",
+  "redes": [
+   "https://www.facebook.com/158727457505025"
+  ]
+ },
+ {
+  "slug": "club-karate-sant-cugat",
+  "nombre": "Club Karate Sant Cugat",
+  "fuenteTipo": "federacion",
+  "municipio": "sant-cugat-del-valles",
+  "web": null,
+  "direccion": "Sala D'arts Marcials. Psje. Baró de Coubertin 3, Pav III",
+  "redes": [
+   "https://www.facebook.com/1712126719023368",
+   "https://www.facebook.com/920489441316658"
+  ]
+ },
+ {
+  "slug": "club-karate-kizuna-sant-sadurni",
+  "nombre": "Club Karate Kizuna Sant Sadurní",
+  "fuenteTipo": "federacion",
+  "municipio": "sant-sadurni-danoia",
+  "web": "http://dojokizuna.blogspot.com/",
+  "direccion": "Carrer de Salvador Espriu",
+  "redes": [
+   "https://www.facebook.com/263608783658334"
+  ]
+ },
+ {
+  "slug": "bushido-dojo",
+  "nombre": "Bushido Dojo",
+  "fuenteTipo": "federacion",
+  "municipio": "vallirana",
+  "web": "https://www.bushidodojovallirana.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/307701459084370"
+  ]
+ },
+ {
+  "slug": "club-esportiu-hapkido-tae-kunsul",
+  "nombre": "Club Esportiu Hapkido Tae Kunsul",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "cervello",
+  "web": "https://clubesportiuhapkido.com/",
+  "direccion": "Avinguda Catalunya, 15",
+  "redes": [
+   "https://www.facebook.com/199224836600480"
+  ]
+ },
+ {
+  "slug": "club-kiritsu-de-karate",
+  "nombre": "Club Kiritsu de Karate",
+  "fuenteTipo": "federacion",
+  "municipio": "cervello",
+  "web": null,
+  "direccion": "Avinguda de Catalunya, 19 - 39",
+  "redes": [
+   "https://www.facebook.com/264644040359393"
+  ]
+ },
+ {
+  "slug": "club-karate-kyokushin-nintai-sant-feliu",
+  "nombre": "Club Karate Kyokushin Nintai Sant Feliu",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "sant-feliu-de-llobregat",
+  "web": "http://www.karatedojonintai.com/",
+  "direccion": "4 bis, Carrer Ventura Gassol, 4",
+  "redes": [
+   "https://www.facebook.com/186945858170192"
+  ]
+ },
+ {
+  "slug": "mugendo-sant-just-desvern",
+  "nombre": "Mugendo Sant Just Desvern",
+  "fuenteTipo": "web-oficial",
+  "municipio": "sant-just-desvern",
+  "web": null,
+  "direccion": "Carrer de la Creu, 114",
+  "redes": [
+   "https://www.facebook.com/110755481523993"
+  ]
+ },
+ {
+  "slug": "mugendo-esplugues",
+  "nombre": "Mugendo Esplugues",
+  "fuenteTipo": "web-oficial",
+  "municipio": "esplugues-de-llobregat",
+  "web": null,
+  "direccion": "Carrer de Josep Miquel Quintana, 50",
+  "redes": [
+   "https://www.facebook.com/827071650689603"
+  ]
+ },
+ {
+  "slug": "kihon-club",
+  "nombre": "Kihon, Club",
+  "fuenteTipo": "federacion",
+  "municipio": "lhospitalet-de-llobregat",
+  "web": "http://www.aikidobarcelona.com/",
+  "direccion": "Carrer de Sant Rafael, 2",
+  "redes": [
+   "https://www.facebook.com/229174110463257"
+  ]
+ },
+ {
+  "slug": "club-deportivo-talma-lhospitalet",
+  "nombre": "Club Deportivo Talma l'Hospitalet",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "lhospitalet-de-llobregat",
+  "web": null,
+  "direccion": "Carrer de Joan Pallarès, 31, Loc",
+  "redes": [
+   "https://www.facebook.com/427309377327315"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-de-jiu-jitsu-i-mma-mediterranea",
+  "nombre": "Associació Esportiva de Jiu Jitsu i MMA Mediterranea",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "lhospitalet-de-llobregat",
+  "web": null,
+  "direccion": "Carrer d'Almadén, 3",
+  "redes": [
+   "https://www.facebook.com/130114397845285"
+  ]
+ },
+ {
+  "slug": "brave-martial-arts",
+  "nombre": "Brave Martial Arts",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://www.warriorsmartialarts.com/",
+  "direccion": "Carrer del Doctor Martí Julià, 58",
+  "redes": [
+   "https://www.facebook.com/373222949749739"
+  ]
+ },
+ {
+  "slug": "brave-martial-arts",
+  "nombre": "Brave Martial Arts",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://templemartial.com/",
+  "direccion": "Avinguda de Madrid, 138",
+  "redes": [
+   "https://www.facebook.com/1878325719099998"
+  ]
+ },
+ {
+  "slug": "sob-seng-won",
+  "nombre": "Sob Seng Won",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.wonsbarcelona.es/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/1403387189955160"
+  ]
+ },
+ {
+  "slug": "shorinji-kan-jiu-jitsu-barcelona",
+  "nombre": "Shorinji-Kan International Jiu Jitsu Barcelona",
+  "fuenteTipo": "web-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer Numància, 20",
+  "redes": [
+   "https://www.facebook.com/102664259176621",
+   "https://www.facebook.com/109601268276799",
+   "https://www.facebook.com/2043533732385073"
+  ]
+ },
+ {
+  "slug": "club-esportiu-zen-tao",
+  "nombre": "Club Esportiu Zen Tao",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.wudang-tao.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/537506579660783"
+  ]
+ },
+ {
+  "slug": "club-esportiu-darts-marcials-dao-kwon",
+  "nombre": "Club Esportiu d'Arts Marcials Dao Kwon",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "https://m.youtube.com/#/playlist?list=UUVCvjTEGAZ3aRYQmtjH0U0Q",
+  "direccion": "Carrer del Moianès, 12",
+  "redes": [
+   "https://www.facebook.com/590182584456039"
+  ]
+ },
+ {
+  "slug": "club-esportiu-quimic-de-sarria",
+  "nombre": "Club Esportiu Quimic de Sarria",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "http://Www.artesmarcialesmac.com/",
+  "direccion": "Av. de Josep Vicenç Foix, 92",
+  "redes": [
+   "https://www.facebook.com/1260954474034955"
+  ]
+ },
+ {
+  "slug": "club-deportivo-artes-marciales-sabadell",
+  "nombre": "Club Deportivo Artes Marciales Sabadell",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "sabadell",
+  "web": "http://loong.cat/",
+  "direccion": "Via Júlia, 9",
+  "redes": [
+   "https://www.facebook.com/161319179753"
+  ]
+ },
+ {
+  "slug": "club-boxa-team-dani-fighters",
+  "nombre": "Club Boxa Team Dani Fighters",
+  "fuenteTipo": "federacion",
+  "municipio": "sabadell",
+  "web": "http://www.instagram.com/team_dani_fighers",
+  "direccion": "Carrer de Jacquard, 31",
+  "redes": [
+   "https://www.facebook.com/594786347055429"
+  ]
+ },
+ {
+  "slug": "club-esportiu-arts-marcials-phoenix",
+  "nombre": "Club Esportiu Arts Marcials Phoenix",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "sabadell",
+  "web": null,
+  "direccion": "12 bis, Carrer d'Esteve Paluzie",
+  "redes": [
+   "https://www.facebook.com/1079288145271485"
+  ]
+ },
+ {
+  "slug": "seul-polinya",
+  "nombre": "Seul Polinya",
+  "fuenteTipo": "federacion",
+  "municipio": "polinya",
+  "web": "http://taekwondoseulpolinya.blogspot.com.es/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/1383123655237631"
+  ]
+ },
+ {
+  "slug": "doil-lee",
+  "nombre": "Doil Lee",
+  "fuenteTipo": "federacion",
+  "municipio": "cerdanyola-del-valles",
+  "web": "http://leeyoungcerdanyola.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/110570834854522"
+  ]
+ },
+ {
+  "slug": "mugendo-bonanova",
+  "nombre": "Mugendo Bonanova",
+  "fuenteTipo": "web-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer de Muntaner, 552",
+  "redes": []
+ },
+ {
+  "slug": "juntai-i",
+  "nombre": "Juntai i",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://tkdqueroljuntai.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/1654893768123858"
+  ]
+ },
+ {
+  "slug": "club-dep-gimnas-kyu",
+  "nombre": "Club Dep. Gimnàs Kyu",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.goldenkyu.com",
+  "direccion": "Ronda del General Mitre, 23",
+  "redes": [
+   "https://www.facebook.com/366333673404970"
+  ]
+ },
+ {
+  "slug": "dojo-taido",
+  "nombre": "Dojo Taido",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.instagram.com/dojo_taido",
+  "direccion": "Carrer del Marquès de Sentmenat, 64",
+  "redes": [
+   "https://www.facebook.com/234011540010433"
+  ]
+ },
+ {
+  "slug": "centro-de-deportes-alfa-5-del-barri-de-la-llacuna",
+  "nombre": "Centro de Deportes Alfa 5 del Barri de la Llacuna",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "http://www.barcelonacef.com/",
+  "direccion": "Carrer de Rocafort, 215, Eixample",
+  "redes": [
+   "https://www.facebook.com/1389296604675788"
+  ]
+ },
+ {
+  "slug": "mugendo-bonanova",
+  "nombre": "Mugendo Bonanova",
+  "fuenteTipo": "web-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer de Villarroel, 235",
+  "redes": []
+ },
+ {
+  "slug": "associacio-kickboxing-muaythai-catalunya",
+  "nombre": "Associació Kickboxing Muaythai Catalunya",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "https://www.muaythaibarcelona.com",
+  "direccion": "Carrer de la Indústria 38",
+  "redes": [
+   "https://www.facebook.com/188211111198075"
+  ]
+ },
+ {
+  "slug": "mugendo-bonanova",
+  "nombre": "Mugendo Bonanova",
+  "fuenteTipo": "web-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer de Brusi, 43",
+  "redes": [
+   "https://www.facebook.com/534759290046263"
+  ]
+ },
+ {
+  "slug": "mugendo-bonanova",
+  "nombre": "Mugendo Bonanova",
+  "fuenteTipo": "web-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer d'Esteve Terradas, 17",
+  "redes": [
+   "https://www.facebook.com/843732449034811"
+  ]
+ },
+ {
+  "slug": "cd-natura",
+  "nombre": "Cd Natura",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "http://www.taijinatural.com/",
+  "direccion": "Carrer de Ballester, 69",
+  "redes": [
+   "https://www.facebook.com/242714622416255"
+  ]
+ },
+ {
+  "slug": "fudoshin-dojo-garcia",
+  "nombre": "Fudoshin Dojo García",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://www.fudoshindojogracia.com/",
+  "direccion": "Carrer del Torrent de l'Olla, 216",
+  "redes": [
+   "https://www.facebook.com/504264529750022"
+  ]
+ },
+ {
+  "slug": "las-cuerdas-del-carmelo",
+  "nombre": "Las Cuerdas del Carmelo",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://lascuerdasdelcarmelo.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/106776258485461"
+  ]
+ },
+ {
+  "slug": "shorinji-kan-jiu-jitsu-barcelona",
+  "nombre": "Shorinji-Kan International Jiu Jitsu Barcelona",
+  "fuenteTipo": "web-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer del Torrent de les Flors, 146",
+  "redes": [
+   "https://www.facebook.com/294262177746147"
+  ]
+ },
+ {
+  "slug": "mugendo-bonanova",
+  "nombre": "Mugendo Bonanova",
+  "fuenteTipo": "web-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "C/ d'Ègara, 111",
+  "redes": [
+   "https://www.facebook.com/106140497499629"
+  ]
+ },
+ {
+  "slug": "club-esportiu-darts-marcials-xavi-nadal",
+  "nombre": "Club Esportiu D'Arts Marcials Xavi Nadal",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://escuelaartesmarcialesxavinadalbarcelona.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/1921818354544941"
+  ]
+ },
+ {
+  "slug": "club-judo-barenys",
+  "nombre": "Club Judo Barenys",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer d'Astúries, 26",
+  "redes": [
+   "https://www.facebook.com/778104715574855"
+  ]
+ },
+ {
+  "slug": "club-dojosan-gervasio",
+  "nombre": "Club Dojosan Gervasio",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "http://www.mugenryu.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/731339990285360"
+  ]
+ },
+ {
+  "slug": "don-gimnas",
+  "nombre": "Don Gimnas",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://dongimnastkd.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/649333581848060"
+  ]
+ },
+ {
+  "slug": "club-boxa-barcelona",
+  "nombre": "Club Boxa Barcelona",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.boxasantgervasi.com/",
+  "direccion": "Carrer de Marià Cubí, 10-22",
+  "redes": [
+   "https://www.facebook.com/178921459120489"
+  ]
+ },
+ {
+  "slug": "brave-martial-arts",
+  "nombre": "Brave Martial Arts",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://mugendo.es/",
+  "direccion": "Carrer de Vic, 22",
+  "redes": []
+ },
+ {
+  "slug": "c-e-wu-shu-siu-lam",
+  "nombre": "C.E. Wu shu Siu Lam",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.institutodewushu.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/177374409139354"
+  ]
+ },
+ {
+  "slug": "hirota-karate-club",
+  "nombre": "Hirota, Karate Club",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.karateclubhirota.com",
+  "direccion": "Carrer d'Aragó, 177",
+  "redes": [
+   "https://www.facebook.com/189214911093673"
+  ]
+ },
+ {
+  "slug": "solsona",
+  "nombre": "Solsona",
+  "fuenteTipo": "federacion",
+  "municipio": "solsona",
+  "web": "https://twitter.com/TKDSolsona",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/679202772094157"
+  ]
+ },
+ {
+  "slug": "a-e-karate-kobudo-tradicional-pirineus",
+  "nombre": "A.E. Karate Kobudo Tradicional Pirineus",
+  "fuenteTipo": "federacion",
+  "municipio": "la-seu-durgell",
+  "web": "http://www.karate-shitoryu.com/",
+  "direccion": "Carrer Regència d'Urgell, 16",
+  "redes": [
+   "https://www.facebook.com/357763881048268"
+  ]
+ },
+ {
+  "slug": "budokan-vilanova-del-cami-tai-jitsu",
+  "nombre": "Budokan Vilanova del Cami, Tai-Jitsu",
+  "fuenteTipo": "federacion",
+  "municipio": "vilanova-del-cami",
+  "web": "http://www.budokan.es/",
+  "direccion": "Carrer del Migdia, 95",
+  "redes": [
+   "https://www.facebook.com/227335574021481"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-darts-marcials-tradicionals-chiisai",
+  "nombre": "Associació Esportiva d'Arts Marcials Tradicionals Chiisai",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "santpedor",
+  "web": null,
+  "direccion": "Carrer del Pic d'Aneto, 22",
+  "redes": [
+   "https://www.facebook.com/395241863907841"
+  ]
+ },
+ {
+  "slug": "taekwondo-viturtia",
+  "nombre": "Taekwondo Viturtia",
+  "fuenteTipo": "federacion",
+  "municipio": "manresa",
+  "web": "https://www.notion.so/Escuela-de-Artes-Marciales-Viturtia-4ef0985b3a6e46889b4a88efdaeac177?pvs=4",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/159741384584348"
+  ]
+ },
+ {
+  "slug": "club-taekwondo-castellet",
+  "nombre": "Club Taekwondo Castellet",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "sant-vicenc-de-castellet",
+  "web": "http://taekwondocastellet.com/",
+  "direccion": "",
+  "redes": [
+   "https://www.facebook.com/1055346781246283"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-de-boxa-jmboxing-jonathan-mario-boxing",
+  "nombre": "Associació Esportiva de Boxa Jmboxing Jonathan Mario Boxing",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "terrassa",
+  "web": "https://www.youtube.com/channel/UCfuafb1bmYDCsBSZ_z9aXeA",
+  "direccion": "Ctra. de Rellinars, 169",
+  "redes": [
+   "https://www.facebook.com/1437276799818595"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-de-kungfu-sibpalki",
+  "nombre": "Associació Esportiva de Kungfu Sibpalki",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "terrassa",
+  "web": "http://kungfutaichichuan.blogspot.com.es/",
+  "direccion": "Carrer de la Llibertat, 49",
+  "redes": [
+   "https://www.facebook.com/1506391339682014"
+  ]
+ },
+ {
+  "slug": "black-belt-academy-sant-joan-despi",
+  "nombre": "Black Belt Academy Sant Joan Despí",
+  "fuenteTipo": "web-oficial",
+  "municipio": "sabadell",
+  "web": null,
+  "direccion": "Carrer de Felip Pedrell, 127",
+  "redes": [
+   "https://www.facebook.com/247052871827914"
+  ]
+ },
+ {
+  "slug": "club-de-boxa-sentmenat",
+  "nombre": "Club de Boxa Sentmenat",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "sentmenat",
+  "web": null,
+  "direccion": "Avda.Teixidors 4",
+  "redes": [
+   "https://www.facebook.com/1344298105653539"
+  ]
+ },
+ {
+  "slug": "centro-de-deportes-alfa-5-del-barri-de-la-llacuna",
+  "nombre": "Centro de Deportes Alfa 5 del Barri de la Llacuna",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "http://www.kumon.es/Barcelona-Tetuan/index.htm",
+  "direccion": "C/ Roger de Flor, 129",
+  "redes": []
+ },
+ {
+  "slug": "mugendo-bonanova",
+  "nombre": "Mugendo Bonanova",
+  "fuenteTipo": "web-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer de Roger de Flor, 118",
+  "redes": []
+ },
+ {
+  "slug": "club-selva-de-mar-de-lucha-libre-americana",
+  "nombre": "Club Selva de Mar de Lucha Libre Americana",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "http://www.elclubdelaluchabarcelona.com",
+  "direccion": "Carrer de Casp, 147",
+  "redes": [
+   "https://www.facebook.com/180879811925293"
+  ]
+ },
+ {
+  "slug": "club-gimnas-marin",
+  "nombre": "Club Gimnàs Marin",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "https://bit.ly/3f8cLFa",
+  "direccion": "Carrer d'Ausiàs Marc, 145",
+  "redes": [
+   "https://www.facebook.com/103835348476744"
+  ]
+ },
+ {
+  "slug": "bam-chun",
+  "nombre": "Bam Chun",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://www.instagram.com/bamchun_horta/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/103008341378762"
+  ]
+ },
+ {
+  "slug": "yugen-dojo",
+  "nombre": "Yugen Dojo",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://esportiuclaret.com/karate/",
+  "direccion": "C/ Sicília, 333, ",
+  "redes": [
+   "https://www.facebook.com/112484893915726"
+  ]
+ },
+ {
+  "slug": "club-boxa-red-bird",
+  "nombre": "Club Boxa Red Bird",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer de l'Escultor Llimona, 42",
+  "redes": [
+   "https://www.facebook.com/203267696204262"
+  ]
+ },
+ {
+  "slug": "dojo-waseda",
+  "nombre": "Dojo Waseda",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer de Sardenya, 333",
+  "redes": [
+   "https://www.facebook.com/464413707383455"
+  ]
+ },
+ {
+  "slug": "yugen-dojo",
+  "nombre": "Yugen Dojo",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.byakurendojo.com/",
+  "direccion": "Travessera de Gràcia, 419",
+  "redes": [
+   "https://www.facebook.com/705511399812424"
+  ]
+ },
+ {
+  "slug": "club-esportiu-karate-guinardo",
+  "nombre": "Club Esportiu Karate Guinardo",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "https://www.instagram.com/dojo_guinardo/",
+  "direccion": "Carrer d'Amílcar, 120",
+  "redes": [
+   "https://www.facebook.com/104585144320315"
+  ]
+ },
+ {
+  "slug": "lee-young-ripoll",
+  "nombre": "Lee Young Ripoll",
+  "fuenteTipo": "federacion",
+  "municipio": "ripoll",
+  "web": "http://taekwondoripoll.jimndo.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/202697226576828"
+  ]
+ },
+ {
+  "slug": "hermanos-argudo",
+  "nombre": "Hermanos Argudo",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.taekwondohnosargudo.com",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/393544744043324"
+  ]
+ },
+ {
+  "slug": "club-esportiu-karate-guinardo",
+  "nombre": "Club Esportiu Karate Guinardo",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "http://defensapersonalguinardo.mugendo.es/",
+  "direccion": "Carrer de Villar, 87-89",
+  "redes": [
+   "https://www.facebook.com/1530832663877423"
+  ]
+ },
+ {
+  "slug": "shihan-escola-de-karate",
+  "nombre": "Shihan, Escola de Karate",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.shihandojo.com/",
+  "direccion": "Carrer de les Acàcies, 65",
+  "redes": [
+   "https://www.facebook.com/917752204903521"
+  ]
+ },
+ {
+  "slug": "associacio-kickboxing-muaythai-catalunya",
+  "nombre": "Associació Kickboxing Muaythai Catalunya",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "http://www.ubk-centre.com",
+  "direccion": "Carrer de les Acàcies, 17",
+  "redes": [
+   "https://www.facebook.com/296409823750339"
+  ]
+ },
+ {
+  "slug": "club-boxa-ko-verdun",
+  "nombre": "Club Boxa KO Verdun",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.koverdun.com/",
+  "direccion": "Via Júlia, 172",
+  "redes": [
+   "https://www.facebook.com/257984077549380"
+  ]
+ },
+ {
+  "slug": "senshi-dojo",
+  "nombre": "Senshi Dojo",
+  "fuenteTipo": "federacion",
+  "municipio": "santa-perpetua-de-mogoda",
+  "web": null,
+  "direccion": "Avinguda de Santiga, 20, 1º 2ª Izquierda",
+  "redes": [
+   "https://www.facebook.com/325498967793145"
+  ]
+ },
+ {
+  "slug": "escuelas-do-yang",
+  "nombre": "Escuelas Do Yang",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.doyangatienza.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/197759696920349"
+  ]
+ },
+ {
+  "slug": "bam-chun",
+  "nombre": "Bam Chun",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.bamchundokwan.com",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/111891680443990",
+   "https://www.facebook.com/470825026375525",
+   "https://www.facebook.com/553754741382603"
+  ]
+ },
+ {
+  "slug": "centro-de-deportes-alfa-5-del-barri-de-la-llacuna",
+  "nombre": "Centro de Deportes Alfa 5 del Barri de la Llacuna",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "https://barriobravo.es/es/",
+  "direccion": "Carrer de València, 617, baxos 2",
+  "redes": [
+   "https://www.facebook.com/1183113438229264"
+  ]
+ },
+ {
+  "slug": "sparta-bcn-fight-club",
+  "nombre": "Sparta BCN Fight Club",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://spartabcnfightteam.placeweb.site",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/473518686103936"
+  ]
+ },
+ {
+  "slug": "brave-martial-arts",
+  "nombre": "Brave Martial Arts",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://bcnma.com/",
+  "direccion": "Carrer de Roc Boronat, 66",
+  "redes": [
+   "https://www.facebook.com/103047459775398"
+  ]
+ },
+ {
+  "slug": "escuelas-do-yang",
+  "nombre": "Escuelas Do Yang",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://artesmarcialesbcn.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/628618463888721"
+  ]
+ },
+ {
+  "slug": "club-esportiu-urban",
+  "nombre": "Club Esportiu Urban",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "badalona",
+  "web": "http://www.urbanteam.es/",
+  "direccion": "Carrer de Guifré, 243",
+  "redes": [
+   "https://www.facebook.com/781488628378124"
+  ]
+ },
+ {
+  "slug": "oyamas-karate",
+  "nombre": "Oyama's Karate",
+  "fuenteTipo": "federacion",
+  "municipio": "badalona",
+  "web": "http://oyamaskarate.blogspot.com.es/",
+  "direccion": "echegaray",
+  "redes": [
+   "https://www.facebook.com/1008962399155535"
+  ]
+ },
+ {
+  "slug": "club-boxa-sant-adria",
+  "nombre": "Club Boxa Sant Adrià",
+  "fuenteTipo": "federacion",
+  "municipio": "sant-adria-de-besos",
+  "web": "http://www.boxasantadria.com/",
+  "direccion": "Carrer de Maragall, 29",
+  "redes": [
+   "https://www.facebook.com/414954415552236"
+  ]
+ },
+ {
+  "slug": "club-karate-ippon",
+  "nombre": "Club Karate Ippon",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://instagram.com/clubkarateippon/",
+  "direccion": "Carrer de Pere Vergés, 1, 3era Planta",
+  "redes": [
+   "https://www.facebook.com/106317124086731"
+  ]
+ },
+ {
+  "slug": "club-esportiu-darts-marcials-dao-kwon",
+  "nombre": "Club Esportiu d'Arts Marcials Dao Kwon",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "C de Puigcerdà, 219",
+  "redes": [
+   "https://www.facebook.com/1010998068973382"
+  ]
+ },
+ {
+  "slug": "club-karate-ridao",
+  "nombre": "Club Karate Ridao",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer de Guipúscoa, 132",
+  "redes": [
+   "https://www.facebook.com/1540712769506975"
+  ]
+ },
+ {
+  "slug": "club-boxa-la-verneda",
+  "nombre": "Club Boxa la Verneda",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer de Huelva, 136",
+  "redes": [
+   "https://www.facebook.com/100465478935213"
+  ]
+ },
+ {
+  "slug": "club-okinawa",
+  "nombre": "Club Okinawa",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "barcelona",
+  "web": "http://www.gymlouis.org/",
+  "direccion": "Carrer del Perú, 281",
+  "redes": [
+   "https://www.facebook.com/359432634096765"
+  ]
+ },
+ {
+  "slug": "club-boxa-la-verneda",
+  "nombre": "Club Boxa la Verneda",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": null,
+  "direccion": "Carrer de Fluvià, 294",
+  "redes": [
+   "https://www.facebook.com/749665978467899"
+  ]
+ },
+ {
+  "slug": "club-esportiu-kickboxing-barcelona-clot",
+  "nombre": "Club Esportiu Kickboxing Barcelona Clot",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://www.defensapersonaltks.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/218084718052310"
+  ]
+ },
+ {
+  "slug": "wrestling-estornell",
+  "nombre": "Wrestling Estornell",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "http://resistbio.surge.sh/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/1608123586077106"
+  ]
+ },
+ {
+  "slug": "club-judo-cultural-badalona",
+  "nombre": "Club Judo Cultural",
+  "fuenteTipo": "web-oficial",
+  "municipio": "badalona",
+  "web": null,
+  "direccion": "Carrer de Pi i Gibert, 19",
+  "redes": [
+   "https://www.facebook.com/108525088711662"
+  ]
+ },
+ {
+  "slug": "club-judo-cultural-badalona",
+  "nombre": "Club Judo Cultural",
+  "fuenteTipo": "web-oficial",
+  "municipio": "badalona",
+  "web": null,
+  "direccion": "Carrer de Pi i Gibert, 19",
+  "redes": [
+   "https://www.facebook.com/195858786941845"
+  ]
+ },
+ {
+  "slug": "club-boxa-mediterraneo",
+  "nombre": "Club Boxa Mediterraneo",
+  "fuenteTipo": "federacion",
+  "municipio": "badalona",
+  "web": null,
+  "direccion": "Carrer Maria Ward, 13",
+  "redes": [
+   "https://www.facebook.com/105850264714130"
+  ]
+ },
+ {
+  "slug": "j-martinez-sport-center",
+  "nombre": "J. Martínez Sport Center",
+  "fuenteTipo": "federacion",
+  "municipio": "santa-coloma-de-gramenet",
+  "web": "http://dojo-jmartinez.es",
+  "direccion": "Calle Sant Joaquim 116",
+  "redes": [
+   "https://www.twitter.com/Dojo_JMartinez"
+  ]
+ },
+ {
+  "slug": "club-esportiu-jiujitsu-brasiler-befit-badalona",
+  "nombre": "Club Esportiu Jiujitsu Brasiler Befit Badalona",
+  "fuenteTipo": "federacion",
+  "municipio": "badalona",
+  "web": null,
+  "direccion": "Carrer de Juan Valera, 178",
+  "redes": [
+   "https://www.facebook.com/105699827432603"
+  ]
+ },
+ {
+  "slug": "club-go-kan",
+  "nombre": "Club Go-Kan",
+  "fuenteTipo": "federacion",
+  "municipio": "badalona",
+  "web": "http://dojogokan.com/",
+  "direccion": "Av. de Mònaco, 37",
+  "redes": [
+   "https://www.facebook.com/584058528336647"
+  ]
+ },
+ {
+  "slug": "han-ra",
+  "nombre": "Han Ra",
+  "fuenteTipo": "federacion",
+  "municipio": "santa-coloma-de-gramenet",
+  "web": "http://www.tkdhanra.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/157317520985186"
+  ]
+ },
+ {
+  "slug": "club-esportiu-bloodbrothers",
+  "nombre": "Club Esportiu Bloodbrothers",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "mollet-del-valles",
+  "web": "http://molletbjj.blogspot.com.es/",
+  "direccion": "Carrer d'Alexander Fleming, 59",
+  "redes": [
+   "https://www.facebook.com/499499896819035"
+  ]
+ },
+ {
+  "slug": "asociacion-de-artes-marciales-nihon-tai-jitsu-aspa",
+  "nombre": "Asociación de Artes Marciales Nihon Tai-Jitsu Aspa",
+  "fuenteTipo": "directorio-municipal",
+  "municipio": "el-masnou",
+  "web": "https://taichidojomasnou.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/100360822012208"
+  ]
+ },
+ {
+  "slug": "dym-badalona",
+  "nombre": "DYM Badalona",
+  "fuenteTipo": "federacion",
+  "municipio": "badalona",
+  "web": "http://www.centrosdym.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/107158914127703"
+  ]
+ },
+ {
+  "slug": "club-gimnas-el-maresme",
+  "nombre": "Club Gimnàs el Maresme",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "premia-de-mar",
+  "web": null,
+  "direccion": "Carrer de Sant Miquel, 22, Loc",
+  "redes": [
+   "https://www.facebook.com/287571764448938"
+  ]
+ },
+ {
+  "slug": "hukutsu-dojo",
+  "nombre": "Hukutsu Dojo",
+  "fuenteTipo": "federacion",
+  "municipio": "premia-de-mar",
+  "web": null,
+  "direccion": "Carrer Jacint Verdaguer, 132",
+  "redes": [
+   "https://www.facebook.com/203725369773497"
+  ]
+ },
+ {
+  "slug": "club-boxa-jg-xperience",
+  "nombre": "Club Boxa Jg Xperience",
+  "fuenteTipo": "federacion",
+  "municipio": "premia-de-dalt",
+  "web": "http://www.xperiencejuliginer.com/",
+  "direccion": "Carrer Llevant, 6",
+  "redes": [
+   "https://www.facebook.com/542854476661312"
+  ]
+ },
+ {
+  "slug": "lee-young-parets",
+  "nombre": "Lee Young Parets",
+  "fuenteTipo": "federacion",
+  "municipio": "parets-del-valles",
+  "web": "https://www.youtube.com/user/joseluisestudillovel",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/172994726070675"
+  ]
+ },
+ {
+  "slug": "club-esportiu-shorin-ryu-karate-goshin-do",
+  "nombre": "Club Esportiu Shorin-Ryu Karate Goshin-Do",
+  "fuenteTipo": "federacion",
+  "municipio": "llica-damunt",
+  "web": null,
+  "direccion": "Carrer Rafael de Casanova, 25",
+  "redes": [
+   "https://www.facebook.com/107925574180684"
+  ]
+ },
+ {
+  "slug": "ushiro-club-esportiu",
+  "nombre": "Ushiro, Club Esportiu",
+  "fuenteTipo": "federacion",
+  "municipio": "la-garriga",
+  "web": "http://ushiro.cat/",
+  "direccion": "Bassal s/n",
+  "redes": [
+   "https://www.facebook.com/1777458962578665"
+  ]
+ },
+ {
+  "slug": "club-deportivo-bujinkan-waryu-granollers-bcn",
+  "nombre": "Club Deportivo Bujinkan Waryu Granollers BCN",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "granollers",
+  "web": "http://www.bujinkancatalunya.com/",
+  "direccion": "Carrer de Barcelona, 138",
+  "redes": [
+   "https://www.facebook.com/1208338082371086"
+  ]
+ },
+ {
+  "slug": "club-aikido-granollers",
+  "nombre": "Club Aikido Granollers",
+  "fuenteTipo": "directorio-municipal",
+  "municipio": "granollers",
+  "web": "http://clubhapkidogranollers.blogspot.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/1499044897039831"
+  ]
+ },
+ {
+  "slug": "associacio-de-karate-jutsu-palautordera",
+  "nombre": "Associació de Karate Jutsu Palautordera",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "santa-maria-de-palautordera",
+  "web": "http://www.koryuuchinadibarcelona.es/",
+  "direccion": "Carrer Joaquim Blume, 1",
+  "redes": [
+   "https://www.facebook.com/323280894362900"
+  ]
+ },
+ {
+  "slug": "esportiu-taekwondo-mataro",
+  "nombre": "Esportiu Taekwondo Mataro",
+  "fuenteTipo": "federacion",
+  "municipio": "mataro",
+  "web": "https://clubtaekwondomataro.wordpress.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/1837569136521949"
+  ]
+ },
+ {
+  "slug": "club-aikido-txingurrikai",
+  "nombre": "Club Aikido Txingurrikai",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "caldes-destrac",
+  "web": "https://www.aikidoestrac.com/",
+  "direccion": "Pavelló Municipal, N-2, km 654",
+  "redes": [
+   "https://www.facebook.com/651642944913778"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-drac-roig",
+  "nombre": "Associació Esportiva Drac Roig",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "canet-de-mar",
+  "web": "http://www.escoladracroig.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/428751127527033"
+  ]
+ },
+ {
+  "slug": "taekwondo-club-canet-de-mar-2023",
+  "nombre": "Taekwondo Club Canet de Mar 2023",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "canet-de-mar",
+  "web": null,
+  "direccion": "Carrer Clausell, 5",
+  "redes": [
+   "https://www.facebook.com/256432548407596"
+  ]
+ },
+ {
+  "slug": "costa-fit-calella",
+  "nombre": "Costa Fit Calella",
+  "fuenteTipo": "web-oficial",
+  "municipio": "calella",
+  "web": null,
+  "direccion": "Carrer de Jovara, 64",
+  "redes": [
+   "https://www.facebook.com/582032141897370"
+  ]
+ },
+ {
+  "slug": "la-selva-hostalric-club-esportiu",
+  "nombre": "La Selva Hostalric, Club Esportiu",
+  "fuenteTipo": "federacion",
+  "municipio": "hostalric",
+  "web": "http://clublaselva.es/",
+  "direccion": "Carrer Ravalet, 71",
+  "redes": [
+   "https://www.facebook.com/101602908932224"
+  ]
+ },
+ {
+  "slug": "club-kenpo-karate-malgrat",
+  "nombre": "Club Kenpo Karate Malgrat",
+  "fuenteTipo": "federacion",
+  "municipio": "malgrat-de-mar",
+  "web": "http://kenpokarategym.wordpress.com/",
+  "direccion": "Carrer del Doctor Marañón, 16",
+  "redes": [
+   "https://www.facebook.com/1445342872387874"
+  ]
+ },
+ {
+  "slug": "associacio-esportiva-taekwondo-blanes",
+  "nombre": "Associació Esportiva Taekwondo Blanes",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "blanes",
+  "web": null,
+  "direccion": "MAS CUNÍ, 43",
+  "redes": [
+   "https://www.facebook.com/1105689696289688"
+  ]
+ },
+ {
+  "slug": "lendinez-gym-blanes",
+  "nombre": "Club de Kenpo-Karate Lendinez Gym Blanes",
+  "fuenteTipo": "web-oficial",
+  "municipio": "blanes",
+  "web": null,
+  "direccion": "calle Más Cuni s. n. \\nCIUTAT ESPORTIVA BLANES ",
+  "redes": [
+   "https://www.facebook.com/1237980752895832"
+  ]
+ },
+ {
+  "slug": "doragon-bernardas-salt",
+  "nombre": "Doragon Bernardas Salt",
+  "fuenteTipo": "web-oficial",
+  "municipio": "salt",
+  "web": null,
+  "direccion": "Carrer del President Francesc Macià, 60",
+  "redes": [
+   "https://www.facebook.com/579185428818567"
+  ]
+ },
+ {
+  "slug": "ki-hop",
+  "nombre": "Ki Hop",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "figueres",
+  "web": "http://kihop.es/",
+  "direccion": "Carrer de Santiago Mundi, 14",
+  "redes": [
+   "https://www.facebook.com/153030751703917"
+  ]
+ },
+ {
+  "slug": "ki-hop",
+  "nombre": "Ki Hop",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "figueres",
+  "web": "http://www.hapkidofigueres.com/",
+  "direccion": "Carrer del Compositor Abdó Mundí, 15",
+  "redes": [
+   "https://www.facebook.com/881086991968114"
+  ]
+ },
+ {
+  "slug": "jan-su-figueres",
+  "nombre": "Jan Su Figueres",
+  "fuenteTipo": "federacion",
+  "municipio": "figueres",
+  "web": "http://www.magiesport-jansu.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/158485121198112"
+  ]
+ },
+ {
+  "slug": "new-age-lloret",
+  "nombre": "New Age Lloret",
+  "fuenteTipo": "federacion",
+  "municipio": "lloret-de-mar",
+  "web": "https://clubtaekwondonewage.com/",
+  "direccion": null,
+  "redes": [
+   "https://www.facebook.com/284705351556014",
+   "https://www.facebook.com/377378882450004"
+  ]
+ },
+ {
+  "slug": "club-esportiu-gladius-vilanova",
+  "nombre": "Club Esportiu Gladius Vilanova",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "vilanova-i-la-geltru",
+  "web": null,
+  "direccion": "Carrer de les Balears 7",
+  "redes": []
+ },
+ {
+  "slug": "club-esportiu-zen-tao",
+  "nombre": "Club Esportiu Zen Tao",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://zen-barcelona.com",
+  "direccion": null,
+  "redes": []
+ },
+ {
+  "slug": "club-gimnas-karate-sant-feliu",
+  "nombre": "Club Gimnàs Karate Sant Feliu",
+  "fuenteTipo": "federacion",
+  "municipio": "sant-feliu-de-codines",
+  "web": null,
+  "direccion": "Carrer de Sant Quirze 14",
+  "redes": []
+ },
+ {
+  "slug": "club-karate-otero",
+  "nombre": "Club Karate Otero",
+  "fuenteTipo": "federacion",
+  "municipio": "tarragona",
+  "web": null,
+  "direccion": "Carrer Smith",
+  "redes": []
+ },
+ {
+  "slug": "equip-4-club-karate",
+  "nombre": "Equip 4, Club Karate",
+  "fuenteTipo": "federacion",
+  "municipio": "sant-sadurni-danoia",
+  "web": "https://www.equip4.cat",
+  "direccion": "Carrer del Roselló",
+  "redes": []
+ },
+ {
+  "slug": "club-esportiu-mediterrani",
+  "nombre": "Club Esportiu Mediterrani",
+  "fuenteTipo": "federacion",
+  "municipio": "barcelona",
+  "web": "https://clubesportiumediterrani.com/",
+  "direccion": "Carrer de Begur 44",
+  "redes": []
+ },
+ {
+  "slug": "club-esportiu-washi",
+  "nombre": "Club Esportiu Washi",
+  "fuenteTipo": "registro-oficial",
+  "municipio": "aitona",
+  "web": null,
+  "direccion": "Carrer de Fraga 46",
+  "redes": []
+ }
+]

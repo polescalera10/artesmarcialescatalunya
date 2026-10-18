@@ -1,0 +1,3022 @@
+{
+ "generado": "2026-10-18",
+ "resultados": [
+  {
+   "tipo": "nuevo",
+   "id": "Club Esportiu Popular La Turba",
+   "municipio": "valls",
+   "web": "https://www.laturba.cat/gimnas-popular/",
+   "estado": "ok",
+   "url_final": "https://www.laturba.cat/gimnas-popular/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal"
+   ],
+   "chars": 8410
+  },
+  {
+   "tipo": "nuevo",
+   "id": "DAO Traditional Chinese Martial Arts",
+   "municipio": "valls",
+   "web": "http://www.centredao.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Tadaima Dojo Escola D'Arts Marcials",
+   "municipio": "figueres",
+   "web": "https://tadaimahonbudojo.com/",
+   "estado": "ok",
+   "url_final": "https://tadaimahonbudojo.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "boxeo",
+    "defensa-personal",
+    "grappling",
+    "jiu-jitsu-brasileno",
+    "jiu-jitsu-japones",
+    "karate",
+    "kendo",
+    "kickboxing",
+    "kobudo",
+    "mma"
+   ],
+   "chars": 5085
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Tae Sport Vilafant",
+   "municipio": "figueres",
+   "web": "http://Www.taesport.com/",
+   "estado": "ok",
+   "url_final": "https://taesport.com/",
+   "disciplinas_citadas": [],
+   "chars": 1273
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Gimnasio TKD Sansa",
+   "municipio": "sant-sadurni-danoia",
+   "web": "http://www.tkdsansa.com/",
+   "estado": "ok",
+   "url_final": "https://tkdsansa.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing",
+    "taekwondo"
+   ],
+   "chars": 2481
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Ken-Zen Dojo",
+   "municipio": "santa-margarida-i-els-monjos",
+   "web": "http://dojokenzen.wix.com/kenzendojo",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "mugendo vilafranca",
+   "municipio": "vilafranca-del-penedes",
+   "web": "http://defensapersonalvilafranca.mugendo.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Academia d'Arts Marcials Gombau",
+   "municipio": "la-seu-durgell",
+   "web": "http://aamgombau.cat/",
+   "estado": "ok",
+   "url_final": "https://karate-shitoryu.com/aamgombau.cat/",
+   "disciplinas_citadas": [
+    "karate",
+    "kobudo"
+   ],
+   "chars": 3397
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kyoukai Budo",
+   "municipio": "igualada",
+   "web": "http://kyoukaibudo.blogspot.com/",
+   "estado": "ok",
+   "url_final": "http://kyoukaibudo.blogspot.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "judo",
+    "karate",
+    "ninjutsu"
+   ],
+   "chars": 7429
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Furio Jol Team",
+   "municipio": "vilanova-del-cami",
+   "web": "https://furiojolteam.wixsite.com/furio-jol",
+   "estado": "ok",
+   "url_final": "https://furiojolteam.wixsite.com/furio-jol",
+   "disciplinas_citadas": [
+    "muay-thai",
+    "taekwondo"
+   ],
+   "chars": 98279
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Tus Artes Marciales",
+   "municipio": "vilanova-del-cami",
+   "web": "https://tusartesmarciales.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Mugendo Reus",
+   "municipio": "reus",
+   "web": "https://reus.mugendo.es/",
+   "estado": "ok",
+   "url_final": "https://reus.mugendo.es/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "kickboxing"
+   ],
+   "chars": 16062
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kobu Shin Koryu Dojo",
+   "municipio": "palamos-i-sant-joan",
+   "web": "https://kskdojo.com/",
+   "estado": "ok",
+   "url_final": "https://kskdojo.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "defensa-personal",
+    "grappling",
+    "jiu-jitsu-brasileno",
+    "jiu-jitsu-japones",
+    "karate",
+    "kendo",
+    "kobudo"
+   ],
+   "chars": 6846
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Costa Brava Jiu Jitsu",
+   "municipio": "santa-cristina-daro",
+   "web": "https://ueni.com/es-es/negocio/santa-cristina-d-aro-17246/clases-de-artes-marciales/costa-brava-jiu-jitsu",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "ABRACCES Capoeira",
+   "municipio": "castelldefels",
+   "web": "http://www.abracces.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Brooklyn Fitboxing Castelldefels",
+   "municipio": "castelldefels",
+   "web": "https://goo.gl/zWeM8E",
+   "estado": "ok",
+   "url_final": "https://www.brooklynfitboxing.com/public/es/es-es/club/CASTELLDEFELS?utm_source=facebook&utm_medium=boton&utm_campaign=boton_castelldefels",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing"
+   ],
+   "chars": 9361
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Escola  Taekwondo Sesrovires-Collbató",
+   "municipio": "collbato",
+   "web": "http://www.tkdsesrovires.es/",
+   "estado": "error",
+   "error": "HTTPError 503"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Lion Fighters MMA",
+   "municipio": "cornella-de-llobregat",
+   "web": "http://Lionfightersmma.com/",
+   "estado": "ok",
+   "url_final": "https://lionfightersmma.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "grappling",
+    "jiu-jitsu-brasileno",
+    "kickboxing",
+    "lucha"
+   ],
+   "chars": 6307
+  },
+  {
+   "tipo": "nuevo",
+   "id": "FitCo - Kaeru Dôjô",
+   "municipio": "el-prat-de-llobregat",
+   "web": "http://www.fitco-kaerudojo.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Shisenkan Hakurō Dōjō ✦ KOBUDŌ: TAIJUTSU Jūjutsu Ninjutsu… BUKI Bōjutsu Kenjutsu Shuriken…",
+   "municipio": "el-prat-de-llobregat",
+   "web": "http://Shisenkan.org/",
+   "estado": "ok",
+   "url_final": "https://www.shisenkan.org/",
+   "disciplinas_citadas": [
+    "kobudo"
+   ],
+   "chars": 140182
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Brooklyn Fitboxing Esplugues de llobregat",
+   "municipio": "esplugues-de-llobregat",
+   "web": "https://www.brooklynfitboxing.com/public/es/es-es/club/ESPLUGUES-DE-LLOBREGAT",
+   "estado": "ok",
+   "url_final": "https://www.brooklynfitboxing.com/public/es/es-es/club/ESPLUGUES-DE-LLOBREGAT",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing"
+   ],
+   "chars": 9386
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Instituto Wutan Barcelona",
+   "municipio": "esplugues-de-llobregat",
+   "web": "http://www.wutanbarcelona.com",
+   "estado": "ok",
+   "url_final": "https://wutanbarcelona.com/",
+   "disciplinas_citadas": [],
+   "chars": 3345
+  },
+  {
+   "tipo": "nuevo",
+   "id": "La Sala Duo Bellum",
+   "municipio": "esplugues-de-llobregat",
+   "web": "http://duobellum.com/",
+   "estado": "ok",
+   "url_final": "https://duobellum.com/",
+   "disciplinas_citadas": [],
+   "chars": 2718
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Fujimae",
+   "municipio": "martorell",
+   "web": "https://www.fujimae.com/",
+   "estado": "ok",
+   "url_final": "https://fujimae.com/es/",
+   "disciplinas_citadas": [
+    "aikido",
+    "boxeo",
+    "defensa-personal",
+    "hapkido",
+    "judo",
+    "karate",
+    "kendo",
+    "kickboxing",
+    "kobudo",
+    "krav-maga",
+    "kung-fu",
+    "lucha",
+    "muay-thai",
+    "ninjutsu",
+    "taekwondo"
+   ],
+   "chars": 8013
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Dojo Hikari Sant Boi",
+   "municipio": "sant-boi-de-llobregat",
+   "web": "https://dojohikari.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "JKDBarcelona - Academia de Artes Marciales",
+   "municipio": "sant-boi-de-llobregat",
+   "web": "http://www.JKDbarcelona.com/",
+   "estado": "ok",
+   "url_final": "https://jkdbarcelona.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "grappling",
+    "jeet-kune-do",
+    "kickboxing",
+    "muay-thai"
+   ],
+   "chars": 2999
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Triangle Fight Studio",
+   "municipio": "sant-feliu-de-llobregat",
+   "web": "http://trianglefightstudio.com/",
+   "estado": "ok",
+   "url_final": "https://trianglefightstudio.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "grappling",
+    "jiu-jitsu-brasileno",
+    "kickboxing",
+    "lucha",
+    "mma"
+   ],
+   "chars": 2897
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Hapkido Jin Jung Kwan España 합기도 진중관 스페인",
+   "municipio": "viladecans",
+   "web": "http://www.hapkidojjkspain.com/",
+   "estado": "ok",
+   "url_final": "https://hapkidojjkspain.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "hapkido"
+   ],
+   "chars": 1392
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Viladecans Training Center",
+   "municipio": "viladecans",
+   "web": "https://www.instagram.com/viladecanstrainingcenter/?hl=es",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/viladecanstrainingcenter/?hl=es",
+   "disciplinas_citadas": [],
+   "chars": 57444
+  },
+  {
+   "tipo": "nuevo",
+   "id": "KEIKO Vendrell",
+   "municipio": "el-vendrell",
+   "web": "https://bit.ly/2YC8m5Z",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Brooklyn Fitboxing Badalona",
+   "municipio": "badalona",
+   "web": "https://www.brooklynfitboxing.com/public/es/es-es/club/BADALONA",
+   "estado": "ok",
+   "url_final": "https://www.brooklynfitboxing.com/public/es/es-es/club/BADALONA",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing"
+   ],
+   "chars": 8963
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Bujinkan Koryu Dojo",
+   "municipio": "badalona",
+   "web": "http://bujinkancatalunya.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "GODAN Karate-Do",
+   "municipio": "badalona",
+   "web": "https://www.sutrayogacenter.com/",
+   "estado": "ok",
+   "url_final": "https://www.sutrayogacenter.com/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 7872
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Krav Maga Badalona",
+   "municipio": "badalona",
+   "web": "http://www.kravmaga-ikmf.es/",
+   "estado": "ok",
+   "url_final": "http://www.kravmaga-ikmf.es/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "krav-maga",
+    "lucha"
+   ],
+   "chars": 4801
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Mekugi dojo",
+   "municipio": "badalona",
+   "web": "https://mekugidojo.wixsite.com/dojo",
+   "estado": "ok",
+   "url_final": "https://mekugidojo.wixsite.com/dojo",
+   "disciplinas_citadas": [
+    "kobudo"
+   ],
+   "chars": 19573
+  },
+  {
+   "tipo": "nuevo",
+   "id": "AFL MMA",
+   "municipio": "barcelona",
+   "web": "http://www.aflmma.club/",
+   "estado": "ok",
+   "url_final": "https://aflmma.club/",
+   "disciplinas_citadas": [
+    "jiu-jitsu-brasileno",
+    "mma"
+   ],
+   "chars": 3140
+  },
+  {
+   "tipo": "nuevo",
+   "id": "AIAM Escola",
+   "municipio": "barcelona",
+   "web": "https://www.aiamescola.com/",
+   "estado": "ok",
+   "url_final": "https://www.aiamescola.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "defensa-personal",
+    "tai-chi"
+   ],
+   "chars": 4466
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Aikido Arashi Group Dojo Central",
+   "municipio": "barcelona",
+   "web": "http://dojocentral.arashigroup.com/",
+   "estado": "ok",
+   "url_final": "http://dojocentral.arashigroup.com/",
+   "disciplinas_citadas": [],
+   "chars": 1152
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Aikido Rocafort",
+   "municipio": "barcelona",
+   "web": "http://www.aikido-rocafort.com/",
+   "estado": "error",
+   "error": "HTTPError 403"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Artes Marciales Barcelona - WAMAI",
+   "municipio": "barcelona",
+   "web": "https://wamai.net/",
+   "estado": "ok",
+   "url_final": "https://wamai.net/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "capoeira",
+    "defensa-personal",
+    "hapkido",
+    "jeet-kune-do",
+    "judo",
+    "karate",
+    "kickboxing",
+    "muay-thai",
+    "taekwondo"
+   ],
+   "chars": 8309
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Asociacion de Kyudo Dojo Barcelona",
+   "municipio": "barcelona",
+   "web": "https://kyudo.es/dojo-barcelona/",
+   "estado": "ok",
+   "url_final": "https://kyudo.es/dojo-barcelona/",
+   "disciplinas_citadas": [],
+   "chars": 820
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Associacio Aikido Kobayashi Barcelona",
+   "municipio": "barcelona",
+   "web": "http://www.aikido-barceona.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Ataraxia Escola D'Arts Marcials",
+   "municipio": "barcelona",
+   "web": "http://www.escolaataraxia.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Awase Dojo Barcelona",
+   "municipio": "barcelona",
+   "web": "http://www.awasedojo.com/",
+   "estado": "ok",
+   "url_final": "https://www.awasedojo.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "kobudo"
+   ],
+   "chars": 875
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Barcelona Taekwondo Center",
+   "municipio": "barcelona",
+   "web": "http://www.itf-barcelona.com/",
+   "estado": "ok",
+   "url_final": "http://www.itf-barcelona.com/",
+   "disciplinas_citadas": [
+    "taekwondo"
+   ],
+   "chars": 3308
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Bujinkan Matsukaze Dojo",
+   "municipio": "barcelona",
+   "web": "https://www.instagram.com/bujinkanmatsukazedojo?igsi=bHdlZDMxaGJsYXp5&utm_source=qr",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/bujinkanmatsukazedojo?igsi=bHdlZDMxaGJsYXp5&utm_source=qr",
+   "disciplinas_citadas": [
+    "ninjutsu"
+   ],
+   "chars": 57693
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Capoeira Cooperativa Barcelona",
+   "municipio": "barcelona",
+   "web": "http://www.capoeiracooperativa.org/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Capoeira Ilé Iré",
+   "municipio": "barcelona",
+   "web": "http://capoeirasenzalabarcelona.com/contactanos/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Capoeira Matumbe",
+   "municipio": "barcelona",
+   "web": "http://matumbecapoeira.es/",
+   "estado": "ok",
+   "url_final": "https://matumbecapoeira.es/",
+   "disciplinas_citadas": [
+    "capoeira"
+   ],
+   "chars": 1886
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Capoeira Senzala Barcelona new",
+   "municipio": "barcelona",
+   "web": "http://www.senzalabarcelona.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Circle BJJ",
+   "municipio": "barcelona",
+   "web": "https://circleacademy.es/",
+   "estado": "ok",
+   "url_final": "https://circleacademy.es/",
+   "disciplinas_citadas": [
+    "grappling",
+    "jiu-jitsu-brasileno",
+    "mma"
+   ],
+   "chars": 3269
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Club Kihon",
+   "municipio": "barcelona",
+   "web": "https://clubkihon.blogspot.com/",
+   "estado": "ok",
+   "url_final": "https://clubkihon.blogspot.com/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 10430
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Club de boxeo Iberia",
+   "municipio": "barcelona",
+   "web": "http://www.clubdeboxaiberia.com/",
+   "estado": "ok",
+   "url_final": "https://clubdeboxaiberia.com/",
+   "disciplinas_citadas": [
+    "boxeo"
+   ],
+   "chars": 1250
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Dojo Karate Creole",
+   "municipio": "barcelona",
+   "web": "http://www.karatecreole.wordpress.com/",
+   "estado": "ok",
+   "url_final": "https://karatecreole.wordpress.com/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 2922
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Dojokaibcn Artes Marciales y Defensa Personal",
+   "municipio": "barcelona",
+   "web": "http://www.dojokaibcn.com/",
+   "estado": "ok",
+   "url_final": "https://www.dojokaibcn.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "grappling",
+    "tai-chi"
+   ],
+   "chars": 8679
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Epic Kickboxing Barcelona",
+   "municipio": "barcelona",
+   "web": "https://epickickboxing.es/",
+   "estado": "ok",
+   "url_final": "https://epickickboxing.es/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "kickboxing"
+   ],
+   "chars": 2575
+  },
+  {
+   "tipo": "nuevo",
+   "id": "FUJIMAE Barcelona",
+   "municipio": "barcelona",
+   "web": "https://www.fujimae.com/",
+   "estado": "ok",
+   "url_final": "https://fujimae.com/es/",
+   "disciplinas_citadas": [
+    "aikido",
+    "boxeo",
+    "defensa-personal",
+    "hapkido",
+    "judo",
+    "karate",
+    "kendo",
+    "kickboxing",
+    "kobudo",
+    "krav-maga",
+    "kung-fu",
+    "lucha",
+    "muay-thai",
+    "ninjutsu",
+    "taekwondo"
+   ],
+   "chars": 8013
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Gimnasio Club Boxeo Barcelona",
+   "municipio": "barcelona",
+   "web": "http://www.clubboxabarcelona.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Haru Aikido",
+   "municipio": "barcelona",
+   "web": "http://haruaikido.com/",
+   "estado": "ok",
+   "url_final": "https://haruaikido.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "defensa-personal",
+    "judo",
+    "karate",
+    "kendo"
+   ],
+   "chars": 8077
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kaizen Dojo",
+   "municipio": "barcelona",
+   "web": "http://www.kaizendojobcn.com/",
+   "estado": "ok",
+   "url_final": "https://kaizendojobcn.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "jiu-jitsu-japones",
+    "karate"
+   ],
+   "chars": 6102
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kali Flow Academy",
+   "municipio": "barcelona",
+   "web": "https://kaliflowacademy.com/",
+   "estado": "ok",
+   "url_final": "https://kaliflowacademy.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "grappling",
+    "hapkido",
+    "jiu-jitsu-brasileno",
+    "kali",
+    "krav-maga",
+    "muay-thai",
+    "wing-chun"
+   ],
+   "chars": 13412
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Karate - Aikido",
+   "municipio": "barcelona",
+   "web": "http://aikidokaratekyu.com/",
+   "estado": "ok",
+   "url_final": "https://aikidokaratekyu.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "karate"
+   ],
+   "chars": 645
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kishintai",
+   "municipio": "barcelona",
+   "web": "http://www.kishintai.org/",
+   "estado": "ok",
+   "url_final": "https://www.kishintai.org/",
+   "disciplinas_citadas": [
+    "aikido",
+    "defensa-personal"
+   ],
+   "chars": 2539
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Life Club MMA",
+   "municipio": "barcelona",
+   "web": "https://lifeclubmma.sixsport.es/?fbclid=PAZXh0bgNhZW0CMTEAAaepCUt7W4trY5WtyIR4Iz4pwau1uSgs88q6ZMdUiSDAnTfyPaqlRcQMFghrtg_aem_Vyvj9z9qAC0Q0BC8pmitkQ",
+   "estado": "ok",
+   "url_final": "https://lifeclubmma.sixsport.es/?fbclid=PAZXh0bgNhZW0CMTEAAaepCUt7W4trY5WtyIR4Iz4pwau1uSgs88q6ZMdUiSDAnTfyPaqlRcQMFghrtg_aem_Vyvj9z9qAC0Q0BC8pmitkQ",
+   "disciplinas_citadas": [
+    "mma"
+   ],
+   "chars": 1144
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Marcial Kickfit",
+   "municipio": "barcelona",
+   "web": "http://www.marcialkickfit.com/home",
+   "estado": "ok",
+   "url_final": "https://marcialkickfit.com/",
+   "disciplinas_citadas": [],
+   "chars": 22260
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Marcos Campos - Taekwondo CHS",
+   "municipio": "barcelona",
+   "web": "https://www.instagram.com/taekwondo_barcelona",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/taekwondo_barcelona",
+   "disciplinas_citadas": [
+    "taekwondo"
+   ],
+   "chars": 60685
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Muay Thai Thailand Barcelona",
+   "municipio": "barcelona",
+   "web": "http://www.muaythaibarcelona.com/",
+   "estado": "ok",
+   "url_final": "https://www.muaythaibarcelona.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "muay-thai"
+   ],
+   "chars": 2162
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Nidec Defense Group",
+   "municipio": "barcelona",
+   "web": "http://www.nidec.es",
+   "estado": "ok",
+   "url_final": "https://www.nidec.es/es/",
+   "disciplinas_citadas": [],
+   "chars": 8157
+  },
+  {
+   "tipo": "nuevo",
+   "id": "RMA Systema “SV” Sibirskiy Viun España",
+   "municipio": "barcelona",
+   "web": "http://www.rmasv.es/",
+   "estado": "ok",
+   "url_final": "https://rmasv.es/",
+   "disciplinas_citadas": [
+    "defensa-personal"
+   ],
+   "chars": 4391
+  },
+  {
+   "tipo": "nuevo",
+   "id": "RanAi Dojo",
+   "municipio": "barcelona",
+   "web": "http://www.ranaidojo.com/",
+   "estado": "ok",
+   "url_final": "https://ranaidojo.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "karate",
+    "kendo"
+   ],
+   "chars": 4353
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Ruckus Athletics",
+   "municipio": "barcelona",
+   "web": "https://ruckus.odoo.com/es/event/ruckus-athletics-mauy-thai-summer-casal-18/register",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Ryushin Shouchi Ryu España",
+   "municipio": "barcelona",
+   "web": "http://www.awasedojo.com/",
+   "estado": "ok",
+   "url_final": "https://www.awasedojo.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "kobudo"
+   ],
+   "chars": 875
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Senshin Dojo Barcelona",
+   "municipio": "barcelona",
+   "web": "http://senshindojobcn.wixsite.com/senshindojobcn",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Shock Boxing Gym",
+   "municipio": "barcelona",
+   "web": "http://www.shockboxinggym.com/",
+   "estado": "ok",
+   "url_final": "https://www.shockboxinggym.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "krav-maga",
+    "muay-thai"
+   ],
+   "chars": 86555
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Taekwondo ITF (Escuela Internacional Taekwondo)",
+   "municipio": "barcelona",
+   "web": "http://www.itftaekwondo.es/",
+   "estado": "ok",
+   "url_final": "https://www.itftaekwondo.es/",
+   "disciplinas_citadas": [
+    "taekwondo"
+   ],
+   "chars": 3408
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Troopers Fitclub",
+   "municipio": "barcelona",
+   "web": "http://www.9round.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Wai Kru Muay Thai",
+   "municipio": "barcelona",
+   "web": "http://www.waikrumuaythai.com/",
+   "estado": "ok",
+   "url_final": "https://waikrumuaythai.com/",
+   "disciplinas_citadas": [
+    "muay-thai"
+   ],
+   "chars": 2070
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Wudang Spain",
+   "municipio": "barcelona",
+   "web": "http://www.wudangspain.es/",
+   "estado": "ok",
+   "url_final": "https://www.wudangspain.es/",
+   "disciplinas_citadas": [
+    "kung-fu",
+    "tai-chi"
+   ],
+   "chars": 3098
+  },
+  {
+   "tipo": "nuevo",
+   "id": "power_fit_boxing",
+   "municipio": "barcelona",
+   "web": "http://powerfitboxing.com/",
+   "estado": "ok",
+   "url_final": "https://powerfitboxing.com/",
+   "disciplinas_citadas": [],
+   "chars": 747
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Brooklyn Fitboxing Hospitalet",
+   "municipio": "lhospitalet-de-llobregat",
+   "web": "https://bfclick.com/hospitalet-fb",
+   "estado": "ok",
+   "url_final": "https://www.brooklynfitboxing.com/public/es/es-es/club/hospitalet?utm_source=fb&utm_medium=social&utm_campaign=bf_social_fb_ao_bio_eu_es_hospitalet",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing"
+   ],
+   "chars": 9420
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Capoeira Sul da Bahía Barcelona",
+   "municipio": "lhospitalet-de-llobregat",
+   "web": "https://capoeirasuldabahia.es/",
+   "estado": "ok",
+   "url_final": "https://capoeirasuldabahia.es/",
+   "disciplinas_citadas": [
+    "capoeira"
+   ],
+   "chars": 986
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Elite Top Team",
+   "municipio": "lhospitalet-de-llobregat",
+   "web": "http://Www.elitetopteam.es/",
+   "estado": "ok",
+   "url_final": "http://Www.elitetopteam.es/",
+   "disciplinas_citadas": [],
+   "chars": 634
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Escuela de Kungfu Long Zhua",
+   "municipio": "lhospitalet-de-llobregat",
+   "web": "http://www.daviddalmau.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Instituto de Artes Marciales Chinas Jingwu",
+   "municipio": "lhospitalet-de-llobregat",
+   "web": "http://www.wushujingwu.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kyokushin Spirit",
+   "municipio": "lhospitalet-de-llobregat",
+   "web": "http://kyokushinspirit.es/",
+   "estado": "ok",
+   "url_final": "https://kyokushinspirit.es/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 2203
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Shaolin Kung Fu Barcelona",
+   "municipio": "lhospitalet-de-llobregat",
+   "web": "https://shaolinbarcelona.com/",
+   "estado": "ok",
+   "url_final": "https://shaolinbarcelona.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "judo",
+    "karate",
+    "kobudo",
+    "kung-fu",
+    "lucha"
+   ],
+   "chars": 3405
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Genbukan Dojo Sant Adrià",
+   "municipio": "sant-adria-de-besos",
+   "web": "http://www.genbukan.es/",
+   "estado": "ok",
+   "url_final": "https://genbukan.es/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "jiu-jitsu-japones",
+    "karate",
+    "kendo",
+    "kobudo",
+    "lucha",
+    "ninjutsu"
+   ],
+   "chars": 12553
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Alta Escuela de Aikido Tsuki Kai",
+   "municipio": "santa-coloma-de-gramenet",
+   "web": "http://www.aikidosantacoloma.es/galeria1/",
+   "estado": "ok",
+   "url_final": "https://www.aikidosantacoloma.es/galeria1/",
+   "disciplinas_citadas": [
+    "aikido"
+   ],
+   "chars": 341
+  },
+  {
+   "tipo": "nuevo",
+   "id": "New Dojang",
+   "municipio": "santa-coloma-de-gramenet",
+   "web": "https://www.instagram.com/newdojang_kbgramenet/?hl=es",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/newdojang_kbgramenet/?hl=es",
+   "disciplinas_citadas": [],
+   "chars": 56934
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Molles Malé",
+   "municipio": "casserres",
+   "web": "https://www.grupobultzaki.com/",
+   "estado": "ok",
+   "url_final": "https://grupobultzaki.com/",
+   "disciplinas_citadas": [],
+   "chars": 3699
+  },
+  {
+   "tipo": "nuevo",
+   "id": "dymsitges",
+   "municipio": "sitges",
+   "web": "http://Sitges.centrosdym.com/",
+   "estado": "ok",
+   "url_final": "https://centrosdym.com/escuela-de-sitges/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "karate",
+    "kickboxing"
+   ],
+   "chars": 4445
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Aikido Aiki Vilanova",
+   "municipio": "vilanova-i-la-geltru",
+   "web": "https://kaizenvilanova.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kyokushin Vilanova",
+   "municipio": "vilanova-i-la-geltru",
+   "web": "http://kyokushinvilanova.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Brooklyn Fitboxing Girona",
+   "municipio": "girona",
+   "web": "https://www.brooklynfitboxing.com/public/es/es-es/club/GIRONA",
+   "estado": "ok",
+   "url_final": "https://www.brooklynfitboxing.com/public/es/es-es/club/GIRONA",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing"
+   ],
+   "chars": 8981
+  },
+  {
+   "tipo": "nuevo",
+   "id": "GB TAIJI",
+   "municipio": "girona",
+   "web": "https://gbtaiji.com/",
+   "estado": "ok",
+   "url_final": "https://www.gbtaiji.com/",
+   "disciplinas_citadas": [
+    "defensa-personal"
+   ],
+   "chars": 35687
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Bujinkan Mataro",
+   "municipio": "mataro",
+   "web": "http://www.bujinkanmataro.com/",
+   "estado": "ok",
+   "url_final": "https://www.koryudojobadalona.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "kickboxing",
+    "kobudo",
+    "ninjutsu"
+   ],
+   "chars": 6920
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Tkd+Tordera Taekwondo",
+   "municipio": "tordera",
+   "web": "http://Taekwon40.blogspot.com/",
+   "estado": "ok",
+   "url_final": "https://taekwon40.blogspot.com/",
+   "disciplinas_citadas": [
+    "hapkido",
+    "taekwondo"
+   ],
+   "chars": 8978
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Club Judo Ràpita Montsià",
+   "municipio": "la-rapita",
+   "web": "https://nt-priorattortosa.wixsite.com/nt-priorat-tortosa?fbclid=IwAR035fTyI4UxoIgkscamrNp3qHrZ7vC1NIYxhegpbExRGbLTUHZW_zqDjtI",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Academia Irzi Manlleu",
+   "municipio": "manlleu",
+   "web": "https://www.academiairzimanlleu.cat/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "La Llanterna",
+   "municipio": "torello",
+   "web": "http://www.lallanterna.com/",
+   "estado": "ok",
+   "url_final": "https://www.lallanterna.com/",
+   "disciplinas_citadas": [
+    "tai-chi"
+   ],
+   "chars": 660
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Lendines Gym",
+   "municipio": "blanes",
+   "web": "http://escueladekenpo-karatelendinezgym.blogspot.com.es/",
+   "estado": "ok",
+   "url_final": "http://escueladekenpo-karatelendinezgym.blogspot.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "karate",
+    "kickboxing",
+    "kobudo",
+    "lucha"
+   ],
+   "chars": 4139
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Espai Vibrant ~ Teràpies naturals i lloguer de sala",
+   "municipio": "tarragona",
+   "web": "https://enricgil.cat/",
+   "estado": "ok",
+   "url_final": "https://enricgil.cat/",
+   "disciplinas_citadas": [
+    "tai-chi"
+   ],
+   "chars": 8312
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Loyalty Jiu Jitsu Vila Seca",
+   "municipio": "vila-seca",
+   "web": "http://Atosvilaseca.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Dosan Team Pithecus",
+   "municipio": "barbera-del-valles",
+   "web": "http://www.gymdosan.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Imperium Boxing Club",
+   "municipio": "castellbisbal",
+   "web": "https://imperium-boxing-club.com/",
+   "estado": "error",
+   "error": "HTTPError 403"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Artes Marciales MAC Rubí",
+   "municipio": "rubi",
+   "web": "http://artesmarcialesmac.com/",
+   "estado": "ok",
+   "url_final": "https://artesmarcialesmac.com/",
+   "disciplinas_citadas": [
+    "krav-maga",
+    "taekwondo"
+   ],
+   "chars": 8005
+  },
+  {
+   "tipo": "nuevo",
+   "id": "ITKA Spain - International Taijiquan Kungfu Association Spain",
+   "municipio": "rubi",
+   "web": "http://www.itka.es/",
+   "estado": "ok",
+   "url_final": "https://www.itka.es/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "kung-fu",
+    "tai-chi"
+   ],
+   "chars": 40653
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Artes Marciales MAC Sabadell",
+   "municipio": "sabadell",
+   "web": "www.artesmarcialesmac.com",
+   "estado": "ok",
+   "url_final": "https://www.artesmarcialesmac.com",
+   "disciplinas_citadas": [
+    "krav-maga",
+    "taekwondo"
+   ],
+   "chars": 8005
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Brooklyn Fitboxing Sabadell",
+   "municipio": "sabadell",
+   "web": "https://www.brooklynfitboxing.com/public/es/es-es/club/SABADELL",
+   "estado": "ok",
+   "url_final": "https://www.brooklynfitboxing.com/public/es/es-es/club/SABADELL",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing"
+   ],
+   "chars": 9062
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Crossbox Line",
+   "municipio": "sabadell",
+   "web": "http://www.crossboxlinesabadell.com/",
+   "estado": "ok",
+   "url_final": "https://www.crossboxlinesabadell.com/",
+   "disciplinas_citadas": [],
+   "chars": 12522
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Escuela de AIKIDO de Sabadell - España",
+   "municipio": "sabadell",
+   "web": "https://tadaimadojo.com/",
+   "estado": "ok",
+   "url_final": "https://tadaimadojo.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "defensa-personal",
+    "kobudo"
+   ],
+   "chars": 5257
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Gimnàs Llusià",
+   "municipio": "sabadell",
+   "web": "http://www.gimnasllusia.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kung Fu 5 Dragones",
+   "municipio": "sabadell",
+   "web": "http://www.kungfu5dragones.es/",
+   "estado": "ok",
+   "url_final": "https://www.kungfu5dragones.es/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "kali",
+    "kung-fu",
+    "tai-chi",
+    "wing-chun"
+   ],
+   "chars": 6912
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Lorkenpo American Kenpo Karate",
+   "municipio": "sabadell",
+   "web": "http://www.lorenjimenez.com/",
+   "estado": "ok",
+   "url_final": "https://www.lorenjimenez.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "karate"
+   ],
+   "chars": 101679
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Mix Martial Arts Sabadell",
+   "municipio": "sabadell",
+   "web": "http://mmasabadell.vpweb.es/",
+   "estado": "ok",
+   "url_final": "https://www.vistaprint.es/marketing-digital/cierre-webs",
+   "disciplinas_citadas": [],
+   "chars": 4429
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Mugendo Sabadell",
+   "municipio": "sabadell",
+   "web": "http://www.mugendo.es/",
+   "estado": "ok",
+   "url_final": "https://mugendo.es/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "karate",
+    "kickboxing",
+    "krav-maga",
+    "taekwondo"
+   ],
+   "chars": 5919
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Mushin Dojo",
+   "municipio": "sabadell",
+   "web": "http://www.mushindojosbd.com/",
+   "estado": "ok",
+   "url_final": "https://www.mushindojosbd.com/",
+   "disciplinas_citadas": [
+    "kobudo"
+   ],
+   "chars": 741
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Wing Chun Kung Fu Sabadell",
+   "municipio": "sabadell",
+   "web": "http://Kungfusabadell.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "factorysparta",
+   "municipio": "sabadell",
+   "web": "http://www.basicfactory.es/",
+   "estado": "ok",
+   "url_final": "https://www.basicfactory.es/",
+   "disciplinas_citadas": [],
+   "chars": 754
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Arte Marcial Samurai - Bujinkan Sant Cugat",
+   "municipio": "sant-cugat-del-valles",
+   "web": "http://www.bujinkansantcugat.com/",
+   "estado": "ok",
+   "url_final": "https://bujinkansantcugat.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "kobudo",
+    "ninjutsu"
+   ],
+   "chars": 7342
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kuksoolcervello",
+   "municipio": "sant-cugat-del-valles",
+   "web": "http://kuksoolwon.es/escuelas/escuela-cervello/#content-content-inner",
+   "estado": "ok",
+   "url_final": "https://247.cat/kuksoolwon/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "kickboxing",
+    "lucha"
+   ],
+   "chars": 3165
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kung Fu Sant Cugat",
+   "municipio": "sant-cugat-del-valles",
+   "web": "http://www.kungfusantcugat.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Valhalla Training Camp",
+   "municipio": "sant-cugat-del-valles",
+   "web": "https://www.valhallatrainingcamp.com/",
+   "estado": "ok",
+   "url_final": "https://valhallatrainingcamp.com/",
+   "disciplinas_citadas": [],
+   "chars": 549
+  },
+  {
+   "tipo": "nuevo",
+   "id": "GEITS International SL",
+   "municipio": "santa-perpetua-de-mogoda",
+   "web": "http://www.geitsinternacional.com/",
+   "estado": "ok",
+   "url_final": "https://geitsinternacional.com/",
+   "disciplinas_citadas": [
+    "defensa-personal"
+   ],
+   "chars": 4874
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Aikidojo Terrassa",
+   "municipio": "terrassa",
+   "web": "http://www.aikidojoterrassa.com/",
+   "estado": "ok",
+   "url_final": "https://aikidojoterrassa.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "kendo"
+   ],
+   "chars": 5784
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Brazilian Jiu Jitsu Terrassa",
+   "municipio": "terrassa",
+   "web": "https://scienceofjiujitsu.weebly.com/",
+   "estado": "ok",
+   "url_final": "https://scienceofjiujitsu.weebly.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "jiu-jitsu-brasileno"
+   ],
+   "chars": 2677
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Bujinkan Terrassa",
+   "municipio": "terrassa",
+   "web": "http://bujinkanterrassa.blogspot.com.es/",
+   "estado": "ok",
+   "url_final": "http://bujinkanterrassa.blogspot.com/",
+   "disciplinas_citadas": [
+    "ninjutsu",
+    "tai-chi"
+   ],
+   "chars": 3930
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Centro Alquimia Interna en Terrassa",
+   "municipio": "terrassa",
+   "web": "http://www.alquimiainterna.com/",
+   "estado": "ok",
+   "url_final": "https://alquimiainterna.es/",
+   "disciplinas_citadas": [
+    "tai-chi",
+    "wing-chun"
+   ],
+   "chars": 12338
+  },
+  {
+   "tipo": "nuevo",
+   "id": "AikidoSakaki",
+   "municipio": "caldes-de-montbui",
+   "web": "http://aikidosakaki.blogspot.com/",
+   "estado": "ok",
+   "url_final": "http://aikidosakaki.blogspot.com/",
+   "disciplinas_citadas": [
+    "aikido"
+   ],
+   "chars": 71
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Taekwondo Bandal Caldes de Montbui",
+   "municipio": "caldes-de-montbui",
+   "web": "http://taekwondo-bandal-es.webnode.es/",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "UBOX Granollers Training Club",
+   "municipio": "granollers",
+   "web": "http://www.uboxgranollers.com/",
+   "estado": "ok",
+   "url_final": "https://uboxgranollers.com/",
+   "disciplinas_citadas": [],
+   "chars": 4977
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Academia Parets Jiu Jitsu",
+   "municipio": "parets-del-valles",
+   "web": "https://www.instagram.com/paretsjiujitsu/",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/paretsjiujitsu/",
+   "disciplinas_citadas": [],
+   "chars": 60986
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Bujinkan Kami no Michi Dojo",
+   "municipio": "parets-del-valles",
+   "web": "http://www.kaminomichidojo.com/",
+   "estado": "ok",
+   "url_final": "https://kaminomichidojo.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "ninjutsu"
+   ],
+   "chars": 1434
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Espai taiji chen",
+   "municipio": "parets-del-valles",
+   "web": "http://www.ce-taichiquan.com/",
+   "estado": "ok",
+   "url_final": "https://espaitaiji.com/",
+   "disciplinas_citadas": [
+    "kung-fu",
+    "tai-chi"
+   ],
+   "chars": 13631
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Kitsune Warrior",
+   "municipio": "parets-del-valles",
+   "web": "http://www.kitsunewarrior.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "nuevo",
+   "id": "Can Kun",
+   "municipio": "vallgorguina",
+   "web": "http://aikidocankun.blogspot.com/",
+   "estado": "ok",
+   "url_final": "http://aikidocankun.blogspot.com/",
+   "disciplinas_citadas": [
+    "aikido"
+   ],
+   "chars": 2350
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-de-defensa-personal-dertosa",
+   "municipio": "tortosa",
+   "web": "https://pagina-de-venta-sala-vip.grwebsite.eu/",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "ficha",
+   "id": "dojo-umiten",
+   "municipio": "lleida",
+   "web": "https://dojoumiten.cat/",
+   "estado": "ok",
+   "url_final": "https://dojoumiten.cat/",
+   "disciplinas_citadas": [
+    "aikido",
+    "defensa-personal",
+    "karate",
+    "kendo",
+    "kobudo"
+   ],
+   "chars": 2360
+  },
+  {
+   "tipo": "ficha",
+   "id": "taekwondo-sundo-cambrils",
+   "municipio": "cambrils",
+   "web": "http://www.taekwondocambrils.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "damian",
+   "municipio": "reus",
+   "web": "http://www.taekwondodamian.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-chois-cha",
+   "municipio": "reus",
+   "web": "http://www.choissport.com/",
+   "estado": "ok",
+   "url_final": "https://www.choissport.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "hapkido",
+    "kickboxing",
+    "taekwondo"
+   ],
+   "chars": 3020
+  },
+  {
+   "tipo": "ficha",
+   "id": "esports-clemente",
+   "municipio": "tarragona",
+   "web": "http://twitter.com/ClubClementeTH",
+   "estado": "error",
+   "error": "HTTPError 520"
+  },
+  {
+   "tipo": "ficha",
+   "id": "cha-tarragona",
+   "municipio": "tarragona",
+   "web": "http://www.taekwondocha.es",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-esportiva-wushu-junzimen-tarragona",
+   "municipio": "tarragona",
+   "web": "http://wushujunzimen.blogspot.com/",
+   "estado": "ok",
+   "url_final": "http://wushujunzimen.blogspot.com/",
+   "disciplinas_citadas": [
+    "kobudo",
+    "kung-fu",
+    "tai-chi"
+   ],
+   "chars": 11924
+  },
+  {
+   "tipo": "ficha",
+   "id": "tai-hodoki-club-tai-jitsu",
+   "municipio": "tarragona",
+   "web": "http://m.me/taijitsutarragonabugeikyokai",
+   "estado": "ok",
+   "url_final": "https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F1750570631855021%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink%26source_id%3D1441792%26recurring_notification%3D0",
+   "disciplinas_citadas": [],
+   "chars": 168
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-vital-sports-valls",
+   "municipio": "valls",
+   "web": "http://www.vitalsportsvalls.com/",
+   "estado": "ok",
+   "url_final": "https://vitalsportsvalls.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing",
+    "taekwondo"
+   ],
+   "chars": 1186
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-karate-asna",
+   "municipio": "valls",
+   "web": "http://www.karateasna.com/",
+   "estado": "ok",
+   "url_final": "https://karateasna.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "karate",
+    "lucha"
+   ],
+   "chars": 3815
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-gous-valls",
+   "municipio": "valls",
+   "web": "http://Clubesportiugousvalls.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-esportiva-grulla-i-serp-de-wushu",
+   "municipio": "el-vendrell",
+   "web": "https://webfacil.tinet.cat/wingchunkungfumontblanc",
+   "estado": "ok",
+   "url_final": "https://webfacil.tinet.cat/wingchunkungfumontblanc",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "kung-fu",
+    "tai-chi",
+    "wing-chun"
+   ],
+   "chars": 310537
+  },
+  {
+   "tipo": "ficha",
+   "id": "dojo-arazola",
+   "municipio": "calafell",
+   "web": "http://www.arazolakarate.es/",
+   "estado": "ok",
+   "url_final": "https://arazolakarate.es/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "karate"
+   ],
+   "chars": 2208
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-arts-marcials-kodojo",
+   "municipio": "calafell",
+   "web": "https://kodojoclub.wixsite.com/inicio",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-boxa-swing-segur-2018",
+   "municipio": "calafell",
+   "web": "http://www.swing-Boxing.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "taekwondo-my-ju-cunit",
+   "municipio": "cunit",
+   "web": "http://taekwondomyjucunit.es/",
+   "estado": "ok",
+   "url_final": "https://taekwondomyjucunit.es/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "taekwondo"
+   ],
+   "chars": 4297
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-de-lucha-garra",
+   "municipio": "bellvei",
+   "web": "http://garraescueladelucha.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "la-lira-vendrellenca",
+   "municipio": "el-vendrell",
+   "web": "https://www.laguardiaguerreros.com/es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "la-lira-vendrellenca",
+   "municipio": "el-vendrell",
+   "web": "http://www.mugendo.es/",
+   "estado": "ok",
+   "url_final": "https://mugendo.es/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "karate",
+    "kickboxing",
+    "krav-maga",
+    "taekwondo"
+   ],
+   "chars": 5919
+  },
+  {
+   "tipo": "ficha",
+   "id": "budokan-penedes",
+   "municipio": "vilafranca-del-penedes",
+   "web": "http://www.budokanpenedes.com/",
+   "estado": "ok",
+   "url_final": "https://budokanpenedes.com/",
+   "disciplinas_citadas": [],
+   "chars": 351
+  },
+  {
+   "tipo": "ficha",
+   "id": "hiraken-karate-do-gimnas",
+   "municipio": "vilafranca-del-penedes",
+   "web": "http://www.shindokai.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-de-lluita-vilafranca",
+   "municipio": "vilafranca-del-penedes",
+   "web": "http://www.clubdelluitavilafranca.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-arts-marcials-begues",
+   "municipio": "begues",
+   "web": "http://www.systemasvspain.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "dojo-kintsukuroi",
+   "municipio": "sant-joan-despi",
+   "web": "https://dojokintsukuroi.es/",
+   "estado": "ok",
+   "url_final": "https://dojokintsukuroi.es/",
+   "disciplinas_citadas": [],
+   "chars": 17
+  },
+  {
+   "tipo": "ficha",
+   "id": "antarai-training-camp",
+   "municipio": "sant-joan-despi",
+   "web": "http://antarai.com/",
+   "estado": "error",
+   "error": "HTTPError 403"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-boxa-gladius-boxing-health",
+   "municipio": "esplugues-de-llobregat",
+   "web": "http://www.boxingandhealth.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-esportiva-hayashi-ha-shito-ryu-kai-catalunya",
+   "municipio": "cornella-de-llobregat",
+   "web": "https://www.karatehayashiha.com/",
+   "estado": "ok",
+   "url_final": "https://www.karatehayashiha.com/",
+   "disciplinas_citadas": [
+    "karate",
+    "kobudo"
+   ],
+   "chars": 11871
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-hapkido-musul",
+   "municipio": "sant-boi-de-llobregat",
+   "web": "https://hangukmusool.co.uk/?fbclid=PAZXh0bgNhZW0CMTEAAaZafAIB4Ks2rrZQgeKzH4iYRKBfveZcYJSsnGkdtif14gCAg92q1qV-dDg_aem_AalKnYCMkklwZBMbR3_bSf_yGpBzydNJudgKVxUpdojz-gOmvxprq-2V94Mea9NX8_OMV4FSKvK3awFeOZ_o3EuG",
+   "estado": "ok",
+   "url_final": "https://www.hangukmusool.co.uk/?fbclid=PAZXh0bgNhZW0CMTEAAaZafAIB4Ks2rrZQgeKzH4iYRKBfveZcYJSsnGkdtif14gCAg92q1qV-dDg_aem_AalKnYCMkklwZBMbR3_bSf_yGpBzydNJudgKVxUpdojz-gOmvxprq-2V94Mea9NX8_OMV4FSKvK3awFeOZ_o3EuG",
+   "disciplinas_citadas": [],
+   "chars": 103496
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-karate-sakura-viladecans",
+   "municipio": "viladecans",
+   "web": "http://www.karatesakura.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-esportiva-coliseum-boxing-viladecans",
+   "municipio": "viladecans",
+   "web": "http://coliseumboxing.com/",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-joanyinyang-taiji-quan",
+   "municipio": "castelldefels",
+   "web": "http://www.joanyinyang.com/",
+   "estado": "ok",
+   "url_final": "http://www.joanyinyang.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "kung-fu",
+    "tai-chi"
+   ],
+   "chars": 5072
+  },
+  {
+   "tipo": "ficha",
+   "id": "boxa-club-terrassa",
+   "municipio": "terrassa",
+   "web": "https://www.boxingclubterrassa.es/",
+   "estado": "ok",
+   "url_final": "https://www.boxingclubterrassa.es/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing"
+   ],
+   "chars": 9816
+  },
+  {
+   "tipo": "ficha",
+   "id": "balmes-rubi",
+   "municipio": "rubi",
+   "web": "https://twitter.com/TaekwondoBalmes",
+   "estado": "ok",
+   "url_final": "https://x.com/TaekwondoBalmes",
+   "disciplinas_citadas": [],
+   "chars": 546
+  },
+  {
+   "tipo": "ficha",
+   "id": "judo-castellbisbal",
+   "municipio": "castellbisbal",
+   "web": "http://www.kaseha.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-karate-kizuna-sant-sadurni",
+   "municipio": "sant-sadurni-danoia",
+   "web": "http://dojokizuna.blogspot.com/",
+   "estado": "ok",
+   "url_final": "https://dojokizuna.blogspot.com/",
+   "disciplinas_citadas": [
+    "karate",
+    "kobudo"
+   ],
+   "chars": 10529
+  },
+  {
+   "tipo": "ficha",
+   "id": "bushido-dojo",
+   "municipio": "vallirana",
+   "web": "https://www.bushidodojovallirana.com/",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-hapkido-tae-kunsul",
+   "municipio": "cervello",
+   "web": "https://clubesportiuhapkido.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-karate-kyokushin-nintai-sant-feliu",
+   "municipio": "sant-feliu-de-llobregat",
+   "web": "http://www.karatedojonintai.com/",
+   "estado": "ok",
+   "url_final": "https://karatedojonintai.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "karate"
+   ],
+   "chars": 4046
+  },
+  {
+   "tipo": "ficha",
+   "id": "kihon-club",
+   "municipio": "lhospitalet-de-llobregat",
+   "web": "http://www.aikidobarcelona.com/",
+   "estado": "ok",
+   "url_final": "https://aikidobarcelona.com/",
+   "disciplinas_citadas": [
+    "aikido"
+   ],
+   "chars": 522
+  },
+  {
+   "tipo": "ficha",
+   "id": "brave-martial-arts",
+   "municipio": "barcelona",
+   "web": "https://www.warriorsmartialarts.com/",
+   "estado": "ok",
+   "url_final": "https://www.warriorsmartialarts.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "kickboxing",
+    "muay-thai"
+   ],
+   "chars": 5413
+  },
+  {
+   "tipo": "ficha",
+   "id": "brave-martial-arts",
+   "municipio": "barcelona",
+   "web": "http://templemartial.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "sob-seng-won",
+   "municipio": "barcelona",
+   "web": "http://www.wonsbarcelona.es/",
+   "estado": "ok",
+   "url_final": "https://wonsbarcelona.es/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "hapkido",
+    "taekwondo"
+   ],
+   "chars": 3219
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-zen-tao",
+   "municipio": "barcelona",
+   "web": "http://www.wudang-tao.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-darts-marcials-dao-kwon",
+   "municipio": "barcelona",
+   "web": "https://m.youtube.com/#/playlist?list=UUVCvjTEGAZ3aRYQmtjH0U0Q",
+   "estado": "ok",
+   "url_final": "https://www.youtube.com/?app=desktop",
+   "disciplinas_citadas": [],
+   "chars": 384922
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-quimic-de-sarria",
+   "municipio": "barcelona",
+   "web": "http://Www.artesmarcialesmac.com/",
+   "estado": "error",
+   "error": "HTTPError 429"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-deportivo-artes-marciales-sabadell",
+   "municipio": "sabadell",
+   "web": "http://loong.cat/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-boxa-team-dani-fighters",
+   "municipio": "sabadell",
+   "web": "http://www.instagram.com/team_dani_fighers",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/team_dani_fighers",
+   "disciplinas_citadas": [],
+   "chars": 55774
+  },
+  {
+   "tipo": "ficha",
+   "id": "seul-polinya",
+   "municipio": "polinya",
+   "web": "http://taekwondoseulpolinya.blogspot.com.es/",
+   "estado": "ok",
+   "url_final": "http://taekwondoseulpolinya.blogspot.com/",
+   "disciplinas_citadas": [
+    "taekwondo"
+   ],
+   "chars": 16600
+  },
+  {
+   "tipo": "ficha",
+   "id": "doil-lee",
+   "municipio": "cerdanyola-del-valles",
+   "web": "http://leeyoungcerdanyola.com/",
+   "estado": "ok",
+   "url_final": "https://www.leeyoungcerdanyola.com/",
+   "disciplinas_citadas": [
+    "taekwondo"
+   ],
+   "chars": 2638
+  },
+  {
+   "tipo": "ficha",
+   "id": "juntai-i",
+   "municipio": "barcelona",
+   "web": "https://tkdqueroljuntai.com/",
+   "estado": "ok",
+   "url_final": "https://tkdqueroljuntai.com/",
+   "disciplinas_citadas": [
+    "taekwondo"
+   ],
+   "chars": 3917
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-dep-gimnas-kyu",
+   "municipio": "barcelona",
+   "web": "http://www.goldenkyu.com",
+   "estado": "ok",
+   "url_final": "https://goldenkyu.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "grappling",
+    "karate",
+    "kickboxing",
+    "taekwondo"
+   ],
+   "chars": 6994
+  },
+  {
+   "tipo": "ficha",
+   "id": "dojo-taido",
+   "municipio": "barcelona",
+   "web": "http://www.instagram.com/dojo_taido",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/dojo_taido",
+   "disciplinas_citadas": [],
+   "chars": 61401
+  },
+  {
+   "tipo": "ficha",
+   "id": "centro-de-deportes-alfa-5-del-barri-de-la-llacuna",
+   "municipio": "barcelona",
+   "web": "http://www.barcelonacef.com/",
+   "estado": "ok",
+   "url_final": "http://barcelonacef.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "boxeo",
+    "defensa-personal",
+    "taekwondo"
+   ],
+   "chars": 6234
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-kickboxing-muaythai-catalunya",
+   "municipio": "barcelona",
+   "web": "https://www.muaythaibarcelona.com",
+   "estado": "ok",
+   "url_final": "https://www.muaythaibarcelona.com",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "muay-thai"
+   ],
+   "chars": 2162
+  },
+  {
+   "tipo": "ficha",
+   "id": "cd-natura",
+   "municipio": "barcelona",
+   "web": "http://www.taijinatural.com/",
+   "estado": "ok",
+   "url_final": "https://www.facebook.com/taijinatural",
+   "disciplinas_citadas": [],
+   "chars": 1062
+  },
+  {
+   "tipo": "ficha",
+   "id": "fudoshin-dojo-garcia",
+   "municipio": "barcelona",
+   "web": "https://www.fudoshindojogracia.com/",
+   "estado": "ok",
+   "url_final": "https://www.fudoshindojogracia.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "boxeo",
+    "defensa-personal",
+    "karate",
+    "kickboxing",
+    "kobudo",
+    "muay-thai"
+   ],
+   "chars": 7629
+  },
+  {
+   "tipo": "ficha",
+   "id": "las-cuerdas-del-carmelo",
+   "municipio": "barcelona",
+   "web": "http://lascuerdasdelcarmelo.com/",
+   "estado": "ok",
+   "url_final": "https://www.lascuerdasdelcarmelo.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "muay-thai"
+   ],
+   "chars": 1064
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-darts-marcials-xavi-nadal",
+   "municipio": "barcelona",
+   "web": "https://escuelaartesmarcialesxavinadalbarcelona.com/",
+   "estado": "ok",
+   "url_final": "https://escuelaartesmarcialesxavinadalbarcelona.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "karate",
+    "kickboxing",
+    "krav-maga"
+   ],
+   "chars": 2771
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-dojosan-gervasio",
+   "municipio": "barcelona",
+   "web": "http://www.mugenryu.com/",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "ficha",
+   "id": "don-gimnas",
+   "municipio": "barcelona",
+   "web": "http://dongimnastkd.com/",
+   "estado": "error",
+   "error": "HTTPError 404"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-boxa-barcelona",
+   "municipio": "barcelona",
+   "web": "http://www.boxasantgervasi.com/",
+   "estado": "ok",
+   "url_final": "https://www.boxasantgervasi.com/",
+   "disciplinas_citadas": [
+    "boxeo"
+   ],
+   "chars": 7031
+  },
+  {
+   "tipo": "ficha",
+   "id": "brave-martial-arts",
+   "municipio": "barcelona",
+   "web": "https://mugendo.es/",
+   "estado": "ok",
+   "url_final": "https://mugendo.es/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "karate",
+    "kickboxing",
+    "krav-maga",
+    "taekwondo"
+   ],
+   "chars": 5919
+  },
+  {
+   "tipo": "ficha",
+   "id": "c-e-wu-shu-siu-lam",
+   "municipio": "barcelona",
+   "web": "http://www.institutodewushu.com/",
+   "estado": "ok",
+   "url_final": "http://institutodewushu.com/",
+   "disciplinas_citadas": [
+    "kung-fu",
+    "tai-chi",
+    "wing-chun"
+   ],
+   "chars": 3546
+  },
+  {
+   "tipo": "ficha",
+   "id": "hirota-karate-club",
+   "municipio": "barcelona",
+   "web": "http://www.karateclubhirota.com",
+   "estado": "ok",
+   "url_final": "http://www.karateclubhirota.com",
+   "disciplinas_citadas": [
+    "aikido",
+    "defensa-personal",
+    "karate",
+    "kendo"
+   ],
+   "chars": 6364
+  },
+  {
+   "tipo": "ficha",
+   "id": "solsona",
+   "municipio": "solsona",
+   "web": "https://twitter.com/TKDSolsona",
+   "estado": "ok",
+   "url_final": "https://x.com/TKDSolsona",
+   "disciplinas_citadas": [
+    "hapkido",
+    "taekwondo"
+   ],
+   "chars": 1190
+  },
+  {
+   "tipo": "ficha",
+   "id": "a-e-karate-kobudo-tradicional-pirineus",
+   "municipio": "la-seu-durgell",
+   "web": "http://www.karate-shitoryu.com/",
+   "estado": "ok",
+   "url_final": "https://www.karate-shitoryu.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "karate",
+    "kobudo"
+   ],
+   "chars": 3698
+  },
+  {
+   "tipo": "ficha",
+   "id": "budokan-vilanova-del-cami-tai-jitsu",
+   "municipio": "vilanova-del-cami",
+   "web": "http://www.budokan.es/",
+   "estado": "ok",
+   "url_final": "https://budokan.es/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "jiu-jitsu-japones",
+    "judo",
+    "karate",
+    "kobudo"
+   ],
+   "chars": 4085
+  },
+  {
+   "tipo": "ficha",
+   "id": "taekwondo-viturtia",
+   "municipio": "manresa",
+   "web": "https://www.notion.so/Escuela-de-Artes-Marciales-Viturtia-4ef0985b3a6e46889b4a88efdaeac177?pvs=4",
+   "estado": "ok",
+   "url_final": "https://app.notion.com/p/Escuela-de-Artes-Marciales-Viturtia-4ef0985b3a6e46889b4a88efdaeac177?pvs=4&__dm_a=1",
+   "disciplinas_citadas": [],
+   "chars": 93
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-taekwondo-castellet",
+   "municipio": "sant-vicenc-de-castellet",
+   "web": "http://taekwondocastellet.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-esportiva-de-boxa-jmboxing-jonathan-mario-boxing",
+   "municipio": "terrassa",
+   "web": "https://www.youtube.com/channel/UCfuafb1bmYDCsBSZ_z9aXeA",
+   "estado": "ok",
+   "url_final": "https://www.youtube.com/channel/UCfuafb1bmYDCsBSZ_z9aXeA?cbrd=1&ucbcb=1",
+   "disciplinas_citadas": [],
+   "chars": 385773
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-esportiva-de-kungfu-sibpalki",
+   "municipio": "terrassa",
+   "web": "http://kungfutaichichuan.blogspot.com.es/",
+   "estado": "ok",
+   "url_final": "http://kungfutaichichuan.blogspot.com/",
+   "disciplinas_citadas": [
+    "kung-fu",
+    "tai-chi"
+   ],
+   "chars": 4061
+  },
+  {
+   "tipo": "ficha",
+   "id": "centro-de-deportes-alfa-5-del-barri-de-la-llacuna",
+   "municipio": "barcelona",
+   "web": "http://www.kumon.es/Barcelona-Tetuan/index.htm",
+   "estado": "ok",
+   "url_final": "https://www.kumon.es/404",
+   "disciplinas_citadas": [],
+   "chars": 2237
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-selva-de-mar-de-lucha-libre-americana",
+   "municipio": "barcelona",
+   "web": "http://www.elclubdelaluchabarcelona.com",
+   "estado": "ok",
+   "url_final": "https://www.elclubdelaluchabarcelona.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "grappling",
+    "jiu-jitsu-brasileno",
+    "kickboxing",
+    "lucha",
+    "mma",
+    "muay-thai"
+   ],
+   "chars": 6029
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-gimnas-marin",
+   "municipio": "barcelona",
+   "web": "https://bit.ly/3f8cLFa",
+   "estado": "ok",
+   "url_final": "https://www.brooklynfitboxing.com/public/es/es-es/club/MARINA-BARCELONA",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing"
+   ],
+   "chars": 9510
+  },
+  {
+   "tipo": "ficha",
+   "id": "bam-chun",
+   "municipio": "barcelona",
+   "web": "https://www.instagram.com/bamchun_horta/",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/bamchun_horta/",
+   "disciplinas_citadas": [
+    "taekwondo"
+   ],
+   "chars": 61153
+  },
+  {
+   "tipo": "ficha",
+   "id": "yugen-dojo",
+   "municipio": "barcelona",
+   "web": "https://esportiuclaret.com/karate/",
+   "estado": "ok",
+   "url_final": "https://esportiuclaret.com/karate/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 4274
+  },
+  {
+   "tipo": "ficha",
+   "id": "yugen-dojo",
+   "municipio": "barcelona",
+   "web": "http://www.byakurendojo.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-karate-guinardo",
+   "municipio": "barcelona",
+   "web": "https://www.instagram.com/dojo_guinardo/",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/dojo_guinardo/",
+   "disciplinas_citadas": [],
+   "chars": 61190
+  },
+  {
+   "tipo": "ficha",
+   "id": "lee-young-ripoll",
+   "municipio": "ripoll",
+   "web": "http://taekwondoripoll.jimndo.com/",
+   "estado": "ok",
+   "url_final": "http://taekwondoripoll.jimndo.com/",
+   "disciplinas_citadas": [],
+   "chars": 44
+  },
+  {
+   "tipo": "ficha",
+   "id": "hermanos-argudo",
+   "municipio": "barcelona",
+   "web": "http://www.taekwondohnosargudo.com",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-karate-guinardo",
+   "municipio": "barcelona",
+   "web": "http://defensapersonalguinardo.mugendo.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "shihan-escola-de-karate",
+   "municipio": "barcelona",
+   "web": "http://www.shihandojo.com/",
+   "estado": "ok",
+   "url_final": "http://www.shihandojo.com/",
+   "disciplinas_citadas": [
+    "karate",
+    "tai-chi"
+   ],
+   "chars": 830
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-kickboxing-muaythai-catalunya",
+   "municipio": "barcelona",
+   "web": "http://www.ubk-centre.com",
+   "estado": "ok",
+   "url_final": "https://www.ubk-centre.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "tai-chi"
+   ],
+   "chars": 7317
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-boxa-ko-verdun",
+   "municipio": "barcelona",
+   "web": "http://www.koverdun.com/",
+   "estado": "ok",
+   "url_final": "https://koverdun.com/",
+   "disciplinas_citadas": [],
+   "chars": 158
+  },
+  {
+   "tipo": "ficha",
+   "id": "escuelas-do-yang",
+   "municipio": "barcelona",
+   "web": "http://www.doyangatienza.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "bam-chun",
+   "municipio": "barcelona",
+   "web": "http://www.bamchundokwan.com",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "centro-de-deportes-alfa-5-del-barri-de-la-llacuna",
+   "municipio": "barcelona",
+   "web": "https://barriobravo.es/es/",
+   "estado": "ok",
+   "url_final": "https://barriobravo.es/es/",
+   "disciplinas_citadas": [
+    "boxeo"
+   ],
+   "chars": 2239
+  },
+  {
+   "tipo": "ficha",
+   "id": "sparta-bcn-fight-club",
+   "municipio": "barcelona",
+   "web": "http://spartabcnfightteam.placeweb.site",
+   "estado": "ok",
+   "url_final": "http://spartabcnfightteam.placeweb.site",
+   "disciplinas_citadas": [],
+   "chars": 151
+  },
+  {
+   "tipo": "ficha",
+   "id": "brave-martial-arts",
+   "municipio": "barcelona",
+   "web": "http://bcnma.com/",
+   "estado": "ok",
+   "url_final": "https://www.bcnma.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "jiu-jitsu-brasileno",
+    "karate",
+    "mma",
+    "muay-thai"
+   ],
+   "chars": 4335
+  },
+  {
+   "tipo": "ficha",
+   "id": "escuelas-do-yang",
+   "municipio": "barcelona",
+   "web": "https://artesmarcialesbcn.com/",
+   "estado": "ok",
+   "url_final": "https://artesmarcialesbcn.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "hapkido",
+    "jiu-jitsu-brasileno",
+    "kali",
+    "lucha",
+    "taekwondo"
+   ],
+   "chars": 4562
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-urban",
+   "municipio": "badalona",
+   "web": "http://www.urbanteam.es/",
+   "estado": "ok",
+   "url_final": "https://www.urbanteam.es/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 4190
+  },
+  {
+   "tipo": "ficha",
+   "id": "oyamas-karate",
+   "municipio": "badalona",
+   "web": "http://oyamaskarate.blogspot.com.es/",
+   "estado": "ok",
+   "url_final": "http://oyamaskarate.blogspot.com/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 10895
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-boxa-sant-adria",
+   "municipio": "sant-adria-de-besos",
+   "web": "http://www.boxasantadria.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-karate-ippon",
+   "municipio": "barcelona",
+   "web": "http://instagram.com/clubkarateippon/",
+   "estado": "ok",
+   "url_final": "https://www.instagram.com/clubkarateippon/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 60846
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-okinawa",
+   "municipio": "barcelona",
+   "web": "http://www.gymlouis.org/",
+   "estado": "ok",
+   "url_final": "https://gymlouis.org/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 294585
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-kickboxing-barcelona-clot",
+   "municipio": "barcelona",
+   "web": "http://www.defensapersonaltks.com/",
+   "estado": "ok",
+   "url_final": "https://defensapersonaltks.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "jiu-jitsu-brasileno",
+    "karate",
+    "kickboxing",
+    "mma",
+    "muay-thai"
+   ],
+   "chars": 22747
+  },
+  {
+   "tipo": "ficha",
+   "id": "wrestling-estornell",
+   "municipio": "barcelona",
+   "web": "http://resistbio.surge.sh/",
+   "estado": "ok",
+   "url_final": "http://resistbio.surge.sh/",
+   "disciplinas_citadas": [
+    "lucha"
+   ],
+   "chars": 20
+  },
+  {
+   "tipo": "ficha",
+   "id": "j-martinez-sport-center",
+   "municipio": "santa-coloma-de-gramenet",
+   "web": "http://dojo-jmartinez.es",
+   "estado": "ok",
+   "url_final": "http://dojo-jmartinez.es",
+   "disciplinas_citadas": [],
+   "chars": 136
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-go-kan",
+   "municipio": "badalona",
+   "web": "http://dojogokan.com/",
+   "estado": "ok",
+   "url_final": "https://www.dojogokan.com/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 1731
+  },
+  {
+   "tipo": "ficha",
+   "id": "han-ra",
+   "municipio": "santa-coloma-de-gramenet",
+   "web": "http://www.tkdhanra.com/",
+   "estado": "ok",
+   "url_final": "http://tkdhanra.com/",
+   "disciplinas_citadas": [
+    "hapkido",
+    "taekwondo"
+   ],
+   "chars": 3536
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-bloodbrothers",
+   "municipio": "mollet-del-valles",
+   "web": "http://molletbjj.blogspot.com.es/",
+   "estado": "ok",
+   "url_final": "http://molletbjj.blogspot.com/",
+   "disciplinas_citadas": [
+    "jiu-jitsu-brasileno",
+    "lucha"
+   ],
+   "chars": 9168
+  },
+  {
+   "tipo": "ficha",
+   "id": "asociacion-de-artes-marciales-nihon-tai-jitsu-aspa",
+   "municipio": "el-masnou",
+   "web": "https://taichidojomasnou.com/",
+   "estado": "ok",
+   "url_final": "https://taichidojomasnou.com/",
+   "disciplinas_citadas": [
+    "aikido",
+    "tai-chi"
+   ],
+   "chars": 1017
+  },
+  {
+   "tipo": "ficha",
+   "id": "dym-badalona",
+   "municipio": "badalona",
+   "web": "http://www.centrosdym.com/",
+   "estado": "ok",
+   "url_final": "https://centrosdym.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "defensa-personal",
+    "karate",
+    "kickboxing"
+   ],
+   "chars": 6667
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-boxa-jg-xperience",
+   "municipio": "premia-de-dalt",
+   "web": "http://www.xperiencejuliginer.com/",
+   "estado": "ok",
+   "url_final": "https://xperiencejuliginer.com/",
+   "disciplinas_citadas": [
+    "boxeo"
+   ],
+   "chars": 1328
+  },
+  {
+   "tipo": "ficha",
+   "id": "lee-young-parets",
+   "municipio": "parets-del-valles",
+   "web": "https://www.youtube.com/user/joseluisestudillovel",
+   "estado": "ok",
+   "url_final": "https://www.youtube.com/user/joseluisestudillovel?cbrd=1&ucbcb=1",
+   "disciplinas_citadas": [],
+   "chars": 385793
+  },
+  {
+   "tipo": "ficha",
+   "id": "ushiro-club-esportiu",
+   "municipio": "la-garriga",
+   "web": "http://ushiro.cat/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-deportivo-bujinkan-waryu-granollers-bcn",
+   "municipio": "granollers",
+   "web": "http://www.bujinkancatalunya.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-aikido-granollers",
+   "municipio": "granollers",
+   "web": "http://clubhapkidogranollers.blogspot.com/",
+   "estado": "ok",
+   "url_final": "http://clubhapkidogranollers.blogspot.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "hapkido"
+   ],
+   "chars": 16916
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-de-karate-jutsu-palautordera",
+   "municipio": "santa-maria-de-palautordera",
+   "web": "http://www.koryuuchinadibarcelona.es/",
+   "estado": "ok",
+   "url_final": "https://www.koryuuchinadibarcelona.es/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "karate"
+   ],
+   "chars": 2974
+  },
+  {
+   "tipo": "ficha",
+   "id": "esportiu-taekwondo-mataro",
+   "municipio": "mataro",
+   "web": "https://clubtaekwondomataro.wordpress.com/",
+   "estado": "ok",
+   "url_final": "https://clubtaekwondomataro.wordpress.com/",
+   "disciplinas_citadas": [
+    "boxeo",
+    "kickboxing",
+    "taekwondo"
+   ],
+   "chars": 1036
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-aikido-txingurrikai",
+   "municipio": "caldes-destrac",
+   "web": "https://www.aikidoestrac.com/",
+   "estado": "ok",
+   "url_final": "https://www.aikidoestrac.com/",
+   "disciplinas_citadas": [
+    "aikido"
+   ],
+   "chars": 8899
+  },
+  {
+   "tipo": "ficha",
+   "id": "associacio-esportiva-drac-roig",
+   "municipio": "canet-de-mar",
+   "web": "http://www.escoladracroig.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "la-selva-hostalric-club-esportiu",
+   "municipio": "hostalric",
+   "web": "http://clublaselva.es/",
+   "estado": "ok",
+   "url_final": "http://clublaselva.es/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 1566
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-kenpo-karate-malgrat",
+   "municipio": "malgrat-de-mar",
+   "web": "http://kenpokarategym.wordpress.com/",
+   "estado": "ok",
+   "url_final": "https://kenpokarategym.wordpress.com/",
+   "disciplinas_citadas": [
+    "karate"
+   ],
+   "chars": 2034
+  },
+  {
+   "tipo": "ficha",
+   "id": "ki-hop",
+   "municipio": "figueres",
+   "web": "http://kihop.es/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "ki-hop",
+   "municipio": "figueres",
+   "web": "http://www.hapkidofigueres.com/",
+   "estado": "ok",
+   "url_final": "https://kifightfigueres.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "hapkido",
+    "taekwondo"
+   ],
+   "chars": 847
+  },
+  {
+   "tipo": "ficha",
+   "id": "jan-su-figueres",
+   "municipio": "figueres",
+   "web": "http://www.magiesport-jansu.com/",
+   "estado": "error",
+   "error": "URLError"
+  },
+  {
+   "tipo": "ficha",
+   "id": "new-age-lloret",
+   "municipio": "lloret-de-mar",
+   "web": "https://clubtaekwondonewage.com/",
+   "estado": "ok",
+   "url_final": "https://mario4922.wixsite.com/club-taekwondo-new-a",
+   "disciplinas_citadas": [
+    "taekwondo"
+   ],
+   "chars": 238152
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-zen-tao",
+   "municipio": "barcelona",
+   "web": "https://zen-barcelona.com",
+   "estado": "ok",
+   "url_final": "https://zen-barcelona.com/es/",
+   "disciplinas_citadas": [],
+   "chars": 1727
+  },
+  {
+   "tipo": "ficha",
+   "id": "equip-4-club-karate",
+   "municipio": "sant-sadurni-danoia",
+   "web": "https://www.equip4.cat",
+   "estado": "ok",
+   "url_final": "https://www.equip4.cat",
+   "disciplinas_citadas": [],
+   "chars": 1523
+  },
+  {
+   "tipo": "ficha",
+   "id": "club-esportiu-mediterrani",
+   "municipio": "barcelona",
+   "web": "https://clubesportiumediterrani.com/",
+   "estado": "ok",
+   "url_final": "https://clubesportiumediterrani.com/",
+   "disciplinas_citadas": [
+    "defensa-personal",
+    "karate"
+   ],
+   "chars": 8108
+  }
+ ]
+}

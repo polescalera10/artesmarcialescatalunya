@@ -1,0 +1,5199 @@
+[
+ {
+  "nombre": "Taekwondo Olímpic Rodonyà",
+  "municipio": "rodonya",
+  "comarca": "alt-camp",
+  "disciplinas": [],
+  "direccion": "Rodonyà",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/885148048182510"
+  ],
+  "lat": 41.286,
+  "lon": 1.4139,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Brazilian Jiu-Jitsu Artes Marciales Mixtas",
+  "municipio": "valls",
+  "comarca": "alt-camp",
+  "disciplinas": [],
+  "direccion": "Carretera de Tarragona 12",
+  "web": null,
+  "redes": [],
+  "lat": 41.28088,
+  "lon": 1.24657,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "martial_arts"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Club Esportiu Popular La Turba",
+  "municipio": "valls",
+  "comarca": "alt-camp",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer dels Metges 14",
+  "web": "https://www.laturba.cat/gimnas-popular/",
+  "redes": [],
+  "lat": 41.28279,
+  "lon": 1.2481,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "self_defense;boxing;yoga;hatha_yoga;functional_training;basketball_junior"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "DAO Traditional Chinese Martial Arts",
+  "municipio": "valls",
+  "comarca": "alt-camp",
+  "disciplinas": [],
+  "direccion": "Plaça Torrent del Titit",
+  "web": "http://www.centredao.com/",
+  "redes": [
+   "https://www.facebook.com/494414270741356"
+  ],
+  "lat": 41.28794,
+  "lon": 1.25498,
+  "fuentes": [
+   "osm",
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts",
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "DOJO Kekkan",
+  "municipio": "avinyonet-de-puigventos",
+  "comarca": "alt-emporda",
+  "disciplinas": [],
+  "direccion": "Carrer Tramuntana, 17742 Avinyonet de Puigventós (Girona), Espanya",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/689001581965013"
+  ],
+  "lat": 42.24204,
+  "lon": 2.90665,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Evotime",
+  "municipio": "figueres",
+  "comarca": "alt-emporda",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer d'Alemanya, 37",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1654464361536716"
+  ],
+  "lat": 42.26197,
+  "lon": 2.98051,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Tadaima Dojo Escola D'Arts Marcials",
+  "municipio": "figueres",
+  "comarca": "alt-emporda",
+  "disciplinas": [],
+  "direccion": "Carrer Juli Garreta, 18",
+  "web": "https://tadaimahonbudojo.com/",
+  "redes": [
+   "https://www.facebook.com/127392248121"
+  ],
+  "lat": 42.27093,
+  "lon": 2.96594,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Tae Sport Vilafant",
+  "municipio": "figueres",
+  "comarca": "alt-emporda",
+  "disciplinas": [],
+  "direccion": null,
+  "web": "http://Www.taesport.com/",
+  "redes": [
+   "https://www.facebook.com/494057283940059"
+  ],
+  "lat": 42.25659,
+  "lon": 2.96451,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Gimnasio TKD Sansa",
+  "municipio": "sant-sadurni-danoia",
+  "comarca": "alt-penedes",
+  "disciplinas": [],
+  "direccion": "Carrer del Mestre Antoni Torelló, 55",
+  "web": "http://www.tkdsansa.com/",
+  "redes": [
+   "https://www.facebook.com/1475099366080045"
+  ],
+  "lat": 41.42748,
+  "lon": 1.78491,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Ken-Zen Dojo",
+  "municipio": "santa-margarida-i-els-monjos",
+  "comarca": "alt-penedes",
+  "disciplinas": [],
+  "direccion": "Carrer Berenguer, 5",
+  "web": "http://dojokenzen.wix.com/kenzendojo",
+  "redes": [
+   "https://www.facebook.com/231386913607766"
+  ],
+  "lat": 41.32059,
+  "lon": 1.66468,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "mugendo vilafranca",
+  "municipio": "vilafranca-del-penedes",
+  "comarca": "alt-penedes",
+  "disciplinas": [],
+  "direccion": "Carrer de la Muralla de Sant Magí, 8",
+  "web": "http://defensapersonalvilafranca.mugendo.es/",
+  "redes": [
+   "https://www.facebook.com/1513748188904571"
+  ],
+  "lat": 41.34664,
+  "lon": 1.70108,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Academia d'Arts Marcials Gombau",
+  "municipio": "la-seu-durgell",
+  "comarca": "alt-urgell",
+  "disciplinas": [],
+  "direccion": "Carrer de la Regència d'Urgell, 16",
+  "web": "http://aamgombau.cat/",
+  "redes": [
+   "https://www.facebook.com/1956435097756008"
+  ],
+  "lat": 42.35727,
+  "lon": 1.4579,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Kung Fu Tai Chi Igualada",
+  "municipio": "igualada",
+  "comarca": "anoia",
+  "disciplinas": [],
+  "direccion": "Carrer de Florenci Valls, 98",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/108523211872386"
+  ],
+  "lat": 41.58199,
+  "lon": 1.62489,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Kyoukai Budo",
+  "municipio": "igualada",
+  "comarca": "anoia",
+  "disciplinas": [],
+  "direccion": "Ateneu Igualadí, Carrer de Sant Pau, 9",
+  "web": "http://kyoukaibudo.blogspot.com/",
+  "redes": [
+   "https://www.facebook.com/112347302110248"
+  ],
+  "lat": 41.57943,
+  "lon": 1.62017,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Kyudo Dojo Kaizen - Igualada",
+  "municipio": "igualada",
+  "comarca": "anoia",
+  "disciplinas": [],
+  "direccion": "https://maps.app.goo.gl/8wt6kU9mK6kBhixE6?g_st=aw",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/106789035146846"
+  ],
+  "lat": 41.57794,
+  "lon": 1.61407,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Tigra",
+  "municipio": "igualada",
+  "comarca": "anoia",
+  "disciplinas": [],
+  "direccion": "Carrer de Florenci Valls, 98, bajos 2°",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/169011372968493"
+  ],
+  "lat": 41.58188,
+  "lon": 1.62473,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Honor Gym",
+  "municipio": "piera",
+  "comarca": "anoia",
+  "disciplinas": [],
+  "direccion": "Carrer Sant Bonifaci, 53",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/293192177209709"
+  ],
+  "lat": 41.52047,
+  "lon": 1.74775,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Kiat Chock Dee Escuela de artes marciales",
+  "municipio": "piera",
+  "comarca": "anoia",
+  "disciplinas": [],
+  "direccion": "Carrer del Parc, 21",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/547533128737794"
+  ],
+  "lat": 41.52215,
+  "lon": 1.7528,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Furio Jol Team",
+  "municipio": "vilanova-del-cami",
+  "comarca": "anoia",
+  "disciplinas": [],
+  "direccion": "Carrer de Manresa, 27",
+  "web": "https://furiojolteam.wixsite.com/furio-jol",
+  "redes": [
+   "https://www.facebook.com/772677832893994"
+  ],
+  "lat": 41.56889,
+  "lon": 1.64287,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Tus Artes Marciales",
+  "municipio": "vilanova-del-cami",
+  "comarca": "anoia",
+  "disciplinas": [],
+  "direccion": "Calle de les Cuadres, 8",
+  "web": "https://tusartesmarciales.es/",
+  "redes": [
+   "https://www.facebook.com/1555244218100220"
+  ],
+  "lat": 41.57896,
+  "lon": 1.61226,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Keep Fit Gims",
+  "municipio": "manresa",
+  "comarca": "bages",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Ctra. del Pont de Vilomara, 87",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1640984795957939"
+  ],
+  "lat": 41.72654,
+  "lon": 1.83664,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Club Esportiu Judo Escola De Reus",
+  "municipio": "reus",
+  "comarca": "baix-camp",
+  "disciplinas": [],
+  "direccion": null,
+  "web": null,
+  "redes": [],
+  "lat": 41.15635,
+  "lon": 1.11159,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Mugendo Reus",
+  "municipio": "reus",
+  "comarca": "baix-camp",
+  "disciplinas": [],
+  "direccion": "Carrer de Rovira i Virgili, 30",
+  "web": "https://reus.mugendo.es/",
+  "redes": [
+   "https://www.facebook.com/107006303984545"
+  ],
+  "lat": 41.15822,
+  "lon": 1.07948,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Gimnàs Tettsui Camelia",
+  "municipio": "palafrugell",
+  "comarca": "baix-emporda",
+  "disciplinas": [],
+  "direccion": "Carrer de la Camèlia, 17",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/951032471742352"
+  ],
+  "lat": 41.91835,
+  "lon": 3.16877,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Kobu Shin Koryu Dojo",
+  "municipio": "palamos-i-sant-joan",
+  "comarca": "baix-emporda",
+  "disciplinas": [],
+  "direccion": "Carrer García Lorca, 27",
+  "web": "https://kskdojo.com/",
+  "redes": [
+   "https://www.facebook.com/113970200000083"
+  ],
+  "lat": 41.8575,
+  "lon": 3.13385,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Dojo Sant Feliu",
+  "municipio": "sant-feliu-de-guixols",
+  "comarca": "baix-emporda",
+  "disciplinas": [],
+  "direccion": "Rambla de Joan Bordàs, 30",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/187202691360121"
+  ],
+  "lat": 41.78883,
+  "lon": 3.02374,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Takumi Dojo",
+  "municipio": "sant-feliu-de-guixols",
+  "comarca": "baix-emporda",
+  "disciplinas": [],
+  "direccion": "Carrer de Sant Adolf, 23",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/179217902270065"
+  ],
+  "lat": 41.78623,
+  "lon": 3.02636,
+  "fuentes": [
+   "osm",
+   "overture"
+  ],
+  "categorias": [
+   "dojo",
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "sin web: 2 fuentes"
+ },
+ {
+  "nombre": "Costa Brava Jiu Jitsu",
+  "municipio": "santa-cristina-daro",
+  "comarca": "baix-emporda",
+  "disciplinas": [],
+  "direccion": "Ctra. De Santa Cristina A, Avinguda De Platja D'Aro",
+  "web": "https://ueni.com/es-es/negocio/santa-cristina-d-aro-17246/clases-de-artes-marciales/costa-brava-jiu-jitsu",
+  "redes": [],
+  "lat": 41.80522,
+  "lon": 3.00685,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "chinese_martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Gracie Costa Brava",
+  "municipio": "santa-cristina-daro",
+  "comarca": "baix-emporda",
+  "disciplinas": [],
+  "direccion": "Ctra. de Santa Cristina a, Avinguda de Platja d'Aro, km.2",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/228091530900199"
+  ],
+  "lat": 41.81239,
+  "lon": 3.0196,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "ABRACCES Capoeira",
+  "municipio": "castelldefels",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Plaça de Joan XXIII, 10",
+  "web": "http://www.abracces.com/",
+  "redes": [
+   "https://www.facebook.com/366753833530855"
+  ],
+  "lat": 41.28531,
+  "lon": 1.98014,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Brooklyn Fitboxing Castelldefels",
+  "municipio": "castelldefels",
+  "comarca": "baix-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Avinguda de la Constitució, 75",
+  "web": "https://goo.gl/zWeM8E",
+  "redes": [
+   "https://www.facebook.com/107592075122783",
+   "https://www.facebook.com/294612517657250"
+  ],
+  "lat": 41.28538,
+  "lon": 1.98615,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": true,
+  "confianza": "baja",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Koryū Dojo",
+  "municipio": "castelldefels",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Avinguda de la Pineda, 76",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/554672988389022"
+  ],
+  "lat": 41.27605,
+  "lon": 1.97869,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Escola  Taekwondo Sesrovires-Collbató",
+  "municipio": "collbato",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer Lleida, 2",
+  "web": "http://www.tkdsesrovires.es/",
+  "redes": [
+   "https://www.facebook.com/723520947763623"
+  ],
+  "lat": 41.5681,
+  "lon": 1.81265,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Lion Fighters MMA",
+  "municipio": "cornella-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer de la Travessera, 24",
+  "web": "http://Lionfightersmma.com/",
+  "redes": [
+   "https://www.facebook.com/182289545853456"
+  ],
+  "lat": 41.3652,
+  "lon": 2.07884,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Xtreme - Union MMA",
+  "municipio": "cornella-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer del General Prim, 7",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1430276133870275"
+  ],
+  "lat": 41.35614,
+  "lon": 2.07167,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "FitCo - Kaeru Dôjô",
+  "municipio": "el-prat-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Avinguda del Canal, 77",
+  "web": "http://www.fitco-kaerudojo.com/",
+  "redes": [
+   "https://www.facebook.com/109007904804198"
+  ],
+  "lat": 41.32789,
+  "lon": 2.09129,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Gym Alex",
+  "municipio": "el-prat-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [
+   "aikido",
+   "boxeo",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "direccion": "Carrer d'Ignasi Iglesias 19",
+  "web": null,
+  "redes": [],
+  "lat": 41.33029,
+  "lon": 2.09419,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "taekwondo;aikido;kickboxing;boxing"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Shisenkan Hakurō Dōjō ✦ KOBUDŌ: TAIJUTSU Jūjutsu Ninjutsu… BUKI Bōjutsu Kenjutsu Shuriken…",
+  "municipio": "el-prat-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer de la Cerdanya, 93",
+  "web": "http://Shisenkan.org/",
+  "redes": [
+   "https://www.facebook.com/174362315758824"
+  ],
+  "lat": 41.32505,
+  "lon": 2.08884,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Artes Marciales MAC",
+  "municipio": "esplugues-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer Rafel Casanova i Comas, 1, Loc 42",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/690740730800097"
+  ],
+  "lat": 41.38069,
+  "lon": 2.08274,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Brooklyn Fitboxing Esplugues de llobregat",
+  "municipio": "esplugues-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de Rovellat, 42",
+  "web": "https://www.brooklynfitboxing.com/public/es/es-es/club/ESPLUGUES-DE-LLOBREGAT",
+  "redes": [
+   "https://www.facebook.com/1027548053765420"
+  ],
+  "lat": 41.37153,
+  "lon": 2.08593,
+  "fuentes": [
+   "osm",
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class",
+   "dojo"
+  ],
+  "dudoso_fit": true,
+  "confianza": "baja",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Instituto Wutan Barcelona",
+  "municipio": "esplugues-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "direccion": "Carrer del Mestre Joan Corrales, 17",
+  "web": "http://www.wutanbarcelona.com",
+  "redes": [
+   "https://www.facebook.com/233663436651740"
+  ],
+  "lat": 41.37426,
+  "lon": 2.08676,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "tai_chi_studio"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "La Sala Duo Bellum",
+  "municipio": "esplugues-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Plaça del Sol, 3-4",
+  "web": "http://duobellum.com/",
+  "redes": [
+   "https://www.facebook.com/1636488296618911"
+  ],
+  "lat": 41.37124,
+  "lon": 2.08931,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "INTEGRITY | Escola d’Arts Marcials",
+  "municipio": "gava",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer Major, 3, local 2 baixos",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/672840642579175"
+  ],
+  "lat": 41.30361,
+  "lon": 2.00521,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Fujimae",
+  "municipio": "martorell",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Pol. Ind. El Congost, Carrer Ca n'Albareda, 5",
+  "web": "https://www.fujimae.com/",
+  "redes": [
+   "https://www.facebook.com/155982144486036"
+  ],
+  "lat": 41.46673,
+  "lon": 1.94912,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Double HIT GYM",
+  "municipio": "molins-de-rei",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer Sant Isidre, 21",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1646160992283373"
+  ],
+  "lat": 41.40625,
+  "lon": 2.02043,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "CFC Cornella Fight Club",
+  "municipio": "olesa-de-montserrat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "C/ Costa Brava, 6",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1497092287239565"
+  ],
+  "lat": 41.54348,
+  "lon": 1.88976,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Club esportiu Boxing Amores",
+  "municipio": "sant-andreu-de-la-barca",
+  "comarca": "baix-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de l'Anoia 33",
+  "web": null,
+  "redes": [],
+  "lat": 41.45247,
+  "lon": 1.96574,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "boxing"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Shao-Lin Kunf-Fu Club",
+  "municipio": "sant-andreu-de-la-barca",
+  "comarca": "baix-llobregat",
+  "disciplinas": [
+   "kung-fu"
+  ],
+  "direccion": "Carrer del Sol 20",
+  "web": null,
+  "redes": [],
+  "lat": 41.44946,
+  "lon": 1.97415,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "kung_fu"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Bujinkan Bamboo Zen Dôjô-Iyashi Ryû",
+  "municipio": "sant-boi-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer Cardenal Vidal i Barraquer, 28",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/612983922086381"
+  ],
+  "lat": 41.34614,
+  "lon": 2.03822,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Dojo Hikari Sant Boi",
+  "municipio": "sant-boi-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer de la Providència, 5",
+  "web": "https://dojohikari.es/",
+  "redes": [
+   "https://www.facebook.com/122035787859554"
+  ],
+  "lat": 41.34757,
+  "lon": 2.03006,
+  "fuentes": [
+   "osm",
+   "overture"
+  ],
+  "categorias": [
+   "dojo",
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "JKDBarcelona - Academia de Artes Marciales",
+  "municipio": "sant-boi-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer de Francesc Macià, 100",
+  "web": "http://www.JKDbarcelona.com/",
+  "redes": [
+   "https://www.facebook.com/179304308866590"
+  ],
+  "lat": 41.33862,
+  "lon": 2.04462,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Ryu San Do Caballero",
+  "municipio": "sant-boi-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [
+   "boxeo",
+   "karate",
+   "kickboxing"
+  ],
+  "direccion": "Carrer Primer de Maig 45",
+  "web": null,
+  "redes": [],
+  "lat": 41.35581,
+  "lon": 2.03324,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "boxing;kickboxing;karate;muay_thay_k1",
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Uechi Ryu Karate",
+  "municipio": "sant-boi-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer de la Riera Bastè 22",
+  "web": null,
+  "redes": [],
+  "lat": 41.34639,
+  "lon": 2.03571,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Triangle Fight Studio",
+  "municipio": "sant-feliu-de-llobregat",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer Dr. Brugarolas, 59",
+  "web": "http://trianglefightstudio.com/",
+  "redes": [
+   "https://www.facebook.com/109082148230364"
+  ],
+  "lat": 41.38441,
+  "lon": 2.05261,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Hwarang-do Escuela De Artes Marciales",
+  "municipio": "sant-vicenc-dels-horts",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer de la Pobla, 17",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/106287474090015"
+  ],
+  "lat": 41.39137,
+  "lon": 2.01169,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Escuela miss crtedaok",
+  "municipio": "viladecans",
+  "comarca": "baix-llobregat",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de Sant Marià, 124",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/439785386143852"
+  ],
+  "lat": 41.32264,
+  "lon": 2.01431,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Hapkido Jin Jung Kwan España 합기도 진중관 스페인",
+  "municipio": "viladecans",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carretera de Barcelona, 56",
+  "web": "http://www.hapkidojjkspain.com/",
+  "redes": [
+   "https://www.facebook.com/101733325032428"
+  ],
+  "lat": 41.31915,
+  "lon": 2.02528,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Viladecans Training Center",
+  "municipio": "viladecans",
+  "comarca": "baix-llobregat",
+  "disciplinas": [],
+  "direccion": "Carrer del Sol, 64",
+  "web": "https://www.instagram.com/viladecanstrainingcenter/?hl=es",
+  "redes": [
+   "https://www.facebook.com/723667707787361"
+  ],
+  "lat": 41.319,
+  "lon": 2.01558,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Aikido El Vendrell",
+  "municipio": "el-vendrell",
+  "comarca": "baix-penedes",
+  "disciplinas": [],
+  "direccion": "Carrer dels Rabassaires, 16",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/132874863467481"
+  ],
+  "lat": 41.22446,
+  "lon": 1.53519,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "KEIKO Vendrell",
+  "municipio": "el-vendrell",
+  "comarca": "baix-penedes",
+  "disciplinas": [],
+  "direccion": "Carrer de Narcís Monturiol, 30, B",
+  "web": "https://bit.ly/2YC8m5Z",
+  "redes": [
+   "https://www.facebook.com/2346081342328336"
+  ],
+  "lat": 41.22105,
+  "lon": 1.53941,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "The Kungfu Club Tarragona",
+  "municipio": "el-vendrell",
+  "comarca": "baix-penedes",
+  "disciplinas": [],
+  "direccion": "Carrer del Puigmal, 45",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/102703622772815"
+  ],
+  "lat": 41.18895,
+  "lon": 1.56402,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Aikido Arashi Badalona",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer d'Enric Borràs, 21",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/2104198152991618"
+  ],
+  "lat": 41.44677,
+  "lon": 2.24652,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Boxing MetalHip",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de la Independència, 276",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/102432685589112"
+  ],
+  "lat": 41.46212,
+  "lon": 2.24082,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Brooklyn Fitboxing Badalona",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de la Conquista, 147",
+  "web": "https://www.brooklynfitboxing.com/public/es/es-es/club/BADALONA",
+  "redes": [
+   "https://www.facebook.com/926955964066583"
+  ],
+  "lat": 41.44654,
+  "lon": 2.24209,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": true,
+  "confianza": "baja",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Bujinkan Koryu Dojo",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Baldomer Solà, 159",
+  "web": "http://bujinkancatalunya.com/",
+  "redes": [
+   "https://www.facebook.com/105684909216671"
+  ],
+  "lat": 41.44374,
+  "lon": 2.23556,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Bujutsu RUY SAN",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Passatge Riu Noguera, s/n",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1601422646772582"
+  ],
+  "lat": 41.45149,
+  "lon": 2.23028,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "GODAN Karate-Do",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de la Independència, 21",
+  "web": "https://www.sutrayogacenter.com/",
+  "redes": [
+   "https://www.facebook.com/162677863940164"
+  ],
+  "lat": 41.45538,
+  "lon": 2.24319,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Krav Maga Badalona",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer d'Eduard Maristany, 71",
+  "web": "http://www.kravmaga-ikmf.es/",
+  "redes": [
+   "https://www.facebook.com/885343678177447"
+  ],
+  "lat": 41.44411,
+  "lon": 2.24769,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Kyohan Dojo",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Sant Pere, 154",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/401991419663573"
+  ],
+  "lat": 41.45052,
+  "lon": 2.25219,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Kyokushin Karate Escola",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer d'Isaac Albéniz, 15",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/2016554981709710"
+  ],
+  "lat": 41.44675,
+  "lon": 2.22395,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Mekugi dojo",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Pérez Galdós, 41",
+  "web": "https://mekugidojo.wixsite.com/dojo",
+  "redes": [
+   "https://www.facebook.com/365163450969534"
+  ],
+  "lat": 41.43895,
+  "lon": 2.21681,
+  "fuentes": [
+   "osm",
+   "overture"
+  ],
+  "categorias": [
+   "dojo",
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "New Body -Bdn-",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Juan Valera, 156",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/124614676223"
+  ],
+  "lat": 41.44273,
+  "lon": 2.22329,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Team Aguilar Escuela de kickboxing",
+  "municipio": "badalona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "direccion": "Plaça de Trafalgar 8",
+  "web": null,
+  "redes": [],
+  "lat": 41.43745,
+  "lon": 2.21836,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "kickboxing"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "AFL MMA",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": null,
+  "web": "http://www.aflmma.club/",
+  "redes": [
+   "https://www.facebook.com/1916405325305178"
+  ],
+  "lat": 41.38176,
+  "lon": 2.19096,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "AIAM Escola",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "aikido"
+  ],
+  "direccion": "Carrer de Brusel·les 55",
+  "web": "https://www.aiamescola.com/",
+  "redes": [],
+  "lat": 41.41808,
+  "lon": 2.16972,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "aikido"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Aikido Arashi Group Dojo Central",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Liuva, 39",
+  "web": "http://dojocentral.arashigroup.com/",
+  "redes": [
+   "https://www.facebook.com/1548230578821025"
+  ],
+  "lat": 41.43111,
+  "lon": 2.19207,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Aikido Rocafort",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Rocafort, 215",
+  "web": "http://www.aikido-rocafort.com/",
+  "redes": [
+   "https://www.facebook.com/46418438103"
+  ],
+  "lat": 41.38422,
+  "lon": 2.14669,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Artes Marciales Barcelona - WAMAI",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Vic, 22",
+  "web": "https://wamai.net/",
+  "redes": [],
+  "lat": 41.39911,
+  "lon": 2.1549,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Artes Marciales MAC Pedralbes",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer del Dr. August Pi i Sunyer, 5",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/820325031155471"
+  ],
+  "lat": 41.38961,
+  "lon": 2.12366,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Asociacion de Kyudo Dojo Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Pg. de la Vall d'Hebron, 166",
+  "web": "https://kyudo.es/dojo-barcelona/",
+  "redes": [
+   "https://www.facebook.com/723543364353335"
+  ],
+  "lat": 41.42792,
+  "lon": 2.14516,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Associacio Aikido Kobayashi Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Lleida, 27",
+  "web": "http://www.aikido-barceona.es/",
+  "redes": [
+   "https://www.facebook.com/472144883546372"
+  ],
+  "lat": 41.37271,
+  "lon": 2.15535,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Ataraxia Escola D'Arts Marcials",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Francesc Alegre, NUMERO 1-3, Loc",
+  "web": "http://www.escolaataraxia.com/",
+  "redes": [
+   "https://www.facebook.com/639873849793609"
+  ],
+  "lat": 41.41572,
+  "lon": 2.16688,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Awase Dojo Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de la Reina Amàlia, 12",
+  "web": "http://www.awasedojo.com/",
+  "redes": [
+   "https://www.facebook.com/296623960800860"
+  ],
+  "lat": 41.3776,
+  "lon": 2.16602,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Barcelona Taekwondo Center",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Rocafort, 215",
+  "web": "http://www.itf-barcelona.com/",
+  "redes": [
+   "https://www.facebook.com/251317914965022"
+  ],
+  "lat": 41.38416,
+  "lon": 2.14668,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Be Legend",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de Bori i Fontestà 21",
+  "web": null,
+  "redes": [],
+  "lat": 41.39308,
+  "lon": 2.13973,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "boxing"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Bujinkan Macías Dojo",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Bonaventura Pollés, 15",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/332220093312359"
+  ],
+  "lat": 41.37133,
+  "lon": 2.13277,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Bujinkan Matsukaze Dojo",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": null,
+  "web": "https://www.instagram.com/bujinkanmatsukazedojo?igsi=bHdlZDMxaGJsYXp5&utm_source=qr",
+  "redes": [
+   "https://www.facebook.com/100178002040074"
+  ],
+  "lat": 41.43275,
+  "lon": 2.16577,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Capoeira Cooperativa Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Sardenya, 263",
+  "web": "http://www.capoeiracooperativa.org/",
+  "redes": [
+   "https://www.facebook.com/108690817328581"
+  ],
+  "lat": 41.40147,
+  "lon": 2.17568,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Capoeira Ilé Iré",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Passatge de Gaiolà, 6",
+  "web": "http://capoeirasenzalabarcelona.com/contactanos/",
+  "redes": [
+   "https://www.facebook.com/1893521310874795"
+  ],
+  "lat": 41.40079,
+  "lon": 2.17297,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Capoeira Matumbe",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Maria Victòria, 12",
+  "web": "http://matumbecapoeira.es/",
+  "redes": [
+   "https://www.facebook.com/209225135815939"
+  ],
+  "lat": 41.3731,
+  "lon": 2.13784,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Capoeira Senzala Barcelona new",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de les Santjoanistes, 4",
+  "web": "http://www.senzalabarcelona.com/",
+  "redes": [
+   "https://www.facebook.com/102136086787382",
+   "https://www.facebook.com/104952874920368"
+  ],
+  "lat": 41.40322,
+  "lon": 2.14801,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Circle BJJ",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Ferrer de Blanes, 5",
+  "web": "https://circleacademy.es/",
+  "redes": [
+   "https://www.facebook.com/474282622432294"
+  ],
+  "lat": 41.39848,
+  "lon": 2.15905,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Club Kihon",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Pi i Margall, 27",
+  "web": "https://clubkihon.blogspot.com/",
+  "redes": [
+   "https://www.facebook.com/297024830323611"
+  ],
+  "lat": 41.4078,
+  "lon": 2.16342,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Club de boxeo Iberia",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer del Segre, 71",
+  "web": "http://www.clubdeboxaiberia.com/",
+  "redes": [
+   "https://www.facebook.com/317663878770727"
+  ],
+  "lat": 41.43164,
+  "lon": 2.19444,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Defensa Personal y artes marciales Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Ronda del General Mitre, 23",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/102434964602399",
+   "https://www.facebook.com/102822291229494"
+  ],
+  "lat": 41.3938,
+  "lon": 2.13213,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Dojo Karate Creole",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Balcells, 42",
+  "web": "http://www.karatecreole.wordpress.com/",
+  "redes": [
+   "https://www.facebook.com/127023487908237"
+  ],
+  "lat": 41.41093,
+  "lon": 2.16083,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Dojokaibcn Artes Marciales y Defensa Personal",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Melcior de Palau, 149",
+  "web": "http://www.dojokaibcn.com/",
+  "redes": [
+   "https://www.facebook.com/2412364215461617"
+  ],
+  "lat": 41.3815,
+  "lon": 2.13876,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Epic Kickboxing Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de l'Arquitecte Sert, 14",
+  "web": "https://epickickboxing.es/",
+  "redes": [
+   "https://www.facebook.com/354579031068180"
+  ],
+  "lat": 41.3913,
+  "lon": 2.19888,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Espai Feilen Dojo Meishûkan",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Xifré 44-46",
+  "web": null,
+  "redes": [],
+  "lat": 41.40962,
+  "lon": 2.18266,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "sports_centre"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "FUJIMAE Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "C. de Sicília, 175",
+  "web": "https://www.fujimae.com/",
+  "redes": [
+   "https://www.facebook.com/213964268618485"
+  ],
+  "lat": 41.39952,
+  "lon": 2.17601,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Gimnasio Club Boxeo Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer Horitzontal, 44",
+  "web": "http://www.clubboxabarcelona.es/",
+  "redes": [
+   "https://www.facebook.com/122106281769967"
+  ],
+  "lat": 41.43846,
+  "lon": 2.17995,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Haru Aikido",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Melcior de Palau, 149",
+  "web": "http://haruaikido.com/",
+  "redes": [
+   "https://www.facebook.com/231800224162459"
+  ],
+  "lat": 41.38139,
+  "lon": 2.13881,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Kaizen Dojo",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Pardo, 65",
+  "web": "http://www.kaizendojobcn.com/",
+  "redes": [
+   "https://www.facebook.com/522624981183240"
+  ],
+  "lat": 41.42976,
+  "lon": 2.1825,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Kali Flow Academy",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Xifré, 20",
+  "web": "https://kaliflowacademy.com/",
+  "redes": [
+   "https://www.facebook.com/799914836539231"
+  ],
+  "lat": 41.40905,
+  "lon": 2.18349,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Karate - Aikido",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Casals i Cuberó, 210",
+  "web": "http://aikidokaratekyu.com/",
+  "redes": [
+   "https://www.facebook.com/59415661246"
+  ],
+  "lat": 41.44125,
+  "lon": 2.17543,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Karate for Seniors",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Moll de Gregal, 1",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/102829319205800"
+  ],
+  "lat": 41.38895,
+  "lon": 2.20061,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Kishintai",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer del Consell de Cent, 44",
+  "web": "http://www.kishintai.org/",
+  "redes": [
+   "https://www.facebook.com/103215999328683",
+   "https://www.facebook.com/1662639210729414"
+  ],
+  "lat": 41.37672,
+  "lon": 2.14628,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Legends R Born",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de la Fusina, 11",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/582543774941819"
+  ],
+  "lat": 41.38677,
+  "lon": 2.18343,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Life Club MMA",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de la Pedrosa, 16",
+  "web": "https://lifeclubmma.sixsport.es/?fbclid=PAZXh0bgNhZW0CMTEAAaepCUt7W4trY5WtyIR4Iz4pwau1uSgs88q6ZMdUiSDAnTfyPaqlRcQMFghrtg_aem_Vyvj9z9qAC0Q0BC8pmitkQ",
+  "redes": [
+   "https://www.facebook.com/647134368493830"
+  ],
+  "lat": 41.4489,
+  "lon": 2.18461,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Marcial Kickfit",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": null,
+  "web": "http://www.marcialkickfit.com/home",
+  "redes": [
+   "https://www.facebook.com/277090158813044"
+  ],
+  "lat": 41.40052,
+  "lon": 2.14613,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Marcos Campos - Taekwondo CHS",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Rambla de l'Onze de Setembre, 54",
+  "web": "https://www.instagram.com/taekwondo_barcelona",
+  "redes": [
+   "https://www.facebook.com/763243176879824"
+  ],
+  "lat": 41.43018,
+  "lon": 2.19218,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Muay Thai Thailand Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de la Indústria, 38",
+  "web": "http://www.muaythaibarcelona.com/",
+  "redes": [
+   "https://www.facebook.com/136801833182687"
+  ],
+  "lat": 41.40392,
+  "lon": 2.16707,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Nidec Defense Group",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Zamora, 68",
+  "web": "http://www.nidec.es",
+  "redes": [
+   "https://www.facebook.com/306584209926076"
+  ],
+  "lat": 41.39514,
+  "lon": 2.19113,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "PAKUA Academy",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Neptú, 39",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/233835574144534"
+  ],
+  "lat": 41.39837,
+  "lon": 2.15402,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "RMA Systema “SV” Sibirskiy Viun España",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Mallorca, 219",
+  "web": "http://www.rmasv.es/",
+  "redes": [
+   "https://www.facebook.com/296642490434002",
+   "https://www.facebook.com/382706798825482"
+  ],
+  "lat": 41.39122,
+  "lon": 2.1589,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "RanAi Dojo",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Floridablanca, 41",
+  "web": "http://www.ranaidojo.com/",
+  "redes": [
+   "https://www.facebook.com/2886131054859184"
+  ],
+  "lat": 41.37738,
+  "lon": 2.15692,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Revolution",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": null,
+  "web": null,
+  "redes": [],
+  "lat": 41.40481,
+  "lon": 2.14029,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Ruckus Athletics",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer del Bou de Sant Pere, 11",
+  "web": "https://ruckus.odoo.com/es/event/ruckus-athletics-mauy-thai-summer-casal-18/register",
+  "redes": [
+   "https://www.facebook.com/114433398228901"
+  ],
+  "lat": 41.38797,
+  "lon": 2.17665,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Ryushin Shouchi Ryu España",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de la Reina Amàlia, 12",
+  "web": "http://www.awasedojo.com/",
+  "redes": [
+   "https://www.facebook.com/145516886167080"
+  ],
+  "lat": 41.37759,
+  "lon": 2.16599,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Senshin Dojo Barcelona",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "karate",
+   "kendo"
+  ],
+  "direccion": "Carrer del Topazi, 21",
+  "web": "http://senshindojobcn.wixsite.com/senshindojobcn",
+  "redes": [
+   "https://www.facebook.com/212402655777890"
+  ],
+  "lat": 41.405,
+  "lon": 2.15479,
+  "fuentes": [
+   "osm",
+   "overture"
+  ],
+  "categorias": [
+   "karate;yoga;kendo",
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Shock Boxing Gym",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Violant d'Hongria Reina d'Aragó, 51",
+  "web": "http://www.shockboxinggym.com/",
+  "redes": [
+   "https://www.facebook.com/107811327251741"
+  ],
+  "lat": 41.37821,
+  "lon": 2.12875,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "TXN",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Siracusa 5-7",
+  "web": null,
+  "redes": [],
+  "lat": 41.40078,
+  "lon": 2.15936,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Taekwondo ITF (Escuela Internacional Taekwondo)",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "direccion": "Carrer La inmaculada, 25",
+  "web": "http://www.itftaekwondo.es/",
+  "redes": [],
+  "lat": 41.40686,
+  "lon": 2.12463,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "taekwondo_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Troopers Fitclub",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Avinguda de Josep Tarradellas, 31",
+  "web": "http://www.9round.es/",
+  "redes": [
+   "https://www.facebook.com/107983697210307"
+  ],
+  "lat": 41.38309,
+  "lon": 2.14224,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Wai Kru Muay Thai",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Via Trajana, 50",
+  "web": "http://www.waikrumuaythai.com/",
+  "redes": [
+   "https://www.facebook.com/490646854302689"
+  ],
+  "lat": 41.42865,
+  "lon": 2.20068,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Wudang Spain",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Ca l'Alegre de Dalt",
+  "web": "http://www.wudangspain.es/",
+  "redes": [
+   "https://www.facebook.com/308369012650191"
+  ],
+  "lat": 41.40971,
+  "lon": 2.16052,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "power_fit_boxing",
+  "municipio": "barcelona",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer d'Emília Llorca Martín, 19",
+  "web": "http://powerfitboxing.com/",
+  "redes": [
+   "https://www.facebook.com/453719578530995"
+  ],
+  "lat": 41.37755,
+  "lon": 2.19042,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Brooklyn Fitboxing Hospitalet",
+  "municipio": "lhospitalet-de-llobregat",
+  "comarca": "barcelones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de Santa Eulàlia, 70",
+  "web": "https://bfclick.com/hospitalet-fb",
+  "redes": [
+   "https://www.facebook.com/2400830933311996"
+  ],
+  "lat": 41.36722,
+  "lon": 2.12807,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": true,
+  "confianza": "baja",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Capoeira Sul da Bahía Barcelona",
+  "municipio": "lhospitalet-de-llobregat",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": null,
+  "web": "https://capoeirasuldabahia.es/",
+  "redes": [],
+  "lat": 41.36869,
+  "lon": 2.13541,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "capoiera"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Daithon Gym",
+  "municipio": "lhospitalet-de-llobregat",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer del Bruc, 20",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/466486353538380"
+  ],
+  "lat": 41.36316,
+  "lon": 2.10078,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Elite Top Team",
+  "municipio": "lhospitalet-de-llobregat",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer Uva, 32",
+  "web": "http://Www.elitetopteam.es/",
+  "redes": [
+   "https://www.facebook.com/1297700476952720"
+  ],
+  "lat": 41.36327,
+  "lon": 2.12511,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Escuela de Kungfu Long Zhua",
+  "municipio": "lhospitalet-de-llobregat",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Barcelona, 109",
+  "web": "http://www.daviddalmau.com/",
+  "redes": [
+   "https://www.facebook.com/232371383473"
+  ],
+  "lat": 41.36025,
+  "lon": 2.09969,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Instituto de Artes Marciales Chinas Jingwu",
+  "municipio": "lhospitalet-de-llobregat",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Miquel Romeu, 52",
+  "web": "http://www.wushujingwu.com/",
+  "redes": [
+   "https://www.facebook.com/432458313546830"
+  ],
+  "lat": 41.36129,
+  "lon": 2.11076,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Kyokushin Spirit",
+  "municipio": "lhospitalet-de-llobregat",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer Miquel Romeu, 5",
+  "web": "http://kyokushinspirit.es/",
+  "redes": [
+   "https://www.facebook.com/293186694189565"
+  ],
+  "lat": 41.36241,
+  "lon": 2.11001,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Shaolin Kung Fu Barcelona",
+  "municipio": "lhospitalet-de-llobregat",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carr. de Collblanc, 243",
+  "web": "https://shaolinbarcelona.com/",
+  "redes": [
+   "https://www.facebook.com/1548617495180409"
+  ],
+  "lat": 41.37634,
+  "lon": 2.10078,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Academia Badalona Jiu-jitsu",
+  "municipio": "sant-adria-de-besos",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": null,
+  "web": null,
+  "redes": [],
+  "lat": 41.44316,
+  "lon": 2.2231,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Distrito 655",
+  "municipio": "sant-adria-de-besos",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer d'Aragó 655",
+  "web": null,
+  "redes": [],
+  "lat": 41.41182,
+  "lon": 2.19051,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Genbukan Dojo Sant Adrià",
+  "municipio": "sant-adria-de-besos",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer de Sant Jordi, 9, bajos",
+  "web": "http://www.genbukan.es/",
+  "redes": [
+   "https://www.facebook.com/328002347230159"
+  ],
+  "lat": 41.43128,
+  "lon": 2.22168,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Team Cuevas Jiu Jitsu",
+  "municipio": "sant-adria-de-besos",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer del Prat, 4",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/233535169839659"
+  ],
+  "lat": 41.42829,
+  "lon": 2.21159,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Alta Escuela de Aikido Tsuki Kai",
+  "municipio": "santa-coloma-de-gramenet",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer d'Àngel Guimerà, 17",
+  "web": "http://www.aikidosantacoloma.es/galeria1/",
+  "redes": [
+   "https://www.facebook.com/485332331628008"
+  ],
+  "lat": 41.44445,
+  "lon": 2.21149,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "New Dojang",
+  "municipio": "santa-coloma-de-gramenet",
+  "comarca": "barcelones",
+  "disciplinas": [],
+  "direccion": "Carrer d'Àngel Guimerà, 17",
+  "web": "https://www.instagram.com/newdojang_kbgramenet/?hl=es",
+  "redes": [
+   "https://www.facebook.com/101910195063413"
+  ],
+  "lat": 41.44441,
+  "lon": 2.2116,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Molles Malé",
+  "municipio": "casserres",
+  "comarca": "bergueda",
+  "disciplinas": [],
+  "direccion": "Avinguda Sant Marti, 2, Pol. Ind. Can Prat",
+  "web": "https://www.grupobultzaki.com/",
+  "redes": [],
+  "lat": 41.98046,
+  "lon": 1.88169,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "dymsitges",
+  "municipio": "sitges",
+  "comarca": "garraf",
+  "disciplinas": [],
+  "direccion": "C/ Samuel barrachina s/n",
+  "web": "http://Sitges.centrosdym.com/",
+  "redes": [
+   "https://www.facebook.com/102113098293240"
+  ],
+  "lat": 41.24023,
+  "lon": 1.80734,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Aikido Aiki Vilanova",
+  "municipio": "vilanova-i-la-geltru",
+  "comarca": "garraf",
+  "disciplinas": [
+   "aikido"
+  ],
+  "direccion": "Rambla del Castell 31",
+  "web": "https://kaizenvilanova.com/",
+  "redes": [],
+  "lat": 41.22465,
+  "lon": 1.72978,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "aikido"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Black Belt Dojo",
+  "municipio": "vilanova-i-la-geltru",
+  "comarca": "garraf",
+  "disciplinas": [],
+  "direccion": "Ronda Ibèrica, 167",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/784698271651127"
+  ],
+  "lat": 41.22757,
+  "lon": 1.71759,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Kyokushin Vilanova",
+  "municipio": "vilanova-i-la-geltru",
+  "comarca": "garraf",
+  "disciplinas": [],
+  "direccion": "Carrer del Cardenal, 2",
+  "web": "http://kyokushinvilanova.com/",
+  "redes": [
+   "https://www.facebook.com/103393508558433"
+  ],
+  "lat": 41.21534,
+  "lon": 1.70385,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Karate Ashyura Olot",
+  "municipio": "olot",
+  "comarca": "garrotxa",
+  "disciplinas": [],
+  "direccion": "Avinguda de Sant Joan de les Abadesses, 32",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/590964807664089"
+  ],
+  "lat": 42.18565,
+  "lon": 2.48142,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Team A.D.J",
+  "municipio": "cassa-de-la-selva",
+  "comarca": "girones",
+  "disciplinas": [],
+  "direccion": "C/ FUTBOL S/N",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/719789504818659"
+  ],
+  "lat": 41.8838,
+  "lon": 2.87881,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Brooklyn Fitboxing Girona",
+  "municipio": "girona",
+  "comarca": "girones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de la Creu, 24",
+  "web": "https://www.brooklynfitboxing.com/public/es/es-es/club/GIRONA",
+  "redes": [
+   "https://www.facebook.com/103207729403159"
+  ],
+  "lat": 41.97567,
+  "lon": 2.82149,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": true,
+  "confianza": "baja",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Escola de Boxa Ignasi Caballero",
+  "municipio": "girona",
+  "comarca": "girones",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer Emili Grahit, 58",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/457806817959135"
+  ],
+  "lat": 41.97347,
+  "lon": 2.82726,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "GB TAIJI",
+  "municipio": "girona",
+  "comarca": "girones",
+  "disciplinas": [],
+  "direccion": "Carrer Oviedo, 5",
+  "web": "https://gbtaiji.com/",
+  "redes": [
+   "https://www.facebook.com/106073209481266"
+  ],
+  "lat": 41.97477,
+  "lon": 2.81365,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "TOP GYM",
+  "municipio": "girona",
+  "comarca": "girones",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing"
+  ],
+  "direccion": null,
+  "web": null,
+  "redes": [],
+  "lat": 41.96947,
+  "lon": 2.82145,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "boxing;kickboxing;fighting"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Fudoshin Dojo",
+  "municipio": "salt",
+  "comarca": "girones",
+  "disciplinas": [],
+  "direccion": null,
+  "web": null,
+  "redes": [],
+  "lat": 41.96773,
+  "lon": 2.81011,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Boxing Team Canet",
+  "municipio": "canet-de-mar",
+  "comarca": "maresme",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Plaça Pau Casals, 8",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/512852061907901"
+  ],
+  "lat": 41.59585,
+  "lon": 2.57913,
+  "fuentes": [
+   "osm",
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class",
+   "sports_centre"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "sin web: 2 fuentes"
+ },
+ {
+  "nombre": "Dento Shitoryu Canet",
+  "municipio": "canet-de-mar",
+  "comarca": "maresme",
+  "disciplinas": [],
+  "direccion": null,
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/783338648409699"
+  ],
+  "lat": 41.58329,
+  "lon": 2.58333,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "TRG - Jiu Jitsu",
+  "municipio": "canet-de-mar",
+  "comarca": "maresme",
+  "disciplinas": [],
+  "direccion": "Ronda Josep Anselm Clavé, 2, local 4",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/102817988900600"
+  ],
+  "lat": 41.58995,
+  "lon": 2.58898,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Bujinkan Mataro",
+  "municipio": "mataro",
+  "comarca": "maresme",
+  "disciplinas": [],
+  "direccion": "Dojo Cervantes, Ronda President Macià, 1",
+  "web": "http://www.bujinkanmataro.com/",
+  "redes": [
+   "https://www.facebook.com/106024235210492",
+   "https://www.facebook.com/1957299444302034"
+  ],
+  "lat": 41.53262,
+  "lon": 2.4383,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Choke JIU-JITSU",
+  "municipio": "mataro",
+  "comarca": "maresme",
+  "disciplinas": [],
+  "direccion": "Carrer dels Tres Tombs, 37",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/713267088532509"
+  ],
+  "lat": 41.55001,
+  "lon": 2.44123,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Ml AcadÈMia De Boxa",
+  "municipio": "mataro",
+  "comarca": "maresme",
+  "disciplinas": [],
+  "direccion": "Carrer Llauder, 143",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/208073475992427"
+  ],
+  "lat": 41.53239,
+  "lon": 2.4373,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Cañadas boxing",
+  "municipio": "montgat",
+  "comarca": "maresme",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "av, les pedreres nave 11",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/337550976814003"
+  ],
+  "lat": 41.45542,
+  "lon": 2.25499,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Wa Shin Tai Dojo",
+  "municipio": "pineda-de-mar",
+  "comarca": "maresme",
+  "disciplinas": [],
+  "direccion": "Carrer Santiago Rusiñol, 86",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/104187917637593"
+  ],
+  "lat": 41.62889,
+  "lon": 2.69322,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Dozenryu Dojo",
+  "municipio": "premia-de-dalt",
+  "comarca": "maresme",
+  "disciplinas": [],
+  "direccion": "Via Primília, 29",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/180249465675024"
+  ],
+  "lat": 41.49778,
+  "lon": 2.36349,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Tatami",
+  "municipio": "sant-vicenc-de-montalt",
+  "comarca": "maresme",
+  "disciplinas": [],
+  "direccion": "Riera de Caldes",
+  "web": null,
+  "redes": [],
+  "lat": 41.57998,
+  "lon": 2.52058,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "martial_arts"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Les Caves Box Training",
+  "municipio": "tiana",
+  "comarca": "maresme",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Camí de Can Garra, 4",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/105436825235193"
+  ],
+  "lat": 41.47408,
+  "lon": 2.27347,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Tkd+Tordera Taekwondo",
+  "municipio": "tordera",
+  "comarca": "maresme",
+  "disciplinas": [],
+  "direccion": "carrer maresma 8 tordera ",
+  "web": "http://Taekwon40.blogspot.com/",
+  "redes": [
+   "https://www.facebook.com/717414205278918"
+  ],
+  "lat": 41.71379,
+  "lon": 2.74412,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Club boxing Team payo A/M",
+  "municipio": "vilassar-de-dalt",
+  "comarca": "maresme",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Can, Carrer Rafart, 1",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/217752908090409"
+  ],
+  "lat": 41.51975,
+  "lon": 2.36039,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Club Judo Ràpita Montsià",
+  "municipio": "la-rapita",
+  "comarca": "montsia",
+  "disciplinas": [],
+  "direccion": "Power Up Gym, Carrer del Comte de Floridablanca, 51, 1r",
+  "web": "https://nt-priorattortosa.wixsite.com/nt-priorat-tortosa?fbclid=IwAR035fTyI4UxoIgkscamrNp3qHrZ7vC1NIYxhegpbExRGbLTUHZW_zqDjtI",
+  "redes": [
+   "https://www.facebook.com/2005367929520649"
+  ],
+  "lat": 40.6186,
+  "lon": 0.59071,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Academia Irzi Manlleu",
+  "municipio": "manlleu",
+  "comarca": "osona",
+  "disciplinas": [],
+  "direccion": "Passeig de Sant Joan, 31",
+  "web": "https://www.academiairzimanlleu.cat/",
+  "redes": [
+   "https://www.facebook.com/196402866897566"
+  ],
+  "lat": 41.99967,
+  "lon": 2.28592,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "La Llanterna",
+  "municipio": "torello",
+  "comarca": "osona",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "direccion": "Carrer del Pont, 19",
+  "web": "http://www.lallanterna.com/",
+  "redes": [
+   "https://www.facebook.com/566074740587349"
+  ],
+  "lat": 42.04763,
+  "lon": 2.26234,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "tai_chi_studio"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Do San Nam",
+  "municipio": "vic",
+  "comarca": "osona",
+  "disciplinas": [],
+  "direccion": "Passatge de Joan Puig, 4",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/330066740350617"
+  ],
+  "lat": 41.93328,
+  "lon": 2.25419,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Dojo Mora Crosstraining",
+  "municipio": "mora-debre",
+  "comarca": "ribera-debre",
+  "disciplinas": [],
+  "direccion": "Travessia Barcelona, 2",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/592577211105983"
+  ],
+  "lat": 41.08798,
+  "lon": 0.64278,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "EspaicubTivissa",
+  "municipio": "tivissa",
+  "comarca": "ribera-debre",
+  "disciplinas": [],
+  "direccion": "Carrer Sant Blai, 15",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1493249087477491"
+  ],
+  "lat": 41.04053,
+  "lon": 0.73252,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Capoeira Topazio Lleida",
+  "municipio": "lleida",
+  "comarca": "segria",
+  "disciplinas": [],
+  "direccion": "Carrer Pica d'Estats, 23",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/380916339166616"
+  ],
+  "lat": 41.61806,
+  "lon": 0.61515,
+  "fuentes": [
+   "osm",
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts",
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "sin web: 2 fuentes"
+ },
+ {
+  "nombre": "Team Boxing Gomez",
+  "municipio": "lleida",
+  "comarca": "segria",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": null,
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1869009750087885"
+  ],
+  "lat": 41.61221,
+  "lon": 0.63257,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Lendines Gym",
+  "municipio": "blanes",
+  "comarca": "selva",
+  "disciplinas": [],
+  "direccion": "Ctra. Tordera, 45",
+  "web": "http://escueladekenpo-karatelendinezgym.blogspot.com.es/",
+  "redes": [
+   "https://www.facebook.com/171982646199341"
+  ],
+  "lat": 41.68088,
+  "lon": 2.77979,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Tkwchaos",
+  "municipio": "blanes",
+  "comarca": "selva",
+  "disciplinas": [],
+  "direccion": "Ctra. Malgrat, 22, NAVE 2",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1043269225879985"
+  ],
+  "lat": 41.67257,
+  "lon": 2.7763,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Judo JEC Lloret - Judo Esport Club Lloret",
+  "municipio": "lloret-de-mar",
+  "comarca": "selva",
+  "disciplinas": [],
+  "direccion": "Carrer dels Mestres",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/133766903637667"
+  ],
+  "lat": 41.70284,
+  "lon": 2.8423,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Dojo Asai",
+  "municipio": "sils",
+  "comarca": "selva",
+  "disciplinas": [],
+  "direccion": "Avinguda Selva, 28",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/1552205038439920"
+  ],
+  "lat": 41.81327,
+  "lon": 2.73804,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Bujinkan Tarragona Dojo",
+  "municipio": "creixell",
+  "comarca": "tarragones",
+  "disciplinas": [],
+  "direccion": "CREIXELL",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/405129803031043"
+  ],
+  "lat": 41.16093,
+  "lon": 1.44967,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Karate Club Shuto",
+  "municipio": "la-canonja",
+  "comarca": "tarragones",
+  "disciplinas": [],
+  "direccion": null,
+  "web": null,
+  "redes": [],
+  "lat": 41.11957,
+  "lon": 1.21327,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Espai Vibrant ~ Teràpies naturals i lloguer de sala",
+  "municipio": "tarragona",
+  "comarca": "tarragones",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "direccion": "Carrer Doctor Zamenhoff, 11, Local esquerra",
+  "web": "https://enricgil.cat/",
+  "redes": [
+   "https://www.facebook.com/618882417965345"
+  ],
+  "lat": 41.11332,
+  "lon": 1.24599,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "tai_chi_studio"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Taekwondo L'Arboç",
+  "municipio": "tarragona",
+  "comarca": "tarragones",
+  "disciplinas": [],
+  "direccion": "C/ Ricard Domingo núm.6-8",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/871618846204500"
+  ],
+  "lat": 41.1167,
+  "lon": 1.25,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Nihon Taijitsu Torredembarra -",
+  "municipio": "torredembarra",
+  "comarca": "tarragones",
+  "disciplinas": [],
+  "direccion": "Carrer de San Clemente, 2",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/116251119748135"
+  ],
+  "lat": 41.14507,
+  "lon": 1.40306,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Loyalty Jiu Jitsu Vila Seca",
+  "municipio": "vila-seca",
+  "comarca": "tarragones",
+  "disciplinas": [],
+  "direccion": "Carrer de Sant Josep, 45, LOCAL 3",
+  "web": "http://Atosvilaseca.com/",
+  "redes": [
+   "https://www.facebook.com/1541235559252079"
+  ],
+  "lat": 41.11041,
+  "lon": 1.14651,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Dosan Team Pithecus",
+  "municipio": "barbera-del-valles",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de l'Urgell, 19",
+  "web": "http://www.gymdosan.com/",
+  "redes": [
+   "https://www.facebook.com/287042233935"
+  ],
+  "lat": 41.50886,
+  "lon": 2.12114,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Drills Martial Arts Academy",
+  "municipio": "barbera-del-valles",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Consell de Cent, 44",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/186777474525570"
+  ],
+  "lat": 41.51514,
+  "lon": 2.1259,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Mix Martial Arts",
+  "municipio": "barbera-del-valles",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Passeig del Doctor Moragas, 246",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/111091978381052"
+  ],
+  "lat": 41.51711,
+  "lon": 2.12356,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Imperium Boxing Club",
+  "municipio": "castellbisbal",
+  "comarca": "valles-occidental",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de l'Estació, 6",
+  "web": "https://imperium-boxing-club.com/",
+  "redes": [
+   "https://www.facebook.com/843807595478127"
+  ],
+  "lat": 41.47348,
+  "lon": 1.97876,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "San Bao",
+  "municipio": "cerdanyola-del-valles",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": null,
+  "web": null,
+  "redes": [],
+  "lat": 41.49333,
+  "lon": 2.13642,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Club Boxeo Ripollet Team Isma Fighters",
+  "municipio": "ripollet",
+  "comarca": "valles-occidental",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Rambla dels Pinetons, s/n",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/287070554739582"
+  ],
+  "lat": 41.50133,
+  "lon": 2.15745,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Artes Marciales MAC Rubí",
+  "municipio": "rubi",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Pitàgores, 7",
+  "web": "http://artesmarcialesmac.com/",
+  "redes": [
+   "https://www.facebook.com/200020123964212"
+  ],
+  "lat": 41.48505,
+  "lon": 2.03604,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Bjj rubi academy",
+  "municipio": "rubi",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer Girona, 29",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/101491781709360"
+  ],
+  "lat": 41.50068,
+  "lon": 2.04228,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "ITKA Spain - International Taijiquan Kungfu Association Spain",
+  "municipio": "rubi",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Avinguda Castellbisbal, 58",
+  "web": "http://www.itka.es/",
+  "redes": [],
+  "lat": 41.48961,
+  "lon": 2.02219,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Kwoon Martial Arts- Headquarters",
+  "municipio": "rubi",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer Sant Josep, 3",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/843149832527167"
+  ],
+  "lat": 41.49286,
+  "lon": 2.03168,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Artes Marciales MAC Sabadell",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Calderón, 188",
+  "web": "www.artesmarcialesmac.com",
+  "redes": [
+   "https://www.facebook.com/1919742184984527"
+  ],
+  "lat": 41.54652,
+  "lon": 2.10045,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Boxing Club Sabadell",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Camí Can Quadres, 190",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/2147443712145031"
+  ],
+  "lat": 41.53637,
+  "lon": 2.12454,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Brooklyn Fitboxing Sabadell",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Ronda de Ponent, 43",
+  "web": "https://www.brooklynfitboxing.com/public/es/es-es/club/SABADELL",
+  "redes": [
+   "https://www.facebook.com/110042278699079"
+  ],
+  "lat": 41.5458,
+  "lon": 2.09954,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": true,
+  "confianza": "baja",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Crossbox Line",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Passatge de Bellaterra, 30",
+  "web": "http://www.crossboxlinesabadell.com/",
+  "redes": [
+   "https://www.facebook.com/641901912628974"
+  ],
+  "lat": 41.54209,
+  "lon": 2.11988,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Escuela de AIKIDO de Sabadell - España",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer d'Esteve Paluzie, 18",
+  "web": "https://tadaimadojo.com/",
+  "redes": [
+   "https://www.facebook.com/319357288212486"
+  ],
+  "lat": 41.52475,
+  "lon": 2.11971,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Fighting Aikido",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de l'Esperança, 4",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/100449702389874"
+  ],
+  "lat": 41.55933,
+  "lon": 2.09659,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Gimnàs Llusià",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de l'Església Romànica, 25",
+  "web": "http://www.gimnasllusia.es/",
+  "redes": [
+   "https://www.facebook.com/1837516699881849"
+  ],
+  "lat": 41.52744,
+  "lon": 2.12068,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Krav Maga Sabadell",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Tamarit, 2",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/146378735416099"
+  ],
+  "lat": 41.53054,
+  "lon": 2.10277,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Kung Fu 5 Dragones",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Sant Joan, 20",
+  "web": "http://www.kungfu5dragones.es/",
+  "redes": [
+   "https://www.facebook.com/110040498233728"
+  ],
+  "lat": 41.54782,
+  "lon": 2.10955,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Lorkenpo American Kenpo Karate",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer del Sol, 141",
+  "web": "http://www.lorenjimenez.com/",
+  "redes": [
+   "https://www.facebook.com/1714477545441949"
+  ],
+  "lat": 41.54274,
+  "lon": 2.10657,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Mix Martial Arts Sabadell",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Passeig d'Espronceda, 73",
+  "web": "http://mmasabadell.vpweb.es/",
+  "redes": [
+   "https://www.facebook.com/233098950821829"
+  ],
+  "lat": 41.52829,
+  "lon": 2.11503,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Mugendo Sabadell",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Jovellanos, 99",
+  "web": "http://www.mugendo.es/",
+  "redes": [
+   "https://www.facebook.com/218170365373698"
+  ],
+  "lat": 41.55043,
+  "lon": 2.10403,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Mushin Dojo",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Plaça de Granados, 7",
+  "web": "http://www.mushindojosbd.com/",
+  "redes": [
+   "https://www.facebook.com/270184793165552"
+  ],
+  "lat": 41.55136,
+  "lon": 2.10407,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Sbd. Training Center",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": null,
+  "web": null,
+  "redes": [],
+  "lat": 41.53486,
+  "lon": 2.1019,
+  "fuentes": [
+   "osm"
+  ],
+  "categorias": [
+   "dojo"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Wing Chun Kung Fu Sabadell",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Permanyer, 198",
+  "web": "http://Kungfusabadell.com/",
+  "redes": [
+   "https://www.facebook.com/350275492281148"
+  ],
+  "lat": 41.53717,
+  "lon": 2.10116,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "factorysparta",
+  "municipio": "sabadell",
+  "comarca": "valles-occidental",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer de Fra Luis de León, 179",
+  "web": "http://www.basicfactory.es/",
+  "redes": [
+   "https://www.facebook.com/105130778335979"
+  ],
+  "lat": 41.53391,
+  "lon": 2.11641,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Arte Marcial Samurai - Bujinkan Sant Cugat",
+  "municipio": "sant-cugat-del-valles",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer Migdia, 13",
+  "web": "http://www.bujinkansantcugat.com/",
+  "redes": [
+   "https://www.facebook.com/669346406264990"
+  ],
+  "lat": 41.47279,
+  "lon": 2.08486,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Kuksoolcervello",
+  "municipio": "sant-cugat-del-valles",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Laurea Miro 55",
+  "web": "http://kuksoolwon.es/escuelas/escuela-cervello/#content-content-inner",
+  "redes": [
+   "https://www.facebook.com/196198910733557"
+  ],
+  "lat": 41.47329,
+  "lon": 2.06761,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Kung Fu Sant Cugat",
+  "municipio": "sant-cugat-del-valles",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Francesc Vila, 17",
+  "web": "http://www.kungfusantcugat.com/",
+  "redes": [
+   "https://www.facebook.com/207532275927754"
+  ],
+  "lat": 41.4795,
+  "lon": 2.09177,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Valhalla Training Camp",
+  "municipio": "sant-cugat-del-valles",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Vic, 15",
+  "web": "https://www.valhallatrainingcamp.com/",
+  "redes": [
+   "https://www.facebook.com/1582361628713248"
+  ],
+  "lat": 41.47878,
+  "lon": 2.07027,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "GEITS International SL",
+  "municipio": "santa-perpetua-de-mogoda",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Avinguda de Santiga, 20",
+  "web": "http://www.geitsinternacional.com/",
+  "redes": [
+   "https://www.facebook.com/109322764869335"
+  ],
+  "lat": 41.53749,
+  "lon": 2.18075,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Aikidojo Terrassa",
+  "municipio": "terrassa",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Parc de Gernika, 17b",
+  "web": "http://www.aikidojoterrassa.com/",
+  "redes": [
+   "https://www.facebook.com/144239182279675"
+  ],
+  "lat": 41.56513,
+  "lon": 2.04284,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Boxingfactoryclub",
+  "municipio": "terrassa",
+  "comarca": "valles-occidental",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Carrer del Consell de Cent, 57",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/105704505064525"
+  ],
+  "lat": 41.57674,
+  "lon": 2.01949,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Brazilian Jiu Jitsu Terrassa",
+  "municipio": "terrassa",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Ctra. de Castellar, 220",
+  "web": "https://scienceofjiujitsu.weebly.com/",
+  "redes": [
+   "https://www.facebook.com/383926765727108"
+  ],
+  "lat": 41.5701,
+  "lon": 2.02742,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Bujinkan Terrassa",
+  "municipio": "terrassa",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer del Pintor Viver, 51",
+  "web": "http://bujinkanterrassa.blogspot.com.es/",
+  "redes": [
+   "https://www.facebook.com/102085606914911"
+  ],
+  "lat": 41.57133,
+  "lon": 2.0115,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Centro Alquimia Interna en Terrassa",
+  "municipio": "terrassa",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Passeig del Vint-i-dos de Juliol, 534",
+  "web": "http://www.alquimiainterna.com/",
+  "redes": [
+   "https://www.facebook.com/355641578136586"
+  ],
+  "lat": 41.56936,
+  "lon": 2.01894,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Taekwondo Hansan",
+  "municipio": "terrassa",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Av. de Barcelona, 122",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/530408386985579"
+  ],
+  "lat": 41.56273,
+  "lon": 2.02765,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "shorinryu_clubkimuragym",
+  "municipio": "terrassa",
+  "comarca": "valles-occidental",
+  "disciplinas": [],
+  "direccion": "Carrer de Girona, 310",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/109526717493033"
+  ],
+  "lat": 41.57855,
+  "lon": 2.02223,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "AikidoSakaki",
+  "municipio": "caldes-de-montbui",
+  "comarca": "valles-oriental",
+  "disciplinas": [],
+  "direccion": "Carrer Buenos Aires, 56",
+  "web": "http://aikidosakaki.blogspot.com/",
+  "redes": [
+   "https://www.facebook.com/1821750474781698",
+   "https://www.facebook.com/490169168026110"
+  ],
+  "lat": 41.63233,
+  "lon": 2.16552,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Taekwondo Bandal Caldes de Montbui",
+  "municipio": "caldes-de-montbui",
+  "comarca": "valles-oriental",
+  "disciplinas": [],
+  "direccion": "Carrer Buenos Aires, 56",
+  "web": "http://taekwondo-bandal-es.webnode.es/",
+  "redes": [
+   "https://www.facebook.com/306418126357925"
+  ],
+  "lat": 41.63233,
+  "lon": 2.16552,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "UBOX Granollers Training Club",
+  "municipio": "granollers",
+  "comarca": "valles-oriental",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "direccion": "Passeig de la Conca de Besòs, 33",
+  "web": "http://www.uboxgranollers.com/",
+  "redes": [
+   "https://www.facebook.com/829884940440204"
+  ],
+  "lat": 41.60363,
+  "lon": 2.27857,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "boxing_class"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Granollers Jiu-jitsu Brasileño",
+  "municipio": "les-franqueses-del-valles",
+  "comarca": "valles-oriental",
+  "disciplinas": [],
+  "direccion": "Carrer de l'Alzina",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/109717674922691"
+  ],
+  "lat": 41.61754,
+  "lon": 2.29785,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "D.P.E Defensa Policial Extendida",
+  "municipio": "mollet-del-valles",
+  "comarca": "valles-oriental",
+  "disciplinas": [],
+  "direccion": "Carrer d'Alexander Fleming, 33",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/2320639261512551"
+  ],
+  "lat": 41.5346,
+  "lon": 2.2139,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "baja",
+  "tier": "sin web: 1 fuente"
+ },
+ {
+  "nombre": "Escola Ganesh Arts Marcials Gym Suaus",
+  "municipio": "mollet-del-valles",
+  "comarca": "valles-oriental",
+  "disciplinas": [
+   "boxeo",
+   "hapkido",
+   "karate",
+   "taekwondo"
+  ],
+  "direccion": "Carrer de Sant Jordi, 48",
+  "web": null,
+  "redes": [
+   "https://www.facebook.com/196638193753930"
+  ],
+  "lat": 41.54048,
+  "lon": 2.20835,
+  "fuentes": [
+   "osm",
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club",
+   "taekwondo;boxing;hapkido;karate;fencing",
+   "taekwondo;totsival;hapkido;boxeo;esgrima;karate;fencing"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "sin web: 2 fuentes"
+ },
+ {
+  "nombre": "Academia Parets Jiu Jitsu",
+  "municipio": "parets-del-valles",
+  "comarca": "valles-oriental",
+  "disciplinas": [],
+  "direccion": "Avinguda de Josep Tarradellas, 2",
+  "web": "https://www.instagram.com/paretsjiujitsu/",
+  "redes": [
+   "https://www.facebook.com/374100089119642"
+  ],
+  "lat": 41.56298,
+  "lon": 2.22907,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "R revisar"
+ },
+ {
+  "nombre": "Bujinkan Kami no Michi Dojo",
+  "municipio": "parets-del-valles",
+  "comarca": "valles-oriental",
+  "disciplinas": [],
+  "direccion": "Carrer de Sant Jordi, 10",
+  "web": "http://www.kaminomichidojo.com/",
+  "redes": [
+   "https://www.facebook.com/1945390525752335"
+  ],
+  "lat": 41.56142,
+  "lon": 2.22511,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Espai taiji chen",
+  "municipio": "parets-del-valles",
+  "comarca": "valles-oriental",
+  "disciplinas": [
+   "tai-chi"
+  ],
+  "direccion": "Av. Lluís Companys, 47",
+  "web": "http://www.ce-taichiquan.com/",
+  "redes": [
+   "https://www.facebook.com/101605384646542"
+  ],
+  "lat": 41.57118,
+  "lon": 2.23189,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "tai_chi_studio"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ },
+ {
+  "nombre": "Kitsune Warrior",
+  "municipio": "parets-del-valles",
+  "comarca": "valles-oriental",
+  "disciplinas": [],
+  "direccion": "Carrer Camí de Sant Valerià, 6",
+  "web": "http://www.kitsunewarrior.com/",
+  "redes": [
+   "https://www.facebook.com/102391232602773"
+  ],
+  "lat": 41.5816,
+  "lon": 2.23661,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "web con error"
+ },
+ {
+  "nombre": "Can Kun",
+  "municipio": "vallgorguina",
+  "comarca": "valles-oriental",
+  "disciplinas": [],
+  "direccion": "Camí de Sant Iscle",
+  "web": "http://aikidocankun.blogspot.com/",
+  "redes": [
+   "https://www.facebook.com/157608431453866"
+  ],
+  "lat": 41.64679,
+  "lon": 2.52015,
+  "fuentes": [
+   "overture"
+  ],
+  "categorias": [
+   "martial_arts_club"
+  ],
+  "dudoso_fit": false,
+  "confianza": "alta",
+  "tier": "V verificable"
+ }
+]
