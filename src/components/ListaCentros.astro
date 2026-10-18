@@ -1,13 +1,12 @@
 ---
 // Listado de centros:
-// 1. Verificados (web, federación, ayuntamiento), en tarjetas y por orden alfabético.
-//    Los promocionados van los primeros, en la misma cuadrícula, con su etiqueta y
-//    borde destacado; el resto conserva su orden alfabético.
-// 2. Inscritos solo en el Registre d'Entitats Esportives, en lista compacta y
+// 1. Promocionados, aparte y etiquetados (pagar no cambia el orden del resto).
+// 2. Verificados (web, federación, ayuntamiento), en tarjetas y por orden alfabético.
+// 3. Inscritos solo en el Registre d'Entitats Esportives, en lista compacta y
 //    etiquetados: el registro no confirma que sigan activos.
 import CentroCard from './CentroCard.astro';
 import { L, url, type Lang } from '../lib/i18n';
-import { promocionadosEn, esPromocionado, verificados, sinVerificar, type Centro } from '../lib/centros';
+import { promocionadosEn, verificados, sinVerificar, type Centro } from '../lib/centros';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { getMunicipio } from '../lib/geo';
 
@@ -18,9 +17,9 @@ interface Props {
 }
 const { centros, lang, conMunicipio = true } = Astro.props;
 const promos = promocionadosEn(centros);
-// Un promocionado sale solo una vez, el primero; el resto no cambia de orden.
-const ver = [...promos, ...verificados(centros).filter(c => !esPromocionado(c.slug))];
-const reg = sinVerificar(centros).filter(c => !esPromocionado(c.slug));
+// El listado alfabético no cambia: el promocionado sigue en su sitio además de su bloque.
+const ver = verificados(centros);
+const reg = sinVerificar(centros);
 // Listados largos: se ven los primeros y el resto tras «Mostrar más». Siguen en
 // el HTML (indexables y filtrables); al filtrar por disciplina se despliegan.
 const LIM_V = 24;
@@ -28,6 +27,14 @@ const LIM_R = 12;
 const mas = (k: number) => L(lang, `Mostrar ${k} más`, `Mostra'n ${k} més`);
 ---
 
+{promos.length > 0 && (
+  <div class="mb-5" data-grupo>
+    <p class="text-xs uppercase tracking-wide text-amber-400 mb-3">{L(lang, 'Centros promocionados', 'Centres promocionats')}</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {promos.map(c => <CentroCard centro={c} lang={lang} conMunicipio={conMunicipio} />)}
+    </div>
+  </div>
+)}
 {ver.length > 0 && (
   <div data-grupo data-colapsable class:list={[ver.length > LIM_V && 'colapsado']}>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
