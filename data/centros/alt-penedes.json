@@ -283,7 +283,8 @@
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=14",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "https://dojokizuna.blogspot.com/"
  },
  {
   "slug": "club-sant-marti-de-sarroca",
@@ -334,7 +335,23 @@
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "https://www.equip4.cat"
+ },
+ {
+  "slug": "gimnasio-tkd-sansa",
+  "nombre": "Gimnasio TKD Sansa",
+  "tipo": "gimnasio",
+  "municipio": "sant-sadurni-danoia",
+  "disciplinas": [
+   "boxeo",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "web": "https://tkdsansa.com/",
+  "fuente": "https://tkdsansa.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "hiraken-karate-do-gimnas",

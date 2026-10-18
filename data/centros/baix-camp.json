@@ -253,9 +253,10 @@
   "disciplinas": [
    "taekwondo"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02612",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "https://www.choissport.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18",
+  "web": "https://www.choissport.com/"
  },
  {
   "slug": "club-de-boxa-cambrils-olimpica",
@@ -778,6 +779,21 @@
   "fuente": "https://muaykhaoreus.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mugendo-reus",
+  "nombre": "Mugendo Reus",
+  "tipo": "escuela",
+  "municipio": "reus",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kickboxing"
+  ],
+  "web": "https://reus.mugendo.es/",
+  "fuente": "https://reus.mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "renzo-gracie-spain",

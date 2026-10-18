@@ -67,6 +67,19 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "afl-mma",
+  "nombre": "AFL MMA",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma"
+  ],
+  "web": "https://aflmma.club/",
+  "fuente": "https://aflmma.club/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "agrupacio-esportiva-santa-eulalia",
   "nombre": "Agrupació Esportiva Santa Eulàlia",
   "tipo": "asociacion",
@@ -92,6 +105,20 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "aiam-escola",
+  "nombre": "AIAM Escola",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "tai-chi"
+  ],
+  "web": "https://www.aiamescola.com/",
+  "fuente": "https://www.aiamescola.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "alpha-gym-mma",
   "nombre": "Alpha Gym Mma",
   "tipo": "gimnasio",
@@ -105,6 +132,19 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ALPHACAT",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "alta-escuela-de-aikido-tsuki-kai",
+  "nombre": "Alta Escuela de Aikido Tsuki Kai",
+  "tipo": "escuela",
+  "municipio": "santa-coloma-de-gramenet",
+  "disciplinas": [
+   "aikido"
+  ],
+  "web": "https://www.aikidosantacoloma.es/galeria1/",
+  "fuente": "https://www.aikidosantacoloma.es/galeria1/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "anoll",
@@ -167,6 +207,17 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "artes-marciales-barcelona-wamai",
+  "nombre": "Artes Marciales Barcelona - WAMAI",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [],
+  "web": "https://wamai.net/",
+  "fuente": "https://wamai.net/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "asociacion-deportiva-chatarras-palace",
@@ -549,9 +600,10 @@
    "boxeo",
    "kickboxing"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=10318",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "https://www.muaythaibarcelona.com",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18",
+  "web": "https://www.ubk-centre.com/"
  },
  {
   "slug": "associacio-esportiva-esparta-300",
@@ -654,6 +706,19 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "awase-dojo-barcelona",
+  "nombre": "Awase Dojo Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido"
+  ],
+  "web": "https://www.awasedojo.com/",
+  "fuente": "https://www.awasedojo.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "bam-chun",
   "nombre": "Bam Chun",
   "tipo": "escuela",
@@ -708,6 +773,19 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=BARJJ",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "barcelona-taekwondo-center",
+  "nombre": "Barcelona Taekwondo Center",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "web": "http://www.itf-barcelona.com/",
+  "fuente": "http://www.itf-barcelona.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "barcelona-taekwondo-starclass",
@@ -862,7 +940,34 @@
   "direccion": "C/ Mare de Déu de Lorda, 72, Barcelona",
   "fuente": "https://fedecatjudo.cat/defensa-personal/clubs/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "http://institutodewushu.com/"
+ },
+ {
+  "slug": "capoeira-matumbe",
+  "nombre": "Capoeira Matumbe",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "capoeira"
+  ],
+  "web": "https://matumbecapoeira.es/",
+  "fuente": "https://matumbecapoeira.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
+  "slug": "capoeira-sul-da-bahia-barcelona",
+  "nombre": "Capoeira Sul da Bahía Barcelona",
+  "tipo": "escuela",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "capoeira"
+  ],
+  "web": "https://capoeirasuldabahia.es/",
+  "fuente": "https://capoeirasuldabahia.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "cd-natura",
@@ -977,6 +1082,19 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "circle-bjj",
+  "nombre": "Circle BJJ",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "jiu-jitsu-brasileno"
+  ],
+  "web": "https://circleacademy.es/",
+  "fuente": "https://circleacademy.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "club-alianza-arts-marcials",
@@ -1331,6 +1449,19 @@
   "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=03136",
   "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
+ },
+ {
+  "slug": "club-de-boxeo-iberia",
+  "nombre": "Club de boxeo Iberia",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "web": "https://clubdeboxaiberia.com/",
+  "fuente": "https://clubdeboxaiberia.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "club-de-boxeo-lhospitalet",
@@ -1898,7 +2029,8 @@
   "direccion": "Carrer de Siracusa, 5, Gràcia, 08012 Barcelona",
   "fuente": "https://www.owkle.es/clubs/club-esportiu-darts-marcials-xavi-nadal/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-10-03"
+  "verificado": "2026-10-03",
+  "web": "https://escuelaartesmarcialesxavinadalbarcelona.com/"
  },
  {
   "slug": "club-esportiu-de-boxa-gracia",
@@ -2347,7 +2479,8 @@
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=16",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "https://clubesportiumediterrani.com/"
  },
  {
   "slug": "club-esportiu-mpowah",
@@ -2528,9 +2661,10 @@
   "disciplinas": [
    "karate"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=13485",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "https://www.urbanteam.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18",
+  "web": "https://www.urbanteam.es/"
  },
  {
   "slug": "club-esportiu-valmis",
@@ -2821,7 +2955,8 @@
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "https://www.dojogokan.com/"
  },
  {
   "slug": "club-gymjar",
@@ -3238,6 +3373,19 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "club-kihon",
+  "nombre": "Club Kihon",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "web": "https://clubkihon.blogspot.com/",
+  "fuente": "https://clubkihon.blogspot.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "club-kungan1",
   "nombre": "Club Kungan1",
   "tipo": "club",
@@ -3624,6 +3772,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "dojo-karate-creole",
+  "nombre": "Dojo Karate Creole",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "karate"
+  ],
+  "web": "https://karatecreole.wordpress.com/",
+  "fuente": "https://karatecreole.wordpress.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "dojo-narot",
   "nombre": "Dojo Narot",
   "tipo": "escuela",
@@ -3685,6 +3846,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "dojokaibcn-artes-marciales-y-defensa-personal",
+  "nombre": "Dojokaibcn Artes Marciales y Defensa Personal",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "grappling"
+  ],
+  "web": "https://www.dojokaibcn.com/",
+  "fuente": "https://www.dojokaibcn.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "don-gimnas",
   "nombre": "Don Gimnas",
   "tipo": "gimnasio",
@@ -3709,7 +3884,8 @@
   "direccion": "Plaça de la Marinada, 1, 08911 Badalona, Barcelona",
   "fuente": "https://www.owkle.es/clubs/dym-badalona/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-10-03"
+  "verificado": "2026-10-03",
+  "web": "https://centrosdym.com/"
  },
  {
   "slug": "el-petit-bosc",
@@ -3762,6 +3938,19 @@
   "fuente": "https://entrenaenbarcelona.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "epic-kickboxing-barcelona",
+  "nombre": "Epic Kickboxing Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kickboxing"
+  ],
+  "web": "https://epickickboxing.es/",
+  "fuente": "https://epickickboxing.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "escuela-de-artes-marciales",
@@ -3904,6 +4093,17 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "fujimae-barcelona",
+  "nombre": "FUJIMAE Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [],
+  "web": "https://fujimae.com/",
+  "fuente": "https://fujimae.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "fundacio-privada-claror",
   "nombre": "Fundació Privada Claror",
   "tipo": "escuela",
@@ -3946,6 +4146,17 @@
   "fuente": "https://www.gallegoprada.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "genbukan-dojo-sant-adria",
+  "nombre": "Genbukan Dojo Sant Adrià",
+  "tipo": "escuela",
+  "municipio": "sant-adria-de-besos",
+  "disciplinas": [],
+  "web": "https://genbukan.es/",
+  "fuente": "https://genbukan.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "gi-training-camp",
@@ -4051,7 +4262,8 @@
   "direccion": "San Silvestre, 5, 08921 Santa Coloma de Gramanet",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "http://tkdhanra.com/"
  },
  {
   "slug": "hangul-taekwondo-club",
@@ -4064,6 +4276,21 @@
   "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=02710",
   "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
+ },
+ {
+  "slug": "haru-aikido",
+  "nombre": "Haru Aikido",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "judo",
+   "kendo"
+  ],
+  "web": "https://haruaikido.com/",
+  "fuente": "https://haruaikido.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "hermanos-argudo",
@@ -4088,7 +4315,8 @@
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=8",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "http://www.karateclubhirota.com"
  },
  {
   "slug": "hospitalet-jiujitsu-sl",
@@ -4194,7 +4422,8 @@
   "direccion": "Milanesat, 32-34, 08017 Barcelona",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "https://tkdqueroljuntai.com/"
  },
  {
   "slug": "k1-fighters-team",
@@ -4208,6 +4437,36 @@
   "fuente": "https://www.owkle.es/clubs/k1-fighters-team/",
   "fuenteTipo": "federacion",
   "verificado": "2026-10-03"
+ },
+ {
+  "slug": "kaizen-dojo",
+  "nombre": "Kaizen Dojo",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-japones",
+   "karate"
+  ],
+  "web": "https://kaizendojobcn.com/",
+  "fuente": "https://kaizendojobcn.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
+  "slug": "kali-flow-academy",
+  "nombre": "Kali Flow Academy",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kali"
+  ],
+  "web": "https://kaliflowacademy.com/",
+  "fuente": "https://kaliflowacademy.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "karate-club-accio-sant-marti",
@@ -4261,6 +4520,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "kishintai",
+  "nombre": "Kishintai",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "aikido",
+   "defensa-personal"
+  ],
+  "web": "https://www.kishintai.org/",
+  "fuente": "https://www.kishintai.org/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "koryo-badalona",
   "nombre": "Koryo Badalona",
   "tipo": "gimnasio",
@@ -4305,6 +4578,20 @@
   "fuente": "https://www.koryobcn.com/contacto/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "krav-maga-badalona",
+  "nombre": "Krav Maga Badalona",
+  "tipo": "escuela",
+  "municipio": "badalona",
+  "disciplinas": [
+   "defensa-personal",
+   "krav-maga"
+  ],
+  "web": "http://www.kravmaga-ikmf.es/",
+  "fuente": "http://www.kravmaga-ikmf.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "krav-maga-barcelona",
@@ -4362,6 +4649,19 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "kyokushin-spirit",
+  "nombre": "Kyokushin Spirit",
+  "tipo": "escuela",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "karate"
+  ],
+  "web": "https://kyokushinspirit.es/",
+  "fuente": "https://kyokushinspirit.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "las-cuerdas-del-carmelo",
   "nombre": "Las Cuerdas del Carmelo",
   "tipo": "gimnasio",
@@ -4375,7 +4675,8 @@
   "direccion": "Carrer d'Arbós, 25, Horta-Guinardó, 08032 Barcelona",
   "fuente": "https://www.owkle.es/clubs/las-cuerdas-del-carmelo/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-10-03"
+  "verificado": "2026-10-03",
+  "web": "https://www.lascuerdasdelcarmelo.com/"
  },
  {
   "slug": "lee-young-badalona",
@@ -4398,6 +4699,19 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "life-club-mma",
+  "nombre": "Life Club MMA",
+  "tipo": "club",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma"
+  ],
+  "web": "https://lifeclubmma.sixsport.es/",
+  "fuente": "https://lifeclubmma.sixsport.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "lion-fighters",
   "nombre": "Lion Fighters",
   "tipo": "escuela",
@@ -4410,6 +4724,19 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=LION",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "mekugi-dojo",
+  "nombre": "Mekugi dojo",
+  "tipo": "escuela",
+  "municipio": "badalona",
+  "disciplinas": [
+   "kobudo"
+  ],
+  "web": "https://mekugidojo.wixsite.com/dojo",
+  "fuente": "https://mekugidojo.wixsite.com/dojo",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "mma-barcelona-team",
@@ -4434,6 +4761,21 @@
   "fuente": "https://mmabarcelonateam.es/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "muay-thai-thailand-barcelona",
+  "nombre": "Muay Thai Thailand Barcelona",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "muay-thai"
+  ],
+  "web": "https://www.muaythaibarcelona.com/",
+  "fuente": "https://www.muaythaibarcelona.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "mugendo-badalona",
@@ -4648,7 +4990,8 @@
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "http://oyamaskarate.blogspot.com/"
  },
  {
   "slug": "parera",
@@ -4703,6 +5046,21 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "ranai-dojo",
+  "nombre": "RanAi Dojo",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "defensa-personal",
+   "karate",
+   "kendo"
+  ],
+  "web": "https://ranaidojo.com/",
+  "fuente": "https://ranaidojo.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "royal-boxing-club-barcelona",
   "nombre": "Royal Boxing Club",
   "tipo": "gimnasio",
@@ -4755,6 +5113,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "shaolin-kung-fu-barcelona",
+  "nombre": "Shaolin Kung Fu Barcelona",
+  "tipo": "escuela",
+  "municipio": "lhospitalet-de-llobregat",
+  "disciplinas": [
+   "kobudo",
+   "kung-fu"
+  ],
+  "web": "https://shaolinbarcelona.com/",
+  "fuente": "https://shaolinbarcelona.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "shihan-escola-de-karate",
   "nombre": "Shihan, Escola de Karate",
   "tipo": "escuela",
@@ -4764,7 +5136,21 @@
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=5",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "http://www.shihandojo.com/"
+ },
+ {
+  "slug": "shock-boxing-gym",
+  "nombre": "Shock Boxing Gym",
+  "tipo": "gimnasio",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "boxeo"
+  ],
+  "web": "https://www.shockboxinggym.com/",
+  "fuente": "https://www.shockboxinggym.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "shorinji-kan-jiu-jitsu-barcelona",
@@ -4793,7 +5179,8 @@
   "direccion": "Alfonso Xii, 39 B, 08006 Barcelona",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=tat",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "https://wonsbarcelona.es/"
  },
  {
   "slug": "song-duck-i",
@@ -4899,6 +5286,19 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=4",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "taekwondo-itf-escuela-internacional-taekwondo",
+  "nombre": "Taekwondo ITF (Escuela Internacional Taekwondo)",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "taekwondo"
+  ],
+  "web": "https://www.itftaekwondo.es/",
+  "fuente": "https://www.itftaekwondo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "taekwondowon3marin",
@@ -5077,6 +5477,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "wai-kru-muay-thai",
+  "nombre": "Wai Kru Muay Thai",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "muay-thai"
+  ],
+  "web": "https://waikrumuaythai.com/",
+  "fuente": "https://waikrumuaythai.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "warriors-barcelona-arago",
   "nombre": "Warriors Barcelona Aragó",
   "tipo": "escuela",
@@ -5137,6 +5550,20 @@
   "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=ESTOR",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "wudang-spain",
+  "nombre": "Wudang Spain",
+  "tipo": "escuela",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "web": "https://www.wudangspain.es/",
+  "fuente": "https://www.wudangspain.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "xfit-eixample",

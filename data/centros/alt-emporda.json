@@ -475,6 +475,17 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "tadaima-dojo-escola-darts-marcials",
+  "nombre": "Tadaima Dojo Escola D'Arts Marcials",
+  "tipo": "escuela",
+  "municipio": "figueres",
+  "disciplinas": [],
+  "web": "https://tadaimahonbudojo.com/",
+  "fuente": "https://tadaimahonbudojo.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "tae-sport",
   "nombre": "Tae Sport",
   "tipo": "escuela",

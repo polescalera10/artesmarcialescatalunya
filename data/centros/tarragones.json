@@ -64,9 +64,10 @@
    "kung-fu",
    "tai-chi"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=17673",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "http://wushujunzimen.blogspot.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18",
+  "web": "http://wushujunzimen.blogspot.com/"
  },
  {
   "slug": "budo-shin-tarragona",

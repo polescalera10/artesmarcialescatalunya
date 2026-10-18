@@ -55,6 +55,20 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "aikidojo-terrassa",
+  "nombre": "Aikidojo Terrassa",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "aikido",
+   "kendo"
+  ],
+  "web": "https://aikidojoterrassa.com/",
+  "fuente": "https://aikidojoterrassa.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "alexandra",
   "nombre": "Alexandra",
   "tipo": "escuela",
@@ -85,6 +99,19 @@
   "fuente": "https://www.aranhasantcugat.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "arte-marcial-samurai-bujinkan-sant-cugat",
+  "nombre": "Arte Marcial Samurai - Bujinkan Sant Cugat",
+  "tipo": "escuela",
+  "municipio": "sant-cugat-del-valles",
+  "disciplinas": [
+   "ninjutsu"
+  ],
+  "web": "https://bujinkansantcugat.com/",
+  "fuente": "https://bujinkansantcugat.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "asociacion-capoeira-brasil-barcelona",
@@ -206,12 +233,12 @@
   "tipo": "asociacion",
   "municipio": "terrassa",
   "disciplinas": [
-   "defensa-personal",
    "kung-fu"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09353",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "http://kungfutaichichuan.blogspot.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18",
+  "web": "http://kungfutaichichuan.blogspot.com/"
  },
  {
   "slug": "associacio-esportiva-de-tai-txi-yuyan",
@@ -475,6 +502,33 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "brazilian-jiu-jitsu-terrassa",
+  "nombre": "Brazilian Jiu Jitsu Terrassa",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "defensa-personal",
+   "jiu-jitsu-brasileno"
+  ],
+  "web": "https://scienceofjiujitsu.weebly.com/",
+  "fuente": "https://scienceofjiujitsu.weebly.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
+  "slug": "bujinkan-terrassa",
+  "nombre": "Bujinkan Terrassa",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "ninjutsu"
+  ],
+  "web": "http://bujinkanterrassa.blogspot.com/",
+  "fuente": "http://bujinkanterrassa.blogspot.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "c-k-multi-sport-cerdanyola",
   "nombre": "C.K. Multi-Sport Cerdanyola",
   "tipo": "escuela",
@@ -514,6 +568,20 @@
   "fuente": "https://campioclub.es/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "centro-alquimia-interna-en-terrassa",
+  "nombre": "Centro Alquimia Interna en Terrassa",
+  "tipo": "escuela",
+  "municipio": "terrassa",
+  "disciplinas": [
+   "tai-chi",
+   "wing-chun"
+  ],
+  "web": "https://alquimiainterna.es/",
+  "fuente": "https://alquimiainterna.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "cfc-team-sergio-calderon",
@@ -2203,7 +2271,8 @@
   "direccion": "Avd. Canaletas, 47 Local 6, 08290 Cerdanyola del Valles",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "https://www.leeyoungcerdanyola.com/"
  },
  {
   "slug": "dojo-gaman",
@@ -2303,6 +2372,19 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=10",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "escuela-de-aikido-de-sabadell-espana",
+  "nombre": "Escuela de AIKIDO de Sabadell - España",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "aikido"
+  ],
+  "web": "https://tadaimadojo.com/",
+  "fuente": "https://tadaimadojo.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "escuela-taekwondo-rivilla",
@@ -2458,6 +2540,20 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "itka-spain-international-taijiquan-kungfu-association-spain",
+  "nombre": "ITKA Spain - International Taijiquan Kungfu Association Spain",
+  "tipo": "escuela",
+  "municipio": "rubi",
+  "disciplinas": [
+   "defensa-personal",
+   "kung-fu"
+  ],
+  "web": "https://www.itka.es/",
+  "fuente": "https://www.itka.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "jean",
   "nombre": "Jean",
   "tipo": "escuela",
@@ -2574,6 +2670,23 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "kung-fu-5-dragones",
+  "nombre": "Kung Fu 5 Dragones",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "kali",
+   "kung-fu",
+   "wing-chun"
+  ],
+  "web": "https://www.kungfu5dragones.es/",
+  "fuente": "https://www.kungfu5dragones.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "kyokushin-dojo-eft",
   "nombre": "Kyokushin Dojo EFT",
   "tipo": "escuela",
@@ -2623,6 +2736,19 @@
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=1",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "lorkenpo-american-kenpo-karate",
+  "nombre": "Lorkenpo American Kenpo Karate",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "karate"
+  ],
+  "web": "https://www.lorenjimenez.com/",
+  "fuente": "https://www.lorenjimenez.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "lynx-martial-arts-sant-cugat",
@@ -2692,6 +2818,23 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "mugendo-sabadell",
+  "nombre": "Mugendo Sabadell",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [
+   "boxeo",
+   "defensa-personal",
+   "karate",
+   "kickboxing",
+   "taekwondo"
+  ],
+  "web": "https://mugendo.es/",
+  "fuente": "https://mugendo.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "mugendo-sant-cugat",
   "nombre": "Mugendo Sant Cugat",
   "tipo": "escuela",
@@ -2711,6 +2854,17 @@
   "fuente": "https://santcugat.mugendo.es/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "mushin-dojo",
+  "nombre": "Mushin Dojo",
+  "tipo": "escuela",
+  "municipio": "sabadell",
+  "disciplinas": [],
+  "web": "https://www.mushindojosbd.com/",
+  "fuente": "https://www.mushindojosbd.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "olympia-gym-club",
@@ -2804,7 +2958,8 @@
   "direccion": "Atmellers, 1, 08213 Polinya",
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "http://taekwondoseulpolinya.blogspot.com/"
  },
  {
   "slug": "sfc-sabadell-fight-club",

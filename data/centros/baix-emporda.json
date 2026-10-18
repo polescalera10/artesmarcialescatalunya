@@ -416,6 +416,17 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "kobu-shin-koryu-dojo",
+  "nombre": "Kobu Shin Koryu Dojo",
+  "tipo": "escuela",
+  "municipio": "palamos-i-sant-joan",
+  "disciplinas": [],
+  "web": "https://kskdojo.com/",
+  "fuente": "https://kskdojo.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "lokers-team",
   "nombre": "Loker's Team",
   "tipo": "gimnasio",

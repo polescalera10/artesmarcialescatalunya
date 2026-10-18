@@ -70,12 +70,12 @@
   "tipo": "club",
   "municipio": "valls",
   "disciplinas": [
-   "hapkido",
    "taekwondo"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11280",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "https://vitalsportsvalls.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18",
+  "web": "https://vitalsportsvalls.com/"
  },
  {
   "slug": "club-karate-asna",
@@ -87,7 +87,8 @@
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=15",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "https://karateasna.com/"
  },
  {
   "slug": "club-yudanshado",

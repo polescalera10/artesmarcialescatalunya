@@ -311,12 +311,12 @@
   "tipo": "asociacion",
   "municipio": "cornella-de-llobregat",
   "disciplinas": [
-   "karate",
-   "kobudo"
+   "karate"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=11260",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "https://www.karatehayashiha.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18",
+  "web": "https://www.karatehayashiha.com/"
  },
  {
   "slug": "associacio-esportiva-karateprat",
@@ -1321,12 +1321,12 @@
   "tipo": "club",
   "municipio": "castelldefels",
   "disciplinas": [
-   "kung-fu",
-   "tai-chi"
+   "kung-fu"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=14331",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "http://www.joanyinyang.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18",
+  "web": "http://www.joanyinyang.com/"
  },
  {
   "slug": "club-esportiu-judo-sant-feliu",
@@ -1780,9 +1780,10 @@
   "disciplinas": [
    "karate"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=16710",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "fuente": "https://karatedojonintai.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18",
+  "web": "https://karatedojonintai.com/"
  },
  {
   "slug": "club-karate-sakura-viladecans",
@@ -2273,6 +2274,17 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "fujimae",
+  "nombre": "Fujimae",
+  "tipo": "escuela",
+  "municipio": "martorell",
+  "disciplinas": [],
+  "web": "https://fujimae.com/",
+  "fuente": "https://fujimae.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "gimnas-damian-anto",
   "nombre": "Gimnas Damian Antó",
   "tipo": "gimnasio",
@@ -2340,6 +2352,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "hapkido-jin-jung-kwan-espana",
+  "nombre": "Hapkido Jin Jung Kwan España",
+  "tipo": "escuela",
+  "municipio": "viladecans",
+  "disciplinas": [
+   "hapkido"
+  ],
+  "web": "https://hapkidojjkspain.com/",
+  "fuente": "https://hapkidojjkspain.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "harondo",
   "nombre": "Harondo",
   "tipo": "escuela",
@@ -2398,6 +2423,23 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "jkdbarcelona-academia-de-artes-marciales",
+  "nombre": "JKDBarcelona - Academia de Artes Marciales",
+  "tipo": "escuela",
+  "municipio": "sant-boi-de-llobregat",
+  "disciplinas": [
+   "boxeo",
+   "grappling",
+   "jeet-kune-do",
+   "kickboxing",
+   "muay-thai"
+  ],
+  "web": "https://jkdbarcelona.com/",
+  "fuente": "https://jkdbarcelona.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "karate-kobudo-i-goshin-s-a-b",
   "nombre": "Karate Kobudo i Goshin S.A.B.",
   "tipo": "escuela",
@@ -2432,6 +2474,23 @@
   "fuente": "https://www.owkle.es/clubs/ken-ryu/",
   "fuenteTipo": "federacion",
   "verificado": "2026-10-03"
+ },
+ {
+  "slug": "lion-fighters-mma",
+  "nombre": "Lion Fighters MMA",
+  "tipo": "escuela",
+  "municipio": "cornella-de-llobregat",
+  "disciplinas": [
+   "boxeo",
+   "grappling",
+   "kickboxing",
+   "lucha",
+   "mma"
+  ],
+  "web": "https://lionfightersmma.com/",
+  "fuente": "https://lionfightersmma.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "martial-arts-castelldefels",
@@ -2788,6 +2847,19 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "shisenkan-hakuro-dojo",
+  "nombre": "Shisenkan Hakurō Dōjō",
+  "tipo": "escuela",
+  "municipio": "el-prat-de-llobregat",
+  "disciplinas": [
+   "kobudo"
+  ],
+  "web": "https://www.shisenkan.org/",
+  "fuente": "https://www.shisenkan.org/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "societat-esportiva-corbera",

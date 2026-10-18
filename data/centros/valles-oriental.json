@@ -1,5 +1,18 @@
 [
  {
+  "slug": "aikidosakaki",
+  "nombre": "AikidoSakaki",
+  "tipo": "escuela",
+  "municipio": "caldes-de-montbui",
+  "disciplinas": [
+   "aikido"
+  ],
+  "web": "http://aikidosakaki.blogspot.com/",
+  "fuente": "http://aikidosakaki.blogspot.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "amics-dinfancia-judo-club-mollet-del-valles",
   "nombre": "Amics Dinfancia Judo Club Mollet del Vallès",
   "tipo": "club",
@@ -306,6 +319,19 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "bujinkan-kami-no-michi-dojo",
+  "nombre": "Bujinkan Kami no Michi Dojo",
+  "tipo": "escuela",
+  "municipio": "parets-del-valles",
+  "disciplinas": [
+   "ninjutsu"
+  ],
+  "web": "https://kaminomichidojo.com/",
+  "fuente": "https://kaminomichidojo.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "c-e-aikido-bigues-i-riells",
   "nombre": "C.E. Aikido Bigues i Riells",
   "tipo": "club",
@@ -336,6 +362,19 @@
   "fuente": "https://www.okamishindojo.com/",
   "fuenteTipo": "web-oficial",
   "verificado": "2026-09-30"
+ },
+ {
+  "slug": "can-kun",
+  "nombre": "Can Kun",
+  "tipo": "escuela",
+  "municipio": "vallgorguina",
+  "disciplinas": [
+   "aikido"
+  ],
+  "web": "http://aikidocankun.blogspot.com/",
+  "fuente": "http://aikidocankun.blogspot.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "cerdanyola-judo-club-valles-2010",
@@ -1266,6 +1305,20 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "espai-taiji-chen",
+  "nombre": "Espai taiji chen",
+  "tipo": "escuela",
+  "municipio": "parets-del-valles",
+  "disciplinas": [
+   "kung-fu",
+   "tai-chi"
+  ],
+  "web": "https://espaitaiji.com/",
+  "fuente": "https://espaitaiji.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  },
  {
   "slug": "esportiu-ares-arena",

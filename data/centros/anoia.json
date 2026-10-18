@@ -58,7 +58,8 @@
   ],
   "fuente": "https://fckarate.cat/clubs/?jsf=jet-engine:clubs&pagenum=3",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-09-29",
+  "web": "https://budokan.es/"
  },
  {
   "slug": "club-boxa-igualada",
@@ -184,6 +185,20 @@
   "verificado": "2026-09-29"
  },
  {
+  "slug": "furio-jol-team",
+  "nombre": "Furio Jol Team",
+  "tipo": "escuela",
+  "municipio": "vilanova-del-cami",
+  "disciplinas": [
+   "muay-thai",
+   "taekwondo"
+  ],
+  "web": "https://furiojolteam.wixsite.com/furio-jol",
+  "fuente": "https://furiojolteam.wixsite.com/furio-jol",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "gui",
   "nombre": "Gui",
   "tipo": "escuela",
@@ -195,5 +210,19 @@
   "fuente": "https://taekwondocatala.com/public/clubs.php?terr=pro",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
+ },
+ {
+  "slug": "kyoukai-budo",
+  "nombre": "Kyoukai Budo",
+  "tipo": "escuela",
+  "municipio": "igualada",
+  "disciplinas": [
+   "aikido",
+   "judo"
+  ],
+  "web": "http://kyoukaibudo.blogspot.com/",
+  "fuente": "http://kyoukaibudo.blogspot.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
  }
 ]

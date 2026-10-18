@@ -72,6 +72,12 @@ const reglas = lang === 'es' ? [
         )}
         <h2>{L(lang, 'Las reglas del directorio', 'Les regles del directori')}</h2>
         <ul>{reglas.map(([t, d]) => <li><strong>{t}</strong> {d}</li>)}</ul>
+        <h2>{L(lang, 'Cómo encontramos los centros', 'Com trobem els centres')}</h2>
+        <p>
+          {L(lang,
+            'Para localizar centros que aún no conocíamos usamos también bases de datos abiertas de lugares: Overture Maps Foundation (licencia CDLA Permissive 2.0) y OpenStreetMap (© colaboradores de OpenStreetMap, licencia ODbL). Sirven solo para encontrar candidatos. Lo que publicamos de cada centro sale de su propia web o de las fuentes públicas de arriba, nunca de esas bases.',
+            "Per localitzar centres que encara no coneixíem fem servir també bases de dades obertes de llocs: Overture Maps Foundation (llicència CDLA Permissive 2.0) i OpenStreetMap (© col·laboradors d'OpenStreetMap, llicència ODbL). Serveixen només per trobar candidats. El que publiquem de cada centre surt del seu propi web o de les fonts públiques d'amunt, mai d'aquestes bases.")}
+        </p>
         <h2>{L(lang, 'Correcciones y retiradas', 'Correccions i retirades')}</h2>
         <p>
           {L(lang, 'Si tu centro no aparece o algún dato está mal, ', 'Si el teu centre no hi surt o alguna dada està malament, ')}
