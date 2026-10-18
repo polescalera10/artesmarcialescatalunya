@@ -42,7 +42,7 @@ const tipos = modo === 'info'
   ) : (
     <div>
       <label for="f-tipo" class="block text-sm text-white mb-1.5">{L(lang, '¿Qué necesitas?', 'Què necessites?')}</label>
-      <select id="f-tipo" name="tipo" class={input}>
+      <select id="f-tipo" name="tipo" class:list={[input, "campo-select"]}>
         {tipos.map(([v, t]) => <option value={v}>{t}</option>)}
       </select>
     </div>
@@ -87,12 +87,12 @@ const tipos = modo === 'info'
   </div>
   {modo === 'info' && (
     <label class="flex items-start gap-2 text-xs text-brand-muted">
-      <input type="checkbox" name="reenvio" required class="mt-0.5" />
+      <input type="checkbox" name="reenvio" required class="size-4 shrink-0 accent-brand-red" />
       <span>{L(lang, 'Acepto que hagáis llegar mi consulta y mi email a este centro para que me responda.', "Accepto que feu arribar la meva consulta i el meu email a aquest centre perquè em respongui.")}</span>
     </label>
   )}
   <label class="flex items-start gap-2 text-xs text-brand-muted">
-    <input type="checkbox" name="acepto" required class="mt-0.5" />
+    <input type="checkbox" name="acepto" required class="size-4 shrink-0 accent-brand-red" />
     <span>
       {L(lang, 'He leído la ', "He llegit la ")}<a href={url.privacidad()} class="underline hover:text-white">{L(lang, 'política de privacidad', 'política de privadesa')}</a>{L(lang,
         '. Usamos tus datos solo para responderte; no se ceden a terceros ni se usan para publicidad.',

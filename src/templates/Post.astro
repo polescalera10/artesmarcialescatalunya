@@ -48,7 +48,7 @@ const schema = {
 <Layout title={post.titulo} description={post.descripcion} canonical={url.post(post.slug, lang)} schema={schema} lang={lang} ogImage={og} alternates={alternates} articulo={{ publicado: post.fecha, actualizado: post.actualizado }}>
   <Header lang={lang} alt={alternates ? alternates[lang === 'es' ? 'ca' : 'es'] : url.blog(lang === 'es' ? 'ca' : 'es')} />
   <main id="contenido">
-    <Migas lang={lang} items={[{ nombre: 'Blog', href: url.blog(lang) }, { nombre: post.h1, href: url.post(post.slug, lang) }]} />
+    <Migas lang={lang} estrecho items={[{ nombre: 'Blog', href: url.blog(lang) }, { nombre: post.h1, href: url.post(post.slug, lang) }]} />
     <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{post.h1}</h1>
       <p class="text-xs text-brand-muted mt-4">{L(lang, 'Publicado el', 'Publicat el')} <time datetime={post.fecha}>{fecha(lang, post.fecha)}</time>{post.actualizado !== post.fecha && <> · {L(lang, 'Actualizado el', 'Actualitzat el')} <time datetime={post.actualizado}>{fecha(lang, post.actualizado)}</time></>} · {SITE.name}</p>

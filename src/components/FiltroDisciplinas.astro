@@ -20,7 +20,7 @@ interface Props {
   cerca?: { comarca: string; municipio: string };
 }
 const { lang, disciplinas, ambito, infantil = 0, cerca } = Astro.props;
-const chip = 'inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm transition-colors';
+const chip = 'inline-flex items-center gap-1.5 rounded-full border px-3 py-2 sm:py-1.5 text-sm transition-colors';
 const buscador = cerca ? `${url.centros(lang)}?comarca=${cerca.comarca}&municipio=${cerca.municipio}` : '';
 ---
 

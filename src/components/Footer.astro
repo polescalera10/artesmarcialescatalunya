@@ -20,25 +20,25 @@ const year = new Date().getFullYear();
           `Directori independent de ${NV} centres d'arts marcials a ${comarcasConCentros().length} comarques de Catalunya. Cada fitxa porta la font pública i la data en què es va verificar. No som un gimnàs ni cobrem per aparèixer al llistat.`)}
       </p>
     </div>
-    <ul class="space-y-2 text-sm">
-      <li><a href={url.centros(lang)} class="text-brand-muted hover:text-white">{L(lang, 'Todos los centros', 'Tots els centres')}</a></li>
-      <li><a href={url.disciplinas(lang)} class="text-brand-muted hover:text-white">{L(lang, 'Disciplinas', 'Disciplines')}</a></li>
-      <li><a href={url.blog(lang)} class="text-brand-muted hover:text-white">Blog</a></li>
-      <li><a href={url.sobre(lang)} class="text-brand-muted hover:text-white">{L(lang, 'Cómo verificamos', 'Com verifiquem')}</a></li>
+    <ul class="space-y-1 text-sm">
+      <li><a href={url.centros(lang)} class="inline-block py-1 text-brand-muted hover:text-white">{L(lang, 'Todos los centros', 'Tots els centres')}</a></li>
+      <li><a href={url.disciplinas(lang)} class="inline-block py-1 text-brand-muted hover:text-white">{L(lang, 'Disciplinas', 'Disciplines')}</a></li>
+      <li><a href={url.blog(lang)} class="inline-block py-1 text-brand-muted hover:text-white">Blog</a></li>
+      <li><a href={url.sobre(lang)} class="inline-block py-1 text-brand-muted hover:text-white">{L(lang, 'Cómo verificamos', 'Com verifiquem')}</a></li>
     </ul>
-    <ul class="space-y-2 text-sm">
-      <li><a href={url.paraCentros(lang)} class="text-brand-redtext hover:text-red-400 font-semibold">{L(lang, '¿Tienes un centro? →', 'Tens un centre? →')}</a></li>
-      <li><a href={url.contacto(lang)} class="text-brand-muted hover:text-white">{L(lang, 'Contacto', 'Contacte')}</a></li>
-      <li><a href={`mailto:${SITE.email}`} class="text-brand-muted hover:text-white">{SITE.email}</a></li>
+    <ul class="space-y-1 text-sm">
+      <li><a href={url.paraCentros(lang)} class="inline-block py-1 text-brand-redtext hover:text-red-400 font-semibold">{L(lang, '¿Tienes un centro? →', 'Tens un centre? →')}</a></li>
+      <li><a href={url.contacto(lang)} class="inline-block py-1 text-brand-muted hover:text-white">{L(lang, 'Contacto', 'Contacte')}</a></li>
+      <li><a href={`mailto:${SITE.email}`} class="inline-block py-1 text-brand-muted hover:text-white">{SITE.email}</a></li>
     </ul>
   </div>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 border-t border-brand-border flex flex-col sm:flex-row items-center justify-between gap-4">
     <p class="text-xs text-brand-muted">© {year} {L(lang, SITE.name, SITE.nameCa)}</p>
-    <div class="flex gap-4">
-      <a href={url.avisoLegal()} class="text-xs text-brand-muted hover:text-white">{L(lang, 'Aviso legal', 'Avís legal')}</a>
-      <a href={url.privacidad()} class="text-xs text-brand-muted hover:text-white">{L(lang, 'Privacidad', 'Privadesa')}</a>
-      <button type="button" id="abrir-preferencias-cookies" class="text-xs text-brand-muted hover:text-white">Cookies</button>
-      <a href="/sitemap.xml" class="text-xs text-brand-muted hover:text-white">Sitemap</a>
+    <div class="flex flex-wrap justify-center gap-x-5 gap-y-1">
+      <a href={url.avisoLegal()} class="inline-block py-2 text-xs text-brand-muted hover:text-white">{L(lang, 'Aviso legal', 'Avís legal')}</a>
+      <a href={url.privacidad()} class="inline-block py-2 text-xs text-brand-muted hover:text-white">{L(lang, 'Privacidad', 'Privadesa')}</a>
+      <button type="button" id="abrir-preferencias-cookies" class="inline-block py-2 text-xs text-brand-muted hover:text-white">Cookies</button>
+      <a href="/sitemap.xml" class="inline-block py-2 text-xs text-brand-muted hover:text-white">Sitemap</a>
     </div>
   </div>
 </footer>

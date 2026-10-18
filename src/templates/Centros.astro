@@ -40,7 +40,8 @@ const schema = {
   isPartOf: { '@id': SCHEMA_IDS.website },
   publisher: { '@id': SCHEMA_IDS.organization },
 };
-const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 text-sm text-white focus:outline-hidden focus:border-brand-red';
+const sel = 'bg-brand-gray border border-brand-border rounded-lg px-4 py-2.5 text-sm text-white text-ellipsis placeholder:text-brand-muted focus:outline-hidden focus:border-brand-red';
+const selSelect = `${sel} campo-select`;
 ---
 
 <Layout title={title} description={description} canonical={url.centros(lang)} schema={schema} lang={lang} alternates={alternates}>
@@ -61,25 +62,25 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
         <label class="sr-only" for="f-q">{L(lang, 'Buscar', 'Cercar')}</label>
         <input id="f-q" type="search" enterkeyhint="search" placeholder={L(lang, 'Qué y dónde: «boxeo Reus», nombre del club…', 'Què i on: «boxa Reus», nom del club…')} class={sel} />
         <label class="sr-only" for="f-comarca">{L(lang, 'Comarca', 'Comarca')}</label>
-        <select id="f-comarca" class={sel}>
+        <select id="f-comarca" class={selSelect}>
           <option value="">{L(lang, 'Todas las comarcas', 'Totes les comarques')}</option>
           {comarcas.map(c => <option value={c.slug}>{c.nombre}</option>)}
         </select>
         <label class="sr-only" for="f-municipio">{L(lang, 'Municipio', 'Municipi')}</label>
-        <select id="f-municipio" class={sel} disabled>
+        <select id="f-municipio" class={selSelect} disabled>
           <option value="">{L(lang, 'Todos los municipios', 'Tots els municipis')}</option>
         </select>
         <label class="sr-only" for="f-disc">{L(lang, 'Disciplina', 'Disciplina')}</label>
-        <select id="f-disc" class={sel}>
+        <select id="f-disc" class={selSelect}>
           <option value="">{L(lang, 'Todas las disciplinas', 'Totes les disciplines')}</option>
           {disc.map(d => <option value={d.slug} data-nombre={nombreDisciplina(d.slug, lang)}>{nombreDisciplina(d.slug, lang)} ({d.n})</option>)}
         </select>
       </div>
-      <div class="flex flex-wrap items-center justify-between gap-3 mt-2">
+      <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-3">
         <p class="text-xs text-brand-muted" aria-live="polite"><span data-cuenta>{CENTROS.length}</span> {L(lang, 'centros', 'centres')}</p>
         <div class="flex items-center gap-4">
           <label class="inline-flex items-center gap-2 text-sm text-sky-200 cursor-pointer">
-            <input id="f-inf" type="checkbox" class="accent-sky-400" />
+            <input id="f-inf" type="checkbox" class="size-4 shrink-0 accent-sky-400" />
             {L(lang, 'Con clases para niños', 'Amb classes per a infants')}
           </label>
           <button type="button" class="hidden text-xs text-brand-muted hover:text-white underline" data-limpiar>{L(lang, 'Quitar filtros', 'Treure filtres')}</button>
@@ -95,7 +96,7 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
       </div>
       <ul class="divide-y divide-brand-border border border-brand-border rounded-xl overflow-hidden" data-lista aria-live="polite">
         {primeras.map(f => (
-          <li class="grid sm:grid-cols-[2fr_1fr_2fr] gap-1 sm:gap-4 px-4 py-3 bg-brand-gray/40 hover:bg-brand-gray">
+          <li class="grid sm:grid-cols-[2fr_1fr_2fr] sm:items-baseline gap-1 sm:gap-4 px-4 py-3 bg-brand-gray/40 hover:bg-brand-gray">
             <a href={url.centro(lang, f.slug)} class="font-medium text-white hover:text-brand-redtext">{f.nombre}{f.fuenteTipo === 'registro-oficial' && <span class:list={[etq, 'text-brand-muted border-brand-border']}>{L(lang, 'Sin verificar', 'Sense verificar')}</span>}{f.infantil && <span class:list={[etq, 'text-sky-300 border-sky-500/40']}>{L(lang, 'Niños', 'Infants')}</span>}</a>
             <span class="text-sm text-brand-muted">{getMunicipio(f.municipio)!.nombre}</span>
             <span class="text-xs text-brand-muted">{f.disciplinas.map(d => nombreDisciplina(d, lang)).join(' · ')}</span>
@@ -218,7 +219,7 @@ const sel = 'bg-brand-gray border border-brand-border rounded-lg px-3 py-2.5 tex
   const etiqueta = (txt, cls) => ` <span class="ml-1 text-[10px] uppercase rounded-sm px-1 border ${cls}">${txt}</span>`;
   function fila(f, km) {
     const ds = f.ds.map(d => (D.disciplinas[d] || [d])[L]).join(' · ');
-    return `<li class="grid sm:grid-cols-[2fr_1fr_2fr] gap-1 sm:gap-4 px-4 py-3 bg-brand-gray/40 hover:bg-brand-gray">
+    return `<li class="grid sm:grid-cols-[2fr_1fr_2fr] sm:items-baseline gap-1 sm:gap-4 px-4 py-3 bg-brand-gray/40 hover:bg-brand-gray">
       <a href="${prefijo}${f.slug}/" class="font-medium text-white hover:text-brand-redtext">${esc(f.nombre)}${f.v ? '' : etiqueta(t('Sin verificar', 'Sense verificar'), 'text-brand-muted border-brand-border')}${f.i ? etiqueta(t('Niños', 'Infants'), 'text-sky-300 border-sky-500/40') : ''}</a>
       <span class="text-sm text-brand-muted">${esc(D.municipios[f.m])}${km !== undefined ? ` · ${t('a unos', 'a uns')} ${km} km` : ''}</span>
       <span class="text-xs text-brand-muted">${esc(ds)}</span></li>`;

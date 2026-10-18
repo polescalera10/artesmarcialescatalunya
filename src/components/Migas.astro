@@ -6,8 +6,10 @@ import { L, url, type Lang } from '../lib/i18n';
 interface Props {
   lang: Lang;
   items: { nombre: string; href: string }[];
+  /** Debe coincidir con el contenedor de la página para que las migas queden alineadas con el título. */
+  estrecho?: boolean;
 }
-const { lang, items } = Astro.props;
+const { lang, items, estrecho = false } = Astro.props;
 const todos = [{ nombre: L(lang, 'Inicio', 'Inici'), href: url.home(lang) }, ...items];
 const schema = {
   '@context': 'https://schema.org',
@@ -16,11 +18,11 @@ const schema = {
 };
 ---
 
-<nav aria-label={L(lang, 'Migas de pan', 'Molles de pa')} class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 text-xs text-brand-muted">
+<nav aria-label={L(lang, 'Migas de pan', 'Molles de pa')} class:list={[estrecho ? 'max-w-3xl' : 'max-w-7xl', 'mx-auto px-4 sm:px-6 lg:px-8 pt-3 text-xs text-brand-muted']}>
   <ol class="flex flex-wrap items-center gap-1.5">
     {todos.map((it, i) => (
       <li class="flex items-center gap-1.5">
-        {i < todos.length - 1 ? <a href={it.href} class="hover:text-white">{it.nombre}</a> : <span aria-current="page" class="text-brand-muted/80">{it.nombre}</span>}
+        {i < todos.length - 1 ? <a href={it.href} class="inline-block py-1.5 hover:text-white">{it.nombre}</a> : <span aria-current="page" class="text-brand-muted/80">{it.nombre}</span>}
         {i < todos.length - 1 && <span aria-hidden="true">/</span>}
       </li>
     ))}
