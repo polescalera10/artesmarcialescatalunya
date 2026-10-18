@@ -1,0 +1,697 @@
+{
+ "generado": "2026-10-18",
+ "candidatos": {
+  "DAO Traditional Chinese Martial Arts": {
+   "tier_antes": "web con error",
+   "municipio": "valls",
+   "web_original": "http://www.centredao.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Tae Sport Vilafant": {
+   "tier_antes": "R revisar",
+   "municipio": "figueres",
+   "web_original": "http://Www.taesport.com/",
+   "estado": "ok",
+   "url": "https://taesport.com/",
+   "paginas": 2,
+   "chars": 2013,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "Ken-Zen Dojo": {
+   "tier_antes": "web con error",
+   "municipio": "santa-margarida-i-els-monjos",
+   "web_original": "http://dojokenzen.wix.com/kenzendojo",
+   "estado": "caida",
+   "error": "HTTP 409",
+   "tier": "caida"
+  },
+  "mugendo vilafranca": {
+   "tier_antes": "web con error",
+   "municipio": "vilafranca-del-penedes",
+   "web_original": "http://defensapersonalvilafranca.mugendo.es/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Tus Artes Marciales": {
+   "tier_antes": "web con error",
+   "municipio": "vilanova-del-cami",
+   "web_original": "https://tusartesmarciales.es/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Costa Brava Jiu Jitsu": {
+   "tier_antes": "web con error",
+   "municipio": "santa-cristina-daro",
+   "web_original": "https://ueni.com/es-es/negocio/santa-cristina-d-aro-17246/clases-de-artes-marciales/costa-brava-jiu-jitsu",
+   "estado": "caida",
+   "error": "HTTP 404",
+   "tier": "caida"
+  },
+  "ABRACCES Capoeira": {
+   "tier_antes": "web con error",
+   "municipio": "castelldefels",
+   "web_original": "http://www.abracces.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Brooklyn Fitboxing Castelldefels": {
+   "tier_antes": "R revisar",
+   "municipio": "castelldefels",
+   "web_original": "https://goo.gl/zWeM8E",
+   "estado": "ok",
+   "url": "https://www.brooklynfitboxing.com/public/es/es-es/club/CASTELLDEFELS",
+   "paginas": 1,
+   "chars": 9361,
+   "disciplinas": [
+    "boxeo"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Escola  Taekwondo Sesrovires-Collbató": {
+   "tier_antes": "web con error",
+   "municipio": "collbato",
+   "web_original": "http://www.tkdsesrovires.es/",
+   "estado": "caida",
+   "error": "HTTP 503",
+   "tier": "caida"
+  },
+  "FitCo - Kaeru Dôjô": {
+   "tier_antes": "web con error",
+   "municipio": "el-prat-de-llobregat",
+   "web_original": "http://www.fitco-kaerudojo.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Brooklyn Fitboxing Esplugues de llobregat": {
+   "tier_antes": "R revisar",
+   "municipio": "esplugues-de-llobregat",
+   "web_original": "https://www.brooklynfitboxing.com/public/es/es-es/club/ESPLUGUES-DE-LLOBREGAT",
+   "estado": "ok",
+   "url": "https://www.brooklynfitboxing.com/public/es/es-es/club/ESPLUGUES-DE-LLOBREGAT",
+   "paginas": 1,
+   "chars": 9347,
+   "disciplinas": [
+    "boxeo"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Instituto Wutan Barcelona": {
+   "tier_antes": "R revisar",
+   "municipio": "esplugues-de-llobregat",
+   "web_original": "http://www.wutanbarcelona.com",
+   "estado": "ok",
+   "url": "https://wutanbarcelona.com/",
+   "paginas": 1,
+   "chars": 3328,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "La Sala Duo Bellum": {
+   "tier_antes": "R revisar",
+   "municipio": "esplugues-de-llobregat",
+   "web_original": "http://duobellum.com/",
+   "estado": "ok",
+   "url": "https://duobellum.com/",
+   "paginas": 2,
+   "chars": 9160,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "Dojo Hikari Sant Boi": {
+   "tier_antes": "web con error",
+   "municipio": "sant-boi-de-llobregat",
+   "web_original": "https://dojohikari.es/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Viladecans Training Center": {
+   "tier_antes": "R revisar",
+   "municipio": "viladecans",
+   "web_original": "https://www.instagram.com/viladecanstrainingcenter/?hl=es",
+   "estado": "red-social",
+   "url": "https://www.instagram.com/viladecanstrainingcenter/",
+   "tier": "R revisar"
+  },
+  "KEIKO Vendrell": {
+   "tier_antes": "web con error",
+   "municipio": "el-vendrell",
+   "web_original": "https://bit.ly/2YC8m5Z",
+   "estado": "caida",
+   "error": "HTTP 404",
+   "tier": "caida"
+  },
+  "Brooklyn Fitboxing Badalona": {
+   "tier_antes": "R revisar",
+   "municipio": "badalona",
+   "web_original": "https://www.brooklynfitboxing.com/public/es/es-es/club/BADALONA",
+   "estado": "ok",
+   "url": "https://www.brooklynfitboxing.com/public/es/es-es/club/BADALONA",
+   "paginas": 1,
+   "chars": 8963,
+   "disciplinas": [
+    "boxeo"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Bujinkan Koryu Dojo": {
+   "tier_antes": "web con error",
+   "municipio": "badalona",
+   "web_original": "http://bujinkancatalunya.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Aikido Arashi Group Dojo Central": {
+   "tier_antes": "R revisar",
+   "municipio": "barcelona",
+   "web_original": "http://dojocentral.arashigroup.com/",
+   "estado": "ok",
+   "url": "https://dojocentral.arashigroup.com/",
+   "paginas": 1,
+   "chars": 1152,
+   "disciplinas": [
+    "aikido"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "V verificable"
+  },
+  "Aikido Rocafort": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "http://www.aikido-rocafort.com/",
+   "estado": "caida",
+   "error": "HTTP 403",
+   "tier": "caida"
+  },
+  "Asociacion de Kyudo Dojo Barcelona": {
+   "tier_antes": "R revisar",
+   "municipio": "barcelona",
+   "web_original": "https://kyudo.es/dojo-barcelona/",
+   "estado": "ok",
+   "url": "https://kyudo.es/dojo-barcelona/",
+   "paginas": 5,
+   "chars": 5197,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Associacio Aikido Kobayashi Barcelona": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "http://www.aikido-barceona.es/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Ataraxia Escola D'Arts Marcials": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "http://www.escolaataraxia.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Capoeira Cooperativa Barcelona": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "http://www.capoeiracooperativa.org/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Capoeira Ilé Iré": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "http://capoeirasenzalabarcelona.com/contactanos/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Capoeira Senzala Barcelona new": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "http://www.senzalabarcelona.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Gimnasio Club Boxeo Barcelona": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "http://www.clubboxabarcelona.es/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Marcial Kickfit": {
+   "tier_antes": "R revisar",
+   "municipio": "barcelona",
+   "web_original": "http://www.marcialkickfit.com/home",
+   "estado": "ok",
+   "url": "https://marcialkickfit.com/",
+   "paginas": 1,
+   "chars": 22260,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "Nidec Defense Group": {
+   "tier_antes": "R revisar",
+   "municipio": "barcelona",
+   "web_original": "http://www.nidec.es",
+   "estado": "ok",
+   "url": "https://www.nidec.es/es/",
+   "paginas": 5,
+   "chars": 39575,
+   "disciplinas": [
+    "defensa-personal"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "RMA Systema “SV” Sibirskiy Viun España": {
+   "tier_antes": "R revisar",
+   "municipio": "barcelona",
+   "web_original": "http://www.rmasv.es/",
+   "estado": "ok",
+   "url": "https://rmasv.es/",
+   "paginas": 2,
+   "chars": 6738,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Ruckus Athletics": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "https://ruckus.odoo.com/es/event/ruckus-athletics-mauy-thai-summer-casal-18/register",
+   "estado": "caida",
+   "error": "HTTP 404",
+   "tier": "caida"
+  },
+  "Senshin Dojo Barcelona": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "http://senshindojobcn.wixsite.com/senshindojobcn",
+   "estado": "caida",
+   "error": "HTTP 409",
+   "tier": "caida"
+  },
+  "Troopers Fitclub": {
+   "tier_antes": "web con error",
+   "municipio": "barcelona",
+   "web_original": "http://www.9round.es/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "power_fit_boxing": {
+   "tier_antes": "R revisar",
+   "municipio": "barcelona",
+   "web_original": "http://powerfitboxing.com/",
+   "estado": "ok",
+   "url": "https://powerfitboxing.com/",
+   "paginas": 1,
+   "chars": 747,
+   "disciplinas": [
+    "boxeo"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "Brooklyn Fitboxing Hospitalet": {
+   "tier_antes": "R revisar",
+   "municipio": "lhospitalet-de-llobregat",
+   "web_original": "https://bfclick.com/hospitalet-fb",
+   "estado": "ok",
+   "url": "https://www.brooklynfitboxing.com/public/es/es-es/club/hospitalet",
+   "paginas": 1,
+   "chars": 9420,
+   "disciplinas": [
+    "boxeo"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "Elite Top Team": {
+   "tier_antes": "R revisar",
+   "municipio": "lhospitalet-de-llobregat",
+   "web_original": "http://Www.elitetopteam.es/",
+   "estado": "ok",
+   "url": "http://Www.elitetopteam.es/",
+   "paginas": 1,
+   "chars": 634,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "Escuela de Kungfu Long Zhua": {
+   "tier_antes": "web con error",
+   "municipio": "lhospitalet-de-llobregat",
+   "web_original": "http://www.daviddalmau.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Instituto de Artes Marciales Chinas Jingwu": {
+   "tier_antes": "web con error",
+   "municipio": "lhospitalet-de-llobregat",
+   "web_original": "http://www.wushujingwu.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "New Dojang": {
+   "tier_antes": "R revisar",
+   "municipio": "santa-coloma-de-gramenet",
+   "web_original": "https://www.instagram.com/newdojang_kbgramenet/?hl=es",
+   "estado": "red-social",
+   "url": "https://www.instagram.com/newdojang_kbgramenet/",
+   "tier": "R revisar"
+  },
+  "Molles Malé": {
+   "tier_antes": "R revisar",
+   "municipio": "casserres",
+   "web_original": "https://www.grupobultzaki.com/",
+   "estado": "ok",
+   "url": "https://grupobultzaki.com/",
+   "paginas": 1,
+   "chars": 3699,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": false,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "Aikido Aiki Vilanova": {
+   "tier_antes": "web con error",
+   "municipio": "vilanova-i-la-geltru",
+   "web_original": "https://kaizenvilanova.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Kyokushin Vilanova": {
+   "tier_antes": "web con error",
+   "municipio": "vilanova-i-la-geltru",
+   "web_original": "http://kyokushinvilanova.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Brooklyn Fitboxing Girona": {
+   "tier_antes": "R revisar",
+   "municipio": "girona",
+   "web_original": "https://www.brooklynfitboxing.com/public/es/es-es/club/GIRONA",
+   "estado": "ok",
+   "url": "https://www.brooklynfitboxing.com/public/es/es-es/club/GIRONA",
+   "paginas": 1,
+   "chars": 8981,
+   "disciplinas": [
+    "boxeo"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "GB TAIJI": {
+   "tier_antes": "R revisar",
+   "municipio": "girona",
+   "web_original": "https://gbtaiji.com/",
+   "estado": "ok",
+   "url": "https://www.gbtaiji.com/",
+   "paginas": 1,
+   "chars": 1239,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Club Judo Ràpita Montsià": {
+   "tier_antes": "web con error",
+   "municipio": "la-rapita",
+   "web_original": "https://nt-priorattortosa.wixsite.com/nt-priorat-tortosa?fbclid=IwAR035fTyI4UxoIgkscamrNp3qHrZ7vC1NIYxhegpbExRGbLTUHZW_zqDjtI",
+   "estado": "caida",
+   "error": "HTTP 409",
+   "tier": "caida"
+  },
+  "Academia Irzi Manlleu": {
+   "tier_antes": "web con error",
+   "municipio": "manlleu",
+   "web_original": "https://www.academiairzimanlleu.cat/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "La Llanterna": {
+   "tier_antes": "R revisar",
+   "municipio": "torello",
+   "web_original": "http://www.lallanterna.com/",
+   "estado": "ok",
+   "url": "https://www.lallanterna.com/",
+   "paginas": 2,
+   "chars": 917,
+   "disciplinas": [
+    "tai-chi"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Espai Vibrant ~ Teràpies naturals i lloguer de sala": {
+   "tier_antes": "R revisar",
+   "municipio": "tarragona",
+   "web_original": "https://enricgil.cat/",
+   "estado": "ok",
+   "url": "https://enricgil.cat/",
+   "paginas": 5,
+   "chars": 47313,
+   "disciplinas": [
+    "tai-chi"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Loyalty Jiu Jitsu Vila Seca": {
+   "tier_antes": "web con error",
+   "municipio": "vila-seca",
+   "web_original": "http://Atosvilaseca.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Dosan Team Pithecus": {
+   "tier_antes": "web con error",
+   "municipio": "barbera-del-valles",
+   "web_original": "http://www.gymdosan.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Imperium Boxing Club": {
+   "tier_antes": "web con error",
+   "municipio": "castellbisbal",
+   "web_original": "https://imperium-boxing-club.com/",
+   "estado": "caida",
+   "error": "HTTP 403",
+   "tier": "caida"
+  },
+  "Brooklyn Fitboxing Sabadell": {
+   "tier_antes": "R revisar",
+   "municipio": "sabadell",
+   "web_original": "https://www.brooklynfitboxing.com/public/es/es-es/club/SABADELL",
+   "estado": "ok",
+   "url": "https://www.brooklynfitboxing.com/public/es/es-es/club/SABADELL",
+   "paginas": 1,
+   "chars": 9062,
+   "disciplinas": [
+    "boxeo"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Crossbox Line": {
+   "tier_antes": "R revisar",
+   "municipio": "sabadell",
+   "web_original": "http://www.crossboxlinesabadell.com/",
+   "estado": "ok",
+   "url": "https://www.crossboxlinesabadell.com/",
+   "paginas": 3,
+   "chars": 71391,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Gimnàs Llusià": {
+   "tier_antes": "web con error",
+   "municipio": "sabadell",
+   "web_original": "http://www.gimnasllusia.es/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Mix Martial Arts Sabadell": {
+   "tier_antes": "R revisar",
+   "municipio": "sabadell",
+   "web_original": "http://mmasabadell.vpweb.es/",
+   "estado": "ok",
+   "url": "https://www.vistaprint.es/marketing-digital/cierre-webs",
+   "paginas": 1,
+   "chars": 4429,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": false,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "Wing Chun Kung Fu Sabadell": {
+   "tier_antes": "web con error",
+   "municipio": "sabadell",
+   "web_original": "http://Kungfusabadell.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "factorysparta": {
+   "tier_antes": "R revisar",
+   "municipio": "sabadell",
+   "web_original": "http://www.basicfactory.es/",
+   "estado": "ok",
+   "url": "https://www.basicfactory.es/",
+   "paginas": 1,
+   "chars": 754,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": false,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Kung Fu Sant Cugat": {
+   "tier_antes": "web con error",
+   "municipio": "sant-cugat-del-valles",
+   "web_original": "http://www.kungfusantcugat.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  },
+  "Valhalla Training Camp": {
+   "tier_antes": "R revisar",
+   "municipio": "sant-cugat-del-valles",
+   "web_original": "https://www.valhallatrainingcamp.com/",
+   "estado": "ok",
+   "url": "https://valhallatrainingcamp.com/",
+   "paginas": 1,
+   "chars": 3631,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "GEITS International SL": {
+   "tier_antes": "R revisar",
+   "municipio": "santa-perpetua-de-mogoda",
+   "web_original": "http://www.geitsinternacional.com/",
+   "estado": "ok",
+   "url": "https://geitsinternacional.com/",
+   "paginas": 5,
+   "chars": 30030,
+   "disciplinas": [
+    "defensa-personal"
+   ],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": false,
+   "tier": "R revisar"
+  },
+  "Taekwondo Bandal Caldes de Montbui": {
+   "tier_antes": "web con error",
+   "municipio": "caldes-de-montbui",
+   "web_original": "http://taekwondo-bandal-es.webnode.es/",
+   "estado": "caida",
+   "error": "HTTP 404",
+   "tier": "caida"
+  },
+  "UBOX Granollers Training Club": {
+   "tier_antes": "R revisar",
+   "municipio": "granollers",
+   "web_original": "http://www.uboxgranollers.com/",
+   "estado": "ok",
+   "url": "https://uboxgranollers.com/",
+   "paginas": 5,
+   "chars": 20270,
+   "disciplinas": [],
+   "muchas": false,
+   "nombre_ok": true,
+   "municipio_en_web": true,
+   "tier": "R revisar"
+  },
+  "Academia Parets Jiu Jitsu": {
+   "tier_antes": "R revisar",
+   "municipio": "parets-del-valles",
+   "web_original": "https://www.instagram.com/paretsjiujitsu/",
+   "estado": "red-social",
+   "url": "https://www.instagram.com/paretsjiujitsu/",
+   "tier": "R revisar"
+  },
+  "Kitsune Warrior": {
+   "tier_antes": "web con error",
+   "municipio": "parets-del-valles",
+   "web_original": "http://www.kitsunewarrior.com/",
+   "estado": "caida",
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known",
+   "tier": "caida"
+  }
+ }
+}

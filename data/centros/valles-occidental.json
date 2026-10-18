@@ -114,6 +114,19 @@
   "verificado": "2026-10-18"
  },
  {
+  "slug": "artes-marciales-mac-rubi",
+  "nombre": "Artes Marciales MAC Rubí",
+  "tipo": "escuela",
+  "municipio": "rubi",
+  "disciplinas": [
+   "krav-maga"
+  ],
+  "web": "https://artesmarcialesmac.com/",
+  "fuente": "https://artesmarcialesmac.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-10-18"
+ },
+ {
   "slug": "asociacion-capoeira-brasil-barcelona",
   "nombre": "Asociación Capoeira Brasil Barcelona",
   "tipo": "asociacion",

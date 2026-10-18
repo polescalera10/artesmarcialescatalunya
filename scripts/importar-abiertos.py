@@ -89,10 +89,14 @@ def main():
     archivos, existentes = cargar_directorio()
     por_slug = {c['slug']: c for _, c in existentes}
     slugs = set(por_slug)
-    nuevos = [c for c in json.load(open(DATA / 'candidatos/abiertos.json')) if c.get('tier') == 'V verificable' and c['nombre'] not in EXCLUIR]
+    rev = (json.load(open(DATA / 'candidatos/abiertos-revision.json'))['candidatos']
+           if (DATA / 'candidatos/abiertos-revision.json').exists() else {})
+    # R/error de la primera pasada que la segunda lectura (revisar-dudosos-abiertos.py) ha dejado verificables
+    nuevos = [c for c in json.load(open(DATA / 'candidatos/abiertos.json'))
+              if (c.get('tier') == 'V verificable' or rev.get(c['nombre'], {}).get('tier') == 'V verificable') and c['nombre'] not in EXCLUIR]
     enr = [e for e in json.load(open(DATA / 'candidatos/abiertos-enriquecer.json')) if e.get('web')]
     with cf.ThreadPoolExecutor(12) as ex:
-        pag_n = list(ex.map(lambda c: leer(c['web']), nuevos))
+        pag_n = list(ex.map(lambda c: ('rev' in c and (c['rev']['url'], '')) or leer(c['web']), [dict(c, **({'rev': rev[c['nombre']]} if rev.get(c['nombre'], {}).get('tier') == 'V verificable' else {})) for c in nuevos]))
         pag_e = list(ex.map(lambda e: leer(e['web']), enr))
 
     saltos = collections.Counter()
@@ -103,7 +107,8 @@ def main():
         url, texto = pag
         mun = MUN[c['municipio']]
         nombre = limpiar(c['nombre'])
-        disc = disciplinas(texto, nombre, c.get('categorias', []))
+        disc = (rev[c['nombre']]['disciplinas'] if rev.get(c['nombre'], {}).get('tier') == 'V verificable'
+                else disciplinas(texto, nombre, c.get('categorias', [])))
         if duplicado(nombre, mun, disc, '', [(k, v) for k, v in existentes]) or any(url.split('//')[1].removeprefix('www.').rstrip('/') == (x.get('web') or '').split('//')[-1].removeprefix('www.').rstrip('/') for _, x in existentes):
             saltos['ya existe (dedupe)'] += 1; continue
         slug = slugify(nombre)
