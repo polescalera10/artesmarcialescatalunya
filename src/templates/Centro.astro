@@ -138,7 +138,9 @@ const schema = [
             <span class="absolute bottom-2 right-3 rounded bg-black/65 px-2 py-0.5 text-[11px] text-white/85">{L(lang, 'Foto de archivo, ilustrativa', "Foto d'arxiu, il·lustrativa")}</span>
           </Foto>
           <div class="relative flex items-start gap-4">
-            <div aria-hidden="true" class="shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-brand-red/10 border border-brand-red/30 grid place-items-center text-brand-redtext text-lg sm:text-xl font-black tracking-tight">{iniciales}</div>
+            {c.logo
+              ? <img src={`/centros/${c.logo}`} alt={L(lang, `Logotipo de ${c.nombre}`, `Logotip de ${c.nombre}`)} width="64" height="64" loading="eager" decoding="async" class="shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-white object-contain p-1" />
+              : <div aria-hidden="true" class="shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-brand-red/10 border border-brand-red/30 grid place-items-center text-brand-redtext text-lg sm:text-xl font-black tracking-tight">{iniciales}</div>}
             <div class="min-w-0">
               <p class="text-xs uppercase tracking-wide text-brand-muted font-semibold">{L(lang, ...TIPO[c.tipo])} · {mun.nombre} · {com.nombre}</p>
               <h1 class="text-2xl sm:text-4xl font-black text-white leading-tight mt-1 wrap-break-word">{c.nombre}</h1>

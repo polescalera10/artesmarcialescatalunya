@@ -18,6 +18,8 @@ export interface Centro {
   infantil?: boolean;
   direccion?: string;
   web?: string;
+  /** Logo enviado por el propio centro: archivo en public/centros/ (webp cuadrado, 256 px). */
+  logo?: string;
   fuente: string;
   fuenteTipo: FuenteTipo;
   verificado: string;
@@ -51,6 +53,7 @@ function cargar(): Centro[] {
       if (vistos.has(c.slug)) errores.push(`slug duplicado: ${c.slug}`);
       if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(c.slug)) errores.push(`slug no válido: ${c.slug}`);
       if (!c.fuente || !c.fuenteTipo || !/^\d{4}-\d{2}-\d{2}$/.test(c.verificado)) errores.push(`${c.slug}: falta fuente o fecha`);
+      if (c.logo && !/^[a-z0-9-]+\.webp$/.test(c.logo)) errores.push(`${c.slug}: logo no válido ${c.logo}`);
       vistos.add(c.slug);
       todos.push({ ...c, comarca: comarcaArchivo });
     }

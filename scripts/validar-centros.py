@@ -42,6 +42,8 @@ for ruta in sorted(glob.glob(os.path.join(RAIZ, 'data/centros/*.json'))):
             errores.append(f'{s}: falta fuente, fuenteTipo o fecha')
         if c.get('web') and not c['web'].startswith(('http://', 'https://')):
             errores.append(f'{s}: web sin protocolo')
+        if c.get('logo') and not os.path.isfile(os.path.join(RAIZ, 'public/centros', c['logo'])):
+            errores.append(f'{s}: logo {c["logo"]} no existe en public/centros/')
 
 if errores:
     print('\n'.join(errores))
