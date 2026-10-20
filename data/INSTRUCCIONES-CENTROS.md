@@ -54,7 +54,7 @@ Un archivo por comarca: `data/centros/<slug-comarca>.json`, con un array de fich
 | `disciplinas` | sí | Slugs de `disciplinas.json` que la fuente anuncia. Usa los `sinonimos` para mapear (kyokushin → karate, wushu → kung-fu, K-1 → kickboxing, sambo → lucha). Puede ir vacío si la fuente solo dice "artes marciales" |
 | `otras` | no | Actividades que la fuente cita y no son de la taxonomía, o matices útiles ("Taekwondo ITF", "Karate kyokushin", "Grupo femenino de jiu-jitsu") |
 | `infantil` | no | `true` solo si la fuente anuncia clases para niños. Si no lo dice, **se omite** (no se pone `false`) |
-| `logo` | no | Nombre del archivo en `public/centros/` (webp cuadrado de 256 px, recortado al borde). Solo si el propio centro envía su logotipo y confirma que se publique; se muestra en su ficha en lugar de las iniciales |
+| `logo` | no | Nombre del archivo en `public/centros/` (webp cuadrado de 512 px, recortado al borde). Solo si el propio centro envía su logotipo y confirma que se publique; se muestra en la cabecera de su ficha en lugar de la foto de archivo |
 | `direccion` | no | Solo si consta en la fuente |
 | `web` | no | Web propia del centro, si existe y responde |
 | `fuente` | sí | URL exacta donde se verificó |

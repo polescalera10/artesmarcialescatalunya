@@ -18,7 +18,7 @@ export interface Centro {
   infantil?: boolean;
   direccion?: string;
   web?: string;
-  /** Logo enviado por el propio centro: archivo en public/centros/ (webp cuadrado, 256 px). */
+  /** Logo enviado por el propio centro: archivo en public/centros/ (webp cuadrado, 512 px). */
   logo?: string;
   fuente: string;
   fuenteTipo: FuenteTipo;
