@@ -16,6 +16,7 @@ import json, pathlib, re, sys
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 DATA = RAIZ / 'data'
 OWKLE = json.load(open(DATA / 'fuentes/owkle.json'))
+CERRADOS = {c['fuente'] for c in json.load(open(DATA / 'cerrados.json'))}  # centros cerrados: no se vuelven a importar
 
 MAPA = {
     'KICK BOXING / K1': ['kickboxing'], 'FULL CONTACT': ['kickboxing'], 'MUAY THAI': ['muay-thai'],
@@ -46,6 +47,8 @@ slugs = {c['slug'] for _, c in existentes}
 
 nuevos, ya, candidatos, sin_muni = [], [], [], []
 for club in OWKLE['clubs']:
+    if club['url'] in CERRADOS:
+        continue
     if 'owkle.es' in club['url'] and any(c.get('fuente') == club['url'] for _, c in existentes):
         continue  # ya importado en otra pasada
     m = municipio(club['localidad'])

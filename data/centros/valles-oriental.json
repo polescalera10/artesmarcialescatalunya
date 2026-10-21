@@ -184,6 +184,7 @@
    "tai-chi"
   ],
   "direccion": "Zona Esportiva Municipal, s/n, Les Franqueses del Vallès",
+  "web": "https://aelaperestroika.wordpress.com/",
   "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=09927",
   "fuenteTipo": "registro-oficial",
   "verificado": "2026-10-03"
@@ -550,19 +551,6 @@
   ],
   "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=15657",
   "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
- },
- {
-  "slug": "club-de-boxa-sant-feliu-de-codines",
-  "nombre": "Club de Boxa Sant Feliu de Codines",
-  "tipo": "club",
-  "municipio": "sant-feliu-de-codines",
-  "disciplinas": [
-   "boxeo"
-  ],
-  "direccion": "Plaça Josep Umbert Ventura, 4, 08182 Sant Feliu de Codines, Barcelona",
-  "fuente": "https://www.owkle.es/clubs/club-de-boxa-sant-feliu-de-codines/",
-  "fuenteTipo": "federacion",
   "verificado": "2026-10-03"
  },
  {

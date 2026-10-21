@@ -418,6 +418,16 @@
       "source": "/ca/centres/club-judo-badia/",
       "destination": "/ca/centres/club-de-judo-badia/",
       "permanent": true
+    },
+    {
+      "source": "/centros/club-de-boxa-sant-feliu-de-codines/",
+      "destination": "/valles-oriental/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/club-de-boxa-sant-feliu-de-codines/",
+      "destination": "/ca/valles-oriental/",
+      "permanent": true
     }
   ]
 }
