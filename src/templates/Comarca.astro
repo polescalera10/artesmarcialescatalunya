@@ -11,6 +11,7 @@ import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import FiltroDisciplinas from '../components/FiltroDisciplinas.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang, minus } from '../lib/i18n';
+import { metaPagina } from '../lib/meta';
 import { centrosDeComarca, disciplinasPresentes, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
@@ -42,11 +43,12 @@ const fraseInf = verInf.length
       ` ${n(verInf.length, 'centre anuncia', 'centres anuncien')} classes per a infants${munInf.length > 1 ? `, sobretot a ${lista(lang, munInf.slice(0, 3).map(x => getMunicipio(x.m)!.nombre))}` : ''}.`)
   : '';
 
-const title = titulo(
+const meta = metaPagina(lang, url.comarca(lang, comarca), { n: n(nV, 'centro', 'centros') });
+const title = meta?.titulo ?? titulo(
   L(lang, `Artes Marciales en ${com.nombre}: ${n(nV, 'centro', 'centros')} | Directorio`, `Arts Marcials ${enComarca('ca', comarca).replace(/^a /, 'a ').replace(/^al /, 'al ')}: ${n(nV, 'centre', 'centres')}`),
   L(lang, `Artes Marciales en ${com.nombre}: ${n(nV, 'centro', 'centros')}`, `Arts Marcials: ${com.nombre} (${nV})`),
 );
-const description = descripcion(
+const description = meta?.descripcion ?? descripcion(
   L(lang,
     `${n(nV, 'centro', 'centros')} de artes marciales ${nombreEn} verificados con fuente pública: ${lista(lang, top)}. Por municipio y disciplina.`,
     `${n(nV, 'centre', 'centres')} d'arts marcials ${nombreEn} verificats amb font pública: ${lista(lang, top)}. Per municipi i disciplina.`),

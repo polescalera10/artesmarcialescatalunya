@@ -14,6 +14,7 @@ import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import FiltroDisciplinas from '../components/FiltroDisciplinas.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang, minus } from '../lib/i18n';
+import { metaPagina } from '../lib/meta';
 import { centrosDeMunicipio, centrosDeComarca, disciplinasPresentes, cercanos, verificados } from '../lib/centros';
 import { getComarca, getMunicipio, distanciaKm } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
@@ -87,12 +88,13 @@ const generadoIntro = nV
       `En nuestro directorio no consta todavía ningún centro de artes marciales en ${mun.nombre}. Abajo tienes los más cercanos.`,
       `Al nostre directori encara no hi consta cap centre d'arts marcials a ${mun.nombre}. A sota tens els més propers.`);
 
-const title = ed?.titulo ?? titulo(
+const meta = metaPagina(lang, url.municipio(lang, comarca, municipio), { n: n(nV, 'centro', 'centros') });
+const title = meta?.titulo ?? ed?.titulo ?? titulo(
   L(lang, `Artes Marciales en ${mun.nombre}: ${n(nV, 'centro', 'centros')} | ${com.nombre}`, `Arts Marcials a ${mun.nombre}: ${n(nV, 'centre', 'centres')} | ${com.nombre}`),
   L(lang, `Artes Marciales en ${mun.nombre}: ${n(nV, 'centro', 'centros')}`, `Arts Marcials a ${mun.nombre}: ${n(nV, 'centre', 'centres')}`),
   L(lang, `Artes Marciales en ${mun.nombre}`, `Arts Marcials a ${mun.nombre}`),
 );
-const description = ed?.descripcion ?? descripcion(
+const description = meta?.descripcion ?? ed?.descripcion ?? descripcion(
   L(lang,
     `${n(nV, 'centro', 'centros')} de artes marciales en ${mun.nombre} (${com.nombre}): ${lista(lang, top)}. Con fuente pública y fecha de verificación.`,
     `${n(nV, 'centre', 'centres')} d'arts marcials a ${mun.nombre} (${com.nombre}): ${lista(lang, top)}. Amb font pública i data de verificació.`),
@@ -215,7 +217,7 @@ const schema = {
       </section>
     )}
 
-    <GuiasRelacionadas lang={lang} comarca={comarca} />
+    <GuiasRelacionadas lang={lang} comarca={comarca} municipio={municipio} />
     <ParaCentrosCTA lang={lang} ambito={mun.nombre} />
     <FAQ items={faq} title={L(lang, 'Preguntas frecuentes', 'Preguntes freqüents')} />
   </main>

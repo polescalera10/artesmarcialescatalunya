@@ -1,6 +1,6 @@
 ---
-titulo: "Clases de karate para niños en Barcelona: guía"
-descripcion: "Clases de karate para niños en Barcelona: escuelas y academias, estilos, cinturones y exámenes, y qué preguntar al centro sobre horarios y cuota."
+titulo: "Karate para niños en Barcelona: escuelas y qué preguntar"
+descripcion: "Escuelas de karate para niños en Barcelona: estilos, cinturones y exámenes, y qué preguntar sobre horarios y cuota antes de apuntarte."
 h1: "Clases de karate para niños en Barcelona: estilos, cinturones y qué preguntar antes de apuntarte"
 intro: "En Barcelona constan {{dm:karate:barcelona}} centros con karate de los {{m:barcelona}} de la ciudad. Tanta oferta tiene trampa: bajo la misma palabra caben estilos y enfoques distintos. Esta guía te ayuda a distinguirlos y a elegir grupo."
 tipo: guia

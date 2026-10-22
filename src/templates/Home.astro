@@ -8,6 +8,7 @@ import Footer from '../components/Footer.astro';
 import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import { L, url, lista, n, type Lang } from '../lib/i18n';
+import { metaPagina } from '../lib/meta';
 import { CENTROS, comarcasConCentros, disciplinasPresentes, centrosDeComarca, verificados } from '../lib/centros';
 // Recuento público: solo centros con actividad verificada (no los del registro).
 const NV = verificados(CENTROS).length;
@@ -30,8 +31,9 @@ const topMunis = rutasMunicipio()
   .slice(0, 12);
 const posts = (lang === 'es' ? (await articulos()).filter(p => p.tipo === 'articulo') : await articulosCa()).slice(0, 3);
 
-const title = L(lang, `Artes Marciales Catalunya: ${NV} centros verificados`, `Arts Marcials Catalunya: ${NV} centres verificats`);
-const description = L(lang,
+const meta = metaPagina(lang, url.home(lang), { total: NV.toLocaleString('es-ES') });
+const title = meta?.titulo ?? L(lang, `Artes Marciales Catalunya: ${NV} centros verificados`, `Arts Marcials Catalunya: ${NV} centres verificats`);
+const description = meta?.descripcion ?? L(lang,
   `Directorio de ${NV} centros de artes marciales en Cataluña: boxeo, judo, karate, jiu-jitsu, MMA y más, por comarca y municipio. Cada ficha con su fuente.`,
   `Directori de ${NV} centres d'arts marcials a Catalunya: boxa, judo, karate, jiu-jitsu, MMA i més, per comarca i municipi. Cada fitxa amb la seva font.`);
 

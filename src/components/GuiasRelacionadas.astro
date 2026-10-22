@@ -10,13 +10,15 @@ interface Props {
   lang: Lang;
   disciplinas?: string[];
   comarca?: string;
+  /** Municipio de la página: sus guías (`<tema>-en-<municipio>`) van primero */
+  municipio?: string;
   /** Página orientada a niños: prioriza las guías infantiles */
   infantil?: boolean;
   titulo?: string;
   /** Cuántas guías mostrar como máximo */
   max?: number;
 }
-const { lang, disciplinas = [], comarca, infantil = false, titulo = lang === 'ca' ? 'Guies per decidir' : 'Guías para decidir', max = 3 } = Astro.props;
+const { lang, disciplinas = [], comarca, municipio, infantil = false, titulo = lang === 'ca' ? 'Guies per decidir' : 'Guías para decidir', max = 3 } = Astro.props;
 // Guías de cada disciplina, ordenadas por lo que tratan de ella (deducido del contenido, no de una lista a mano)
 const porDisc = await Promise.all(disciplinas.map(d => guiasDeDisciplina(d, lang, 6)));
 const intercaladas = Array.from({ length: 6 }, (_, i) => porDisc.map(l => l[i]).filter(Boolean)).flat();
@@ -31,13 +33,16 @@ const GENERALES = infantil
   ? ['mejor-arte-marcial-para-ninos', 'a-que-edad-empezar-artes-marciales', 'clase-de-prueba-que-preguntar']
   : ['clase-de-prueba-que-preguntar', 'como-elegir-centro-artes-marciales', 'artes-marciales-adultos-principiantes'];
 
+const todos = await articulos();
+const delMunicipio = municipio ? todos.filter(a => a.slug.endsWith(`-en-${municipio}`)).map(a => a.slug) : [];
+
 const candidatos = [...new Set([
+  ...delMunicipio,
   ...(comarca && NINOS_COMARCA[comarca] && (infantil || !disciplinas.length) ? [NINOS_COMARCA[comarca]] : []),
   ...intercaladas,
   ...GENERALES,
 ])];
 
-const todos = await articulos();
 for (const s of candidatos) if (!todos.some(x => x.slug === s)) throw new Error(`GuiasRelacionadas: no existe el artículo ${s}`);
 const ca = lang === 'ca' ? new Map((await articulosCa()).map(a => [a.original, a])) : null;
 const guias = (ca ? candidatos.filter(s => ca.has(s)).map(s => ca.get(s)!) : candidatos.map(s => todos.find(x => x.slug === s)!)).slice(0, max);

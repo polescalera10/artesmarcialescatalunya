@@ -1,0 +1,795 @@
+{
+ "plan": {
+  "ninos": [
+   "girona",
+   "terrassa",
+   "tarragona",
+   "castelldefels",
+   "sabadell",
+   "reus"
+  ],
+  "mujeres": [
+   "terrassa",
+   "girona",
+   "tarragona",
+   "badalona",
+   "viladecans",
+   "sabadell",
+   "vilanova-i-la-geltru"
+  ],
+  "adultos": [
+   "sabadell",
+   "terrassa",
+   "badalona",
+   "lhospitalet-de-llobregat",
+   "tarragona",
+   "reus",
+   "lleida",
+   "vilanova-i-la-geltru",
+   "girona",
+   "mataro"
+  ]
+ },
+ "ciudades": {
+  "badalona": {
+   "nombre": "Badalona",
+   "comarca": "barcelones",
+   "comarca_nombre": "Barcelonès",
+   "centros": 50,
+   "infantil": 5,
+   "disciplinas": {
+    "Kickboxing (kickboxing)": 16,
+    "Karate (karate)": 12,
+    "Judo (judo)": 11,
+    "Taekwondo (taekwondo)": 11,
+    "Boxeo (boxeo)": 8,
+    "Defensa personal (defensa-personal)": 6,
+    "Lucha (lucha)": 3,
+    "Muay Thai (muay-thai)": 2,
+    "Aikido (aikido)": 2,
+    "Hapkido (hapkido)": 2,
+    "Jiu-jitsu japonés (jiu-jitsu-japones)": 1,
+    "Kendo e iaido (kendo)": 1,
+    "Krav maga (krav-maga)": 1,
+    "Kobudo (kobudo)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "barcelona",
+     "nombre": "Barcelona",
+     "centros": 278
+    },
+    {
+     "slug": "lhospitalet-de-llobregat",
+     "nombre": "L'Hospitalet de Llobregat",
+     "centros": 42
+    },
+    {
+     "slug": "santa-coloma-de-gramenet",
+     "nombre": "Santa Coloma de Gramenet",
+     "centros": 23
+    },
+    {
+     "slug": "sant-adria-de-besos",
+     "nombre": "Sant Adrià de Besòs",
+     "centros": 10
+    }
+   ]
+  },
+  "sabadell": {
+   "nombre": "Sabadell",
+   "comarca": "valles-occidental",
+   "comarca_nombre": "Vallès Occidental",
+   "centros": 54,
+   "infantil": 6,
+   "disciplinas": {
+    "Taekwondo (taekwondo)": 19,
+    "Karate (karate)": 19,
+    "Boxeo (boxeo)": 12,
+    "Kickboxing (kickboxing)": 10,
+    "Judo (judo)": 8,
+    "Defensa personal (defensa-personal)": 5,
+    "Aikido (aikido)": 4,
+    "MMA (mma)": 4,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 3,
+    "Grappling (grappling)": 3,
+    "Lucha (lucha)": 2,
+    "Muay Thai (muay-thai)": 1,
+    "Capoeira (capoeira)": 1,
+    "Tai chi y chi kung (tai-chi)": 1,
+    "Kendo e iaido (kendo)": 1,
+    "Kali, arnis y escrima (kali)": 1,
+    "Kung fu (kung-fu)": 1,
+    "Wing chun (wing-chun)": 1,
+    "Hapkido (hapkido)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "terrassa",
+     "nombre": "Terrassa",
+     "centros": 53
+    },
+    {
+     "slug": "sant-cugat-del-valles",
+     "nombre": "Sant Cugat del Vallès",
+     "centros": 19
+    },
+    {
+     "slug": "rubi",
+     "nombre": "Rubí",
+     "centros": 14
+    },
+    {
+     "slug": "cerdanyola-del-valles",
+     "nombre": "Cerdanyola del Vallès",
+     "centros": 14
+    }
+   ]
+  },
+  "girona": {
+   "nombre": "Girona",
+   "comarca": "girones",
+   "comarca_nombre": "Gironès",
+   "centros": 28,
+   "infantil": 11,
+   "disciplinas": {
+    "Defensa personal (defensa-personal)": 9,
+    "Judo (judo)": 7,
+    "Boxeo (boxeo)": 6,
+    "Kickboxing (kickboxing)": 6,
+    "Taekwondo (taekwondo)": 5,
+    "Karate (karate)": 3,
+    "Lucha (lucha)": 3,
+    "Muay Thai (muay-thai)": 3,
+    "MMA (mma)": 3,
+    "Grappling (grappling)": 3,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 3,
+    "Kendo e iaido (kendo)": 1,
+    "Ninjutsu (ninjutsu)": 1,
+    "Hapkido (hapkido)": 1,
+    "Kung fu (kung-fu)": 1,
+    "Wing chun (wing-chun)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "salt",
+     "nombre": "Salt",
+     "centros": 10
+    },
+    {
+     "slug": "cassa-de-la-selva",
+     "nombre": "Cassà de la Selva",
+     "centros": 3
+    },
+    {
+     "slug": "llagostera",
+     "nombre": "Llagostera",
+     "centros": 2
+    },
+    {
+     "slug": "celra",
+     "nombre": "Celrà",
+     "centros": 2
+    }
+   ]
+  },
+  "mataro": {
+   "nombre": "Mataró",
+   "comarca": "maresme",
+   "comarca_nombre": "Maresme",
+   "centros": 27,
+   "infantil": 5,
+   "disciplinas": {
+    "Boxeo (boxeo)": 10,
+    "Taekwondo (taekwondo)": 9,
+    "Kickboxing (kickboxing)": 8,
+    "Judo (judo)": 7,
+    "Muay Thai (muay-thai)": 4,
+    "Jiu-jitsu japonés (jiu-jitsu-japones)": 3,
+    "Karate (karate)": 2,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 2,
+    "MMA (mma)": 2,
+    "Defensa personal (defensa-personal)": 2,
+    "Grappling (grappling)": 2,
+    "Krav maga (krav-maga)": 1,
+    "Aikido (aikido)": 1,
+    "Lucha (lucha)": 1,
+    "Kali, arnis y escrima (kali)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "malgrat-de-mar",
+     "nombre": "Malgrat de Mar",
+     "centros": 13
+    },
+    {
+     "slug": "el-masnou",
+     "nombre": "El Masnou",
+     "centros": 10
+    },
+    {
+     "slug": "premia-de-mar",
+     "nombre": "Premià de Mar",
+     "centros": 8
+    },
+    {
+     "slug": "canet-de-mar",
+     "nombre": "Canet de Mar",
+     "centros": 8
+    }
+   ]
+  },
+  "terrassa": {
+   "nombre": "Terrassa",
+   "comarca": "valles-occidental",
+   "comarca_nombre": "Vallès Occidental",
+   "centros": 53,
+   "infantil": 7,
+   "disciplinas": {
+    "Taekwondo (taekwondo)": 14,
+    "Defensa personal (defensa-personal)": 13,
+    "Karate (karate)": 11,
+    "Boxeo (boxeo)": 10,
+    "Judo (judo)": 9,
+    "Kickboxing (kickboxing)": 8,
+    "Tai chi y chi kung (tai-chi)": 3,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 3,
+    "Jiu-jitsu japonés (jiu-jitsu-japones)": 3,
+    "Muay Thai (muay-thai)": 3,
+    "MMA (mma)": 3,
+    "Hapkido (hapkido)": 3,
+    "Grappling (grappling)": 3,
+    "Aikido (aikido)": 2,
+    "Kendo e iaido (kendo)": 2,
+    "Kung fu (kung-fu)": 1,
+    "Ninjutsu (ninjutsu)": 1,
+    "Wing chun (wing-chun)": 1,
+    "Lucha (lucha)": 1,
+    "Krav maga (krav-maga)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "sabadell",
+     "nombre": "Sabadell",
+     "centros": 54
+    },
+    {
+     "slug": "sant-cugat-del-valles",
+     "nombre": "Sant Cugat del Vallès",
+     "centros": 19
+    },
+    {
+     "slug": "rubi",
+     "nombre": "Rubí",
+     "centros": 14
+    },
+    {
+     "slug": "cerdanyola-del-valles",
+     "nombre": "Cerdanyola del Vallès",
+     "centros": 14
+    }
+   ]
+  },
+  "viladecans": {
+   "nombre": "Viladecans",
+   "comarca": "baix-llobregat",
+   "comarca_nombre": "Baix Llobregat",
+   "centros": 16,
+   "infantil": 5,
+   "disciplinas": {
+    "Taekwondo (taekwondo)": 6,
+    "Defensa personal (defensa-personal)": 6,
+    "Kickboxing (kickboxing)": 5,
+    "Boxeo (boxeo)": 4,
+    "Hapkido (hapkido)": 3,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 2,
+    "Grappling (grappling)": 2,
+    "Karate (karate)": 2,
+    "Judo (judo)": 1,
+    "Krav maga (krav-maga)": 1,
+    "MMA (mma)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "castelldefels",
+     "nombre": "Castelldefels",
+     "centros": 20
+    },
+    {
+     "slug": "sant-boi-de-llobregat",
+     "nombre": "Sant Boi de Llobregat",
+     "centros": 16
+    },
+    {
+     "slug": "el-prat-de-llobregat",
+     "nombre": "El Prat de Llobregat",
+     "centros": 16
+    },
+    {
+     "slug": "cornella-de-llobregat",
+     "nombre": "Cornellà de Llobregat",
+     "centros": 16
+    }
+   ]
+  },
+  "vilanova-i-la-geltru": {
+   "nombre": "Vilanova i la Geltrú",
+   "comarca": "garraf",
+   "comarca_nombre": "Garraf",
+   "centros": 28,
+   "infantil": 4,
+   "disciplinas": {
+    "Kickboxing (kickboxing)": 11,
+    "Karate (karate)": 10,
+    "Boxeo (boxeo)": 6,
+    "Defensa personal (defensa-personal)": 5,
+    "Jiu-jitsu japonés (jiu-jitsu-japones)": 4,
+    "Judo (judo)": 4,
+    "Taekwondo (taekwondo)": 4,
+    "Kobudo (kobudo)": 3,
+    "Tai chi y chi kung (tai-chi)": 3,
+    "MMA (mma)": 2,
+    "Grappling (grappling)": 2,
+    "Kung fu (kung-fu)": 2,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 2,
+    "Hapkido (hapkido)": 1,
+    "Muay Thai (muay-thai)": 1,
+    "Aikido (aikido)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "sant-pere-de-ribes",
+     "nombre": "Sant Pere de Ribes",
+     "centros": 12
+    },
+    {
+     "slug": "sitges",
+     "nombre": "Sitges",
+     "centros": 8
+    },
+    {
+     "slug": "canyelles",
+     "nombre": "Canyelles",
+     "centros": 4
+    },
+    {
+     "slug": "olivella",
+     "nombre": "Olivella",
+     "centros": 2
+    }
+   ]
+  },
+  "lhospitalet-de-llobregat": {
+   "nombre": "L'Hospitalet de Llobregat",
+   "comarca": "barcelones",
+   "comarca_nombre": "Barcelonès",
+   "centros": 42,
+   "infantil": 5,
+   "disciplinas": {
+    "Karate (karate)": 17,
+    "Taekwondo (taekwondo)": 12,
+    "Judo (judo)": 9,
+    "Boxeo (boxeo)": 8,
+    "Kickboxing (kickboxing)": 8,
+    "Kung fu (kung-fu)": 4,
+    "Aikido (aikido)": 3,
+    "Defensa personal (defensa-personal)": 3,
+    "Jiu-jitsu japonés (jiu-jitsu-japones)": 3,
+    "MMA (mma)": 3,
+    "Hapkido (hapkido)": 2,
+    "Kendo e iaido (kendo)": 2,
+    "Muay Thai (muay-thai)": 2,
+    "Lucha (lucha)": 1,
+    "Tai chi y chi kung (tai-chi)": 1,
+    "Capoeira (capoeira)": 1,
+    "Kobudo (kobudo)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "barcelona",
+     "nombre": "Barcelona",
+     "centros": 278
+    },
+    {
+     "slug": "badalona",
+     "nombre": "Badalona",
+     "centros": 50
+    },
+    {
+     "slug": "santa-coloma-de-gramenet",
+     "nombre": "Santa Coloma de Gramenet",
+     "centros": 23
+    },
+    {
+     "slug": "sant-adria-de-besos",
+     "nombre": "Sant Adrià de Besòs",
+     "centros": 10
+    }
+   ]
+  },
+  "lleida": {
+   "nombre": "Lleida",
+   "comarca": "segria",
+   "comarca_nombre": "Segrià",
+   "centros": 33,
+   "infantil": 5,
+   "disciplinas": {
+    "Karate (karate)": 12,
+    "Taekwondo (taekwondo)": 10,
+    "Kickboxing (kickboxing)": 7,
+    "Boxeo (boxeo)": 5,
+    "Aikido (aikido)": 5,
+    "Judo (judo)": 4,
+    "Defensa personal (defensa-personal)": 3,
+    "Muay Thai (muay-thai)": 3,
+    "Grappling (grappling)": 3,
+    "MMA (mma)": 3,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 2,
+    "Jiu-jitsu japonés (jiu-jitsu-japones)": 1,
+    "Lucha (lucha)": 1,
+    "Hapkido (hapkido)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "alcarras",
+     "nombre": "Alcarràs",
+     "centros": 5
+    },
+    {
+     "slug": "almacelles",
+     "nombre": "Almacelles",
+     "centros": 4
+    },
+    {
+     "slug": "vilanova-de-la-barca",
+     "nombre": "Vilanova de la Barca",
+     "centros": 2
+    },
+    {
+     "slug": "seros",
+     "nombre": "Seròs",
+     "centros": 2
+    }
+   ]
+  },
+  "reus": {
+   "nombre": "Reus",
+   "comarca": "baix-camp",
+   "comarca_nombre": "Baix Camp",
+   "centros": 36,
+   "infantil": 6,
+   "disciplinas": {
+    "Taekwondo (taekwondo)": 10,
+    "Boxeo (boxeo)": 8,
+    "Kickboxing (kickboxing)": 7,
+    "Judo (judo)": 7,
+    "Muay Thai (muay-thai)": 7,
+    "MMA (mma)": 5,
+    "Karate (karate)": 4,
+    "Grappling (grappling)": 4,
+    "Defensa personal (defensa-personal)": 3,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 2,
+    "Lucha (lucha)": 2,
+    "Kung fu (kung-fu)": 1,
+    "Wing chun (wing-chun)": 1,
+    "Jiu-jitsu japonés (jiu-jitsu-japones)": 1,
+    "Hapkido (hapkido)": 1,
+    "Tai chi y chi kung (tai-chi)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "cambrils",
+     "nombre": "Cambrils",
+     "centros": 19
+    },
+    {
+     "slug": "mont-roig-del-camp",
+     "nombre": "Mont-roig del Camp",
+     "centros": 3
+    },
+    {
+     "slug": "vinyols-i-els-arcs",
+     "nombre": "Vinyols i els Arcs",
+     "centros": 2
+    },
+    {
+     "slug": "vandellos-i-lhospitalet-de-linfant",
+     "nombre": "Vandellòs i l'Hospitalet de l'Infant",
+     "centros": 2
+    }
+   ]
+  },
+  "tarragona": {
+   "nombre": "Tarragona",
+   "comarca": "tarragones",
+   "comarca_nombre": "Tarragonès",
+   "centros": 36,
+   "infantil": 7,
+   "disciplinas": {
+    "Karate (karate)": 10,
+    "Defensa personal (defensa-personal)": 8,
+    "Kickboxing (kickboxing)": 8,
+    "Taekwondo (taekwondo)": 6,
+    "Boxeo (boxeo)": 6,
+    "MMA (mma)": 5,
+    "Judo (judo)": 5,
+    "Jiu-jitsu japonés (jiu-jitsu-japones)": 3,
+    "Grappling (grappling)": 3,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 3,
+    "Krav maga (krav-maga)": 3,
+    "Aikido (aikido)": 2,
+    "Muay Thai (muay-thai)": 2,
+    "Kali, arnis y escrima (kali)": 2,
+    "Kung fu (kung-fu)": 1,
+    "Tai chi y chi kung (tai-chi)": 1,
+    "Kendo e iaido (kendo)": 1,
+    "Kobudo (kobudo)": 1,
+    "Ninjutsu (ninjutsu)": 1,
+    "Wing chun (wing-chun)": 1,
+    "Capoeira (capoeira)": 1,
+    "Hapkido (hapkido)": 1,
+    "Lucha (lucha)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "salou",
+     "nombre": "Salou",
+     "centros": 12
+    },
+    {
+     "slug": "torredembarra",
+     "nombre": "Torredembarra",
+     "centros": 6
+    },
+    {
+     "slug": "vila-seca",
+     "nombre": "Vila-seca",
+     "centros": 4
+    },
+    {
+     "slug": "roda-de-bera",
+     "nombre": "Roda de Berà",
+     "centros": 3
+    }
+   ]
+  },
+  "castelldefels": {
+   "nombre": "Castelldefels",
+   "comarca": "baix-llobregat",
+   "comarca_nombre": "Baix Llobregat",
+   "centros": 20,
+   "infantil": 7,
+   "disciplinas": {
+    "Boxeo (boxeo)": 8,
+    "Judo (judo)": 6,
+    "Kickboxing (kickboxing)": 6,
+    "Defensa personal (defensa-personal)": 4,
+    "Taekwondo (taekwondo)": 3,
+    "Grappling (grappling)": 3,
+    "MMA (mma)": 3,
+    "Karate (karate)": 2,
+    "Muay Thai (muay-thai)": 2,
+    "Jiu-jitsu brasileño (jiu-jitsu-brasileno)": 2,
+    "Jiu-jitsu japonés (jiu-jitsu-japones)": 1,
+    "Kung fu (kung-fu)": 1
+   },
+   "vecinos_con_mas_centros": [
+    {
+     "slug": "viladecans",
+     "nombre": "Viladecans",
+     "centros": 16
+    },
+    {
+     "slug": "sant-boi-de-llobregat",
+     "nombre": "Sant Boi de Llobregat",
+     "centros": 16
+    },
+    {
+     "slug": "el-prat-de-llobregat",
+     "nombre": "El Prat de Llobregat",
+     "centros": 16
+    },
+    {
+     "slug": "cornella-de-llobregat",
+     "nombre": "Cornellà de Llobregat",
+     "centros": 16
+    }
+   ]
+  }
+ },
+ "rutas_existentes": {
+  "badalona": [
+   "/barcelones/badalona/",
+   "/barcelones/badalona/boxeo/",
+   "/barcelones/badalona/defensa-personal/",
+   "/barcelones/badalona/judo/",
+   "/barcelones/badalona/karate/",
+   "/barcelones/badalona/kickboxing/",
+   "/barcelones/badalona/taekwondo/",
+   "/barcelones/barcelona/",
+   "/barcelones/lhospitalet-de-llobregat/",
+   "/barcelones/santa-coloma-de-gramenet/",
+   "/barcelones/sant-adria-de-besos/",
+   "/barcelones/"
+  ],
+  "sabadell": [
+   "/valles-occidental/sabadell/",
+   "/valles-occidental/sabadell/aikido/",
+   "/valles-occidental/sabadell/boxeo/",
+   "/valles-occidental/sabadell/defensa-personal/",
+   "/valles-occidental/sabadell/grappling/",
+   "/valles-occidental/sabadell/jiu-jitsu-brasileno/",
+   "/valles-occidental/sabadell/karate/",
+   "/valles-occidental/sabadell/kickboxing/",
+   "/valles-occidental/sabadell/mma/",
+   "/valles-occidental/sabadell/taekwondo/",
+   "/valles-occidental/terrassa/",
+   "/valles-occidental/sant-cugat-del-valles/",
+   "/valles-occidental/rubi/",
+   "/valles-occidental/cerdanyola-del-valles/",
+   "/valles-occidental/"
+  ],
+  "girona": [
+   "/girones/girona/",
+   "/girones/girona/boxeo/",
+   "/girones/girona/defensa-personal/",
+   "/girones/girona/grappling/",
+   "/girones/girona/jiu-jitsu-brasileno/",
+   "/girones/girona/judo/",
+   "/girones/girona/kickboxing/",
+   "/girones/girona/mma/",
+   "/girones/girona/muay-thai/",
+   "/girones/girona/taekwondo/",
+   "/girones/salt/",
+   "/girones/llagostera/",
+   "/girones/"
+  ],
+  "mataro": [
+   "/maresme/mataro/",
+   "/maresme/mataro/boxeo/",
+   "/maresme/mataro/grappling/",
+   "/maresme/mataro/karate/",
+   "/maresme/mataro/kickboxing/",
+   "/maresme/mataro/mma/",
+   "/maresme/mataro/taekwondo/",
+   "/maresme/malgrat-de-mar/",
+   "/maresme/el-masnou/",
+   "/maresme/premia-de-mar/",
+   "/maresme/"
+  ],
+  "terrassa": [
+   "/valles-occidental/terrassa/",
+   "/valles-occidental/terrassa/boxeo/",
+   "/valles-occidental/terrassa/defensa-personal/",
+   "/valles-occidental/terrassa/grappling/",
+   "/valles-occidental/terrassa/hapkido/",
+   "/valles-occidental/terrassa/jiu-jitsu-brasileno/",
+   "/valles-occidental/terrassa/judo/",
+   "/valles-occidental/terrassa/karate/",
+   "/valles-occidental/terrassa/kickboxing/",
+   "/valles-occidental/terrassa/mma/",
+   "/valles-occidental/terrassa/taekwondo/",
+   "/valles-occidental/sabadell/",
+   "/valles-occidental/sant-cugat-del-valles/",
+   "/valles-occidental/rubi/",
+   "/valles-occidental/cerdanyola-del-valles/",
+   "/valles-occidental/"
+  ],
+  "viladecans": [
+   "/baix-llobregat/viladecans/",
+   "/baix-llobregat/viladecans/boxeo/",
+   "/baix-llobregat/viladecans/defensa-personal/",
+   "/baix-llobregat/viladecans/grappling/",
+   "/baix-llobregat/viladecans/hapkido/",
+   "/baix-llobregat/viladecans/jiu-jitsu-brasileno/",
+   "/baix-llobregat/viladecans/kickboxing/",
+   "/baix-llobregat/viladecans/taekwondo/",
+   "/baix-llobregat/castelldefels/",
+   "/baix-llobregat/sant-boi-de-llobregat/",
+   "/baix-llobregat/el-prat-de-llobregat/",
+   "/baix-llobregat/cornella-de-llobregat/",
+   "/baix-llobregat/"
+  ],
+  "vilanova-i-la-geltru": [
+   "/garraf/vilanova-i-la-geltru/",
+   "/garraf/vilanova-i-la-geltru/boxeo/",
+   "/garraf/vilanova-i-la-geltru/defensa-personal/",
+   "/garraf/vilanova-i-la-geltru/grappling/",
+   "/garraf/vilanova-i-la-geltru/jiu-jitsu-brasileno/",
+   "/garraf/vilanova-i-la-geltru/jiu-jitsu-japones/",
+   "/garraf/vilanova-i-la-geltru/judo/",
+   "/garraf/vilanova-i-la-geltru/karate/",
+   "/garraf/vilanova-i-la-geltru/kickboxing/",
+   "/garraf/vilanova-i-la-geltru/krav-maga/",
+   "/garraf/vilanova-i-la-geltru/kung-fu/",
+   "/garraf/vilanova-i-la-geltru/mma/",
+   "/garraf/vilanova-i-la-geltru/muay-thai/",
+   "/garraf/vilanova-i-la-geltru/taekwondo/",
+   "/garraf/sant-pere-de-ribes/",
+   "/garraf/sitges/",
+   "/garraf/canyelles/",
+   "/garraf/olivella/",
+   "/garraf/"
+  ],
+  "lhospitalet-de-llobregat": [
+   "/barcelones/lhospitalet-de-llobregat/",
+   "/barcelones/lhospitalet-de-llobregat/boxeo/",
+   "/barcelones/lhospitalet-de-llobregat/karate/",
+   "/barcelones/lhospitalet-de-llobregat/kickboxing/",
+   "/barcelones/lhospitalet-de-llobregat/mma/",
+   "/barcelones/lhospitalet-de-llobregat/muay-thai/",
+   "/barcelones/barcelona/",
+   "/barcelones/badalona/",
+   "/barcelones/santa-coloma-de-gramenet/",
+   "/barcelones/sant-adria-de-besos/",
+   "/barcelones/"
+  ],
+  "lleida": [
+   "/segria/lleida/",
+   "/segria/lleida/aikido/",
+   "/segria/lleida/boxeo/",
+   "/segria/lleida/defensa-personal/",
+   "/segria/lleida/grappling/",
+   "/segria/lleida/jiu-jitsu-brasileno/",
+   "/segria/lleida/karate/",
+   "/segria/lleida/kickboxing/",
+   "/segria/lleida/mma/",
+   "/segria/lleida/muay-thai/",
+   "/segria/lleida/taekwondo/",
+   "/segria/almacelles/",
+   "/segria/"
+  ],
+  "reus": [
+   "/baix-camp/reus/",
+   "/baix-camp/reus/boxeo/",
+   "/baix-camp/reus/defensa-personal/",
+   "/baix-camp/reus/grappling/",
+   "/baix-camp/reus/jiu-jitsu-brasileno/",
+   "/baix-camp/reus/judo/",
+   "/baix-camp/reus/karate/",
+   "/baix-camp/reus/kickboxing/",
+   "/baix-camp/reus/mma/",
+   "/baix-camp/reus/muay-thai/",
+   "/baix-camp/reus/taekwondo/",
+   "/baix-camp/cambrils/",
+   "/baix-camp/vandellos-i-lhospitalet-de-linfant/",
+   "/baix-camp/"
+  ],
+  "tarragona": [
+   "/tarragones/tarragona/",
+   "/tarragones/tarragona/aikido/",
+   "/tarragones/tarragona/boxeo/",
+   "/tarragones/tarragona/defensa-personal/",
+   "/tarragones/tarragona/grappling/",
+   "/tarragones/tarragona/jiu-jitsu-brasileno/",
+   "/tarragones/tarragona/jiu-jitsu-japones/",
+   "/tarragones/tarragona/judo/",
+   "/tarragones/tarragona/kali/",
+   "/tarragones/tarragona/karate/",
+   "/tarragones/tarragona/kickboxing/",
+   "/tarragones/tarragona/krav-maga/",
+   "/tarragones/tarragona/mma/",
+   "/tarragones/tarragona/taekwondo/",
+   "/tarragones/salou/",
+   "/tarragones/torredembarra/",
+   "/tarragones/vila-seca/",
+   "/tarragones/roda-de-bera/",
+   "/tarragones/"
+  ],
+  "castelldefels": [
+   "/baix-llobregat/castelldefels/",
+   "/baix-llobregat/castelldefels/boxeo/",
+   "/baix-llobregat/castelldefels/defensa-personal/",
+   "/baix-llobregat/castelldefels/grappling/",
+   "/baix-llobregat/castelldefels/jiu-jitsu-brasileno/",
+   "/baix-llobregat/castelldefels/judo/",
+   "/baix-llobregat/castelldefels/kickboxing/",
+   "/baix-llobregat/castelldefels/mma/",
+   "/baix-llobregat/viladecans/",
+   "/baix-llobregat/sant-boi-de-llobregat/",
+   "/baix-llobregat/el-prat-de-llobregat/",
+   "/baix-llobregat/cornella-de-llobregat/",
+   "/baix-llobregat/"
+  ]
+ }
+}

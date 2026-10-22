@@ -1,6 +1,6 @@
 ---
-titulo: "Defensa personal para mujeres: guía realista"
-descripcion: "Defensa personal para mujeres: qué enseña un programa serio, qué es marketing, cómo elegir y dónde encontrar centros en Cataluña."
+titulo: "Defensa personal para mujeres: cómo elegir academia y curso"
+descripcion: "Defensa personal para mujeres: qué enseña un programa serio, qué es marketing, grupo femenino o mixto y cómo elegir academia en Cataluña."
 h1: "Defensa personal para mujeres: qué enseña un programa serio, qué es marketing y cómo elegir"
 intro: "Pocos temas de las artes marciales se cuentan peor: mucho mito, mucho susto vendido como argumento y poca sustancia. Esta guía separa lo que trabaja un programa serio de lo que es marketing, y te da criterios para elegir. En el directorio constan {{d:defensa-personal}} centros que anuncian defensa personal en {{dcom:defensa-personal}} comarcas de Cataluña."
 tipo: guia

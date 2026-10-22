@@ -14,6 +14,7 @@ import FAQ from '../components/FAQ.astro';
 import ParaCentrosCTA from '../components/ParaCentrosCTA.astro';
 import GuiasRelacionadas from '../components/GuiasRelacionadas.astro';
 import { L, url, lista, titulo, descripcion, n, type Lang, minus } from '../lib/i18n';
+import { metaPagina } from '../lib/meta';
 import { centrosDeMunicipio, centrosConDisciplina, cercanos, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { getDisciplina, nombreDisciplina } from '../lib/disciplinas';
@@ -45,12 +46,13 @@ const intro = nV
       `En nuestro directorio no consta ningún centro de ${mun.nombre} que anuncie ${ndl}. Estos son los más cercanos que sí lo hacen.`,
       `Al nostre directori no hi consta cap centre de ${mun.nombre} que anunciï ${ndl}. Aquests són els més propers que sí que ho fan.`);
 
-const title = ed?.titulo ?? titulo(
+const meta = metaPagina(lang, url.munDisc(lang, comarca, municipio, disciplina), { n: n(nV, 'centro', 'centros') });
+const title = meta?.titulo ?? ed?.titulo ?? titulo(
   L(lang, `${nd} en ${mun.nombre}: ${n(nV, 'centro', 'centros')} | ${com.nombre}`, `${nd} a ${mun.nombre}: ${n(nV, 'centre', 'centres')} | ${com.nombre}`),
   L(lang, `${nd} en ${mun.nombre}: ${n(nV, 'centro', 'centros')}`, `${nd} a ${mun.nombre}: ${n(nV, 'centre', 'centres')}`),
   L(lang, `${nd} en ${mun.nombre}`, `${nd} a ${mun.nombre}`),
 );
-const description = ed?.descripcion ?? descripcion(
+const description = meta?.descripcion ?? ed?.descripcion ?? descripcion(
   L(lang,
     `Dónde entrenar ${ndl} en ${mun.nombre}: ${n(nV, 'centro', 'centros')} con fuente pública verificada${cerca.length ? ' y los más cercanos de la zona' : ''}. Sin valoraciones ni rankings.`,
     `On entrenar ${ndl} a ${mun.nombre}: ${n(nV, 'centre', 'centres')} amb font pública verificada${cerca.length ? ' i els més propers de la zona' : ''}. Sense valoracions ni rànquings.`),

@@ -1,6 +1,6 @@
 ---
-titulo: "Karate o judo para niños: cuál elegir y por qué"
-descripcion: "Karate o judo para tu hijo: cuánto contacto hay en cada uno, cómo es la clase, qué carácter encaja y qué mirar antes de apuntarle en tu zona."
+titulo: "Karate o judo para niños: contacto, clase y cuál elegir"
+descripcion: "Karate o judo para tu hijo: cuánto contacto hay en cada uno, cómo es la clase, qué carácter encaja y qué preguntar al centro antes de apuntarle."
 h1: "Karate o judo para niños: cuál elegir y por qué"
 intro: "Golpeo controlado a distancia contra agarre y contacto continuo. La diferencia técnica se cuenta en diez segundos, pero lo que decide a los seis o siete años es cómo está montada la clase y qué tipo de niño sale contento de ella. Comparamos las dos entradas infantiles más habituales sin quedarnos en el folleto: en el directorio constan {{d:karate}} centros con karate y {{d:judo}} con judo."
 tipo: articulo
