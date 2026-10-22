@@ -39,7 +39,7 @@ Las clasificaciones son muchas. La más útil para decidir es por lo que se trab
 |---|---|---|
 | Golpeo | Puños, patadas, rodillas, codos, a distancia | Boxeo ({{d:boxeo}}), kickboxing ({{d:kickboxing}}), muay thai ({{d:muay-thai}}), karate ({{d:karate}}), taekwondo ({{d:taekwondo}}) |
 | Agarre | Proyecciones, control y suelo | Judo ({{d:judo}}), jiu-jitsu brasileño ({{d:jiu-jitsu-brasileno}}), grappling ({{d:grappling}}), lucha ({{d:lucha}}) |
-| Armas | Espada, palo y otras armas | Kendo e iaido ({{d:kendo}}), kobudo ({{d:kobudo}}), kali, arnis y escrima ({{d:kali}}) |
+| Armas | Espada, palo y otras armas | Kendo ({{d:kendo}}), iaido ({{d:iaido}}), kobudo ({{d:kobudo}}), kali, arnis y escrima ({{d:kali}}) |
 | Internas | Respiración y movimiento, en la tradición china de las artes internas (qi) | Tai chi y chi kung ({{d:tai-chi}}) |
 
 Entre medias quedan dos etiquetas que no encajan del todo. El [MMA](/blog/que-es-mma/), con {{d:mma}} centros, combina golpeo y agarre. La defensa personal ({{d:defensa-personal}} centros) y el krav maga ({{d:krav-maga}}) se definen por su objetivo, la autodefensa, y no por una técnica concreta.

@@ -77,7 +77,7 @@
   "disciplinas": [
    "aikido",
    "jiu-jitsu-japones",
-   "kendo",
+   "iaido",
    "kobudo",
    "ninjutsu",
    "karate",
@@ -85,7 +85,6 @@
    "kali"
   ],
   "otras": [
-   "Iaido",
    "Jodo",
    "Nihon Tai-jitsu"
   ],
@@ -94,7 +93,7 @@
   "web": "https://www.artsmarcialstarragona.org/",
   "fuente": "https://www.artsmarcialstarragona.org/",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-09-30"
+  "verificado": "2026-10-22"
  },
  {
   "slug": "c-e-karate-yondan-tarraco",

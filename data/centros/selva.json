@@ -726,13 +726,12 @@
   "tipo": "escuela",
   "municipio": "sant-hilari-sacalm",
   "disciplinas": [
-   "kendo",
+   "iaido",
    "jiu-jitsu-japones",
    "defensa-personal"
   ],
   "otras": [
    "Niten Ichi Ryu Kenjutsu",
-   "Iaido",
    "Hanbojutsu",
    "Goshinjutsu"
   ],
@@ -740,7 +739,7 @@
   "web": "https://www.musashidojo.com/",
   "fuente": "https://www.musashidojo.com/",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-09-30"
+  "verificado": "2026-10-22"
  },
  {
   "slug": "new-age-lloret",

@@ -2223,16 +2223,13 @@
   "municipio": "sant-vicenc-dels-horts",
   "disciplinas": [
    "aikido",
-   "kendo"
-  ],
-  "otras": [
-   "Iaido"
+   "iaido"
   ],
   "direccion": "Calle La Pobla, 17 - 08620 Sant Vicenç dels Horts",
   "web": "https://mutokukansantvicenc.com/",
   "fuente": "https://mutokukansantvicenc.com/",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-09-30"
+  "verificado": "2026-10-22"
  },
  {
   "slug": "dojo-semper-fidelis",

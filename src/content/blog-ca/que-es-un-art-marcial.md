@@ -40,7 +40,7 @@ Les classificacions són moltes. La més útil per decidir és per allò que es 
 |---|---|---|
 | Cop | Punys, puntades, genolls, colzes, a distància | Boxa ({{d:boxeo}}), kickboxing ({{d:kickboxing}}), muay thai ({{d:muay-thai}}), karate ({{d:karate}}), taekwondo ({{d:taekwondo}}) |
 | Agafada | Projeccions, control i terra | Judo ({{d:judo}}), jiu-jitsu brasiler ({{d:jiu-jitsu-brasileno}}), grappling ({{d:grappling}}), lluita ({{d:lucha}}) |
-| Armes | Espasa, bastó i altres armes | Kendo i iaido ({{d:kendo}}), kobudo ({{d:kobudo}}), kali, arnis i escrima ({{d:kali}}) |
+| Armes | Espasa, bastó i altres armes | Kendo ({{d:kendo}}), iaido ({{d:iaido}}), kobudo ({{d:kobudo}}), kali, arnis i escrima ({{d:kali}}) |
 | Internes | Respiració i moviment, en la tradició xinesa de les arts internes (qi) | Tai-txi i chi kung ({{d:tai-chi}}) |
 
 Entremig queden dues etiquetes que no encaixen del tot. L'[MMA](/blog/que-es-mma/), amb {{d:mma}} centres, combina cop i agafada. La defensa personal ({{d:defensa-personal}} centres) i el krav maga ({{d:krav-maga}}) es defineixen pel seu objectiu, l'autodefensa, i no per una tècnica concreta.

@@ -17,7 +17,7 @@ faq:
   - q: "Judo o karate per començar al Vallès Oriental?"
     a: "A la comarca consten {{dc:karate:valles-oriental}} centres amb karate i {{dc:judo:valles-oriental}} amb judo. Més que la disciplina, decideix el grup de la seva edat que encaixi amb la teva tarda. Si tens tots dos a mà, una classe de prova a cadascun sol aclarir l'elecció."
   - q: "Hi ha disciplines menys conegudes per a nens a la comarca?"
-    a: "Consten {{dc:kendo:valles-oriental}} centres amb kendo o iaido, {{dc:wing-chun:valles-oriental}} amb wing chun i {{dc:aikido:valles-oriental}} amb aikido, entre d'altres. No tots tenen grup infantil: confirma sempre l'edat mínima i el format abans d'anar-hi."
+    a: "Consten {{dc:kendo:valles-oriental}} centres amb kendo, {{dc:wing-chun:valles-oriental}} amb wing chun i {{dc:aikido:valles-oriental}} amb aikido, entre d'altres. No tots tenen grup infantil: confirma sempre l'edat mínima i el format abans d'anar-hi."
 ---
 
 ## El que s'ensenya a la comarca, amb les xifres al davant
@@ -26,7 +26,7 @@ Al Vallès Oriental consten {{dc:karate:valles-oriental}} centres amb karate, {{
 
 El taekwondo demana una comparació a part. A tot Catalunya consta en {{d:taekwondo}} dels {{centros}} centres del directori; en aquesta comarca, en {{dc:taekwondo:valles-oriental}} de {{c:valles-oriental}}. Posa les dues proporcions una al costat de l'altra abans de donar per fet que el tindràs a prop de casa.
 
-Hi ha, a més, un ventall més ampli del que sembla: {{dc:muay-thai:valles-oriental}} centres amb muay thai, {{dc:wing-chun:valles-oriental}} amb wing chun, {{dc:aikido:valles-oriental}} amb aikido i {{dc:kendo:valles-oriental}} amb kendo o iaido. És la resposta possible si el teu fill gran ja ha provat el clàssic i vol una altra cosa, tot i que amb aquestes disciplines l'edat mínima és el primer que cal preguntar (més avall).
+Hi ha, a més, un ventall més ampli del que sembla: {{dc:muay-thai:valles-oriental}} centres amb muay thai, {{dc:wing-chun:valles-oriental}} amb wing chun, {{dc:aikido:valles-oriental}} amb aikido i {{dc:kendo:valles-oriental}} amb kendo. És la resposta possible si el teu fill gran ja ha provat el clàssic i vol una altra cosa, tot i que amb aquestes disciplines l'edat mínima és el primer que cal preguntar (més avall).
 
 ## El mapa municipi per municipi
 
@@ -53,9 +53,9 @@ El pràctic és acotar per disciplina al directori i quedar-te amb el que et que
 
 ## Cardedeu i les Franqueses: quan el poble mitjà sorprèn
 
-Alguns municipis de mida mitjana guarden una varietat que no t'esperaries. Les Franqueses del Vallès hi consta amb {{m:les-franqueses-del-valles}} centres i hi reuneix karate ({{dm:karate:les-franqueses-del-valles}}), jiu-jitsu brasiler ({{dm:jiu-jitsu-brasileno:les-franqueses-del-valles}}) i kendo o iaido ({{dm:kendo:les-franqueses-del-valles}}). Cardedeu, amb {{m:cardedeu}} centres, suma wing chun ({{dm:wing-chun:cardedeu}}) i kendo o iaido ({{dm:kendo:cardedeu}}) al karate ({{dm:karate:cardedeu}}) i al judo ({{dm:judo:cardedeu}}).
+Alguns municipis de mida mitjana guarden una varietat que no t'esperaries. Les Franqueses del Vallès hi consta amb {{m:les-franqueses-del-valles}} centres i hi reuneix karate ({{dm:karate:les-franqueses-del-valles}}), jiu-jitsu brasiler ({{dm:jiu-jitsu-brasileno:les-franqueses-del-valles}}) i iaido ({{dm:iaido:les-franqueses-del-valles}}). Cardedeu, amb {{m:cardedeu}} centres, suma wing chun ({{dm:wing-chun:cardedeu}}) i kendo ({{dm:kendo:cardedeu}}) al karate ({{dm:karate:cardedeu}}) i al judo ({{dm:judo:cardedeu}}).
 
-Per posar-ho en context: a tot Catalunya consten {{d:kendo}} centres amb kendo o iaido. Una família de Cardedeu o de les Franqueses pot tenir a prop una cosa que en moltes comarques no existeix. El revers és que, quan una disciplina depèn d'un sol centre del municipi, no hi ha amb què comparar-lo. Llavors la classe de prova importa encara més, perquè és l'única manera de saber si el grup infantil funciona.
+Per posar-ho en context: a tot Catalunya consten {{d:kendo}} centres amb kendo i {{d:iaido}} amb iaido. Una família de Cardedeu o de les Franqueses pot tenir a prop una cosa que en moltes comarques no existeix. El revers és que, quan una disciplina depèn d'un sol centre del municipi, no hi ha amb què comparar-lo. Llavors la classe de prova importa encara més, perquè és l'única manera de saber si el grup infantil funciona.
 
 ## L'edat mínima pesa més que el nom de la disciplina
 
@@ -63,7 +63,7 @@ Amb els més petits, el més habitual és començar per karate o judo, i si nom�
 
 Cap als 7 o 8 anys, triar pel caràcter comença a tenir sentit. Per a un nen reservat hi ha una guia sobre [arts marcials per a un nen tímid](/blog/arte-marcial-para-nino-timido/), i si dubtes entre les dues entrades clàssiques, la comparativa és a [karate o judo per a nens](/blog/karate-o-judo-para-ninos/). Un apunt local: a Granollers el judo consta en {{dm:judo:granollers}} centres, i la [pàgina de judo a Granollers](/valles-oriental/granollers/judo/) els llista.
 
-Amb les disciplines menys freqüents, l'edat va primer. El [kendo](/disciplinas/kendo/valles-oriental/) és la via de l'espasa, segons la [pàgina que li dedica la Federació Catalana de Judo](https://fedecatjudo.cat/kendo/) (consultada l'octubre del 2026). Es practica amb un sabre de bambú (shinai) i una armadura pensada per resistir cops (bogu). Aquesta pàgina no parla d'edats, així que la mínima la fixa cada centre. El mateix val per al [wing chun](/disciplinas/wing-chun/valles-oriental/), el muay thai o el jiu-jitsu brasiler: uns centres tenen grup infantil i d'altres només adults, i la fitxa no sempre ho diu.
+Amb les disciplines menys freqüents, l'edat va primer. El [kendo](/disciplinas/kendo/) és la via de l'espasa, segons la [pàgina que li dedica la Federació Catalana de Judo](https://fedecatjudo.cat/kendo/) (consultada l'octubre del 2026). Es practica amb un sabre de bambú (shinai) i una armadura pensada per resistir cops (bogu). Aquesta pàgina no parla d'edats, així que la mínima la fixa cada centre. El mateix val per al [wing chun](/disciplinas/wing-chun/valles-oriental/), el muay thai o el jiu-jitsu brasiler: uns centres tenen grup infantil i d'altres només adults, i la fitxa no sempre ho diu.
 
 ## Què preguntar al centre
 

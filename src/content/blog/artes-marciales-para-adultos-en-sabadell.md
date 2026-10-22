@@ -54,7 +54,7 @@ Las cifras cuentan centros, no grupos de adultos.
 
 ## Disciplinas con una sola ficha: aquí no comparas, decides
 
-En esa cola están el wing chun ({{dm:wing-chun:sabadell}}), el kung fu ({{dm:kung-fu:sabadell}}) y el kendo e iaido ({{dm:kendo:sabadell}}). Siguen el tai chi y chi kung ({{dm:tai-chi:sabadell}}), el kali, arnis y escrima ({{dm:kali:sabadell}}), la capoeira ({{dm:capoeira:sabadell}}) y el hapkido ({{dm:hapkido:sabadell}}). En todas, el directorio recoge muy pocos centros.
+En esa cola están el wing chun ({{dm:wing-chun:sabadell}}), y el kung fu ({{dm:kung-fu:sabadell}}). Siguen el tai chi y chi kung ({{dm:tai-chi:sabadell}}), el kali, arnis y escrima ({{dm:kali:sabadell}}), la capoeira ({{dm:capoeira:sabadell}}) y el hapkido ({{dm:hapkido:sabadell}}). En todas, el directorio recoge muy pocos centros.
 
 Cuando solo hay una ficha, esa ficha es todo lo que tienes: fíjate en la fecha de verificación, en la fuente que la respalda y en si da dirección. Llama antes de ir, no por desconfianza, sino porque con un único grupo, un cambio de día te deja sin clase y sin alternativa a mano. Si no te encaja, tendrás que ampliar a otro municipio. Para quien duda entre las artes chinas y las japonesas, [karate o kung fu](/blog/karate-o-kung-fu/) las compara, y las páginas de [kung fu](/disciplinas/kung-fu/) y de [wing chun](/disciplinas/wing-chun/) dicen en cuántas comarcas constan.
 

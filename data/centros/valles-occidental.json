@@ -60,13 +60,12 @@
   "tipo": "escuela",
   "municipio": "terrassa",
   "disciplinas": [
-   "aikido",
-   "kendo"
+   "aikido"
   ],
   "web": "https://aikidojoterrassa.com/",
   "fuente": "https://aikidojoterrassa.com/",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-10-18"
+  "verificado": "2026-10-22"
  },
  {
   "slug": "alexandra",
@@ -1941,14 +1940,16 @@
   "tipo": "club",
   "municipio": "sabadell",
   "disciplinas": [
-   "aikido",
-   "kendo"
+   "aikido"
   ],
   "fuente": "https://www.aikidokobukai.es/nuestros-dojos/",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-10-03",
+  "verificado": "2026-10-22",
   "direccion": "Club Natació Sabadell, C/ Budapest, 1, 08202 Sabadell",
-  "web": "https://www.aikidokobukai.es/"
+  "web": "https://www.aikidokobukai.es/",
+  "otras": [
+   "Kenjutsu"
+  ]
  },
  {
   "slug": "club-ksk",

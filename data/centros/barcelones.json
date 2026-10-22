@@ -4284,13 +4284,12 @@
   "municipio": "barcelona",
   "disciplinas": [
    "aikido",
-   "judo",
-   "kendo"
+   "judo"
   ],
   "web": "https://haruaikido.com/",
   "fuente": "https://haruaikido.com/",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-10-18"
+  "verificado": "2026-10-22"
  },
  {
   "slug": "hermanos-argudo",
@@ -5053,12 +5052,12 @@
   "disciplinas": [
    "defensa-personal",
    "karate",
-   "kendo"
+   "iaido"
   ],
   "web": "https://ranaidojo.com/",
   "fuente": "https://ranaidojo.com/",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-10-18"
+  "verificado": "2026-10-22"
  },
  {
   "slug": "royal-boxing-club-barcelona",

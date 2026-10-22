@@ -37,7 +37,7 @@ Si un centro anuncia niños y además defensa personal, eso no demuestra que el 
 
 ## Hapkido, jiu-jitsu japonés, aikido y kendo: lo que pide el niño que vio algo en una película
 
-Hay niños que no quieren "karate" sino lo que vieron en una película: la espada, las caídas espectaculares, el combate en el suelo. En Terrassa constan {{dm:hapkido:terrassa}} centros con hapkido, {{dm:jiu-jitsu-japones:terrassa}} con jiu-jitsu japonés, {{dm:aikido:terrassa}} con aikido, {{dm:kendo:terrassa}} con kendo e iaido y {{dm:jiu-jitsu-brasileno:terrassa}} con jiu-jitsu brasileño. El hapkido tiene [página propia en la ciudad](/valles-occidental/terrassa/hapkido/), y el [kendo](/disciplinas/kendo/) se practica con espada de bambú y protecciones, un formato que no se parece a ninguna de las otras.
+Hay niños que no quieren "karate" sino lo que vieron en una película: la espada, las caídas espectaculares, el combate en el suelo. En Terrassa constan {{dm:hapkido:terrassa}} centros con hapkido, {{dm:jiu-jitsu-japones:terrassa}} con jiu-jitsu japonés, {{dm:aikido:terrassa}} con aikido, {{dm:kendo:terrassa}} con kendo y {{dm:jiu-jitsu-brasileno:terrassa}} con jiu-jitsu brasileño. El hapkido tiene [página propia en la ciudad](/valles-occidental/terrassa/hapkido/), y el [kendo](/disciplinas/kendo/) se practica con espada de bambú y protecciones, un formato que no se parece a ninguna de las otras.
 
 Pocos centros significa menos horarios, más trayecto y menos probabilidad de que haya un grupo pensado para su edad. La [Federació Catalana de Judo](https://fedecatjudo.cat/altres/on-practicar/), que recoge entre sus disciplinas aikido, jiu-jitsu y kendo, publica listados de clubes para contrastar lo que veas en el directorio.
 
