@@ -67,6 +67,28 @@
   "verificado": "2026-09-30"
  },
  {
+  "slug": "associacio-esportiva-nou-barris",
+  "nombre": "AENB Combat",
+  "tipo": "asociacion",
+  "municipio": "barcelona",
+  "disciplinas": [
+   "mma",
+   "kickboxing",
+   "boxeo",
+   "grappling",
+   "jiu-jitsu-brasileno"
+  ],
+  "otras": [
+   "Sección de artes marciales y deportes de contacto de la Associació Esportiva Nou Barris",
+   "Infantil de 4 a 14 años: iniciación a las artes marciales y los deportes de contacto, kick boxing y grappling"
+  ],
+  "infantil": true,
+  "direccion": "Avinguda Rasos de Peguera, 242, planta 3 (CEM Can Cuiàs)",
+  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=AENB",
+  "fuenteTipo": "federacion",
+  "verificado": "2026-09-30"
+ },
+ {
   "slug": "afl-mma",
   "nombre": "AFL MMA",
   "tipo": "escuela",
@@ -617,25 +639,6 @@
   "fuente": "https://www.fckbmt.es/clubs-afiliats-2024-25/",
   "fuenteTipo": "federacion",
   "verificado": "2026-09-29"
- },
- {
-  "slug": "associacio-esportiva-nou-barris",
-  "nombre": "Associació Esportiva Nou Barris",
-  "tipo": "asociacion",
-  "municipio": "barcelona",
-  "disciplinas": [
-   "mma",
-   "grappling",
-   "boxeo",
-   "kickboxing",
-   "lucha"
-  ],
-  "infantil": true,
-  "direccion": "Carrer de l'Artesania, 63",
-  "web": "https://aenoubarris.cat/",
-  "fuente": "https://www.wrestlingcatalunya.cat/clubfederatiu.php?club=AENB",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-30"
  },
  {
   "slug": "associacio-esportiva-team-calvet",
