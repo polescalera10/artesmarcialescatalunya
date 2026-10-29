@@ -15,7 +15,7 @@ import { metaPagina } from '../lib/meta';
 import { centrosDeComarca, disciplinasPresentes, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
-import { tienePaginaMunicipio, rutasDiscComarca } from '../lib/rutas';
+import { tienePaginaMunicipio, rutasDiscComarca, comarcaIndexable } from '../lib/rutas';
 import { laComarca, enComarca, deComarca } from '../lib/textos';
 import { SITE, SCHEMA_IDS } from '../lib/site';
 
@@ -97,7 +97,7 @@ const schema = {
 };
 ---
 
-<Layout ogImage={`${SITE.url}/og/c/${comarca}-${lang}.jpg`} title={title} description={description} canonical={url.comarca(lang, comarca)} schema={schema} lang={lang} alternates={alternates}>
+<Layout ogImage={`${SITE.url}/og/c/${comarca}-${lang}.jpg`} title={title} description={description} canonical={url.comarca(lang, comarca)} schema={schema} lang={lang} alternates={alternates} noindex={!comarcaIndexable(comarca)}>
   <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
   <main id="contenido">
     <Migas lang={lang} items={[{ nombre: com.nombre, href: url.comarca(lang, comarca) }]} />

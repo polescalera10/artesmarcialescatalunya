@@ -74,4 +74,16 @@ export const rutasCentro = () => CENTROS.map(c => ({ slug: c.slug }));
 /** Una ficha es indexable si aporta algo más que nombre, municipio y disciplina. */
 export const fichaIndexable = (c: Centro) => Boolean(c.web || c.direccion || (c.otras && c.otras.length));
 
+// Páginas de listado que existen pero quedan en noindex y fuera del sitemap:
+// las que no llegan a 2 centros verificados (comarcas con solo registro, páginas
+// heredadas del Garraf, disciplinas casi vacías). Siguen enlazadas para quien navega.
+const MIN_VERIFICADOS_INDEXABLE = 2;
+const suficientes = (lista: Centro[]) => lista.filter(verificado).length >= MIN_VERIFICADOS_INDEXABLE;
+
+export const comarcaIndexable = (comarca: string) => suficientes(CENTROS.filter(c => c.comarca === comarca));
+export const municipioIndexable = (municipio: string) => suficientes(centrosDeMunicipio(municipio));
+export const munDiscIndexable = (municipio: string, disciplina: string) =>
+  suficientes(centrosConDisciplina(disciplina, centrosDeMunicipio(municipio)));
+export const disciplinaIndexable = (disciplina: string) => suficientes(centrosConDisciplina(disciplina));
+
 export { editorialMunicipio, editorialMunDisc };

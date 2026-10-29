@@ -1,5 +1,7 @@
 # Guías por perfil y ciudad: instrucciones para quien las escribe
 
+> **CONGELADO desde el 29-10-2026 (decisión de Pol).** No se escribe ni se publica ninguna de las 10 guías pendientes hasta que Search Console se recupere. El 27-10 las impresiones cayeron de ~1.200 a ~20 al día en todo el sitio, justo cuando había volatilidad de Google en un dominio de 4 semanas con mucho contenido en serie. Para retomarlas hace falta el OK expreso de Pol (ver `MEMORY.md`, 29-10).
+
 Trabajas en `/Users/polescalera/Desktop/Cowork OS/artesmarcialescatalunya/web`. Vas a escribir guías del blog de https://artesmarciales.cat (directorio de centros de artes marciales de Cataluña). Todo en castellano de España.
 
 ## Lee primero, en este orden

@@ -6,7 +6,10 @@ import { SITE } from '../lib/site';
 import { url, LANGS, type Lang } from '../lib/i18n';
 import { CENTROS } from '../lib/centros';
 import { articulos, articulosCa } from '../lib/blog';
-import { rutasComarca, rutasMunicipio, rutasMunDisc, rutasDisciplina, rutasDiscComarca, fichaIndexable } from '../lib/rutas';
+import {
+  rutasComarca, rutasMunicipio, rutasMunDisc, rutasDisciplina, rutasDiscComarca, fichaIndexable,
+  comarcaIndexable, municipioIndexable, munDiscIndexable, disciplinaIndexable,
+} from '../lib/rutas';
 
 type Entrada = { por: (l: Lang) => string; lastmod: string; bilingue: boolean };
 const R = SITE.ultimaRevision;
@@ -20,10 +23,10 @@ const entradas: Entrada[] = [
   { por: l => url.paraCentrosSello(l), lastmod: R, bilingue: true },
   { por: l => url.sobre(l), lastmod: R, bilingue: true },
   { por: l => url.contacto(l), lastmod: R, bilingue: true },
-  ...rutasComarca().map(r => ({ por: (l: Lang) => url.comarca(l, r.comarca), lastmod: R, bilingue: true })),
-  ...rutasMunicipio().map(r => ({ por: (l: Lang) => url.municipio(l, r.comarca, r.municipio), lastmod: R, bilingue: true })),
-  ...rutasMunDisc().map(r => ({ por: (l: Lang) => url.munDisc(l, r.comarca, r.municipio, r.disciplina), lastmod: R, bilingue: true })),
-  ...rutasDisciplina().map(r => ({ por: (l: Lang) => url.disciplina(l, r.disciplina), lastmod: R, bilingue: true })),
+  ...rutasComarca().filter(r => comarcaIndexable(r.comarca)).map(r => ({ por: (l: Lang) => url.comarca(l, r.comarca), lastmod: R, bilingue: true })),
+  ...rutasMunicipio().filter(r => municipioIndexable(r.municipio)).map(r => ({ por: (l: Lang) => url.municipio(l, r.comarca, r.municipio), lastmod: R, bilingue: true })),
+  ...rutasMunDisc().filter(r => munDiscIndexable(r.municipio, r.disciplina)).map(r => ({ por: (l: Lang) => url.munDisc(l, r.comarca, r.municipio, r.disciplina), lastmod: R, bilingue: true })),
+  ...rutasDisciplina().filter(r => disciplinaIndexable(r.disciplina)).map(r => ({ por: (l: Lang) => url.disciplina(l, r.disciplina), lastmod: R, bilingue: true })),
   ...rutasDiscComarca().map(r => ({ por: (l: Lang) => url.discComarca(l, r.disciplina, r.comarca), lastmod: R, bilingue: true })),
   ...CENTROS.filter(fichaIndexable).map(c => ({ por: (l: Lang) => url.centro(l, c.slug), lastmod: c.verificado, bilingue: true })),
   { por: l => url.blog(l), lastmod: POSTS[0]?.fecha ?? R, bilingue: CA.size > 0 },
