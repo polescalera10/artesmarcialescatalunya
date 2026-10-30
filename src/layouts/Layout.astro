@@ -142,6 +142,8 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
            que solo ve a quien acepta cookies. Requiere activar Analytics en el proyecto de Vercel. -->
       <script is:inline>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
       <script is:inline defer src="/_vercel/insights/script.js"></script>
+      <!-- Umami Cloud: medición sin cookies ni identificadores persistentes. -->
+      <script is:inline defer src="https://cloud.umami.is/script.js" data-website-id="7e6e5c07-1e0d-480b-9443-c9ae60eaaa50"></script>
     </>
   )}
   <script>
