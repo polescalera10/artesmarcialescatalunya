@@ -20,6 +20,8 @@ export interface Centro {
   web?: string;
   /** Logo enviado por el propio centro: archivo en public/centros/ (webp cuadrado, 512 px). */
   logo?: string;
+  /** Foto enviada por el propio centro: base del nombre de archivo en public/centros/ (genera <base>-640.webp y <base>-1280.webp, horizontal). */
+  foto?: string;
   fuente: string;
   fuenteTipo: FuenteTipo;
   verificado: string;
@@ -54,6 +56,7 @@ function cargar(): Centro[] {
       if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(c.slug)) errores.push(`slug no válido: ${c.slug}`);
       if (!c.fuente || !c.fuenteTipo || !/^\d{4}-\d{2}-\d{2}$/.test(c.verificado)) errores.push(`${c.slug}: falta fuente o fecha`);
       if (c.logo && !/^[a-z0-9-]+\.webp$/.test(c.logo)) errores.push(`${c.slug}: logo no válido ${c.logo}`);
+      if (c.foto && !/^[a-z0-9-]+$/.test(c.foto)) errores.push(`${c.slug}: foto no válida ${c.foto}`);
       vistos.add(c.slug);
       todos.push({ ...c, comarca: comarcaArchivo });
     }

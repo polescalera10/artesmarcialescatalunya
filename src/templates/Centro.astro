@@ -133,10 +133,15 @@ const schema = [
       <div class="space-y-6 min-w-0">
         <header class="relative overflow-hidden bg-linear-to-br from-brand-gray via-brand-gray to-brand-dark border border-brand-border rounded-2xl p-6 sm:p-8">
           <div aria-hidden="true" class="pointer-events-none absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-red/10 blur-3xl"></div>
-          {/* Si el propio centro envió su logo, ocupa el lugar de la foto de archivo; si no, foto de la disciplina (ilustra, no es del centro, y la ficha lo dice). */}
+          {/* Si el propio centro envió su logo o una foto, ocupa el lugar de la foto de archivo; si no, foto de la disciplina (ilustra, no es del centro, y la ficha lo dice). */}
           {c.logo
             ? <div class="-mx-6 -mt-6 sm:-mx-8 sm:-mt-8 mb-6 aspect-2/1 sm:aspect-5/2 bg-brand-dark grid place-items-center p-6">
                 <img src={`/centros/${c.logo}`} alt={L(lang, `Logotipo de ${c.nombre}`, `Logotip de ${c.nombre}`)} width="512" height="512" loading="eager" decoding="async" fetchpriority="high" class="h-full w-auto max-h-56 object-contain" />
+              </div>
+            : c.foto
+            ? <div class="-mx-6 -mt-6 sm:-mx-8 sm:-mt-8 mb-6 relative overflow-hidden bg-brand-gray aspect-2/1 sm:aspect-5/2">
+                <img src={`/centros/${c.foto}-1280.webp`} srcset={`/centros/${c.foto}-640.webp 640w, /centros/${c.foto}-1280.webp 1280w`} sizes="(min-width: 1024px) 760px, 100vw" alt={L(lang, `Foto de ${c.nombre}, enviada por el centro`, `Foto de ${c.nombre}, enviada pel centre`)} width="1280" height="640" loading="eager" decoding="async" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover" />
+                <span class="absolute bottom-2 right-3 rounded bg-black/65 px-2 py-0.5 text-[11px] text-white/85">{L(lang, 'Foto enviada por el centro', 'Foto enviada pel centre')}</span>
               </div>
             : <Foto clave={claveDisciplina(c.disciplinas[0] ?? '')} lang={lang} eager ratio="aspect-2/1 sm:aspect-5/2" sizes="(min-width: 1024px) 760px, 100vw" class="-mx-6 -mt-6 sm:-mx-8 sm:-mt-8 mb-6">
                 <span class="absolute bottom-2 right-3 rounded bg-black/65 px-2 py-0.5 text-[11px] text-white/85">{L(lang, 'Foto de archivo, ilustrativa', "Foto d'arxiu, il·lustrativa")}</span>

@@ -55,6 +55,7 @@ Un archivo por comarca: `data/centros/<slug-comarca>.json`, con un array de fich
 | `otras` | no | Actividades que la fuente cita y no son de la taxonomía, o matices útiles ("Taekwondo ITF", "Karate kyokushin", "Grupo femenino de jiu-jitsu") |
 | `infantil` | no | `true` solo si la fuente anuncia clases para niños. Si no lo dice, **se omite** (no se pone `false`) |
 | `logo` | no | Nombre del archivo en `public/centros/` (webp cuadrado de 512 px, recortado al borde). Solo si el propio centro envía su logotipo y confirma que se publique; se muestra en la cabecera de su ficha en lugar de la foto de archivo |
+| `foto` | no | Base del nombre de una foto horizontal enviada por el propio centro: se guardan `public/centros/<base>-640.webp` y `<base>-1280.webp` (ancho 640 y 1280, webp). Solo si el centro la envía y pide que se publique (revisar que no salgan menores identificables sin que el centro responda de ese permiso); se muestra en su cabecera, con la etiqueta «Foto enviada por el centro», en lugar de la foto de archivo. Si hay `logo`, manda el logo |
 | `direccion` | no | Solo si consta en la fuente |
 | `web` | no | Web propia del centro, si existe y responde |
 | `fuente` | sí | URL exacta donde se verificó |
