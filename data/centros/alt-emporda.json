@@ -18,12 +18,14 @@
   "municipio": "figueres",
   "disciplinas": [
    "judo",
+   "aikido",
    "defensa-personal",
-   "boxeo",
-   "kickboxing",
-   "mma",
-   "grappling"
+   "kickboxing"
   ],
+  "otras": [
+   "Jiu-jitsu"
+  ],
+  "infantil": true,
   "direccion": "C/ Joan Reglà, 5, baix A., Figueres",
   "web": "http://www.savas.cat",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
