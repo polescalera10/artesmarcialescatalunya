@@ -1004,11 +1004,12 @@
   "disciplinas": [
    "judo"
   ],
-  "direccion": "C/ Ricardo Caro, 90, 3º 5º, Terrassa",
-  "web": "http://www.judoegara.es",
+  "infantil": true,
+  "direccion": "Carretera de Castellar, 126, Terrassa",
+  "web": "https://clubdejudoegara.clupik.app/es",
   "fuente": "https://fedecatjudo.cat/judo/clubs/",
   "fuenteTipo": "federacion",
-  "verificado": "2026-09-29"
+  "verificado": "2026-11-13"
  },
  {
   "slug": "club-de-judo-santa-perpetua",
