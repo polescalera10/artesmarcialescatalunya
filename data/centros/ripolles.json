@@ -70,12 +70,20 @@
   "tipo": "club",
   "municipio": "ripoll",
   "disciplinas": [
-   "judo",
-   "karate"
+   "karate",
+   "defensa-personal"
   ],
-  "fuente": "https://analisi.transparenciacatalunya.cat/resource/qrgc-u7pk.json?n_m_registre=18216",
-  "fuenteTipo": "registro-oficial",
-  "verificado": "2026-10-03"
+  "otras": [
+   "Karate kyokushin",
+   "Defensa personal estilo Goshin",
+   "Clases infantiles desde los 6 años"
+  ],
+  "infantil": true,
+  "direccion": "Plaça Sant Eudald, 1, 17500 Ripoll",
+  "web": "https://esensei.org/",
+  "fuente": "https://esensei.org/escuela/ripoll/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-11-12"
  },
  {
   "slug": "judo-club-ripoll",
