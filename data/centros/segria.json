@@ -647,7 +647,6 @@
   "municipio": "lleida",
   "disciplinas": [
    "taekwondo",
-   "aikido",
    "kickboxing",
    "defensa-personal"
   ],
@@ -660,7 +659,7 @@
   "web": "https://www.gimnasbordeta.cat/",
   "fuente": "https://www.gimnasbordeta.cat/es/deportes/gimnasbordeta/artes-marciales/40541.html",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-10-03"
+  "verificado": "2026-11-13"
  },
  {
   "slug": "gimnas-puente",
