@@ -61,7 +61,12 @@ const FUENTE: Record<string, [string, string]> = {
 const TIPO: Record<string, [string, string]> = {
   escuela: ['Escuela', 'Escola'], club: ['Club', 'Club'], asociacion: ['Asociación', 'Associació'], gimnasio: ['Gimnasio', 'Gimnàs'],
 };
-const fuenteLabel = L(lang, ...FUENTE[c.fuenteTipo]);
+// La Federació Catalana de Judo i D.A. autorizó (18-11-2026) el uso de su listado con esta cita literal en cada ficha.
+// Condiciones y texto en docs/autorizaciones/2026-11-18-federacio-catalana-judo.md.
+const citaFedeJudo = /^https?:\/\/(www\.)?fedecatjudo\.cat\//.test(c.fuente);
+const fuenteLabel = citaFedeJudo
+  ? 'Font: Federació Catalana de Judo i D.A.- llistat de clubs afiliats'
+  : L(lang, ...FUENTE[c.fuenteTipo]);
 // El registro se enlaza en su página pública de datos abiertos, no en la API (que devuelve JSON).
 const nRegistro = c.fuenteTipo === 'registro-oficial' ? new URL(c.fuente).searchParams.get('n_m_registre') : null;
 const fuenteHref = nRegistro ? 'https://analisi.transparenciacatalunya.cat/d/qrgc-u7pk' : c.fuente;

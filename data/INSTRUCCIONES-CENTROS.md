@@ -76,3 +76,14 @@ Un archivo por comarca: `data/centros/<slug-comarca>.json`, con un array de fich
 - No se tocan otros archivos del repo ni se ejecuta `git`.
 - No se inventa nada para completar una ficha.
 - No se ordena por "calidad" ni se destaca a nadie: el orden es alfabético y los promocionados los gestiona el código, no los datos.
+
+## Fuente: Federació Catalana de Judo i D.A.
+
+Las fichas cuya `fuente` está en `fedecatjudo.cat` (114 a 18-11-2026) usan el listado de clubes de la federación con su autorización por escrito del 18-11-2026 (texto y condiciones en `docs/autorizaciones/2026-11-18-federacio-catalana-judo.md`). Reglas:
+
+- Solo nombre, municipio, comarca, disciplinas y enlace a la fuente. Nunca datos de contacto de personas.
+- La plantilla de ficha muestra la cita «Font: Federació Catalana de Judo i D.A.- llistat de clubs afiliats» con enlace. No quitarla ni reformularla.
+- No usar el nombre ni el logo de la federación como aval.
+- Si la federación o un club pide corregir o retirar una ficha, hacerlo en un máximo de 15 días.
+- No ceder ni distribuir el listado a terceros. La autorización es revocable por escrito en cualquier momento.
+
