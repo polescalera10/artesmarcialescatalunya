@@ -31,9 +31,9 @@ const entradas: Entrada[] = [
   ...CENTROS.filter(fichaIndexable).map(c => ({ por: (l: Lang) => url.centro(l, c.slug), lastmod: c.verificado, bilingue: true })),
   { por: l => url.blog(l), lastmod: POSTS[0]?.fecha ?? R, bilingue: CA.size > 0 },
   // Artículos traducidos: pareja es/ca con hreflang; el resto solo en castellano.
-  ...POSTS.map(p => {
+  ...POSTS.filter(p => !p.noindex).map(p => {
     const ca = CA.get(p.slug);
-    return { por: (l: Lang) => (l === 'ca' && ca ? url.post(ca.slug, 'ca') : url.post(p.slug)), lastmod: ca && ca.actualizado > p.actualizado ? ca.actualizado : p.actualizado, bilingue: !!ca };
+    return { por: (l: Lang) => (l === 'ca' && ca ? url.post(ca.slug, 'ca') : url.post(p.slug)), lastmod: ca && ca.actualizado > p.actualizado ? ca.actualizado : p.actualizado, bilingue: !!(ca && !ca.noindex) };
   }),
 ];
 

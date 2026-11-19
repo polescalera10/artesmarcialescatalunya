@@ -4,6 +4,7 @@ descripcion: "Artes marciales para niños en Castelldefels: judo y deportes de c
 h1: "Artes marciales para niños en Castelldefels: cuando karate y taekwondo quedan en pocas fichas"
 intro: "En el directorio constan {{m:castelldefels}} centros en Castelldefels, y en {{im:castelldefels}} la propia fuente anuncia clases para niños. No es una gran ciudad y el recuento se inclina hacia el boxeo, el judo y el kickboxing. Si tu hijo quiere karate o taekwondo, hay que buscar con más cuidado y quizá cruzar el término municipal."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

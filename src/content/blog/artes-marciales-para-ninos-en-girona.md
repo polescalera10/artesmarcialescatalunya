@@ -4,6 +4,7 @@ descripcion: "Artes marciales para niños en Girona: cómo usar la marca de clas
 h1: "Artes marciales para niños en Girona: elegir cuando la lista cabe en una tarde"
 intro: "En el directorio constan {{m:girona}} centros en Girona, y en {{im:girona}} la propia fuente anuncia clases para niños, una parte considerable del total. Con una lista así se puede hacer lo que en una gran ciudad no: revisarla entera. La pega es que casi todas las disciplinas tienen pocos centros, y entonces elegir es elegir entre pocos grupos."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

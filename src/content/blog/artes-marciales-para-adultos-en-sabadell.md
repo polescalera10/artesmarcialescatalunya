@@ -4,6 +4,7 @@ descripcion: "Artes marciales para adultos en Sabadell: karate, taekwondo y golp
 h1: "Artes marciales para adultos en Sabadell: karate y taekwondo de sobra, suelo escaso y varias disciplinas con una sola ficha"
 intro: "En Sabadell constan {{m:sabadell}} centros, y el reparto no es parejo. El karate ({{dm:karate:sabadell}}) y el taekwondo ({{dm:taekwondo:sabadell}}) van muy por delante, el golpeo con guantes tiene bastante margen y el agarre y el suelo se quedan en unas pocas fichas. Esta guía parte de ahí: de cuánto puedes comparar según lo que busques."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

@@ -4,6 +4,7 @@ descripcion: "Defensa personal para mujeres en Tarragona: etiqueta genérica o m
 h1: "Defensa personal para mujeres en Tarragona: etiqueta genérica o método con nombre, cómo distinguirlos"
 intro: "En el directorio constan {{dm:defensa-personal:tarragona}} centros de Tarragona que anuncian defensa personal, entre {{m:tarragona}} en total. Junto a ellos hay disciplinas con método propio, como el krav maga ({{dm:krav-maga:tarragona}}), el kali ({{dm:kali:tarragona}}) o el jiu-jitsu japonés ({{dm:jiu-jitsu-japones:tarragona}}). Esa mezcla deja comparar una etiqueta genérica con sistemas que tienen nombre."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

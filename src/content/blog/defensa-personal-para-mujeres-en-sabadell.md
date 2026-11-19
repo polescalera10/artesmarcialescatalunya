@@ -4,6 +4,7 @@ descripcion: "Defensa personal para mujeres en Sabadell: pocas fichas con ese no
 h1: "Defensa personal para mujeres en Sabadell: qué hacer cuando hay pocas fichas con ese nombre"
 intro: "En Sabadell constan {{dm:defensa-personal:sabadell}} centros que anuncian defensa personal, frente a {{m:sabadell}} en total. Con ese nombre exacto la oferta es corta. La ciudad tiene sobre todo karate y taekwondo, con boxeo y kickboxing detrás, y si estás dispuesta a mirar disciplinas vecinas la búsqueda se amplía bastante."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

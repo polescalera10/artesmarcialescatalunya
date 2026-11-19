@@ -4,6 +4,7 @@ descripcion: "Artes marciales para adultos en Badalona: mucho golpeo y artes de 
 h1: "Artes marciales para adultos en Badalona: cómo elegir cuando hay mucho golpeo y casi nada de suelo"
 intro: "Badalona tiene {{m:badalona}} centros en el directorio, y las cuatro disciplinas con más fichas (kickboxing, karate, judo y taekwondo) pesan casi lo mismo. Si llegas de adulto y sin base, el reto no es encontrar un sitio. Es saber qué grupo de adultos te cuadra con tu semana y qué hacer si lo que te atrae es el suelo."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

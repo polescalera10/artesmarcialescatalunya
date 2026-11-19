@@ -4,6 +4,7 @@ descripcion: "Defensa personal para mujeres en Vilanova i la Geltrú: pocas fich
 h1: "Defensa personal para mujeres en Vilanova i la Geltrú: una oferta pequeña que conviene mirar con lupa"
 intro: "En el directorio constan {{dm:defensa-personal:vilanova-i-la-geltru}} centros de Vilanova i la Geltrú que anuncian defensa personal, entre los {{m:vilanova-i-la-geltru}} que recoge la ciudad. Con una oferta de este tamaño puedes permitirte revisar todas las fichas, y conviene hacerlo con unas preguntas claras."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

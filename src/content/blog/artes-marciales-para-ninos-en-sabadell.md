@@ -4,6 +4,7 @@ descripcion: "Artes marciales para niños en Sabadell: karate y taekwondo domina
 h1: "Artes marciales para niños en Sabadell: cómo elegir cuando karate y taekwondo se reparten la ciudad"
 intro: "En el directorio constan {{m:sabadell}} centros en Sabadell, pero solo en {{im:sabadell}} la propia fuente anuncia clases para niños. Entre una cifra y otra hay trabajo de teléfono, y con karate y taekwondo tan presentes, el problema real es decidir entre centros que a primera vista parecen el mismo."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

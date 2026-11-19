@@ -45,7 +45,7 @@ const schema = {
 };
 ---
 
-<Layout title={post.titulo} description={post.descripcion} canonical={url.post(post.slug, lang)} schema={schema} lang={lang} ogImage={og} alternates={alternates} articulo={{ publicado: post.fecha, actualizado: post.actualizado }}>
+<Layout title={post.titulo} description={post.descripcion} canonical={url.post(post.slug, lang)} schema={schema} lang={lang} ogImage={og} alternates={alternates} articulo={{ publicado: post.fecha, actualizado: post.actualizado }} noindex={Boolean(post.noindex || orig.noindex)}>
   <Header lang={lang} alt={alternates ? alternates[lang === 'es' ? 'ca' : 'es'] : url.blog(lang === 'es' ? 'ca' : 'es')} />
   <main id="contenido">
     <Migas lang={lang} estrecho items={[{ nombre: 'Blog', href: url.blog(lang) }, { nombre: post.h1, href: url.post(post.slug, lang) }]} />

@@ -4,6 +4,7 @@ descripcion: "Defensa personal para mujeres en Terrassa: taller, curso o clase s
 h1: "Defensa personal para mujeres en Terrassa: taller, curso o clase semanal, cómo elegir el formato antes que el centro"
 intro: "En Terrassa constan {{dm:defensa-personal:terrassa}} centros que anuncian defensa personal, una de las etiquetas más repetidas de la ciudad. Con tantas fichas, el problema ya no es encontrar una. Es saber qué formato te venden bajo ese nombre y si es el que necesitas."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

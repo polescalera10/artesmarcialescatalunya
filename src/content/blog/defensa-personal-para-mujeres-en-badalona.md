@@ -4,6 +4,7 @@ descripcion: "Defensa personal para mujeres en Badalona: pocas fichas con esa et
 h1: "Defensa personal para mujeres en Badalona: qué hay, qué preguntar y cuándo ampliar la búsqueda"
 intro: "En el directorio constan {{dm:defensa-personal:badalona}} centros de Badalona que anuncian defensa personal, de los {{m:badalona}} que recoge la ciudad. La oferta gira sobre todo en torno al kickboxing, el karate y el judo. Eso cambia la forma de buscar, porque antes de elegir curso toca decidir si lo que quieres lo da un curso o una disciplina que entrenes cada semana."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

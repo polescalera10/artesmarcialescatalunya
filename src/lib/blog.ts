@@ -13,6 +13,7 @@ export interface Articulo extends Post {
   reescrito: boolean;
   slugAnterior?: string;
   imagen?: string;
+  noindex?: boolean;
 }
 
 const redirigidos = new Set((vercel.redirects as { source: string }[]).map(r => r.source));
@@ -40,6 +41,7 @@ export async function articulos(): Promise<Articulo[]> {
       actualizado: d.actualizado,
       slugAnterior: d.slugAnterior,
       imagen: d.imagen,
+      noindex: d.noindex,
       reescrito: true,
     };
   });
@@ -82,6 +84,7 @@ export async function articulosCa(): Promise<ArticuloCa[]> {
       fecha: d.fecha,
       actualizado: d.actualizado,
       imagen: d.imagen,
+      noindex: d.noindex,
       reescrito: true,
     };
   }).sort((a, b) => b.fecha.localeCompare(a.fecha) || a.slug.localeCompare(b.slug));
@@ -135,7 +138,7 @@ export function relevanciaDisciplina(a: Articulo | ArticuloCa, d: string): numbe
 
 /** Slugs en castellano de los artículos que más tratan de una disciplina (solo los traducidos si lang es ca). */
 export async function guiasDeDisciplina(d: string, lang: 'es' | 'ca', max: number): Promise<string[]> {
-  const pool: (Articulo | ArticuloCa)[] = lang === 'ca' ? await articulosCa() : await articulos();
+  const pool: (Articulo | ArticuloCa)[] = (lang === 'ca' ? await articulosCa() : await articulos()).filter(a => !a.noindex);
   return pool
     .map(a => ({ a, s: relevanciaDisciplina(a, d) }))
     .filter(x => x.s >= 3)
@@ -148,7 +151,7 @@ const palabras = (s: string) => new Set(s.split('-').filter(w => w.length > 3 &&
 
 /** Artículos más próximos a uno dado (disciplinas compartidas y palabras del slug); rellena con los más recientes. */
 export async function relacionados(post: Articulo | ArticuloCa, lang: 'es' | 'ca', n: number): Promise<(Articulo | ArticuloCa)[]> {
-  const pool: (Articulo | ArticuloCa)[] = (lang === 'ca' ? await articulosCa() : await articulos()).filter(p => p.slug !== post.slug);
+  const pool: (Articulo | ArticuloCa)[] = (lang === 'ca' ? await articulosCa() : await articulos()).filter(p => p.slug !== post.slug && !p.noindex);
   const dp = disciplinasDe(post);
   const wp = palabras(eslug(post));
   const puntuados = pool.map(p => {

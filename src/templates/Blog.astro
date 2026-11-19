@@ -12,7 +12,7 @@ import { SITE, SCHEMA_IDS } from '../lib/site';
 interface Props { lang?: Lang }
 const { lang = 'es' } = Astro.props;
 // En catalán solo están los artículos más consultados: van todos en una lista.
-const POSTS = lang === 'ca' ? await articulosCa() : await articulos();
+const POSTS = (lang === 'ca' ? await articulosCa() : await articulos()).filter(p => !p.noindex);
 const articulosBlog = POSTS.filter(p => lang === 'ca' || p.tipo === 'articulo');
 const guias = lang === 'ca' ? [] : POSTS.filter(p => p.tipo === 'guia');
 const title = L(lang, 'Blog de artes marciales: guías para empezar', "Blog d'arts marcials: guies per començar");

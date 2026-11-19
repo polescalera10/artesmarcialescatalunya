@@ -21,6 +21,8 @@ const esquema = z.object({
   slugAnterior: z.string().optional(),
   /** Clave de la ilustración en public/img y public/og, si no coincide con el slug. */
   imagen: z.string().optional(),
+  /** Si es true, la página se sirve con noindex, follow y queda fuera del sitemap. */
+  noindex: z.boolean().optional(),
   faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
 });
 

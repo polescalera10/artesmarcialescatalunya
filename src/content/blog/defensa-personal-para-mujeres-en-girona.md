@@ -4,6 +4,7 @@ descripcion: "Defensa personal para mujeres en Girona: qué hay tras una etiquet
 h1: "Defensa personal para mujeres en Girona: cómo comparar programas cuando tantos usan el mismo nombre"
 intro: "En Girona la defensa personal es una de las disciplinas con más centros del directorio: constan {{dm:defensa-personal:girona}} de los {{m:girona}} de la ciudad. Tener donde elegir no lo simplifica, porque cada centro llama defensa personal a una cosa distinta y la etiqueta no dice cuál."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

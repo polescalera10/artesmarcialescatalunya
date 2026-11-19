@@ -4,6 +4,7 @@ descripcion: "Artes marciales para niños en Tarragona: el karate encabeza el re
 h1: "Artes marciales para niños en Tarragona: cómo buscar cuando el karate encabeza el recuento"
 intro: "En Tarragona constan {{m:tarragona}} centros en el directorio y {{im:tarragona}} anuncian clases para niños; en el conjunto del Tarragonès son {{ic:tarragones}}. La disciplina con más fichas es el karate, y eso cambia cómo se busca judo, taekwondo o cualquier deporte de combate: con menos fichas hay menos grupos entre los que comparar."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:

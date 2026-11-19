@@ -4,6 +4,7 @@ descripcion: "Artes marciales para niños en Terrassa: las tres habituales y la 
 h1: "Artes marciales para niños en Terrassa: las tres de siempre y la lista larga que hay detrás"
 intro: "En Terrassa constan {{m:terrassa}} centros en el directorio y {{im:terrassa}} anuncian clases para niños en su propia fuente. Lo distintivo no es el tamaño sino la variedad: junto a taekwondo, karate y judo aparecen disciplinas que muchas familias no tienen en mente al buscar una extraescolar, y conviene saber cómo mirarlas."
 tipo: guia
+noindex: true
 fecha: "2026-10-22"
 actualizado: "2026-10-22"
 faq:
