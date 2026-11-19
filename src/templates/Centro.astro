@@ -18,7 +18,6 @@ import { getComarca, getMunicipio } from '../lib/geo';
 import { nombreDisciplina } from '../lib/disciplinas';
 import { tienePaginaMunicipio, tienePaginaMunDisc, fichaIndexable } from '../lib/rutas';
 import { SITE, SCHEMA_IDS } from '../lib/site';
-import { getDisciplineBySlug, PERFIL_COMPARATIVO } from '../lib/guias-disciplina';
 
 interface Props { lang: Lang; slug: string }
 const { lang, slug } = Astro.props;
@@ -35,10 +34,6 @@ const parecidos = vecinos.length < 3
   ? cercanos(mun, x => x.slug !== c.slug && x.disciplinas.some(d => c.disciplinas.includes(d)), 6 - vecinos.length, 30)
   : [];
 
-// "Qué esperar" de la primera disciplina con guía: genérico, solo en castellano.
-const dGuia = lang === 'es' ? c.disciplinas.find(d => getDisciplineBySlug(d) && PERFIL_COMPARATIVO[d]) : undefined;
-const guia = dGuia ? getDisciplineBySlug(dGuia) : undefined;
-const perfil = dGuia ? PERFIL_COMPARATIVO[dGuia] : undefined;
 const verif = esVerificado(c);
 const iniciales = c.nombre.replace(/^(club|escola|escuela|associació|asociación|gimnàs|gimnasio|centre|centro|academia|acadèmia)\s+(d'|de\s+|del\s+)?/i, '')
   .split(/[\s-]+/).filter(w => /^[\p{L}\d]/u.test(w) && !/^(de|del|la|el|i|y|d'.*)$/i.test(w)).slice(0, 2).map(w => w[0].toUpperCase()).join('') || c.nombre[0];
@@ -214,19 +209,6 @@ const schema = [
             <h2 id="mapa-titulo" class="text-xs uppercase tracking-wide text-brand-muted font-semibold mb-3">{L(lang, 'Ubicación', 'Ubicació')}</h2>
             {claveMapa && coordCentro ? <MapaCentro lat={coordCentro[0]} lon={coordCentro[1]} nombre={c.nombre} clave={claveMapa} lang={lang} /> : <iframe src={mapaEmbed} title={L(lang, `Mapa de ${c.nombre}`, `Mapa de ${c.nombre}`)} loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-64 sm:h-80 rounded-lg border border-brand-border bg-brand-dark"></iframe>}
             <p class="text-xs text-brand-muted mt-2">{c.direccion} · <a href={mapa} target="_blank" rel="noopener nofollow" class="underline underline-offset-2 hover:text-white" data-evento="clic_mapa" data-centro={c.slug}>{L(lang, 'Abrir en Google Maps', 'Obrir a Google Maps')} ↗</a></p>
-          </section>
-        )}
-
-        {guia && perfil && dGuia && (
-          <section class="bg-brand-gray border border-brand-border rounded-xl p-5">
-            <h2 class="text-lg font-bold text-white">Si es tu primera clase de {minus(nombreDisciplina(dGuia, 'es'))}</h2>
-            <dl class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
-              <div class="bg-brand-dark border border-brand-border rounded-lg p-3"><dt class="text-xs text-brand-muted">Contacto al empezar</dt><dd class="text-sm text-white font-semibold mt-0.5">{perfil.contacto}</dd></div>
-              <div class="bg-brand-dark border border-brand-border rounded-lg p-3"><dt class="text-xs text-brand-muted">Edad habitual de entrada</dt><dd class="text-sm text-white font-semibold mt-0.5">{perfil.edad}</dd></div>
-              <div class="bg-brand-dark border border-brand-border rounded-lg p-3"><dt class="text-xs text-brand-muted">Primera compra</dt><dd class="text-sm text-white font-semibold mt-0.5">{perfil.equipacion}</dd></div>
-            </dl>
-            <ol class="mt-4 space-y-2 text-sm text-brand-muted list-decimal pl-5">{guia.primeraClase.map(p => <li>{p}</li>)}</ol>
-            <p class="text-xs text-brand-muted/80 mt-4">Es lo habitual en la disciplina, no la descripción de este centro. <a href={url.disciplina('es', dGuia)} class="text-brand-redtext hover:text-red-400">Más sobre {minus(nombreDisciplina(dGuia, 'es'))} en Cataluña →</a></p>
           </section>
         )}
 

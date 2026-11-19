@@ -8,7 +8,7 @@ import { CENTROS } from '../lib/centros';
 import { articulos, articulosCa } from '../lib/blog';
 import {
   rutasComarca, rutasMunicipio, rutasMunDisc, rutasDisciplina, rutasDiscComarca, fichaIndexable,
-  comarcaIndexable, municipioIndexable, munDiscIndexable, disciplinaIndexable,
+  comarcaIndexable, municipioIndexable, munDiscIndexable, discComarcaIndexable, disciplinaIndexable,
 } from '../lib/rutas';
 
 type Entrada = { por: (l: Lang) => string; lastmod: string; bilingue: boolean };
@@ -27,7 +27,7 @@ const entradas: Entrada[] = [
   ...rutasMunicipio().filter(r => municipioIndexable(r.municipio)).map(r => ({ por: (l: Lang) => url.municipio(l, r.comarca, r.municipio), lastmod: R, bilingue: true })),
   ...rutasMunDisc().filter(r => munDiscIndexable(r.municipio, r.disciplina)).map(r => ({ por: (l: Lang) => url.munDisc(l, r.comarca, r.municipio, r.disciplina), lastmod: R, bilingue: true })),
   ...rutasDisciplina().filter(r => disciplinaIndexable(r.disciplina)).map(r => ({ por: (l: Lang) => url.disciplina(l, r.disciplina), lastmod: R, bilingue: true })),
-  ...rutasDiscComarca().map(r => ({ por: (l: Lang) => url.discComarca(l, r.disciplina, r.comarca), lastmod: R, bilingue: true })),
+  ...rutasDiscComarca().filter(r => discComarcaIndexable(r.disciplina, r.comarca)).map(r => ({ por: (l: Lang) => url.discComarca(l, r.disciplina, r.comarca), lastmod: R, bilingue: true })),
   ...CENTROS.filter(fichaIndexable).map(c => ({ por: (l: Lang) => url.centro(l, c.slug), lastmod: c.verificado, bilingue: true })),
   { por: l => url.blog(l), lastmod: POSTS[0]?.fecha ?? R, bilingue: CA.size > 0 },
   // Artículos traducidos: pareja es/ca con hreflang; el resto solo en castellano.

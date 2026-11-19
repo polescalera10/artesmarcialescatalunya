@@ -15,7 +15,7 @@ import { L, url, lista, titulo, descripcion, n, type Lang, minus } from '../lib/
 import { centrosDeComarca, centrosConDisciplina, verificados } from '../lib/centros';
 import { getComarca, getMunicipio } from '../lib/geo';
 import { getDisciplina, nombreDisciplina } from '../lib/disciplinas';
-import { rutasDiscComarca, tienePaginaMunDisc, tienePaginaMunicipio } from '../lib/rutas';
+import { rutasDiscComarca, tienePaginaMunDisc, tienePaginaMunicipio, discComarcaIndexable } from '../lib/rutas';
 import { enComarca } from '../lib/textos';
 import { SITE, SCHEMA_IDS } from '../lib/site';
 
@@ -71,7 +71,7 @@ const schema = {
 };
 ---
 
-<Layout ogImage={`${SITE.url}/og/d/${disciplina}-${lang}.jpg`} title={title} description={description} canonical={url.discComarca(lang, disciplina, comarca)} schema={schema} lang={lang} alternates={alternates}>
+<Layout ogImage={`${SITE.url}/og/d/${disciplina}-${lang}.jpg`} title={title} description={description} canonical={url.discComarca(lang, disciplina, comarca)} schema={schema} lang={lang} alternates={alternates} noindex={!discComarcaIndexable(disciplina, comarca)}>
   <Header lang={lang} alt={alternates[lang === 'es' ? 'ca' : 'es']} />
   <main id="contenido">
     <Migas lang={lang} items={[

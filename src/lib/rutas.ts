@@ -71,19 +71,38 @@ export const rutasDisciplina = () =>
 
 export const rutasCentro = () => CENTROS.map(c => ({ slug: c.slug }));
 
-/** Una ficha es indexable si aporta algo más que nombre, municipio y disciplina. */
-export const fichaIndexable = (c: Centro) => Boolean(c.web || c.direccion || (c.otras && c.otras.length));
+/**
+ * Una ficha es indexable si es un centro verificado (no solo registro oficial)
+ * y reúne tanto web como dirección (o imagen propia confirmada por el centro).
+ * El resto de fichas siguen existiendo y enlazadas para quien busca el nombre,
+ * pero en noindex, follow y fuera del sitemap para evitar cientos de fichas finas.
+ */
+export const fichaIndexable = (c: Centro) =>
+  verificado(c) && Boolean((c.web && c.direccion) || c.logo || c.foto);
 
-// Páginas de listado que existen pero quedan en noindex y fuera del sitemap:
-// las que no llegan a 2 centros verificados (comarcas con solo registro, páginas
-// heredadas del Garraf, disciplinas casi vacías). Siguen enlazadas para quien navega.
-const MIN_VERIFICADOS_INDEXABLE = 2;
-const suficientes = (lista: Centro[]) => lista.filter(verificado).length >= MIN_VERIFICADOS_INDEXABLE;
+// Páginas de listado que existen pero quedan en noindex y fuera del sitemap
+// cuando no alcanzan masa crítica de centros verificados. Siguen enlazadas para quien navega.
+const MIN_VERIFICADOS_COMARCA = 2;
+const MIN_VERIFICADOS_MUNICIPIO = 3;
+const MIN_VERIFICADOS_MUNDISC = 4;
+const MIN_VERIFICADOS_DISCCOMARCA = 4;
+const MIN_MUNICIPIOS_DISCCOMARCA = 3;
+const MIN_VERIFICADOS_DISCIPLINA = 2;
 
-export const comarcaIndexable = (comarca: string) => suficientes(CENTROS.filter(c => c.comarca === comarca));
-export const municipioIndexable = (municipio: string) => suficientes(centrosDeMunicipio(municipio));
+const contarVerificados = (lista: Centro[]) => lista.filter(verificado).length;
+
+export const comarcaIndexable = (comarca: string) =>
+  contarVerificados(CENTROS.filter(c => c.comarca === comarca)) >= MIN_VERIFICADOS_COMARCA;
+export const municipioIndexable = (municipio: string) =>
+  contarVerificados(centrosDeMunicipio(municipio)) >= MIN_VERIFICADOS_MUNICIPIO;
 export const munDiscIndexable = (municipio: string, disciplina: string) =>
-  suficientes(centrosConDisciplina(disciplina, centrosDeMunicipio(municipio)));
-export const disciplinaIndexable = (disciplina: string) => suficientes(centrosConDisciplina(disciplina));
+  contarVerificados(centrosConDisciplina(disciplina, centrosDeMunicipio(municipio))) >= MIN_VERIFICADOS_MUNDISC;
+export const discComarcaIndexable = (disciplina: string, comarca: string) => {
+  const deComarca = centrosConDisciplina(disciplina, CENTROS.filter(c => c.comarca === comarca && verificado(c)));
+  const munis = new Set(deComarca.map(c => c.municipio));
+  return deComarca.length >= MIN_VERIFICADOS_DISCCOMARCA && munis.size >= MIN_MUNICIPIOS_DISCCOMARCA;
+};
+export const disciplinaIndexable = (disciplina: string) =>
+  contarVerificados(centrosConDisciplina(disciplina)) >= MIN_VERIFICADOS_DISCIPLINA;
 
 export { editorialMunicipio, editorialMunDisc };
