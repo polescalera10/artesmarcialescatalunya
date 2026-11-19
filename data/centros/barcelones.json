@@ -615,17 +615,23 @@
   "verificado": "2026-10-03"
  },
  {
-  "slug": "associacio-kickboxing-muaythai-catalunya",
-  "nombre": "Associació Kickboxing Muaythai Catalunya",
-  "tipo": "asociacion",
+  "slug": "ubk-ki-dojo-catalunya",
+  "nombre": "UBK Ki Dojo Catalunya",
+  "tipo": "escuela",
   "municipio": "barcelona",
   "disciplinas": [
-   "boxeo",
-   "kickboxing"
+   "tai-chi",
+   "aikido"
   ],
-  "fuente": "https://www.muaythaibarcelona.com",
+  "otras": [
+   "Meditación",
+   "Artterapia",
+   "Formación de profesores"
+  ],
+  "direccion": "C/ Acàcies, 17-19, local, 08027 Barcelona",
+  "fuente": "https://www.ubk-centre.com/",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-10-18",
+  "verificado": "2026-11-19",
   "web": "https://www.ubk-centre.com/"
  },
  {

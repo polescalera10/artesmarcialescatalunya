@@ -80,6 +80,16 @@
       "permanent": true
     },
     {
+      "source": "/centros/associacio-kickboxing-muaythai-catalunya/",
+      "destination": "/centros/ubk-ki-dojo-catalunya/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/associacio-kickboxing-muaythai-catalunya/",
+      "destination": "/ca/centres/ubk-ki-dojo-catalunya/",
+      "permanent": true
+    },
+    {
       "source": "/centros/club-judo-dojo-salou/",
       "destination": "/centros/club-de-judo-salou/",
       "permanent": true
