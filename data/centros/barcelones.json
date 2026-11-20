@@ -615,6 +615,25 @@
   "verificado": "2026-10-03"
  },
  {
+  "slug": "koryu-dojo-badalona",
+  "nombre": "Koryu Dojo Badalona",
+  "tipo": "escuela",
+  "municipio": "badalona",
+  "disciplinas": [
+   "ninjutsu",
+   "defensa-personal"
+  ],
+  "otras": [
+   "Bujinkan Budo Taijutsu"
+  ],
+  "infantil": true,
+  "direccion": "Carrer de Baldomer Solà, 159, 08912 Badalona",
+  "fuente": "https://www.koryubadalonadojo.com/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-11-20",
+  "web": "https://www.koryubadalonadojo.com/"
+ },
+ {
   "slug": "ubk-ki-dojo-catalunya",
   "nombre": "UBK Ki Dojo Catalunya",
   "tipo": "escuela",
