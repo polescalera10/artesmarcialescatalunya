@@ -73,18 +73,18 @@ export const rutasCentro = () => CENTROS.map(c => ({ slug: c.slug }));
 
 /**
  * Una ficha es indexable si es un centro verificado (no solo registro oficial)
- * y reúne tanto web como dirección (o imagen propia confirmada por el centro).
- * El resto de fichas siguen existiendo y enlazadas para quien busca el nombre,
- * pero en noindex, follow y fuera del sitemap para evitar cientos de fichas finas.
+ * y aporta dirección postal, web oficial o imagen propia confirmada por el centro.
+ * Los centros verificados con dirección pero sin web propia son los que mejor
+ * posicionan en Google (no compiten con una web oficial) y son prospectos clave.
  */
 export const fichaIndexable = (c: Centro) =>
-  verificado(c) && Boolean((c.web && c.direccion) || c.logo || c.foto);
+  verificado(c) && Boolean(c.direccion || c.web || c.logo || c.foto);
 
 // Páginas de listado que existen pero quedan en noindex y fuera del sitemap
 // cuando no alcanzan masa crítica de centros verificados. Siguen enlazadas para quien navega.
 const MIN_VERIFICADOS_COMARCA = 2;
 const MIN_VERIFICADOS_MUNICIPIO = 3;
-const MIN_VERIFICADOS_MUNDISC = 4;
+const MIN_VERIFICADOS_MUNDISC = 3;
 const MIN_VERIFICADOS_DISCCOMARCA = 4;
 const MIN_MUNICIPIOS_DISCCOMARCA = 3;
 const MIN_VERIFICADOS_DISCIPLINA = 2;
