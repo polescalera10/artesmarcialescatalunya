@@ -90,6 +90,16 @@
       "permanent": true
     },
     {
+      "source": "/centros/ae-karate-kobudo-tradicional-pirineus/",
+      "destination": "/centros/a-e-karate-kobudo-tradicional-pirineus/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/ae-karate-kobudo-tradicional-pirineus/",
+      "destination": "/ca/centres/a-e-karate-kobudo-tradicional-pirineus/",
+      "permanent": true
+    },
+    {
       "source": "/centros/club-judo-dojo-salou/",
       "destination": "/centros/club-de-judo-salou/",
       "permanent": true
