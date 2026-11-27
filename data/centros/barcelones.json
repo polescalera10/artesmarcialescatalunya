@@ -3405,14 +3405,15 @@
   "slug": "club-kihon",
   "nombre": "Club Kihon",
   "tipo": "club",
-  "municipio": "barcelona",
+  "municipio": "lhospitalet-de-llobregat",
   "disciplinas": [
    "karate"
   ],
-  "web": "https://clubkihon.blogspot.com/",
-  "fuente": "https://clubkihon.blogspot.com/",
+  "infantil": true,
+  "web": "https://kihon.es/",
+  "fuente": "https://kihon.es/",
   "fuenteTipo": "web-oficial",
-  "verificado": "2026-10-18"
+  "verificado": "2026-11-27"
  },
  {
   "slug": "club-kungan1",
