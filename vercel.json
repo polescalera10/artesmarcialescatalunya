@@ -100,6 +100,16 @@
       "permanent": true
     },
     {
+      "source": "/centros/club-boxa-ilion-les-corts/",
+      "destination": "/centros/ilion-boxing-club/",
+      "permanent": true
+    },
+    {
+      "source": "/ca/centres/club-boxa-ilion-les-corts/",
+      "destination": "/ca/centres/ilion-boxing-club/",
+      "permanent": true
+    },
+    {
       "source": "/centros/club-judo-dojo-salou/",
       "destination": "/centros/club-de-judo-salou/",
       "permanent": true

@@ -1216,18 +1216,22 @@
   "verificado": "2026-09-30"
  },
  {
-  "slug": "club-boxa-ilion-les-corts",
-  "nombre": "Club Boxa Ilion les Corts",
+  "slug": "ilion-boxing-club",
+  "nombre": "Ilion Boxing Club",
   "tipo": "club",
   "municipio": "barcelona",
   "disciplinas": [
    "boxeo"
   ],
+  "otras": [
+   "Entrenamiento funcional",
+   "A partir de 14 años"
+  ],
   "direccion": "Carrer de Novell, 87-89 (08014) Barcelona",
   "web": "https://ilionboxingclub.es/",
-  "fuente": "https://www.fcboxa.cat/clubs-afiliats/",
-  "fuenteTipo": "federacion",
-  "verificado": "2026-09-30"
+  "fuente": "https://ilionboxingclub.es/",
+  "fuenteTipo": "web-oficial",
+  "verificado": "2026-11-28"
  },
  {
   "slug": "club-boxa-jaume-pons",
